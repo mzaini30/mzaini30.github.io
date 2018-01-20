@@ -59,14 +59,14 @@
                 <center>
                     <p>
                         {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
-                        <a class="pagination__next" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
+                        <a class="pagination__next{{ page.date | date: '%s' }}" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
                     </p>
                 </center>
             </div>
             <script type="text/javascript">
                 jQuery(function($){
                     $('.infinity').infiniteScroll({
-                        path: '.pagination__next',
+                        path: '.pagination__next{{ page.date | date: "%s" }}',
                         append: '.main',
                         hideNav: '.pagination',
                         debug: true
