@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+   
+<head>
+    {% include head.html %}
+</head>
+
+<!-- BODY -->
+<body id="post-index">
+    {% include browser-upgrade.html %}
+    <div class="infinity">
+        <div id="main" role="main" class="main">
+            <article class="hentry">
+                
+                <!-- MAIN -->
+                <h1 class="entry-title">
+                    <a>{{ page.title }}</a>
+                </h1>
+                    
+                <!-- POST CONTENT -->
+                <div class="entry-content">
+                    <p>
+                        <img src="{{ page.gambar }}">
+                    </p>
+                    {{ page.content }}
+                    <center>
+                        <p>
+                            <a href="https://api.whatsapp.com/send?phone=6281545143654&text=*Link*%3A%20{{ site.url }}{{ page.url }}%0A%0A*Komentar*%3A%0A">BERI KOMENTAR DENGAN WHATSAPP</a>
+                        </p>
+                    </center>
+                </div>  
+
+                <!--- DIVIDING LINE -->
+                <hr>
+        
+                <!-- POST TAGS -->
+                <div class="inline-tags">
+                    <span>
+                        {% for tag in page.tags %}
+                            <a href="{{ site.url }}/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
+                        {% endfor %}
+                    </span>
+                </div>
+              
+                <br>
+                
+                <!-- POST DATE -->
+                <div class="post-date">
+                    <!--  page.date-string  -->
+                    {{ page.date | date: "%B %d, %Y" }}
+                    &bull;
+                    <a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);">EDIT</a>
+                </div>
+            </article>
+            <div class="pagination">
+                <center>
+                    <p>
+                        {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
+                        <a class="pagination__next" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
+                    </p>
+                </center>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- FOOTER -->  
+    <footer>  
+        <div class="footer-wrapper">
+            <footer role="contentinfo">
+                {% include footer.html %}
+            </footer>
+        </div>   
+    </footer>  
+
+    <!-- <p>{{ site.posts[postingan_selanjutnya].url }}</p> -->
+    
+    <!-- <div class="container" data-infinite-scroll='{ "path": ".pagination__next", "append": "#main", "history": false }'> -->
+
+    {% include skrip.html %}    
+</body>
+</html>

@@ -1,0 +1,55 @@
+---
+layout: post
+title: Cari
+date: 2018-01-17 12:40:00
+categories: posts
+tags: [cari]
+gambar: https://pa1.narvii.com/6405/8fa9ec9cab167ec0e6d9049c5e681b3eb4ccbaf6_hq.gif
+---
+
+<!-- Search form -->
+<style type="text/css">
+    .cari {
+        display: none;
+    }
+</style>
+<center>
+    <form class="form-inline" method="get" action="/cari.html" data-search-form>
+        <div class="form-group">
+            <input type="search" name="q" id="q" class="form-control cari-input" placeholder="Cari sesuatu..." data-search-input>
+        </div>
+        <button type="submit" class="btn btn-default cari-tombol">Cari</button>
+    </form>
+</center>
+<br>
+
+<!-- Search results placeholder -->
+<p data-search-found>
+    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+</p>
+<div data-search-results></div>
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+    <div class="posts-list">
+        <article class="post-preview">
+            <div>
+                <br>
+                <a class="disable" href="##Link##">
+                    <h2 class="post-title">##Title##</h2>
+                    <p>##Excerpt##</p>
+                </a>
+            </div>
+        </article>
+    </div>
+</script>
+<!-- jQuery - required but can be moved to the <head> -->
+<script src="/bin/jquery-3.2.1.min.js"></script>
+<script>
+jQuery(function($){
+    $(".cari-tombol").on("click", function() {
+        $(".cari-input").blur();
+    });
+});
+</script>
+<!-- Search script - Must appear after template -->
+<script src="/bin/search.js"></script>
