@@ -84,7 +84,7 @@ layout: post-index
     <center>
         <p>
             {% if paginator.total_pages > 1 %}
-                <a class="pagination__next{{ post.date | date: '%s' }}" href="{{ site.url }}/page{{ paginator.next_page }}/">Next</a>
+                <a class="pagination__next{{ paginator.posts[0].date | date: '%s' }}" href="{{ site.url }}/page{{ paginator.next_page }}/">Next</a>
             {% endif %}
         </p>
     </center>
@@ -101,7 +101,7 @@ layout: post-index
         $('.infinity').jscroll({
             // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
             // padding: 20,
-            nextSelector: '.pagination__next{{ post.date | date: "%s" }}',
+            nextSelector: '.pagination__next{{ paginator.posts[0].date | date: "%s" }}',
             debug: true,
             loadingHtml: '<center><small>Loading...</small></center>'
             // contentSelector: '.infinity'
