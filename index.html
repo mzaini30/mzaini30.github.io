@@ -54,5 +54,29 @@ layout: post-index
 <div class="pagination">
 <center>
 {% include pagination.html %}
+<div class="pagination">
+    {% if paginator.total_pages > 1 %}
+
+        {% if paginator.page == 1 %}
+            <a href="{{ site.url }}/page{{ paginator.next_page }}/">LEBIH LAMA→</a>
+        {% endif %}
+    
+        {% if paginator.page == 2 %}
+            <a href="/">←LEBIH BARU</a>
+            {% if paginator.page < paginator.total_pages %}
+                | <a href="{{ site.url }}/page{{ paginator.next_page }}/">LEBIH LAMA→</a>
+            {% endif %}
+        {% endif %}
+                                         
+        {% if paginator.page > 2 %}
+            <a href="{{ site.url }}/page{{ paginator.previous_page }}/">←LEBIH BARU</a>
+
+            {% if paginator.page < paginator.total_pages %}
+                | <a href="{{ site.url }}/page{{ paginator.next_page }}/">LEBIH LAMA→</a>
+            {% endif %}
+
+        {% endif %}
+    {% endif %}
+</div>
 </center>
     </div>
