@@ -3,6 +3,8 @@ layout: post
 title: "Cobalah Idealis Sedikit..."
 date: 2017-10-05 19:54:06
 gambar: "http://lh3.googleusercontent.com/-FXpO9QGCi5k/WdYd33iz4RI/AAAAAAAACYk/8KuIZQnA2agGkQ2x8AOP80vSPMb8EKyWgCLcBGAs/h120/shigatsu-wa-kimi-no-uso.jpg"
+categories: posts
+tags: [idealis, kritik]
 ---
 
 Mungkin kita bisa mencoba menjadi seperti anak kecil...

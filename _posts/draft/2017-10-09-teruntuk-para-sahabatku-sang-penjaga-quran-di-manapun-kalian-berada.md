@@ -3,6 +3,8 @@ layout: post
 title: "Teruntuk Para Sahabatku, Sang Penjaga Quran, di Manapun Kalian Berada"
 date: 2017-10-09 22:21:33
 gambar: "http://lh3.googleusercontent.com/-L45NuyAs0as/WduFobfjcXI/AAAAAAAACbk/zciom9GUnGslO1leiYtRgWw4_VcO21aHwCLcBGAs/h120/isy%2Bkarima%2B2.jpg"
+categories: posts
+tags: [renungan, quran, hafizh]
 ---
 
 Mungkin untaian-untaian kata berikut ini lebih tepat ditujukan bagi diriku sendiri...

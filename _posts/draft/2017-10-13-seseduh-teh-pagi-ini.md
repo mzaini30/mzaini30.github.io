@@ -3,6 +3,8 @@ layout: post
 title: "Seseduh Teh Pagi Ini..."
 date: 2017-10-13 22:28:40
 gambar: "http://lh3.googleusercontent.com/-bHzjZGeC6zs/WeDNgLhsAxI/AAAAAAAACdU/VuXVLq36OeMaVCBxKZlixFBa05-8KuDIgCLcBGAs/h120/British-police-drink-tea-with-lonely-elderly-couple.jpg"
+categories: posts
+tags: [teh, seduh, azan, cerita, cerpen, story]
 ---
 
 Masih gelap, namun kutak sanggup tidur kembali. Azan telah bersahut-sahutan di masjid satu dan masjid lainnya. Subuh berjamaah. Akupun beranjak dari kosanku dan sesegera mungkin menunaikan kewajiban dari Ilahi: salat berjamaah. Dengan khusyuk, diriku bermunajat kepadanya, mengharap kebaikan pada pandangan hati yang sempit ini. "Oh, Rabbku, luaskanlah pandangan jiwaku..."

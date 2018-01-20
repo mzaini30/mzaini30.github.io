@@ -3,6 +3,8 @@ layout: post
 title: "Hei! Aku Detektif Loh..."
 date: 2017-10-07 17:10:56
 gambar: "http://lh3.googleusercontent.com/-TnewLZvNLXY/WdiZywiwmXI/AAAAAAAACaQ/rpuoqNV4WOsvp2lhYT_1J0Cbr-woP9AXwCLcBGAs/h120/detective_conan_239_colour_by_teisson-d3iamvj.png"
+categories: posts
+tags: [cerpen, cerita, story]
 ---
 
 "Zen, kamu yakin bisa memecahkan misteri ini?" tanya Rahman yang dari tadi terus saja ngomel di sampingku. Risih tau.

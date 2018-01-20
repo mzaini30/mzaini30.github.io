@@ -3,6 +3,8 @@ layout: post
 title: "Book: A Special Gift for You"
 date: 2017-10-12 20:36:30
 gambar: "http://lh3.googleusercontent.com/-JnCjJvhjM9Q/Wd9hq1kZcwI/AAAAAAAACc0/GfbBnUIdKh0EStUhffirhYqqKn7je8QtwCLcBGAs/h120/flat%252C1000x1000%252C075%252Cf.u1.jpg"
+categories: posts
+tags: [hadiah, buku]
 ---
 
 Biasanya, barang apa yang kamu berikan kepada orang lain sebagai hadiah? Coklat? Pakaian? _Cake_? Bagaimana kalau kita memberikan buku sebagai hadiah?

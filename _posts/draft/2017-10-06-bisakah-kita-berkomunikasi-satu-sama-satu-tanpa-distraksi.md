@@ -3,6 +3,8 @@ layout: post
 title: "Bisakah Kita Berkomunikasi Satu Sama Satu, Tanpa Distraksi?"
 date: 2017-10-06 13:28:08
 gambar: "http://lh3.googleusercontent.com/-O70naC4yMAI/WdcVIotPbiI/AAAAAAAACY8/8U4jOdM0JgkAnwWJaB_-4AYNG4M12TLuwCLcBGAs/h120/26629.jpg"
+categories: posts
+tags: [komunikasi, psikologi, sosial]
 ---
 
 Fenomena sekarang ini, kita sering berkomunikasi di dalam grup, entah itu grup Whatsapp, LINE, Telegram, dan berbagai grup lainnya. Atau, kita berkomunikasi secara terbuka, secara publik, misalnya seperti berkomentar di Facebook, Twitter, LINE Timeline, dan aplikasi media sosial lainnya. Terkadang, akupun berpikir, "Bisakah kita berkomunikasi dengan orang lain secara private? Artinya nggak diketahui oleh orang lain?"

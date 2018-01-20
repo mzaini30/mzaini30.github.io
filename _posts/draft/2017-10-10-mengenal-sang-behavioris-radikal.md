@@ -3,6 +3,8 @@ layout: post
 title: "Mengenal Sang Behavioris Radikal"
 date: 2017-10-10 23:33:58
 gambar: "http://lh3.googleusercontent.com/-XbOldduNjEA/Wdzoa92q5UI/AAAAAAAACcE/9wwxJ7DdikgMG93WDJRL9pZYD0ieQw4PQCLcBGAs/h120/bfs.jpg"
+categories: posts
+tags: [psikologi, skinner]
 ---
 
 Skinner. Itulah namanya. Sang behavioris radikal yang kini dikenal sebagai salah satu pendiri aliran behavioris di dalam psikologi. Kalau di perkuliahan, sering kali nama Skinner disebutkan kedua, setelah Pavlov. Mungkin sih dikarenakan eksperimen Pavlov yang menggunakan anjing itu, dilakukan sebelumnya eksperimen Skinner yang menggunakan tikus. Tapi, sebenarnya bukan di situ titik tekan dari aliran behaviorisnya Skinner yang kontroversial.
