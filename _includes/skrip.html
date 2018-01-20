@@ -18,3 +18,35 @@
 	});
 </script> -->
 
+<div class="up">
+	<img src="/images/up.png">
+</div>
+<style type="text/css">
+	.up {
+		position: fixed;
+		right: 30px;
+		bottom: 30px;
+	}
+	.up img {
+		width: 300px;
+		height: auto;
+	}
+</style>
+<script type="text/javascript">
+	jQuery(function($){
+		$(".up").hide();
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 1000){
+				$(".up").fadeIn();
+			} else {
+				$(".up").fadeOut();
+			}
+		});
+		$(".up").click(function(){
+			$("body, html").animate({
+				scrollTop: 0
+			}, 1000);
+			return false;
+		});
+	});
+</script>
