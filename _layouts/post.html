@@ -65,20 +65,20 @@
             </div>
             <script type="text/javascript">
                 jQuery(function($){
-                    // $('.infinity').infiniteScroll({
-                    //     path: '.pagination__next{{ page.date | date: "%s" }}',
-                    //     append: '.main',
-                    //     hideNav: '.pagination',
-                    //     debug: true
-                    // });
-
-                    $('.infinity').jscroll({
-                        // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
-                        // padding: 20,
-                        nextSelector: '.pagination__next{{ page.date | date: "%s" }}',
+                    $('.infinity').infiniteScroll({
+                        path: '.pagination__next{{ page.date | date: "%s" }}',
+                        // append: '.main',
+                        hideNav: '.pagination',
                         debug: true
-                        // contentSelector: '.infinity'
                     });
+
+                    // $('.infinity').jscroll({
+                    //     // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
+                    //     // padding: 20,
+                    //     nextSelector: '.pagination__next{{ page.date | date: "%s" }}',
+                    //     debug: true
+                    //     // contentSelector: '.infinity'
+                    // });
                 });
             </script>
         </div>
@@ -86,13 +86,15 @@
     
     
     <!-- FOOTER -->  
-    <footer>  
-        <div class="footer-wrapper">
-            <footer role="contentinfo">
-                {% include footer.html %}
-            </footer>
-        </div>   
-    </footer>  
+    <div class="muncul-sekali">
+        <footer>  
+            <div class="footer-wrapper">
+                <footer role="contentinfo">
+                    {% include footer.html %}
+                </footer>
+            </div>   
+        </footer>  
+    </div>
 
     <!-- <p>{{ site.posts[postingan_selanjutnya].url }}</p> -->
     
