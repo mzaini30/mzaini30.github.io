@@ -3,6 +3,8 @@ layout: post
 title: "Terima Kasih Kematian"
 date: 2017-10-23 16:04:13
 gambar: "http://lh3.googleusercontent.com/-A0-uF-YP9vU/We2jcjD158I/AAAAAAAACi4/hbvHVql35BQRm0shZIqaJSXnB7DCvcIpQCLcBGAs/h120/%2527La%252BCreazione%252Bdi%252BAdamo%2527%252Bby%252BMichelangelo%252BArt%252BPrint%252BPlaque.jpg"
+categories: posts
+tags: [poem, renungan, puisi]
 ---
 
 Terima kasih kematian...

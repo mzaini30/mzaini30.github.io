@@ -3,6 +3,8 @@ layout: post
 title: "Jeritan di Balik Topeng"
 date: 2017-10-23 13:47:12
 gambar: "http://lh3.googleusercontent.com/-_6wLsEN0CZs/We2CbGqvfVI/AAAAAAAACik/i9YrYa3sGzs4mTE-DAHXqaeOGLx3zCnxQCLcBGAs/h120/hyouka_21_21.jpg"
+categories: posts
+tags: [topeng, kepribadian, watak]
 ---
 
 > Manusia selalu hidup dari topeng satu, ke topeng lain.

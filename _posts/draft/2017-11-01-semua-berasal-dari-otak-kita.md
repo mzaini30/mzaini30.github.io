@@ -3,6 +3,8 @@ layout: post
 title: "Semua Berasal dari Otak Kita"
 date: 2017-11-01 10:41:56
 gambar: "http://lh3.googleusercontent.com/-LfZwjp9lJEI/Wfk0V2aP7RI/AAAAAAAACnU/0W5FZxIHnDMTPzGcco6O-NsGvjM5nPzPgCLcBGAs/h120/imagination_attic_by_biancablaze.jpg"
+categories: posts
+tags: [kognitif, psikologi]
 ---
 
 Entah kenapa kalau di perkuliahan psikologi, sepertinya hanya aku yang memiliki _mindset_ yang berbeda. Rata-rata, mahasiswa psikologi biasanya berpikir bahwa segala hal berpusat pada afeksi dan emosi, namun aku berpikir bahwa segalanya berpusat pada otak. Kamu mau melakukan apa, itu semua dikendalikan di otak. Kamu mau membenci orang lain, menyayangi orang lain, semua itu berasal dari otak.

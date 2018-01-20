@@ -3,6 +3,8 @@ layout: post
 title: "Sebuah Ulasan Penulis Karya yang Namanya Tak Ingin Disebut"
 date: 2017-10-28 16:44:46
 gambar: "http://lh3.googleusercontent.com/-wOgprWzik4U/WfRDT2nPbiI/AAAAAAAAClo/swcqr-8r0Esz5sLW-KpbTdrRNIMEbs__wCLcBGAs/h120/sat-subject-test-literature-tutoring-solution_134371_large.jpg"
+categories: posts
+tags: [sastra]
 ---
 
 Bukannya tak ingin membuat suatu ulasan atau feature tentang pencipta karya bersama "anak sastra" yang dibangunnya melainkan karena aku ingin mengupas suatu karya yang nama penulisnya tak ingin disebut dan karyanya pun tak ingin disebut.

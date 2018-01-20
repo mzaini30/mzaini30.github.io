@@ -3,6 +3,8 @@ layout: post
 title: "Apakah Karakter dan Watak Seseorang Hanya Ada di Anime dan Novel?"
 date: 2017-10-28 20:41:38
 gambar: "http://lh3.googleusercontent.com/-NCs3t5UTIaQ/WfR7Aa97e8I/AAAAAAAACl4/x2_lzylPe9IR4ZXJcdbgc6IigrxF2UamACLcBGAs/h120/az-1.jpg"
+categories: posts
+tags: [karakter]
 ---
 
 Kalau di sebuah cerita, entah itu anime kah novel, pasti ada yang namanya perwatakan atau karakter sebuah tokoh. Ada tokoh-tokoh yang kejam. Ada yang baik. Ada yang suka membunuh orang. Ada tokoh yang suka mendebat orang lain. Ada tokoh yang senantiasa peduli. Ada tokoh yang sangat peka. Ada tokoh yang suka menghujat orang lain.

@@ -3,6 +3,8 @@ layout: post
 title: "Keunikan Bahasa Bubuhan Samarinda"
 date: 2017-10-22 16:37:38
 gambar: "http://lh3.googleusercontent.com/-kbKDwcs99Bg/WexZNTZ1TRI/AAAAAAAACiI/FZX294b9EYQ5zEaEhBX7Vj-AGaXJ4ToVgCLcBGAs/h120/kalo.png"
+categories: posts
+tags: [bahasa, budaya, samarinda]
 ---
 
 Setiap daerah pastinya memiliki keunikannya masing-masing. Entah itu dari segi tarian, nyanyian, senjata, rumah adat, dan bahasa. Nah, ternyata di Samarinda sendiri bahasanya unik loh, kalau dibandingkan dengan daerah lain. Kok bisa aku tau? Jadi kan ceritanya aku SMA di Jawa. Pas di sana pakai bahasa orang Samarinda, baru dah kelihatannya kalau memang bahasanya berbeda. Soalnya mereka nggak paham sih apa yang aku katakan. Kadang juga tertawa. Aku kiranya kan bahasa yang sehari-hari kupakai ini bahasa Indonesia. Nah, terus anehnya di mana coba? Nah, berikut ini adalah bahasa bubuhan Samarinda yang ternyata unik: (bubuhan: orang-orang)

@@ -3,6 +3,8 @@ layout: post
 title: "Degradasi Kualitas Manusia Modern (?)"
 date: 2017-10-27 16:11:26
 gambar: "http://lh3.googleusercontent.com/-8sI7Ee4YxuM/WfLqRni-9WI/AAAAAAAAClI/4m1PcANVXL86mw3udELB62Y4O19ecO_WQCLcBGAs/h120/philosophy.jpg"
+categories: posts
+tags: [dunia baru]
 ---
 
 Tulisan ini aku buat sebagai bentuk kegelisahan terhadap fenomena modernitas yang melingkupi segala sisi. Sebenarnya karena target menulis setiap hari cukup satu buah saja sehingga aku tidak perlu menulis lagi untuk hari ini. Namun, apabila tidak dituliskan hari ini, takutnya besok lupa. Nah, semoga saja di tulisan ini dapat menampung berbagai kegelisahan yang baru saja aku pikirkan.

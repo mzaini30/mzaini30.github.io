@@ -3,6 +3,8 @@ layout: post
 title: "Membiasakan Pola Pikir Salah?"
 date: 2017-10-16 21:18:14
 gambar: "http://lh3.googleusercontent.com/-WNINJb-r0_o/WeSxpg7TqkI/AAAAAAAACes/grIwQmtY4Cg3OKSmjuF2kdSJe0ylL998gCLcBGAs/h120/logo.png"
+categories: posts
+tags: [pola pikir, mindset]
 ---
 
 Pasti ada deh ya, dalam kehidupan kita itu, kita membuat pola pikir yang salah. Nggak mesti memikirkan bahwa bumi itu datar baru disebut pola pikir yang salah. Kadangkala, suatu pola pikir yang sederhana saja bisa salah dan kita padahal sudah mengetahui kesalahannya tapi tidak mengubahnya.

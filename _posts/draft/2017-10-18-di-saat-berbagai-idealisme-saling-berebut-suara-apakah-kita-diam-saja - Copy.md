@@ -3,6 +3,8 @@ layout: post
 title: "Di Saat Berbagai Idealisme Saling Berebut Suara, Apakah Kita Diam Saja?"
 date: 2017-10-18 09:06:44
 gambar: "http://lh3.googleusercontent.com/-QmpqCfRyNbU/WeaoEDRJqlI/AAAAAAAACe8/D9RUFQgFxKAtsqlu9TCTgo5Jb7yWVqUpgCLcBGAs/h120/ideology.jpg"
+categories: posts
+tags: [idealisme]
 ---
 
 Dunia senantiasa berubah. Berbagai aliran, mazhab, pemikiran, senantiasa datang, datang, dan datang. Tak ada aliran pemikiran yang hilang, yang ada hanyalah modifikasi, peleburan ke dalam pemikiran lainnya, atau bergerak di bawah tanah namun senantiasa melontarkan propaganda-propaganda supaya aliran pemikirannya tidak redup. Kita tidak bisa mengatakan bahwa suatu aliran pemikiran ketinggalan zaman dan aliran pemikiran lainnya lebih modern. Karena pada hakikatnya, aliran pemikiran tidak terikat oleh zaman. Pemikiran-pemikiran yang ada saat ini adalah pemikiran-pemikiran yang sudah ada sejak zaman dahulu namun senantiasa divermak, dipoles, disesuaikan sedemikian rupa sehingga bisa mengikuti perkembangan zaman. Aliran pemikiran yang bergerak di bawah tanah sejatinya bukanlah aliran pemikiran yang ketinggalan zaman, namun senantiasa dimusuhi oleh aliran pemikiran lain, terutama oleh aliran pemikiran yang berkuasa saat ini.

@@ -3,6 +3,8 @@ layout: post
 title: "Jualan: Belajar Menghadapi Konflik"
 date: 2017-10-27 11:09:35
 gambar: "http://lh3.googleusercontent.com/-WXn6mQPTofg/WfKjs3TlmWI/AAAAAAAACk4/EGgteDdJ9YsRzV9oM76pRplo1My3XPB7gCLcBGAs/h120/THE%252BBICYCLE%252BBUSINESS%252B%252811%252Bof%252B25%2529.JPG"
+categories: posts
+tags: [konflik]
 ---
 
 Pernah beberapa kali aku menghadapi pihak birokrat kampus dan memang sering sih mengalami yang namanya konflik. Aku biasanya menemani beberapa orang teman kalau ke birokrat kampus. Ketika konflik itu terjadi, beberapa orang yang aku temani merasa tidak kuat dengan berbagai ujaran dan ocehan menyerang ketika konflik itu terjadi. Lalu, mengapa aku bisa menghadapi konflik tersebut dengan lebih santai?

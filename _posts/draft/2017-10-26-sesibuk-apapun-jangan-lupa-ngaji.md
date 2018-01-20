@@ -3,6 +3,8 @@ layout: post
 title: "Sesibuk Apapun, Jangan Lupa Ngaji"
 date: 2017-10-26 01:18:02
 gambar: "http://lh3.googleusercontent.com/--wKenAZuHGs/WfDG3dsrKqI/AAAAAAAACkU/RG-jY5HkqSYwkL9IBNnnKgi-5FxtKQJagCLcBGAs/h120/259a8f0f8fc6dd11e13eac79415c1e3a--quran-mosque.jpg"
+categories: posts
+tags: [quran, mengaji]
 ---
 
 Yang namanya mahasiswa, pasti deh sibuk, apalagi kalau udah semester 4 ke atas. Ada aja tugas-tugas baru dari dosen. Nah, kalau dah sibuk kayak gitu, nggak pada lupa ngaji kan? Minimal satu halaman aja lah kalau misalnya benar-benar sibuk. Jangan sampai kesibukan kita yang manfaatnya hanya sementara ini menghalangi kita dari mendapatkan pahala dan keagungan yang melimpah dari Allah subhanahu wa taala.

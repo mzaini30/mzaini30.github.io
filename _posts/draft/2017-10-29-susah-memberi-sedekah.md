@@ -3,6 +3,8 @@ layout: post
 title: "Susah Memberi Sedekah?"
 date: 2017-10-29 15:44:21
 gambar: "http://lh3.googleusercontent.com/-BXRKmjZXusg/WfWHDznMTRI/AAAAAAAACmI/Ua15sGPqweg0CmWQ4p8ZdIWdCvBseg_KACLcBGAs/h120/show.php.jpeg"
+categories: posts
+tags: [sedekah]
 ---
 
 Susah memberi sedekah itu bukan perkara kita nggak ada duit tapi niat. Kalau kita sudah niat memberi sedekah, pasti lancar kita memberikannya, walaupun itu hanya uang 500 rupiah.
