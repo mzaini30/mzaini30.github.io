@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Mari Kita Pikir tentang Apa yang Sebaiknya Kita Pikirkan"
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [thinking, berpikir]
+gambar: https://qph.ec.quoracdn.net/main-qimg-21dc9de1ae780a1e7d40728bf00c6d48-c
 ---
 
 Manusia itu kompleks. Aneh. Weird. Geek. Manusia itu membingungkan. Apakah manusia itu hidup untuk hari ini, hari esok, atau masa lalu? Aliran gestalt senantiasa menekankan bahwa manusia hidup untuk saat ini di tempat ini. Psikoanalisa senantiasa menggali kenangan-kenangan masa lalu. Eksistensial humanistik senantiasa berbicara tentang konsep-konsep masa depan. Hingga aliran postmodernisme yang senantiasa menekankan pada kehidupan setelah “hari ini”. 

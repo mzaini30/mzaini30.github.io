@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Multitasking = Multipending"
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [multitasking]
+gambar: https://canime.files.wordpress.com/2011/09/anime-medit02.jpg
 ---
 
 Multitasking itu berarti multipending. Artinya, semakin banyak kita multitasking, semakin banyak juga pekerjaan yang nggak selesai.

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Lakukan yang Terbaik
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [ikatan, janji]
+gambar: https://hatarikun.files.wordpress.com/2013/06/yubikir.jpg
 ---
 
 Suatu ikatan.
