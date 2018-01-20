@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Buat Kamu yang Selalu Berjuang Menggapai Idealitas"
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [berjuang]
+gambar: https://i.pinimg.com/564x/1e/b5/9e/1eb59e5af143a3a708fe8754051f9270--cute-anime-guys-anime-boys.jpg
 ---
 
 Pasti susah ya? Berat ya? Ketika kamu harus bersusah payah, mengorbankan berbagai emosi, berbagai perasaan yang bercampur aduk, mendidih dalam gejolak arketipe-arketipe alam bawah sadar… Alam bawah sadar yang senantiasa menginginkan rasa nyaman, rasa aman, terpuasnya segala kebutuhan…

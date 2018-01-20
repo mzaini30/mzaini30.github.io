@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Aku adalah Mereka?
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [tertawa, kehidupan]
+gambar: https://i.pinimg.com/originals/41/a2/91/41a29137ccb4ea5f7922cffc5936b90b.jpg
 ---
 
 Mereka seakan tertawa, walau aslinya tidak.

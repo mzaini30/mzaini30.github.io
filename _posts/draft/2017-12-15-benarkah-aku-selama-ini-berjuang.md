@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Benarkah Aku Selama Ini Berjuang?
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [berjuang]
+gambar: https://s6.favim.com/mini/140804/alone-anime-anime-art-anime-boy-Favim.com-1969798.jpg
 ---
 
 Hanya kata-kata. Itukah yang selama ini dikatakan sebagai berjuang? Apakah sudah ada aksi nyata? Apakah sudah ada progress yang membuat kita memang serius menjalankannya?
