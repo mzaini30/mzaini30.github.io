@@ -11,7 +11,7 @@
 <!-- BODY -->
 <body id="post-index">
     {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
-    <div class="muncul-sekali muncul-sekali-{{ page.date | date: '%s' }}">
+    <div class="muncul-sekali" style="display: none;">
         {% include browser-upgrade.html %}
     </div>
     <div class="infinity">
@@ -88,7 +88,7 @@
     
     
     <!-- FOOTER -->  
-    <div class="muncul-sekali-2 muncul-sekali-2-{{ page.date | date: '%s' }}">
+    <div class="muncul-sekali-2" style="display: none;">
         <footer>  
             <div class="footer-wrapper">
                 <footer role="contentinfo">
@@ -98,10 +98,10 @@
         </footer>  
     </div>
     <script type="text/javascript">
-        $(".muncul-sekali").hide();
-        $(".muncul-sekali:first").show();
-        $(".muncul-sekali-2").hide();
-        $(".muncul-sekali-2:first").show();
+        jQuery(function($){
+            $(".muncul-sekali:first").css("display", "block");
+            $(".muncul-sekali-2:last").css("display", "block");
+        });
     </script>
 
     <!-- <p>{{ site.posts[postingan_selanjutnya].url }}</p> -->
