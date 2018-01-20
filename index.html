@@ -83,7 +83,7 @@ layout: post-index
 <div class="pagination">
     <center>
         <p>
-            {% if paginator.total_pages > 1 %}
+            {% if paginator.total_pages > 1 and paginator.page < paginator.total_pages %}
                 {% assign random = site.time | date: "%s" %}
                 {% assign acak_judul = paginator.posts[0].title | size %}
                 {% assign angka_postingan = paginator.posts[0].date | date: "%s" | plus: random | plus: acak_judul %}
