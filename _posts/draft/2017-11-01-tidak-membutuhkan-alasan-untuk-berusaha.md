@@ -3,6 +3,8 @@ layout: post
 title: "Tidak Membutuhkan Alasan untuk Berusaha"
 date: 2017-11-01 07:10:42
 gambar: "http://lh3.googleusercontent.com/-6VE5Pc87cd8/WfkCWhO6vjI/AAAAAAAACnE/wY98fJ8YeKECEMnYgYcnnTxMcctSTMQugCLcBGAs/h120/ganbatte.jpg"
+categories: posts
+tags: [berusaha, ganbatte]
 ---
 
 Terkadang, menemukan suatu alasan dalam mengerjakan sesuatu malah menghabiskan waktu dan tenaga. Padahal, tanpa alasanpun, sebenarnya kita bisa mengerjakan sesuatu, tinggal bagaimana caranya menemukan _mood_ untuk menggerakkan kita mengerjakannya. _Mood_ harus segera ditemukan, jangan ditunggu, karena datangnya tak mesti. Apalagi kalau kita mengerjakan sesuatu yang memang seharusnya kita kerjakan saat ini, maka tak perlu lagi membutuhkan alasan untuk mengerjakannya.

@@ -3,6 +3,8 @@ layout: post
 title: "Bersemangatlah Menghadapi Dunia yang Hanya Sekali"
 date: 2017-11-06 22:42:24
 gambar: "http://lh3.googleusercontent.com/-FGXQByCvNFU/WgB0mGeHSxI/AAAAAAAACp4/kFFYLc0Jr0Endh3pooq7jNlR0uX3SG5cgCLcBGAs/h120/%25D9%2583%25D9%258A%25D9%2581_%25D8%25AA%25D9%2583%25D9%2588%25D9%2586_%25D8%25A7%25D9%2586%25D8%25B3%25D8%25A7%25D9%2586_%25D9%2585%25D8%25AA%25D9%2581%25D8%25A7%25D8%25A6%25D9%2584.jpg"
+categories: posts
+tags: [kehidupan, life]
 ---
 
 Terlalu banyak hal yang terjadi di dunia ini. Entah itu dari segi pengalaman, lingkungan, pembaruan, teknologi, apapun itu, segalanya selalu berubah. Nah, apakah kita memilih untuk menjadi orang yang statis ataukah menjadi orang yang dinamis? Apakah kita memilih untuk diam saja "menonton" segala dinamika yang terjadi di sekitar kita ataukah kita memilih untuk berperan atau mengambil andil dalam dinamika kehidupan di sekitar kita?

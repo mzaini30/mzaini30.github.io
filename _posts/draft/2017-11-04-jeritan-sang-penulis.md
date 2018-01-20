@@ -3,6 +3,8 @@ layout: post
 title: "Jeritan Sang Penulis"
 date: 2017-11-04 21:37:16
 gambar: "http://lh3.googleusercontent.com/-8C0bimZVsHc/Wf3CZWzyu7I/AAAAAAAACpY/mf12CSXRCg0otcMSiFc1-cPmQZMPKmX6QCLcBGAs/h120/the-writer-writing-3647594-640-428.gif"
+categories: posts
+tags: [penulis]
 ---
 
 Di sebuah kamar yang sepi, di tengah gelapnya malam, sunyi, tanpa suara, sang penulis mencelupkan tinta penanya dengan hati-hati. Perlahan, sang penulis menorehkan kata-kata mutiaranya pada selembar kertas. Angin malam mengetuk-ngetuk jendela. Jangkrik-jangkrik bersahut-sahutan, menciptakan simfoni malam yang gemuruh nan syahdu.

@@ -3,6 +3,8 @@ layout: post
 title: "Hidup Ini Harus Memilih"
 date: 2017-11-08 19:41:49
 gambar: "http://lh3.googleusercontent.com/-t5ZKzqM0XWM/WgLtAc5Q1ZI/AAAAAAAACqc/Wp6WUWS3vW8UIJuY9c3tgfnvgIU9RdMMwCLcBGAs/h120/choice_main.jpg"
+categories: posts
+tags: [pilihan, kehidupan, life]
 ---
 
 Ketika orang lain mengatakan bahwa hidup ini adalah pilihan, maka aku katakan bahwa hidup ini adalah harus memilih. Ada banyak hal yang harus kita pilih dalam kehidupan ini. Entah itu jalan yang lurus atau jalan yang berbelok, langkah-langkah yang membuat kita mencapai tujuan atau langkah-langkah yang melenakan perjalanan kita. Ketika kita tidak memilih suatu pilihan, maka secara otomatis, kita akan memilih yang satunya.

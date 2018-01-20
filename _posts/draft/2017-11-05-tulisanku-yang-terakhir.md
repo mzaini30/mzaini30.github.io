@@ -3,6 +3,8 @@ layout: post
 title: "Tulisanku yang Terakhir"
 date: 2017-11-05 15:08:33
 gambar: "http://lh3.googleusercontent.com/-8fYUtBAAhkE/Wf64qmirYAI/AAAAAAAACpo/hyMq_Z9qVw03gZDuDcAGUIBaIX7FoP3DQCLcBGAs/h120/356584643.jpg"
+categories: posts
+tags: [tulisan]
 ---
 
 Rama mulai khawatir pada Ferdi. Beberapa hari terakhir ini, Ferdi selalu saja terlihat depresi di depan laptopnya. Entah apa yang membuat Ferdi begitu cemas. Terkadang, Ferdi terlihat seperti susah bernapas. Apakah tugas kampus yang begitu menggunung membuat Ferdi menjadi stres? Ataukah ada perkara lain yang membuatnya merasa tertekan?

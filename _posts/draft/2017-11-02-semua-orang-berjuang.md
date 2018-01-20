@@ -3,6 +3,8 @@ layout: post
 title: "Semua Orang Berjuang"
 date: 2017-11-02 01:55:36
 gambar: "http://lh3.googleusercontent.com/-aee8nyuKlsg/WfoKQ5z8BFI/AAAAAAAACng/7fgbhW8R0VUZhr8--NsJ8TQxueHzJT6MQCLcBGAs/h120/ganbatte.jpg"
+categories: posts
+tags: [berjuang, ganbatte]
 ---
 
 Dalam beberapa kali obrolan, aku terkadang bisa menemukan bahwa orang-orang yang aku ajak bicara adalah orang-orang yang memiliki pandangan yang jauh, pandangan yang melampaui lima tahun ke depan. Dan memang seharusnya seperti itu kalau orang dewasa. Pandangan-pandangan yang diutarakannya itu tidak hanya berbentuk cita-cita, seperti perkataan kita ketika masih di taman kanak-kanak, melainkan adalah sesuatu yang konkret dan bisa dilakukan.
