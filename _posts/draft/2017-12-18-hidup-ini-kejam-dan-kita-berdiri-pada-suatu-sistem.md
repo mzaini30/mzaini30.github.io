@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Hidup Ini Kejam dan Kita Berdiri Pada Suatu Sistem"
-category: story
+date: 2017-12-18 00:00:00
+categories: posts
+tags: [sistem, kehidupan, kejam]
+gambar: https://i.kinja-img.com/gawker-media/image/upload/t_original/1531535487767405994.jpg
 ---
 
 Menjadi orang yang banyak berbicara memang membuat suatu kepuasan tersendiri. Kamu bisa bebas mengungkapkan apapun. Kamu bisa mengungkapkan minatmu, cita-citamu, harapanmu, humor-humormu, kamu senantiasa berharap bahwa itu bisa membahagiakan orang-orang di sekitarmu.

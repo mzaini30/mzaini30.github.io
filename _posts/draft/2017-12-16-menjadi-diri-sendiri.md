@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Menjadi Diri Sendiri?"
-category: story
+date: 2017-12-16 00:00:00
+categories: posts
+tags: [diri sendiri, self]
+gambar: https://78.media.tumblr.com/9cf5968e28019c70c702c0a3be86f020/tumblr_n8d7ttsoop1r41iwko1_500.gif
 ---
 
 Terkadang, menjadi diri sendiri itu membuat kita berpikir, 'Yang manakah diri kita sebenarnya?' Kita merasa bahwa diri ini memiliki dua kepribadian, atau dua sisi yang saling bertolak belakang. Satu sisi baik dan satu sisi jahat. Entah mengapa kedua sisi ini saling tarik-menarik alam sadar. Terkadang sisi baik ingin muncul ke permukaan dan terkadang sisi jahat yang ingin muncul ke permukaan. Sebenarnya, apa sih yang membentuk sisi baik dan sisi jahat itu?
