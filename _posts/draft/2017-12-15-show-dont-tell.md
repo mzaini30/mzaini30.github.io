@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Show Don't Tell
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [show]
+gambar: http://cdn.playbuzz.com/cdn/fba8da42-7306-4019-ac93-5ed4ddd87f8d/2e3b9353-5680-4168-8086-866b6660e214_560_420.jpg
 ---
 
 Sekarang itu zamannya pencitraan. Apa aja bisa jadi bahan pencitraan. Buruk? Nggak. Selama itu hanya menjadi bahan seru-seruan aja.

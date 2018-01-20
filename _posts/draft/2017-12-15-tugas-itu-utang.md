@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Tugas Itu... Utang"
-category: story
+date: 2017-12-15 00:00:00
+categories: posts
+tags: [utang]
+gambar: https://hakyuu.files.wordpress.com/2018/01/fate-series-2.jpg?w=474
 ---
 
 Kenapa ya kita sering bermalas-malasan ketika tugas datang? Coba deh bayangkan tugas itu sebagai utang yang harus dilunasi. Pasti nggak mau nunda-nunda tuh.
