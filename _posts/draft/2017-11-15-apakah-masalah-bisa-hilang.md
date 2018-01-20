@@ -2,7 +2,9 @@
 layout: post
 title: "Apakah Masalah Bisa Hilang?"
 date: 2017-11-15 23:31:01
-gambar: "http://lh3.googleusercontent.com/-sInmjEk2X-I/Wgxd1sBLLMI/AAAAAAAACsw/2FAikx1_fOUZ60tfi3VmcfQq11PP2D1GACLcBGAs/h120/Low-self-esteem.jpg"
+gambar: "http://lh3.googleusercontent.com/-sInmjEk2X-I/Wgxd1sBLLMI/AAAAAAAACsw/2FAikx1_fOUZ60tfi3VmcfQq11PP2D1GACLcBGAs/s900/Low-self-esteem.jpg"
+categories: posts
+tags: [masalah]
 ---
 
 Sebenarnya agak berat juga menulis artikel tentang ini karena solusinya pun membutuhkan kekuatan mental kita buat menjalaninya. Solusi dari permasalahan yang telah terjadi di masa lalu adalah dengan mengikhlaskan. Kalau kita mengikhlaskan, mencoba berdamai dengan masalah di masa lalu, maka kita akan menyiapkan diri kita untuk menjalani hari ini dan masa depan.

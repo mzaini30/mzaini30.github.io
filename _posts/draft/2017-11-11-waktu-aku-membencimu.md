@@ -3,6 +3,8 @@ layout: post
 title: "Waktu, Aku Membencimu"
 date: 2017-11-11 09:15:03
 gambar: "http://lh3.googleusercontent.com/-fJxhMAUdge0/WgZPiWS7azI/AAAAAAAACrM/ZmymX_ondCkStJfMHVO5MTmTZNlJoRykQCLcBGAs/h120/shutterstock_271332740.jpg"
+categories: posts
+tags: [waktu, time, benci]
 ---
 
 Semenjak manusia lahir, ia selalu terhubung dengan waktu. Waktu adalah takdir bagi manusia. Segala pemikiran manusia, gerak-geriknya, interaksinya dengan dunia luar maupun dengan dirinya, selalu terikat dengan waktu. Waktu senantiasa mengekang manusia. Selalu ada waktu untuk segalanya.

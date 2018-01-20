@@ -3,6 +3,8 @@ layout: post
 title: "Manfaat yang Akan Kamu Dapatkan Apabila Kamu Menulis di Catatan Harian"
 date: 2017-11-14 05:52:56
 gambar: "http://lh3.googleusercontent.com/-rTzufLQ4VvI/WgoTohX-jzI/AAAAAAAACsM/_kgGBSlp-mM_zUK3seC7FtUhaEapBOv-wCLcBGAs/h120/ratu-victoria-diary.jpg"
+categories: posts
+tags: [menulis, writing]
 ---
 
 Menulis catatan harian? Ada yang bilang bahwa menulis di catatan harian itu membuat malu, nggak kelihatan _cool_, kerennya menurun, dan berbagai cemoohan lain tentang satu bentuk terapi yang sangat besar manfaatnya ini. Nah, berikut ini adalah beberapa manfaat yang bisa kamu dapatkan dari menulis catatan harian:
