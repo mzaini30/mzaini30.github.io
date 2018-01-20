@@ -100,7 +100,7 @@
     <script type="text/javascript">
         jQuery(function($){
             $(".muncul-sekali").hide();
-            $(".muncul-sekali{{ page.date | date: '%s' }}").show();
+            $(".muncul-sekali:first").show();
         });
     </script>
 
