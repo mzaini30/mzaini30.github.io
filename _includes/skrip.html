@@ -35,7 +35,9 @@
 </style>
 <script type="text/javascript">
 	jQuery(function($){
-		$(".up").hide();
+		if ($(window).scrollTop() < 300){
+			$(".up").hide();
+		}
 		$(window).scroll(function(){
 			if ($(this).scrollTop() > 300){
 				$(".up").fadeIn();
