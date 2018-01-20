@@ -64,9 +64,11 @@
                 </center>
             </div>
             <script type="text/javascript">
-                $(".pagination__next").attr("href", "{{ site.posts[postingan_selanjutnya].url }}");
-                $('.infinity').infiniteScroll({
-                    path: '.pagination__next'
+                jQuery(function($){
+                    $(".pagination__next").attr("href", "{{ site.posts[postingan_selanjutnya].url }}");
+                    $('.infinity').infiniteScroll({
+                        path: '.pagination__next'
+                    });
                 });
             </script>
         </div>
