@@ -10,7 +10,9 @@
 
 <!-- BODY -->
 <body id="post-index">
-    {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
+    {% assign random = site.time | date: "%s" %}
+    {% assign acak_judul = page.title | size %}
+    {% assign postingan_selanjutnya = page.date | date: "%s" | plus: random | plus: acak_judul | modulo: site.posts.size %}
     <div class="muncul-sekali" style="display: none;">
         {% include browser-upgrade.html %}
     </div>
