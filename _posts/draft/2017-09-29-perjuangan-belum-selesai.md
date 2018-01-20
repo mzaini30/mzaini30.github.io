@@ -3,6 +3,8 @@ layout: post
 title: "Perjuangan Belum Selesai"
 date: 2017-09-29 23:58:41
 gambar: "http://lh3.googleusercontent.com/-hf4Vqx4Eb3c/Wc5sxmdUD-I/AAAAAAAACWw/i6Cp9F0vyWMGwJ3bEdp3IcGdPk2TvGlOACLcBGAs/h120/Ilustrasi-perjuangan-duniasastra.net_.png"
+categories: posts
+tags: [perjuangan, semangat]
 ---
 
 Masih ada banyak hal yang belum bisa dianggap selesai. Mengapa dianggap selesai jika nafas kita masih ada? Mengapa dianggap sudah selesai apabila hasil belum nampak? Mengapa dianggap selesai jika kita sendiri pun tak tau apa yang dikatakan sebagai selesai?

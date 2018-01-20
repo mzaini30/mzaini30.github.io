@@ -3,6 +3,8 @@ layout: post
 title: "Segelas Air"
 date: 2017-10-03 19:00:00
 gambar: "http://lh3.googleusercontent.com/-UVHA74jhOQs/WdNs2wQwaFI/AAAAAAAACX4/_VRvNNuXUooXD5tWqgGr_SiUx7B_CWkrgCLcBGAs/h120/181587102.jpg"
+categories: posts
+tags: [sastra, puisi, poem]
 ---
 
 Kita seringkali menyampaikan sesuatu yang besar

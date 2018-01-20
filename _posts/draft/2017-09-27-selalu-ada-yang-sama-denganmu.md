@@ -3,6 +3,8 @@ layout: post
 title: "Selalu Ada yang Sama denganmu"
 date: 2017-09-27 09:14:29
 gambar: "http://lh3.googleusercontent.com/-6gDEEkBbK5c/Wcr8Tu9IaGI/AAAAAAAACSs/I9nJ9GJWNy4tZiZuuFZzv6LEo0CKtym8gCLcBGAs/h120/friendship_never_dies_by_nami86.png"
+categories: posts
+tags: [unik, manusia]
 ---
 
 Apakah kamu merasa dirimu begitu unik? Apakah kamu merasa bahwa kamu berbeda dengan yang lain? Apakah kamu merasa kamu begitu asing di dunia ini? Keberadaanmu tidak dianggap? Setiap pergerakanmu selalu membuat orang lain nyinyir kepadamu? Mengapa? Apa lantaran konsep kehidupanmu yang berbeda dengan yang lainnya? Apa lantaran fisikmu yang begitu berbeda? Apa lantaran dirimu tak bisa memenuhi harapan mereka? Apakah karena itu semua?

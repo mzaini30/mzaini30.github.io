@@ -3,6 +3,8 @@ layout: post
 title: "Masih Nyaman dengan Teknik-teknik Bisnis yang \"Kadaluarsa\"?"
 date: 2017-09-28 06:40:33
 gambar: "http://lh3.googleusercontent.com/-AzDe2WlJ3vg/Wcwo2319VII/AAAAAAAACWQ/H06ZNBZTpwovNGkvfxEabe_RaQvrtyyPwCLcBGAs/h120/1500455438653.jpg"
+categories: posts
+tags: [bisnis, teknik, trik]
 ---
 
 Zaman sekarang sangat dituntut yang namanya kecepatan, kemampuan multitasking, resource yang tinggi, storage yang besar. Gampangannya aja, kita analogikan dengan laptop.
