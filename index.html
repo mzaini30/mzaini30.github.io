@@ -51,7 +51,7 @@ layout: post-index
 </article>
 {% endfor %}
 
-<div class="pagination">
+<!-- <div class="pagination">
 <center>
 {% include pagination.html %}
 <div class="pagination">
@@ -79,4 +79,13 @@ layout: post-index
     {% endif %}
 </div>
 </center>
-    </div>
+    </div> -->
+<div class="pagination">
+    <center>
+        <p>
+            {% if paginator.total_pages > 1 %}
+                <a class="pagination__next{{ page.date | date: '%s' }}" href="{{ site.url }}/page{{ paginator.next_page }}/">Next</a>
+            {% endif %}
+        </p>
+    </center>
+</div>
