@@ -1,0 +1,110 @@
+---
+layout: post-index
+---
+{% for post in paginator.posts %}
+<article>
+    <!-- POST TITLE -->
+    <header>
+        <h1 class="entry-title">
+            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a>
+        </h1>
+    </header>
+    
+    <!-- POST CONTENT -->
+    <div class="entry-content">
+        <p>
+            <img src="{{ post.gambar }}">
+        </p>
+        {{ post.content }}
+        <center>
+            <p>
+                <a href="https://api.whatsapp.com/send?phone=6281545143654&text=*Link*%3A%20{{ site.url }}{{ post.url }}%0A%0A*Komentar*%3A%0A">BERI KOMENTAR DENGAN WHATSAPP</a>
+            </p>
+        </center>
+    </div>
+    
+    <!--- DIVIDING LINE -->
+    <hr>
+    
+    <!-- POST TAGS -->
+    <div class="inline-tags">
+        <span>
+        {% for tag in post.tags %}
+            <a href="{{ site.url }}/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
+        {% endfor %}
+        </span>
+    </div>
+    
+    <br>
+    
+    <!-- POST DATE -->
+    <div class="post-date">
+        <span class="entry-date date published updated">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+                <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+            </time>
+        </span>
+        &bull;
+        <a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ post.path }}\'');void(0);">EDIT</a>
+    </div>
+    
+</article>
+{% endfor %}
+
+<!-- <div class="pagination">
+<center>
+{% include pagination.html %}
+<div class="pagination">
+    {% if paginator.total_pages > 1 %}
+
+        {% if paginator.page == 1 %}
+            <a href="{{ site.url }}/page{{ paginator.next_page }}/">LEBIH LAMA→</a>
+        {% endif %}
+    
+        {% if paginator.page == 2 %}
+            <a href="/">←LEBIH BARU</a>
+            {% if paginator.page < paginator.total_pages %}
+                | <a href="{{ site.url }}/page{{ paginator.next_page }}/">LEBIH LAMA→</a>
+            {% endif %}
+        {% endif %}
+                                         
+        {% if paginator.page > 2 %}
+            <a href="{{ site.url }}/page{{ paginator.previous_page }}/">←LEBIH BARU</a>
+
+            {% if paginator.page < paginator.total_pages %}
+                | <a href="{{ site.url }}/page{{ paginator.next_page }}/">LEBIH LAMA→</a>
+            {% endif %}
+
+        {% endif %}
+    {% endif %}
+</div>
+</center>
+    </div> -->
+<div class="pagination">
+    <center>
+        <p>
+            {% if paginator.total_pages > 1 %}
+                <a class="pagination__next{{ page.date | date: '%s' }}" href="{{ site.url }}/page{{ paginator.next_page }}/">Next</a>
+            {% endif %}
+        </p>
+    </center>
+</div>
+<script type="text/javascript">
+    jQuery(function($){
+        // $('.infinity').infiniteScroll({
+        //     path: '.pagination__next{{ page.date | date: "%s" }}',
+        //     // append: '.main',
+        //     hideNav: '.pagination',
+        //     debug: true
+        // });
+
+        $('.infinity').jscroll({
+            // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
+            // padding: 20,
+            nextSelector: '.pagination__next{{ page.date | date: "%s" }}',
+            debug: true,
+            loadingHtml: '<center><small>Loading...</small></center>'
+            // contentSelector: '.infinity'
+        });
+    });
+</script>
