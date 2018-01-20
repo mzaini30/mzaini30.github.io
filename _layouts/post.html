@@ -12,7 +12,8 @@
 <body id="post-index">
     {% assign random = site.time | date: "%s" %}
     {% assign acak_judul = page.title | size %}
-    {% assign postingan_selanjutnya = page.date | date: "%s" | plus: random | plus: acak_judul | modulo: site.posts.size %}
+    {% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+    {% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
     <div class="muncul-sekali" style="display: none;">
         {% include browser-upgrade.html %}
     </div>
@@ -63,7 +64,7 @@
             <div class="pagination">
                 <center>
                     <p>
-                        <a class="pagination__next{{ page.date | date: '%s' }}" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
+                        <a class="pagination__next{{ angka_postingan }}" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
                     </p>
                 </center>
             </div>
@@ -79,7 +80,7 @@
                     $('.infinity').jscroll({
                         // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
                         // padding: 20,
-                        nextSelector: '.pagination__next{{ page.date | date: "%s" }}',
+                        nextSelector: '.pagination__next{{ angka_postingan }}',
                         debug: true,
                         loadingHtml: '<center><small>Loading...</small></center>'
                         // contentSelector: '.infinity'
