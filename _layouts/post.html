@@ -11,7 +11,7 @@
 <!-- BODY -->
 <body id="post-index">
     {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
-    <div class="muncul-sekali muncul-sekali{{ page.date | date: '%s' }}">
+    <div class="muncul-sekali muncul-sekali-{{ page.date | date: '%s' }}">
         {% include browser-upgrade.html %}
     </div>
     <div class="infinity">
@@ -88,7 +88,7 @@
     
     
     <!-- FOOTER -->  
-    <div class="muncul-sekali muncul-sekali{{ page.date | date: '%s' }}">
+    <div class="muncul-sekali-2 muncul-sekali-2-{{ page.date | date: '%s' }}">
         <footer>  
             <div class="footer-wrapper">
                 <footer role="contentinfo">
@@ -101,6 +101,8 @@
         jQuery(function($){
             $(".muncul-sekali").hide();
             $(".muncul-sekali:first").show();
+            $(".muncul-sekali-2").hide();
+            $(".muncul-sekali-2:first").show();
         });
     </script>
 
