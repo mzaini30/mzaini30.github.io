@@ -2,7 +2,7 @@
 layout: post
 title: "Bisakah Kita Berkomunikasi Satu Sama Satu, Tanpa Distraksi?"
 date: 2017-10-06 13:28:08
-gambar: "http://lh3.googleusercontent.com/-O70naC4yMAI/WdcVIotPbiI/AAAAAAAACY8/8U4jOdM0JgkAnwWJaB_-4AYNG4M12TLuwCLcBGAs/h120/26629.jpg"
+gambar: "http://lh3.googleusercontent.com/-O70naC4yMAI/WdcVIotPbiI/AAAAAAAACY8/8U4jOdM0JgkAnwWJaB_-4AYNG4M12TLuwCLcBGAs/s900/26629.jpg"
 categories: posts
 tags: [komunikasi, psikologi, sosial]
 ---

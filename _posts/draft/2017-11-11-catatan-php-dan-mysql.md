@@ -2,7 +2,7 @@
 layout: post
 title: "Catatan PHP dan MySQL"
 date: 2017-11-11 11:10:35
-gambar: "http://lh3.googleusercontent.com/-T4gMjjGPXB8/WgZp43EjgyI/AAAAAAAACro/Ker3LeH2WjIox1Xf3Z1zFMl8Jx5NtnM1wCLcBGAs/h120/php-elephant-logo-bd4f9d83be8c8563248fe4793f90bae7.png"
+gambar: "http://lh3.googleusercontent.com/-T4gMjjGPXB8/WgZp43EjgyI/AAAAAAAACro/Ker3LeH2WjIox1Xf3Z1zFMl8Jx5NtnM1wCLcBGAs/s900/php-elephant-logo-bd4f9d83be8c8563248fe4793f90bae7.png"
 categories: posts
 tags: [skrip, php, mysql, pemrograman, sintaks]
 ---

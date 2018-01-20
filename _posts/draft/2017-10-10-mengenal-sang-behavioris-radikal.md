@@ -2,7 +2,7 @@
 layout: post
 title: "Mengenal Sang Behavioris Radikal"
 date: 2017-10-10 23:33:58
-gambar: "http://lh3.googleusercontent.com/-XbOldduNjEA/Wdzoa92q5UI/AAAAAAAACcE/9wwxJ7DdikgMG93WDJRL9pZYD0ieQw4PQCLcBGAs/h120/bfs.jpg"
+gambar: "http://lh3.googleusercontent.com/-XbOldduNjEA/Wdzoa92q5UI/AAAAAAAACcE/9wwxJ7DdikgMG93WDJRL9pZYD0ieQw4PQCLcBGAs/s900/bfs.jpg"
 categories: posts
 tags: [psikologi, skinner]
 ---

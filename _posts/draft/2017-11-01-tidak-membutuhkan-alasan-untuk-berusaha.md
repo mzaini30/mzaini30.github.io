@@ -2,7 +2,7 @@
 layout: post
 title: "Tidak Membutuhkan Alasan untuk Berusaha"
 date: 2017-11-01 07:10:42
-gambar: "http://lh3.googleusercontent.com/-6VE5Pc87cd8/WfkCWhO6vjI/AAAAAAAACnE/wY98fJ8YeKECEMnYgYcnnTxMcctSTMQugCLcBGAs/h120/ganbatte.jpg"
+gambar: "http://lh3.googleusercontent.com/-6VE5Pc87cd8/WfkCWhO6vjI/AAAAAAAACnE/wY98fJ8YeKECEMnYgYcnnTxMcctSTMQugCLcBGAs/s900/ganbatte.jpg"
 categories: posts
 tags: [berusaha, ganbatte]
 ---

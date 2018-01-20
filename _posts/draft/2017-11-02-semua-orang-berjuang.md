@@ -2,7 +2,7 @@
 layout: post
 title: "Semua Orang Berjuang"
 date: 2017-11-02 01:55:36
-gambar: "http://lh3.googleusercontent.com/-aee8nyuKlsg/WfoKQ5z8BFI/AAAAAAAACng/7fgbhW8R0VUZhr8--NsJ8TQxueHzJT6MQCLcBGAs/h120/ganbatte.jpg"
+gambar: "http://lh3.googleusercontent.com/-aee8nyuKlsg/WfoKQ5z8BFI/AAAAAAAACng/7fgbhW8R0VUZhr8--NsJ8TQxueHzJT6MQCLcBGAs/s900/ganbatte.jpg"
 categories: posts
 tags: [berjuang, ganbatte]
 ---

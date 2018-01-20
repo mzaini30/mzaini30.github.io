@@ -2,7 +2,7 @@
 layout: post
 title: "Sesibuk Apapun, Jangan Lupa Ngaji"
 date: 2017-10-26 01:18:02
-gambar: "http://lh3.googleusercontent.com/--wKenAZuHGs/WfDG3dsrKqI/AAAAAAAACkU/RG-jY5HkqSYwkL9IBNnnKgi-5FxtKQJagCLcBGAs/h120/259a8f0f8fc6dd11e13eac79415c1e3a--quran-mosque.jpg"
+gambar: "http://lh3.googleusercontent.com/--wKenAZuHGs/WfDG3dsrKqI/AAAAAAAACkU/RG-jY5HkqSYwkL9IBNnnKgi-5FxtKQJagCLcBGAs/s900/259a8f0f8fc6dd11e13eac79415c1e3a--quran-mosque.jpg"
 categories: posts
 tags: [quran, mengaji]
 ---

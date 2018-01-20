@@ -2,7 +2,7 @@
 layout: post
 title: "Jeritan Sang Penulis"
 date: 2017-11-04 21:37:16
-gambar: "http://lh3.googleusercontent.com/-8C0bimZVsHc/Wf3CZWzyu7I/AAAAAAAACpY/mf12CSXRCg0otcMSiFc1-cPmQZMPKmX6QCLcBGAs/h120/the-writer-writing-3647594-640-428.gif"
+gambar: "http://lh3.googleusercontent.com/-8C0bimZVsHc/Wf3CZWzyu7I/AAAAAAAACpY/mf12CSXRCg0otcMSiFc1-cPmQZMPKmX6QCLcBGAs/s900/the-writer-writing-3647594-640-428.gif"
 categories: posts
 tags: [penulis]
 ---

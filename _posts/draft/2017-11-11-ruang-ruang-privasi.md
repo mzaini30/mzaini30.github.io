@@ -2,7 +2,7 @@
 layout: post
 title: "Ruang-ruang Privasi"
 date: 2017-11-11 09:32:10
-gambar: "http://lh3.googleusercontent.com/-RGSsiUqtIkM/WgZTRBl_vxI/AAAAAAAACrY/J7EOYEvaBAYkfzYsBYUfyBuIlzozFbGwwCLcBGAs/h120/636153590394247604-555314234_introvert.jpg"
+gambar: "http://lh3.googleusercontent.com/-RGSsiUqtIkM/WgZTRBl_vxI/AAAAAAAACrY/J7EOYEvaBAYkfzYsBYUfyBuIlzozFbGwwCLcBGAs/s900/636153590394247604-555314234_introvert.jpg"
 categories: posts
 tags: [privasi]
 ---

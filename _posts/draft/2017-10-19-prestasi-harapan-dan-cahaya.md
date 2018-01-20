@@ -2,7 +2,7 @@
 layout: post
 title: "Prestasi, Harapan, dan Cahaya"
 date: 2017-10-19 14:06:44
-gambar: "http://lh3.googleusercontent.com/-GKMR2Nav_Bs/WehEJQfS_MI/AAAAAAAACfY/tCJZwc-oSngedCi51dj6D28MuKedTEW0QCLcBGAs/h120/active-hope.jpg"
+gambar: "http://lh3.googleusercontent.com/-GKMR2Nav_Bs/WehEJQfS_MI/AAAAAAAACfY/tCJZwc-oSngedCi51dj6D28MuKedTEW0QCLcBGAs/s900/active-hope.jpg"
 categories: posts
 tags: [cerita, cerpen]
 ---

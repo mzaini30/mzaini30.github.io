@@ -2,7 +2,7 @@
 layout: post
 title: "Manusia Itu Memang Aneh"
 date: 2017-09-24 00:04:04
-gambar: "http://lh3.googleusercontent.com/-7Vai0ezd7cE/WcaF0-XAJ-I/AAAAAAAAAEY/Xya0P5H1GxAvxI81js68xY0nwgDYbfFdQCLcBGAs/h120/before_the_sun_goes_down_by_crims0nphotography-db1pkly.jpg"
+gambar: "http://lh3.googleusercontent.com/-7Vai0ezd7cE/WcaF0-XAJ-I/AAAAAAAAAEY/Xya0P5H1GxAvxI81js68xY0nwgDYbfFdQCLcBGAs/s900/before_the_sun_goes_down_by_crims0nphotography-db1pkly.jpg"
 categories: posts
 tags: [manusia]
 ---

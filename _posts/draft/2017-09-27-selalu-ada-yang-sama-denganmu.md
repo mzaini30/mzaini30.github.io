@@ -2,7 +2,7 @@
 layout: post
 title: "Selalu Ada yang Sama denganmu"
 date: 2017-09-27 09:14:29
-gambar: "http://lh3.googleusercontent.com/-6gDEEkBbK5c/Wcr8Tu9IaGI/AAAAAAAACSs/I9nJ9GJWNy4tZiZuuFZzv6LEo0CKtym8gCLcBGAs/h120/friendship_never_dies_by_nami86.png"
+gambar: "http://lh3.googleusercontent.com/-6gDEEkBbK5c/Wcr8Tu9IaGI/AAAAAAAACSs/I9nJ9GJWNy4tZiZuuFZzv6LEo0CKtym8gCLcBGAs/s900/friendship_never_dies_by_nami86.png"
 categories: posts
 tags: [unik, manusia]
 ---
