@@ -65,11 +65,11 @@
             </div>
             <script type="text/javascript">
                 jQuery(function($){
+                    $(".infinity").infiniteScroll("destroy");
                     $(".pagination__next").attr("href", "{{ site.posts[postingan_selanjutnya].url }}");
                     $('.infinity').infiniteScroll({
                         path: '.pagination__next'
                     });
-                    $(".infinity").infiniteScroll("destroy");
                 });
             </script>
         </div>

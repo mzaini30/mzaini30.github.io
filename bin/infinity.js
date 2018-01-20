@@ -5,5 +5,4 @@ jQuery(function($){
 		hideNav: '.pagination',
 		debug: true
 	});
-	$(".infinity").infiniteScroll("destroy");
 });
