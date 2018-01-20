@@ -10,7 +10,10 @@
 
 <!-- BODY -->
 <body id="post-index">
-    {% include browser-upgrade.html %}
+    {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
+    <div class="muncul-sekali muncul-sekali{{ page.date | date: '%s' }}">
+        {% include browser-upgrade.html %}
+    </div>
     <div class="infinity">
         <div id="main" role="main" class="main">
             <article class="hentry">
@@ -58,7 +61,6 @@
             <div class="pagination">
                 <center>
                     <p>
-                        {% assign postingan_selanjutnya = page.date | date: "%s" | modulo: site.posts.size %}
                         <a class="pagination__next{{ page.date | date: '%s' }}" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
                     </p>
                 </center>
@@ -86,7 +88,7 @@
     
     
     <!-- FOOTER -->  
-    <div class="muncul-sekali">
+    <div class="muncul-sekali muncul-sekali{{ page.date | date: '%s' }}">
         <footer>  
             <div class="footer-wrapper">
                 <footer role="contentinfo">
@@ -95,6 +97,12 @@
             </div>   
         </footer>  
     </div>
+    <script type="text/javascript">
+        jQuery(function($){
+            $(".muncul-sekali").hide();
+            $(".muncul-sekali{{ page.date | date: '%s' }}").show();
+        });
+    </script>
 
     <!-- <p>{{ site.posts[postingan_selanjutnya].url }}</p> -->
     
