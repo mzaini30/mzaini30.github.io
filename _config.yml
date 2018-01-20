@@ -23,7 +23,7 @@ sass:
 permalink: /:year/:month/:day/:title.html
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 1
 
 #kramdown:
 #  input: GFM
