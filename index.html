@@ -1,6 +1,9 @@
 ---
 ---
 
-  {% assign post = site.posts.first %}
-  {% assign content = post.url %}
-  <p>{{ content }}</p>
+{% assign post = site.posts.first %}
+{% assign content = post.url %}
+<!-- <p>{{ content }}</p> -->
+<script type="text/javascript">
+    location.href = "{{ content }}";
+</script>
