@@ -10,7 +10,9 @@
  
 <!-- BODY -->
 <body id="post-index">
-    {% include browser-upgrade.html %}
+    <div class="muncul-sekali" style="display: none;">
+        {% include browser-upgrade.html %}
+    </div>
     <div class="infinity">
 
         <!-- MAIN -->
@@ -19,13 +21,22 @@
         </div>       
     </div>
     <!-- FOOTER -->  
-    <footer>  
-        <div class="footer-wrapper">
-            <footer role="contentinfo">
-                {% include footer.html %}
-            </footer>
-        </div>   
-    </footer>
+    <div class="muncul-sekali-2" style="display: none;">
+        <footer>  
+            <div class="footer-wrapper">
+                <footer role="contentinfo">
+                    {% include footer.html %}
+                </footer>
+            </div>   
+        </footer>
+    </div>
     {% include skrip-index.html %}
+
+    <script type="text/javascript">
+        jQuery(function($){
+            $(".muncul-sekali:first").css("display", "block");
+            $(".muncul-sekali-2:last").css("display", "block");
+        });
+    </script>
 </body>
 </html>

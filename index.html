@@ -89,3 +89,22 @@ layout: post-index
         </p>
     </center>
 </div>
+<script type="text/javascript">
+    jQuery(function($){
+        // $('.infinity').infiniteScroll({
+        //     path: '.pagination__next{{ page.date | date: "%s" }}',
+        //     // append: '.main',
+        //     hideNav: '.pagination',
+        //     debug: true
+        // });
+
+        $('.infinity').jscroll({
+            // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
+            // padding: 20,
+            nextSelector: '.pagination__next{{ page.date | date: "%s" }}',
+            debug: true,
+            loadingHtml: '<center><small>Loading...</small></center>'
+            // contentSelector: '.infinity'
+        });
+    });
+</script>
