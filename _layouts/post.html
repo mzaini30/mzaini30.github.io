@@ -72,12 +72,12 @@
                     //     debug: true
                     // });
 
-                    $('.infinity').jscroll({
+                    $('body').jscroll({
                         // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
                         // padding: 20,
                         nextSelector: '.pagination__next{{ page.date | date: "%s" }}',
                         debug: true,
-                        contentSelector: '.main'
+                        contentSelector: '.infinity'
                     });
                 });
             </script>
