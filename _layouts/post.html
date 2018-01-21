@@ -85,7 +85,7 @@
                         loadingHtml: '<center><small>Loading...</small></center>',
                         // contentSelector: '.infinity'
                         callback: function() {
-					        history.pushState(null, $('title').html(), '{{ site.url }}{{ page.url }}');
+					        history.pushState(null, null, '{{ site.url }}{{ page.url }}');
 					    }
                     });
 
