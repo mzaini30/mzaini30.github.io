@@ -104,7 +104,9 @@ layout: post-index
 
         $('.infinity').jscroll({
             // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
-            padding: $(document).height() - 1,
+            padding: function(){
+                return $(document).height() - $(window).height();
+            },
             nextSelector: '.pagination__next{{ angka_postingan }}',
             debug: true,
             loadingHtml: '<center><small>Loading...</small></center>'
