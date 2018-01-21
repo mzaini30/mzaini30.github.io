@@ -80,8 +80,7 @@
                     $(window).scroll(function() {
 					    if ( $(window).scrollTop() >= $('.body{{ angka_postingan }}').offset().top ) {
 					        // Your div has reached the top
-					        history.pushState(null, null, "{{ site.url }}{{ page.url }}");
-					        $("title").text("{{ page.title }}");
+					        history.replaceState(null, "{{ page.title }}", "{{ site.url }}{{ page.url }}");
 					    }
 					});
 
