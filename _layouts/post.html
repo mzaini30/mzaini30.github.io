@@ -82,8 +82,11 @@
                         padding: $(window).height(),
                         nextSelector: '.pagination__next{{ angka_postingan }}',
                         debug: true,
-                        loadingHtml: '<center><small>Loading...</small></center>'
+                        loadingHtml: '<center><small>Loading...</small></center>',
                         // contentSelector: '.infinity'
+                        callback: function() {
+					        
+					    }
                     });
                 });
             </script>
