@@ -95,12 +95,15 @@ layout: post-index
 </div>
 <script type="text/javascript">
     jQuery(function($){
-        // $('.infinity').infiniteScroll({
-        //     path: '.pagination__next{{ page.date | date: "%s" }}',
-        //     // append: '.main',
-        //     hideNav: '.pagination',
-        //     debug: true
-        // });
+        
+            $(window).scroll(function(){
+                if($('.body{{ angka_postingan }}').isOnScreen(function(deltas){
+                    return deltas.top <= this.height() && deltas.bottom <= this.height();
+                }) == true){
+                    history.pushState(null, null, '{{ site.url }}{{ page.url }}');
+                    $('title').text('{{ page.title }}');
+                }
+            });
 
         $('.infinity').jscroll({
             // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
