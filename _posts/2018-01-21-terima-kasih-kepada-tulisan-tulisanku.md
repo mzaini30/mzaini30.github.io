@@ -17,3 +17,14 @@ Dan kali ini, saya kembalikan lagi blog ini pada fitrahnya, yaitu benar-benar bl
 
 Contohnya, beberapa postingan berikut:
 
+- [Bersemangatlah Menghadapi Dunia yang Hanya Sekali](http://muhammadzaini.com/2017/11/06/bersemangatlah-menghadapi-dunia-yang-hanya-sekali.html)
+- [Book: A Special Gift for You](http://muhammadzaini.com/2017/10/12/book-a-special-gift-for-you.html)
+- [Cobalah Idealis Sedikit...](http://muhammadzaini.com/2017/10/05/cobalah-idealis-sedikit.html)
+- [Kaori...](http://muhammadzaini.com/2017/10/24/kaori.html)
+- [Kuncinya adalah Ketekunan](http://muhammadzaini.com/2017/07/17/kuncinya-adalah-ketekunan.html)
+- [Target untuk Metpen. Yosh!](http://muhammadzaini.com/2017/06/21/target-untuk-metpen-yosh.html)
+- [Teruntuk Para Sahabatku, Sang Penjaga Quran, di Manapun Kalian Berada](http://muhammadzaini.com/2017/10/09/teruntuk-para-sahabatku-sang-penjaga-quran-di-manapun-kalian-berada.html)
+
+Dan juga, tampilan dari blog ini kan simpel banget tuh. Cuma putih, dan bentuk penyajian kontennya berupa _card_. Untung aja kemarin nemu tema Jekyll yang keren banget deh untuk blog ini. Soalnya seringnya nemunya yang kurang bagus ya, kalau tema-tema Jekyll itu. Yang bagus mah biasanya tema-tema Wordpress. Alhamdulillah banget lah...
+
+Habis itu, aku padu-padankan tuh sama jquery dan kubuat blog ini macam media sosial seperti Facebook, Twitter, LINE Timeline, Tumblr yang nggak pakai tombol _next-next_, melainkan langsung terload konten berikutnya di bawahnya. Mantap dah... Makin suka aja sama blog ini. Mudah-mudahan bisa berusia panjang ini blog. Amin...
