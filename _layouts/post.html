@@ -77,6 +77,10 @@
 					//         $('title').text('{{ page.title }}');
 					//     }
 					// });
+					if($('.body{{ angka_postingan }}').isOnScreen()){
+						history.pushState(null, null, '{{ site.url }}{{ page.url }}');
+				        $('title').text('{{ page.title }}');
+					}
 
                     $('.infinity').jscroll({
                         padding: $(window).height(),
