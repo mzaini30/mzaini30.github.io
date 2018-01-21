@@ -91,9 +91,6 @@
     .muncul-sekali-2 {
         display: none;
     }
-    .muncul-sekali:first-child {
-        display: block;
-    }
 
 </style>
 
@@ -110,6 +107,6 @@
 
 <script type="text/javascript">
 	jQuery(function($){
-		$(".muncul-sekali-2:last").css("display", "block");
+		$(".muncul-sekali:first, .muncul-sekali-2:last").css("display", "block");
 	});
 </script>
