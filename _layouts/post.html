@@ -79,13 +79,7 @@
 
                     $('.infinity').jscroll({
                         // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
-                        padding: function(){
-			                if ($(document).height() > $(window).height()){
-			                    return $(document).height() - $(window).height();
-			                } else if ($(document).height() < $(window).height() || $(document).height() == $(window).height()){
-			                    return $(window).height()
-			                }
-			            },
+                        padding: $(window).height(),
                         nextSelector: '.pagination__next{{ angka_postingan }}',
                         debug: true,
                         loadingHtml: '<center><small>Loading...</small></center>'
