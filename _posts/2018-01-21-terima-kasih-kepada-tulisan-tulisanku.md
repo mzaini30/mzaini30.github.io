@@ -13,3 +13,7 @@ Capek kah? Nggak. Namanya juga hobi.
 
 Hobi yang memakan waktu banyak. Hahahahaaa...
 
+Dan kali ini, saya kembalikan lagi blog ini pada fitrahnya, yaitu benar-benar blog. Saya isi kembali tulisan-tulisan yang baru maupun yang lama, karena masih ada _backupnya_. Dan ternyata, ketika saya membaca kembali isi dari blog ini, ada banyak hal yang bisa saya dapatkan. Mulai dari semangat untuk bangkit kembali, renungan akan kehidupan ini, berbagai skrip yang membantu siapapun, kisah-kisahku yang sangat sayang untuk dilupakan, dan banyak hal deh yang saya temukan kembali di blog ini.
+
+Contohnya, beberapa postingan berikut:
+
