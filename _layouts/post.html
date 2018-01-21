@@ -71,14 +71,12 @@
             <script type="text/javascript">
                 jQuery(function($){
 
-                    $(window).scroll(function() {
-					    if ( $(window).scrollTop() >= $('.body{{ angka_postingan }}').offset().top ) {
-					        link = '{{ site.url }}{{ page.url }}';
-					        title = '{{ page.title }}';
-					    }
-				        history.pushState(null, null, link);
-				        $('title').text(title);
-					});
+     //                $(window).scroll(function() {
+					//     if ( $(window).scrollTop() >= $('.body{{ angka_postingan }}').offset().top ) {
+					//         history.pushState(null, null, '{{ site.url }}{{ page.url }}');
+					//         $('title').text('{{ page.title }}');
+					//     }
+					// });
 
                     $('.infinity').jscroll({
                         padding: $(window).height(),
