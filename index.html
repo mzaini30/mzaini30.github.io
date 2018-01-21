@@ -108,7 +108,7 @@ layout: post-index
                 if ($(document).height() > $(window).height()){
                     return $(document).height() - $(window).height();
                 } else if ($(document).height() < $(window).height() || $(document).height() == $(window).height()){
-                    return $(document).height()
+                    return $(window).height()
                 }
             },
             nextSelector: '.pagination__next{{ angka_postingan }}',
