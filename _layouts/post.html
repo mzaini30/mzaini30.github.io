@@ -13,12 +13,12 @@
 {% assign acak_judul = page.title | size %}
 {% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 {% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
-<body id="post-index">
+<body id="post-index" class="body{{ angka_postingan }}">
     <div class="muncul-sekali">
         {% include browser-upgrade.html %}
     </div>
     <div class="infinity">
-        <div id="main" role="main" class="main body{{ angka_postingan }}">
+        <div id="main" role="main" class="main">
             <article class="hentry">
                 
                 <!-- MAIN -->
