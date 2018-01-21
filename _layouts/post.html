@@ -77,20 +77,24 @@
                     //     debug: true
                     // });
 
-                    $(window).scroll(function() {
-					    if ( $(window).scrollTop() >= $('.body{{ angka_postingan }}').offset().top ) {
-					        // Your div has reached the top
-					        // history.replaceState(null, "{{ page.title }}", "{{ site.url }}{{ page.url }}");
-					    }
-					});
+     //                $(window).scroll(function() {
+					//     if ( $(window).scrollTop() >= $('.body{{ angka_postingan }}').offset().top ) {
+					//         // Your div has reached the top
+					//         // history.replaceState(null, "{{ page.title }}", "{{ site.url }}{{ page.url }}");
+					//     }
+					// });
 
                     $('.infinity').jscroll({
                         // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
                         padding: $(window).height(),
                         nextSelector: '.pagination__next{{ angka_postingan }}',
                         debug: true,
-                        loadingHtml: '<center><small>Loading...</small></center>'
+                        loadingHtml: '<center><small>Loading...</small></center>',
                         // contentSelector: '.infinity'
+                        callback: function(){
+                        	$('title').text('{{ page.title }}');
+                        	history.replaceState(null, null, '{{ site.url }}{{ page.url }}');
+                        }
                     });
                 });
             </script>
