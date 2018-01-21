@@ -83,7 +83,7 @@
 					$window.scroll(function() {
 					    if ( $window.scrollTop() >= distance ) {
 					        // Your div has reached the top
-					        history.
+					        history.pushState(null, "{{ page.title }}", "{{ site.url }}{{ page.url }}");
 					    }
 					});
 
