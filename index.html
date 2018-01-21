@@ -1,8 +1,14 @@
 ---
 layout: post-index
 ---
+
+{% assign random = site.time | date: "%s" %}
+{% assign acak_judul = paginator.posts[0].title | size %}
+{% assign angka_postingan = paginator.posts[0].date | date: "%s" | plus: random | plus: acak_judul %}
+{% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
+
 {% for post in paginator.posts %}
-<article>
+<article class="body{{ angka_postingan }}">
     <!-- POST TITLE -->
     <header>
         <h1 class="entry-title">
@@ -49,6 +55,20 @@ layout: post-index
     </div>
     
 </article>
+
+<script type="text/javascript">
+    jQuery(function($){
+        $(window).scroll(function(){
+            if($('.body{{ angka_postingan }}').isOnScreen(function(deltas){
+                return deltas.top <= this.height() && deltas.bottom <= this.height();
+            }) == true){
+                history.pushState(null, null, '{{ site.url }}{{ post.url }}');
+                $('title').html('{% if post.title %}{{ post.title }} &#8211; {% endif %}{{ site.title }}');
+            }
+        });
+    });    
+</script>
+
 {% endfor %}
 
 <!-- <div class="pagination">
@@ -84,10 +104,6 @@ layout: post-index
     <center>
         <p>
             {% if paginator.total_pages > 1 and paginator.page < paginator.total_pages %}
-                {% assign random = site.time | date: "%s" %}
-                {% assign acak_judul = paginator.posts[0].title | size %}
-                {% assign angka_postingan = paginator.posts[0].date | date: "%s" | plus: random | plus: acak_judul %}
-                {% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
                 <a class="pagination__next{{ angka_postingan }}" href="{{ site.url }}/page{{ paginator.next_page }}/">Next</a>
             {% endif %}
         </p>
