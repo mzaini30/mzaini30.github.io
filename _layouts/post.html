@@ -14,7 +14,7 @@
     {% assign acak_judul = page.title | size %}
     {% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
     {% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
-    <div class="muncul-sekali" style="display: none;">
+    <div class="muncul-sekali">
         {% include browser-upgrade.html %}
     </div>
     <div class="infinity">
@@ -92,7 +92,7 @@
     
     
     <!-- FOOTER -->  
-    <div class="muncul-sekali-2" style="display: none;">
+    <div class="muncul-sekali-2">
         <footer>  
             <div class="footer-wrapper">
                 <footer role="contentinfo">
@@ -101,10 +101,16 @@
             </div>   
         </footer>  
     </div>
-    <script type="text/javascript">
-        $(".muncul-sekali:first").css("display", "block");
-        $(".muncul-sekali-2:last").css("display", "block");
-    </script>
+    <style type="text/css">
+        .muncul-sekali,
+        .muncul-sekali-2 {
+            display: none;
+        }
+        .muncul-sekali:first,
+        .muncul-sekali-2:last {
+            display: block;
+        }
+    </style>
 
     <!-- <p>{{ site.posts[postingan_selanjutnya].url }}</p> -->
     
