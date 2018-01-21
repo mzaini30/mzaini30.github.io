@@ -85,9 +85,23 @@
                         loadingHtml: '<center><small>Loading...</small></center>',
                         // contentSelector: '.infinity'
                         callback: function() {
-					        History.pushState(null, $('title').html(), $('.pagination__next{{ angka_postingan }}').attr('href'));
+					        history.pushState(null, $('title').html(), '{{ site.url }}{{ page.url }}');
 					    }
                     });
+
+
+// $('.top-of-page').each(function() {
+//         $(this).on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+//             if (isInView) {
+//                 var nextUrl = $(this).attr('data-url');
+//                 var needUpdateUrl = window.location.href !== nextUrl;
+//                 if (needUpdateUrl) {
+//                     window.history.pushState(null, null, nextUrl);
+//                 }
+//             }
+//         });
+//     });
+
                 });
             </script>
         </div>
