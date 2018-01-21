@@ -3,7 +3,12 @@ layout: post-index
 ---
 
 {% for post in paginator.posts %}
-<article class="body{{ angka_postingan }}">
+
+{% assign random2 = site.time | date: "%s" %}
+{% assign acak_judul2 = post.title | size %}
+{% assign angka_postingan2 = post.date | date: "%s" | plus: random | plus: acak_judul %}
+
+<article class="body{{ angka_postingan2 }}">
     <!-- POST TITLE -->
     <header>
         <h1 class="entry-title">
@@ -51,15 +56,10 @@ layout: post-index
     
 </article>
 
-{% assign random2 = site.time | date: "%s" %}
-{% assign acak_judul2 = paginator.posts[0].title | size %}
-{% assign angka_postingan2 = paginator.posts[0].date | date: "%s" | plus: random | plus: acak_judul %}
-{% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
-
 <script type="text/javascript">
     jQuery(function($){
         $(window).scroll(function(){
-            if($('.body{{ angka_postingan }}').isOnScreen(function(deltas){
+            if($('.body{{ angka_postingan2 }}').isOnScreen(function(deltas){
                 return deltas.top <= this.height() && deltas.bottom <= this.height();
             }) == true){
                 history.pushState(null, null, '{{ site.url }}{{ post.url }}');
