@@ -8,7 +8,7 @@ layout: compress
     {% if post.title != null and post.title != empty %}
     {% unless first %},{% endunless %}{
         "title": {{post.title | jsonify}},
-        "content": {{ post.content | plus: post.tags | markdownify | strip_html | jsonify}},
+        "content": {{ post.content | append: post.tags | markdownify | strip_html | jsonify}},
         "link": "{{ post.url }}",
         "excerpt": {{post.content | truncatewords: 20 | markdownify | strip_html | jsonify}}
     }
