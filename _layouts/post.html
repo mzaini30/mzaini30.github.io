@@ -77,7 +77,7 @@
 					//         $('title').text('{{ page.title }}');
 					//     }
 					// });
-					if($('.body{{ angka_postingan }}').isOnScreen({
+					if($('.body{{ angka_postingan }}').isOnScreen(function(deltas){
 						return deltas.top >= this.height() && deltas.bottom >= this.height() && deltas.left >= this.width() && deltas.right >= this.width();
 					})){
 						history.pushState(null, null, '{{ site.url }}{{ page.url }}');
