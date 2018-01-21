@@ -9,11 +9,11 @@
 </head>
 
 <!-- BODY -->
-<body id="post-index">
-    {% assign random = site.time | date: "%s" %}
-    {% assign acak_judul = page.title | size %}
-    {% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-    {% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
+{% assign random = site.time | date: "%s" %}
+{% assign acak_judul = page.title | size %}
+{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+{% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
+<body id="post-index" class="body{{ angka_postingan }}">
     <div class="muncul-sekali">
         {% include browser-upgrade.html %}
     </div>
@@ -77,6 +77,16 @@
                     //     debug: true
                     // });
 
+                    distance = $('.body{{ angka_postingan }}').offset().top
+					$window = $(window);
+
+					$window.scroll(function() {
+					    if ( $window.scrollTop() >= distance ) {
+					        // Your div has reached the top
+					        history.
+					    }
+					});
+
                     $('.infinity').jscroll({
                         // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
                         padding: $(window).height(),
@@ -85,20 +95,6 @@
                         loadingHtml: '<center><small>Loading...</small></center>'
                         // contentSelector: '.infinity'
                     });
-
-
-// $('.top-of-page').each(function() {
-//         $(this).on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-//             if (isInView) {
-//                 var nextUrl = $(this).attr('data-url');
-//                 var needUpdateUrl = window.location.href !== nextUrl;
-//                 if (needUpdateUrl) {
-//                     window.history.pushState(null, null, nextUrl);
-//                 }
-//             }
-//         });
-//     });
-
                 });
             </script>
         </div>
