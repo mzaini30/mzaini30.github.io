@@ -87,14 +87,10 @@
 		word-wrap: break-word;
 	}
 
-	header,
-	footer {
-		display: none;
-	}
-	header:first-child,
-	footer:last-child {
-		display: block;
-	}
+	.muncul-sekali,
+    .muncul-sekali-2 {
+        display: none;
+    }
 
 </style>
 
@@ -107,4 +103,10 @@
 </script>
 <script type="text/javascript">
 	{% include jquery.jscroll.js %}
+</script>
+
+<script type="text/javascript">
+	jQuery(function($){
+		$(".muncul-sekali:first, .muncul-sekali-2:last").css("display", "block");
+	});
 </script>
