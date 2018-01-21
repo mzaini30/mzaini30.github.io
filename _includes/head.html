@@ -87,6 +87,11 @@
 		word-wrap: break-word;
 	}
 
+	.muncul-sekali,
+    .muncul-sekali-2 {
+        display: none;
+    }
+
 </style>
 
 <!-- <script type="text/javascript" src="/bin/jquery-3.2.1.min.js"></script>
@@ -102,7 +107,6 @@
 
 <script type="text/javascript">
 	jQuery(function($){
-		$(".muncul-sekali:not(:first)").css("display", "none");
-		$(".muncul-sekali-2:not(:last)").css("display", "none");
+		$(".muncul-sekali:first, .muncul-sekali-2:last").css("display", "block");
 	});
 </script>
