@@ -70,39 +70,9 @@
             </div>
             <script type="text/javascript">
                 jQuery(function($){
-                    // $('.infinity').infiniteScroll({
-                    //     path: '.pagination__next{{ page.date | date: "%s" }}',
-                    //     // append: '.main',
-                    //     hideNav: '.pagination',
-                    //     debug: true
-                    // });
-
-
-					// $(document).ready(function() {
-
-					// 		//Monitor scrolling
-					// 		$(window).scroll(function (event) {
-								
-					// 			//y = current top position of window
-					// 			var y_pos = $(this).scrollTop();
-					// 			var current_title = document.title;
-
-					// 			$('.list-slide').each(function() {
-					// 				// if y_pos, the current top position of window, is past an element change the Title to that element's text.
-					// 			    if (y_pos > $(this).offset().top) {
-					// 					 current_title = $(this).text() + ": CCarter's Money Over Ethics";
-					// 				}
-					// 			});
-
-					// 		 //console.log("FOUND Furthest Down Title = [" + current_title + "]");
-					// 		 document.title = current_title;
-
-					// 		});
-					// 	});
 
                     $(window).scroll(function() {
 					    if ( $(window).scrollTop() >= $('.body{{ angka_postingan }}').offset().top ) {
-					        // Your div has reached the top
 					        link = '{{ site.url }}{{ page.url }}';
 					        title = '{{ page.title }}';
 					    }
@@ -111,16 +81,10 @@
 					});
 
                     $('.infinity').jscroll({
-                        // loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
                         padding: $(window).height(),
                         nextSelector: '.pagination__next{{ angka_postingan }}',
                         debug: true,
                         loadingHtml: '<center><small>Loading...</small></center>'
-                        // contentSelector: '.infinity'
-                        // callback: function(){
-                        // 	$('title').text('{{ page.title }}');
-                        // 	history.replaceState(null, null, '{{ site.url }}{{ page.url }}');
-                        // }
                     });
                 });
             </script>
