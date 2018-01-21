@@ -78,7 +78,7 @@
 					//     }
 					// });
 					if($('.body{{ angka_postingan }}').isOnScreen(function(deltas){
-						return deltas.top <= this.height() && deltas.bottom <= this.height() && deltas.left <= this.width() && deltas.right <= this.width();
+						return deltas.top <= this.height() && deltas.bottom <= this.height();
 					})){
 						history.pushState(null, null, '{{ site.url }}{{ page.url }}');
 				        $('title').text('{{ page.title }}');
