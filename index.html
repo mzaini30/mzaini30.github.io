@@ -8,7 +8,8 @@ layout: post-index
 {% assign acak_judul2 = post.title | size %}
 {% assign angka_postingan2 = post.date | date: "%s" | plus: random | plus: acak_judul %}
 
-<article class="body{{ angka_postingan2 }}">
+<div id="main" role="main" class="body{{ angka_postingan2 }}">
+<article>
     <!-- POST TITLE -->
     <header>
         <h1 class="entry-title">
@@ -55,6 +56,7 @@ layout: post-index
     </div>
     
 </article>
+</div>
 
 <script type="text/javascript">
     jQuery(function($){
