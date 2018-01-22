@@ -76,7 +76,7 @@
 							return deltas.top <= this.height() && deltas.bottom <= this.height();
 						}) == true){
 							history.pushState(null, null, '{{ site.url }}{{ page.url }}');
-					        $('title').html('{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}');
+					        $('title').html('{% if page.title %}{{ page.title | replace: "'", "&quot;" }} &#8211; {% endif %}{{ site.title }}');
 						}
 					});
 
