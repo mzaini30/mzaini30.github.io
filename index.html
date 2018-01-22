@@ -63,7 +63,7 @@ layout: post-index
                 return deltas.top <= this.height() && deltas.bottom <= this.height();
             }) == true){
                 history.pushState(null, null, '{{ site.url }}{{ post.url }}');
-                $('title').html('{% if post.title %}{{ post.title }} &#8211; {% endif %}{{ site.title }}');
+                $('title').html('{% if post.title %}{{ post.title | replace: "'", "&quot;" }} &#8211; {% endif %}{{ site.title }}');
             }
         });
     });    
