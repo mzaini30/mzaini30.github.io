@@ -60,7 +60,7 @@ layout: post-index
     jQuery(function($){
         $(window).scroll(function(){
             if($('.body{{ angka_postingan2 }}').isOnScreen(function(deltas){
-                return deltas.top <= this.height() - 200 && deltas.bottom <= this.height();
+                return deltas.top + 200 <= this.height() && deltas.bottom <= this.height();
             }) == true){
                 history.pushState(null, null, '{{ site.url }}{{ post.url }}');
                 $('title').html('{% if post.title %}{{ post.title | replace: "'", "&quot;" }} &#8211; {% endif %}{{ site.title }}');
