@@ -33,7 +33,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 	{% include feedjit.html %}
 
-	Domain Authority dan Page Authority blog ini adalah [21/33](https://moz.com/researchtools/ose/links?site=http%3A%2F%2Fmuhammadzaini.com&filter=&source=external&target=page&group=0&page=1&sort=page_authority&anchor_id=&anchor_type=&anchor_text=&from_site=).
+6. Domain Authority dan Page Authority blog ini adalah [21/33](https://moz.com/researchtools/ose/links?site=http%3A%2F%2Fmuhammadzaini.com&filter=&source=external&target=page&group=0&page=1&sort=page_authority&anchor_id=&anchor_type=&anchor_text=&from_site=).
 
 # Ya, Saya Ingin Bekerja Sama
 
