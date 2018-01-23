@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Hello World!"
-date: 2017-04-30 10:59:49
+title: Satu Juz Saja. Bisa Kan? :D
+date: 2018-01-23 12:35:49
 categories: posts
-tags: [tulisan pertama]
-gambar: https://i.ytimg.com/vi/yWTUkRYFkJ4/hqdefault.jpg
+tags: [quran, membaca quran]
+gambar: https://vignette.wikia.nocookie.net/villains/images/9/90/Dio_reading_in_the_dark.png/revision/latest?cb=20161228084537
 ---
 
-Ini adalah tulisan pertama. Tes dulu lah :D
