@@ -14,3 +14,6 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 1. Menggunakan Infinity Scroll sehingga membuat user membaca konten berikutnya secara acak tanpa perlu mengklik tombol _next_.
 
 	Berikut ini adalah beberapa tulisan tentang keunggulan Infinity Scroll:
+
+	- [How to Use the Infinite Scrolling Trend, the <i>Right</i> Way ](https://www.webdesignerdepot.com/2014/04/how-to-use-the-infinite-scrolling-trend-the-right-way/)
+	- [Infinite Scrolling: Is it Helping or Hurting Your Business?]
