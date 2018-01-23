@@ -17,4 +17,8 @@ Satu-dua ayat yang kita baca, sudah cukup bagi hati kita menyadari betapa agungn
 
 Semakin kita baca, semakin kita merasakan kehadiran surga-Nya dalam kehidupan kita.
 
-Satu ayat, dua ayat serasa kurang. Kita selalu ingin lebih. Ingin lebih menikmati suasana berduaan dengan kalam-Nya. Serasa tak ingin 
+Satu ayat, dua ayat serasa kurang. Kita selalu ingin lebih. Ingin lebih menikmati suasana berduaan dengan kalam-Nya. Serasa tak ingin lepas darinya. Lantas, apa yang senantiasa menyibukkan kita dan melalaikan kita dari melantunkan ayat-ayat-Nya?
+
+Satu juz sajaa... Aku harap masih ada waktu.
+
+Satu juz untuk hari ini. Aku ingin membacanya. Aku ingin meresapi berbagai kandungan maknanya. Aku ingin mengisi waktu kosongku dengan cahaya Quran.
