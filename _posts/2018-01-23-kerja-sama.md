@@ -16,4 +16,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 	Berikut ini adalah beberapa tulisan tentang keunggulan Infinity Scroll:
 
 	- [How to Use the Infinite Scrolling Trend, the <i>Right</i> Way ](https://www.webdesignerdepot.com/2014/04/how-to-use-the-infinite-scrolling-trend-the-right-way/)
-	- [Infinite Scrolling: Is it Helping or Hurting Your Business?]
+	- [Infinite Scrolling: Is it Helping or Hurting Your Business?](https://speckyboy.com/infinite-scrolling/)
+	- [Infinite Scrolling: Pros and Cons](https://designshack.net/articles/layouts/infinite-scrolling-pros-and-cons/)
+	- [UX: Infinite Scrolling vs. Pagination](https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1)
+	- [When To Use Infinite Scrolling And When To Avoid It](http://www.designyourway.net/blog/inspiration/when-to-use-infinite-scrolling-and-when-to-avoid-it/)
