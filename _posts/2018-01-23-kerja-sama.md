@@ -33,7 +33,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 	Di bawah ini adalah trafik pengunjung blog ini untuk 10 orang terbaru:
 
-	{% include feedjit.html %}
+	<!-- trafik di sini -->
 
 # Klien yang Sudah Bekerja Sama dengan Blog Ini
 
@@ -44,7 +44,3 @@ Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
 # Ya, Saya Ingin Bekerja Sama
 
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
-
-<script type="text/javascript">
-	$('p:contains("/center")').remove();
-</script>
