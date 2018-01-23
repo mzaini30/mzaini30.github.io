@@ -13,3 +13,8 @@ Lalu, ketika kita menjauh dari perkataan-Nya, bagaimanakah caranya kita memahami
 
 Begitu banyak kandungan hikmah yang terkandung di dalam Al Quran. Tentu saja hal itu dikarenakan Quran adalah panduan kehidupan kita. Berjuta-juta mutiara terkandung di dalam Quran, menunggu bagi pembacanya untuk menyibaknya. Ketika kita tidak membacanya, bukankah hati ini terasa gersang?
 
+Satu-dua ayat yang kita baca, sudah cukup bagi hati kita menyadari betapa agungnya kandungan kata-kata yang diwahyukan kepada kita. Berbagai kisah, hikmah, hukum, akhlak semuanya saling silih-berganti tatkala kita membaca ayat-ayat-Nya. Ada ayat-ayat tentang perang yang membuat kita semangat meraih kemuliaan Firdausnya. Ada ayat-ayat tentang riba dan utang yang membuat kita senantiasa menjauhinya. Ada ayat-ayat tentang kehidupan para Rasul zaman dulu yang membuat kita tersadar supaya tidak mengulangi kesalahan yang dilakukan umatnya.
+
+Semakin kita baca, semakin kita merasakan kehadiran surga-Nya dalam kehidupan kita.
+
+Satu ayat, dua ayat serasa kurang. Kita selalu ingin lebih. Ingin lebih menikmati suasana berduaan dengan kalam-Nya. Serasa tak ingin 
