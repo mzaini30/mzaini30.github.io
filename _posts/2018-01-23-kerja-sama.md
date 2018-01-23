@@ -35,6 +35,12 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 	{% include feedjit.html %}
 
+# Klien yang Sudah Bekerja Sama dengan Blog Ini
+
+Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
+
+- [Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh [Traveloka](http://traveloka.com)
+
 # Ya, Saya Ingin Bekerja Sama
 
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
