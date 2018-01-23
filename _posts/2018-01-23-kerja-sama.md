@@ -23,9 +23,11 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 2. Menggunakan gambar-gambar anime yang _cute_ atau _kawaii_ di berbagai postingan sehingga postingan akan terasa lebih segar dan nyaman dibaca.
 
-3. Menggunakan bahasa yang santai, ringkas, namun inti dari tulisan tersampaikan.
+3. Desain yang simpel, elegan, dan berfokus pada konten.
 
-4. Memiliki trafik pengunjung yang signifikan.
+4. Menggunakan bahasa yang santai, ringkas, namun inti dari tulisan tersampaikan.
+
+5. Memiliki trafik pengunjung yang signifikan.
 
 	Di bawah ini adalah trafik pengunjung blog ini:
 
