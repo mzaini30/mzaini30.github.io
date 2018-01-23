@@ -36,3 +36,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 # Ya, Saya Ingin Bekerja Sama
 
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
+
+<script type="text/javascript">
+	$('p:contains("/p")').remove();
+</script>
