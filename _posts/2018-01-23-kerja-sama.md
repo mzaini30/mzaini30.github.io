@@ -31,7 +31,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 6. Memiliki trafik pengunjung yang signifikan.
 
-	Di bawah ini adalah trafik pengunjung blog ini:
+	Di bawah ini adalah trafik pengunjung blog ini untuk 10 orang terbaru:
 
 	{% include feedjit.html %}
 
