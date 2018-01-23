@@ -20,3 +20,11 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 	- [Infinite Scrolling: Pros and Cons](https://designshack.net/articles/layouts/infinite-scrolling-pros-and-cons/)
 	- [UX: Infinite Scrolling vs. Pagination](https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1)
 	- [When To Use Infinite Scrolling And When To Avoid It](http://www.designyourway.net/blog/inspiration/when-to-use-infinite-scrolling-and-when-to-avoid-it/)
+
+2. Menggunakan gambar-gambar anime yang _cute_ atau _kawaii_ di berbagai postingan sehingga postingan akan terasa lebih segar dan nyaman dibaca.
+
+3. Menggunakan bahasa yang santai, ringkas, namun inti dari tulisan tersampaikan.
+
+# Ya, Saya Ingin Bekerja Sama
+
+Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
