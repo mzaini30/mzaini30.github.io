@@ -29,11 +29,11 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 5. Domain Authority dan Page Authority blog ini adalah [21/33](https://moz.com/researchtools/ose/links?site=http%3A%2F%2Fmuhammadzaini.com&filter=&source=external&target=page&group=0&page=1&sort=page_authority&anchor_id=&anchor_type=&anchor_text=&from_site=).
 
-6. Memiliki trafik pengunjung yang signifikan.
+<!-- 6. Memiliki trafik pengunjung yang signifikan.
 
 	Di bawah ini adalah trafik pengunjung blog ini untuk 10 orang terbaru:
 
-	{% include feedjit.html %}
+	{ include feedjit.html } -->
 
 # Klien yang Sudah Bekerja Sama dengan Blog Ini
 
