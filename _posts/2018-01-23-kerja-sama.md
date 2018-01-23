@@ -25,6 +25,12 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 3. Menggunakan bahasa yang santai, ringkas, namun inti dari tulisan tersampaikan.
 
+4. Memiliki trafik pengunjung yang signifikan.
+
+	Di bawah ini adalah trafik pengunjung blog ini:
+
+	{% include feedjit.html %}
+
 # Ya, Saya Ingin Bekerja Sama
 
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
