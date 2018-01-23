@@ -46,5 +46,5 @@ Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
 
 <script type="text/javascript">
-	$('p:contains("/p")').remove();
+	$('p:contains("/center")').remove();
 </script>
