@@ -33,30 +33,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 	Di bawah ini adalah trafik pengunjung blog ini untuk 10 orang terbaru:
 
-	{% raw %}
-	<!-- Histats.com  (div with counter) -->
-	<p>
-		<div id="histats_counter"></div>
-	</p>
-	<!-- Histats.com  START  (aync)-->
-	<script type="text/javascript">
-		var _Hasync= _Hasync|| [];
-		_Hasync.push(['Histats.start', '1,3995429,4,401,118,80,00011110']);
-		_Hasync.push(['Histats.fasi', '1']);
-		_Hasync.push(['Histats.track_hits', '']);
-		(function() {
-			var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-			hs.src = ('//s10.histats.com/js15_as.js');
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-		})();
-	</script>
-	<noscript>
-		<a href="/" target="_blank">
-			<img  src="//sstatic1.histats.com/0.gif?3995429&101" alt="" border="0">
-		</a>
-	</noscript>
-	<!-- Histats.com  END  -->
-	{% endraw %}
+	{% include feedjit.html %}
 
 # Klien yang Sudah Bekerja Sama dengan Blog Ini
 
