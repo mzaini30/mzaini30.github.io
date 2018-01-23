@@ -38,5 +38,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
 
 <script type="text/javascript">
-	$('p:contains("&lt;/p&gt;")').remove();
+	// $('p:contains("&lt;/p&gt;")').remove();
+	$('p').text().replace(/&lt;\/p&gt;/g, '');
 </script>
+<!-- $('p').text().replace(/&lt;\/p&gt;/g, ''); -->
