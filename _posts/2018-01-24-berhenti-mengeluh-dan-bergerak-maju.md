@@ -19,3 +19,10 @@ Ketika waktu terasa cepat berlalu, bukankah kita masih punya harapan untuk menge
 
 Ketika kita melihat pemimpin kita nggak becus mengurus rakyatnya, bukankah kita masih punya harapan untuk mengangkat kesejahteraaan kita sendiri dengan saling tolong-menolong satu sama lain?
 
+Ketika kita melihat jalanan yang senantiasa hancur, bukankah kita punya harapan untuk memilih jalan yang lebih baik?
+
+Ketika kita menemukan bahwa harga barang-barang senantiasa meroket, bukankah kita punya harapan dengan cara berhemat?
+
+Dengan harapan, segalanya menjadi lebih indah, lebih positif, dan kehidupan di dunia ini menjadi sesuatu yang menyenangkan.
+
+Ketika tidak lagi ada harapan, untuk apa kita diciptakan?
