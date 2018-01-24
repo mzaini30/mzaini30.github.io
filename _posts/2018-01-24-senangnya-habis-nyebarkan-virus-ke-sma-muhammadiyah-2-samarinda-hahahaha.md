@@ -56,11 +56,11 @@ _What?_ Setiap yang banyak itu cewek? Doktrin dari mana lagi ini? Hehehehe.... :
 Jadi, penjelasannya kayak gini ya.. Setiap ada kata benda yang bukan manusia, ketika jumlahnya ada banyak, maka _dhomirnya_ menjadi _muannats_.
 
 Contohnya adalah spidol. Apa bahasa Arabnya spidol? Yap bener,
-قلام
+قلم
 . Nah, kalau spidolnya ada banyak kan jadinya
 أقلام
 . Maka, bahasa Arabnya "ini satu spidol" adalah
-هذا قلام
+هذا قلم
 . Sedangkan kalau bahasa Arabnya "ini banyak spidol" adalah
 هذه أقلام
 . Nah, coba kita perhatikan. Untuk spidol yang banyak, kita menggunakan
