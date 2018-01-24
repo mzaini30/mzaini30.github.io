@@ -11,3 +11,11 @@ Kalau kita suka mengeluh, sebenarnya segala hal di dunia ini selalu bisa dikeluh
 
 Itukah tujuan kita hidup?
 
+Rasanyaaa... kayak nggak guna banget ya, kita mengeluhkan segala sesuatu. Rasanya sumpek gitu. Kita kan maunya memikirkan yang enak-enak aja, yang nyaman-nyaman, segala hal yang positif, nggak mau dipusingkan dengan pikiran-pikiran negatif. Terus untuk apa mengeluh? Banyak hal yang bisa kita lakukan daripada mengeluh. Kita masih punya harapan. Itulah energi terbesar manusia untuk berubah dan merubah segalanya. Kalau kita lebih suka mengeluh, berarti sama saja dengan kita mencampakkan kekuatan terbesar di dalam diri kita yaitu harapan.
+
+Ketika makanan terasa hambar, bukankah kita masih punya harapan untuk mengubahnya dengan menambahkan bumbu?
+
+Ketika waktu terasa cepat berlalu, bukankah kita masih punya harapan untuk mengefektifkannya dengan membuat segala kegiatan kita terorganisir?
+
+Ketika kita melihat pemimpin kita nggak becus mengurus rakyatnya, bukankah kita masih punya harapan untuk mengangkat kesejahteraaan kita sendiri dengan saling tolong-menolong satu sama lain?
+
