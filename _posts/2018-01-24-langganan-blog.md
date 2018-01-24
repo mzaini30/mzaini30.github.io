@@ -15,4 +15,4 @@ Kamu bisa mengikutin postingan terbaru blog ini dengan __salah satu__ cara berik
 
 - Scan QR Code berikut:
 
-	![]()
+	![](https://s25.postimg.org/w4q92g2hr/blog_zen.png)
