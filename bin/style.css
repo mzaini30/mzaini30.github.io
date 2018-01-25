@@ -1,3 +1,13 @@
+* {
+	word-wrap: break-word;
+	direction: all;
+}
+
+.muncul-sekali,
+.muncul-sekali-2 {
+    display: none;
+}
+
 .entry-content img {
 	display: block;
 	margin: auto;
