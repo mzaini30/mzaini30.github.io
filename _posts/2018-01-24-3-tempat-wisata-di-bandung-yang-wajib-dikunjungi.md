@@ -13,11 +13,11 @@ Nah, bagi yang sedang merencanakan perjalanan wisata ke Bandung bersama pasangan
 
 # 1. Punclut
 
-Sumber : pergidulu.com
+Sumber: pergidulu.com
 
 Punclut atau Puncak Ciumbuleuit adalah objek wisata yang eksotis, khususnya pada malam hari. Karena terletak lebih tinggi dari daerah sekitarnya, pengunjung dapat melihat pemandangan Kota Bandung yang sangat memukau. Dihiasi oleh cahaya lampu kota di kejauhan yang terlihat sangat cantik, suasana di tempat ini terasa romantis. 
 
-Ada banyak restoran maupun warung makan di sekitar area Punclut, mulai dari restoran yang menawarkan menu tradisional hingga western. Beragamnya jenis makanan yang tersedia menjadi salah satu daya tarik wisatawan. Karena itu, jika ingin menikmati makan malam romantis bersama pasangan, Anda bisa mengajaknya ke Punclut.
+Ada banyak restoran maupun warung makan di sekitar area Punclut, mulai dari restoran yang menawarkan menu tradisional hingga _western_. Beragamnya jenis makanan yang tersedia menjadi salah satu daya tarik wisatawan. Karena itu, jika ingin menikmati makan malam romantis bersama pasangan, Anda bisa mengajaknya ke Punclut.
 
 # 2. Jalan Braga
 
@@ -27,7 +27,7 @@ Seperti halnya Jalan Malioboro di Jogja, Jalan Braga memiliki nuansa unik yang t
 
 Kawah putih adalah danau yang terbentuk secara alami karena letusan Gunung Patuha. Disebut Kawah Putih karena air yang berada di kawah memang berwarna putih kehijauan, demikian pula tanah di sekitarnya yang bercampur dengan belerang. 
 
-Bukan hanya itu, pemandangan di sekitar kawah juga sangat menakjubkan sehingga sering digunakan sebagai lokasi untuk foto prewedding. Untuk mencapai Kawah Putih, pengunjung juga harus melewati hamparan kebun teh yang hijau dan asri. Tak diragukan lagi, Anda dapat mengajak pasangan menghabiskan liburan di Kawah Putih.
+Bukan hanya itu, pemandangan di sekitar kawah juga sangat menakjubkan sehingga sering digunakan sebagai lokasi untuk foto _prewedding_. Untuk mencapai Kawah Putih, pengunjung juga harus melewati hamparan kebun teh yang hijau dan asri. Tak diragukan lagi, Anda dapat mengajak pasangan menghabiskan liburan di Kawah Putih.
 
 # 4. The Ranch
 
@@ -35,7 +35,7 @@ Berpose ala koboi yang sedang mengendarai kuda dapat Anda lakukan di The Ranch, 
 
 # 5. The Lodge Maribaya
 
-Sumber : ngetripyuk.id
+Sumber: ngetripyuk.id
 
 Pilihan objek wisata lain yang bisa Anda kunjungi bersama pasangan di Bandung adalah The Lodge Maribaya. Tempat ini sangat menarik terutama karena hutan pinus yang membentang di depan mata. Ada banyak _spot_ yang sengaja disediakan sebagai tempat berfoto, misalnya sepeda atau ayunan di ketinggian. Selain berburu foto-foto unik, Anda juga dapat menikmati kuliner Bandung karena objek wisata ini dilengkapi dengan resto dan kafe. 
 
