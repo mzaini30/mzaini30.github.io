@@ -4,7 +4,7 @@ title: Pekerjaan Rumah Itu Sebenarnya adalah Sarana Kita untuk Meningkatkan Diri
 date: 2018-01-25 17:37:49
 categories: posts
 tags: [kehidupan, life, semangat, upgrade diri]
-gambar: 
+gambar: https://stat.ameba.jp/user_images/20140816/01/sanchipinchi/7d/34/j/o0800045013035976834.jpg?caw=800
 ---
 
 Jarang kita menyadari bahwa sesungguhnya pekerjaan rumah itu adalah sarana bagi kita untuk meningkatkan diri.
