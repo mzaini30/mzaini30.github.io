@@ -13,6 +13,8 @@ Nah, bagi yang sedang merencanakan perjalanan wisata ke Bandung bersama pasangan
 
 # 1. Punclut
 
+![](https://s25.postimg.org/dk6m9fbof/Picture1.png)
+
 Sumber: pergidulu.com
 
 Punclut atau Puncak Ciumbuleuit adalah objek wisata yang eksotis, khususnya pada malam hari. Karena terletak lebih tinggi dari daerah sekitarnya, pengunjung dapat melihat pemandangan Kota Bandung yang sangat memukau. Dihiasi oleh cahaya lampu kota di kejauhan yang terlihat sangat cantik, suasana di tempat ini terasa romantis. 
@@ -34,6 +36,8 @@ Bukan hanya itu, pemandangan di sekitar kawah juga sangat menakjubkan sehingga s
 Berpose ala koboi yang sedang mengendarai kuda dapat Anda lakukan di The Ranch, Lembang. Suasana alam yang masih asri di sekitar kawasan ini pun membuat suasana terasa lebih romantis. Di The Ranch, Anda dan pasangan dapat mencoba pengalaman baru, yaitu menunggang kuda melewati jalur yang telah disediakan. Setelah itu, Anda bisa beristirahat sambil mengisi perut di restoran yang tersedia di sini.
 
 # 5. The Lodge Maribaya
+
+![](https://s25.postimg.org/j8cx0c367/Picture2.png)
 
 Sumber: ngetripyuk.id
 
