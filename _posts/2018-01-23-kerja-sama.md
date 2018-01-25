@@ -40,6 +40,7 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
 
 - [Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh [Traveloka](http://traveloka.com)
+- [3 Tempat Wisata di Bandung yang Wajib Dikunjungi](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh [Traveloka](http://traveloka.com)
 
 # Ya, Saya Ingin Bekerja Sama
 
