@@ -1,11 +1,9 @@
 @font-face {
-	font-family: arab;
 	font-size: 20px;
 	unicode-range: U+0600-06FF;	
 }
 
 * {
-	font-family: arab;
 	word-wrap: break-word;
 	direction: all;
 }
