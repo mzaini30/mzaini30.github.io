@@ -11,3 +11,8 @@ Berawal dari percakapan dengan Mbak Dwi, salah satu anggota ODOP (one day one po
 
 Oke, langsung aja lah, bagi kalian yang ingin melihat bagaimana bentuknya blognya Mbak Dwi, bisa langsung buka aja [seberkascahaya55.blogspot.co.id/](http://seberkascahaya55.blogspot.co.id/)
 
+![](https://s25.postimg.org/qv44df0en/Screenshot_from_2018-01-26_18_29_33.png)
+
+Sebelumnya minta maaf sama Mbak Dwi ya, kalau reviewnya terkesan asal-asalan dan kayak nggak niat. Bukannya nggak niat Mbak, cuma memang gaya penulisan saya yang terkesan asal-asalan :D
+
+# Niche Blog Lifestyle
