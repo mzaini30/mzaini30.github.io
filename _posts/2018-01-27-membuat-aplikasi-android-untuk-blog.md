@@ -55,3 +55,4 @@ Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan me
 
 12. _Scan_ QR Code tersebut menggunakan aplikasi QR Code Reader di android, lalu kamu akan mendapatkan link untuk mendownload aplikasi buatanmu tersebut. Selesai :D
 
+	![](https://s25.postimg.org/665mzdv3j/Screenshot_2018-01-27-13-39-09.jpg)
