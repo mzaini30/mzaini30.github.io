@@ -11,4 +11,12 @@ gambar: https://s25.postimg.org/fdxvgc9y7/P_20180127_100715.jpg
 
 Kupandangi sekali lagi SMS yang dikirim kemarin itu. Hmm... _Tutup lagi nih tokonya pagi ini_, pikirku. Tapi ya, namanya kalau sudah jadi bagian dari suatu organisasi tentu saja kan harus mengikuti kegiatan di organisasi tersebut. Nah, saya kan guru di SMA Muhammadiyah 2, tentu saja kan harus hadir :D
 
-Acara berlangsung meriah. Maaf ya, meriahnya nggak saya jabarkan :D pengen langsung bahas intinya sih :D Nah, jadi kan, ada sambutan dari KH Siswanto selaku pimpinan tertinggi Muhammadiyah Kaltim
+Acara berlangsung meriah. Maaf ya, meriahnya nggak saya jabarkan :D pengen langsung bahas intinya sih :D Nah, jadi kan, ada sambutan dari KH Siswanto selaku pimpinan tertinggi Muhammadiyah Kaltim. Dari sambutan tersebut, ada beberapa poin yang sangat menggugah banget bagi kami para guru di SMA Muhammadiyah 2:
+
+1. Lepaskan zona nyamanmu.
+
+2. Berlarilah di saat orang lain diam saja.
+
+3. Jangan menunggu bola, jemputlah bola.
+
+4. Buatlah inovasi.
