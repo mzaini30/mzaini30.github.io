@@ -48,3 +48,10 @@ Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan me
 10. Klik PUBLISH.
 
 	![](https://s25.postimg.org/a1912gm4f/Screenshot_from_2018-01-27_13_36_23.png)
+
+11. _Scroll_ ke bawah sampai menemukan QR Code.
+
+	![](https://s25.postimg.org/afad1jqn3/Screenshot_from_2018-01-27_13_39_37.png)
+
+12. _Scan_ QR Code tersebut menggunakan aplikasi QR Code Reader di android, lalu kamu akan mendapatkan link untuk mendownload aplikasi buatanmu tersebut. Selesai :D
+
