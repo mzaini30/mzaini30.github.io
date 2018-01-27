@@ -29,18 +29,13 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 5. Domain Authority dan Page Authority blog ini adalah [21/33](https://moz.com/researchtools/ose/links?site=http%3A%2F%2Fmuhammadzaini.com&filter=&source=external&target=page&group=0&page=1&sort=page_authority&anchor_id=&anchor_type=&anchor_text=&from_site=).
 
-<!-- 6. Memiliki trafik pengunjung yang signifikan.
-
-	Di bawah ini adalah trafik pengunjung blog ini untuk 10 orang terbaru:
-
-	{ include feedjit.html } -->
-
 # Klien yang Sudah Bekerja Sama dengan Blog Ini
 
 Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
 
 - [3 Tempat Wisata di Bandung yang Wajib Dikunjungi](http://muhammadzaini.com/2018/01/25/3-tempat-wisata-di-bandung-yang-wajib-dikunjungi.html) oleh [Airy Rooms](https://www.airyrooms.com)
 - [Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh [Traveloka](http://traveloka.com)
+- [Umbul Manten Kolam Alami Jernih di Klaten, Harga Tiket Masuk + Peta Lokasi](http://muhammadzaini.com/2018/01/27/umbul-manten-kolam-alami-jernih-di-klaten-harga-tiket-masuk-peta-lokasi.html) oleh [Dolan Yok](http://dolanyok.com)
 
 # Ya, Saya Ingin Bekerja Sama
 
