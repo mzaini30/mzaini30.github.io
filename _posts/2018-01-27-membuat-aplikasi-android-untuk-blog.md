@@ -23,4 +23,14 @@ Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan me
 
 4. _Scroll_ sampai ke bawah lalu klik NEXT.
 
-	
+	![](https://s25.postimg.org/rejbh64j3/Screenshot_from_2018-01-27_13_24_55.png)
+
+5. Masukkan nama aplikasinya lalu klik NEXT.
+
+	![](https://s25.postimg.org/g26pzeqpb/Screenshot_from_2018-01-27_13_26_24.png)
+
+6. Isi _Description_ lalu klik NEXT.
+
+	![](https://s25.postimg.org/7woo19hvz/Screenshot_from_2018-01-27_13_27_22.png)
+
+7. Setelah itu, kamu bisa menentukan ikon aplikasi dengan memilih `Custom 
