@@ -15,8 +15,14 @@ Acara berlangsung meriah. Maaf ya, meriahnya nggak saya jabarkan :D pengen langs
 
 1. Lepaskan zona nyamanmu.
 
+	Setiap orang suka dengan zona nyaman. Namun, zona nyaman tersebut membuat kita semakin tergilas oleh perkembangan. Ketika kita di zona nyaman, nggak ngapa-ngapain, males ngapa-ngapain, nah, di situlah orang lain berjalan dan akhirnya kitapun tergilas dan ketinggalan.
+
 2. Berlarilah di saat orang lain diam saja.
 
 3. Jangan menunggu bola, jemputlah bola.
 
+	Jangan menunggu sesuatu kesempatan, melainkan carilah kesempatan itu dan ambillah kesempatan itu. Lalu, KH Siswanto pun menjelaskan bahwa menjadi seorang pemimpin itu harus _open mind_ sehingga bisa mengetahui perkembangan yang sedang terjadi. Jangan _blocking_ terhadap berbagai kritik. Entah itu kritik membangun atau merusak. Cerna aja semuanya. Nah, ketika bisa memahami berbagai perkembangan yang terjadi, kita pun akhirnya bisa mengambil langkah-langkah strategis.
+
 4. Buatlah inovasi.
+
+	Di zaman yang serba berubah ini, inovasi diperlukan supaya bisa unggul dengan sekolah-sekolah lain. 
