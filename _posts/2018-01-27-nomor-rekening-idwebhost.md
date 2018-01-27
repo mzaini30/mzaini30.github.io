@@ -32,3 +32,17 @@ Yogyakarta
 1370004503344	
 Sayid Munawar
 
+Bank Rakyat Indonesia	
+Yogyakarta	
+301701000075508	
+Sigit Supriyanto
+
+Bank Niaga	
+Yogyakarta	
+700184886500	
+Sayid Munawar
+
+Bank Internasional Indonesia	
+Yogyakarta	
+1-027-551167	
+Sayid Munawar
