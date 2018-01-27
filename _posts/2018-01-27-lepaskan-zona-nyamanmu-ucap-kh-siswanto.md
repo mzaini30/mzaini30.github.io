@@ -25,4 +25,4 @@ Acara berlangsung meriah. Maaf ya, meriahnya nggak saya jabarkan :D pengen langs
 
 4. Buatlah inovasi.
 
-	Di zaman yang serba berubah ini, inovasi diperlukan supaya bisa unggul dengan sekolah-sekolah lain. 
+	Di zaman yang serba berubah ini, inovasi diperlukan supaya bisa unggul dengan sekolah-sekolah lain. Lalu, KH Siswanto pun mengatakan bahwa beliau salut pada SMK Muhammadiyah 1 yang membuat inovasi dan inovasi tersebut belum dilakukan oleh sekolah lain. Nah, inovasinya itu apa, saya belum dapat infonya. Masih nyari juga :D
