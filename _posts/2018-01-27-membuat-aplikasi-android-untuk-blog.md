@@ -10,3 +10,9 @@ gambar: https://78.media.tumblr.com/tumblr_m50z22PoSc1rxq4udo1_500.gif
 Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan memberikan tips tentang bagaimana caranya membuat aplikasi android untuk blog yang kita miliki. Langsung aja lah :D
 
 1. Buka [appsgeyser.com](https://www.appsgeyser.com/) lalu pilih CREATE APP.
+
+	![](https://s25.postimg.org/en55ai2f3/Screenshot_from_2018-01-27_13_18_56.png)
+
+2. Pilih WEBSITE.
+
+	![](https://s25.postimg.org/xs8ekb6tb/Screenshot_from_2018-01-27_13_20_39.png)
