@@ -2,7 +2,7 @@
 layout: post
 title: "Menghubungkan Domain di Idwebhost dengan Hosting di Github Pages"
 date: 2017-08-08 17:48:29
-gambar: "http://www.imgbase.info/images/safe-wallpapers/anime/anime_girls/48454_anime_girls_anime_girls_room.jpg"
+gambar: https://topvpnsoftware.com/wp-content/uploads/2017/11/hacking2.jpg
 categories: posts
 tags: [hosting, idwebhost, github, domain, dotcom]
 ---
