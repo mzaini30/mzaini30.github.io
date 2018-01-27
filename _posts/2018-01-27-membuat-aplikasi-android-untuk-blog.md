@@ -44,3 +44,7 @@ Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan me
 9. Setelah itu, _loginlah_ untuk bisa membuat aplikasi. Atau, `Register` apabila belum memiliki akun.
 
 	![](https://s25.postimg.org/i6r30jacf/Screenshot_from_2018-01-27_13_30_48.png)
+
+10. Klik PUBLISH.
+
+	![](https://s25.postimg.org/a1912gm4f/Screenshot_from_2018-01-27_13_36_23.png)
