@@ -33,4 +33,14 @@ Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan me
 
 	![](https://s25.postimg.org/7woo19hvz/Screenshot_from_2018-01-27_13_27_22.png)
 
-7. Setelah itu, kamu bisa menentukan ikon aplikasi dengan memilih `Custom 
+7. Setelah itu, kamu bisa menentukan ikon aplikasi dengan memilih `Custom icon` atau bisa menggunakan `Default icon`. Setelah itu, klik NEXT.
+
+	![](https://s25.postimg.org/40bc5a4m7/Screenshot_from_2018-01-27_13_28_20.png)
+
+8. Klik `Create`.
+
+	![](https://s25.postimg.org/l0u8dypdb/Screenshot_from_2018-01-27_13_29_41.png)
+
+9. Setelah itu, _loginlah_ untuk bisa membuat aplikasi. Atau, `Register` apabila belum memiliki akun.
+
+	![](https://s25.postimg.org/i6r30jacf/Screenshot_from_2018-01-27_13_30_48.png)
