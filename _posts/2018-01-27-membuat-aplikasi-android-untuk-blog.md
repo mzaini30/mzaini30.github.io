@@ -16,3 +16,11 @@ Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan me
 2. Pilih WEBSITE.
 
 	![](https://s25.postimg.org/xs8ekb6tb/Screenshot_from_2018-01-27_13_20_39.png)
+
+3. Masukkan URL blogmu lalu klik GO.
+
+	![](https://s25.postimg.org/ldlmjzn0v/Screenshot_from_2018-01-27_13_22_35.png)
+
+4. _Scroll_ sampai ke bawah lalu klik NEXT.
+
+	
