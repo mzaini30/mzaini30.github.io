@@ -17,29 +17,21 @@ Hmmm... kasih tau nggak ya? :D
 
 Jadi, kan kisahnya saya ngajar ni di SMA Muhammadiyah 2 Samarinda, pelajaran bahasa Arab. Nah, ketika pelajaran bahasa Arab, daripada cara menghapal biasa yang melelahkan, akhirnya saya pakai lagu deh, untuk menghapalkan bahasa Arabnya bentuk-bentuk pertanyaan. Berikut ini adalah kosakata yang kita hapalkan:
 
-أين
-di mana
+<span class='arab'>أين</span> di mana
 
-لماذا
-mengapa
+<span class='arab'>لماذا</span> mengapa
 
-هل
-apakah
+<span class='arab'>هل</span> apakah
 
-كيف
-bagaimana
+<span class='arab'>كيف</span> bagaimana
 
-هذا هذه
-ini
+<span class='arab'>هذا هذه</span> ini
 
-تلك ذلك
-itu
+<span class='arab'>تلك ذلك</span> itu
 
-كم
-berapa
+<span class='arab'>كم</span> berapa
 
-مع من
-sama siapa
+<span class='arab'>مع من</span> sama siapa
 
 Horeeee....
 
