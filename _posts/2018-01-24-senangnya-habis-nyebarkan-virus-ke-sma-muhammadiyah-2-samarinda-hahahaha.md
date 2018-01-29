@@ -47,27 +47,11 @@ _What?_ Setiap yang banyak itu cewek? Doktrin dari mana lagi ini? Hehehehe.... :
 
 Jadi, penjelasannya kayak gini ya.. Setiap ada kata benda yang bukan manusia, ketika jumlahnya ada banyak, maka _dhomirnya_ menjadi _muannats_.
 
-Contohnya adalah spidol. Apa bahasa Arabnya spidol? Yap bener,
-قلم
-. Nah, kalau spidolnya ada banyak kan jadinya
-أقلام
-. Maka, bahasa Arabnya "ini satu spidol" adalah
-هذا قلم
-. Sedangkan kalau bahasa Arabnya "ini banyak spidol" adalah
-هذه أقلام
-. Nah, coba kita perhatikan. Untuk spidol yang banyak, kita menggunakan
-هذه
-sedangkan
-هذه
-itu dipakai untuk menunjukkan kata benda perempuan (
-مؤنث
-) padahal kan spidol tadi itu ketika jumlahnya hanya satu, dia itu laki-laki (
-مذكر
-). Kok bisa ya jadi perempuan ketika jumlahnya banyak? Maka, kembali ke kaidah tadi:
+Contohnya adalah spidol. Apa bahasa Arabnya spidol? Yap bener, <span class='arab'>قلم</span>. Nah, kalau spidolnya ada banyak kan jadinya <span class='arab'>أقلام</span>. Maka, bahasa Arabnya "ini satu spidol" adalah <span class='arab'>هذا قلم</span>. Sedangkan kalau bahasa Arabnya "ini banyak spidol" adalah <span class='arab'>هذه أقلام</span>. Nah, coba kita perhatikan. Untuk spidol yang banyak, kita menggunakan <span class='arab'>هذه</span> sedangkan <span class='arab'>هذه</span> itu dipakai untuk menunjukkan kata benda perempuan (<span class='arab'>مؤنث</span>) padahal kan spidol tadi itu ketika jumlahnya hanya satu, dia itu laki-laki (<span class='arab'>مذكر</span>). Kok bisa ya jadi perempuan ketika jumlahnya banyak? Maka, kembali ke kaidah tadi:
 
 > Setiap yang banyak itu cewek.
 
->
-كل جمع مؤنث
+> كل جمع مؤنث
+{:.arab}
 
 Keren kan virus-virusnya? Siapa bilang belajar bahasa Arab nggak mengasyikkan? :D
