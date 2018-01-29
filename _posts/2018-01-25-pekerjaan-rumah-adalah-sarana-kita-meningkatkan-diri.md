@@ -27,21 +27,17 @@ Apakah kita berpikir bahwa pekerjaan rumah hanya satu ini aja dan tidak datang l
 
 Tentu saja nggak kan? Pasti setelah itu, kita akan mengerjakan yang lain. Begitu seterusnya sehingga semakin meningkatlah _skill_ kita.
 
+> و العصر
 >
-و العصر
-
+> إن الإنسان لفي خسر
 >
-إن الإنسان لفي خسر
-
->
-إلا الذين آمنوا وعملوا الصالحات وتواصوا بالحق وتواصوا بالصبر
+> إلا الذين آمنوا وعملوا الصالحات وتواصوا بالحق وتواصوا بالصبر
+{:.arab}
 
 > Demi masa
-
+>
 > Sesungguhnya manusia itu benar-benar berada dalam kerugian
-
+>
 > Kecuali orang-orang yang beriman, beramal saleh, menasehati dalam kebenaran, dan menasehati dalam kesabaran
 
-Waktu itu berharga. Sangat berharga. Kalau kata orang Arab,
-الوقت كالسيف۔ إن لم تقطع قطعك
-. 'Waktu itu seperti pedang. Kalau kamu nggak memenggalnya, dia yang akan memenggalmu'. Ngeri banget kan? Makanya, kita jangan sampai menyia-nyiakan waktu dan memanfaatkannya dengan sebaik-baiknya.
+Waktu itu berharga. Sangat berharga. Kalau kata orang Arab, <span class='arab'>الوقت كالسيف۔ إن لم تقطع قطعك</span>. 'Waktu itu seperti pedang. Kalau kamu nggak memenggalnya, dia yang akan memenggalmu'. Ngeri banget kan? Makanya, kita jangan sampai menyia-nyiakan waktu dan memanfaatkannya dengan sebaik-baiknya.
