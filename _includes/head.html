@@ -81,18 +81,14 @@
 <style type="text/css">body {background-image:url({{ background }});}</style>
 {% endif %}
 
-<!-- <script type="text/javascript" src="/bin/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="/bin/jquery.jscroll.js"></script> -->
-<!-- <script type="text/javascript" src="/bin/infinity.js"></script> -->
-
-<script type="text/javascript">
-	{% include jquery-3.2.1.min.js %}
-</script>
 <script type="text/javascript">
 	{% include jquery.jscroll.js %}
 </script>
 <script type="text/javascript">
 	{% include jquery.isonscreen.min.js %}
+</script>
+<script type="text/javascript">
+	document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'/bin/jquery-3.2.1.min.js?'+Math.random()+'\'></sc'+'ript>');
 </script>
 
 <script type="text/javascript">
