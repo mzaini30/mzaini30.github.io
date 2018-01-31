@@ -13,4 +13,10 @@ Ini ada kaitannya dengan motivasi mungkin ya. Ketika kita memiliki motivasi inte
 
 Tapi, manusia yang normal itu sebenarnya nggak rasional. Bertindak berdasarkan pengalaman, bukan pengamatan empiris. Lebih mengandalkan otak kanan yang bersifat reflektif dan imajinatif, bukan otak kiri yang bersifat logis. Itu berarti, manusia tidak akan pernah bisa memiliki motivasi internal yang kuat tanpa diganggu oleh motivasi eksternalnya. Lingkungan sangat berpengaruh.
 
-Namun, bukan berarti nggak bisa dilatih ya. Kita bisa melatih diri kita, secara fisik dan mental untuk melakukan sesuatu, berpikir, atau merencanakan sesuatu, yang berlainan dengan kondisi lingkungan saat ini. 
+Namun, bukan berarti nggak bisa dilatih ya. Kita bisa melatih diri kita, secara fisik dan mental untuk melakukan sesuatu, berpikir, atau merencanakan sesuatu, yang berlainan dengan kondisi lingkungan saat ini. Kemampuan tersebut dinamakan kemampuan intelejensi. Kemampuan khasnya agen rahasia seperti di film-film macam 007.
+
+Itu nyata.
+
+Nah, bagi kita yang orang biasa-biasa aja, bukan juga intelijen yang sudah terlatih itu, kita bisa membuat diri kita semangat lagi dengan menyiapkan suasana yang membuat kita semangat. Entah itu makan yang banyak, beli terang bulan, mendengarkan muratal, tidur sejenak, main _game_, atau apapun yang bisa membuat kita semangat lagi. Yang penting kita mau semangat. Itu dulu. Kalau kita nggak mau, maka kita nggak bisa mengusahakan diri kita supaya semangat.
+
+_Ganbatte..._
