@@ -2,7 +2,7 @@
 layout: post
 title: "Pure CSS: Menyesuaikan Tinggi Elemen Berdasarkan Lebarnya"
 date: 2017-07-30 09:51:22
-gambar: "http://dncache-mauganscorp.netdna-ssl.com/thumbseg/670/670844-bigthumbnail.jpg"
+gambar: https://images-na.ssl-images-amazon.com/images/I/71ZDYsb%2BOCL.png
 categories: posts
 tags: [koding, html, css]
 ---
