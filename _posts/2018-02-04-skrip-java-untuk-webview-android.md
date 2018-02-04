@@ -7,6 +7,25 @@ tags: [skrip, android, java]
 gambar: https://img1.liveinternet.ru/images/attach/d/1/133/354/133354845_caramembuatflatanime.jpg
 ---
 
+Layout:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <WebView
+       android:id="@+id/webview01"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_weight="1">
+   </WebView>
+
+</LinearLayout>
+```
+
 Skrip Java:
 
 ```java
@@ -79,23 +98,4 @@ public class Puasa2018Activity extends Activity {
     return super.onKeyDown(keyCode, event);
    }
 }
-```
-
-Layout:
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
-
-    <WebView
-       android:id="@+id/webview01"
-       android:layout_height="wrap_content"
-       android:layout_width="fill_parent"
-       android:layout_weight="1">
-   </WebView>
-
-</LinearLayout>
 ```
