@@ -29,7 +29,7 @@
                 <!-- POST CONTENT -->
                 <div class="entry-content">
                     <p>
-                        <img src="{{ page.gambar }}">
+                        <img src="{{ page.gambar | replace: 'https', 'http' }}">
                     </p>
                     {{ page.content }}
                     <center>
