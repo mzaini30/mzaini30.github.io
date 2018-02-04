@@ -11,3 +11,6 @@ Berikut ini adalah kebijakan privasi dari setiap aplikasi Android yang saya buat
 
 1. Saya tidak mengumpulkan data pengguna pada setiap aplikasi yang saya buat.
 2. Saya tidak mengumpulkan informasi sensitif yang dimiliki pengguna seperti pin ATM, nomor HP, dan lain sebagainya.
+3. Semua aplikasi yang saya buat aman untuk keluarga.
+
+Apabila terdapat beberapa poin yang masih belum dapat dipahami, silahkan hubungi saya.
