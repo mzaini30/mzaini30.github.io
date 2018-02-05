@@ -39,6 +39,12 @@ Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
 - [Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh [Traveloka](http://traveloka.com)
 - [Umbul Manten Kolam Alami Jernih di Klaten, Harga Tiket Masuk + Peta Lokasi](http://muhammadzaini.com/2018/01/27/umbul-manten-kolam-alami-jernih-di-klaten-harga-tiket-masuk-peta-lokasi.html) oleh [Dolan Yok](http://dolanyok.com)
 
+# Saya Juga Membuka Jasa Upload Aplikasi Android ke Play Store
+
+Punya aplikasi Android tapi belum punya akun Play Store? Nggak usah khawatir, saya bisa bantu uploadkan ke Play Store dengan harga yang sangat murah. Berikut ini adalah klien saya yang saya bantu uploadkan ke Play Store:
+
+- [Seindah Sunnah](https://play.google.com/store/apps/details?id=com.mzaini30.seindahsunnah)
+
 # Ya, Saya Ingin Bekerja Sama
 
 Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
