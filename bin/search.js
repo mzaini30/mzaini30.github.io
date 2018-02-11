@@ -151,7 +151,8 @@ function showSearchResults(results) {
 function populateResultContent(html, item) {
     html = injectContent(html, item.title, '##Title##');
     html = injectContent(html, item.link, '##Link##');
-    html = injectContent(html, item.excerpt, '##Excerpt##');
+    html = injectContent(html, item.gambar, '##Gambar##');
+    // html = injectContent(html, item.excerpt, '##Excerpt##');
     return html;
 }
 

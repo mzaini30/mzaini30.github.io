@@ -11,25 +11,15 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 # Keunggulan Blog Ini
 
-1. Menggunakan Infinity Scroll sehingga membuat user membaca konten berikutnya secara acak tanpa perlu mengklik tombol _next_.
+1. Menggunakan gambar-gambar anime yang _cute_ atau _kawaii_ di berbagai postingan sehingga postingan akan terasa lebih segar dan nyaman dibaca.
 
-	Berikut ini adalah beberapa tulisan tentang keunggulan Infinity Scroll:
+2. Desain yang simpel, elegan, dan berfokus pada konten.
 
-	- [How to Use the Infinite Scrolling Trend, the <i>Right</i> Way ](https://www.webdesignerdepot.com/2014/04/how-to-use-the-infinite-scrolling-trend-the-right-way/)
-	- [Infinite Scrolling: Is it Helping or Hurting Your Business?](https://speckyboy.com/infinite-scrolling/)
-	- [Infinite Scrolling: Pros and Cons](https://designshack.net/articles/layouts/infinite-scrolling-pros-and-cons/)
-	- [UX: Infinite Scrolling vs. Pagination](https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1)
-	- [When To Use Infinite Scrolling And When To Avoid It](http://www.designyourway.net/blog/inspiration/when-to-use-infinite-scrolling-and-when-to-avoid-it/)
+3. Menggunakan bahasa yang santai, ringkas, namun inti dari tulisan tersampaikan.
 
-2. Menggunakan gambar-gambar anime yang _cute_ atau _kawaii_ di berbagai postingan sehingga postingan akan terasa lebih segar dan nyaman dibaca.
+4. Domain Authority dan Page Authority blog ini adalah [21/33](https://moz.com/researchtools/ose/links?site=http%3A%2F%2Fmuhammadzaini.com&filter=&source=external&target=page&group=0&page=1&sort=page_authority&anchor_id=&anchor_type=&anchor_text=&from_site=).
 
-3. Desain yang simpel, elegan, dan berfokus pada konten.
-
-4. Menggunakan bahasa yang santai, ringkas, namun inti dari tulisan tersampaikan.
-
-5. Domain Authority dan Page Authority blog ini adalah [21/33](https://moz.com/researchtools/ose/links?site=http%3A%2F%2Fmuhammadzaini.com&filter=&source=external&target=page&group=0&page=1&sort=page_authority&anchor_id=&anchor_type=&anchor_text=&from_site=).
-
-6. Memiliki trafik yang [stabil](http://www.histats.com/viewstats/?act=2&sid=3995429).
+5. Memiliki trafik yang [stabil](http://www.histats.com/viewstats/?act=2&sid=3995429).
 
 # Klien yang Sudah Bekerja Sama dengan Blog Ini
 

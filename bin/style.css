@@ -3,26 +3,13 @@
 	direction: all;
 }
 
-.muncul-sekali,
-.muncul-sekali-2 {
-    display: none;
-}
-
-.entry-content a {
-	color: rgb(33, 150, 243);	
-}
-
-.entry-content img {
-	display: block;
-	margin: auto;
-}
-
 .embed-container { 
 	position: relative; 
 	padding-bottom: 56.25%; 
 	height: 0; 
 	overflow: hidden; 
 	max-width: 100%; 
+	margin-bottom: 10px;
 } 
 .embed-container iframe, 
 .embed-container object, 
@@ -34,6 +21,36 @@
 	height: 100%; 
 }
 
+img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.btn {
+	width: 100%;
+	text-decoration: none;
+}
+
+.badge {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: underline;
+}
+
 .arab {
 	font-size: 20px;
+}
+
+.kotak {
+	float:left;
+    position: relative;
+    width: 100%;
+    padding-bottom : 67%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
 }

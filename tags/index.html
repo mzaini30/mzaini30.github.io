@@ -1,31 +1,26 @@
 ---
-layout: post-index
-title: Tags Archive
+layout: post
+title: Label
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
 
-<article>
-    <h1 class="entry-title">
-        <a>{{ page.title }}</a>
-    </h1>
+<div>
     
-    <hr>
-    
-    <ul class="entry-meta inline-list">
+    <ul>
         {% for item in (0..site.tags.size) %}{% unless forloop.last %}
             {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-  	             <li><a href="#{{ this_word }}" class="tag"><span class="term">{{ this_word }}</span> <span class="count">({{ site.tags[this_word].size }})</span></a></li>
+  	             <li><a href="#{{ this_word }}"><span>{{ this_word }}</span> <span class="count">({{ site.tags[this_word].size }})</span></a></li>
             {% endunless %}
         {% endfor %}
     </ul>
-</article>
+</div>
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-	<article>
-        <h1 id="{{ this_word }}" class="entry-title">{{ this_word }}</h1>
+	<div>
+        <h1 id="{{ this_word }}">{{ this_word }}</h1>
             <ul>
                 {% for post in site.tags[this_word] %}
                     {% if post.title != null %}
@@ -35,5 +30,5 @@ title: Tags Archive
                     {% endif %}
                 {% endfor %}
 		  </ul>
-    </article>
+    </div>
 {% endunless %}{% endfor %}

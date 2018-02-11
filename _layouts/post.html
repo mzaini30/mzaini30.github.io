@@ -1,115 +1,113 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
-   
+---
+---
+
+<!DOCTYPE html>
+<html>
 <head>
-    {% include head.html %}
+	<title>{{ page.title }} - Zen</title>
+	{% include head.html %}
 </head>
-
-<!-- BODY -->
-{% assign random = site.time | date: "%s" %}
-{% assign acak_judul = page.title | size %}
-{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-{% assign postingan_selanjutnya = angka_postingan | modulo: site.posts.size %}
-<body id="post-index">
-    <div class="muncul-sekali">
-        {% include browser-upgrade.html %}
-    </div>
-    <div class="infinity">
-        <div id="main" role="main" class="main body{{ angka_postingan }}">
-            <article class="hentry">
-                
-                <!-- MAIN -->
-                <h1 class="entry-title">
-                    <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}" itemprop="url">{{ page.title }}</a>
-                </h1>
-                    
-                <!-- POST CONTENT -->
-                <div class="entry-content">
-                    <p>
-                        <img src="{{ page.gambar }}">
-                    </p>
-                    {{ page.content }}
-                    <center>
-                        <p>
-                            <a href="https://api.whatsapp.com/send?phone=6281545143654&text=*Link*%3A%20{{ site.url }}{{ page.url }}%0A%0A*Komentar*%3A%0A">BERI KOMENTAR DENGAN WHATSAPP</a>
-                        </p>
-                        <p>
-                            <a href="mailto:muhzaini30@gmail.com?subject=Komentar%20Blog%3A%20{{ page.title }}&body=Link%3A%20{{ site.url }}{{ page.url }}%0A%0AKomentar%3A%0A.">BERI KOMENTAR DENGAN EMAIL</a>
-                        </p>
-                        <p>
-                            <a href="http://muhammadzaini.com/2018/01/24/langganan-blog.html">LANGGANAN BLOG</a>
-                        </p>
-                    </center>
-                </div>  
-
-                <!--- DIVIDING LINE -->
-                <hr>
-        
-                <!-- POST TAGS -->
-                <div class="inline-tags">
-                    <span>
-                        {% for tag in page.tags %}
-                            <a href="{{ site.url }}/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
-                        {% endfor %}
-                    </span>
-                </div>
-              
-                <br>
-                
-                <!-- POST DATE -->
-                <div class="post-date">
-                    <!--  page.date-string  -->
-                    {{ page.date | date: "%B %d, %Y" }}
-                    &bull;
-                    <a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);">EDIT</a>
-                </div>
-            </article>
-            <div class="pagination">
-                <center>
-                    <p>
-                        <a class="pagination__next{{ angka_postingan }}" href="{{ site.posts[postingan_selanjutnya].url }}">Next</a>
-                    </p>
-                </center>
-            </div>
-            <script type="text/javascript">
-                jQuery(function($){
-
-                	$(window).scroll(function(){
-						if($('.body{{ angka_postingan }}').isOnScreen(function(deltas){
-							return deltas.top <= this.height() && deltas.bottom <= this.height();
-						}) == true){
-							history.pushState(null, null, '{{ site.url }}{{ page.url }}');
-					        $('title').html('{% if page.title %}{{ page.title | replace: "'", "&quot;" }} &#8211; {% endif %}{{ site.title }}');
-						}
-					});
-
-                    $('.infinity').jscroll({
-                        padding: $(window).height(),
-                        nextSelector: '.pagination__next{{ angka_postingan }}',
-                        debug: true,
-                        loadingHtml: '<center><img src=\'{{ site.url }}/images/index.infinity-rotate-cycle-loader.svg\'></center>'
-                    });
-
-                });
-            </script>
-        </div>
-    </div>
-    
-    
-    <!-- FOOTER -->  
-    <div class="muncul-sekali-2">
-        <footer>  
-            <div class="footer-wrapper">
-                <footer role="contentinfo">
-                    {% include footer.html %}
-                </footer>
-            </div>   
-        </footer>  
-    </div>
-
-    {% include skrip.html %}    
+<body>
+<div class="container">
+	{% include header.html %}
+	<div class="row">
+		<div class="col-sm-8">
+			<div>
+				<h1 style="color: rgb(0, 188, 212);">
+					<a href='{{ site.url }}{{ page.url }}' style="text-decoration: none;">{{ page.title }}</a>
+				</h1>
+				<p><img src="{{ page.gambar }}" style="width: 100%;"></p>
+				<p>{{ content }}</p>
+				<p>
+					<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);" class="badge badge-default" style="background: rgb(230, 81, 0); color: white;">Edit</a>
+				</p>
+				<div class="row">
+					<div class="col-xs-6" style="padding-right: 5px;">
+						<a href="https://api.whatsapp.com/send?phone=6281545143654&text=*Link*%3A%20{{ site.url }}{{ page.url }}%0A%0A*Komentar*%3A%0A" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Komentar WA</a>
+					</div>
+					<div class="col-xs-6" style="padding-left: 5px;">
+						<a href="mailto:muhzaini30@gmail.com?subject=Komentar%20Blog%3A%20{{ page.title }}&body=Link%3A%20{{ site.url }}{{ page.url }}%0A%0AKomentar%3A%0A." class="btn btn-default" style="background: rgb(244, 67, 54); color: white;">Komentar Email</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			{% assign random = site.time | date: "%s" %}
+			{% assign acak_judul = page.title | size %}
+			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
+			{% assign postingan_selanjutnya_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
+			{% assign postingan_selanjutnya_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
+			{% assign postingan_selanjutnya_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
+			{% assign postingan_selanjutnya_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
+			<div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="row">
+							<a href="{{ site.posts[postingan_selanjutnya_1].url }}">
+								<div class="col-xs-4" style="padding-right: 5px;">
+									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_1].gambar }});" style="width: 100%;"></div>
+								</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_1].title }}</div>
+							</a>
+						</div>
+						<br>
+						<div class="row">
+							<a href="{{ site.posts[postingan_selanjutnya_2].url }}">
+								<div class="col-xs-4" style="padding-right: 5px;">
+									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_2].gambar }});" style="width: 100%;"></div>
+								</div>
+								<div class="col-xs-8" style="padding-left: 5px;">{{ site.posts[postingan_selanjutnya_2].title }}</div>
+							</a>
+						</div>
+						<br>
+						<div class="row">
+							<a href="{{ site.posts[postingan_selanjutnya_3].url }}">
+								<div class="col-xs-4" style="padding-right: 5px;">
+									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_3].gambar }});" style="width: 100%;"></div>
+								</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_3].title }}</div>
+							</a>
+						</div>
+						<br>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<a href="{{ site.posts[postingan_selanjutnya_4].url }}">
+								<div class="col-xs-4" style="padding-right: 5px;">
+									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_4].gambar }});" style="width: 100%;"></div>
+								</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_4].title }}</div>
+							</a>
+						</div>
+						<br>
+						<div class="row">
+							<a href="{{ site.posts[postingan_selanjutnya_5].url }}">
+								<div class="col-xs-4" style="padding-right: 5px;">
+									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_5].gambar }});" style="width: 100%;"></div>
+								</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_5].title }}</div>
+							</a>
+						</div>
+						<br>
+						<div class="row">
+							<a href="{{ site.posts[postingan_selanjutnya_6].url }}">
+								<div class="col-xs-4" style="padding-right: 5px;">
+									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_6].gambar }});" style="width: 100%;"></div>
+								</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_6].title }}</div>
+							</a>
+						</div>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
+	{% include footer.html %}
+</div>
 </body>
 </html>

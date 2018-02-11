@@ -8,20 +8,14 @@ gambar: https://pa1.narvii.com/6405/8fa9ec9cab167ec0e6d9049c5e681b3eb4ccbaf6_hq.
 ---
 
 <!-- Search form -->
-<style type="text/css">
-    .cari {
-        display: none;
-    }
-</style>
 <center>
-    <form class="form-inline" method="get" action="/cari.html" data-search-form>
-        <div class="form-group">
-            <input type="search" name="q" id="q" class="form-control cari-input" placeholder="Cari sesuatu..." data-search-input>
+    <form class="form-inline cari" method="get" action="/cari.html" data-search-form>
+        <div class="form-group" style="width: 100%; margin-bottom: 15px;">
+            <input type="search" name="q" id="q" class="form-control cari-input" placeholder="Cari sesuatu..." data-search-input style="width: 100%;">
         </div>
-        <button type="submit" class="btn btn-default cari-tombol">Cari</button>
+        <!-- <button type="submit" class="btn btn-default cari-tombol">Cari</button> -->
     </form>
 </center>
-<br>
 
 <!-- Search results placeholder -->
 <p data-search-found>
@@ -30,23 +24,21 @@ gambar: https://pa1.narvii.com/6405/8fa9ec9cab167ec0e6d9049c5e681b3eb4ccbaf6_hq.
 <div data-search-results></div>
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
-    <div class="posts-list">
-        <article class="post-preview">
-            <div>
-                <br>
-                <a class="disable" href="##Link##">
-                    <h2 class="post-title">##Title##</h2>
-                    <p>##Excerpt##</p>
-                </a>
+    <div class="row">
+        <a href="##Link##">
+            <div class="col-xs-4" style="padding-right: 5px;">
+                <div class="kotak" style="background-image: url(##Gambar##);" style="width: 100%;"></div>
             </div>
-        </article>
+            <div class="col-xs-8" style='padding-left: 5px;'>##Title##</div>
+        </a>
     </div>
+    <br>
 </script>
 <!-- jQuery - required but can be moved to the <head> -->
-<script src="/bin/jquery-3.2.1.min.js"></script>
+<script src="/bin/jquery.min.js"></script>
 <script>
 jQuery(function($){
-    $(".cari-tombol").on("click", function() {
+    $(".cari").on("submit", function() {
         $(".cari-input").blur();
     });
 });

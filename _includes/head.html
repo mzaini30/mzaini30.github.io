@@ -1,98 +1,69 @@
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/bin/github.css">
+<link rel="stylesheet" type="text/css" href="/bin/style.css">
 
-<!-- MathJax -->
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<!-- facebook open graph -->
 
-<!-- twitter -->
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title | strip_html | remove: '"' }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.excerpt %}
+  <meta content="{{ page.excerpt | strip_html | remove: '"' }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/2018/01/13/about-me.html" property="article:author">
+{% endif %}
+{% if page.gambar %}
+  <meta content="{{ page.gambar }}" property="og:image">
+{% else %}
+  <meta content="{{ site.gambar }}" property="og:image">
+{% endif %}
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+  {% endfor %}
+{% endif %}
+{% if page.tags %}
+  {% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+  {% endfor %}
+{% endif %}
 
-<meta content="summary_large_image" name="twitter:card">
+<!-- Twitter cards -->
+
+<meta name="twitter:site"    content="@mzaini30">
+<meta name="twitter:creator" content="@mzaini30">
+{% if page.title %}
+  <meta name="twitter:title"   content="{{ page.title | strip_html | remove: '"' }}">
+{% else %}
+  <meta name="twitter:title"   content="{{ site.title }}">
+{% endif %}
 
 {% if page.excerpt %}
-<meta content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" name="twitter:description">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | remove: '"' }}">
 {% else %}
-<meta content="{{ site.description }}" name="twitter:description">
+  <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
-{% if page.title %}
-<meta content="{{ page.title | replace: '"', '' }} - {{ site.title }} - {{ site.description }}" name="twitter:title">
-{% else %}
-<meta content="{{ site.title }} - {{ site.description }}" name="twitter:title">
-{% endif %}
-
-{% if page.url %}
-<meta content="{{ site.url }}{{ page.url }}" name="twitter:url">
-{% else %}
-<meta content="{{ site.url }}" name="twitter:url">
-{% endif %}
-
-<meta content="{{ site.title }}" name="twitter:site">
-<meta content="@{{ site.owner.twitter }}" name="twitter:creator">
-
+<meta name="twitter:card"  content="summary_large_image">
 {% if page.gambar %}
-<meta content="{{ page.gambar }}" property="twitter:image"> 
+<meta name="twitter:image" content="{{ page.gambar }}">
 {% else %}
-<meta content="{{ site.gambar }}" property="twitter:image"> 
+<meta name="twitter:image" content="{{ site.gambar }}">
 {% endif %}
-
-
-
-<!-- Open Graph -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:image" content="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
-
-{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
-
-{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-<link rel="canonical" href="{{ canonical }}">
-<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-<link rel="stylesheet" href="{{ site.url }}/bin/style.css">
-<!-- Webfonts -->
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
-
-<meta http-equiv="cleartype" content="on">
-
-<!-- Load Modernizr -->
-<!-- <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script> -->
-
-
-{% if page.image.background or site.background %}
-
-{% capture background %}{% if page.image.background %}{{ page.image.background }}{% else %}{{ site.background }}{% endif %}{% endcapture %}
-{% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/images/{{ background }}{% endcapture %}{% endunless %}
-
-
-<style type="text/css">body {background-image:url({{ background }});}</style>
-{% endif %}
-
-<script type="text/javascript">
-	{% include jquery-3.2.1.min.js %}
-</script>
-<script type="text/javascript">
-	{% include jquery.jscroll.js %}
-</script>
-<script type="text/javascript">
-	{% include jquery.isonscreen.min.js %}
-</script>
-
-<script type="text/javascript">
-	jQuery(function($){
-		$(".muncul-sekali:first, .muncul-sekali-2:last").css("display", "block");
-	});
-</script>
