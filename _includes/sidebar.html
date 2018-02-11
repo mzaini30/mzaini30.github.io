@@ -54,7 +54,9 @@
 	</script>
 	<script type="text/javascript">
 		jQuery(function($){
-			$('#iframeDIV').height($('#FJ_TListC').height());
+			iframediv = $('#FJ_TF_Cont iframe').contents().find('#iframeDIV');
+			fjtlistc = $('#FJ_TF_Cont iframe').contents().find('#FJ_TListC');
+			iframediv.height(fjtlistc.height());
 			$('#FJ_TF_Cont').css('margin', 'auto');
 		});
 	</script>
