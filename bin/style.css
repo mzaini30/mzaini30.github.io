@@ -55,7 +55,7 @@ a {
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
 }
 
-#FJ_TF_Cont {
+div div#FJ_TF_Cont {
 	display: block;
 	margin: auto;
 }
