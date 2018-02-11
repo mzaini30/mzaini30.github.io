@@ -77,6 +77,12 @@ layout: post-index
 
 {% endfor %}
 
+<article>
+    <p>
+        <a href="{{ site.url }}/page{{ paginator.next_page }}/">Next &rarr;</a>
+    </p>
+</article>
+
 <!-- <div class="pagination">
 <center>
 {% include pagination.html %}
@@ -106,6 +112,7 @@ layout: post-index
 </div>
 </center>
     </div> -->
+    
 <div class="pagination">
     <center>
         <p>
@@ -129,9 +136,3 @@ layout: post-index
         });
     });
 </script>
-
-<article>
-    <p>
-        <a href="#">Next &rarr;</a>
-    </p>
-</article>
