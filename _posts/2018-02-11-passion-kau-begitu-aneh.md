@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Passion: Penggerak Manusia. Hmm... Aneh"
-date: 2017-04-30 10:59:49
+date: 2018-02-11 23:54:49
 categories: posts
-tags: [tulisan pertama]
-gambar: https://i.ytimg.com/vi/yWTUkRYFkJ4/hqdefault.jpg
+tags: [kehidupan, life, passion, renjana]
+gambar: https://lpkhanil.com/wp-content/uploads/2017/09/logo-client.jpg
 ---
 
-Ini adalah tulisan pertama. Tes dulu lah :D
