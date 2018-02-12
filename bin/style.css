@@ -4,6 +4,10 @@
 	text-align: justify;
 }
 
+center {
+	text-align: center;
+}
+
 .embed-container { 
 	position: relative; 
 	padding-bottom: 56.25%; 
