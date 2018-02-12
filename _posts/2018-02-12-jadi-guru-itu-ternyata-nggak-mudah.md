@@ -27,4 +27,7 @@ Beberapa hari yang lalu saya menonton anime Mayou Maou Yusha. Dari anime tersebu
 
 Berikut ini adalah beberapa pengetahuan di anime tersebut:
 
-1. 
+1. Menerapkan sistem empat macam tumbuhan di satu ladang sehingga bisa memenuhi kebutuhan pangan empat musim serta memberikan daging yang lezat, karena ladang tersebut juga diolah menjadi makanan hewan ternak lalu kotoran hewan ternak tersebut menjadi pupuk
+2. Menggunakan vaksinasi untuk menghentikan penyebaran cacar
+3. Menggunakan sistem dua mata uang untuk mengendalikan pasar
+4. Menggunakan mesin cetak untuk membuat buku sehingga bisa disebarkan antarbenua
