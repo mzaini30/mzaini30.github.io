@@ -13,4 +13,12 @@ Cuma itu sih yang mungkin bisa aku ungkapkan. Pernah kamu berpikir, 'Kok kita ka
 
 Mungkin itu yang disebut _passion_ atau renjana.
 
-Kita memang selalu berbeda. Aku suka desain web, kamu suka desain rumah. Aku suka makan bakso nggak pakai saos, kamu suka makan nasi campur nggak pakai sambel. Aku laki-laki, kamu perempuan. Aku cuek, kamu peduli. Aku 
+Kita memang selalu berbeda. Aku suka desain web, kamu suka desain rumah. Aku suka makan bakso nggak pakai saos, kamu suka makan nasi campur nggak pakai sambel. Aku laki-laki, kamu perempuan. Aku cuek, kamu peduli. Aku hanya melihat yang di depan, kamu selalu menoleh ke belakang. Banyak hal yang membuat kita berbeda.
+
+Salah satunya _passion_.
+
+Mungkin aku kalau melihat segala sesuatunya nggak tertata, berantakan, acak-acakan, amburadul, aku cuek saja. Tapi, kalau tampilan web selisih tiga pixel aja, rasanya tuh gregetan banget. Hehehhee... Dan tau nggak, aku bisa loh menghabiskan tiga hari, tiga malam nonstop di depan laptop buat desain web. Wow. Tapi kalau masalah merapikan sesuatu, biar lima menit aja, nggak betah deh rasanya.
+
+Aneh memang.
+
+Ada orang yang bisa duduk lama kalau _murajaah_ Quran, ada yang 
