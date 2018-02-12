@@ -18,7 +18,7 @@
 					<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
 				</h1>
 				<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
-				{{ post.excerpt | strip_html }}
+				<p>{{ post.excerpt | strip_html }}</p>
 				<p>
 					<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
 				</p>
