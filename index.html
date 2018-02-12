@@ -23,17 +23,6 @@
 						<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
 					</p>
 				</div>
-				{% if paginator.posts[0] %}
-					{% include iklan.html %}
-				{% elsif paginator.posts[1] %}
-					{% include iklan-2.html %}
-				{% elsif paginator.posts[2] %}
-					{% include iklan-3.html %}
-				{% elsif paginator.posts[3] %}
-					{% include iklan-4.html %}
-				{% elsif paginator.posts[4] %}
-					{% include iklan-5.html %}
-				{% endif %}
 			{% endfor %}
 			{% if paginator.total_pages > 1 %}
 				<p style="margin-top: 10px;">
