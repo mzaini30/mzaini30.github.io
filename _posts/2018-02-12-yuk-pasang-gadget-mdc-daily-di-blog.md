@@ -11,7 +11,8 @@ Sudah tau dengan yang namanya MDC kan? Yap, Muslim Designer Community. Komunitas
 
 Berikut ini adalah langkah-langkahnya:
 
-1. Pada `Tata Letak`, pilih `Tambah Gadget` lalu pilih `HTML`
+1. Pada `Tata Letak`, pilih `Tambahkan Gadget` lalu pilih `HTML/JavaScript` (untuk blogspot). Sedangkan kalau untuk Wordpress, pilih `Tampilan`, `Widget`, pilih `Teks`
+
 2. Masukkan skrip berikut:
 
 	```html
