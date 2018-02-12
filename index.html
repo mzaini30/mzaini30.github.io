@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Zen</title>
+	<title>Zen{% if paginator %} - Halaman {{ paginator.page }}{% endif %}</title>
 	{% include head.html %}
 </head>
 <body>
