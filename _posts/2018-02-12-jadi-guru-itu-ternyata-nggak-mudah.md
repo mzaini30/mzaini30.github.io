@@ -11,4 +11,4 @@ Buat kalian yang sampai saat ini suka membuat marah guru kalian, mending minta m
 
 Mengajar itu nggak mudah.
 
-Bayangkan aja, kita
+Bayangkan aja, sebagai guru, sudah ada jadwal yang itu harus diisi dengan memberi pengetahuan kepada siswanya. Kalau guru sedang nggak siap? Kalau siswa sedang nggak siap? Misalnya saja jam 10 mengajar, namun, kondisinya saat itu, siswa sedang kelelahan. Nah, apa yang harus dilakukan oleh guru? Kalau menunggu siswa siap, mungkin bisa makan satu jam pelajaran, dan itu otomatis akan menghabiskan waktu mengajar dengan kesia-siaan. Kalau diisi pelajaran, 
