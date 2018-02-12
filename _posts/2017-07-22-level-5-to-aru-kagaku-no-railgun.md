@@ -7,6 +7,8 @@ categories: posts
 tags: [lagu, lirik, to aru kagaku no railgun]
 ---
 
+{% include youtube.html id='Eycf2jyTZNI' %}
+
 **Hibikiau Negai ga ima, Mezameteku**
 
 Keinginan beresonansi sekarang tersadar
