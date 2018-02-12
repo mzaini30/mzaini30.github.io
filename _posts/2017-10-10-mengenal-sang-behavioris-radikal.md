@@ -19,7 +19,7 @@ Eksperimen Pavlov lebih dikenal sebagai kondisioning klasik. Eksperimen ini meng
 
 Kalau eksperimen Skinner, dia menggunakan subyek tikus. Jadi, di dalam sangkar tikus, diberikan dua tombol. Salah satu tombol, apabila ditekan, akan mengeluarkan makanan, sedangkan di tombol lain, apabila ditekan, akan mengeluarkan kejutan listrik. Tikus akan terus mencoba-coba tombol tersebut hingga akhirnya tikus hanya akan menekan tombol yang tepat. Inti dari eksperimen ini adalah tentang _reward and punishment_, inti dari kondisioning operan.
 
-{% include garis.html %}
+---
 
 Kalau dilihat dari kedua eksperimen tersebut, dari masing-masing tokoh, sepertinya sesuatu yang biasa ya? Nggak ada gregetnya ya? Terus, apa ya maksud dari artikel ini yang cenderung mengedepankan sosok Skinner sebagai behavioris radikal? Apakah judul ini hanya jebakan?
 

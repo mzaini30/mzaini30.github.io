@@ -33,7 +33,7 @@ Sementara itu, di tengah-tengah ruangan....
 
 _Walkout._
 
-{% include garis.html %}
+---
 
 Mading penuh dengan semut manusia.
 
@@ -43,7 +43,7 @@ Mading penuh dengan semut manusia.
 
 "Oh iya kah? Wah, penasaran banget!"
 
-{% include garis.html %}
+---
 
 _Cerpen_
 {:.tengah}
@@ -61,7 +61,7 @@ Elang-elang bersahut-sahutan di atas kedua insan tersebut. Berputar-putar. Berke
 _No Name._
 {:.kanan}
 
-{% include garis.html %}
+---
 
 "Keren ya... Dalam banget cerpennya? Tapi kok judulnya _Cerpen_?"
 
@@ -81,7 +81,7 @@ Pintar yang kebetulan berjalan melintasi gerombolan penikmat sastra di depan mad
 
 "Oh, iya kah?" Lalu, masing-masing dari mereka mencoba mengamati cerpen tersebut. Ah, benar!
 
-{% include garis.html %}
+---
 
 **C**etar membahana!.....
 
@@ -93,7 +93,7 @@ Pintar yang kebetulan berjalan melintasi gerombolan penikmat sastra di depan mad
 
 **E**lang-elang bersahut-sahutan di atas kedua insan tersebut. ......
 
-{% include garis.html %}
+---
 
 "Huruf n-nya mana?"
 
@@ -103,7 +103,7 @@ Oh iya....
 
 Prestasi dan Harapan yang baru keluar dari kantin, melewati kerumunan tersebut. "Sastra sampah," ujar Prestasi. Semua mata menatapnya tajam. Prestasi tak peduli.
 
-{% include garis.html %}
+---
 
 Prestasi menghujamkan tubuh penatnya ke kasur yang penuh dengan gambar Hello Kitty. "Hari yang buruk!" kutuknya. "Mengapa hanya anak itu yang terus-menerus mendapatkan pujian dari kawan-kawan sekolahan. Kan ada aku, yang lebih cantik, pintar, mampu melakukan hal-hal sulit. Namanya juga peretas. Harusnya kan aku lebih dikagumi. Apalagi zaman sekarang ini, yang namanya siber itu lagi ngetren kan: Gojek, Pesan Bungkus, Instagram, Picmix, Telegram, Catfiz. Sekarang itu sudah zamannya digital! Apaan itu sastra-sastraan. Kuno ah! Males aku sekelas sama dia! Kalau nggak disuruh sekolah, aku juga nggak mau sekolah. Mending kerja remote, bergabung ke Anonymous, retas situs-situs yang punya banyak duit, nyaman sudah hidupku.
 
@@ -125,7 +125,7 @@ Bergetar.
 
 Prestasi berlari menuju kamarnya. Berbagai pemikiran negatif memborbardir tak henti-hentinya. Kalau ayah bangkrut, aku tak bisa bersekolah lagi, tak bisa ikut kompetisi lagi, tak bisa beli pakaian lagi, tak bisa tidur nyaman di rumah lagi, tak bisa hidup bahagia lagi, tak bisa melakukan ini, tak bisa melakukan itu, tak bisa melakukan apa yang kusuka, aku akan dibenci di kelas, aku akan dibenci di sekolah, aku akan kehilangan teman, aku akan kehilangan segalanya. Dia berteriak di dalam hatinya. _Hidup kejam_!
 
-{% include garis.html %}
+---
 
 Hari-hari berlalu. Prestasi terlihat murung. Membisu. Teman-teman di kelasnya mengkhawatirkannya. "Ada apa dengan Prestasi?" Penduduk kelas saling mempertanyakannya. Namun, Prestasi tak pernah menghiraukannya. Pandangannya kosong. Dia hanya pergi ke sekolah, duduk, pulang. Tidak mengeluarkan catatan, tidak menyapa teman sekelasnya, tidak menyapa Harapan.
 
@@ -151,6 +151,6 @@ Di depan gerbang, Ayah mengeluarkan secarik kwitansi bertuliskan:
 
 _Semua utang lunas - Cahaya._
 
-{% include garis.html %}
+---
 
 _Achievement, hope, and light are you...._

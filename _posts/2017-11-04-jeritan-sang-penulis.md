@@ -13,7 +13,7 @@ Malam ini sang penulis tak dapat merangkai kata lebih banyak daripada biasanya. 
 
 Ada gembira, sedih, marah, kecewa, depresi, stres, trauma, euforia, berbagai emosi saling tumpang-tindih, saling berebut-rebutan demi mencapai ujung pena yang sempit dan rapuh.
 
-{% include garis.html %}
+---
 
 /1/
 
@@ -25,6 +25,6 @@ Dalam sendiri menikmati melodi..
 
 Sepi...
 
-{% include garis.html %}
+---
 
 Tangan sang penulis tertahan untuk merangkai bait kedua. _Akankah diriku senantiasa dalam kesendirian ini?_ gumamnya.

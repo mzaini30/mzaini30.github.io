@@ -29,7 +29,7 @@ Sementara itu, Putri Ika masih saja termenung dalam kesunyian di tengah-tengah t
 
 "Sayang, kok masih di sini aja? Ayo ke dalam..." Ratu membimbing Putri Ika memasuki istana. Putri Ika menurut.
 
-{% include garis.html %}
+---
 
 Di kamarnya, Ci nggak bisa beristirahat dengan tenang. Dia masih saja risau dengan keadaan kakaknya yang senantiasa bersedih akhir-akhir ini. Nggak bisa dibilang sebentar sih, karena sudah sekitar 30 hari atau sebulan, Putri Ika senantiasa mengurung jiwanya dalam kesepian dan kesedihan di taman istana. Entah apa yang sedang dipikirkannya. Ci mencoba mengingat kembali berbagai peristiwa yang terjadi akhir-akhir ini. Sepertinya tidak ada sesuatu yang luar biasa hingga mengubah kondisi jiwa Putri. Lalu apa? Apa yang menyebabkan Putri senantiasa dirundung kesedihan?
 
@@ -45,7 +45,7 @@ Dalam keheningan malam, Ci memikirkan keadaan kakaknya. Ci terlalu bingung harus
 
 Ci letih. Terlelap.
 
-{% include garis.html %}
+---
 
 Pagi tiba. Penduduk desa terbangun dari malamnya. Matahari menyinari, semua perasaan cinta. Tapi mengapa hanya Ci yang merasa tak semangat menghadapi pagi ini. Dia tau bahwa hari-hari kemarin akan terulang. Terus terulang. Senantiasa terulang. Ci merintih, menahan tangis. _Mengapa hal ini senantiasa terjadi? Mengapa! Apakah tak ada yang bisa kuperbuat supaya bisa mengembalikan kakakku seperti dulu, saat aku belum mengenalnya?_
 
@@ -79,7 +79,7 @@ Jleb. Jadi, selama ini aku nggak dianggap sebagai adeknya. Kenapa?
 
 Ci berjalan bersama Putri Ika di pagi hari menikmati udara segar dan suara-suara burung bersahut-sahutan.
 
-{% include garis.html %}
+---
 
 Malam sebelumnya...
 

@@ -19,7 +19,7 @@ Sudah setengah jam. Eh, sejam ding, aku bermain dengan lup, menyusuri lantai tem
 
 "Kok nggak ada petunjuk sih!" Aku kesal.
 
-{% include garis.html %}
+---
 
 3 tahun yang lalu....
 
@@ -41,6 +41,6 @@ Setelah melalui proses tes masuk yang cukup bertingkat, akhirnya aku diterima di
 
 "Plis."
 
-{% include garis.html %}
+---
 
 Waktu demi waktu pun berlalu. Akhirnya kita kalau ngerjakan misi bareng. Yah, misi-misi yang mengancam jiwa gitu ya. Nggak peduli deh apakah itu susah apa nggak, yang penting mah, bagi kita jalani aja dulu. Urusan akibatnya, ntar juga kelihatan.

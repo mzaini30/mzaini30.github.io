@@ -9,13 +9,13 @@ tags: [dunia baru]
 
 Tulisan ini aku buat sebagai bentuk kegelisahan terhadap fenomena modernitas yang melingkupi segala sisi. Sebenarnya karena target menulis setiap hari cukup satu buah saja sehingga aku tidak perlu menulis lagi untuk hari ini. Namun, apabila tidak dituliskan hari ini, takutnya besok lupa. Nah, semoga saja di tulisan ini dapat menampung berbagai kegelisahan yang baru saja aku pikirkan.
 
-{% include garis.html %}
+---
 
 Apabila kita pikirkan kembali, kita cermati kembali, akan ada banyak perubahan yang dialami oleh manusia modern abad ini. Ketika aku katakan manusia modern, maka yang aku maksud adalah manusia-manusia di mana gawai merajalela. Setiap manusia menggunakan gawai, entah itu dari balita hingga orang dewasa. Maka, tidak cocok rasanya ketika aku katakan sebagai "anak modern" karena konteksnya sudah mengglobal, setiap manusia menggunakannya.
 
 Apa saja perbedaan yang dialami oleh manusia modern ini?
 
-{% include iklan.html %}
+
 
 1. Manusia modern sangat gampang memperoleh informasi sehingga cepat pula merespons informasi tersebut. Bahkan, setelah merespons informasi tersebut, manusia modern ini seketika lupa tentang apa yang dia komentari atau apa topik yang sedang dibahas. Karena setiap konten yang disuguhkan saat ini kebanyakan adalah informasi-informasi yang memainkan emosi pembacanya. Kurasa, setiap media yang menyebarkan informasi tersebut memahami konsep AIDA dalam pemasaran sehingga mampu membuat siapapun yang hanya melihat selama dua detik, langsung mengunjungi tautan artikel tersebut. _Attention, Interest, Desire, and Action_. Banjirnya berbagai informasi pada gawai masing-masing manusia modern tak ayal membuat mereka dengan cepatnya beralih-alih fokus sehingga pada akibatnya, satu informasi belum dapat dicerna secara penuh, datang lagi informasi-informasi yang lain. Kedangkalan-kedangkalan ini bukannya akan menjadi samudra informasi yang melimpah melainkan akan menjadi kebingungan dalam derasnya banjir informasi setiap detiknya.
 2. Berikutnya, fokus akan mulai berkurang. Manusia modern akan susah membaca tulisan-tulisan panjang dalam buku-buku tebal ataupun dalam poin pertama di atas. Sengaja aku buat panjang supaya kita bisa mengukur apakah diri kita ini sudah mengalami suatu sindrom yang dialami oleh manusia modern: tidak bisa membaca teks panjang. Hal ini disebabkan oleh informasi-informasi singkat yang manusia modern dapatkan dari gawainya sehari-hari (lagi-lagi, beroleh dari gawainya). Kesulitan memfokuskan diri pada tulisan-tulisan panjang, secara kognitif, akan mengakibatkan manusia modern sulit fokus pula pada pekerjaan-pekerjaan maupun tugas-tugas yang mengharuskan pelakunya berada dalam fokus yang lama.

@@ -17,7 +17,7 @@ Idealis bertindak seperti anak kecil. Dia akan berusaha memenuhi dirinya, mencap
 
 Idealis adalah suatu obyek yang memiliki perhatian besar di bidang keilmuan psikologi. Dengan idealis inilah kita bisa menilai seperti apa watak seorang manusia. Apakah dia adalah sosok yang benar-benar idealis, ataukah hanya neurosis.
 
-{% include garis.html %}
+---
 
 Apa kaitannya neurosis dengan idealis?
 

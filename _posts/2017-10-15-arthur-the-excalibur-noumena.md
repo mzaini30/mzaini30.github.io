@@ -13,7 +13,7 @@ Kitab petuah menyebutkan kembali: Kehidupan warga Inggris telah ditetapkan dalam
 
 Petuah berkata untuk terakhir kalinya: Excalibur adalah pemecah takdir, pembuka kunci-kunci kemenangan, kesejahteraan, kebanggaan, kejayaan, kemenangan, namun menjadi kutukan bagi sang pemilik. Excalibur bukan pedang, sebagaimana manusia memandang. Dia adalah kutukan bagi keserakahan manusia.
 
-{% include garis.html %}
+---
 
 Ratusan, ribuan, bahkan jutaan tahun telah berlalu. Masa demi masa silih berganti. Warga Inggris senantiasa hidup berdasarkan blok-blok yang mereka ciptakan sendiri: raja, bangsawan, tuan tanah, pekerja, kesatria, buruh. Stagnan dan penindasan, frasa yang sangat tepat dalam menggambarkan mirisnya kehidupan mereka.
 
@@ -23,7 +23,7 @@ Konon, selama waktu itu pulalah, tak pernah ada yang dapat mencabutnya, walaupun
 
 Hingga akhirnya, excalibur hanya menjadi impian kosong bagi seluruh kesatria, _urban legend_ bagi warga dalam mengisi waktu luangnya, dan bunga dongeng sang penghibur kerajaan. Mencabutnya? M.U.S.T.A.H.I.L.
 
-{% include garis.html %}
+---
 
 Hari ini adalah hari yang sangat menentukan, juga sebagai _ending_ dari kisah ini. Seorang pemuda bernama Arthur berkeinginan keras untuk mencabut pedang itu. "Apakah dia sanggup?" Itulah yang dipertanyakan oleh orang-orang sepanjang harinya, di pasar, di tempat pertemuan, di tempat ibadah, di manapun ada orang-orang yang berkumpul, senantiasa membicarakan kabar heboh itu. Mungkinkah hari ini kesaktian dari excalibur akan nampak di depan mata? Apakah mitos selama jutaan tahun itu akan berakhir di hari ini? Apakah mimpi setiap kesatria akan menjadi kenyataan?
 

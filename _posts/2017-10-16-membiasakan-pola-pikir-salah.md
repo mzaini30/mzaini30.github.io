@@ -24,6 +24,6 @@ Ada beberapa faktor yang menyebabkan suatu pola pikir dikatakan sebagai pola pik
 
 Berikutnya adalah kebiasaan masyarakat sekitar atau budaya. Terkadang sesuatu yang biasa saja, menjadi perhatian lebih di masyarakat. Contohnya adalah di salah satu desa, menggunakan peci dan sarung ketika akan salat adalah sesuatu yang harus dikenakan walaupun tak bisa dikatakan sebagai wajib. Ketika kita memikirkan bahwa tidak mengapa melanggarnya, maka kita membentuk pola pikir yang salah dan harus diubah.
 
-{% include garis.html %}
+---
 
 Terkadang kita tak tau yang mana dari pola pikir kita yang salah. Maka, yang kita butuhkan adalah __kepekaan__.

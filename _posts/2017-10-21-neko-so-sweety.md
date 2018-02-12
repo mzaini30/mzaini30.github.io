@@ -47,7 +47,7 @@ Ampun deh Rene ini, ngomong sama kucing. Mana dia tau bahasa kita.
 
 Aku kaget.
 
-{% include garis.html %}
+---
 
 Segar sekali mata melihat pemandangan putihnya nasi, kuningnya _tamagoyaki_ alias omelet yang digulung dan berbentuk seperti potongan brownies Amanda, dan warna-warni _tsukemono_ atau acar yang pasti ada di sarapan kita sehari-hari. Memang sih selama dua tahun di Jepang, kita berdua senantiasa membiasakan diri dengan adat-istiadat orang-orang di sini, termasuk dalam hal memilih menu makanan kita sehari-hari. Walaupun lidah ini terbiasa dengan nasi kuning, pecel, dan nasi goreng, tapi kan, mumpung di Jepang, sayang banget dong kalau kita nggak sekalian berbaur dengan adat-istiadat orang di sini. Istilahnya kan, _sudah kecemplung, nyebur aja sekalian_. Jadinya, gitu deh, kita coba ikutin kebiasaan orang-orang di sini.
 

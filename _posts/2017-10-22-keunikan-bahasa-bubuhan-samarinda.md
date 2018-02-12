@@ -65,7 +65,7 @@ Lantas, itu teman-teman pada bingung. "Sanggar? Sanggar tari kah maksudmu, Zen? 
 
 "Yo wes lah. Ayo dah beli sanggar."
 
-{% include garis.html %}
+---
 
 Yah, jadi itu lah beberapa bahasa Indonesia khasnya bubuhan Samarinda yang kalau dikatakan ke orang Jawa, kadang membuat bingung, kadang juga jadi lucu. Yah, namanya juga beda budaya, pasti beda juga lok, bahasa dan tradisi?
 
