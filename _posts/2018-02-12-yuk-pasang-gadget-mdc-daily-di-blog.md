@@ -16,7 +16,7 @@ Berikut ini adalah langkah-langkahnya:
 2. Masukkan skrip berikut:
 
 	```html
-	<img src="" class="mdc-daily" style="width: 100%;">
+	<p><img src="" class="mdc-daily" style="width: 100%;"></p>
 	<script type="text/javascript" src='http://muhammadzaini.com/mdc-daily/data.js'></script>
 	<script type="text/javascript" src='http://muhammadzaini.com/mdc-daily/app.js'></script>
 	```
