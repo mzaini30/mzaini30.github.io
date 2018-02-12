@@ -34,3 +34,8 @@ Berikut ini adalah beberapa pengetahuan di anime tersebut:
 3. Menggunakan sistem dua mata uang untuk mengendalikan pasar
 4. Menggunakan mesin cetak untuk membuat buku sehingga bisa disebarkan antarbenua
 5. Mengutamakan negosiasi untuk menghindari peperangan
+6. Menggerakkan mata-mata dalam negosiasi
+
+Banyak lagi pengetahuan yang ada di anime tersebut. Terserah sih mau nonton apa nggak. Tapi yang jelas di harddisk saya ada. Kalau mau _copy_ silahkan. Hehehe..
+
+Jadi, ternyata ilmu itu sangat berharga dan tentunya kita harus menghargai juga dong orang yang membawa ilmu tersebut sebagaimana kita menghargai keagungan ilmu. Buatlah gurumu tersenyum :)
