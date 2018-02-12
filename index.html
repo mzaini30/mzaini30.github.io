@@ -26,7 +26,7 @@
 			{% include iklan.html %}
 			{% endfor %}
 			{% if paginator.total_pages > 1 %}
-			<p>
+			<p style="margin-top: 10px;">
 				<a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn btn-default" style="background: rgb(13, 71, 161); color: white;">Next &rarr;</a>
 			</p>
 			{% endif %}
