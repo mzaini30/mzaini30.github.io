@@ -21,4 +21,16 @@ Mungkin aku kalau melihat segala sesuatunya nggak tertata, berantakan, acak-acak
 
 Aneh memang.
 
-Ada orang yang bisa duduk lama kalau _murajaah_ Quran, ada yang 
+Ada orang yang bisa duduk lama kalau _murajaah_ Quran, ada yang _murajaah_ sambil berjalan. Ada yang kesusahan membaca Quran, ada yang lancar-lancar aja. Ada yang mengaji dalam satu jam baru tiga halaman, ada yang sudah dapat tiga juz.
+
+Kita berbeda.
+
+Susah di satu sisi namun mudah di sisi lain.
+
+Tapi...
+
+Setidaknya ada satu persamaan kita.
+
+Sesusah apapun itu...
+
+Kita masih terus berusaha :)
