@@ -23,3 +23,8 @@ Apakah kita lebih suka membaca buku daripada menonton TV? Apakah kita lebih suka
 
 Mengerjakan soal dari buku teks itu mudah, menurunkan hikmah itu yang susah.
 
+Beberapa hari yang lalu saya menonton anime Mayou Maou Yusha. Dari anime tersebut akhirnya saya kemudian berpikir bahwa ternyata ilmu itu kalau benar-benar kita miliki, lalu kita terapkan, maka akan muncul suatu kesejahteraan tanpa melalui peperangan. Anime tersebut kan mengambil latar zaman kegelapan Eropa di mana peperangan adalah sesuatu yang mutlak terjadi, begitu pula dengan tuan tanah dan perbudakan, penyakit cacar yang mengerikan sehingga orang yang menderita cacar tersebut harus dimusnahkan. Nah, untungnya ada Raja Iblis (dalam anime itu ya :D ) yang memiliki pengetahuan yang banyak sehingga bisa mengaplikasikan ilmunya kemudian membawa kesejahteraan bagi dunia manusia dan dunia iblis.
+
+Berikut ini adalah beberapa pengetahuan di anime tersebut:
+
+1. 
