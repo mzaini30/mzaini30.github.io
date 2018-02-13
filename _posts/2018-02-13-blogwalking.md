@@ -13,3 +13,5 @@ Berikut ini adalah list blog favorit saya untuk blogwalking:
 | Blog | Deskripsi |
 |-|-|
 | [Japanese Station](https://japanesestation.com/) | Portal berita Jepang |
+
+Kalau ada yang blognya masuk list ini, komentar di bawah ya...
