@@ -1,0 +1,93 @@
+<div>
+	<h1 style="color: rgb(67, 160, 71);">MDC Daily</h1>
+	<p>
+		<img src="" class="mdc-daily" style="width: 100%;">
+	</p>
+	<script type="text/javascript" src='http://muhammadzaini.com/mdc-daily/data.js'></script>
+	<script type="text/javascript" src='http://muhammadzaini.com/mdc-daily/app.js'></script>
+	<p>
+		<a href="http://muhammadzaini.com/2018/02/12/yuk-pasang-gadget-mdc-daily-di-blog.html" class="btn btn-default" style="background: rgb(186, 104, 200); color: white;">Pasang di blog saya juga</a>
+	</p>
+</div>
+<div>
+	<h1 style="color: rgb(255, 152, 0);">Tentangku</h1>
+	<div class="embed-container">
+		<iframe src="https://www.youtube.com/embed/BzZroxr5IDQ" frameborder="0" allowfullscreen=""></iframe>
+	</div>
+	<p>Perkenalkan, nama saya adalah Zen, pemilik blog ini. Saya saat ini berprofesi sebagai <span style='color: rgb(0, 150, 136);'>guru</span> di SMA Muhammadiyah 2 Samarinda, <span style='color: rgb(245, 127, 23);'>berkuliah</span> di Universitas Mulawarman jurusan Psikologi, part time <span style='color: rgb(0, 200, 83);'>bisnis sepeda</span> di Loa Janan Samarinda, dan mengisi waktu luang dengan <em style="color: rgb(0, 184, 212);">blogging</em> di <a href=''>muhammadzaini.com</a>. Jika, ingin berkomunikasi denganku, hubungi saja di <a href='mailto:muhzaini30@gmail.com'>muhzaini30@gmail.com</a>.</p>
+	<p><a href="/2018/01/13/about-me.html" class="btn btn-default" style="background: rgb(244, 67, 54); color: white;">Lihat selengkapnya</a></p>
+</div>
+<div>
+	<h1 style="color: rgb(0, 150, 136);">Langganan Blog</h1>
+	<p><img src="https://s25.postimg.org/w4q92g2hr/blog_zen.png" alt="" /></p>
+	<p>
+		<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Kak,%20langganan%20blog" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Langganan Blog</a>
+	</p>
+</div>
+<div>
+	<h1 style="color: rgb(105, 240, 174);">Zen for Android</h1>
+	<p>
+		<img src="https://s25.postimg.org/5ah0cwaqn/Screenshot_2018-02-11-15-02-48.jpg">
+	</p>
+	<p>
+		<a href="https://play.google.com/store/apps/details?id=com.mzaini30.zen" class="btn btn-default" style="background: rgb(249, 168, 37); color: white;">Download</a>
+	</p>
+</div>
+<div>
+	<h1 style="color: rgb(255, 87, 34);">Sponsored Posts</h1>
+	<ul>
+		<li><a href='/2018/01/25/3-tempat-wisata-di-bandung-yang-wajib-dikunjungi.html'>3 Tempat Wisata di Bandung yang Wajib Dikunjungi</a> oleh <a href='https://www.airyrooms.com/'>Airy Rooms</a></li>
+		<li><a href='/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html'>Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia</a> oleh <a href='http://traveloka.com/'>Traveloka</a></li>
+		<li><a href='/2018/01/27/umbul-manten-kolam-alami-jernih-di-klaten-harga-tiket-masuk-peta-lokasi.html'>Umbul Manten Kolam Alami Jernih di Klaten, Harga Tiket Masuk + Peta Lokasi</a> oleh <a href='http://dolanyok.com/'>Dolan Yok</a></li>
+	</ul>
+	<a href="/2018/01/23/kerja-sama.html" class="btn btn-default" style="background: rgb(3, 169, 244); color: white;">Saya ingin bekerja sama</a>
+</div>
+<div>
+	<h1 style="color: rgb(121, 85, 72);">Tulisan Terbaru</h1>
+	{% for post in site.posts | limit: 5 %}
+	<div class="row">
+		<a href="{{ post.url }}">
+			<div class="col-xs-4" style="padding-right: 5px;">
+				<div class="kotak" style="background-image: url({{ post.gambar }});" style="width: 100%;"></div>
+			</div>
+			<div class="col-xs-8" style='padding-left: 5px;'>{{ post.title }}</div>
+		</a>
+	</div>
+	<br>
+	{% endfor %}
+	<a href="/archives/" class="btn btn-default" style="background: rgb(156, 39, 176); color: white;">Lihat semua tulisan</a>
+</div>
+<div>
+	<h1 style="color: rgb(233, 30, 99);">Trafik</h1>
+	<script type="text/javascript" src="http://feedjit.com/serve/?vv=1515&amp;tft=3&amp;dd=0&amp;wid=&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=000000&amp;brd1=012B6B&amp;lnk=135D9E&amp;hc=FFFFFF&amp;hfc=2853A8&amp;btn=C99700&amp;ww=200&amp;wne=5&amp;srefs=0"></script><noscript><a href="http://feedjit.com/">Live Traffic Stats</a></noscript>
+	<script type="text/javascript">
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'/bin/jquery.min.js?'+Math.random()+'\'></scr'+'ipt>');
+	</script>
+	<script type="text/javascript">
+		jQuery(function($){
+			$('#FJ_TF_Cont').css('margin', 'auto');
+		});
+	</script>
+</div>
+<div>
+	<h1 style="color: rgb(46, 125, 50);">Counter</h1>
+	<!-- Histats.com  (div with counter) -->
+	<center>
+		<div id="histats_counter"></div>
+	</center>
+	<!-- Histats.com  START  (aync)-->
+	<script type="text/javascript">var _Hasync= _Hasync|| [];
+	_Hasync.push(['Histats.start', '1,3995429,4,401,118,80,00011111']);
+	_Hasync.push(['Histats.fasi', '1']);
+	_Hasync.push(['Histats.track_hits', '']);
+	(function() {
+	var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+	hs.src = ('//s10.histats.com/js15_as.js');
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+	})();</script>
+	<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?3995429&101" alt="" border="0"></a></noscript>
+	<!-- Histats.com  END  -->
+</div>
+<div>
+	{% include iklan-6.html %}
+</div>
