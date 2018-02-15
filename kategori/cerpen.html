@@ -5,7 +5,7 @@ halaman: Cerpen
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{% page.halaman %} - Zen</title>
+	<title>Cerpen - Zen</title>
 	{% include head.html %}
 </head>
 <body>
@@ -13,7 +13,7 @@ halaman: Cerpen
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
-			{% for post in paginator.posts %}
+			{% for post in site.categories.cerpen %}
 				<div>
 					<h1 style="color: rgb(0, 188, 212);">
 						<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
@@ -36,11 +36,6 @@ halaman: Cerpen
 					{% include iklan-5.html %}
 				{% endif %}
 			{% endfor %}
-			{% if paginator.total_pages > 1 %}
-				<p style="margin-top: 10px;">
-					<a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn btn-default" style="background: rgb(13, 71, 161); color: white;">Next &rarr;</a>
-				</p>
-			{% endif %}
 		</div>
 		<div class="col-sm-4">
 			{% include sidebar.html %}
