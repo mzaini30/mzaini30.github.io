@@ -17,7 +17,7 @@
 					'link': '{{ site.url }}{{ post.url }}',
 					'judul': '{{ post.title | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' }}',
 					'gambar': '{{ post.gambar }}',
-					'cuplikan': '{{ post.content | truncatewords: 50 | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' }}'
+					'cuplikan': '{{ post.content | truncatewords: 50 | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' | replace: '\', '' }}'
 				}
 				{% assign first = false %}
 			{% endif %}
