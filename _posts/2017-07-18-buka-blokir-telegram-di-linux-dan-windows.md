@@ -3,7 +3,7 @@ layout: post
 title: "Buka Blokir Telegram di Linux dan Windows"
 date: 2017-07-18 10:38:22
 gambar: "http://dncache-mauganscorp.netdna-ssl.com/thumbseg/1236/1236914-bigthumbnail.jpg"
-categories: artikel
+categories: pemrograman
 tags: [koding, telegram, linux, skrip]
 ---
 

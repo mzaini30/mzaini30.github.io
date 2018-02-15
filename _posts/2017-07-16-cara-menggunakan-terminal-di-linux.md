@@ -3,7 +3,7 @@ layout: post
 title: "Cara Menggunakan Terminal di Linux"
 date: 2017-07-16 19:41:04
 gambar: "http://www.goodwp.com/large/201105/18015.jpg"
-categories: artikel
+categories: pemrograman
 tags: [linux, terminal]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Dokumentasi Markdown Editing"
 date: 2017-06-09 08:14:47
 gambar: "http://wallpapers.walldevil.com/wallpapers/a45/preview/anime-book-writing-girl-wallpaper-walls.jpg"
-categories: artikel
+categories: pemrograman
 tags: [koding, sublime text, markdown]
 ---
 
