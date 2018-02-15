@@ -6,5 +6,5 @@ highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-paginate
-paginate: 5
+paginate: 25
 permalink: /:year/:month/:day/:title.html

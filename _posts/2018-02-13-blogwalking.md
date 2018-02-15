@@ -2,7 +2,7 @@
 layout: post
 title: List Blogwalking
 date: 2018-02-13 23:22:49
-categories: artikel
+categories: list
 tags: [blogwalking, blogging, menulis]
 gambar: http://forum-animeindo.com/wp-content/uploads/2016/04/perbedaan-anime-dan-game-final-fantasy-xv-14-e1459586143677.png
 ---
