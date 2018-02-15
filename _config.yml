@@ -6,5 +6,21 @@ highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-paginate
+  - jekyll-archives
 paginate: 5
 permalink: /:year/:month/:day/:title.html
+
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: archive/year
+    month: archive/month
+    day: archive/day
+    tag: archive/tag
+    category: archive/category
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tags/:name/'
+    category: '/category/:name/'
