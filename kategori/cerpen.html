@@ -1,0 +1,52 @@
+---
+halaman: Cerpen
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% page.halaman %} - Zen</title>
+	{% include head.html %}
+</head>
+<body>
+<div class="container">
+	{% include header.html %}
+	<div class="row">
+		<div class="col-sm-8">
+			{% for post in paginator.posts %}
+				<div>
+					<h1 style="color: rgb(0, 188, 212);">
+						<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
+					</h1>
+					<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
+					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+					<p>
+						<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
+					</p>
+				</div>
+				{% if forloop.index0 == 0 %}
+					{% include iklan.html %}
+				{% elsif forloop.index0 == 1 %}
+					{% include iklan-2.html %}
+				{% elsif forloop.index0 == 2 %}
+					{% include iklan-3.html %}
+				{% elsif forloop.index0 == 3 %}
+					{% include iklan-4.html %}
+				{% elsif forloop.index0 == 4 %}
+					{% include iklan-5.html %}
+				{% endif %}
+			{% endfor %}
+			{% if paginator.total_pages > 1 %}
+				<p style="margin-top: 10px;">
+					<a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn btn-default" style="background: rgb(13, 71, 161); color: white;">Next &rarr;</a>
+				</p>
+			{% endif %}
+		</div>
+		<div class="col-sm-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
+	{% include footer.html %}
+</div>
+</body>
+</html>
