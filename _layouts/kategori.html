@@ -12,18 +12,20 @@
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
-			{% for post in site.categories.[page.kategori] %}
-				<div>
-					<h1 style="color: rgb(0, 188, 212);">
-						<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
-					</h1>
-					<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
-					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-					<p>
-						<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
-					</p>
-				</div>
-				{% include iklan.html %}
+			{% for post in site.posts %}
+				{% if post.category == page.kategori %}
+					<div>
+						<h1 style="color: rgb(0, 188, 212);">
+							<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
+						</h1>
+						<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
+						<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+						<p>
+							<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
+						</p>
+					</div>
+					{% include iklan.html %}
+				{% endif %}
 			{% endfor %}
 		</div>
 		<div class="col-sm-4">
