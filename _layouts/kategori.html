@@ -15,7 +15,7 @@
 			{% if post.categories[0] == page.kategori %}
 				{% unless first %},{% endunless %}{
 					'link': '{{ site.url }}{{ post.url }}',
-					'judul': '{{ post.title | replace: ''', '"' }}',
+					'judul': '{{ post.title | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' }}',
 					'gambar': '{{ post.gambar }}',
 					'cuplikan': '{{ post.content | truncatewords: 50 | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' }}'
 				}
