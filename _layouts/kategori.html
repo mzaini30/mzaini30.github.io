@@ -32,6 +32,7 @@
 				document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'/bin/jquery.min.js?'+Math.random()+'\'></scr'+'ipt>');
 			</script>
 			<div class="isi"></div>
+			<div class="iklan" style="display: none;">{% include iklan.html %}</div>
 			<script type="text/javascript">
 				awal = 0;
 				tambah = 5;
@@ -39,7 +40,7 @@
 			<script type="text/javascript">
 				tampil = function(){
 					for (x = awal; x < tambah; x++){
-						jQuery('.isi').append('<div>\
+						$('.isi').append('<div>\
 							<h1 style=\"color: rgb(0, 188, 212);\">\
 								<a href=\''+postingan[x].link+'\' style=\"text-decoration: none;\">'+postingan[x].judul+'</a>\
 							</h1>\
@@ -49,6 +50,7 @@
 								<a href=\"'+postingan[x].link+'\" class=\"btn btn-default\" style=\"background: rgb(76, 175, 80); color: white;\">Lanjutkan Membaca</a>\
 							</p>\
 						</div>');
+						$('.isi').append($('.iklan').html());
 					}	
 					awal += tambah;
 					tambah += tambah;
