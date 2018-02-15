@@ -39,7 +39,7 @@
 			<script type="text/javascript">
 				tampil = function(){
 					for (x = awal; x < tambah; x++){
-						document.getElementsByClassName('isi')[0].html += '<div>\
+						jQuery('.isi').append('<div>\
 							<h1 style=\"color: rgb(0, 188, 212);\">\
 								<a href=\''+postingan[x].link+'\' style=\"text-decoration: none;\">'+postingan[x].judul+'</a>\
 							</h1>\
@@ -48,7 +48,7 @@
 							<p>\
 								<a href=\"'+postingan[x].link+'\" class=\"btn btn-default\" style=\"background: rgb(76, 175, 80); color: white;\">Lanjutkan Membaca</a>\
 							</p>\
-						</div>';
+						</div>');
 					}	
 					awal += tambah;
 					tambah += tambah;
