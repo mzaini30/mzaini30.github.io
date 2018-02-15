@@ -36,8 +36,6 @@
 			<script type="text/javascript">
 				awal = 0;
 				tambah = 5;
-			</script>
-			<script type="text/javascript">
 				tampil = function(){
 					for (x = awal; x < tambah; x++){
 						$('.isi').append('<div>\
@@ -52,12 +50,12 @@
 						</div>');
 						$('.isi').append($('.iklan').html()); // bagian ini masih dibenerin
 					}	
-					awal += tambah;
-					tambah += tambah;
 				}
 				tampil();
+				awal += tambah;
+				tambah += tambah;
 			</script>
-			<a href="javascript:tampil();" class="btn btn-default">Next &rarr;</a>
+			<a href="javascript:tampil();awal+=tambah;tambah+=tambah;" class="btn btn-default">Next &rarr;</a>
 			<!-- loop start -->
 			<!-- <div>
 				<h1 style="color: rgb(0, 188, 212);">
