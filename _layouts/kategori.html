@@ -33,19 +33,23 @@
 				tambah = 5;
 			</script>
 			<script type="text/javascript">
-				for (x; x < tambah; x++){
-					document.writeln('<div>\
-						<h1 style=\"color: rgb(0, 188, 212);\">\
-							<a href=\''+postingan[x].link+'\' style=\"text-decoration: none;\">'+postingan[x].judul+'</a>\
-						</h1>\
-						<p><img src=\"'+postingan[x].gambar+'\" style=\"width: 100%;\"></p>\
-						<p>'+postingan[x].cuplikan+'</p>\
-						<p>\
-							<a href=\"'+postingan[x].link+'\" class=\"btn btn-default\" style=\"background: rgb(76, 175, 80); color: white;\">Lanjutkan Membaca</a>\
-						</p>\
-					</div>');
+				tampil = function(){
+					for (x = awal; x < tambah - 1; x++){
+						document.writeln('<div>\
+							<h1 style=\"color: rgb(0, 188, 212);\">\
+								<a href=\''+postingan[x].link+'\' style=\"text-decoration: none;\">'+postingan[x].judul+'</a>\
+							</h1>\
+							<p><img src=\"'+postingan[x].gambar+'\" style=\"width: 100%;\"></p>\
+							<p>'+postingan[x].cuplikan+'</p>\
+							<p>\
+								<a href=\"'+postingan[x].link+'\" class=\"btn btn-default\" style=\"background: rgb(76, 175, 80); color: white;\">Lanjutkan Membaca</a>\
+							</p>\
+						</div>');
+					}	
 				}
+				tampil();
 			</script>
+			<a href="" class="btn btn-default"></a>
 			<!-- loop start -->
 			<!-- <div>
 				<h1 style="color: rgb(0, 188, 212);">
