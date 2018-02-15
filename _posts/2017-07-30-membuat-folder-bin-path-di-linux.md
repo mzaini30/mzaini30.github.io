@@ -3,7 +3,7 @@ layout: post
 title: "Membuat Folder BIN (Path) di Linux"
 date: 2017-07-30 10:38:40
 gambar: "http://images6.alphacoders.com/632/632065.jpg"
-categories: artikel
+categories: pemrograman
 tags: [path, linux, koding, skrip, bash]
 ---
 
