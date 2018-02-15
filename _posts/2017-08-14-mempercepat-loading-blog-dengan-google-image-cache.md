@@ -3,7 +3,7 @@ layout: post
 title: "Mempercepat Loading Blog dengan Google Image Cache"
 date: 2017-08-14 19:09:53
 gambar: "http://i1.wp.com/desktopwallpapers.us/wp-content/uploads/2016/11/Couple-Anime-Run-1080p.jpg"
-categories: artikel
+categories: pemrograman
 tags: [blogging, google, google image]
 ---
 

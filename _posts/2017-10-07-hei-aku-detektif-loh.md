@@ -3,7 +3,7 @@ layout: post
 title: "Hei! Aku Detektif Loh..."
 date: 2017-10-07 17:10:56
 gambar: "http://lh3.googleusercontent.com/-TnewLZvNLXY/WdiZywiwmXI/AAAAAAAACaQ/rpuoqNV4WOsvp2lhYT_1J0Cbr-woP9AXwCLcBGAs/s900/detective_conan_239_colour_by_teisson-d3iamvj.png"
-categories: artikel
+categories: cerpen
 tags: [cerpen, cerita, story]
 ---
 

@@ -3,13 +3,13 @@ layout: post
 title: "Lagu Wajib Mahasiswa"
 date: 2017-08-09 17:28:10
 gambar: "http://www.greaterkashmir.com/cms/gall_content/2017/3/2017_3$largeimg228_Mar_2017_011458117.jpg"
-categories: artikel
+categories: musik
 tags: [lagu, lirik, ospek, fisipol]
 ---
 
 Buruh Tani
 
-```teks
+```
 Buruh tani mahasiswa rakyat miskin kota
 Bersatu padu rebut demokrasi
 Gegap gempita dalam satu suara
@@ -37,7 +37,7 @@ Bagiku satu langkah pasti
 
 Darah Juang
 
-```teks
+```
 Di sini negeri kami
 Tempat padi terhampar
 Samuderanya kaya raya
@@ -61,7 +61,7 @@ Padamu kami berjanji...
 
 Sumpah Mahasiswa
 
-```teks
+```
 Kami Mahasiswa Indonesia Bersumpah :
 Bertanah air satu, tanah air tanpa penindasan
 
@@ -74,7 +74,7 @@ Berbahasa satu, bahasa tanpa kebohongan
 
 Mars Fisipol
 
-```teks
+```
 Fisipol mahasiswa fisipol
 Jangan seperti cangkir menganga
 Hanya siap diisi tanpa filterisasi
