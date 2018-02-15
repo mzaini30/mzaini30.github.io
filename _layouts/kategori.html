@@ -28,7 +28,18 @@
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
-			<!-- isinya di sini nanti -->
+			<!-- loop start -->
+			<div>
+				<h1 style="color: rgb(0, 188, 212);">
+					<a href='(( link ))' style="text-decoration: none;">(( judul ))</a>
+				</h1>
+				<p><img src="(( gambar ))" style="width: 100%;"></p>
+				<p>(( cuplikan ))</p>
+				<p>
+					<a href="(( link ))" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
+				</p>
+			</div>
+			<!-- loop end -->
 		</div>
 		<div class="col-sm-4">
 			{% include sidebar.html %}
