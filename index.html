@@ -20,9 +20,6 @@
 					<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
 					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 					<p>
-						<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ post.path }}\'');void(0);" class="badge badge-default" style="background: rgb(230, 81, 0); color: white;">Edit</a>
-					</p>
-					<p>
 						<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
 					</p>
 				</div>
