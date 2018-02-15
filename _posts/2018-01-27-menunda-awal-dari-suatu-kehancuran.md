@@ -2,7 +2,7 @@
 layout: post
 title: Menunda... Awal dari Suatu Kehancuran
 date: 2018-01-27 06:05:49
-categories: posts
+categories: artikel
 tags: [life, kehidupan, renungan]
 gambar: http://1.bp.blogspot.com/-GE1r4qtEthI/U3qS8DBxNGI/AAAAAAAAA08/C7ludlKrqM4/s1600/depression_by_bettinaminamino-d18q57i.jpg
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Menghapus Enter dari Dokumen PDF dengan Python"
 date: 2017-07-21 23:28:34
 gambar: "http://static.zerochan.net/SeeU.full.1349249.jpg"
-categories: posts
+categories: artikel
 tags: [python, skrip]
 ---
 

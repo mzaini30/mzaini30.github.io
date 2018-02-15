@@ -2,7 +2,7 @@
 layout: post
 title: "Buat Kamu yang Selalu Berjuang Menggapai Idealitas"
 date: 2017-12-15 00:00:00
-categories: posts
+categories: artikel
 tags: [berjuang]
 gambar: https://i.pinimg.com/564x/1e/b5/9e/1eb59e5af143a3a708fe8754051f9270--cute-anime-guys-anime-boys.jpg
 ---

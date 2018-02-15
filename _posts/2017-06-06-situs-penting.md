@@ -3,7 +3,7 @@ layout: post
 title: "Situs Penting"
 date: 2017-06-06 05:57:34
 gambar: "http://www.aiseesoft.com/images/anime-websites/hulu-anime.jpg"
-categories: posts
+categories: artikel
 tags: [link, list]
 ---
 

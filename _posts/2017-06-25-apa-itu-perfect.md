@@ -3,7 +3,7 @@ layout: post
 title: "Apa Itu Perfect?"
 date: 2017-06-25 17:08:57
 gambar: "http://3.bp.blogspot.com/-TrkiHwWzU1Y/VQ12W74wjHI/AAAAAAAABO4/5F2nmQsiJBg/s1600/Shigatsu%2Bwa%2BKimi%2Bno%2BUso.jpg"
-categories: posts
+categories: artikel
 tags: [perfect, sempurna]
 ---
 

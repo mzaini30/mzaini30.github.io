@@ -2,7 +2,7 @@
 layout: post
 title: "Karena Emosi Hanya Ingin Diterima, Bukan Dituruti"
 date: 2017-04-30 17:43:16
-categories: posts
+categories: artikel
 tags: [emosi, perasaan, psikologi]
 gambar: https://pm1.narvii.com/6282/d03e5b72311b07c529f04ae78c7cd915b91332eb_hq.jpg
 ---

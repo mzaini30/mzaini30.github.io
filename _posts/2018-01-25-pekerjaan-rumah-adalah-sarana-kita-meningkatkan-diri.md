@@ -2,7 +2,7 @@
 layout: post
 title: Pekerjaan Rumah Itu Sebenarnya adalah Sarana Kita untuk Meningkatkan Diri. Mengapa Dikeluhkan?
 date: 2018-01-25 17:37:49
-categories: posts
+categories: artikel
 tags: [kehidupan, life, semangat, upgrade diri]
 gambar: https://stat.ameba.jp/user_images/20140816/01/sanchipinchi/7d/34/j/o0800045013035976834.jpg?caw=800
 ---

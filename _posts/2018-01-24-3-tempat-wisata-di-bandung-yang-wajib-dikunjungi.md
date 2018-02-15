@@ -2,7 +2,7 @@
 layout: post
 title: 3 Tempat Wisata di Bandung yang Wajib Dikunjungi
 date: 2018-01-25 00:05:49
-categories: posts
+categories: artikel
 tags: [sponsored post, bandung, wisata]
 gambar: 
 ---

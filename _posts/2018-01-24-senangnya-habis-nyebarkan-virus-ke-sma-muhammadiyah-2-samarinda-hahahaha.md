@@ -2,7 +2,7 @@
 layout: post
 title: Senangnya Ai Habis Nyebarkan Virus ke SMA Muhammadiyah 2 Samarinda. Hahahahaaa...
 date: 2018-01-24 12:24:49
-categories: posts
+categories: artikel
 tags: [mengajar, guru, bahasa arab]
 gambar: https://3.bp.blogspot.com/--W2h5YEl-3U/WZZpLULU_vI/AAAAAAAAAXQ/eqKlZiUCCgM6BpgKhupVbzMnp5sT-eotgCLcBGAs/s320/0622a9b98520e70d59eb8af821eb23063de8d8d8_hq.jpg
 ---

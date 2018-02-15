@@ -4,7 +4,7 @@ title: "Bukankah Kehidupan Kita (hanyalah) Estafet dari Kehidupan Sebelumnya?"
 date: 2017-05-01 19:37:54
 gambar: "http://img04.deviantart.net/d79d/i/2011/121/9/d/cats_life_by_apofiss-d3fb1qw.jpg"
 tags: [kehidupan]
-categories: posts
+categories: artikel
 ---
 
 Terkadang aku merasa heran kepada diri kita sendiri, sebagai manusia. Mengapa kita tidak bisa melakukan sesuatu yang orang dulu bisa melakukannya? Mengapa kita selalu merasa lemah? Mengapa kita selalu merasa tidak mampu? Mengapa kita masih saja suka menunda waktu? Mengapa kita nggak bisa efektif? Mengapa kita nggak bisa efisien? Mengapa kita masih lemah itu? Mengapa kita masih lemah ini? Mengapa kita nggak fokus? Mengapa kehidupan kita (katanya) semakin parah? Mengapa mesti terjadi penurunan?

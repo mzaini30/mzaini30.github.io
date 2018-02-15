@@ -3,7 +3,7 @@ layout: post
 title: "Matematika dengan Python"
 date: 2017-07-19 12:29:32
 gambar: "http://pm1.narvii.com/5818/caf5f7bd39b94b5d9feee1006470616b001c7c5f_hq.jpg"
-categories: posts
+categories: artikel
 tags: [matematika, python]
 ---
 

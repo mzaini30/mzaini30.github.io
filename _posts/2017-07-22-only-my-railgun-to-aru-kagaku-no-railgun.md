@@ -3,7 +3,7 @@ layout: post
 title: "Only My Railgun - To Aru Kagaku no Railgun"
 date: 2017-07-22 01:04:50
 gambar: "http://s-media-cache-ak0.pinimg.com/originals/03/0b/43/030b43ed3aa4f6268d6d000bcea9c257.jpg"
-categories: posts
+categories: artikel
 tags: [lagu, lirik, to aru kagaku no railgun]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Sebuah Ulasan Penulis Karya yang Namanya Tak Ingin Disebut"
 date: 2017-10-28 16:44:46
 gambar: "http://lh3.googleusercontent.com/-wOgprWzik4U/WfRDT2nPbiI/AAAAAAAAClo/swcqr-8r0Esz5sLW-KpbTdrRNIMEbs__wCLcBGAs/s900/sat-subject-test-literature-tutoring-solution_134371_large.jpg"
-categories: posts
+categories: artikel
 tags: [sastra]
 ---
 

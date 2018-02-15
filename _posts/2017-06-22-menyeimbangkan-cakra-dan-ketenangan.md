@@ -3,7 +3,7 @@ layout: post
 title: "Menyeimbangkan Cakra dan Ketenangan"
 date: 2017-06-22 12:28:47
 gambar: "http://pm1.narvii.com/5883/4e76f4af9c2ad4b5a4ebe1b535a8108d93b65b8c_hq.jpg"
-categories: posts
+categories: artikel
 tags: [ketenangan, cakra]
 ---
 

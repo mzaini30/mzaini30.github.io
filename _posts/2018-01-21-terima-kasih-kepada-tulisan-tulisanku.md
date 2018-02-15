@@ -2,7 +2,7 @@
 layout: post
 title: Terima Kasih kepada Tulisan-tulisanku :)
 date: 2018-01-21 13:36:49
-categories: posts
+categories: artikel
 tags: [tulisan, writing, menulis]
 gambar: https://pa1.narvii.com/5920/15a84bbb0d49f90cabad48f9c1643019f7dbc251_hq.gif
 ---

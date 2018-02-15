@@ -3,7 +3,7 @@ layout: post
 title: "Mengembangkan Sisi Introversi dengan Kesabaran"
 date: 2017-05-03 12:35:26
 gambar: "http://t09.deviantart.net/-OkoNJH0hMw9SvPVWZBZqNAOdVk=/fit-in/700x350/filters:fixed_height%28100,100%29:origin%28%29/pre01/4563/th/pre/i/2014/048/1/4/colourful_life_by_davinsky-d6dcre0.jpg"
-categories: posts
+categories: artikel
 tags: [kepribadian, introvert, jung, extrovert]
 ---
 

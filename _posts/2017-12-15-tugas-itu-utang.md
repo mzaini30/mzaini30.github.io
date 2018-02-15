@@ -2,7 +2,7 @@
 layout: post
 title: "Tugas Itu... Utang"
 date: 2017-12-15 00:00:00
-categories: posts
+categories: artikel
 tags: [utang]
 gambar: https://hakyuu.files.wordpress.com/2018/01/fate-series-2.jpg?w=474
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Sisters Noise - To Aru Kagaku no Railgun"
 date: 2017-07-22 01:24:56
 gambar: "http://www.entravity.com/wp-content/uploads/2013/05/railgun-4T-misaka-mikoto.jpg"
-categories: posts
+categories: artikel
 tags: [lagu, lirik, to aru kagaku no railgun]
 ---
 

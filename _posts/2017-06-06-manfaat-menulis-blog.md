@@ -3,7 +3,7 @@ layout: post
 title: "Manfaat Menulis Blog"
 date: 2017-06-06 05:33:35
 gambar: "http://www.animemaru.com/wp-content/uploads/2016/10/neverforget711-640x360.png"
-categories: posts
+categories: artikel
 tags: [blogging, menulis]
 ---
 

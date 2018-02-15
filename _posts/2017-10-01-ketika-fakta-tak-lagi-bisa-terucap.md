@@ -3,7 +3,7 @@ layout: post
 title: "Ketika Fakta Tak Lagi Bisa Terucap"
 date: 2017-10-01 03:01:28
 gambar: "http://lh3.googleusercontent.com/-eMtk8gs3iTM/Wc_pmWKqc2I/AAAAAAAACXc/3evKqSXn-XkexWa_dKa9mVGUdvf-ffFAgCLcBGAs/s900/thefactsite-logo-yoast.jpg"
-categories: posts
+categories: artikel
 tags: [fakta, sastra]
 ---
 

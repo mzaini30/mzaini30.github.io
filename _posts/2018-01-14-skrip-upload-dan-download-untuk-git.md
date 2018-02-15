@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: posts
+categories: artikel
 title: "Skrip Download dan Upload Ketika Menggunakan Git"
 tags: [git, skrip, bash, batch]
 date: 2018-01-14 08:54:00

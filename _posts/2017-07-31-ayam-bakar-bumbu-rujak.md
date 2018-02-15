@@ -3,7 +3,7 @@ layout: post
 title: "Ayam Bakar Bumbu Rujak"
 date: 2017-07-31 09:44:49
 gambar: "http://wallpaperscraft.com/image/grilled_chicken_crispy_fried_70856_602x339.jpg"
-categories: posts
+categories: artikel
 tags: [memasak, ayam]
 ---
 

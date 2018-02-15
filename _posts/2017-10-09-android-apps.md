@@ -3,7 +3,7 @@ layout: post
 title: "Android Apps"
 date: 2017-10-09 06:09:07
 gambar: "http://lh3.googleusercontent.com/-lc3NFLrjjks/Wdqhqi5N5RI/AAAAAAAACbI/k6mVGspjaFoLpeZkNTw7E3k8p4YRFpeOgCLcBGAs/s900/android.png"
-categories: posts
+categories: artikel
 tags: [aplikasi, android]
 ---
 

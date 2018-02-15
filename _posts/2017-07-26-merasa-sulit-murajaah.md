@@ -3,7 +3,7 @@ layout: post
 title: "Merasa Sulit Murajaah?"
 date: 2017-07-26 09:56:37
 gambar: "http://img08.deviantart.net/a8fd/i/2012/293/5/6/anime_reading_quran_by_jewel_ocean-d5icpi7.jpg"
-categories: posts
+categories: artikel
 tags: [quran, kehidupan, life]
 ---
 

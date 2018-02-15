@@ -3,7 +3,7 @@ layout: post
 title: "Janganlah Merasa Tertekan, Sayang"
 date: 2017-08-18 08:29:29
 gambar: "http://img06.deviantart.net/c632/i/2011/105/3/0/__happy_easter___by_ih8m0r0nz-d3e22eu.png"
-categories: posts
+categories: artikel
 tags: [kehidupan, renungan]
 ---
 

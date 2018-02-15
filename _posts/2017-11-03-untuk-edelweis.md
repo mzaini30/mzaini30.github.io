@@ -3,7 +3,7 @@ layout: post
 title: "Untuk Edelweis..."
 date: 2017-11-03 21:33:24
 gambar: "http://lh3.googleusercontent.com/-vgehaSebE0E/WfxvxlWp8_I/AAAAAAAACpI/MqezDl9qugAZQdgkrWC843bTfPRhHIh_wCLcBGAs/s900/Bunga-Edelweis-Senduro.jpg"
-categories: posts
+categories: artikel
 tags: [edelweis]
 ---
 

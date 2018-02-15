@@ -3,7 +3,7 @@ layout: post
 title: "Di Saat Berbagai Idealisme Saling Berebut Suara, Apakah Kita Diam Saja?"
 date: 2017-10-18 09:06:44
 gambar: "http://lh3.googleusercontent.com/-QmpqCfRyNbU/WeaoEDRJqlI/AAAAAAAACe8/D9RUFQgFxKAtsqlu9TCTgo5Jb7yWVqUpgCLcBGAs/s900/ideology.jpg"
-categories: posts
+categories: artikel
 tags: [idealisme]
 ---
 

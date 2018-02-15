@@ -3,7 +3,7 @@ layout: post
 title: "Tulisanku yang Terakhir"
 date: 2017-11-05 15:08:33
 gambar: "http://lh3.googleusercontent.com/-8fYUtBAAhkE/Wf64qmirYAI/AAAAAAAACpo/hyMq_Z9qVw03gZDuDcAGUIBaIX7FoP3DQCLcBGAs/s900/356584643.jpg"
-categories: posts
+categories: artikel
 tags: [tulisan]
 ---
 
