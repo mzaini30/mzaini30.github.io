@@ -15,9 +15,9 @@
 			{% if post.categories[0] == page.kategori %}
 				{% unless first %},{% endunless %}{
 					'link': '{{ site.url }}{{ post.url }}',
-					'judul': '{{ post.title }}',
+					'judul': '{{ post.title | replace: ''', '"' }}',
 					'gambar': '{{ post.gambar }}',
-					'cuplikan': {{ post.content | truncatewords: 50 | markdownify | strip_html | jsonify | replace: '\n', '' }}
+					'cuplikan': {{ post.content | truncatewords: 50 | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' }}
 				}
 				{% assign first = false %}
 			{% endif %}
