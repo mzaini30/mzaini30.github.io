@@ -8,6 +8,19 @@
 	{% include head.html %}
 </head>
 <body>
+<script type="text/javascript">
+	postingan = [
+		{% for post in site.posts %}
+			{% if post.categories[0] == page.kategori %}
+				{
+					'link': '{{ site.url }}{{ post.url }}',
+					'judul': '{{ post.title }}',
+					'cuplikan': '{{ post.content | strip_html | truncatewords: 50 }}'
+				},
+			{% endif %}
+		{% endfor %}
+	];
+</script>
 <div class="container">
 	{% include header.html %}
 	<div class="row">
