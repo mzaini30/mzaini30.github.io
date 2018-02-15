@@ -28,6 +28,7 @@
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
+			<div class="isi"></div>
 			<script type="text/javascript">
 				awal = 0;
 				tambah = 5;
@@ -35,7 +36,7 @@
 			<script type="text/javascript">
 				tampil = function(){
 					for (x = awal; x < tambah; x++){
-						document.writeln('<div>\
+						document.getElementByClassName('isi')[0].html += '<div>\
 							<h1 style=\"color: rgb(0, 188, 212);\">\
 								<a href=\''+postingan[x].link+'\' style=\"text-decoration: none;\">'+postingan[x].judul+'</a>\
 							</h1>\
@@ -44,7 +45,7 @@
 							<p>\
 								<a href=\"'+postingan[x].link+'\" class=\"btn btn-default\" style=\"background: rgb(76, 175, 80); color: white;\">Lanjutkan Membaca</a>\
 							</p>\
-						</div>');
+						</div>';
 					}	
 					awal += tambah;
 					tambah += tambah;
