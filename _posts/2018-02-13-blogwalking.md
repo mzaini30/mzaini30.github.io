@@ -14,5 +14,6 @@ Berikut ini adalah list blog favorit saya untuk blogwalking:
 |-|-|
 | [Japanese Station](https://japanesestation.com/) | Portal berita Jepang |
 | [Dewie Dean](http://dewieajaa.blogspot.co.id/) | Ada kekuatan di balik kesederhanaan |
+| [Heni Puspita](http://dewieajaa.blogspot.co.id/) | Ada kekuatan di balik kesederhanaan |
 
 Kalau ada yang blognya masuk list ini, komentar di bawah ya...
