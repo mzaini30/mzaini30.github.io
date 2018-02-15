@@ -2,7 +2,7 @@
 layout: post
 title: Sebuah Kebiasaan
 date: 2018-02-02 08:53:49
-categories: posts
+categories: artikel
 tags: [kehidupan, life]
 gambar: https://img00.deviantart.net/c5ce/i/2015/192/4/d/saber__king_arturia_by_redrook96-d90twn4.jpg
 ---
