@@ -2,7 +2,7 @@
 layout: post
 title: Membuat Aplikasi Android untuk Blog
 date: 2018-01-27 13:11:49
-categories: artikel
+categories: pemrograman
 tags: [blogging, android, aplikasi, app, apk]
 gambar: https://78.media.tumblr.com/tumblr_m50z22PoSc1rxq4udo1_500.gif
 ---
