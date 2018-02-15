@@ -2,7 +2,7 @@
 layout: post
 title: Lakukan yang Terbaik
 date: 2017-12-15 00:00:00
-categories: artikel
+categories: puisi
 tags: [ikatan, janji]
 gambar: https://hatarikun.files.wordpress.com/2013/06/yubikir.jpg
 ---
