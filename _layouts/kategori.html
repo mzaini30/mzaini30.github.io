@@ -13,7 +13,7 @@
 	<div class="row">
 		<div class="col-sm-8">
 			{% for post in site.posts %}
-				{% if post.category == page.kategori %}
+				{% if post.categories[0] == page.kategori %}
 					<div>
 						<h1 style="color: rgb(0, 188, 212);">
 							<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
