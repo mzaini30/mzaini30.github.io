@@ -17,7 +17,7 @@
 					'link': '{{ site.url }}{{ post.url }}',
 					'judul': '{{ post.title }}',
 					'gambar': '{{ post.gambar }}',
-					'cuplikan': '{{ post.content | strip_html | truncatewords: 50 }}'
+					'cuplikan': '{{ post.content | strip_html | truncatewords: 50 | replace: '\n', '' }}'
 				}
 				{% assign first = false %}
 			{% endif %}
