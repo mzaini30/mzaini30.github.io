@@ -37,13 +37,10 @@
 				<a href="javascript:tampil();" class="btn btn-default" style="margin-top: 10px;">Next &rarr;</a>
 			</div>
 			<script type="text/javascript">
-				localStorage.setItem('awal', 0);
-				localStorage.setItem('akhir', 5);
-				awal = Number(localStorage.getItem('awal'));
-				akhir = Number(localStorage.getItem('akhir'));
-				// awal = 0;
-				// akhir = 5;
+				awal = 0;
+				akhir = 5;
 				beda = akhir - awal;
+				$('.next').show();
 				$('.next').show();
 				tampil = function(){
 					for (x = awal; x < akhir; x++){
