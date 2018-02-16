@@ -107,7 +107,3 @@ table > tbody + tbody {
 table table {
   background-color: #fff;
 }
-
-.related-posts a {
-	text-align: left;
-}

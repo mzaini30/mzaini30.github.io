@@ -10,11 +10,11 @@
 <body>
 <div class="container">
 	{% include header.html %}
-	<div class="row" style="margin-top: 10px;">
+	<div class="row">
 		<div class="col-sm-8">
 			<h1>Terbaru</h1>
 			{% include iklan.html %}
-			<div class="row" class="related-posts">
+			<div class="row" style="margin-top: 10px;">
 				<div class="col-sm-6">
 					{% for post in site.categories[page.kategori] %}
 						{% if forloop.index0 < 5 %}
