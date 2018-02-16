@@ -19,4 +19,5 @@ Ayo dong, segera lakukan sesuatu. Buat perbaikan. Pelajari banyak hal baru. Kemb
 
 Jangan mengeluh. Jangan khawatir pada ketidakpastian yang saat ini berputar-putar dalam anganmu.
 
-Lihat deh, jam terus berdetak, malaikat senantiasa mencatat setiap amalmu, 
+Lihat deh, jam terus berdetak, malaikat senantiasa mencatat setiap amalmu, berang-berang terus saja mengumpulkan kayu-kayu kering, kucing-kucing terus-terusan berlari ke sana ke mari, tikus-tikus senantiasa bersembunyi dan _sprint_ menghindari kucing nakal. Sedangkan diri kita? Berdiam diri saja? Itukah yang disebut sebagai _puncak evolusi_ oleh Charles Darwin? Apakah berdiamnya kita ini adalah sebagai ciri kita sebagai _khalifah_ yang telah dipercaya oleh Allah _subhanahu wa taala_. Yuk, buatlah perubahan. Tunjukkan bahwa generasi zaman _now_ harus lebih baik daripada generasi zaman _old_. Bukankah __hari ini harus lebih baik daripada hari kemarin__?
+
