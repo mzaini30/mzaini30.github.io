@@ -4,17 +4,9 @@ title: Trik Resize Ukuran Gambar dengan Blogspot
 date: 2018-02-16 16:40:49
 categories: pemrograman
 tags: [gambar, trik, image, blogspot]
-gambar: 
+gambar: https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/b/b8/99fcabbb16e931f2d839a311174f9468--anime-manga-girl-moe-anime.jpg/revision/latest?cb=20171231131551
 ---
 
-Berikut ini adalah list blog favorit saya untuk blogwalking:
+Mau _resize_ gambar tapi nggak punya aplikasi canggih macam Photoshop, Corel Draw, Inkscape, GIMP? Oke, jangan khawatir. Kamu bisa kok menggunakan akun Blogspotmu untuk _meresize_ gambar. Ikuti tutorialnya ya...
 
-|-|-|
-| Blog | Deskripsi |
-|-|-|
-| [Dewie Dean](http://dewieajaa.blogspot.co.id/) | Ada kekuatan di balik kesederhanaan |
-| [Heni Puspita](http://www.henipuspita.net/) | Catatan mama Rayyaan Razqa |
-| [Japanese Station](https://japanesestation.com/) | Portal berita Jepang |
-| [My Satnite](https://www.mysatnite.com/) | Your story is our story |
-
-Kalau ada yang blognya masuk list ini, komentar di bawah ya...
+1. 
