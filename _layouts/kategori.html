@@ -4,26 +4,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ page.kategori | capitalize }} - Zen</title>
+	{% assign kategori = page.kategori %}
+	<title>{{ kategori | capitalize }} - Zen</title>
 	{% include head.html %}
 </head>
 <body>
-<script type="text/javascript">
-	{% assign first = true %}
-	postingan = [
-		{% for post in site.posts %}
-			{% if post.categories[0] == page.kategori %}
-				{% unless first %},{% endunless %}{
-					'link': '{{ site.url }}{{ post.url }}',
-					'judul': '{{ post.title | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' }}',
-					'gambar': '{{ post.gambar }}',
-					'cuplikan': '{{ post.content | truncatewords: 50 | markdownify | strip_html | jsonify | replace: '\n', '' | replace: '"', '' | replace: '\', '' }}'
-				}
-				{% assign first = false %}
-			{% endif %}
-		{% endfor %}
-	];
-</script>
 <div class="container">
 	{% include header.html %}
 	<div class="row">
@@ -31,51 +16,15 @@
 			<script type="text/javascript">
 				document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'/bin/jquery.min.js?'+Math.random()+'\'></scr'+'ipt>');
 			</script>
-			<div class="isi"></div>
-			<div class="iklan" style="display: none;">{% include iklan.html %}</div>
-			<div class="next">
-				<a href="javascript:tampil();" class="btn btn-default" style="margin-top: 10px;">Next &rarr;</a>
+			<div class="row">
+				<a href="(( link ))">
+					<div class="col-xs-4" style="padding-right: 5px;">
+						<div class="kotak" style="background-image: url((( gambar )));" style="width: 100%;"></div>
+					</div>
+					<div class="col-xs-8" style="padding-left: 5px;">{{ site.posts[postingan_selanjutnya_2].title }}</div>
+				</a>
 			</div>
-			<script type="text/javascript">
-				awal = 0;
-				akhir = 5;
-				beda = akhir - awal;
-				$('.next').show();
-				tampil = function(){
-					for (x = awal; x < akhir; x++){
-						if (postingan[x] == null){
-							$('.next').hide();
-						}
-						$('.isi').append('<div>\
-							<h1 style=\"color: rgb(0, 188, 212);\">\
-								<a href=\''+postingan[x].link+'\' style=\"text-decoration: none;\">'+postingan[x].judul+'</a>\
-							</h1>\
-							<p><img src=\"'+postingan[x].gambar+'\" style=\"width: 100%;\"></p>\
-							<p>'+postingan[x].cuplikan+'</p>\
-							<p>\
-								<a href=\"'+postingan[x].link+'\" class=\"btn btn-default\" style=\"background: rgb(76, 175, 80); color: white;\">Lanjutkan Membaca</a>\
-							</p>\
-						</div>');
-						$('.isi').append($('.iklan').html());
-					}	
-					// kode bagian ini nggak jalan
-					awal += beda;
-					akhir += beda;
-				}
-				tampil();
-			</script>
-			<!-- loop start -->
-			<!-- <div>
-				<h1 style="color: rgb(0, 188, 212);">
-					<a href='(( link ))' style="text-decoration: none;">(( judul ))</a>
-				</h1>
-				<p><img src="(( gambar ))" style="width: 100%;"></p>
-				<p>(( cuplikan ))</p>
-				<p>
-					<a href="(( link ))" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
-				</p>
-			</div> -->
-			<!-- loop end -->
+			<br>
 		</div>
 		<div class="col-sm-4">
 			{% include sidebar.html %}
