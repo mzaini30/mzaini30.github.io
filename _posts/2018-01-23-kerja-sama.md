@@ -25,9 +25,9 @@ gambar: https://blog.sakugabooru.com/wp-content/uploads/2017/06/cc-1038x576.jpg
 
 Berikut ini adalah beberapa klien yang sudah bekerja sama dengan blog ini:
 
-- [3 Tempat Wisata di Bandung yang Wajib Dikunjungi](http://muhammadzaini.com/2018/01/25/3-tempat-wisata-di-bandung-yang-wajib-dikunjungi.html) oleh [Airy Rooms](https://www.airyrooms.com)
-- [Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh [Traveloka](http://traveloka.com)
-- [Umbul Manten Kolam Alami Jernih di Klaten, Harga Tiket Masuk + Peta Lokasi](http://muhammadzaini.com/2018/01/27/umbul-manten-kolam-alami-jernih-di-klaten-harga-tiket-masuk-peta-lokasi.html) oleh [Dolan Yok](http://dolanyok.com)
+- [3 Tempat Wisata di Bandung yang Wajib Dikunjungi](http://muhammadzaini.com/2018/01/25/3-tempat-wisata-di-bandung-yang-wajib-dikunjungi.html) oleh _Airy Rooms_
+- [Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia](http://muhammadzaini.com/2017/07/18/ekspansi-jaringan-4g-operator-telekomunikasi-seluler-di-indonesia.html) oleh _Traveloka_
+- [Umbul Manten Kolam Alami Jernih di Klaten, Harga Tiket Masuk + Peta Lokasi](http://muhammadzaini.com/2018/01/27/umbul-manten-kolam-alami-jernih-di-klaten-harga-tiket-masuk-peta-lokasi.html) oleh _Dolan Yok_
 
 # Saya Juga Membuka Jasa Upload Aplikasi Android ke Play Store
 
