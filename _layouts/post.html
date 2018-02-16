@@ -20,6 +20,9 @@
 					{{ content }}
 				</div>
 				<p>
+					{% for tag in page.tags %}
+						<a href="/tags/#{{tag}}" class="badge badge-default" style="background: rgb(92, 107, 192); color: white;">#{{ tag }}</a>
+					{% endfor %}
 					<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);" class="badge badge-default" style="background: rgb(230, 81, 0); color: white;">Edit</a>
 				</p>
 				{% include iklan-2.html %}
