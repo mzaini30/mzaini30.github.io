@@ -21,10 +21,13 @@
 					{{ content }}
 				</div>
 				<p>
+					{% for kategori in post.categories %}
+						<a href="/kategori/{{ kategori }}.html" class="badge badge-default" style="background: rgb(255, 87, 34); color: white;">#{{ kategori }}</a>
+					{% endfor %}
 					{% for tag in page.tags %}
 						<a href="/tags/#{{tag}}" class="badge badge-default" style="background: rgb(92, 107, 192); color: white;">#{{ tag }}</a>
 					{% endfor %}
-					<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);" class="badge badge-default" style="background: rgb(230, 81, 0); color: white;">Edit</a>
+					<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);" class="badge badge-default" style="background: rgb(230, 81, 0); color: white;">#edit</a>
 				</p>
 				{% include iklan-2.html %}
 				<div class="row" style="margin-top: 10px;">
