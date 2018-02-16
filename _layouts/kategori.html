@@ -12,17 +12,38 @@
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
-			{% for post in site.categories[page.kategori] %}
-				<div class="row">
-					<a href="{{ post.url }}">
-						<div class="col-xs-4" style="padding-right: 5px;">
-							<div class="kotak" style="background-image: url({{ post.gambar }});" style="width: 100%;"></div>
-						</div>
-						<div class="col-xs-8" style="padding-left: 5px;">{{ post.title }}</div>
-					</a>
+			<div class="row">
+				<div class="col-sm-6">
+					{% for post in site.categories[page.kategori] %}
+						{% if forloop.index0 < 6 %}
+							<div class="row">
+								<a href="{{ post.url }}">
+									<div class="col-xs-4" style="padding-right: 5px;">
+										<div class="kotak" style="background-image: url({{ post.gambar }});" style="width: 100%;"></div>
+									</div>
+									<div class="col-xs-8" style="padding-left: 5px;">{{ post.title }}</div>
+								</a>
+							</div>
+							<br>
+						{% endif %}
+					{% endfor %}
 				</div>
-				<br>
-			{% endfor %}
+				<div class="col-sm-6">
+					{% for post in site.categories[page.kategori] %}
+						{% if forloop.index0 < 6 %}
+							<div class="row">
+								<a href="{{ post.url }}">
+									<div class="col-xs-4" style="padding-right: 5px;">
+										<div class="kotak" style="background-image: url({{ post.gambar }});" style="width: 100%;"></div>
+									</div>
+									<div class="col-xs-8" style="padding-left: 5px;">{{ post.title }}</div>
+								</a>
+							</div>
+							<br>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
 		</div>
 		<div class="col-sm-4">
 			{% include sidebar.html %}
