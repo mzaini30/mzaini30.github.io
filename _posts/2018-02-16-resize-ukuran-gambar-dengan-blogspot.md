@@ -17,4 +17,11 @@ Mau _resize_ gambar tapi nggak punya aplikasi canggih macam Photoshop, Corel Dra
 
 3. Maka, kamu akan mendapatkan link berikut: _https://lh3.googleusercontent.com/-LzUKOslCX9A/WoaaTNzMaOI/AAAAAAAACzU/V6Wbetktx0kg-bFgiX_QTfe_G3rsUFUvACLcBGAs/`h120`/2c2c8d8c9824.original.jpeg_
 
-4. Nah, sekarang perhatikan di bagian `h120`. Bagian tersebut adalah 
+4. Nah, sekarang perhatikan di bagian `h120`. Bagian tersebut adalah kode untuk menentukan lebar maupun tinggi dari gambar. Di bawah ini adalah tabel untuk memahami bagian tersebut:
+
+	| Dimensi | Kode | Contoh |
+	|-|-|-|
+	| lebar | w | w1200 |
+	| tinggi | h | h360 |
+	| _crop_ berdasarkan lebar | w dan c | w1200-c |
+	| _crop_ berdasarkan tinggi | h dan c | h360-c |
