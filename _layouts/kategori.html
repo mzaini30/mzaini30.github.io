@@ -13,6 +13,7 @@
 	<div class="row">
 		<div class="col-sm-8">
 			<h1>Terbaru</h1>
+			{% include iklan.html %}
 			<div class="row" class="related-posts">
 				<div class="col-sm-6">
 					{% for post in site.categories[page.kategori] %}
@@ -45,16 +46,19 @@
 					{% endfor %}
 				</div>
 			</div>
-			<h1>Lainnya</h1>
-			<ul>
-				{% for post in site.categories[page.kategori] %}
-					{% if forloop.index0 > 9 %}
-						<li>
-							<a href="{{ post.url }}">{{ post.title }}</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
+			{% include iklan-2.html %}
+			{% if site.categories[page.kategori].length > 10 %}
+				<h1>Lainnya</h1>
+				<ul>
+					{% for post in site.categories[page.kategori] %}
+						{% if forloop.index0 > 9 %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			{% endif %}
 		</div>
 		<div class="col-sm-4">
 			{% include sidebar.html %}
