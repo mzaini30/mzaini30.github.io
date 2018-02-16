@@ -25,3 +25,5 @@ Mau _resize_ gambar tapi nggak punya aplikasi canggih macam Photoshop, Corel Dra
 	| tinggi | h | h360 |
 	| _crop_ berdasarkan lebar | w dan c | w1200-c |
 	| _crop_ berdasarkan tinggi | h dan c | h360-c |
+
+5. Ubahlah bagian tersebut dengan dimensi gambar yang kalian inginkan :)
