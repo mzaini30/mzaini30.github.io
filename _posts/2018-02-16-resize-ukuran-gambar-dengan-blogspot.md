@@ -9,4 +9,4 @@ gambar: https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/b/b8/99fca
 
 Mau _resize_ gambar tapi nggak punya aplikasi canggih macam Photoshop, Corel Draw, Inkscape, GIMP? Oke, jangan khawatir. Kamu bisa kok menggunakan akun Blogspotmu untuk _meresize_ gambar. Ikuti tutorialnya ya...
 
-1. 
+1. Upload gambar yang kamu punya ke postingan blog seperti biasa.
