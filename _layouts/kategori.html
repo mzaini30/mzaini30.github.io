@@ -39,9 +39,11 @@
 			<script type="text/javascript">
 				localStorage.setItem('awal', 0);
 				localStorage.setItem('akhir', 5);
+				awal = localStorage.getItem('awal');
+				akhir = localStorage.getItem('akhir');
+				beda = akhir - awal;
 				// awal = 0;
 				// akhir = 5;
-				beda = akhir - awal;
 				$('.next').show();
 				tampil = function(){
 					for (x = awal; x < akhir; x++){
@@ -60,9 +62,10 @@
 						</div>');
 						$('.isi').append($('.iklan').html()); // bagian ini masih dibenerin
 					}	
-					awal += beda;
-					akhir += beda;
-					localStorage.setItem('awal', localStorage.getItem('awal') + beda)
+					// awal += beda;
+					// akhir += beda;
+					localStorage.setItem('awal', awal + beda);
+					localStorage.setItem('akhir', akhir + beda);
 				}
 				tampil();
 			</script>
