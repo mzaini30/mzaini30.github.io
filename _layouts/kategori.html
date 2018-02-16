@@ -12,7 +12,7 @@
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
-			<h1>Terbaru</h1>
+			<h1 style="color: rgb(255, 23, 68);">Kategori {{ page.kategori | capitalize }}</h1>
 			{% include iklan.html %}
 			<div class="row" style="margin-top: 10px;">
 				<div class="col-sm-6">
@@ -48,7 +48,7 @@
 			</div>
 			{% include iklan-2.html %}
 			{% if site.categories[page.kategori].size > 10 %}
-				<h1>Lainnya</h1>
+				<h1 style="color: rgb(106, 27, 154);">Lainnya</h1>
 				<ul>
 					{% for post in site.categories[page.kategori] %}
 						{% if forloop.index0 > 9 %}
