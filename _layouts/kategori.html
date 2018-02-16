@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			{% include iklan-2.html %}
-			<p>site.categories[page.kategori].length</p>
+			<p>{{ site.categories[page.kategori].length }}</p>
 			{% if site.categories[page.kategori].length > 10 %}
 				<h1>Lainnya</h1>
 				<ul>
