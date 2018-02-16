@@ -15,3 +15,8 @@ Ingat kawan, bahwasanya jam terus berdetak. Kalau ada yang punya jam dinding, co
 
 > Tugas kita sesungguhnya lebih panjang daripada usia kita
 
+Ayo dong, segera lakukan sesuatu. Buat perbaikan. Pelajari banyak hal baru. Kembangkan ide-ide baru. Buat tulisan-tulisan yang akan mendobrak peradaban. Buatlah rekaman sebagai perlawanan atas kezaliman yang meraja lela. Tunjukkan kepedulianmu pada orang-orang yang lemah tak berdaya, kepada mereka yang nggak mampu, kepada mereka yang kesusahan membeli beras _impor_, kepada mereka yang terbiasa makan sagu namun dipaksa makan nasi yang _mahal_. Ayo dong, buatlah perubahan. Jadikan dunia ini menjadi lebih indah.
+
+Jangan mengeluh. Jangan khawatir pada ketidakpastian yang saat ini berputar-putar dalam anganmu.
+
+Lihat deh, jam terus berdetak, malaikat senantiasa mencatat setiap amalmu, 
