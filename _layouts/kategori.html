@@ -13,10 +13,7 @@
 	{% include header.html %}
 	<div class="row">
 		<div class="col-sm-8">
-			<script type="text/javascript">
-				document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'/bin/jquery.min.js?'+Math.random()+'\'></scr'+'ipt>');
-			</script>
-			{% for post in site.category.kategori %}
+			{% for post in site.categories.kategori %}
 				<div class="row">
 					<a href="{{ post.url }}">
 						<div class="col-xs-4" style="padding-right: 5px;">
