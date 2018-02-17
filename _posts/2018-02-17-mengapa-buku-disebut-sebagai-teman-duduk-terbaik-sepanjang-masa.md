@@ -22,4 +22,5 @@ Coba deh kita bayangkan, pernah nggak sih buku itu membuat kamu kesal? Membuat k
 
 Nggak pernah kan buku melakukan itu semua?
 
-Bukankah buku membuatmu menjadi lebih cerdas? Lebih bijak? Lebih paham situasi? Lebih bisa mengambil keputusan? Menemani setiap kesepianmu? Membuatmu lebih bijaksana lagi? 
+Bukankah buku membuatmu menjadi lebih cerdas? Lebih bijak? Lebih paham situasi? Lebih bisa mengambil keputusan? Menemani setiap kesepianmu? Membuatmu lebih bijaksana lagi? Membuatmu bahagia? Membuatmu mengenal orang-orang saleh? Membuatmu mengenal surga, mengenal Allah, mengenal Islam, mengenal kehidupan abadi? Bukankah buku membuatmu menjadi lebih baik?
+
