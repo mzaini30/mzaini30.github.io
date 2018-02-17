@@ -32,4 +32,13 @@ Dalam hening, dalam sunyi, buku kita baca. Dalam rintik-rintik hujan, maupun dal
 
 Buku.
 
-Suatu benda yang agung namun kehilangan peminatnya. Sesuatu pembendaharaan yang sangat berharga namun sudah lepas dari para fansnya. 
+Suatu benda yang agung namun kehilangan peminatnya. Sesuatu pembendaharaan yang sangat berharga namun sudah lepas dari para fansnya. Sesuatu yang bisa dikatakan _snacknya_ para ulama dan ilmuan zaman keemasan Islam namun menjadi sesuatu yang disia-siakan hari ini.
+
+Tahukah kita apa itu ayat pertama yang turun di dalam Quran? Yaps, surat Al Alaq yang dimulai dengan perintah membaca:
+
+> اقرأ باسم ربك الذي خلق
+{:.arab}
+
+> Bacalah dengan nama Tuhanmu yang menciptakan
+
+Tahukah kita makhluk apakah yang pertama kali diciptakan? Yaps, pena. Dengan pena itulah Allah memerintahkan kepadanya untuk menuliskan takdir seluruh makhluk ciptaannya 
