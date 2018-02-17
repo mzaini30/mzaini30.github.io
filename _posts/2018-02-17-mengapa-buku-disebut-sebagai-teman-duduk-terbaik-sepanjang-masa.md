@@ -15,3 +15,11 @@ Dengan apa biasa kita menghabiskan waktu-waktu senggang kita? Apakah dengan memb
 > Sebaik-baik teman duduk sepanjang masa adalah buku
 
 Saya tidak mengatakan ini hadits atau perkataan ulama ya. Walaupun menggunakan bahasa Arab sih. Kan, yang ngomong bahasa Arab, jadinya ya pakai bahasa Arab lah. Saya juga nggak ada ngecek sih apakah ini termasuk hadits, atsar, atau apalah itu.
+
+_So_, mengapa sebaik-baik teman duduk adalah buku?
+
+Coba deh kita bayangkan, pernah nggak sih buku itu membuat kamu kesal? Membuat kamu putus asa? Menceritakan kejelekanmu? Membuatmu miskin? Membuatmu rugi? Membuatmu menjadi orang yang nggak berguna? Mencampakkan kehidupanmu? Membuatmu dalam keadaan terpuruk sehingga tak mampu hidup lagi? Kok curhat ya? Hehehehe...
+
+Nggak pernah kan buku melakukan itu semua?
+
+Bukankah buku membuatmu menjadi lebih cerdas? Lebih bijak? Lebih paham situasi? Lebih bisa mengambil keputusan? Menemani setiap kesepianmu? Membuatmu lebih bijaksana lagi? 
