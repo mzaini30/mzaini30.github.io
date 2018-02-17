@@ -41,4 +41,6 @@ Tahukah kita apa itu ayat pertama yang turun di dalam Quran? Yaps, surat Al Alaq
 
 > Bacalah dengan nama Tuhanmu yang menciptakan
 
-Tahukah kita makhluk apakah yang pertama kali diciptakan? Yaps, pena. Dengan pena itulah Allah memerintahkan kepadanya untuk menuliskan takdir seluruh makhluk ciptaannya 
+Tahukah kita makhluk apakah yang pertama kali diciptakan? Yaps, pena. Dengan pena itulah Allah memerintahkan kepadanya untuk menuliskan takdir seluruh makhluk ciptaannya dari awal pertama kali diciptakan hingga kehancuran segala sesuatunya yang kita sebut sebagai kiamat. Nah, dari situ, bukankah kita sudah memahami betapa agungnya dan betapa mulianya kegiatan baca-tulis, atau biasa kita sebut sebagai kegiatan _tolabul ilmi_ ini.
+
+Nah, coba kita mulai ambil buku yang terdekat dengan kita, lalu mulailah bercengkrama dengannya. Semoga kalian akrab :)
