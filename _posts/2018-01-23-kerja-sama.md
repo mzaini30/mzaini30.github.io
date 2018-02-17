@@ -37,4 +37,4 @@ Punya aplikasi Android tapi belum punya akun Play Store? Nggak usah khawatir, sa
 
 # Ya, Saya Ingin Bekerja Sama
 
-Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com).
+Untuk Anda yang ingin bekerja sama saat ini juga, bisa menghubungi saya di [muhzaini30@gmail.com](mailto:muhzaini30@gmail.com) atau kirim pesan ke Whatsapp di [081545143654](https://api.whatsapp.com/send?phone=6281545143654&text=Assalamualaikum%20Kak%20Zen.%20Saya%20mau%20bekerja%20sama%20dengan%20blog%20Kak%20Zen.).
