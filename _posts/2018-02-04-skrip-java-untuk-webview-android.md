@@ -99,3 +99,9 @@ public class Puasa2018Activity extends Activity {
    }
 }
 ```
+
+Masukkan skrip berikut di dalam `Android Manifest` pada bagian `application` apabila aplikasi menayangkan video dari Youtube:
+
+```javascript
+android:hardwareAccelerated="true"
+```
