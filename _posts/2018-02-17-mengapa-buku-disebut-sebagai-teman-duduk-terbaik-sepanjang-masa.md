@@ -32,4 +32,4 @@ Dalam hening, dalam sunyi, buku kita baca. Dalam rintik-rintik hujan, maupun dal
 
 Buku.
 
-Suatu benda yang agung namun kehilangan peminatnya. Suatu 
+Suatu benda yang agung namun kehilangan peminatnya. Sesuatu pembendaharaan yang sangat berharga namun sudah lepas dari para fansnya. 
