@@ -26,4 +26,10 @@ Bukankah buku membuatmu menjadi lebih cerdas? Lebih bijak? Lebih paham situasi? 
 
 Buku itu unik. Kamu nggak perlu media canggih untuk membacanya. Kamu nggak perlu laptop seperti biasanya menonton film. Kamu nggak perlu internet seperti biasanya kamu menonton ceramah Syaikh Hanan Attaki di Youtube. Kamu nggak perlu HP canggih. Kamu nggak perlu LCD. Kamu nggak perlu berbagai peralatan canggih. Yang kamu perlukan hanyalah lembaran-lembaran kertas dengan wangi yang khas dan kemauan untuk membacanya.
 
-Memang terlihat cukup primitif dan kuno namun di situlah letak keindahannya, di situlah letak estetisnya. 
+Memang terlihat cukup primitif dan kuno namun di situlah letak keindahannya, di situlah letak estetisnya. Tidaklah kita mengatakan bahwa coretan-coretan warna di berbagai tempat sebagai keindahan bila kehilangan esensi dan eksistensinya, bahkan, ruang putih, kosong, nan hampa, disulap menjadi maestro karya seni di tangan Steve Jobs.
+
+Dalam hening, dalam sunyi, buku kita baca. Dalam rintik-rintik hujan, maupun dalam malam dingin, buku menemani kesendirian kita. Atau, ketika dalam ramai, tatkala mulut-mulut saling beradu mencurahkan celotehannya, kita pun membukukan kehidupan kita dalam keseharian kita. Suatu kebahagiaan. Suatu keceriaan. Suatu kesenangan.
+
+Buku.
+
+Suatu benda yang agung namun kehilangan peminatnya. Suatu 
