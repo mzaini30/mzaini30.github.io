@@ -24,3 +24,6 @@ Nggak pernah kan buku melakukan itu semua?
 
 Bukankah buku membuatmu menjadi lebih cerdas? Lebih bijak? Lebih paham situasi? Lebih bisa mengambil keputusan? Menemani setiap kesepianmu? Membuatmu lebih bijaksana lagi? Membuatmu bahagia? Membuatmu mengenal orang-orang saleh? Membuatmu mengenal surga, mengenal Allah, mengenal Islam, mengenal kehidupan abadi? Bukankah buku membuatmu menjadi lebih baik?
 
+Buku itu unik. Kamu nggak perlu media canggih untuk membacanya. Kamu nggak perlu laptop seperti biasanya menonton film. Kamu nggak perlu internet seperti biasanya kamu menonton ceramah Syaikh Hanan Attaki di Youtube. Kamu nggak perlu HP canggih. Kamu nggak perlu LCD. Kamu nggak perlu berbagai peralatan canggih. Yang kamu perlukan hanyalah lembaran-lembaran kertas dengan wangi yang khas dan kemauan untuk membacanya.
+
+Memang terlihat cukup primitif dan kuno namun di situlah letak keindahannya, di situlah letak estetisnya. 
