@@ -17,5 +17,6 @@ Berikut ini adalah list blog favorit saya untuk blogwalking:
 | [Japanese Station](https://japanesestation.com/) | Portal berita Jepang |
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
 | [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
+| [Kompi Teknologi Indonesia](http://www.kompitech.me/) | Menginspirasi, memotivasi, membuka wawasan masyarakat |
 
 Kalau ada yang blognya masuk list ini, komentar di bawah ya...
