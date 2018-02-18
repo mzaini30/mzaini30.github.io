@@ -63,6 +63,10 @@ a {
 	font-size: 20px;
 }
 
+pre code.language-teks {
+	font-family: inherit;
+}
+
 .kotak {
 	float:left;
     position: relative;
