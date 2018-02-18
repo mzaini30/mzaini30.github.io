@@ -10,8 +10,8 @@
 <body>
 <div class="container">
 	{% include header.html %}
-	<div class="row">
-		<div class="col-sm-8">
+	<div class="row stick-parent">
+		<div class="col-sm-8 main">
 			<div>
 				<h1 style="color: rgb(0, 188, 212);">{{ page.title }}</h1>
 				<p class="badge badge-default" style="background: rgb(76, 175, 80); color: white;">{{ page.date | date: "%d %B %Y" }}</p>
@@ -117,7 +117,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-4 sidebar">
 			{% include sidebar.html %}
 		</div>
 	</div>

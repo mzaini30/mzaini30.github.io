@@ -10,8 +10,8 @@
 <body>
 <div class="container">
 	{% include header.html %}
-	<div class="row">
-		<div class="col-sm-8">
+	<div class="row stick-parent">
+		<div class="col-sm-8 main">
 			{% for post in paginator.posts %}
 				<div>
 					<h1 style="color: rgb(0, 188, 212);">
@@ -50,7 +50,7 @@
 				</p>
 			{% endif %}
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-4 sidebar">
 			{% include sidebar.html %}
 		</div>
 	</div>

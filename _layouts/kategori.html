@@ -10,8 +10,8 @@
 <body>
 <div class="container">
 	{% include header.html %}
-	<div class="row">
-		<div class="col-sm-8">
+	<div class="row stick-parent">
+		<div class="col-sm-8 main">
 			<h1 style="color: rgb(255, 23, 68);">Kategori {{ page.kategori | capitalize }}</h1>
 			{% include iklan.html %}
 			<div class="row" style="margin-top: 10px;">
@@ -61,7 +61,7 @@
 				{% include iklan-3.html %}
 			{% endif %}
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-4 sidebar">
 			{% include sidebar.html %}
 		</div>
 	</div>
