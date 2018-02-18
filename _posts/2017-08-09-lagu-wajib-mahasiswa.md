@@ -9,7 +9,7 @@ tags: [lagu, lirik, ospek, fisipol]
 
 Buruh Tani
 
-```
+```teks
 Buruh tani mahasiswa rakyat miskin kota
 Bersatu padu rebut demokrasi
 Gegap gempita dalam satu suara
@@ -37,7 +37,7 @@ Bagiku satu langkah pasti
 
 Darah Juang
 
-```
+```teks
 Di sini negeri kami
 Tempat padi terhampar
 Samuderanya kaya raya
@@ -61,7 +61,7 @@ Padamu kami berjanji...
 
 Sumpah Mahasiswa
 
-```
+```teks
 Kami Mahasiswa Indonesia Bersumpah :
 Bertanah air satu, tanah air tanpa penindasan
 
@@ -74,7 +74,7 @@ Berbahasa satu, bahasa tanpa kebohongan
 
 Mars Fisipol
 
-```
+```teks
 Fisipol mahasiswa fisipol
 Jangan seperti cangkir menganga
 Hanya siap diisi tanpa filterisasi
