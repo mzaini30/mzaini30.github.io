@@ -6,7 +6,7 @@
 	document.writeln('<scri'+'pt type=\"text/javascript\" src=\'/bin/hc-sticky.js?'+Math.random()+'\'></scr'+'ipt>');
 </script>
 <script type="text/javascript">
-	jQuery(function(){
+	jQuery(function($){
 		if ($(window).width() > 768){
 			if ($('.main').height() < $('.sidebar').height()){
 				$('.main').hcSticky({
