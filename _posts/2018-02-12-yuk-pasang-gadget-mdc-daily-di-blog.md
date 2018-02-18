@@ -17,8 +17,10 @@ Berikut ini adalah langkah-langkahnya:
 
 	```html
 	<p><img src="" class="mdc-daily" style="width: 100%;"></p>
-	<script type="text/javascript" src='http://muhammadzaini.com/mdc-daily/data.js'></script>
-	<script type="text/javascript" src='http://muhammadzaini.com/mdc-daily/app.js'></script>
+	<script type="text/javascript">
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'http://muhammadzaini.com/mdc-daily/data.js?'+Math.random()+'\'></scr'+'ipt>');
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'http://muhammadzaini.com/mdc-daily/app.js?'+Math.random()+'\'></scr'+'ipt>');
+	</script>
 	```
 
 Kalau sudah jadi, tampilannya akan seperti ini:
