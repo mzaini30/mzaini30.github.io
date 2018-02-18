@@ -16,5 +16,6 @@ Berikut ini adalah list blog favorit saya untuk blogwalking:
 | [Heni Puspita](http://www.henipuspita.net/) | Catatan mama Rayyaan Razqa |
 | [Japanese Station](https://japanesestation.com/) | Portal berita Jepang |
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
+| [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
 
 Kalau ada yang blognya masuk list ini, komentar di bawah ya...
