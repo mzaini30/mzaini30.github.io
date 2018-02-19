@@ -53,7 +53,7 @@
 			{% assign random = site.time | date: "%s" %}
 			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-			{% assign page_kategori = site.categories[page.category] %}
+			{% assign page_kategori = site.categories[page.category] %} 
 			{% assign kategori_selanjutnya_1 = angka_postingan | modulo: page_kategori.size %}
 			{% assign kategori_selanjutnya_2 = angka_postingan | plus: 1 | modulo: page_kategori.size %}
 			{% assign kategori_selanjutnya_3 = angka_postingan | plus: 2 | modulo: page_kategori.size %}
