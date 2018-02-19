@@ -3,7 +3,7 @@ layout: post
 title: "Lagu Wajib Mahasiswa"
 date: 2017-08-09 17:28:10
 gambar: "http://www.greaterkashmir.com/cms/gall_content/2017/3/2017_3$largeimg228_Mar_2017_011458117.jpg"
-categories: musik
+category: musik
 tags: [lagu, lirik, ospek, fisipol]
 ---
 

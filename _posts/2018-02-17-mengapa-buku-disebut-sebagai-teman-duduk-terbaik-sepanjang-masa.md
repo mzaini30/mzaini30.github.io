@@ -2,7 +2,7 @@
 layout: post
 title: Mengapa Buku Disebut Sebagai Teman Duduk Terbaik Sepanjang Masa?
 date: 2018-02-17 22:00:49
-categories: artikel
+category: artikel
 tags: [buku, bookaholic, pecinta buku, introvert]
 gambar: https://thumbs.gfycat.com/CloseBriefGharial-size_restricted.gif
 ---

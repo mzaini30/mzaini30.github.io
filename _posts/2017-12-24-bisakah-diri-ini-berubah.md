@@ -2,7 +2,7 @@
 layout: post
 title: "Bisakah Diri Ini Berubah?"
 date: 2017-12-24 00:00:00
-categories: artikel
+category: artikel
 tags: [berubah, kehidupan]
 gambar: http://cdn2.wallpapersok.com/uploads/picture/081/334/334081/picture-334081.jpg?width=665
 ---

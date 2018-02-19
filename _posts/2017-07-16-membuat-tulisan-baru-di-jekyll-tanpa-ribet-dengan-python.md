@@ -3,7 +3,7 @@ layout: post
 title: "Membuat Tulisan Baru di Jekyll Tanpa Ribet dengan Python"
 date: 2017-07-16 20:23:12
 gambar: "http://s-media-cache-ak0.pinimg.com/originals/da/ed/fb/daedfb39127c800eddecbe906b884d45.jpg"
-categories: pemrograman
+category: pemrograman
 tags: [jekyll, python, menulis, blogging]
 ---
 

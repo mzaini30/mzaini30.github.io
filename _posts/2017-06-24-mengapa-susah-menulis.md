@@ -3,7 +3,7 @@ layout: post
 title: "Mengapa Susah Menulis?"
 date: 2017-06-24 11:35:24
 gambar: "http://avvesione.files.wordpress.com/2013/10/kyousogiga-01-myoue-flashback-childhood-yukata-writing-bored.jpg"
-categories: artikel
+category: artikel
 tags: [blogging, menulis]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Level 5 - To Aru Kagaku no Railgun"
 date: 2017-07-22 01:11:21
 gambar: "http://topicstock.pantip.com/chalermthai/topicstock/2010/02/A8889643/A8889643-1.jpg"
-categories: musik
+category: musik
 tags: [lagu, lirik, to aru kagaku no railgun]
 ---
 

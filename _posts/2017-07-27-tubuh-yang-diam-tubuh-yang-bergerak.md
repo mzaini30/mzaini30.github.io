@@ -3,7 +3,7 @@ layout: post
 title: "Tubuh yang Diam, Tubuh yang Bergerak"
 date: 2017-07-27 20:17:21
 gambar: "http://www.sadever.com/wp-content/uploads/160/alone-anime-boy-750x744.jpg"
-categories: artikel
+category: artikel
 tags: [tubuh, jiwa, raga, kehidupan]
 ---
 

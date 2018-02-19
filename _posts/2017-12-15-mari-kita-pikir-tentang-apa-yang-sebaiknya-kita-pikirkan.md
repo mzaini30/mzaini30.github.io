@@ -2,7 +2,7 @@
 layout: post
 title: "Mari Kita Pikir tentang Apa yang Sebaiknya Kita Pikirkan"
 date: 2017-12-15 00:00:00
-categories: artikel
+category: artikel
 tags: [thinking, berpikir]
 gambar: https://qph.ec.quoracdn.net/main-qimg-21dc9de1ae780a1e7d40728bf00c6d48-c
 ---

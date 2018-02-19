@@ -3,7 +3,7 @@ layout: post
 title: "Hackers are Doers"
 date: 2017-10-30 05:54:47
 gambar: "http://lh3.googleusercontent.com/-vRoaBGx_rWQ/WfZN47g3GBI/AAAAAAAACmY/hVucYAY-BO8bz-EdtWNT9KupGJXl-CMFACLcBGAs/s900/how-a-hactivist-exposed-child-abuse-71408071-15e4-48a7-9f84-0d6fa6cfa8cf.jpg"
-categories: artikel
+category: artikel
 tags: [hacker]
 ---
 

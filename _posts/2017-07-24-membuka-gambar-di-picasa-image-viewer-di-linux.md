@@ -3,7 +3,7 @@ layout: post
 title: "Membuka Gambar di Picasa Image Viewer di Linux"
 date: 2017-07-24 08:50:48
 gambar: "http://s-media-cache-ak0.pinimg.com/originals/15/2f/5c/152f5c60070513b1f233a74d30ae542c.png"
-categories: pemrograman
+category: pemrograman
 tags: [linux, picasa]
 ---
 

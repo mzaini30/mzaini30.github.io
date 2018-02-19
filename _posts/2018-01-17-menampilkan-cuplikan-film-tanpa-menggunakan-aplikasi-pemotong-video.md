@@ -2,7 +2,7 @@
 layout: post
 title: "Bisa Loh Ternyata, Menampilkan Cuplikan Video Tanpa Menggunakan Aplikasi Pemotong Video"
 date: 2018-01-17 16:58:00
-categories: pemrograman
+category: pemrograman
 tags: [skrip, vlc]
 gambar: https://www.cheatsheet.com/wp-content/uploads/2014/12/spirited-away1-e1452013661309.jpg
 ---

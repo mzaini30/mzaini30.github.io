@@ -2,7 +2,7 @@
 layout: post
 title: Kebijakan Privasi Aplikasi Android yang Saya Buat
 date: 2018-02-04 08:05:49
-categories: artikel
+category: artikel
 tags: [android, play store]
 gambar: https://myanimelist.cdn-dena.com/s/common/uploaded_files/1454657716-192daefd2b24b5c4aba1246d68b9de57.jpeg
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Berhenti Mengeluh dan Bergerak Maju :)
 date: 2018-01-24 14:18:49
-categories: artikel
+category: artikel
 tags: [semangat, ganbatte]
 gambar: http://images4.wikia.nocookie.net/__cb20111024145833/es.warhammer40k/images/0/08/1100_-_animated_gif_l33t_h4x_nagato_yuki_suzumiya_haruhi_no_yuuutsu_the_melancholy_of_haruhi_suzumiya.gif
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Hidup Ini Kejam dan Kita Berdiri Pada Suatu Sistem"
 date: 2017-12-18 00:00:00
-categories: artikel
+category: artikel
 tags: [sistem, kehidupan, kejam]
 gambar: https://i.kinja-img.com/gawker-media/image/upload/t_original/1531535487767405994.jpg
 ---

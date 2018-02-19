@@ -2,7 +2,7 @@
 layout: post
 title: Jangan Kebanyakan Bengong, Bro! Act Now!
 date: 2018-02-16 19:30:49
-categories: artikel
+category: artikel
 tags: [tindakan nyata, aksi]
 gambar: https://2.bp.blogspot.com/-bLdAE1IY7bM/WHhsQQNtXCI/AAAAAAAAAO0/41zl6XTDprQW2eRgjAClg4Gc8okKAOqAgCLcB/s400/fateZero.jpg
 ---

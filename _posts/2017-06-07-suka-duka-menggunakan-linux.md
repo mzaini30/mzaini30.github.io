@@ -3,7 +3,7 @@ layout: post
 title: "Suka Duka Menggunakan Linux"
 date: 2017-06-07 13:39:28
 gambar: "http://brainwreckedtech.files.wordpress.com/2014/03/ika-musume-arch-linux-43.png"
-categories: artikel
+category: artikel
 tags: [linux]
 ---
 

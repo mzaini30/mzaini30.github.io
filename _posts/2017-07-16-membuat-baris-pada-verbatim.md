@@ -3,7 +3,7 @@ layout: post
 title: "Membuat Baris Pada Verbatim"
 date: 2017-07-16 19:46:32
 gambar: "http://animeyume.com/ay_enter_banner09.jpg"
-categories: pemrograman
+category: pemrograman
 tags: [python, verbatim, psikologi, wawancara]
 ---
 

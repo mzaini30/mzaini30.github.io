@@ -2,7 +2,7 @@
 layout: post
 title: "Multitasking = Multipending"
 date: 2017-12-15 00:00:00
-categories: artikel
+category: artikel
 tags: [multitasking]
 gambar: https://canime.files.wordpress.com/2011/09/anime-medit02.jpg
 ---

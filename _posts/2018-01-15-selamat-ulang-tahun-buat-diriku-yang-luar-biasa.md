@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: artikel
+category: artikel
 title: "Selamat Ulang Tahun Buat Diriku yang Luar Biasa"
 tags: [ulang tahun, hari spesial]
 date: 2018-01-15 09:00:00

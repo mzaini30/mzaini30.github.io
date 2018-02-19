@@ -2,7 +2,7 @@
 layout: post
 title: Yuk Pasang MDC Daily di Blog
 date: 2018-02-12 01:38:49
-categories: pemrograman
+category: pemrograman
 tags: [gadget, blogging, blog, koding, javascript, html]
 gambar: http://88.99.240.100/aleman/others/recommendation-image/3763.gif
 ---

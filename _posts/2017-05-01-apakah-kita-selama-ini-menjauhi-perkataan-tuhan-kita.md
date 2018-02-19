@@ -2,7 +2,7 @@
 layout: post
 title: "Apakah Kita Selama Ini Menjauhi Perkataan Tuhan Kita?"
 date: 2017-05-01 08:52:15
-categories: artikel
+category: artikel
 tags: [renungan, quran]
 gambar: https://i.pinimg.com/736x/f5/8f/9d/f58f9d419669cfceffbc52ab61d9125a--islamic-architecture-allah-quotes.jpg
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Semua tentang Kualitas"
 date: 2017-08-14 11:42:48
 gambar: "http://4.bp.blogspot.com/-ib9RdHzdSFQ/Vp2B9i2n0GI/AAAAAAAABmk/8mwp9Bq45w0/s1600/Slide-1-Quality-not-Quantity.jpg"
-categories: artikel
+category: artikel
 tags: [renungan, kehidupan]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Memanfaatkan 30 Hari dalam Sebulan"
 date: 2017-08-15 11:34:25
 gambar: "http://images.alphacoders.com/605/605582.jpg"
-categories: artikel
+category: artikel
 tags: [menabung]
 ---
 

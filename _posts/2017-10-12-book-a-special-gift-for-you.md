@@ -3,7 +3,7 @@ layout: post
 title: "Book: A Special Gift for You"
 date: 2017-10-12 20:36:30
 gambar: "http://lh3.googleusercontent.com/-JnCjJvhjM9Q/Wd9hq1kZcwI/AAAAAAAACc0/GfbBnUIdKh0EStUhffirhYqqKn7je8QtwCLcBGAs/s900/flat%252C1000x1000%252C075%252Cf.u1.jpg"
-categories: artikel
+category: artikel
 tags: [hadiah, buku]
 ---
 

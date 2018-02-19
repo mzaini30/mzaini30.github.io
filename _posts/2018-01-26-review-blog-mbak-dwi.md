@@ -2,7 +2,7 @@
 layout: post
 title: "Review Blog: Seberkas Cahaya: Blognya Mbak Dwi. Sejuk..."
 date: 2018-01-26 18:24:49
-categories: artikel
+category: artikel
 tags: [review blog]
 gambar: http://moziru.com/images/islam-clipart-muslimah-cartoon-12.jpg
 ---

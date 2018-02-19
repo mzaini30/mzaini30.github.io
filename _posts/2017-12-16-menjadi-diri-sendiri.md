@@ -2,7 +2,7 @@
 layout: post
 title: "Menjadi Diri Sendiri?"
 date: 2017-12-16 00:00:00
-categories: artikel
+category: artikel
 tags: [diri sendiri, self]
 gambar: https://78.media.tumblr.com/9cf5968e28019c70c702c0a3be86f020/tumblr_n8d7ttsoop1r41iwko1_500.gif
 ---

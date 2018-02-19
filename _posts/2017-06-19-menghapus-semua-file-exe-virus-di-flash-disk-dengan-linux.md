@@ -3,7 +3,7 @@ layout: post
 title: "Cara Menghapus Semua File EXE di Flash Disk Menggunakan Linux"
 date: 2017-06-19 11:08:23
 gambar: "http://farm4.staticflickr.com/3895/14477825641_5a88c33c5d_b.jpg"
-categories: pemrograman
+category: pemrograman
 tags: [koding, pemrograman, bash, linux]
 ---
 

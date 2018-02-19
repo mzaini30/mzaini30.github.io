@@ -3,7 +3,7 @@ layout: post
 title: "Wahai Para Huffazh, Janganlah Pernah Lupakan Identitasmu..."
 date: 2017-11-07 08:50:02
 gambar: "http://lh3.googleusercontent.com/-N_kKX1BX_ks/WgEDdtijEDI/AAAAAAAACqI/Awwhdd6jj0cENihNeu7uToXmUgdu0RlagCLcBGAs/s900/2c2c8d8c9824.original.jpeg"
-categories: artikel
+category: artikel
 tags: [identitas, hafizh]
 ---
 

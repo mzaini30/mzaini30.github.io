@@ -2,7 +2,7 @@
 layout: post
 title: "Karena Kita Semua Membangun Suatu Sistem yang Kokoh"
 date: 2017-04-30 13:37:24
-categories: artikel
+category: artikel
 tags: [sistem, rutinitas]
 gambar: https://i.ytimg.com/vi/ZTGoBVP9Q_k/maxresdefault.jpg
 ---

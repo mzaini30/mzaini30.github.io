@@ -3,7 +3,7 @@ layout: post
 title: "Tepian Mahakam"
 date: 2017-11-12 20:41:45
 gambar: "http://lh6.googleusercontent.com/-z4-6_9TL0ak/TYNsv76jj6I/AAAAAAAAAT8/5oI6EaQcZ18/s900/SMD2.JPG"
-categories: puisi
+category: puisi
 tags: [mahakam, samarinda]
 ---
 

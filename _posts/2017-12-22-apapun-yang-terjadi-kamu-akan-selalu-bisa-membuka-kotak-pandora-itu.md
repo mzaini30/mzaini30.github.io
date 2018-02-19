@@ -2,7 +2,7 @@
 layout: post
 title: "Apapun yang Terjadi, Kamu Akan Selalu Bisa Membuka Kotak Pandora Itu"
 date: 2017-12-22 00:00:00
-categories: artikel
+category: artikel
 tags: [pandora, harapan]
 gambar: https://starlighthorizon.files.wordpress.com/2009/09/vlcsnap-2009-09-06-17h32m39s242.png
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Trik Resize Ukuran Gambar dengan Blogspot
 date: 2018-02-16 16:40:49
-categories: pemrograman
+category: pemrograman
 tags: [gambar, trik, image, blogspot]
 gambar: https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/b/b8/99fcabbb16e931f2d839a311174f9468--anime-manga-girl-moe-anime.jpg/revision/latest?cb=20171231131551
 ---

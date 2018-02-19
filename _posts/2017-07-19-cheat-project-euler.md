@@ -3,7 +3,7 @@ layout: post
 title: "Cheat Project Euler"
 date: 2017-07-19 11:34:46
 gambar: "http://www.imgbase.info/images/safe-wallpapers/anime/hyouka/21290_hyouka.jpg"
-categories: pemrograman
+category: pemrograman
 tags: [cheat, python]
 ---
 

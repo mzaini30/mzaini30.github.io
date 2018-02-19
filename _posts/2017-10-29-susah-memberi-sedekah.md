@@ -3,7 +3,7 @@ layout: post
 title: "Susah Memberi Sedekah?"
 date: 2017-10-29 15:44:21
 gambar: "http://lh3.googleusercontent.com/-BXRKmjZXusg/WfWHDznMTRI/AAAAAAAACmI/Ua15sGPqweg0CmWQ4p8ZdIWdCvBseg_KACLcBGAs/s900/show.php.jpeg"
-categories: artikel
+category: artikel
 tags: [sedekah]
 ---
 

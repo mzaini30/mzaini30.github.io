@@ -2,7 +2,7 @@
 layout: post
 title: "Senyap dan Cepat"
 date: 2017-04-30 11:03:59
-categories: artikel
+category: artikel
 tags: [efektif, linux]
 gambar: https://i1.wp.com/recommendmeanime.com/wp-content/uploads/2017/06/best-fist-fighting-martial-arts-anime.jpg?fit=816%2C454&ssl=1
 ---

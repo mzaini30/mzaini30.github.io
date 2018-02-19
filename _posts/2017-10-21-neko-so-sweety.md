@@ -3,7 +3,7 @@ layout: post
 title: "Neko: So Sweety..."
 date: 2017-10-21 20:53:26
 gambar: "http://lh3.googleusercontent.com/-3v6Z9vEsd5Y/WetC-ziJPNI/AAAAAAAACh4/ai7krM6nL2UVV57DfLhdYgm3cmv444MTgCLcBGAs/s900/cat-sakura-07.jpg"
-categories: cerpen
+category: cerpen
 tags: [cerita, cerpen, story]
 ---
 

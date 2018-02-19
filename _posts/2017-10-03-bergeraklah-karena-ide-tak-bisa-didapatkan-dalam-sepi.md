@@ -3,7 +3,7 @@ layout: post
 title: "Bergeraklah, Karena Ide Tak Bisa Didapatkan Dalam Sepi"
 date: 2017-10-03 19:36:51
 gambar: "http://lh3.googleusercontent.com/-eDCA-qHlVIA/WdN6xAKj2CI/AAAAAAAACYI/Id5CBOXLDTcWp8Ccd8qurBduqzdUtzS8gCLcBGAs/s900/commission__running_from_the_rain_by_rtil-d5uv008.png.jpeg"
-categories: artikel
+category: artikel
 tags: [bergerak, ide]
 ---
 

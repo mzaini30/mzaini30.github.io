@@ -2,7 +2,7 @@
 layout: post
 title: Satu Juz Saja. Bisa Kan? :D
 date: 2018-01-23 12:35:49
-categories: artikel
+category: artikel
 tags: [quran, membaca quran]
 gambar: http://4.bp.blogspot.com/-bzrlMv_E8WA/U9ZEZrccbWI/AAAAAAAAATw/sfSvgwSXLWc/s1600/muslim_anime_desktop_by_bekkouche-d300z27.png
 ---

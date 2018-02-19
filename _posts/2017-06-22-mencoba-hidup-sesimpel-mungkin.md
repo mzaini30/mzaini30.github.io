@@ -3,7 +3,7 @@ layout: post
 title: "Mencoba Hidup Sesimpel Mungkin"
 date: 2017-06-22 11:08:36
 gambar: "http://img1.ak.crunchyroll.com/i/spire4/699f653c5ac2223e7d01ffc90169e1e01453520858_full.jpg"
-categories: artikel
+category: artikel
 tags: [simpel, steve jobs]
 ---
 

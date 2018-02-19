@@ -3,7 +3,7 @@ layout: post
 title: "Sisters Noise - To Aru Kagaku no Railgun"
 date: 2017-07-22 01:24:56
 gambar: https://vignette.wikia.nocookie.net/to-aru-majutsu-no-index/images/0/07/Sister%27sNoise_cover.jpg/revision/latest/scale-to-width-down/350?cb=20130505074804
-categories: musik
+category: musik
 tags: [lagu, lirik, to aru kagaku no railgun]
 ---
 

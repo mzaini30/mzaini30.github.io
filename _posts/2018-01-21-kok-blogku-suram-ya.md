@@ -2,7 +2,7 @@
 layout: post
 title: Cahaya Cinta yang Bersinar dari Blog Ini.... :D
 date: 2018-01-21 23:27:49
-categories: artikel
+category: artikel
 tags: [blogging, writing, menulis]
 gambar: http://images6.fanpop.com/image/answers/440000/440003_1349871171832_480_270.jpg
 ---

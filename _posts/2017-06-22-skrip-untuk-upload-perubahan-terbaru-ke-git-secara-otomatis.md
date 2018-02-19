@@ -3,7 +3,7 @@ layout: post
 title: "Skrip untuk Sinkronisasi Git Secara Otomatis"
 date: 2017-06-22 09:18:44
 gambar: "http://data2.1freewallpapers.com/detail/girl-anime-automatic.jpg"
-categories: pemrograman
+category: pemrograman
 tags: [skrip, git, python]
 ---
 

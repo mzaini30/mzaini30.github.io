@@ -3,7 +3,7 @@ layout: post
 title: "Untuk Apa Berpikir Jika Obyek Pikir Saja Tidak Jelas?"
 date: 2017-06-14 21:03:55
 gambar: "http://canime.files.wordpress.com/2011/09/anime-medit02.jpg"
-categories: artikel
+category: artikel
 tags: [kehidupan]
 ---
 

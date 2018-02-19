@@ -3,7 +3,7 @@ layout: post
 title: "Princess Ika"
 date: 2017-10-28 11:22:29
 gambar: "http://lh3.googleusercontent.com/-tGTMQP_1GZQ/WfP32cg1TEI/AAAAAAAAClY/kFxA1RN6KgoJthnzIwcypeK_eSBC6zoIgCLcBGAs/s900/character_princess_rapunzel_8320d57a.jpeg"
-categories: cerpen
+category: cerpen
 tags: [cerpen, cerita, story]
 ---
 
