@@ -55,8 +55,6 @@
 				random: {{ random }}
 				acak_judul: {{ acak_judul }}
 				angka_postingan: {{ angka_postingan }}
-				{% assign page_kategori = site.categories[page.category] %}
-				page_kategori: {{ page_kategori }}
 			 -->
 			<h1 style="color: rgb(0, 121, 107);">Baca Juga Ya</h1>
 			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
