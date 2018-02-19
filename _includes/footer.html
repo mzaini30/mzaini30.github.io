@@ -7,17 +7,19 @@
 </script>
 <script type="text/javascript">
 	jQuery(function($){
-		if ($(window).width() > 768){
-			if ($('.main').height() < $('.sidebar').height()){
-				$('.main').hcSticky({
-					stickTo: '.stick-parent'
-				});
-			} else if ($('.main').height() > $('.sidebar').height()){
-				$('.sidebar').hcSticky({
-					stickTo: '.stick-parent'
-				});
+		$(window).on('load', function(){
+			if ($(window).width() > 768){
+				if ($('.main').height() < $('.sidebar').height()){
+					$('.main').hcSticky({
+						stickTo: '.stick-parent'
+					});
+				} else if ($('.main').height() > $('.sidebar').height()){
+					$('.sidebar').hcSticky({
+						stickTo: '.stick-parent'
+					});
+				}
 			}
-		}
+		});
 	});
 </script>
 
