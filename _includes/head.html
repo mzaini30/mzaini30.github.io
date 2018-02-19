@@ -35,9 +35,7 @@
   <meta content="{{ site.gambar }}" property="og:image">
 {% endif %}
 {% if page.categories %}
-  {% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
-  {% endfor %}
+  <meta content="{{ page.category }}" property="article:section">
 {% endif %}
 {% if page.tags %}
   {% for tag in page.tags %}
