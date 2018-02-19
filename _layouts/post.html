@@ -122,6 +122,12 @@
 				</div>
 			</div>
 			<h1>Baca Juga Ya</h1>
+			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
+			{% assign postingan_selanjutnya_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
+			{% assign postingan_selanjutnya_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
+			{% assign postingan_selanjutnya_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
+			{% assign postingan_selanjutnya_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
 			<div>
 				<div class="row">
 					<div class="col-sm-6">
