@@ -4,7 +4,7 @@ title: Sepanjang Untaian Sajakku Kepadamu
 date: 2018-02-19 18:28:49
 category: puisi
 tags: [cinta, sebuah pertemuan, dirimu]
-gambar: 
+gambar: https://i.pinimg.com/564x/56/b3/75/56b37541f1a73d22212a637ebfb2f207.jpg
 ---
 
 ```teks
