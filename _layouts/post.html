@@ -50,8 +50,16 @@
 				</div>
 			</div>
 			<br>
-			{% assign banyak_postingan = site.posts.size %}
-			
+			<h1></h1>
+			{% assign random = site.time | date: "%s" %}
+			{% assign acak_judul = page.title.size %}
+			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
+			{% assign postingan_selanjutnya_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
+			{% assign postingan_selanjutnya_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
+			{% assign postingan_selanjutnya_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
+			{% assign postingan_selanjutnya_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
 			<div>
 				<div class="row">
 					<div class="col-sm-6">
