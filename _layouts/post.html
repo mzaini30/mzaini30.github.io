@@ -58,7 +58,9 @@
 				{% assign page_kategori = site.categories[page.category] %}
 				{% assign banyak_kategori = page_kategori.size %}
 				banyak_kategori: {{ banyak_kategori }}
-				{% assign kategori_selanjutnya_1 = angka_postingan | modulo: banyak_kategori %}
+				{% if page.category %}
+					{% assign kategori_selanjutnya_1 = angka_postingan | modulo: banyak_kategori %}
+				{% endif %}
 				kategori_selanjutnya_1: {{ kategori_selanjutnya_1 }}
 			 -->
 			<h1 style="color: rgb(0, 121, 107);">Baca Juga Ya</h1>
