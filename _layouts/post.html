@@ -53,68 +53,68 @@
 			{% assign random = site.time | date: "%s" %}
 			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
-			{% assign postingan_selanjutnya_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
-			{% assign postingan_selanjutnya_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
-			{% assign postingan_selanjutnya_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
-			{% assign postingan_selanjutnya_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
+			{% assign kategori_selanjutnya_1 = angka_postingan | modulo: site.categories[page.category].size %}
+			{% assign kategori_selanjutnya_2 = angka_postingan | modulo: site.categories[page.category].size | plus: 1 %}
+			{% assign kategori_selanjutnya_3 = angka_postingan | modulo: site.categories[page.category].size | plus: 2 %}
+			{% assign kategori_selanjutnya_4 = angka_postingan | modulo: site.categories[page.category].size | plus: 3 %}
+			{% assign kategori_selanjutnya_5 = angka_postingan | modulo: site.categories[page.category].size | plus: 4 %}
+			{% assign kategori_selanjutnya_6 = angka_postingan | modulo: site.categories[page.category].size | plus: 5 %}
 			<div>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<a href="{{ site.categories[page.category][postingan_selanjutnya_1].url }}">
+							<a href="{{ site.categories[page.category][kategori_selanjutnya_1].url }}">
 								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.categories[page.category][postingan_selanjutnya_1].gambar }});" style="width: 100%;"></div>
+									<div class="kotak" style="background-image: url({{ site.categories[page.category][kategori_selanjutnya_1].gambar }});" style="width: 100%;"></div>
 								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][postingan_selanjutnya_1].title }}</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][kategori_selanjutnya_1].title }}</div>
 							</a>
 						</div>
 						<br>
 						<div class="row">
-							<a href="{{ site.categories[page.category][postingan_selanjutnya_2].url }}">
+							<a href="{{ site.categories[page.category][kategori_selanjutnya_2].url }}">
 								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.categories[page.category][postingan_selanjutnya_2].gambar }});" style="width: 100%;"></div>
+									<div class="kotak" style="background-image: url({{ site.categories[page.category][kategori_selanjutnya_2].gambar }});" style="width: 100%;"></div>
 								</div>
-								<div class="col-xs-8" style="padding-left: 5px;">{{ site.categories[page.category][postingan_selanjutnya_2].title }}</div>
+								<div class="col-xs-8" style="padding-left: 5px;">{{ site.categories[page.category][kategori_selanjutnya_2].title }}</div>
 							</a>
 						</div>
 						<br>
 						<div class="row">
-							<a href="{{ site.categories[page.category][postingan_selanjutnya_3].url }}">
+							<a href="{{ site.categories[page.category][kategori_selanjutnya_3].url }}">
 								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.categories[page.category][postingan_selanjutnya_3].gambar }});" style="width: 100%;"></div>
+									<div class="kotak" style="background-image: url({{ site.categories[page.category][kategori_selanjutnya_3].gambar }});" style="width: 100%;"></div>
 								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][postingan_selanjutnya_3].title }}</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][kategori_selanjutnya_3].title }}</div>
 							</a>
 						</div>
 						<br>
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<a href="{{ site.categories[page.category][postingan_selanjutnya_4].url }}">
+							<a href="{{ site.categories[page.category][kategori_selanjutnya_4].url }}">
 								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.categories[page.category][postingan_selanjutnya_4].gambar }});" style="width: 100%;"></div>
+									<div class="kotak" style="background-image: url({{ site.categories[page.category][kategori_selanjutnya_4].gambar }});" style="width: 100%;"></div>
 								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][postingan_selanjutnya_4].title }}</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][kategori_selanjutnya_4].title }}</div>
 							</a>
 						</div>
 						<br>
 						<div class="row">
-							<a href="{{ site.categories[page.category][postingan_selanjutnya_5].url }}">
+							<a href="{{ site.categories[page.category][kategori_selanjutnya_5].url }}">
 								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.categories[page.category][postingan_selanjutnya_5].gambar }});" style="width: 100%;"></div>
+									<div class="kotak" style="background-image: url({{ site.categories[page.category][kategori_selanjutnya_5].gambar }});" style="width: 100%;"></div>
 								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][postingan_selanjutnya_5].title }}</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][kategori_selanjutnya_5].title }}</div>
 							</a>
 						</div>
 						<br>
 						<div class="row">
-							<a href="{{ site.categories[page.category][postingan_selanjutnya_6].url }}">
+							<a href="{{ site.categories[page.category][kategori_selanjutnya_6].url }}">
 								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.categories[page.category][postingan_selanjutnya_6].gambar }});" style="width: 100%;"></div>
+									<div class="kotak" style="background-image: url({{ site.categories[page.category][kategori_selanjutnya_6].gambar }});" style="width: 100%;"></div>
 								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][postingan_selanjutnya_6].title }}</div>
+								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.categories[page.category][kategori_selanjutnya_6].title }}</div>
 							</a>
 						</div>
 						<br>
