@@ -59,7 +59,7 @@
 			{% assign kategori_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.categories[page.category].size %}
 			{% assign kategori_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.categories[page.category].size %}
 			{% assign kategori_selanjutnya_6 = angka_postingan | plus: 5 | modulo: site.categories[page.category].size %}
-			{% assign page_kategori = site.categories[page.category %]}
+			{% assign page_kategori = site.categories[page.category] %}
 			<div>
 				<div class="row">
 					<div class="col-sm-6">
