@@ -51,11 +51,13 @@
 			{% assign random = site.time | date: "%s" %}
 			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-			<!--
-			{% for kategori in site.categories %}
-				<p>{{ kategori | first }} - {{ kategori.size }}</p>
-			{% endfor %}
-			-->
+			<!-- 
+				random: {{ random }}
+				acak_judul: {{ acak_judul }}
+				angka_postingan: {{ angka_postingan }}
+				{% assign page_kategori = site.categories[page.category] %}
+				page_kategori: {{ page_kategori }}
+			 -->
 			<h1 style="color: rgb(0, 121, 107);">Baca Juga Ya</h1>
 			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
 			{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
