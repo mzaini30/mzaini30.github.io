@@ -49,7 +49,7 @@
 			</div>
 			<h1 style="color: rgb(0, 96, 100);">Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
 			{% assign random = site.time | date: "%s" %}
-			{% assign acak_judul = page.title | size %}
+			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 			{% assign page_kategori = site.categories[page.category] %}
 			{% assign kategori_selanjutnya_1 = angka_postingan | modulo: page_kategori.size %}
