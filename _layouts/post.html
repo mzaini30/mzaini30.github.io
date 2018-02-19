@@ -49,7 +49,7 @@
 					</div>
 				</div>
 			</div>
-			<h1>Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
+			<h1 style="color: rgb(0, 96, 100);">Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
 			{% assign random = site.time | date: "%s" %}
 			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
@@ -122,7 +122,7 @@
 					</div>
 				</div>
 			</div>
-			<h1>Baca Juga Ya</h1>
+			<h1 style="color: rgb(0, 121, 107);">Baca Juga Ya</h1>
 			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
 			{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
 			{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
