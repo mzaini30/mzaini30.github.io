@@ -53,7 +53,7 @@
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 			<!--
 			{% for kategori in site.categories %}
-				<p>{{ kategori }} - {{ kategori.size }}</p>
+				<p>{{ kategori | first }} - {{ kategori.size }}</p>
 			{% endfor %}
 			-->
 			<h1 style="color: rgb(0, 121, 107);">Baca Juga Ya</h1>
