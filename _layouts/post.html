@@ -51,7 +51,7 @@
 			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 			{% if page.category %}
-				<h1 style="color: rgb(0, 96, 100);">Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
+				<h1 style="color: rgb(255, 82, 82);">Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
 				{% assign page_kategori = site.categories[page.category] %}
 				{% assign kategori_selanjutnya_1 = angka_postingan | modulo: page_kategori.size %}
 				{% assign kategori_selanjutnya_2 = angka_postingan | plus: 1 | modulo: page_kategori.size %}
