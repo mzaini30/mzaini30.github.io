@@ -51,7 +51,7 @@
 			</div>
 			<br>
 			{% assign random = site.time | date: "%s" %}
-			{% assign acak_judul = page.title | size %}
+			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
 			{% assign postingan_selanjutnya_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
