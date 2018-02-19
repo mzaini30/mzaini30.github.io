@@ -54,11 +54,11 @@
 			{% assign acak_judul = page.title.size %}
 			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 			{% assign kategori_selanjutnya_1 = angka_postingan | modulo: site.categories[page.category].size %}
-			{% assign kategori_selanjutnya_2 = angka_postingan | modulo: site.categories[page.category].size | plus: 1 %}
-			{% assign kategori_selanjutnya_3 = angka_postingan | modulo: site.categories[page.category].size | plus: 2 %}
-			{% assign kategori_selanjutnya_4 = angka_postingan | modulo: site.categories[page.category].size | plus: 3 %}
-			{% assign kategori_selanjutnya_5 = angka_postingan | modulo: site.categories[page.category].size | plus: 4 %}
-			{% assign kategori_selanjutnya_6 = angka_postingan | modulo: site.categories[page.category].size | plus: 5 %}
+			{% assign kategori_selanjutnya_2 = angka_postingan | modulo: site.cate | plus: 1gories[page.category].size %}
+			{% assign kategori_selanjutnya_3 = angka_postingan | modulo: site.cate | plus: 2gories[page.category].size %}
+			{% assign kategori_selanjutnya_4 = angka_postingan | modulo: site.cate | plus: 3gories[page.category].size %}
+			{% assign kategori_selanjutnya_5 = angka_postingan | modulo: site.cate | plus: 4gories[page.category].size %}
+			{% assign kategori_selanjutnya_6 = angka_postingan | modulo: site.cate | plus: 5gories[page.category].size %}
 			<div>
 				<div class="row">
 					<div class="col-sm-6">
@@ -123,11 +123,11 @@
 			</div>
 			<h1>Baca Juga Ya</h1>
 			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
-			{% assign postingan_selanjutnya_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
-			{% assign postingan_selanjutnya_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
-			{% assign postingan_selanjutnya_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
-			{% assign postingan_selanjutnya_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
+			{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
+			{% assign postingan_selanjutnya_6 = angka_postingan | plus: 5 | modulo: site.posts.size %}
 			<div>
 				<div class="row">
 					<div class="col-sm-6">
