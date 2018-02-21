@@ -123,9 +123,9 @@ table table {
 		overflow: hidden;
 	}
 	.iklan-main {
-		width: 60px;
+		height: 60px;
 	}
 	.iklan-sidebar {
-		width: 244px;
+		height: 244px;
 	}
 }
