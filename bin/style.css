@@ -117,7 +117,7 @@ table table {
   background-color: #fff;
 }
 
-@media and (min-width: 768px){
+@media (min-width: 768px){
 	.iklan-main,
 	.iklan-sidebar {
 		overflow: hidden;
