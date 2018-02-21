@@ -7,6 +7,10 @@ tags: [liquid, jekyll]
 gambar: http://4.bp.blogspot.com/-nj6jol0FSec/VoptFJ_ZqiI/AAAAAAAAKig/SQ0ErYUYS0s/s1600/your_diary_kantoku_yua_anime_girl.jpg
 ---
 
+Mempunyai blog yang basisnya Jekyll itu bisa dibilang seru. Seru karena bisa dengan leluasa membuat template, membuat gadget dan lain sebagainya. Namun, juga dibilang seru karena sulit untuk membuat gadget sesuai dengan yang kita inginkan. _Why?_ Tentu saja karena komunitas yang kurang. Lebih banyak yang menggunakan Blogspot dan Wordpress. Untuk plugin, lebih banyak di Wordpress.
+
+
+
 Assign awal:
 
 ```
