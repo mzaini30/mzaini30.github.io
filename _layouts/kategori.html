@@ -49,7 +49,9 @@
 					{% endfor %}
 				</div>
 			</div>
-			{% include iklan-2.html %}
+			<div class="iklan-main">
+				{% include iklan-2.html %}
+			</div>
 			{% if site.categories[page.kategori].size > 10 %}
 				<h1 style="color: rgb(106, 27, 154);">Lainnya</h1>
 				<ul>
@@ -61,7 +63,9 @@
 						{% endif %}
 					{% endfor %}
 				</ul>
-				{% include iklan-3.html %}
+				<div class="iklan-main">
+					{% include iklan-3.html %}
+				</div>
 			{% endif %}
 		</div>
 		<div class="col-sm-4 sidebar">
