@@ -9,11 +9,11 @@ gambar: http://4.bp.blogspot.com/-nj6jol0FSec/VoptFJ_ZqiI/AAAAAAAAKig/SQ0ErYUYS0
 
 Mempunyai blog yang basisnya Jekyll itu bisa dibilang seru. Seru karena bisa dengan leluasa membuat template, membuat gadget dan lain sebagainya. Namun, juga dibilang seru karena sulit untuk membuat gadget sesuai dengan yang kita inginkan. _Why?_ Tentu saja karena komunitas yang kurang. Lebih banyak yang menggunakan Blogspot dan Wordpress. Untuk plugin, lebih banyak di Wordpress.
 
-
+Nah, berikut ini adalah kode untuk membuat _related posts_ di Jekyll. Yang pertama, berdasarkan kategori. Yang kedua, untuk semua postingan.
 
 Assign awal:
 
-```
+```liquid
 {% raw %}{% assign random = site.time | date: "%s" %}
 {% assign acak_judul = page.title.size %}
 {% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}{% endraw %}
