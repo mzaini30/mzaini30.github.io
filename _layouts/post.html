@@ -22,6 +22,9 @@
 				</div>
 				<div style="margin-top: 10px;">
 					{{ content }}
+					<p>
+						<small>Sumber gambar: <em>{{ page.gambar | remove: 'https://' | remove: 'http://' }}</em></small>
+					</p>
 				</div>
 				<script type="text/javascript">
 					jQuery('pre:has(.language-teks)').css({
