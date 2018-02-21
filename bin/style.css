@@ -116,3 +116,16 @@ table > tbody + tbody {
 table table {
   background-color: #fff;
 }
+
+@media and (min-width: 768px){
+	.iklan-main,
+	.iklan-sidebar {
+		overflow: hidden;
+	}
+	.iklan-main {
+		width: 60px;
+	}
+	.iklan-sidebar {
+		width: 
+	}
+}
