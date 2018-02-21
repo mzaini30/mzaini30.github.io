@@ -4,7 +4,7 @@ title: Membuat Related Posts dan Related Posts Berdasarkan Kategori di Jekyll
 date: 2018-02-21 21:36:49
 category: pemrograman
 tags: [liquid, jekyll]
-gambar: 
+gambar: http://4.bp.blogspot.com/-nj6jol0FSec/VoptFJ_ZqiI/AAAAAAAAKig/SQ0ErYUYS0s/s1600/your_diary_kantoku_yua_anime_girl.jpg
 ---
 
 Assign awal:
@@ -18,7 +18,7 @@ Assign awal:
 Related posts berdasarkan kategori:
 
 ```html
-{% if page.category %}
+{% raw %}{% if page.category %}
 <h1 style="color: rgb(255, 82, 82);">Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
 {% assign page_kategori = site.categories[page.category] %}
 {% assign kategori_selanjutnya_1 = angka_postingan | modulo: page_kategori.size %}
@@ -89,7 +89,7 @@ Related posts berdasarkan kategori:
 		</div>
 	</div>
 </div>
-{% endif %}
+{% endif %}{% endraw %}
 ```
 
 Related posts semua postingan:
@@ -163,5 +163,5 @@ Related posts semua postingan:
 			<br>
 		</div>
 	</div>
-</div>
+</div>{% endraw %}
 ```
