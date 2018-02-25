@@ -4,7 +4,7 @@ title: Kamu adalah Angka
 date: 2018-02-25 18:09:49
 category: puisi
 tags: [puisi, romantis]
-gambar: 
+gambar: https://fanart.tv/fanart/tv/257764/hdtvlogo/hyouka-573a027d39d9b.png
 ---
 
 ```teks
