@@ -27,4 +27,4 @@ Contohnya, beberapa postingan berikut:
 
 Dan juga, tampilan dari blog ini kan simpel banget tuh. Cuma putih, dan bentuk penyajian kontennya berupa _card_. Untung aja kemarin nemu tema Jekyll yang keren banget deh untuk blog ini. Soalnya seringnya nemunya yang kurang bagus ya, kalau tema-tema Jekyll itu. Yang bagus mah biasanya tema-tema Wordpress. Alhamdulillah banget lah...
 
-<strike>Habis itu, aku padu-padankan tuh sama jquery dan kubuat blog ini macam media sosial seperti Facebook, Twitter, LINE Timeline, Tumblr yang nggak pakai tombol _next-next_, melainkan langsung terload konten berikutnya di bawahnya. Mantap dah... Makin suka aja sama blog ini. Mudah-mudahan bisa berusia panjang ini blog. Amin...</strike>
+Habis itu, aku padu-padankan tuh sama jquery dan kubuat blog ini macam media sosial seperti Facebook, Twitter, LINE Timeline, Tumblr yang nggak pakai tombol _next-next_, melainkan langsung terload konten berikutnya di bawahnya. Mantap dah... Makin suka aja sama blog ini. Mudah-mudahan bisa berusia panjang ini blog. Amin... __(sekarang sudah nggak lagi)__
