@@ -15,7 +15,7 @@
 		<div class="col-sm-8 main">
 			<h1 style="color: rgb(255, 23, 68);">Kategori {{ page.kategori | capitalize }}</h1>
 			<div class="iklan-main">
-				{% include iklan.html %}
+				<!-- {% include iklan.html %} -->
 			</div>
 			<div class="row" style="margin-top: 10px;">
 				<div class="col-sm-6">
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="iklan-main">
-				{% include iklan-2.html %}
+				<!-- {% include iklan-2.html %} -->
 			</div>
 			{% if site.categories[page.kategori].size > 10 %}
 				<h1 style="color: rgb(106, 27, 154);">Lainnya</h1>
@@ -64,7 +64,7 @@
 					{% endfor %}
 				</ul>
 				<div class="iklan-main">
-					{% include iklan-3.html %}
+					<!-- {% include iklan-3.html %} -->
 				</div>
 			{% endif %}
 		</div>
