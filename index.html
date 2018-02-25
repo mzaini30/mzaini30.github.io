@@ -21,7 +21,7 @@
 					<p class="badge badge-default" style="background: rgb(76, 175, 80); color: white;">{{ post.date | date: "%d %B %Y" }}</p>
 					<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
 					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-					<p>
+					<p style="text-align: left;">
 						{% for kategori in post.categories %}
 							<a href="/kategori/{{ kategori }}.html" class="badge badge-default" style="background: rgb(255, 87, 34); color: white;">#{{ kategori }}</a>
 						{% endfor %}
