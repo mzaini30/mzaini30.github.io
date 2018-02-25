@@ -27,4 +27,10 @@ Tentu saja karena kita belum terbiasa menghadapinya.
 
 Pernah kah kamu diajarkan oleh guru bahwasanya segala hal yang dilihat oleh mata kita, diinterpretasikan secara terbalik di otak? Nah, itu masalah kan? Tapi kok kita melihatnya normal-normal aja, alias merasa tidak pernah terbalik? Tentu saja karena otak kita sudah terbiasa mengatasi masalah ini sehingga oleh otak secara otomatis akan diterjemahkan dengan benar.
 
-Pernah kah kamu berpikir bahwasanya ketika kita keluar dari perut ibu kita, 
+Pernah kah kamu berpikir bahwasanya ketika kita keluar dari perut ibu kita, kok kita bisa hidup? Bukannya kita selalu membutuhkan asupan makanan melalui plasenta? Yap, karena permasalahan itulah makanya bayi membiasakan diri menghadapinya dan akhirnya bisa tumbuh dan berkembang menjadi diri kita saat ini.
+
+Apakah mengatasi masalah itu gampang?
+
+Tentu saja tidak.
+
+Terasa berat pada awalnya, namun jangan pikirkan itu. Pikirkan saja bahwa apabila kamu mengatasi masalah tersebut, maka masalah tersebut akan tuntas. Bukankah begitu? Daripada membiarkannya saja kan? Malah nggak hilang-hilang tuh masalah, justru akan bertambah dengan masalah-masalah yang lain.
