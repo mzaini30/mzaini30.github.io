@@ -16,7 +16,16 @@ Berikut ini adalah langkah-langkahnya:
 2. Masukkan skrip berikut:
 
 	```html
-	<p><img src="" class="mdc-daily" style="width: 100%;"></p>
+	<p>
+		<img src="" class="mdc-daily" style="width: 100%;">
+	</p>
+	<center>
+		<p>
+			<small>
+				<a href="http://muhammadzaini.com/2018/02/12/yuk-pasang-gadget-mdc-daily-di-blog.html">get widget</a>
+			</small>
+		</p>
+	</center>
 	<script type="text/javascript">
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'http://muhammadzaini.com/mdc-daily/data.js?'+Math.random()+'\'></scr'+'ipt>');
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\'http://muhammadzaini.com/mdc-daily/app.js?'+Math.random()+'\'></scr'+'ipt>');
