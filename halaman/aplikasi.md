@@ -6,11 +6,15 @@ date: 2018-03-03 14:57:00
 
 # Android
 
+![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg)
+
 [Font](https://play.google.com/store/apps/details?id=com.mzaini30.font)
 
 Menampilkan berbagai jenis font berdasarkan teks yang kamu tuliskan.
 
 ---
+
+![](https://s25.postimg.org/xozt6gnsv/Screenshot_2018-03-03-16-12-53.jpg)
 
 [Kaligrafi](https://play.google.com/store/apps/details?id=com.mzaini30.kaligrafi)
 
@@ -18,11 +22,15 @@ Menampilkan 7 jenis kaligrafi berdasarkan tulisan yang kamu tuliskan.
 
 ---
 
+![](https://s25.postimg.org/6eehyixqn/Screenshot_2018-03-03-16-13-07.jpg)
+
 [Materialize Color](https://play.google.com/store/apps/details?id=com.mzaini30.materializecolor)
 
 Kumpulan warna pastel yang berguna untuk referensi desainmu.
 
 ---
+
+![](https://s25.postimg.org/8vq95s27j/Screenshot_2018-03-03-16-14-37.jpg)
 
 [Psikologi Universitas Mulawarman](https://play.google.com/store/apps/details?id=com.mzaini30.psikologiuniversitasmulawarman)
 
