@@ -42,32 +42,48 @@ date: 2018-03-03 14:57:00
 
 - [Font](/font)
 
+	![](https://s25.postimg.org/4vvgoyr3z/Screenshot_from_2018-02-02_14_44_14.png)
+
 	Mencoba berbagai font untuk seni menulis indah.
 
 - [Jumlah Satuan](/jumlah-satuan)
+
+	![](https://s25.postimg.org/pav5ryxov/Screenshot_from_2018-02-20_00_20_37.png)
 
 	Ingin menjumlahkan angka satuan dengan cepat? Gunakan saja aplikasi web ini. Cocok digunakan untuk skoring angket.
 
 - [Kaligrafi](/kaligrafi)
 
+	![](https://s25.postimg.org/et6hi5w6n/Screenshot_from_2018-02-02_14_49_18.png)
+
 	Halaman web ini digunakan untuk preview kaligrafi Arab berdasarkan enam bentuk kaligrafi Arab yang dasar yaitu khat naskhi, khat riq'ah, khat kufi, khat diwani, khat tsuluts, dan khat farisi.
 
 - [Kontest](/kontest)
+
+	![](https://s25.postimg.org/z1p9q3gdr/Screenshot_from_2018-02-02_09_21_26.png)
 
 	Kontest adalah sebuah aplikasi web yang bertujuan untuk mengolah data jawaban siswa dan kunci jawabannya agar bisa diinput ke lima software pendidikan yang berbeda-beda yaitu Anates, Anajhon, Anbuso, Iteman, dan SPSS.
 
 - [Kontur](/kontur)
 
+	![](https://s25.postimg.org/mpvk3zru7/Screenshot_from_2018-02-02_16_46_04.png)
+
 	Aplikasi web untuk mengolah data dari Google Form yang berupa skala.
 
 - [Materialize Color](/color30)
+
+	![](https://s25.postimg.org/ormuqxitb/Screenshot_from_2018-02-02_09_29_56.png)
 
 	Materialize Color adalah kumpulan warna yang dibuat oleh framework Materialize CSS. Maka, fungsi aplikasi web ini hanyalah menampilkan warna-warna tersebut dan menampilkan kode warnanya apabila kode warna tersebut diklik.
 
 - [Tambah Hari](/tambah-hari)
 
+	![](https://s25.postimg.org/x0np8974v/Screenshot_from_2018-02-17_14_04_27.png)
+
 	Bingung kira-kira 100 hari dari hari ini hari apa? Bingung 213 hari dari hari sekarang hari apa? Buka aja _web app_ ini :)
 
 - [Whatsapp Link Generator](/wa)
+
+	![](https://s25.postimg.org/4x0t4svvz/Screenshot_from_2018-02-02_09_27_13.png)
 
 	Aplikasi web yang berguna untuk mengolah pesan whatsapp menjadi link yang tinggal diklik.
