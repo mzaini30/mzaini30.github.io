@@ -1,63 +1,8 @@
 ---
+layout: home
+titles:
+  en: Blog
+  zh: 博客
+  zh-Hans: 博客
+  zh-Hant: 博客
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Zen{% if paginator %} - Halaman {{ paginator.page }}{% endif %}</title>
-	{% include head.html %}
-</head>
-<body>
-<div id="top"></div>
-<div class="container">
-	{% include header.html %}
-	<div class="row stick-parent">
-		<div class="col-sm-8 main">
-			{% for post in paginator.posts %}
-				<div>
-					<h1 style="color: rgb(0, 188, 212);">
-						<a href='{{ site.url }}{{ post.url }}' style="text-decoration: none;">{{ post.title }}</a>
-					</h1>
-					<p class="badge badge-default" style="background: rgb(76, 175, 80); color: white;">{{ post.date | date: "%d %B %Y" }}</p>
-					<p><img src="{{ post.gambar }}" style="width: 100%;"></p>
-					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-					<p style="text-align: left;">
-						{% for kategori in post.categories %}
-							<a href="/kategori/{{ kategori }}.html" class="badge badge-default" style="background: rgb(255, 87, 34); color: white;">#{{ kategori }}</a>
-						{% endfor %}
-						{% for tag in post.tags %}
-							<a href="/tags/#{{tag}}" class="badge badge-default" style="background: rgb(92, 107, 192); color: white;">#{{ tag }}</a>
-						{% endfor %}
-					</p>
-					<p>
-						<a href="{{ site.url }}{{ post.url }}" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Lanjutkan Membaca</a>
-					</p>
-				</div>
-				<div class="iklan-main">
-					<!-- {% if forloop.index0 == 0 %}
-						{% include iklan.html %}
-					{% elsif forloop.index0 == 1 %}
-						{% include iklan-2.html %}
-					{% elsif forloop.index0 == 2 %}
-						{% include iklan-3.html %}
-					{% elsif forloop.index0 == 3 %}
-						{% include iklan-4.html %}
-					{% elsif forloop.index0 == 4 %}
-						{% include iklan-5.html %}
-					{% endif %} -->
-				</div>
-			{% endfor %}
-			{% if paginator.total_pages > 1 %}
-				<p style="margin-top: 10px;">
-					<a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn btn-default" style="background: rgb(13, 71, 161); color: white;">Next &rarr;</a>
-				</p>
-			{% endif %}
-		</div>
-		<div class="col-sm-4 sidebar">
-			{% include sidebar.html %}
-		</div>
-	</div>
-	{% include footer.html %}
-</div>
-</body>
-</html>

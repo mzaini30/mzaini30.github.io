@@ -1,211 +1,60 @@
 ---
+layout: base
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ page.title }} - Zen</title>
-	{% include head.html %}
-</head>
-<body>
-<div id="top"></div>
-<div class="container">
-	{% include header.html %}
-	<div class="row stick-parent">
-		<div class="col-sm-8 main">
-			<div>
-				<h1 style="color: rgb(0, 188, 212);">{{ page.title }}</h1>
-				<p class="badge badge-default" style="background: rgb(76, 175, 80); color: white;">{{ page.date | date: "%d %B %Y" }}</p>
-				<p><img src="{{ page.gambar }}" style="width: 100%;"></p>
-				<div class="iklan-main">
-					<!-- {% include iklan.html %} -->
-				</div>
-				<div style="margin-top: 10px;">
-					{{ content }}
-					<p style="text-align: left;">
-						<small>Sumber gambar: <em>{{ page.gambar | remove: 'https://' | remove: 'http://' }}</em></small>
-					</p>
-				</div>
-				<script type="text/javascript">
-					jQuery('pre:has(.language-teks)').css({
-						'word-break': 'normal',
-						'font-size': 'inherit',
-						'font-family': 'inherit',
-						'border': 'none',
-						'background': 'none'
-					});
-				</script>
-				<p style="text-align: left;">
-					{% if page.category %}
-						<a href="/kategori/{{ kategori }}.html" class="badge badge-default" style="background: rgb(255, 87, 34); color: white;">#{{ page.category }}</a>
-					{% endif %}
-					{% for tag in page.tags %}
-						<a href="/tags/#{{tag}}" class="badge badge-default" style="background: rgb(92, 107, 192); color: white;">#{{ tag }}</a>
-					{% endfor %}
-					<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);" class="badge badge-default" style="background: rgb(230, 81, 0); color: white;">#edit</a>
-				</p>
-				<div class="iklan-main">
-					<!-- {% include iklan-2.html %} -->
-				</div>
-				<div class="row" style="margin-top: 10px;">
-					<div class="col-xs-6" style="padding-right: 5px;">
-						<a href="https://api.whatsapp.com/send?phone=6281545143654&text=*Link*%3A%20{{ site.url }}{{ page.url }}%0A%0A*Komentar*%3A%0A" class="btn btn-default" style="background: rgb(76, 175, 80); color: white;">Komentar WA</a>
-					</div>
-					<div class="col-xs-6" style="padding-left: 5px;">
-						<a href="mailto:muhzaini30@gmail.com?subject=Komentar%20Blog%3A%20{{ page.title }}&body=Link%3A%20{{ site.url }}{{ page.url }}%0A%0AKomentar%3A%0A." class="btn btn-default" style="background: rgb(244, 67, 54); color: white;">Komentar Email</a>
-					</div>
-				</div>
-			</div>
-			{% assign random = site.time | date: "%s" %}
-			{% assign acak_judul = page.title.size %}
-			{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-			{% if page.category %}
-				<h1 style="color: rgb(255, 82, 82);">Tulisan Menarik Lainnya dalam Kategori {{ page.category | capitalize }}</h1>
-				{% assign page_kategori = site.categories[page.category] %}
-				{% assign kategori_selanjutnya_1 = angka_postingan | modulo: page_kategori.size %}
-				{% assign kategori_selanjutnya_2 = angka_postingan | plus: 1 | modulo: page_kategori.size %}
-				{% assign kategori_selanjutnya_3 = angka_postingan | plus: 2 | modulo: page_kategori.size %}
-				{% assign kategori_selanjutnya_4 = angka_postingan | plus: 3 | modulo: page_kategori.size %}
-				{% assign kategori_selanjutnya_5 = angka_postingan | plus: 4 | modulo: page_kategori.size %}
-				{% assign kategori_selanjutnya_6 = angka_postingan | plus: 5 | modulo: page_kategori.size %}
-				<div>
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="row">
-								<a href="{{ page_kategori[kategori_selanjutnya_1].url }}">
-									<div class="col-xs-4" style="padding-right: 5px;">
-										<div class="kotak" style="background-image: url({{ page_kategori[kategori_selanjutnya_1].gambar }});" style="width: 100%;"></div>
-									</div>
-									<div class="col-xs-8" style='padding-left: 5px;'>{{ page_kategori[kategori_selanjutnya_1].title }}</div>
-								</a>
-							</div>
-							<br>
-							<div class="row">
-								<a href="{{ page_kategori[kategori_selanjutnya_2].url }}">
-									<div class="col-xs-4" style="padding-right: 5px;">
-										<div class="kotak" style="background-image: url({{ page_kategori[kategori_selanjutnya_2].gambar }});" style="width: 100%;"></div>
-									</div>
-									<div class="col-xs-8" style="padding-left: 5px;">{{ page_kategori[kategori_selanjutnya_2].title }}</div>
-								</a>
-							</div>
-							<br>
-							<div class="row">
-								<a href="{{ page_kategori[kategori_selanjutnya_3].url }}">
-									<div class="col-xs-4" style="padding-right: 5px;">
-										<div class="kotak" style="background-image: url({{ page_kategori[kategori_selanjutnya_3].gambar }});" style="width: 100%;"></div>
-									</div>
-									<div class="col-xs-8" style='padding-left: 5px;'>{{ page_kategori[kategori_selanjutnya_3].title }}</div>
-								</a>
-							</div>
-							<br>
-						</div>
-						<div class="col-sm-6">
-							<div class="row">
-								<a href="{{ page_kategori[kategori_selanjutnya_4].url }}">
-									<div class="col-xs-4" style="padding-right: 5px;">
-										<div class="kotak" style="background-image: url({{ page_kategori[kategori_selanjutnya_4].gambar }});" style="width: 100%;"></div>
-									</div>
-									<div class="col-xs-8" style='padding-left: 5px;'>{{ page_kategori[kategori_selanjutnya_4].title }}</div>
-								</a>
-							</div>
-							<br>
-							<div class="row">
-								<a href="{{ page_kategori[kategori_selanjutnya_5].url }}">
-									<div class="col-xs-4" style="padding-right: 5px;">
-										<div class="kotak" style="background-image: url({{ page_kategori[kategori_selanjutnya_5].gambar }});" style="width: 100%;"></div>
-									</div>
-									<div class="col-xs-8" style='padding-left: 5px;'>{{ page_kategori[kategori_selanjutnya_5].title }}</div>
-								</a>
-							</div>
-							<br>
-							<div class="row">
-								<a href="{{ page_kategori[kategori_selanjutnya_6].url }}">
-									<div class="col-xs-4" style="padding-right: 5px;">
-										<div class="kotak" style="background-image: url({{ page_kategori[kategori_selanjutnya_6].gambar }});" style="width: 100%;"></div>
-									</div>
-									<div class="col-xs-8" style='padding-left: 5px;'>{{ page_kategori[kategori_selanjutnya_6].title }}</div>
-								</a>
-							</div>
-							<br>
-						</div>
-					</div>
-				</div>
-			{% endif %}
-			<h1 style="color: rgb(0, 121, 107);">Baca Juga Ya</h1>
-			{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-			{% assign postingan_selanjutnya_6 = angka_postingan | plus: 5 | modulo: site.posts.size %}
-			<div>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="row">
-							<a href="{{ site.posts[postingan_selanjutnya_1].url }}">
-								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_1].gambar }});" style="width: 100%;"></div>
-								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_1].title }}</div>
-							</a>
-						</div>
-						<br>
-						<div class="row">
-							<a href="{{ site.posts[postingan_selanjutnya_2].url }}">
-								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_2].gambar }});" style="width: 100%;"></div>
-								</div>
-								<div class="col-xs-8" style="padding-left: 5px;">{{ site.posts[postingan_selanjutnya_2].title }}</div>
-							</a>
-						</div>
-						<br>
-						<div class="row">
-							<a href="{{ site.posts[postingan_selanjutnya_3].url }}">
-								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_3].gambar }});" style="width: 100%;"></div>
-								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_3].title }}</div>
-							</a>
-						</div>
-						<br>
-					</div>
-					<div class="col-sm-6">
-						<div class="row">
-							<a href="{{ site.posts[postingan_selanjutnya_4].url }}">
-								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_4].gambar }});" style="width: 100%;"></div>
-								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_4].title }}</div>
-							</a>
-						</div>
-						<br>
-						<div class="row">
-							<a href="{{ site.posts[postingan_selanjutnya_5].url }}">
-								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_5].gambar }});" style="width: 100%;"></div>
-								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_5].title }}</div>
-							</a>
-						</div>
-						<br>
-						<div class="row">
-							<a href="{{ site.posts[postingan_selanjutnya_6].url }}">
-								<div class="col-xs-4" style="padding-right: 5px;">
-									<div class="kotak" style="background-image: url({{ site.posts[postingan_selanjutnya_6].gambar }});" style="width: 100%;"></div>
-								</div>
-								<div class="col-xs-8" style='padding-left: 5px;'>{{ site.posts[postingan_selanjutnya_6].title }}</div>
-							</a>
-						</div>
-						<br>
-					</div>
-				</div>
-			</div>
+<div class="m-post">
+	<div class="main clearfix js-main">
+		<div class="col-2 js-col-2">
+			<aside class="js-article-aside"><div class="m-toc js-toc"></div></aside>
 		</div>
-		<div class="col-sm-4 sidebar">
-			{% include sidebar.html %}
+		<div class="col-1">
+			<article class="js-article" itemscope itemtype="http://schema.org/BlogPosting">
+				<meta itemprop="mainEntityOfPage" itemscope itemType="https://schema.org/WebPage"/>
+				<header class="main-header">
+					{%- include snippets/page-title.html -%}
+					<h1 itemprop="headline" itemprop="name headline">{{ __return }}</h1>
+					{%- include components/article-data.html -%}
+				</header>
+				<div class="m-article-content js-article-content" itemprop="articleBody">{{ content }}</div>
+				<footer>
+					{%- if page.modify_date -%}
+						{%- assign __locale = site.data.locale.ARTICLE_DATE_FORMAT -%}
+						{%- include snippets/locale-to-string.html -%}
+						{%- assign date_format = __return -%}
+						{%- assign __locale = site.data.locale.LAST_UPDATED -%}
+						{%- include snippets/locale-to-string.html -%}
+						<span>{{ __return }}
+							<time datetime="{{ page.modify_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modify_date | date: date_format }}</time>
+						</span>
+					{%- else -%}
+						<meta itemprop="dateModified" content="{{ page.date | date_to_xmlschema }}">
+					{%- endif -%}
+					<div class="article-license">
+						{%- include components/license.html -%}
+					</div>
+				</footer>
+			</article>
+			<div class="article-previous-next clearfix">
+				{%- if page.next -%}
+					{%- assign __path = page.next.url -%}
+					{%- include snippets/prepend-baseurl.html -%}
+					{%- assign href = __return -%}
+					{%- assign __locale = site.data.locale.PREVIOUS -%}
+					{%- include snippets/locale-to-string.html -%}
+					<div class="article-previous"><span>{{ __return }}</span><a href="{{ href }}">{{ page.next.title }}</a></div>
+				{%- endif -%}
+				{%- if page.previous -%}
+					{%- assign __path = page.previous.url -%}
+					{%- include snippets/prepend-baseurl.html -%}
+					{%- assign href = __return -%}
+					{%- assign __locale = site.data.locale.NEXT -%}
+					{%- include snippets/locale-to-string.html -%}
+					<div class="article-next"><span>{{ __return }}</span><a href="{{ href }}">{{ page.previous.title }}</a></div>
+				{%- endif -%}
+			</div>
+			{%- if jekyll.environment != "development" and page.comment != false -%}
+				<section>{%- include utils/comment-disqus.html -%}</section>
+				<section>{%- include utils/comment-gitalk.html -%}</section>
+			{%- endif -%}
 		</div>
 	</div>
-	{% include footer.html %}
 </div>
-</body>
-</html>
