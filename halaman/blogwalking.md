@@ -13,3 +13,4 @@ date: 2018-03-03 16:49:00
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
 | [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
 | [Kompi Teknologi Indonesia](http://www.kompitech.me/) | Menginspirasi, memotivasi, membuka wawasan masyarakat |
+| [Info Astronomy](http://www.infoastronomy.org/) | Pelajari langit, lindungi bumi |
