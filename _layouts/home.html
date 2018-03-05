@@ -14,7 +14,7 @@ titles:
           {%- assign __path = post.url -%}
           {%- include snippets/prepend-baseurl.html -%}
           {%- assign href = __return -%}
-          <h1><a href="{{ href }}">{{ post.title }}</a></h1>
+          <!-- <h1><a href="{{ href }}">{{ post.title }}</a></h1> -->
           <div class="m-article-content">
             {%- if site.excerpt_type == 'html' -%}
               {{ post.excerpt }}
@@ -26,7 +26,7 @@ titles:
           {%- include snippets/prepend-baseurl.html -%}
           {%- assign __locale = site.data.locale.READMORE -%}
           {%- include snippets/locale-to-string.html -%}
-          <a href="{{ href }}">{{ __return }}</a>
+          <!-- <a href="{{ href }}">{{ __return }}</a> -->
           {%- include components/article-data.html -%}
         </article>
       {%- endfor -%}
