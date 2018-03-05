@@ -7,17 +7,17 @@ date: 2018-03-03 14:57:00
 <style type="text/css">
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-.tab {
+.tab section {
   display: none;
   padding: 20px 0 0;
   border-top: 1px solid #ddd;
 }
 
-input {
+.tab input {
   display: none;
 }
 
-label {
+.tab label {
   display: inline-block;
   margin: 0 0 -1px;
   padding: 15px 25px;
@@ -27,61 +27,63 @@ label {
   border: 1px solid transparent;
 }
 
-label:before {
+.tab label:before {
   font-family: fontawesome;
   font-weight: normal;
   margin-right: 10px;
 }
 
-label[for*='1']:before {
+.tab label[for*='1']:before {
   content: '\f1cb';
 }
 
-label[for*='2']:before {
+.tab label[for*='2']:before {
   content: '\f17d';
 }
 
-label:hover {
+.tab label:hover {
   color: #888;
   cursor: pointer;
 }
 
-input:checked + label {
+.tab input:checked + label {
   color: #555;
   border: 1px solid #ddd;
   border-top: 2px solid orange;
   border-bottom: 1px solid #fff;
 }
 
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2 {
+.tab #tab1:checked ~ #content1,
+.tab #tab2:checked ~ #content2 {
   display: block;
 }
 
 @media screen and (max-width: 650px) {
-  label {
+  .tab label {
     font-size: 0;
   }
 
-  label:before {
+  .tab label:before {
     margin: 0;
     font-size: 18px;
   }
 }
 @media screen and (max-width: 400px) {
-  label {
+  .tab label {
     padding: 15px;
   }
 }
 </style>
+
+<div class='tab'>
   
-.tabb1" type="radio" name="tabs" checked>
-<label for="tab1">Android</label>
-
-<input id="tab2" type="radio" name="tabs">
-<label for="tab2">Web</label>
-
-<div class="tab" id="content1" markdown='1'>
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Android</label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Web</label>
+    
+  <section id="content1" markdown='1'>
 
 ![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg)
 
@@ -145,9 +147,9 @@ Seperti apa sekolah impian? Download aplikasinya.
 
 Aplikasi android untuk preview blog Zen.
 
-</section>
-
-<div class="tab" id="content2" markdown='1'>
+  </section>
+    
+  <section id="content2" markdown='1'>
 
 ![](https://s25.postimg.org/4vvgoyr3z/Screenshot_from_2018-02-02_14_44_14.png)
 
@@ -211,4 +213,6 @@ Bingung kira-kira 100 hari dari hari ini hari apa? Bingung 213 hari dari hari se
 
 Aplikasi web yang berguna untuk mengolah pesan whatsapp menjadi link yang tinggal diklik.
 
-</section>
+  </section>
+    
+</div>
