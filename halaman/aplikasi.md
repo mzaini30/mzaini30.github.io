@@ -34,7 +34,7 @@ date: 2018-03-03 14:57:00
 }
 
 .tab label[for*='1']:before {
-  content: '\f1cb';
+  content: '\f17b';
 }
 
 .tab label[for*='2']:before {
