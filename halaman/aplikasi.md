@@ -38,7 +38,7 @@ date: 2018-03-03 14:57:00
 }
 
 .tab label[for*='2']:before {
-  content: '\f17d';
+  content: '\f268';
 }
 
 .tab label:hover {
