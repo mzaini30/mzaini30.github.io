@@ -6,15 +6,8 @@ date: 2018-03-03 14:57:00
 
 <style type="text/css">
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-main {
-  min-width: 320px;
-  max-width: 800px;
-  padding: 50px;
-  margin: 0 auto;
-  background: #fff;
-}
 
-section {
+.tab {
   display: none;
   padding: 20px 0 0;
   border-top: 1px solid #ddd;
@@ -81,16 +74,14 @@ input:checked + label {
   }
 }
 </style>
-
-<main>
   
-  <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1">Android</label>
-    
-  <input id="tab2" type="radio" name="tabs">
-  <label for="tab2">Web</label>
-    
-  <section id="content1" markdown='1'>
+.tabb1" type="radio" name="tabs" checked>
+<label for="tab1">Android</label>
+
+<input id="tab2" type="radio" name="tabs">
+<label for="tab2">Web</label>
+
+<div class="tab" id="content1" markdown='1'>
 
 ![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg)
 
@@ -154,9 +145,9 @@ Seperti apa sekolah impian? Download aplikasinya.
 
 Aplikasi android untuk preview blog Zen.
 
-  </section>
-    
-  <section id="content2" markdown='1'>
+</section>
+
+<div class="tab" id="content2" markdown='1'>
 
 ![](https://s25.postimg.org/4vvgoyr3z/Screenshot_from_2018-02-02_14_44_14.png)
 
@@ -220,6 +211,4 @@ Bingung kira-kira 100 hari dari hari ini hari apa? Bingung 213 hari dari hari se
 
 Aplikasi web yang berguna untuk mengolah pesan whatsapp menjadi link yang tinggal diklik.
 
-  </section>
-    
-</main>
+</section>
