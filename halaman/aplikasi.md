@@ -4,7 +4,15 @@ title: Aplikasi
 date: 2018-03-03 14:57:00
 ---
 
-# Android
+<main>
+  
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Android</label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Web</label>
+    
+  <section id="content1" markdown='1'>
 
 ![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg)
 
@@ -67,6 +75,18 @@ Seperti apa sekolah impian? Download aplikasinya.
 [Zen](https://play.google.com/store/apps/details?id=com.mzaini30.zen)
 
 Aplikasi android untuk preview blog Zen.
+
+  </section>
+    
+  <section id="content2" markdown='1'>
+
+  </section>
+    
+</main>
+
+# Android
+
+
 
 # Web
 
