@@ -38,6 +38,12 @@ nav_lists:
       zh-Hans: 关于
       zh-Hant: 關於
     url: /halaman/blogwalking.html
+  - titles:
+      en: Penghargaan
+      zh: 关于
+      zh-Hans: 关于
+      zh-Hant: 關於
+    url: /halaman/penghargaan.html
 
 # paths:
 #   base: /
