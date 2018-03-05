@@ -34,11 +34,11 @@ date: 2018-03-03 15:21:00
 }
 
 .tab label[for*='1']:before {
-  content: '\f17b';
+  content: '\f17c';
 }
 
 .tab label[for*='2']:before {
-  content: '\f268';
+  content: '\f21c';
 }
 
 .tab label:hover {
