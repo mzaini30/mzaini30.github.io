@@ -15,3 +15,4 @@ date: 2018-03-03 16:49:00
 | [Konsultasi Syariah](https://konsultasisyariah.com/) | Konsultasi kesehatan dan tanya jawab pendidikan Islam |
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
 | [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
+| [Dewi](https://www.wattpad.com/user/dewisampurnaw) | Story of Dewi |
