@@ -143,36 +143,22 @@ Tutorial programming.
 
 <!-- bookshelf -->
 
-      <style type="text/css" media="screen">
-        .gr_grid_container {
-          /* customize grid container div here. eg: width: 500px; */
-        }
+<style type="text/css" media="screen">
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+}
 
-        .gr_grid_book_container {
-          /* customize book cover container div here */
-          float: left;
-          width: 98px;
-          height: 160px;
-          padding: 0px 0px;
-          overflow: hidden;
-        }
-      </style>
-      <div id="gr_grid_widget_1520343760">
-        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-            <h2>
-      <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/12064084-zen?shelf=read&utm_medium=api&utm_source=grid_widget">Zen's bookshelf: read</a>
-    </h2>
-  <div class="gr_grid_container">
-    <div class="gr_grid_book_container"><a title="99 Cara Mengasah Intuisi Ala Sherlock Holmes" rel="nofollow" href="https://www.goodreads.com/book/show/27797865-99-cara-mengasah-intuisi-ala-sherlock-holmes"><img alt="99 Cara Mengasah Intuisi Ala Sherlock Holmes" border="0" src="https://images.gr-assets.com/books/1447220429m/27797865.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="يوم في بيت الرسول صلى الله عليه وسلم" rel="nofollow" href="https://www.goodreads.com/book/show/12506626"><img alt="يوم في بيت الرسول صلى الله عليه وسلم" border="0" src="https://images.gr-assets.com/books/1315042442m/12506626.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Darkest Minds (The Darkest Minds, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/10576365-the-darkest-minds"><img alt="The Darkest Minds" border="0" src="https://images.gr-assets.com/books/1343178841m/10576365.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Backpacker in Love" rel="nofollow" href="https://www.goodreads.com/book/show/18085093-backpacker-in-love"><img alt="Backpacker in Love" border="0" src="https://images.gr-assets.com/books/1371515079m/18085093.jpg" /></a></div>
-    <br style="clear: both"/><br/><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" rel="nofollow" href="https://www.goodreads.com/user/show/12064084-zen">Zen's favorite books »</a>
-  <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Zen, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
-  </div>
-
-      </div>
-      <script src="https://www.goodreads.com/review/grid_widget/12064084.Zen's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760" type="text/javascript" charset="utf-8"></script>
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 98px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+</style>
+<div id="gr_grid_widget_1520343760"></div>
+<script src="https://www.goodreads.com/review/grid_widget/12064084.Zen's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760" type="text/javascript" charset="utf-8"></script>
 
   </section>
     
