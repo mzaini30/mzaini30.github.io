@@ -41,6 +41,10 @@ date: 2018-03-03 15:21:00
   content: '\f21c';
 }
 
+.tab label[for*='3']:before {
+  content: '\f21c';
+}
+
 .tab label:hover {
   color: #888;
   cursor: pointer;
@@ -54,7 +58,8 @@ date: 2018-03-03 15:21:00
 }
 
 .tab #tab1:checked ~ #content1,
-.tab #tab2:checked ~ #content2 {
+.tab #tab2:checked ~ #content2,
+.tab #tab3:checked ~ #content3 {
   display: block;
 }
 
@@ -82,6 +87,9 @@ date: 2018-03-03 15:21:00
     
   <input id="tab2" type="radio" name="tabs">
   <label for="tab2">Blogwalking</label>
+    
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">Goodreads</label>
     
   <section id="content1" markdown='1'>
 
@@ -118,6 +126,12 @@ Tutorial programming.
 | [Mahad Isy Karima](https://www.youtube.com/channel/UCXX1KQrPS2tFsKkvPcHcTUw) | Youtube Mahad Isy Karima |
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
 | [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
+
+  </section>
+    
+  <section id="content3">
+
+
 
   </section>
     
