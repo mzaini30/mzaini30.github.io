@@ -161,6 +161,8 @@ Tutorial programming.
   <script src="https://www.goodreads.com/user_challenges/widget/12064084-zen?challenge_id=7501&v=2"></script>
 </div>
 
+<br>
+
 <!-- bookshelf -->
 
       <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
