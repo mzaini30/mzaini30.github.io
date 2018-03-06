@@ -143,8 +143,7 @@ Tutorial programming.
 
 <!-- bookshelf -->
 
-      <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-      <style type="text/css" media="screen">
+<style type="text/css" media="screen">
   .gr_custom_container_1520341559 {
     /* customize your Goodreads widget container here*/
     border: 1px solid gray;
@@ -194,81 +193,8 @@ Tutorial programming.
   }
 </style>
 
-      <div id="gr_custom_widget_1520341559">
-          <div class="gr_custom_container_1520341559">
-    <h2 class="gr_custom_header_1520341559">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/12064084-zen?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Zen&#39;s bookshelf: read</a>
-    </h2>
-      <div class="gr_custom_each_container_1520341559">
-          <div class="gr_custom_book_container_1520341559">
-            <a title="99 Cara Mengasah Intuisi Ala Sherlock Holmes" rel="nofollow" href="https://www.goodreads.com/review/show/1844538635?utm_medium=api&amp;utm_source=custom_widget"><img alt="99 Cara Mengasah Intuisi Ala Sherlock Holmes" border="0" src="https://images.gr-assets.com/books/1447220429s/27797865.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1520341559">
-            <span class=" staticStars" title="liked it"><img alt="liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1520341559">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/1844538635?utm_medium=api&amp;utm_source=custom_widget">99 Cara Mengasah Intuisi Ala Sherlock Holmes</a>
-          </div>
-          <div class="gr_custom_author_1520341559">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/6514416.Monica_Anggen">Monica Anggen</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1520341559">
-          <div class="gr_custom_book_container_1520341559">
-            <a title="Backpacker in Love" rel="nofollow" href="https://www.goodreads.com/review/show/1821850503?utm_medium=api&amp;utm_source=custom_widget"><img alt="Backpacker in Love" border="0" src="https://images.gr-assets.com/books/1371515079s/18085093.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1520341559">
-            <span class=" staticStars" title="liked it"><img alt="liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1520341559">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/1821850503?utm_medium=api&amp;utm_source=custom_widget">Backpacker in Love</a>
-          </div>
-          <div class="gr_custom_author_1520341559">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/5829123.Gol_A_Gong">Gol A. Gong</a>
-          </div>
-          <div class="gr_custom_review_1520341559">
-            Kisah cinta antara dua orang remaja tapi tidak cengeng.
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1520341559">
-          <div class="gr_custom_book_container_1520341559">
-            <a title="The Darkest Minds (The Darkest Minds, #1)" rel="nofollow" href="https://www.goodreads.com/review/show/1821850725?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Darkest Minds" border="0" src="https://images.gr-assets.com/books/1343178841s/10576365.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1520341559">
-            <span class=" staticStars" title="liked it"><img alt="liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1520341559">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/1821850725?utm_medium=api&amp;utm_source=custom_widget">The Darkest Minds</a>
-          </div>
-          <div class="gr_custom_author_1520341559">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/2973783.Alexandra_Bracken">Alexandra Bracken</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1520341559">
-          <div class="gr_custom_book_container_1520341559">
-            <a title="يوم في بيت الرسول صلى الله عليه وسلم" rel="nofollow" href="https://www.goodreads.com/review/show/1840827113?utm_medium=api&amp;utm_source=custom_widget"><img alt="يوم في بيت الرسول صلى الله عليه وسلم" border="0" src="https://images.gr-assets.com/books/1315042442s/12506626.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1520341559">
-            <span class=" staticStars" title="liked it"><img alt="liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1520341559">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/1840827113?utm_medium=api&amp;utm_source=custom_widget">يوم في بيت الرسول صلى الله عليه وسلم</a>
-          </div>
-          <div class="gr_custom_author_1520341559">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/5339127._">عبد الملك القاسم</a>
-          </div>
-      </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Zen, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
-  </div>
-
-      </div>
-      <script src="https://www.goodreads.com/review/custom_widget/12064084.Zen's%20bookshelf:%20read?cover_position=left&cover_size=small&num_books=100&order=a&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=title&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1520341559&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+<div id="gr_custom_widget_1520341559"></div>
+<script src="https://www.goodreads.com/review/custom_widget/12064084.Zen's%20bookshelf:%20read?cover_position=left&cover_size=small&num_books=100&order=a&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=title&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1520341559&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
 
   </section>
     
