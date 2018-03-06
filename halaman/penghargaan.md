@@ -14,3 +14,6 @@ date: 2018-03-05 21:18:00
 | 2012 | [Juara 2: Karya Tulis](https://s25.postimg.org/5v0ogx3an/Karya_tulis.jpg) | Mahad |
 | 2012 | [Juara 1: Cerdas Cermat](https://s25.postimg.org/h7d9yntz3/Cerdas_cermat.jpg) | Mahad |
 | 2011 | [Peserta: Pidato Bahasa Indonesia](https://s25.postimg.org/4fz3s6mrz/Pidato_bahasa_indonesia.jpg) | Eks Karisidenan Surakarta |
+| 2017 | [Peserta: Sosialisasi 4 Pilar MPR RI](https://s25.postimg.org/5gcdkhi8v/Scan351.jpg) | Nasional |
+| 2018 | [Mahasiswa Berprestasi](https://s25.postimg.org/shsyq8a6n/Scan352.jpg) | Prodi |
+| 2017 | [Panitia: Rakoornas ILMPI](https://s25.postimg.org/shsyq8a6n/Scan352.jpg) | Prodi |
