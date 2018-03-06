@@ -141,18 +141,18 @@ Tutorial programming.
 <!-- bookshelf - read -->
 
 <style type="text/css" media="screen">
-.gr_grid_container {
-  /* customize grid container div here. eg: width: 500px; */
-}
+  .gr_grid_container {
+    /* customize grid container div here. eg: width: 500px; */
+  }
 
-.gr_grid_book_container {
-  /* customize book cover container div here */
-  float: left;
-  width: 98px;
-  height: 160px;
-  padding: 0px 0px;
-  overflow: hidden;
-}
+  .gr_grid_book_container {
+    /* customize book cover container div here */
+    float: left;
+    width: 98px;
+    height: 160px;
+    padding: 0px 0px;
+    overflow: hidden;
+  }
 </style>
 <div id="gr_grid_widget_1520343760"></div>
 <script src="https://www.goodreads.com/review/grid_widget/12064084.Zen's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760" type="text/javascript" charset="utf-8"></script>
@@ -175,7 +175,6 @@ Tutorial programming.
 </style>
 <div id="gr_grid_widget_1520344782"></div>
 <script src="https://www.goodreads.com/review/grid_widget/12064084.Zen's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=currently-reading&sort=date_added&widget_id=1520344782" type="text/javascript" charset="utf-8"></script>
-
 
   </section>
     
