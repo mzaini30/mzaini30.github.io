@@ -133,13 +133,10 @@ Tutorial programming.
 
 <!-- reading challenge -->
 
-
 <div id="gr_challenge_7501" style="border: 2px solid #EBE8D5; border-radius:10px; padding: 0px 7px 0px 7px; max-width:230px; min-height: 100px">
   <div id="gr_challenge_progress_body_7501" style="font-size: 12px; font-family: georgia,serif;line-height: 18px"></div>
   <script src="https://www.goodreads.com/user_challenges/widget/12064084-zen?challenge_id=7501&v=2"></script>
 </div>
-
-<br>
 
 <!-- bookshelf -->
 
