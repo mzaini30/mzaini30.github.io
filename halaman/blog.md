@@ -131,6 +131,9 @@ Tutorial programming.
     
   <section id="content3">
 
+<!-- reading challenge -->
+
+
 <div id="gr_challenge_7501" style="border: 2px solid #EBE8D5; border-radius:10px; padding: 0px 7px 0px 7px; max-width:230px; min-height: 100px">
   <div id="gr_challenge_progress_body_7501" style="font-size: 12px; font-family: georgia,serif;line-height: 18px">
     <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
@@ -157,6 +160,8 @@ Tutorial programming.
   </div>
   <script src="https://www.goodreads.com/user_challenges/widget/12064084-zen?challenge_id=7501&v=2"></script>
 </div>
+
+<!-- bookshelf -->
 
       <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
       <style type="text/css" media="screen">
