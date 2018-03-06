@@ -143,59 +143,36 @@ Tutorial programming.
 
 <!-- bookshelf -->
 
-<style type="text/css" media="screen">
-  .gr_custom_container_1520341559 {
-    /* customize your Goodreads widget container here*/
-    border: 1px solid gray;
-    border-radius:10px;
-    padding: 10px 5px 10px 5px;
-    background-color: #FFFFFF;
-    color: #000000;
-    /*width: 300px*/
-    width: 100%;
-  }
-  .gr_custom_header_1520341559 {
-    /* customize your Goodreads header here*/
-    border-bottom: 1px solid gray;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 120%
-  }
-  .gr_custom_each_container_1520341559 {
-    /* customize each individual book container here */
-    width: 100%;
-    clear: both;
-    margin-bottom: 10px;
-    overflow: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #aaa;
-  }
-  .gr_custom_book_container_1520341559 {
-    /* customize your book covers here */
-    overflow: hidden;
-    height: 60px;
-      float: left;
-      margin-right: 4px;
-      width: 39px;
-  }
-  .gr_custom_author_1520341559 {
-    /* customize your author names here */
-    font-size: 10px;
-  }
-  .gr_custom_tags_1520341559 {
-    /* customize your tags here */
-    font-size: 10px;
-    color: gray;
-  }
-  .gr_custom_rating_1520341559 {
-    /* customize your rating stars here */
-    float: right;
-  }
-</style>
+      <style type="text/css" media="screen">
+        .gr_grid_container {
+          /* customize grid container div here. eg: width: 500px; */
+        }
 
-<div id="gr_custom_widget_1520341559"></div>
-<script src="https://www.goodreads.com/review/custom_widget/12064084.Zen's%20bookshelf:%20read?cover_position=left&cover_size=small&num_books=100&order=a&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=title&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1520341559&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+        .gr_grid_book_container {
+          /* customize book cover container div here */
+          float: left;
+          width: 98px;
+          height: 160px;
+          padding: 0px 0px;
+          overflow: hidden;
+        }
+      </style>
+      <div id="gr_grid_widget_1520343760">
+        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+            <h2>
+      <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/12064084-zen?shelf=read&utm_medium=api&utm_source=grid_widget">Zen's bookshelf: read</a>
+    </h2>
+  <div class="gr_grid_container">
+    <div class="gr_grid_book_container"><a title="99 Cara Mengasah Intuisi Ala Sherlock Holmes" rel="nofollow" href="https://www.goodreads.com/book/show/27797865-99-cara-mengasah-intuisi-ala-sherlock-holmes"><img alt="99 Cara Mengasah Intuisi Ala Sherlock Holmes" border="0" src="https://images.gr-assets.com/books/1447220429m/27797865.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="يوم في بيت الرسول صلى الله عليه وسلم" rel="nofollow" href="https://www.goodreads.com/book/show/12506626"><img alt="يوم في بيت الرسول صلى الله عليه وسلم" border="0" src="https://images.gr-assets.com/books/1315042442m/12506626.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Darkest Minds (The Darkest Minds, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/10576365-the-darkest-minds"><img alt="The Darkest Minds" border="0" src="https://images.gr-assets.com/books/1343178841m/10576365.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Backpacker in Love" rel="nofollow" href="https://www.goodreads.com/book/show/18085093-backpacker-in-love"><img alt="Backpacker in Love" border="0" src="https://images.gr-assets.com/books/1371515079m/18085093.jpg" /></a></div>
+    <br style="clear: both"/><br/><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" rel="nofollow" href="https://www.goodreads.com/user/show/12064084-zen">Zen's favorite books »</a>
+  <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Zen, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
+  </div>
+
+      </div>
+      <script src="https://www.goodreads.com/review/grid_widget/12064084.Zen's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760" type="text/javascript" charset="utf-8"></script>
 
   </section>
     
