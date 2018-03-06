@@ -151,7 +151,8 @@ Tutorial programming.
     padding: 10px 5px 10px 5px;
     background-color: #FFFFFF;
     color: #000000;
-    width: 300px
+    /*width: 300px*/
+    width: 100%;
   }
   .gr_custom_header_1520341559 {
     /* customize your Goodreads header here*/
