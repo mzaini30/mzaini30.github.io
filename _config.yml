@@ -66,8 +66,8 @@ author:
   # linkedin:  #your Linkedin username
 
 ## TOC
-# toc:
-  # selectors: 'h1,h2,h3'
+toc:
+  selectors: 'h6'
 
 ## Comment system (Disqus) ##
 disqus:
