@@ -11,7 +11,6 @@ date: 2018-03-05 21:18:00
 | 2017 | [Peserta: Sosialisasi 4 Pilar MPR RI](https://s25.postimg.org/5gcdkhi8v/Scan351.jpg) | Nasional |
 | 2017 | [Panitia: Rakoornas ILMPI](https://s25.postimg.org/8afixx4zj/Scan355.jpg) | Nasional |
 | 2014 | [Finalis: Web Desain](https://s25.postimg.org/oal5eau9r/Desain_web.jpg) | Nasional |
-| 2013 | [Juara 2: Lomba Blog](https://s25.postimg.org/91v80il5r/Blog.jpg) | Eks Karisidenan Surakarta |
 | 2012 | [Peserta: Lomba Kimia](https://s25.postimg.org/hww2b24tb/Kimia.jpg) | Eks Karisidenan Surakarta |
 | 2012 | [Juara 2: Pidato Bahasa Indonesia](https://s25.postimg.org/qf5ifeyhb/Pidato_bahasa_indonesia_2.jpg) | Mahad |
 | 2012 | [Juara 2: Karya Tulis](https://s25.postimg.org/5v0ogx3an/Karya_tulis.jpg) | Mahad |
