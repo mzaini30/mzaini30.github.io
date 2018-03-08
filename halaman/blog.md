@@ -179,7 +179,7 @@ Tutorial programming.
 </style>
 <div id="gr_grid_widget_1520344782"></div>
 <script type="text/javascript">
-	document.writeln('<script src=\"https://www.goodreads.com/review/grid_widget/12064084.Zen\'s%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=currently-reading&sort=date_added&widget_id=1520344782&refresh='+Math.random()+'\" type=\"text/javascript\" charset=\"utf-8\"></script>');
+	document.writeln('<scr'+'ipt src=\"https://www.goodreads.com/review/grid_widget/12064084.Zen\'s%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=currently-reading&sort=date_added&widget_id=1520344782&refresh='+Math.random()+'\" type=\"text/javascript\" charset=\"utf-8\"></scr'+'ipt>');
 </script>
 
   </section>
