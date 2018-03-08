@@ -135,7 +135,9 @@ Tutorial programming.
 
 <div id="gr_challenge_7501" style="border: 2px solid #EBE8D5; border-radius:10px; padding: 0px 7px 0px 7px; max-width:230px; min-height: 100px">
   <div id="gr_challenge_progress_body_7501" style="font-size: 12px; font-family: georgia,serif;line-height: 18px"></div>
-  <script src="https://www.goodreads.com/user_challenges/widget/12064084-zen?challenge_id=7501&v=2"></script>
+  <script type="text/javascript">
+  	document.writeln('<scr'+'ipt src=\"https://www.goodreads.com/user_challenges/widget/12064084-zen?challenge_id=7501&v=2&refresh='+Math.random()+'\"></scr'+'ipt>');
+  </script>
 </div>
 
 <!-- bookshelf - read -->
@@ -155,7 +157,10 @@ Tutorial programming.
   }
 </style>
 <div id="gr_grid_widget_1520343760"></div>
-<script src="https://www.goodreads.com/review/grid_widget/12064084.Zen's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	document.writeln('<scr'+'ipt src=\"https://www.goodreads.com/review/grid_widget/12064084.Zen\'s%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760&refresh='+Math.random()+'\" type=\"text/javascript\" charset=\"utf-8\"></scr'+'ipt>');
+</script>
 
 <!-- bookshelf - currently reading -->
 
