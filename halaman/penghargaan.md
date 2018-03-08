@@ -20,3 +20,7 @@ date: 2018-03-05 21:18:00
 | 2016 | [Peserta: Workshop Grafologi](https://s25.postimg.org/k1z9eqwf3/gambar_0002.jpg) | Prodi |
 | 2009 | [Peserta: Asah Terampil Matematika](https://s25.postimg.org/rupx6qa3z/gambar_0003.jpg) | Provinsi |
 | 2014 | [Desain Terkreatif dan Inovatif: Web Desain](https://s25.postimg.org/clzzszban/gambar_0004.jpg) | Nasional |
+| 2010 | [Juara 1: Lomba Blog](https://s25.postimg.org/tzaa7v96n/gambar_0005.jpg) | Sekolah |
+| 2013 | [Juara 2: Lomba Blog](https://s25.postimg.org/nyclarrpb/gambar_0006.jpg) | Eks Karisidenan Surakarta |
+| 2004 | [Juara 2: Lomba Hapalan Juz Amma](https://s25.postimg.org/5vjijk3kf/gambar_0007.jpg) | Kota |
+| 2006 | [Juara 1: Lomba Kaligrafi](https://s25.postimg.org/fsujcn61b/gambar_0008.jpg) | Kota |
