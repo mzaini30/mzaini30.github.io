@@ -16,3 +16,7 @@ date: 2018-03-05 21:18:00
 | 2012 | [Juara 2: Karya Tulis](https://s25.postimg.org/5v0ogx3an/Karya_tulis.jpg) | Mahad |
 | 2012 | [Juara 1: Cerdas Cermat](https://s25.postimg.org/h7d9yntz3/Cerdas_cermat.jpg) | Mahad |
 | 2011 | [Peserta: Pidato Bahasa Indonesia](https://s25.postimg.org/4fz3s6mrz/Pidato_bahasa_indonesia.jpg) | Eks Karisidenan Surakarta |
+| 2010 | [Juara Harapan 1: Asah Terampil Matematika](https://s25.postimg.org/jcgh2fllr/gambar_0001.jpg) | Provinsi |
+| 2016 | [Peserta: Workshop Grafologi](https://s25.postimg.org/k1z9eqwf3/gambar_0002.jpg) | Prodi |
+| 2009 | [Peserta: Asah Terampil Matematika](https://s25.postimg.org/rupx6qa3z/gambar_0003.jpg) | Provinsi |
+| 2014 | [Desain Terkreatif dan Inovatif: Web Desain](https://s25.postimg.org/clzzszban/gambar_0004.jpg) | Nasional |
