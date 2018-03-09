@@ -158,7 +158,7 @@ Tutorial programming.
 </style>
 <div id="gr_grid_widget_1520343760"></div>
 <script type="text/javascript">
-	document.writeln('<scr'+'ipt src=\"https://www.goodreads.com/review/grid_widget/12064084.Zen\'s%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760&refresh='+Math.random()+'\" type=\"text/javascript\" charset=\"utf-8\"></scr'+'ipt>');
+	document.writeln('<scr'+'ipt src=\"https://www.goodreads.com/review/grid_widget/12064084.Read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1520343760&refresh='+Math.random()+'\" type=\"text/javascript\" charset=\"utf-8\"></scr'+'ipt>');
 </script>
 
 <!-- bookshelf - currently reading -->
