@@ -85,67 +85,14 @@ date: 2018-03-03 14:57:00
     
   <section id="content1" markdown='1'>
 
-![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg)
-
-[Font](https://play.google.com/store/apps/details?id=com.mzaini30.font)
-
-Menampilkan berbagai jenis font berdasarkan teks yang kamu tuliskan.
-
----
-
-![](https://s25.postimg.org/xozt6gnsv/Screenshot_2018-03-03-16-12-53.jpg)
-
-[Kaligrafi](https://play.google.com/store/apps/details?id=com.mzaini30.kaligrafi)
-
-Menampilkan 7 jenis kaligrafi berdasarkan tulisan yang kamu tuliskan.
-
----
-
-![](https://s25.postimg.org/6eehyixqn/Screenshot_2018-03-03-16-13-07.jpg)
-
-[Materialize Color](https://play.google.com/store/apps/details?id=com.mzaini30.materializecolor)
-
-Kumpulan warna pastel yang berguna untuk referensi desainmu.
-
----
-
-![](https://s25.postimg.org/8vq95s27j/Screenshot_2018-03-03-16-14-37.jpg)
-
-[Psikologi Universitas Mulawarman](https://play.google.com/store/apps/details?id=com.mzaini30.psikologiuniversitasmulawarman)
-
-Aplikasi official program studi Psikologi Universitas Mulawarman yang bermanfaat buat mahasiswa, dosen, dan masyarakat.
-
----
-
-![](https://s25.postimg.org/9y0foaxvj/Screenshot_2018-03-03-16-14-57.jpg)
-
-[Puasa 2018](https://play.google.com/store/apps/details?id=com.mzaini30.puasa2018)
-
-Jadwal puasa tahun 2018.
-
----
-
-![](https://s25.postimg.org/3x2qr7o3z/Screenshot_2018-03-03-16-15-19.jpg)
-
-[Seindah Sunnah](https://play.google.com/store/apps/details?id=com.mzaini30.seindahsunnah)
-
-Aplikasi android untuk website Seindah Sunnah yang berisi tentang tsaqafah islamiyah.
-
----
-
-![](https://s25.postimg.org/kxlmzvlpr/Screenshot_2018-03-03-16-15-29.jpg)
-
-[Sekolah Impian](https://play.google.com/store/apps/details?id=com.mzaini30.sekolahimpian)
-
-Seperti apa sekolah impian? Download aplikasinya.
-
----
-
-![](https://s25.postimg.org/bptej5jsf/Screenshot_2018-03-03-16-15-44.jpg)
-
-[Zen](https://play.google.com/store/apps/details?id=com.mzaini30.zen)
-
-Aplikasi android untuk preview blog Zen.
+|-|-|-|
+| Judul | Screenshot | Keterangan |
+|-|-|-|
+| [Font](https://play.google.com/store/apps/details?id=com.mzaini30.font) | ![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg) | Menampilkan berbagai jenis font berdasarkan teks yang kamu tuliskan. |
+| [Kaligrafi](https://play.google.com/store/apps/details?id=com.mzaini30.kaligrafi) | ![](https://s25.postimg.org/xozt6gnsv/Screenshot_2018-03-03-16-12-53.jpg) | Menampilkan 7 jenis kaligrafi berdasarkan tulisan yang kamu tuliskan. |
+| [Materialize Color](https://play.google.com/store/apps/details?id=com.mzaini30.materializecolor) | ![](https://s25.postimg.org/6eehyixqn/Screenshot_2018-03-03-16-13-07.jpg) | Kumpulan warna pastel yang berguna untuk referensi desainmu. |
+| [Psikologi Universitas Mulawarman](https://play.google.com/store/apps/details?id=com.mzaini30.psikologiuniversitasmulawarman) | ![](https://s25.postimg.org/8vq95s27j/Screenshot_2018-03-03-16-14-37.jpg) | Aplikasi official program studi Psikologi Universitas Mulawarman yang bermanfaat buat mahasiswa, dosen, dan masyarakat. |
+| [Puasa 2018](https://play.google.com/store/apps/details?id=com.mzaini30.puasa2018) | 
 
   </section>
     
