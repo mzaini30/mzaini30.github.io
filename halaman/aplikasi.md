@@ -88,18 +88,18 @@ date: 2018-03-03 14:57:00
 |-|-|-|
 | Judul | Screenshot | Keterangan |
 |-|-|-|
+| [Coffeescript](https://play.google.com/store/apps/details?id=com.mzaini30.coffeescript) | ![](https://s25.postimg.org/600rg1tin/Screenshot_2018-03-10-15-09-22.jpg) | Coffeescript adalah cara cepat untuk membuat kode javascript yang panjang. Aplikasi ini penting untuk dimiliki. |
+| [Ecmascript](https://play.google.com/store/apps/details?id=com.mzaini30.ecmascript) | ![](https://s25.postimg.org/j46bsp3jz/Screenshot_2018-03-10-15-09-44.jpg) | Aplikasi yang menampilkan cara menggunakan bahasa pemrograman ecmascript. |
 | [Font](https://play.google.com/store/apps/details?id=com.mzaini30.font) | ![](https://s25.postimg.org/anj80qj0f/Screenshot_2018-03-03-16-12-15.jpg) | Menampilkan berbagai jenis font berdasarkan teks yang kamu tuliskan. |
+| [Huruf Jepang](https://play.google.com/store/apps/details?id=com.mzaini30.hurufjepang) | ![](https://s25.postimg.org/ly9h5q5lr/Screenshot_2018-03-10-15-10-11.jpg) | Aplikasi android yang menampilkan huruf-huruf hiragana dan katakana. Cocok untuk menghapal. |
 | [Kaligrafi](https://play.google.com/store/apps/details?id=com.mzaini30.kaligrafi) | ![](https://s25.postimg.org/xozt6gnsv/Screenshot_2018-03-03-16-12-53.jpg) | Menampilkan 7 jenis kaligrafi berdasarkan tulisan yang kamu tuliskan. |
 | [Materialize Color](https://play.google.com/store/apps/details?id=com.mzaini30.materializecolor) | ![](https://s25.postimg.org/6eehyixqn/Screenshot_2018-03-03-16-13-07.jpg) | Kumpulan warna pastel yang berguna untuk referensi desainmu. |
 | [Psikologi Universitas Mulawarman](https://play.google.com/store/apps/details?id=com.mzaini30.psikologiuniversitasmulawarman) | ![](https://s25.postimg.org/8vq95s27j/Screenshot_2018-03-03-16-14-37.jpg) | Aplikasi official program studi Psikologi Universitas Mulawarman yang bermanfaat buat mahasiswa, dosen, dan masyarakat. |
 | [Puasa 2018](https://play.google.com/store/apps/details?id=com.mzaini30.puasa2018) | ![](https://s25.postimg.org/9y0foaxvj/Screenshot_2018-03-03-16-14-57.jpg) | Jadwal puasa tahun 2018. |
 | [Seindah Sunnah](https://play.google.com/store/apps/details?id=com.mzaini30.seindahsunnah) | ![](https://s25.postimg.org/3x2qr7o3z/Screenshot_2018-03-03-16-15-19.jpg) | Aplikasi android untuk website Seindah Sunnah yang berisi tentang tsaqafah islamiyah. |
 | [Sekolah Impian](https://play.google.com/store/apps/details?id=com.mzaini30.sekolahimpian) | ![](https://s25.postimg.org/kxlmzvlpr/Screenshot_2018-03-03-16-15-29.jpg) | Seperti apa sekolah impian? Download aplikasinya. |
-| [Zen](https://play.google.com/store/apps/details?id=com.mzaini30.zen) | ![](https://s25.postimg.org/bptej5jsf/Screenshot_2018-03-03-16-15-44.jpg) | Aplikasi android untuk preview blog Zen. |
-| [Huruf Jepang](https://play.google.com/store/apps/details?id=com.mzaini30.hurufjepang) | ![](https://s25.postimg.org/ly9h5q5lr/Screenshot_2018-03-10-15-10-11.jpg) | Aplikasi android yang menampilkan huruf-huruf hiragana dan katakana. Cocok untuk menghapal. |
 | [Tutorial Jade](https://play.google.com/store/apps/details?id=com.mzaini30.tutorialjade) | ![](https://s25.postimg.org/f7szwkstb/Screenshot_2018-03-10-15-09-09.jpg) | Aplikasi yang menampilkan cara menggunakan jade secara lengkap. |
-| [Ecmascript](https://play.google.com/store/apps/details?id=com.mzaini30.ecmascript) | ![](https://s25.postimg.org/j46bsp3jz/Screenshot_2018-03-10-15-09-44.jpg) | Aplikasi yang menampilkan cara menggunakan bahasa pemrograman ecmascript. |
-| [Coffeescript](https://play.google.com/store/apps/details?id=com.mzaini30.coffeescript) | ![](https://s25.postimg.org/j46bsp3jz/Screenshot_2018-03-10-15-09-44.jpg) | Aplikasi yang menampilkan cara menggunakan bahasa pemrograman ecmascript. |
+| [Zen](https://play.google.com/store/apps/details?id=com.mzaini30.zen) | ![](https://s25.postimg.org/bptej5jsf/Screenshot_2018-03-03-16-15-44.jpg) | Aplikasi android untuk preview blog Zen. |
 
   </section>
     
