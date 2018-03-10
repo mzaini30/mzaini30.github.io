@@ -92,7 +92,10 @@ date: 2018-03-03 14:57:00
 | [Kaligrafi](https://play.google.com/store/apps/details?id=com.mzaini30.kaligrafi) | ![](https://s25.postimg.org/xozt6gnsv/Screenshot_2018-03-03-16-12-53.jpg) | Menampilkan 7 jenis kaligrafi berdasarkan tulisan yang kamu tuliskan. |
 | [Materialize Color](https://play.google.com/store/apps/details?id=com.mzaini30.materializecolor) | ![](https://s25.postimg.org/6eehyixqn/Screenshot_2018-03-03-16-13-07.jpg) | Kumpulan warna pastel yang berguna untuk referensi desainmu. |
 | [Psikologi Universitas Mulawarman](https://play.google.com/store/apps/details?id=com.mzaini30.psikologiuniversitasmulawarman) | ![](https://s25.postimg.org/8vq95s27j/Screenshot_2018-03-03-16-14-37.jpg) | Aplikasi official program studi Psikologi Universitas Mulawarman yang bermanfaat buat mahasiswa, dosen, dan masyarakat. |
-| [Puasa 2018](https://play.google.com/store/apps/details?id=com.mzaini30.puasa2018) | 
+| [Puasa 2018](https://play.google.com/store/apps/details?id=com.mzaini30.puasa2018) | ![](https://s25.postimg.org/9y0foaxvj/Screenshot_2018-03-03-16-14-57.jpg) | Jadwal puasa tahun 2018. |
+| [Seindah Sunnah](https://play.google.com/store/apps/details?id=com.mzaini30.seindahsunnah) | ![](https://s25.postimg.org/3x2qr7o3z/Screenshot_2018-03-03-16-15-19.jpg) | Aplikasi android untuk website Seindah Sunnah yang berisi tentang tsaqafah islamiyah. |
+| [Sekolah Impian](https://play.google.com/store/apps/details?id=com.mzaini30.sekolahimpian) | ![](https://s25.postimg.org/kxlmzvlpr/Screenshot_2018-03-03-16-15-29.jpg) | Seperti apa sekolah impian? Download aplikasinya. |
+| [Zen](https://play.google.com/store/apps/details?id=com.mzaini30.zen) | ![](https://s25.postimg.org/bptej5jsf/Screenshot_2018-03-03-16-15-44.jpg) | Aplikasi android untuk preview blog Zen. |
 
   </section>
     
