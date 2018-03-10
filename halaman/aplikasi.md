@@ -111,7 +111,7 @@ date: 2018-03-03 14:57:00
 | [Kontur](/kontur) | ![](https://s25.postimg.org/mpvk3zru7/Screenshot_from_2018-02-02_16_46_04.png) | Aplikasi web untuk mengolah data dari Google Form yang berupa skala. |
 | [Materialize Color](/color30) | ![](https://s25.postimg.org/ormuqxitb/Screenshot_from_2018-02-02_09_29_56.png) | Materialize Color adalah kumpulan warna yang dibuat oleh framework Materialize CSS. Maka, fungsi aplikasi web ini hanyalah menampilkan warna-warna tersebut dan menampilkan kode warnanya apabila kode warna tersebut diklik. |
 | [Tambah Hari](/tambah-hari) | ![](https://s25.postimg.org/x0np8974v/Screenshot_from_2018-02-17_14_04_27.png) | Bingung kira-kira 100 hari dari hari ini hari apa? Bingung 213 hari dari hari sekarang hari apa? Buka aja _web app_ ini :) |
-| [Whatsapp Link Generator](/wa) | ![](https://s25.postimg.org/4x0t4svvz/Screenshot_from_2018-02-02_09_27_13.png) | 
+| [Whatsapp Link Generator](/wa) | ![](https://s25.postimg.org/4x0t4svvz/Screenshot_from_2018-02-02_09_27_13.png) | Aplikasi web yang berguna untuk mengolah pesan whatsapp menjadi link yang tinggal diklik. |
 
   </section>
     
