@@ -113,12 +113,12 @@ date: 2018-03-03 15:21:00
 | [IDN Times](https://www.idntimes.com/?gclid=CjwKCAiA8vPUBRAyEiwA8F1oDE2h5Vn6K73vk3mLqjperH5X3sj1qBuSzpEBSG0BoZEo3Y3jkiLzkBoC2mUQAvD_BwE) | The Voice of Millenials |
 | [Info Astronomy](http://www.infoastronomy.org/) | Pelajari langit, lindungi bumi |
 | [Japanese Station](https://japanesestation.com/) | Portal berita Jepang |
+| [Kaori Nusantara](https://www.kaorinusantara.or.id/) | The anime news website of Indonesia |
 | [Kompi Teknologi Indonesia](http://www.kompitech.me/) | Menginspirasi, memotivasi, membuka wawasan masyarakat |
 | [Konsultasi Syariah](https://konsultasisyariah.com/) | Konsultasi kesehatan dan tanya jawab pendidikan Islam |
 | [Mahad Isy Karima](https://www.youtube.com/channel/UCXX1KQrPS2tFsKkvPcHcTUw) | Youtube Mahad Isy Karima |
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
 | [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
-| [Kaori Nusantara](https://www.kaorinusantara.or.id/) | The anime news website of Indonesia |
 
   </section>
     
