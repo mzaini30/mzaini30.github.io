@@ -118,6 +118,7 @@ date: 2018-03-03 15:21:00
 | [Mahad Isy Karima](https://www.youtube.com/channel/UCXX1KQrPS2tFsKkvPcHcTUw) | Youtube Mahad Isy Karima |
 | [My Satnite](https://www.mysatnite.com/) | Your story is our story |
 | [Syufia](http://syufiayaumma.blogspot.co.id/) | Life |
+| [Kaori Nusantara](https://www.kaorinusantara.or.id/) | The anime news website of Indonesia |
 
   </section>
     
