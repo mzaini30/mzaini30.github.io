@@ -23,7 +23,7 @@
 }
 
 /* goodreads */
-.m-article-content img:not(.emoji) {
+.gr_grid_container .gr_grid_book_container img {
 	width: 100%;
 }
 @media (max-width: 769px){
