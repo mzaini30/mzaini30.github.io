@@ -203,17 +203,13 @@ date: 2018-03-03 15:21:00
   document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/assets/js/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
 </script>
 <script type="text/javascript">
-  
-    tinggi_goodreads = function(){
-      $(this).height($(this).width() * 160 / 98);
-    }
-    tinggi_goodreads();
-    $(window).resize(function(){
-      tinggi_goodreads();
-    });
-  });
   tinggi_goodreads = function(){
     $('.gr_grid_container .gr_grid_book_container').each(function(){
-      
+      $(this).height($(this).width() * 160 / 98);
+    });
   }
+  tinggi_goodreads();
+  $(window).resize(function(){
+    tinggi_goodreads();
+  });
 </script>
