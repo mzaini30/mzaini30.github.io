@@ -199,3 +199,6 @@ date: 2018-03-03 15:21:00
   </section>
     
 </div>
+<script type="text/javascript">
+  document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/assets/js/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
+</script>
