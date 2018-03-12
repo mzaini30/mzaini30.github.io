@@ -208,6 +208,8 @@ date: 2018-03-03 15:21:00
       $(this).height($(this).width() * 160 / 98);
     }
     tinggi_goodreads();
-    
+    $(window).resize(function(){
+      tinggi_goodreads();
+    });
   });
 </script>
