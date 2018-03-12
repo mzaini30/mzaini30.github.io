@@ -29,8 +29,28 @@
 .gr_grid_container .gr_grid_book_container img {
 	width: 100%;
 }
-@media (max-width: 801px){
+@media (max-width: 701px){
 	.gr_grid_container .gr_grid_book_container {
-		width: 12.5%;
+		width: 14.28%;
+	}
+}
+@media (max-width: 601px){
+	.gr_grid_container .gr_grid_book_container {
+		width: 16.66%;
+	}
+}
+@media (max-width: 501px){
+	.gr_grid_container .gr_grid_book_container {
+		width: 20%;
+	}
+}
+@media (max-width: 401px){
+	.gr_grid_container .gr_grid_book_container {
+		width: 25%;
+	}
+}
+@media (max-width: 301px){
+	.gr_grid_container .gr_grid_book_container {
+		width: 33.33%;
 	}
 }
