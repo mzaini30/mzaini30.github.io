@@ -202,3 +202,12 @@ date: 2018-03-03 15:21:00
 <script type="text/javascript">
   document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/assets/js/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
 </script>
+<script type="text/javascript">
+  $('.gr_grid_container .gr_grid_book_container').each(function(){
+    tinggi_goodreads = function(){
+      $(this).height($(this).width() * 160 / 98);
+    }
+    tinggi_goodreads();
+    
+  });
+</script>
