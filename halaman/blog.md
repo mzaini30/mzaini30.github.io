@@ -204,12 +204,12 @@ date: 2018-03-03 15:21:00
 </script>
 <script type="text/javascript">
   tinggi_goodreads = function(){
-    $('.gr_grid_container .gr_grid_book_container').each(function(){
-      $(this).height($(this).width() * 160 / 98);
+    jQuery('.gr_grid_container .gr_grid_book_container').each(function(){
+      jQuery(this).height(jQuery(this).width() * 160 / 98);
     });
   }
   tinggi_goodreads();
-  $(window).resize(function(){
+  jQuery(window).resize(function(){
     tinggi_goodreads();
   });
 </script>
