@@ -165,9 +165,9 @@ date: 2018-03-03 15:21:00
     /* customize book cover container div here */
     float: left;
     width: 98px;
-    height: 160px;
+    /*height: 160px;*/
     padding: 0px 0px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
 </style>
 <div id="gr_grid_widget_1520344782"></div>
@@ -186,9 +186,9 @@ date: 2018-03-03 15:21:00
   /* customize book cover container div here */
   float: left;
   width: 98px;
-  height: 160px;
+  /*height: 160px;*/
   padding: 0px 0px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 </style>
 <div id="gr_grid_widget_1520582601"></div>
