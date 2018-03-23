@@ -1,6 +1,212 @@
 ---
-layout: post
-date: 2018-03-05 21:23:00
 ---
 
-{% include youtube.html id="BzZroxr5IDQ" %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zen - Developer Ninja</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-width=1, maximum-width=1">
+	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<!-- logo situs -->
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<a class="navbar-brand" href="#">Zen - Developer Ninja</a>
+	</nav>
+
+	<div class="section" style="height: 70px; width: 100%;"></div>
+
+
+	<div class="container">
+
+		<!-- about me -->
+
+		<div class="section">
+			<p><strong>About Me</strong></p>
+			<div class='embed-responsive embed-responsive-16by9'>
+				<iframe class="embed-responsive-item" src='https://www.youtube.com/embed/BzZroxr5IDQ' frameborder='0' allowfullscreen></iframe>
+			</div>
+			<hr>
+		</div>
+
+		<!-- penghargaan -->
+
+		<div class="section">
+			<p><strong>Penghargaan</strong></p>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Tahun</th>
+						<th>Deskripsi</th>
+						<th>Tingkat</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for penghargaan in site.penghargaan | limit: 5 %}
+						<tr>
+					      <td>{{ penghargaan.tahun }}</td>
+					      <td><a href="{{ penghargaan.link }}">{{ penghargaan.judul }}</a></td>
+					      <td>{{ penghargaan.tingkat }}</td>
+					    </tr>
+				    {% endfor %}
+				</tbody>
+			</table>
+			<p class="text-center">
+				<a href="#" data-toggle='modal' data-target='#penghargaan' class="btn btn-default">Lihat penghargaan lainnya</a>
+			</p>
+			<hr>
+		</div>
+
+		<!-- aplikasi android -->
+
+		<div class="section">
+			<p><strong>Aplikasi Android</strong></p>
+			<div class="row">
+				{% for aplikasi_android in site.aplikasi_android | limit: 4 %}
+					<div class="col-sm-3 col-xs-6">
+						<a href="{{ aplikasi_android.link }}" class="thumbnail">
+							<img src="{{ aplikasi_android.gambar }}">
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+			<p class="text-center">
+				<a href="#" class="btn btn-default" data-toggle='modal' data-target='#aplikasi-android'>Lihat aplikasi android lainnya</a>
+			</p>
+			<hr>
+		</div>
+
+		<!-- aplikasi web -->
+
+		<div class="section">
+			<p><strong>Aplikasi Web</strong></p>
+			{% for aplikasi_web in site.aplikasi_web % | limit: 3 %}
+				<a href="{{ aplikasi_web.link }}" class="thumbnail">
+					<img src="{{ aplikasi_web.gambar }}">
+				</a>
+			{% endfor %}
+			<p class="text-center">
+				<a href="#" class="btn btn-default" data-toggle='modal' data-target='#aplikasi-web'>Lihat aplikasi web lainnya</a>
+			</p>
+			<hr>
+		</div>
+
+		<!-- blog -->
+
+		<div class="section">
+			<p><strong>Blog</strong></p>
+			<a href="/programming" class="thumbnail">
+				<img src="https://s25.postimg.org/vj0wyb2pb/Screenshot_from_2018-03-03_16_08_25.png">
+			</a>
+			<hr>
+		</div>
+
+		<!-- action button -->
+
+		<div class="section">
+			<p class="text-center">
+				<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Assalamualaikum%20Kak%20Zen.%20Saya%20telah%20melihat%20situs%20Kak%20Zen%20dan%20saya%20tertarik%20untuk%20bekerja%20sama%20dengan%20Kak%20Zen" class="btn btn-danger">Hubungi Zen</a>
+			</p>
+		</div>
+		<div class="section">
+			<br>
+		</div>
+
+		<!-- modal -->
+
+		<!-- modal penghargaan -->
+
+		<div class="modal fade" id="penghargaan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Penghargaan</h4>
+		      </div>
+		      <div class="modal-body">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Tahun</th>
+							<th>Deskripsi</th>
+							<th>Tingkat</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for penghargaan in site.penghargaan %}
+							<tr>
+						      <td>{{ penghargaan.tahun }}</td>
+						      <td><a href="{{ penghargaan.link }}">{{ penghargaan.judul }}</a></td>
+						      <td>{{ penghargaan.tingkat }}</td>
+						    </tr>
+					    {% endfor %}
+					</tbody>
+				</table>		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- modal aplikasi android -->
+
+		<div class="modal fade" id="aplikasi-android" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Aplikasi Android</h4>
+		      </div>
+		      <div class="modal-body">
+				<div class="row">
+					{% for aplikasi_android in site.aplikasi_android %}
+						<div class="col-sm-3 col-xs-6">
+							<a href="{{ aplikasi_android.link }}" class="thumbnail">
+								<img src="{{ aplikasi_android.gambar }}">
+							</a>
+						</div>
+					{% endfor %}
+				</div>        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- modal aplikasi web -->
+
+		<div class="modal fade" id="aplikasi-web" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Aplikasi Web</h4>
+		      </div>
+		      <div class="modal-body">
+				{% for aplikasi_web in site.aplikasi_web %}
+					<a href="{{ aplikasi_web.link }}" class="thumbnail">
+						<img src="{{ aplikasi_web.gambar }}">
+					</a>
+				{% endfor %}
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"bin/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"bin/bootstrap/js/bootstrap.min.js?'+Math.random()+'\"></scr'+'ipt>');
+	</script>
+</body>
+</html>
