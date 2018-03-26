@@ -194,13 +194,15 @@
 		        <h4 class="modal-title" id="myModalLabel">Aplikasi Web</h4>
 		      </div>
 		      <div class="modal-body">
-				{% for aplikasi_web in site.aplikasi_web %}
-					<div class="col-sm-6 col-xs-12">
-						<a href="{{ aplikasi_web.link }}" class="thumbnail">
-							<img src="{{ aplikasi_web.gambar }}">
-						</a>
-					</div>
-				{% endfor %}
+		      	<div class="row">
+					{% for aplikasi_web in site.aplikasi_web %}
+						<div class="col-sm-6 col-xs-12">
+							<a href="{{ aplikasi_web.link }}" class="thumbnail">
+								<img src="{{ aplikasi_web.gambar }}">
+							</a>
+						</div>
+					{% endfor %}
+				</div>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
