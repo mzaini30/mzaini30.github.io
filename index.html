@@ -84,7 +84,7 @@
 		<div class="section">
 			<p><strong>Aplikasi Web</strong></p>
 			<div class="row">
-				{% for aplikasi_web in site.aplikasi_web % | limit: 4 %}
+				{% for aplikasi_web in site.aplikasi_web | limit: 4 %}
 					<div class="col-xs-6">
 						<a href="{{ aplikasi_web.link }}" class="thumbnail">
 							<img src="{{ aplikasi_web.gambar }}">
@@ -195,9 +195,11 @@
 		      </div>
 		      <div class="modal-body">
 				{% for aplikasi_web in site.aplikasi_web %}
-					<a href="{{ aplikasi_web.link }}" class="thumbnail">
-						<img src="{{ aplikasi_web.gambar }}">
-					</a>
+					<div class="col-xs-6">
+						<a href="{{ aplikasi_web.link }}" class="thumbnail">
+							<img src="{{ aplikasi_web.gambar }}">
+						</a>
+					</div>
 				{% endfor %}
 		      </div>
 		      <div class="modal-footer">
