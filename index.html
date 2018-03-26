@@ -85,7 +85,7 @@
 			<p><strong>Aplikasi Web</strong></p>
 			<div class="row">
 				{% for aplikasi_web in site.aplikasi_web | limit: 4 %}
-					<div class="col-xs-6">
+					<div class="col-sm-6 col-xs-12">
 						<a href="{{ aplikasi_web.link }}" class="thumbnail">
 							<img src="{{ aplikasi_web.gambar }}">
 						</a>
@@ -195,7 +195,7 @@
 		      </div>
 		      <div class="modal-body">
 				{% for aplikasi_web in site.aplikasi_web %}
-					<div class="col-xs-6">
+					<div class="col-sm-6 col-xs-12">
 						<a href="{{ aplikasi_web.link }}" class="thumbnail">
 							<img src="{{ aplikasi_web.gambar }}">
 						</a>
