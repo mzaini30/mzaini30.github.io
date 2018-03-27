@@ -152,11 +152,11 @@ aplikasi_android:
   -
     link: https://play.google.com/store/apps/details?id=com.mzaini30.tutorialjade
     gambar: https://s25.postimg.org/f7szwkstb/Screenshot_2018-03-10-15-09-09.jpg
-    judul
-    
+    judul: Tutorial Jade
   -
     link: https://play.google.com/store/apps/details?id=com.mzaini30.zen
     gambar: https://s25.postimg.org/bptej5jsf/Screenshot_2018-03-03-16-15-44.jpg
+    judul: Zen
 
 # aplikasi web
 
@@ -164,27 +164,36 @@ aplikasi_web:
   -
     link: /color30
     gambar: https://s25.postimg.org/ormuqxitb/Screenshot_from_2018-02-02_09_29_56.png
+    judul: Materialize Color
   -
     link: /font
     gambar: https://s25.postimg.org/4vvgoyr3z/Screenshot_from_2018-02-02_14_44_14.png
+    judul: Font
   -
     link: /jumlah-satuan
     gambar: https://s25.postimg.org/pav5ryxov/Screenshot_from_2018-02-20_00_20_37.png
+    judul: Jumlah Satuan
   -
     link: /kaligrafi
     gambar: https://s25.postimg.org/et6hi5w6n/Screenshot_from_2018-02-02_14_49_18.png
+    judul: Kaligrafi
   -
     link: /kontest
     gambar: https://s25.postimg.org/z1p9q3gdr/Screenshot_from_2018-02-02_09_21_26.png
+    judul: Kontest
   -
     link: /kontur
     gambar: https://s25.postimg.org/mpvk3zru7/Screenshot_from_2018-02-02_16_46_04.png
+    judul: Kontur
   -
     link: http://psikoweb.epizy.com/login/index.php
     gambar: https://s25.postimg.org/70kyy0y9r/Screenshot_from_2018-03-26_15_26_29.png
+    judul: Psikoweb
   -
     link: /tambah-hari
     gambar: https://s25.postimg.org/x0np8974v/Screenshot_from_2018-02-17_14_04_27.png
+    judul: Tambah Hari
   -
     link: /wa
     gambar: https://s25.postimg.org/4x0t4svvz/Screenshot_from_2018-02-02_09_27_13.png
+    judul: Whatsapp Link Generator
