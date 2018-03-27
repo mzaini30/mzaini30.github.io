@@ -96,7 +96,7 @@
 					{% assign sort_kategori = site.categories | sort %}
 					{% for kategori in sort_kategori %}
 						<li>
-							<a href="#!" class="menuju-kategori menuju-kategori-{{ post.category }}">{{ kategori | first | capitalize }}</a>
+							<a href="#!" class="menuju-kategori menuju-kategori-{{ kategori | first }}">{{ kategori | first | capitalize }}</a>
 						</li>
 					{% endfor %}
 				</ul>
@@ -132,17 +132,11 @@
 		$('.menuju-kategori').click(function(){
 			$('.kategori').hide();
 		});
-
-{% for kategori in sort_kategori %}
-	<li>
-		<a href="#!" class="menuju-kategori menuju-kategori-{{ post.category }}">{{ kategori | first | capitalize }}</a>
-	</li>
-{% endfor %}
-
-		
-		$('.menuju-kategori').click(function(){
-			$('.kategori').hide();
-		});
+		{% for kategori in sort_kategori %}		
+			$('.menuju-kategori-{{ kategori | first }}').click(function(){
+				$('.kategori-{{ kategori | first }}').show();
+			});
+		{% endfor %}
 
 		// sticky
 
