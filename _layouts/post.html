@@ -63,7 +63,10 @@
 		if ($(window).width() > 768){
 			if ($('.main').height() < $('.sidebar').height()){
 				$('.main').hcSticky({
-					stickTo: '.stick-parent'
+					stickTo: '.stick-parent',
+					onStart: function(){
+						$('.section').hide();
+					}
 				});
 			} else if ($('.main').height() > $('.sidebar').height()){
 				$('.sidebar').hcSticky({
