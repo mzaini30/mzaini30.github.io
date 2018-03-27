@@ -19,6 +19,9 @@
 		pre code.language-teks {
 			font-family: inherit;
 		}
+		.sticky {
+			margin-top: 70px;
+		}
 	</style>
 </head>
 <body>
@@ -66,7 +69,9 @@
 					stickTo: '.stick-parent',
 					onStart: function(){
 						$('.section').hide();
-						$('.sidebar').css('margin-top', '70px');
+					},
+					onStop: function(){
+						$('.section').show();
 					}
 				});
 			} else if ($('.main').height() > $('.sidebar').height()){
@@ -75,6 +80,9 @@
 					onStart: function(){
 						$('.section').hide();
 						$('.main').css('margin-top', '70px');
+					},
+					onStop: function(){
+						$('.section').show();
 					}
 				});
 			}
