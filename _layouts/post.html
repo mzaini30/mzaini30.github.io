@@ -66,11 +66,16 @@
 					stickTo: '.stick-parent',
 					onStart: function(){
 						$('.section').hide();
+						$('.sidebar').css('margin-top', '70px');
 					}
 				});
 			} else if ($('.main').height() > $('.sidebar').height()){
 				$('.sidebar').hcSticky({
-					stickTo: '.stick-parent'
+					stickTo: '.stick-parent',
+					onStart: function(){
+						$('.section').hide();
+						$('.main').css('margin-top', '70px');
+					}
 				});
 			}
 		}
