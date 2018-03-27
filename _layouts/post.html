@@ -93,6 +93,9 @@
 				</ul>
 				<p><strong>Kategori</strong></p>
 				<ul>
+					<li>
+						<em><a href="#!" class="semua-kategori">Semua Kategori</a></em>
+					</li>
 					{% assign sort_kategori = site.categories | sort %}
 					{% for kategori in sort_kategori %}
 						<li>
@@ -129,6 +132,9 @@
 
 		// main kategori
 
+		$('.semua-kategori').click(function(){
+			$('.kategori').show();
+		});
 		$('.menuju-kategori').click(function(){
 			$('.kategori').hide();
 		});
