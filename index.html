@@ -127,7 +127,7 @@
 			<p><strong>Blog</strong></p>
 			<div class="row">
 				{% for i in (1..4) %}
-					{% assign offset = forloop.index0 | times: 4 %}
+					{% assign offset = forloop.index0 | times: 5 %}
 					<div class="col-sm-3 col-xs-6">
 						<ul>
 							{% for post in site.posts limit:5 offset:offset %}
