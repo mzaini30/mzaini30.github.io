@@ -101,6 +101,15 @@
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/hc-sticky.js?'+Math.random()+'\"></scr'+'ipt>');
 	</script>
 	<script type="text/javascript">
+		$('pre:has(.language-teks)').css({
+			'word-break': 'normal',
+			'font-size': 'inherit',
+			'font-family': 'inherit',
+			'border': 'none',
+			'background': 'none'
+		});
+	</script>
+	<script type="text/javascript">
 		if ($(window).width() > 768){
 			if ($('.main').height() < $('.sidebar').height()){
 				$('.main').hcSticky({
