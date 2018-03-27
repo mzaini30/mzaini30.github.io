@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +30,13 @@
 			</div>
 			<div class="col-sm-4">
 				<p><strong>Tulisan Terbaru</strong></p>
-				
+				<ul>
+				{% for post in site.posts %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</li>
+				{% endfor %}
+				</ul>
 			</div>
 		</div>
 	</div>
