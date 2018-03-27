@@ -95,7 +95,7 @@
 				<ul>
 					{% assign sort_kategori = site.categories | sort %}
 					{% for kategori in sort_kategori %}
-						<li>{{ kategori | first }}</li>
+						<li>{{ kategori | first | capitalize }}</li>
 					{% endfor %}
 				</ul>
 				<p><strong>Semua Tulisan</strong></p>
