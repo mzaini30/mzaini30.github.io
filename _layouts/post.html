@@ -85,13 +85,25 @@
 				</p>
 			</div>
 			<div class="col-sm-4 sidebar">
+				<p><strong>Menu</strong></p>
+				<ul>
+					<li>
+						<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);">Edit</a>
+					</li>
+				</ul>
+				<p><strong>Kategori</strong></p>
+				<ul>
+					{% for kategori in site.categories %}
+						<li>{{ kategori }}</li>
+					{% endfor %}
+				</ul>
 				<p><strong>Semua Tulisan</strong></p>
 				<ul>
-				{% for post in site.posts %}
-					<li>
-						<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
-					</li>
-				{% endfor %}
+					{% for post in site.posts %}
+						<li>
+							<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
+						</li>
+					{% endfor %}
 				</ul>
 			</div>
 		</div>
