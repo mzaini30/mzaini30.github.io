@@ -96,15 +96,15 @@
 					{% assign sort_kategori = site.categories | sort %}
 					{% for kategori in sort_kategori %}
 						<li>
-							<a href="#!" class="menuju-kategori-{{ post.category }}">{{ kategori | first | capitalize }}</a>
+							<a href="#!" class="menuju-kategori menuju-kategori-{{ post.category }}">{{ kategori | first | capitalize }}</a>
 						</li>
 					{% endfor %}
 				</ul>
 				<p><strong>Semua Tulisan</strong></p>
 				<ul>
 					{% for post in site.posts %}
-						<li>
-							<a href="{{ post.url }}"{% if post.category %} class="kategori kategori-{{ post.category }}"{% endif %}>{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
+						<li{% if post.category %} class="kategori kategori-{{ post.category }}"{% endif %}>
+							<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
 						</li>
 					{% endfor %}
 				</ul>
@@ -116,6 +116,9 @@
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/hc-sticky.js?'+Math.random()+'\"></scr'+'ipt>');
 	</script>
 	<script type="text/javascript">
+
+		// pre untuk puisi (language-teks)
+
 		$('pre:has(.language-teks)').css({
 			'word-break': 'normal',
 			'font-size': 'inherit',
@@ -123,8 +126,26 @@
 			'border': 'none',
 			'background': 'none'
 		});
-	</script>
-	<script type="text/javascript">
+
+		// main kategori
+
+		$('.menuju-kategori').click(function(){
+			$('.kategori').hide();
+		});
+
+{% for kategori in sort_kategori %}
+	<li>
+		<a href="#!" class="menuju-kategori menuju-kategori-{{ post.category }}">{{ kategori | first | capitalize }}</a>
+	</li>
+{% endfor %}
+
+		
+		$('.menuju-kategori').click(function(){
+			$('.kategori').hide();
+		});
+
+		// sticky
+
 		if ($(window).width() > 768){
 			if ($('.main').height() < $('.sidebar').height()){
 				$('.main').hcSticky({
