@@ -8,6 +8,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
+	<style type="text/css">
+		.keterangan {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	</style>
 </head>
 <body>
 
@@ -73,7 +80,7 @@
 							<div class="thumbnail">
 								<img src="{{ aplikasi_android.gambar }}">
 							</div>
-							<p class="btn btn-default">{{ aplikasi_android.judul }}</p>
+							<p class="btn btn-default keterangan">{{ aplikasi_android.judul }}</p>
 						</a>
 					</div>
 				{% endfor %}
