@@ -36,14 +36,14 @@
 	<div class="container">
 		<h1 class="text-center">{{ page.title }}</h1>
 		<hr>
-		<div class="row">
-			<div class="col-sm-8">
+		<div class="row stick-parent">
+			<div class="col-sm-8 main">
 				{{ content }}
 				<p>
 					<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-default" style="width: 100%;">Beri Komentar</a>
 				</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 sidebar">
 				<p><strong>Semua Tulisan</strong></p>
 				<ul>
 				{% for post in site.posts %}
@@ -60,19 +60,17 @@
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/hc-sticky.js?'+Math.random()+'\"></scr'+'ipt>');
 	</script>
 	<script type="text/javascript">
-		jQuery(function($){
-			if ($(window).width() > 768){
-				if ($('.main').height() < $('.sidebar').height()){
-					$('.main').hcSticky({
-						stickTo: '.stick-parent'
-					});
-				} else if ($('.main').height() > $('.sidebar').height()){
-					$('.sidebar').hcSticky({
-						stickTo: '.stick-parent'
-					});
-				}
+		if ($(window).width() > 768){
+			if ($('.main').height() < $('.sidebar').height()){
+				$('.main').hcSticky({
+					stickTo: '.stick-parent'
+				});
+			} else if ($('.main').height() > $('.sidebar').height()){
+				$('.sidebar').hcSticky({
+					stickTo: '.stick-parent'
+				});
 			}
-		});
+		}
 	</script>
 </body>
 </html>
