@@ -94,7 +94,7 @@
 				<p><strong>Kategori</strong></p>
 				<ul>
 					{% for kategori in site.categories %}
-						<li>{{ kategori }}</li>
+						<li>{{ kategori | first }}</li>
 					{% endfor %}
 				</ul>
 				<p><strong>Semua Tulisan</strong></p>
