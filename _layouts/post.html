@@ -93,7 +93,8 @@
 				</ul>
 				<p><strong>Kategori</strong></p>
 				<ul>
-					{% for kategori in site.categories %}
+					{% assign sort_kategori = site.categories | sort %}
+					{% for kategori in sort_kategori %}
 						<li>{{ kategori | first }}</li>
 					{% endfor %}
 				</ul>
