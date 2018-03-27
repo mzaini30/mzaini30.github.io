@@ -95,14 +95,16 @@
 				<ul>
 					{% assign sort_kategori = site.categories | sort %}
 					{% for kategori in sort_kategori %}
-						<li>{{ kategori | first | capitalize }}</li>
+						<li>
+							<a href="#!" class="menuju-kategori-{{ post.category }}">{{ kategori | first | capitalize }}</a>
+						</li>
 					{% endfor %}
 				</ul>
 				<p><strong>Semua Tulisan</strong></p>
 				<ul>
 					{% for post in site.posts %}
 						<li>
-							<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
+							<a href="{{ post.url }}"{% if post.category %} class="kategori kategori-{{ post.category }}"{% endif %}>{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
 						</li>
 					{% endfor %}
 				</ul>
