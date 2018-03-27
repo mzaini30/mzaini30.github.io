@@ -222,10 +222,13 @@
 		      	<div class="row">
 					{% for aplikasi_web in site.aplikasi_web %}
 						<div class="col-sm-6 col-xs-12">
-							<a href="">
-								<div href="{{ aplikasi_web.link }}" class="thumbnail">
+							<a href="{{ aplikasi_web.link }}">
+								<div class="thumbnail">
 									<img src="{{ aplikasi_web.gambar }}">
 								</div>
+								<p>
+									<div class="btn btn-default keterangan">{{ aplikasi_web.judul }}</div>
+								</p>
 							</a>
 						</div>
 					{% endfor %}
