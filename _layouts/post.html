@@ -89,7 +89,7 @@
 				<ul>
 				{% for post in site.posts %}
 					<li>
-						<a href="{{ post.url }}">{{ post.title }}{% if post.category %} <em>({{ post.category }}){% endif %}</em></a>
+						<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
 					</li>
 				{% endfor %}
 				</ul>
