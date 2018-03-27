@@ -88,7 +88,7 @@
 					</div>
 				{% endfor %}
 			</div>
-			<p class="text-center">
+			<p class="text-center" style="margin-top: 10px;">
 				<a href="#" class="btn btn-default" data-toggle='modal' data-target='#aplikasi-android'>Lihat aplikasi android lainnya</a>
 			</p>
 			<hr>
@@ -104,10 +104,13 @@
 						<a href="{{ aplikasi_web.link }}" class="thumbnail">
 							<img src="{{ aplikasi_web.gambar }}">
 						</a>
+						<p>
+							<div class="btn btn-default keterangan">{{ aplikasi_web.judul }}</div>
+						</p>
 					</div>
 				{% endfor %}
 			</div>
-			<p class="text-center">
+			<p class="text-center" style="margin-top: 10px;">
 				<a href="#" class="btn btn-default" data-toggle='modal' data-target='#aplikasi-web'>Lihat aplikasi web lainnya</a>
 			</p>
 			<hr>
@@ -189,6 +192,9 @@
 								<img src="{{ aplikasi_android.gambar }}">
 							</a>
 						</div>
+						<p>
+							<div class="btn btn-default keterangan">{{ aplikasi_android.judul }}</div>
+						</p>
 					{% endfor %}
 				</div>        
 		      </div>
