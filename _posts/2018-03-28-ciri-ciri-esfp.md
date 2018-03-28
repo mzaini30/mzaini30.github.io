@@ -124,3 +124,34 @@ ESFP biasanya sangat populer karena orang-orang secara alami akan tertarik pada 
 
 ESFP bisa berteman dengan semua orang meskipun mereka tidak tertarik menghabiskan waktu dengan orang yang menurut mereka membosankan. Beberapa orang mungkin tidaks etuju dengan gaya hidup bersenang-senang dari ESFP. ESFP biasanya senang menghabiskan waktu dengan Extravert yang juga memilih fungsi Feeling. 
 
+---
+
+_Dari situs [16 Personalities](https://www.16personalities.com/id/kepribadian-esfp)_
+
+![](https://storage.googleapis.com/neris/public/images/headers/esfp-personality-type-header.png)
+
+# Kepribadian “Penghibur” (ESFP-A / ESFP-T)
+
+> Saya egois, tidak sabar, dan sedikit gelisah. Saya membuat kesalahan, saya tidak bisa dikendalikan dan setiap saat sulit diatasi. Namun jika Anda tidak dapat menerima keburukan saya, maka Anda tentu saja tidak layak menerima kebaikan saya.
+>
+> Marilyn Monroe
+
+Jika siapa saja terlihat secara spontan bernyanyi dan menari, itu adalah tipe kepribadian Penghibur. Penghibur mudah terbawa dalam kegembiraan suasana, dan ingin orang lain merasakannya juga. Tidak ada tipe kepribadian lain memberikan banyak waktu dan energi mereka seperti Penghibur ini jika berhubungan dengan masalah menyemangati orang, dan tidak ada tipe kepribadian lain yang melakukannya dengan gaya yang sangat menarik.
+
+![](https://storage.googleapis.com/neris/public/images/types/scenes/explorers_Entertainer_ESFP_introduction.png)
+
+Kami Semua Adalah Bintang...
+
+Terlahir sebagai penghibur, Penghibur sangat suka lampu sorot, tetapi panggungnya adalah dunia. Banyak orang terkenal yang memiliki tipe kepribadian Penghibur memang merupakan aktor, tetapi mereka sangat suka menghibur teman mereka juga, mengobrol dengan kejenakaan yang unik dan membumi, menyedot perhatian dan membuat setiap tamasya menjadi mirip pesta. Sangat sosial, Penghibur menikmati hal yang paling sederhana, dan tidak ada hal yang lebih menyenangkan bagi mereka dibandingkan bersenang-senang dengan kawan-kawan mereka.
+
+Tidak hanya bicara saja – Penghibur memiliki rasa estestika yang paling kuat di antara kepribadian yang ada. Dari merawat diri dan pakaian hingga rumah dengan perabotan lengkap, kepribadian Penghibur pandai dalam hal mode. Mengetahui apa yang menarik tepat saat mereka melihatnya, Penghibur tidak takut mengubah sekelilingnya untuk merefleksikan gaya pribadi mereka. Penghibur biasanya ingin tahu, menjelajahi desain dan gaya baru dengan mudah.
+
+Walaupun mungkin tidak selalu seperti itu, Penghibur tahu bahwa tidak semua hal adalah tentang mereka – mereka penuh pengamatan, dan sangat sensitif terhadap emosi orang lain. Orang dengan jenis kepribadian ini seringkali paling dahulu membantu orang lain membicarakan masalah yang menantang, dengan senang memberikan dukungan emosional dan nasihat praktis. Namun demikian, jika masalahnya adalah tentang mereka, Penghibur lebih suka menghindari konflik daripada mengatasinya secara frontal. Kepribadian Penghibur bisanya sangat menyukai sedikit drama dan gairah, tetapi tidak terlalu banyak ketika mereka menjadi fokus kritik yang dapat ditimbulkan.
+...Dan Kami Layak untuk Berkelip
+
+Tantangan terbesar yang dihadapi Penghibur adalah bahwa mereka seringkali terlalu berfokus pada kesenangan langsung sehingga mengabaikan tugas dan tanggung jawab yang memungkinkan tercapainya kemudahan tersebut. Analisis yang kompleks, tugas berulang, dan mencocokkan statistik dengan konsekuensi nyata bukanlah kegiatan yang mudah bagi orang dengan tipe kepribadian Penghibur ini. Mereka lebih tergantung pada keberuntungan atau peluang, atau meminta bantuan dari lingkaran temannya yang luas. Penting bagi Penghibur untuk menantang diri mereka sendiri untuk tetap melacak hal-hal jangka panjang seperti rencana pensiun atau asupan gula – tidak selalu akan ada orang lain yang dapat membantu mengawasi hal seperti ini.
+
+Kepribadian Penghibur mengenali nilai dan kualitas, yang pada dirinya merupakan ciri yang baik. Selain dari kecenderungan mereka menjadi perencana yang buruk, ini dapat menyebabkan mereka hidup melebihi kekayaan mereka, dan kartu kredit sangat berbahaya. Lebih terfokus pada melompat ke peluang daripada merencanakan sasaran jangka panjang, Penghibur mungkin merasa rasa kurang perhatian mereka mengakibatkan sebagian kegiatan menjadi tidak terjangkau.
+Tidak ada yang dapat membuat orang dengan tipe kepribadian Penghibur merasa sangat tidak bahagia karena menyadari mereka dikungkung oleh keadaan, tidak mampu bergabung dengan teman mereka.
+
+Penghibur disambut di mana saja ada yang membutuhkan tawa, keriangan, dan rela mencoba sesuatu yang baru dan menyenangkan – dan tidak ada kesenangan yang lebih besar bagi kepribadian Penghibur daripada membawa orang ikut menikmatinya. Penghibur dapat mengobrol berjam-jam, terkadang dengan segala sesuatu kecuali topik yang memang ingin mereka bicarakan, dan berbagi emosi dengan yang dicintai mereka dalam suka dan duka. Jika mereka dapat ingat untuk mengatur perencanaan mereka, mereka akan selalu siap menyelami semua hal baru dan menarik yang ditawarkan dunia, maka kawan pun berdatangan.
