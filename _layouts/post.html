@@ -87,6 +87,9 @@
 				</p>
 				<hr>
 				<p><strong>Tulisan lainnya</strong></p>
+				{% assign random = site.time | date: "%s" %}
+				{% assign acak_judul = page.title.size %}
+				{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 				{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
