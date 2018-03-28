@@ -242,34 +242,57 @@ Secara mental mereka hidup di masa sekarang, menghadirkan kesempatan-kesempatan 
 - Menyelesaikan tugas tahap demi tahap.
 - Fokus pada apa yang ada.
 - Menikmati masa sekarang dan enggan mengorbankannya untuk kebaikan masa depan.
-    Memperhatikan rincian dan bagian-bagian khusus.
-    Hidup pada masa kini dan menikmati semua yang ada.
-    Lebih suka mengerjakan hal-hal praktis dan pragmatik.
-    Menyukai hal-hal pasti yang dapat diukur.
-    Mematuhi petunjuk dan memperhatikan bagian-bagian kecil.
+- Memperhatikan rincian dan bagian-bagian khusus.
+- Hidup pada masa kini dan menikmati semua yang ada.
+- Lebih suka mengerjakan hal-hal praktis dan pragmatik.
+- Menyukai hal-hal pasti yang dapat diukur.
+- Mematuhi petunjuk dan memperhatikan bagian-bagian kecil.
 
-Feeling
+# Feeling
 
 Mempertimbangkan akibat dari suatu hal pada orang lain, butuh konsensus dan pendapat yang populer, tidak suka konflik dan cenderung menghindarinya.
 
-    Memutuskan berdasarkan perasaan.
-    Bekerja berdasarkan keyakinan pribadi.
-    Lembut hatinya dan bijaksana.
-    Menghargai empati dan mengutamakan harmoni.
-    Memperhatikan keselarasan dan hubungan baik.
-    Memandang kejadian sebagai peserta, bagian dari situasi dan ikut masuk dalam situasi.
-    Mempunyai pandangan sesaat dan bersifat pribadi.
-    Menghargai secara spontan.
+- Memutuskan berdasarkan perasaan.
+- Bekerja berdasarkan keyakinan pribadi.
+- Lembut hatinya dan bijaksana.
+- Menghargai empati dan mengutamakan harmoni.
+- Memperhatikan keselarasan dan hubungan baik.
+- Memandang kejadian sebagai peserta, bagian dari situasi dan ikut masuk dalam situasi.
+- Mempunyai pandangan sesaat dan bersifat pribadi.
+- Menghargai secara spontan.
 
-Perceiving
+# Perceiving
 
 Menyukai hidup santai, selalu terbuka pada peluang, flexibel, senang dengan kejutan, dan hidupnya mengalir seperti air.
 
-    Senang mengikuti rasa ingin tahu dan menemukan kejutan-kejutan.
-    Menyukai kebebasan untuk melakukan percobaan-percobaan tanpa batas.
-    Merasa nyaman dalam lingkungan terbuka, batasannya tidak jelas.
-    Menyukai gaya hidup luwes.
-    Menyukai kegiatan yang mengikuti arus.
-    Menyukai gaya hidup sebagai mana adanya.
-    Menghadapi batas waktu pengerjaan tugas dengan bekerja tergesa-gesa pada saat-saat akhir.
-    Menimbulkan kesan tidak teratur, kacau-balau, tidak bertanggungjawab bagi para judgementor.
+- Senang mengikuti rasa ingin tahu dan menemukan kejutan-kejutan.
+- Menyukai kebebasan untuk melakukan percobaan-percobaan tanpa batas.
+- Merasa nyaman dalam lingkungan terbuka, batasannya tidak jelas.
+- Menyukai gaya hidup luwes.
+- Menyukai kegiatan yang mengikuti arus.
+- Menyukai gaya hidup sebagai mana adanya.
+- Menghadapi batas waktu pengerjaan tugas dengan bekerja tergesa-gesa pada saat-saat akhir.
+- Menimbulkan kesan tidak teratur, kacau-balau, tidak bertanggungjawab bagi para judgementor.
+
+---
+
+_Dari situs [Nafis Mudrika](https://nafismudrika.wordpress.com/2011/02/18/16-tipe-kepribadian-mbti/)_
+
+# ESFP (Murah Hati)
+
+- Outgoing, easygoing, mudah berteman, bersahabat, sangat sosial, ramah, hangat, & menyenangkan.
+- Optimis, ceria, antusias, fun, menghibur, suka menjadi perhatian.
+- Punya interpersonal skill yang baik, murah hati, mudah simpatik dan mengenali perasaan orang lain. Menghindari konflik dan menjaga keharmonisan suatu hubungan.
+- Mengetahui apa yang terjadi di sekelilingnya dan ikut serta dalam kegiatan tersebut.
+- Sangat baik dalam keadaan yang membutuhkan common sense, tindakan cepat dan ketrampilan praktis.
+
+# Saran Pengembangan:
+
+- Jangan terburu-buru dalam mengambil keputusan. Belajarlah untuk fokus dan tidak mudah berubah-ubah terutama untuk hal yang penting.
+- Jangan menyenangkan semua orang. Begitu pula sebaliknya, tidak semua orang bisa menyenangkan Anda.
+- Belajarlah menghadapi kritik dan konflik. Jangan lari.
+- Anda punya kecenderungan meterialistis. Hati-hati, tidak semua hal bisa diukur dengan materi ataupun uang.
+
+Saran Profesi: Entertainer, Seniman, Marketing, Konselor, Designer, Tour Guide, Bidang Anak-anak, Bidang Hospitality
+
+Pasangan/Partner Alami: ISTJ atau ISFJ
