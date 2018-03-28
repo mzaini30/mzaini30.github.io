@@ -88,21 +88,17 @@
 				<hr>
 				<p><strong>Tulisan lainnya</strong></p>
 				{% assign random = site.time | date: "%s" %}
-				<p>random: {{ random }}</p>
 				{% assign acak_judul = page.title.size %}
-				<p>acak judul: {{ acak_judul }}</p>
 				{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-				<p>angka postingan: {{ angka_postingan }}</p>
 				{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
-				<p>postingan selanjutnya 1 link: {{ postingan_selanjutnya_1.url }}</p>
 				{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
 				<div class="postingan-selanjutnya">
-					<div>{{ postingan_selanjutnya_1.content | truncatehtml | truncatewords: 60 }}</div>
+					<div>{{ site.posts[postingan_selanjutnya_1].content | truncatehtml | truncatewords: 60 }}</div>
 					<p>
-						<a href="{{ postingan_selanjutnya_1.url }}" class="btn btn-default">Baca selengkapnya</a>
+						<a href="{{ site.posts[postingan_selanjutnya_1].url }}" class="btn btn-default">Baca selengkapnya</a>
 					</p>
 				</div>
 			</div>
