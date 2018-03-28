@@ -147,9 +147,9 @@
 			});
 		{% endfor %}
 
-		// sticky after images loaded
+		// sticky (after images loaded?)
 
-		$('.stick-parent').imagesLoaded(function() {
+		// $('.stick-parent').imagesLoaded(function() {
 			if ($(window).width() > 768){
 				if ($('.main').height() < $('.sidebar').height()){
 					$('.main').hcSticky({
@@ -161,7 +161,7 @@
 					});
 				}
 			}
-		});
+		// });
 	</script>
 </body>
 </html>
