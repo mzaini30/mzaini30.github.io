@@ -168,10 +168,6 @@ aplikasi_android:
 
 aplikasi_web:
   -
-    link: /color30
-    gambar: https://s25.postimg.org/ormuqxitb/Screenshot_from_2018-02-02_09_29_56.png
-    judul: Materialize Color
-  -
     link: /font
     gambar: https://s25.postimg.org/4vvgoyr3z/Screenshot_from_2018-02-02_14_44_14.png
     judul: Font
@@ -191,6 +187,10 @@ aplikasi_web:
     link: /kontur
     gambar: https://s25.postimg.org/mpvk3zru7/Screenshot_from_2018-02-02_16_46_04.png
     judul: Kontur
+  -
+    link: /color30
+    gambar: https://s25.postimg.org/ormuqxitb/Screenshot_from_2018-02-02_09_29_56.png
+    judul: Materialize Color
   -
     link: http://psikoweb.epizy.com/login/index.php
     gambar: https://s25.postimg.org/70kyy0y9r/Screenshot_from_2018-03-26_15_26_29.png
