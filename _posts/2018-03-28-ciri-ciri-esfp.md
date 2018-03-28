@@ -170,46 +170,78 @@ Pekerjaan Cocok:
 - Sales Representative
 - Konselor
 - Pekerja Sosial
-- Pengasuh AnakDesainer BusanaPenata InteriorKonsultanFotograferAtlitGuru SDPekerja RekreasiPekerja SosialGuru PrivatPerawatAhli KecantikanRetail ManagerPurchasingPublic Relation ManagerEvent CoordinatorFashion DesignerInterior DesignerJewelerArsitek Tata RuangChef / Juru Masak
+- Pengasuh Anak
+- Desainer Busana
+- Penata Interior
+- Konsultan
+- Fotografer
+- Atlit
+- Guru SD
+- Pekerja Rekreasi
+- Pekerja Sosial
+- Guru Privat
+- Perawat
+- Ahli Kecantikan
+- Retail Manager
+- Purchasing
+- Public Relation Manager
+- Event Coordinator
+- Fashion Designer
+- Interior Designer
+- Jeweler
+- Arsitek Tata Ruang
+- Chef / Juru Masak
 
-Pasangan Ideal:ISTJISFJ
+Pasangan Ideal:
 
-Di Masyarakat:ESFP adalah jenis yang paling umum ketiga di kalangan wanita, dan ketujuh yang paling umum di kalangan pria. ESFP membentuk :9% dari populasi umum10% wanita7% pria
+- ISTJ
+- ISFJ
 
-Extrovert
-Perkembangan Moral & Rohani
+Di Masyarakat:
 
-    Tempramen yang introvert (melankoli dan plegmatik lebih mudah diajar daripada yang Extrovert (sanguin dan kolerik).
-    Bukan berarti mereka adalah kaum pemberontak, karena untuk diajar, perlu waktu dan kesabaran sebab mereka mudah kehilangan perhatian.
-    Jika anak-anak ini dibiarkan bertumbuh begitu saja, maka perhatiannya terhadap hukum dan peraturan (Tuhan dan manusia) akan berkurang. Umumnya kaum kriminal dan pelanggar hukum adalah golongan Extrovert yang ekstrim.
+- ESFP adalah jenis yang paling umum ketiga di kalangan wanita, dan ketujuh yang paling umum di kalangan pria. 
 
-Hasil Akademis
+ESFP membentuk :
 
-    Kurang begitu menonjol disekolah. Nilai angka mereka biasanya sedang-sedang saja.
-    Kurang dapat mendisiplinkan diri.
-    Memperoleh stimulasi yang kuat melalui teguran atau disiplin.
+- 9% dari populasi umum
+- 10% wanita
+- 7% pria
 
-Popularitas
+# Extrovert
 
-    Lebih populer dilingkungan seperti sekolah dan biasanya mereka dipilih sebagai para pemimpin.
-    Lebih mudah mengadakan hubungan dengan lawan jenis sebab mereka pintar berbicara.
-    Lebih mudah menjalin hubungan dengan orang yang baru dikenal karena sikapnya yang periang, suka senyum dan berbicara.
+## Perkembangan Moral & Rohani
 
-Kesanggupan Untuk Berkonsentrasi
+- Tempramen yang introvert (melankoli dan plegmatik lebih mudah diajar daripada yang Extrovert (sanguin dan kolerik).
+- Bukan berarti mereka adalah kaum pemberontak, karena untuk diajar, perlu waktu dan kesabaran sebab mereka mudah kehilangan perhatian.
+- Jika anak-anak ini dibiarkan bertumbuh begitu saja, maka perhatiannya terhadap hukum dan peraturan (Tuhan dan manusia) akan berkurang. Umumnya kaum kriminal dan pelanggar hukum adalah golongan Extrovert yang ekstrim.
 
-    Kurang dapat berkonsentrasi karena mereka mudah terganggu.
-    Cenderung untuk mengalami kecelakaan, seperti kecelakaan saat berlalu lintas.
-    Kurang begitu khawatir karena masa berkonsentrasinya agak singkat.
+## Hasil Akademis
 
-Sensing
+- Kurang begitu menonjol disekolah. Nilai angka mereka biasanya sedang-sedang saja.
+- Kurang dapat mendisiplinkan diri.
+- Memperoleh stimulasi yang kuat melalui teguran atau disiplin.
+
+## Popularitas
+
+- Lebih populer dilingkungan seperti sekolah dan biasanya mereka dipilih sebagai para pemimpin.
+- Lebih mudah mengadakan hubungan dengan lawan jenis sebab mereka pintar berbicara.
+- Lebih mudah menjalin hubungan dengan orang yang baru dikenal karena sikapnya yang periang, suka senyum dan berbicara.
+
+## Kesanggupan Untuk Berkonsentrasi
+
+- Kurang dapat berkonsentrasi karena mereka mudah terganggu.
+- Cenderung untuk mengalami kecelakaan, seperti kecelakaan saat berlalu lintas.
+- Kurang begitu khawatir karena masa berkonsentrasinya agak singkat.
+
+# Sensing
 
 Secara mental mereka hidup di masa sekarang, menghadirkan kesempatan-kesempatan masa kini, menggunankan common sense (apa kata orang kebanyakan), menciptakan solusi praktis, detail pada fakta, bisa mengimprovisasi dari pengalaman masa lalu, suka bila informasi yang didapat konkret (tidak suka menebak-nebak).
 
-    Pengalaman menjadi ukuran dalam memecahkan masalah.
-    Senang menerapkan apa yang dipelajari.
-    Menyelesaikan tugas tahap demi tahap.
-    Fokus pada apa yang ada.
-    Menikmati masa sekarang dan enggan mengorbankannya untuk kebaikan masa depan.
+- Pengalaman menjadi ukuran dalam memecahkan masalah.
+- Senang menerapkan apa yang dipelajari.
+- Menyelesaikan tugas tahap demi tahap.
+- Fokus pada apa yang ada.
+- Menikmati masa sekarang dan enggan mengorbankannya untuk kebaikan masa depan.
     Memperhatikan rincian dan bagian-bagian khusus.
     Hidup pada masa kini dan menikmati semua yang ada.
     Lebih suka mengerjakan hal-hal praktis dan pragmatik.
