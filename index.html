@@ -333,7 +333,14 @@
 
 		<div class="section">
 			<p><strong>Blog</strong></p>
-			
+			{% for post in site.posts | limit: 10 %}
+				<div class="postingan">
+					<p>{{ post.content | strip_html | truncatewords: 60 }}</p>
+					<p>
+						<a style="width: 100%;" href="{{ post.url }}" class="btn btn-default">Baca selengkapnya</a>
+					</p>
+				</div>
+			{% endfor %}
 			<hr>
 		</div>
 
