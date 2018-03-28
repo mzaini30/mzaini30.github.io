@@ -118,6 +118,7 @@
 	</div>
 	<script type="text/javascript">
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/imagesloaded.pkgd.min.js?'+Math.random()+'\"></scr'+'ipt>');
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/hc-sticky.js?'+Math.random()+'\"></scr'+'ipt>');
 	</script>
 	<script type="text/javascript">
@@ -146,19 +147,21 @@
 			});
 		{% endfor %}
 
-		// sticky
+		// sticky after images loaded
 
-		if ($(window).width() > 768){
-			if ($('.main').height() < $('.sidebar').height()){
-				$('.main').hcSticky({
-					stickTo: '.stick-parent'
-				});
-			} else if ($('.main').height() > $('.sidebar').height()){
-				$('.sidebar').hcSticky({
-					stickTo: '.stick-parent'
-				});
+		$('.stick-parent').imagesLoaded(function() {
+			if ($(window).width() > 768){
+				if ($('.main').height() < $('.sidebar').height()){
+					$('.main').hcSticky({
+						stickTo: '.stick-parent'
+					});
+				} else if ($('.main').height() > $('.sidebar').height()){
+					$('.sidebar').hcSticky({
+						stickTo: '.stick-parent'
+					});
+				}
 			}
-		}
+		});
 	</script>
 </body>
 </html>
