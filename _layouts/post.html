@@ -90,19 +90,12 @@
 				{% assign random = site.time | date: "%s" %}
 				{% assign acak_judul = page.title.size %}
 				{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-				{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
-				<div class="postingan-selanjutnya">
-					<p>{{ site.posts[postingan_selanjutnya_1].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya_1].url }}">Baca selengkapnya</a></p>
-				</div>
+				{% for i in (1..10) %}
+					{% assign postingan_selanjutnya_i = angka_postingan | plus: i | modulo: site.posts.size %}
+					<div class="postingan-selanjutnya">
+						<p>{{ site.posts[postingan_selanjutnya_i].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya_i].url }}">Baca selengkapnya</a></p>
+					</div>
+				{% endfor %}
 			</div>
 			<div class="col-sm-4 sidebar">
 				<p><strong>Menu</strong></p>
