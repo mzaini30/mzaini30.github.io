@@ -85,6 +85,13 @@
 				<p>
 					<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-default" style="width: 100%;">Beri Komentar</a>
 				</p>
+				<hr>
+				<p><strong>Tulisan lainnya</strong></p>
+				{% assign postingan_selanjutnya_1 = angka_postingan | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_2 = angka_postingan | plus: 1 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
 			</div>
 			<div class="col-sm-4 sidebar">
 				<p><strong>Menu</strong></p>
