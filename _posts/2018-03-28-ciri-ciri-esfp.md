@@ -94,3 +94,33 @@ Kelemahan yang dimiliki oleh orang yang memiliki kepribadian ESFP antara lain:
 
 _Dari [Pribadinesia](http://www.pribadinesia.com/2017/12/tipe-kepribadian-esfp-sebagai-kekasih.html) juga_
 
+# ESFP sebagai Kekasih
+
+ESFP mencintai untuk dicintai dan akan mencoba untuk membuat banyak momen. Mereka melakukan dalam keseharian dan tidak nyaman saat berpikir terlalu banyak tentang masa depan atau membuat rencana. Atas alasan ini, pribadi ESFP tidak secara alami memiliki komitmen dalam jangka panjang.
+
+![](https://3.bp.blogspot.com/-q7R-hRbeLJQ/WisC7cq59aI/AAAAAAAAAC4/3nuy4dIadpUYxIgWc1wptlBAbafuAuIyACLcBGAs/s400/esfp.JPG)
+
+Masalah komitmen ini bisa menjadi potensi masalah bagi ESFP. Bagi yang merasa itu menjadi kelemahan mereka maka mereka bisa berusaha untuk menjalin hubungan jangka panjang. Namun bagi yang tidak merasa maka mereka akan mudah berpindah dari satu hubungan ke hubungan yang lainnya.
+
+ESFP cenderung untuk materialistik. Mereka harus berusaha menjaganya agar tidak mengganggu hubungan personal karena banyak tipe kepribadian lain yang tidak bisa memahami pandangan mereka ini. ESFP juga tidak bisa mengendalikan konflik dengan baik. Mereka tidak bisa menerima kritikan tajam dan bisa mengganggu secara personal.
+
+Secara umum ESFP merupakan sosok yang sangat hangat. Mereka memiliki keinginan yang sederhana pada pasangannya.
+
+# Tipe Kepribadian yang Cocok bagi ESFP
+
+Pasangan alami dari ESFP adalah ISTJ atau ISFJ. Fungsi dominan ESFP yaitu Extraverted Sensing sangat cocok dipasangkan dengan kepribadian Introverted Sensing.
+
+# ESFP sebagai Orang Tua
+
+ESFP umumnya menjadi orang tua yang hangat dan penuh kasih sayang bagi anak-anaknya. Mereka kadang kesulitan dalam mendefinisikan struktur dan membentuk lingkungan bagi mereka. ESFP cenderung percaya bahwa terlalu banyak aturan akan menjadi tidak sehat bagi setiap orang. Jika aturan nantinya tidak bisa diambil alih oleh pasangan mereka, maka bisa menjadi jebakan bagi ESFP sebagai orang tua. Anak-anak tentunya memerlukan aturan yang bisa membantu mereka tumbuh.
+
+![](https://4.bp.blogspot.com/-1dNqwNFz9Cc/WisDQ2RrKsI/AAAAAAAAAC8/_HXWSkL5Y80lsQWCDYOEvtOm7Rs-RxHaQCLcBGAs/s400/esfp%2Bparent.JPG)
+
+ESFP sangat praktis dan berkonsentrasi pada kebutuhan sehari-hari. Mereka biasanya sangat baik dalam merawat anak-anaknya dalam pemenuhan kebutuhan sehari-hari. Mereka kesulitan dalam memenuhi peran pengatur bagi anak-anaknya dan memilih menjadi teman. Tapi mereka juga berharap dihargai dan dituruti jika dibutuhkan. Ini bisa membingungkan bagi anak-anaknya terutama bagi yang memiliki pilihan kepribadian Judging, yang cenderung tidak tahu apa yang diinginkan oleh orang tua ESFP mereka.
+
+# ESFP sebagai Teman
+
+ESFP biasanya sangat populer karena orang-orang secara alami akan tertarik pada mereka. Mereka memiliki cahaya alami dan senang menarik kerumunan orang untuk bersenang-senang. ESFP mencoba membuat setiap hari menjadi sebuah pesta.
+
+ESFP bisa berteman dengan semua orang meskipun mereka tidak tertarik menghabiskan waktu dengan orang yang menurut mereka membosankan. Beberapa orang mungkin tidaks etuju dengan gaya hidup bersenang-senang dari ESFP. ESFP biasanya senang menghabiskan waktu dengan Extravert yang juga memilih fungsi Feeling. 
+
