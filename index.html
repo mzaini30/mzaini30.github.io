@@ -333,20 +333,7 @@
 
 		<div class="section">
 			<p><strong>Blog</strong></p>
-			<div class="row">
-				{% for i in (1..4) %}
-					{% assign offset = forloop.index0 | times: 5 %}
-					<div class="col-sm-3 col-xs-12">
-						<ul>
-							{% for post in site.posts limit:5 offset:offset %}
-								<li>
-									<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }})</em>{% endif %}
-								</li>
-							{% endfor %}
-						</ul>
-					</div>
-				{% endfor %}
-			</div>
+			
 			<hr>
 		</div>
 
