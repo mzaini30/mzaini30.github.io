@@ -91,9 +91,9 @@
 				{% assign acak_judul = page.title.size %}
 				{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 				{% for i in (1..10) %}
-					{% assign postingan_selanjutnya_i = angka_postingan | plus: i | modulo: site.posts.size %}
+					{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
 					<div class="postingan-selanjutnya">
-						<p>{{ site.posts[postingan_selanjutnya_i].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya_i].url }}">Baca selengkapnya</a></p>
+						<p>{{ site.posts[postingan_selanjutnya].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya].url }}">Baca selengkapnya</a></p>
 					</div>
 				{% endfor %}
 			</div>
