@@ -130,13 +130,29 @@
 			'background': 'none'
 		});
 
+		// sticky
+
+		if ($(window).width() > 768){
+			if ($('.main').height() < $('.sidebar').height()){
+				Sticky = $('.main').hcSticky({
+					stickTo: '.stick-parent'
+				});
+			} else if ($('.main').height() > $('.sidebar').height()){
+				Sticky = $('.sidebar').hcSticky({
+					stickTo: '.stick-parent'
+				});
+			}
+		}
+
 		// main kategori
 
 		$('.semua-kategori').click(function(){
 			$('.kategori').show();
+			Sticky.reinit();
 		});
 		$('.menuju-kategori').click(function(){
 			$('.kategori').hide();
+			Sticky.reinit();
 		});
 		{% for kategori in sort_kategori %}		
 			$('.menuju-kategori-{{ kategori | first }}').click(function(){
@@ -144,19 +160,6 @@
 			});
 		{% endfor %}
 
-		// sticky
-
-		if ($(window).width() > 768){
-			if ($('.main').height() < $('.sidebar').height()){
-				$('.main').hcSticky({
-					stickTo: '.stick-parent'
-				});
-			} else if ($('.main').height() > $('.sidebar').height()){
-				$('.sidebar').hcSticky({
-					stickTo: '.stick-parent'
-				});
-			}
-		}
 	</script>
 </body>
 </html>
