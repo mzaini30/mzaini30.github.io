@@ -159,3 +159,85 @@ Penghibur disambut di mana saja ada yang membutuhkan tawa, keriangan, dan rela m
 
 ---
 
+_Dari situs [Miarana](https://miarana.com/tipe-kepribadian-esfp)_
+
+![](https://miarana.com/sites/default/files/styles/sac_1200x630/public/images/cover/esfp_-_extraverted_sensing_with_introverted_feeling_-_the_performer.jpg?itok=QaGkJBph)
+
+Pekerjaan Cocok:
+
+- Artis
+- Performer atau Aktor
+- Sales Representative
+- Konselor
+- Pekerja Sosial
+- Pengasuh AnakDesainer BusanaPenata InteriorKonsultanFotograferAtlitGuru SDPekerja RekreasiPekerja SosialGuru PrivatPerawatAhli KecantikanRetail ManagerPurchasingPublic Relation ManagerEvent CoordinatorFashion DesignerInterior DesignerJewelerArsitek Tata RuangChef / Juru Masak
+
+Pasangan Ideal:ISTJISFJ
+
+Di Masyarakat:ESFP adalah jenis yang paling umum ketiga di kalangan wanita, dan ketujuh yang paling umum di kalangan pria. ESFP membentuk :9% dari populasi umum10% wanita7% pria
+
+Extrovert
+Perkembangan Moral & Rohani
+
+    Tempramen yang introvert (melankoli dan plegmatik lebih mudah diajar daripada yang Extrovert (sanguin dan kolerik).
+    Bukan berarti mereka adalah kaum pemberontak, karena untuk diajar, perlu waktu dan kesabaran sebab mereka mudah kehilangan perhatian.
+    Jika anak-anak ini dibiarkan bertumbuh begitu saja, maka perhatiannya terhadap hukum dan peraturan (Tuhan dan manusia) akan berkurang. Umumnya kaum kriminal dan pelanggar hukum adalah golongan Extrovert yang ekstrim.
+
+Hasil Akademis
+
+    Kurang begitu menonjol disekolah. Nilai angka mereka biasanya sedang-sedang saja.
+    Kurang dapat mendisiplinkan diri.
+    Memperoleh stimulasi yang kuat melalui teguran atau disiplin.
+
+Popularitas
+
+    Lebih populer dilingkungan seperti sekolah dan biasanya mereka dipilih sebagai para pemimpin.
+    Lebih mudah mengadakan hubungan dengan lawan jenis sebab mereka pintar berbicara.
+    Lebih mudah menjalin hubungan dengan orang yang baru dikenal karena sikapnya yang periang, suka senyum dan berbicara.
+
+Kesanggupan Untuk Berkonsentrasi
+
+    Kurang dapat berkonsentrasi karena mereka mudah terganggu.
+    Cenderung untuk mengalami kecelakaan, seperti kecelakaan saat berlalu lintas.
+    Kurang begitu khawatir karena masa berkonsentrasinya agak singkat.
+
+Sensing
+
+Secara mental mereka hidup di masa sekarang, menghadirkan kesempatan-kesempatan masa kini, menggunankan common sense (apa kata orang kebanyakan), menciptakan solusi praktis, detail pada fakta, bisa mengimprovisasi dari pengalaman masa lalu, suka bila informasi yang didapat konkret (tidak suka menebak-nebak).
+
+    Pengalaman menjadi ukuran dalam memecahkan masalah.
+    Senang menerapkan apa yang dipelajari.
+    Menyelesaikan tugas tahap demi tahap.
+    Fokus pada apa yang ada.
+    Menikmati masa sekarang dan enggan mengorbankannya untuk kebaikan masa depan.
+    Memperhatikan rincian dan bagian-bagian khusus.
+    Hidup pada masa kini dan menikmati semua yang ada.
+    Lebih suka mengerjakan hal-hal praktis dan pragmatik.
+    Menyukai hal-hal pasti yang dapat diukur.
+    Mematuhi petunjuk dan memperhatikan bagian-bagian kecil.
+
+Feeling
+
+Mempertimbangkan akibat dari suatu hal pada orang lain, butuh konsensus dan pendapat yang populer, tidak suka konflik dan cenderung menghindarinya.
+
+    Memutuskan berdasarkan perasaan.
+    Bekerja berdasarkan keyakinan pribadi.
+    Lembut hatinya dan bijaksana.
+    Menghargai empati dan mengutamakan harmoni.
+    Memperhatikan keselarasan dan hubungan baik.
+    Memandang kejadian sebagai peserta, bagian dari situasi dan ikut masuk dalam situasi.
+    Mempunyai pandangan sesaat dan bersifat pribadi.
+    Menghargai secara spontan.
+
+Perceiving
+
+Menyukai hidup santai, selalu terbuka pada peluang, flexibel, senang dengan kejutan, dan hidupnya mengalir seperti air.
+
+    Senang mengikuti rasa ingin tahu dan menemukan kejutan-kejutan.
+    Menyukai kebebasan untuk melakukan percobaan-percobaan tanpa batas.
+    Merasa nyaman dalam lingkungan terbuka, batasannya tidak jelas.
+    Menyukai gaya hidup luwes.
+    Menyukai kegiatan yang mengikuti arus.
+    Menyukai gaya hidup sebagai mana adanya.
+    Menghadapi batas waktu pengerjaan tugas dengan bekerja tergesa-gesa pada saat-saat akhir.
+    Menimbulkan kesan tidak teratur, kacau-balau, tidak bertanggungjawab bagi para judgementor.
