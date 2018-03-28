@@ -95,35 +95,13 @@
 				{% assign postingan_selanjutnya_3 = angka_postingan | plus: 2 | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_4 = angka_postingan | plus: 3 | modulo: site.posts.size %}
 				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
+				{% assign postingan_selanjutnya_5 = angka_postingan | plus: 4 | modulo: site.posts.size %}
 				<div class="postingan-selanjutnya">
-					<p>{{ site.posts[postingan_selanjutnya_1].content | strip_html | truncatewords: 60 }}</p>
-					<p>
-						<a style="width: 100%;" href="{{ site.posts[postingan_selanjutnya_1].url }}" class="btn btn-default">Baca selengkapnya</a>
-					</p>
-				</div>
-				<div class="postingan-selanjutnya">
-					<p>{{ site.posts[postingan_selanjutnya_2].content | strip_html | truncatewords: 60 }}</p>
-					<p>
-						<a style="width: 100%;" href="{{ site.posts[postingan_selanjutnya_2].url }}" class="btn btn-default">Baca selengkapnya</a>
-					</p>
-				</div>
-				<div class="postingan-selanjutnya">
-					<p>{{ site.posts[postingan_selanjutnya_3].content | strip_html | truncatewords: 60 }}</p>
-					<p>
-						<a style="width: 100%;" href="{{ site.posts[postingan_selanjutnya_3].url }}" class="btn btn-default">Baca selengkapnya</a>
-					</p>
-				</div>
-				<div class="postingan-selanjutnya">
-					<p>{{ site.posts[postingan_selanjutnya_4].content | strip_html | truncatewords: 60 }}</p>
-					<p>
-						<a style="width: 100%;" href="{{ site.posts[postingan_selanjutnya_4].url }}" class="btn btn-default">Baca selengkapnya</a>
-					</p>
-				</div>
-				<div class="postingan-selanjutnya">
-					<p>{{ site.posts[postingan_selanjutnya_5].content | strip_html | truncatewords: 60 }}</p>
-					<p>
-						<a style="width: 100%;" href="{{ site.posts[postingan_selanjutnya_5].url }}" class="btn btn-default">Baca selengkapnya</a>
-					</p>
+					<p>{{ site.posts[postingan_selanjutnya_1].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya_1].url }}">Baca selengkapnya</a></p>
 				</div>
 			</div>
 			<div class="col-sm-4 sidebar">
