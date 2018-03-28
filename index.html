@@ -338,10 +338,7 @@
 			<p><strong>Blog</strong></p>
 			{% for post in site.posts | limit: 10 %}
 				<div class="postingan">
-					<p>{{ post.content | strip_html | truncatewords: 60 }} <a href="{{ post.url }}"></a></p>
-					<p>
-						<a style="width: 100%;" href="" class="btn btn-default">Baca selengkapnya</a>
-					</p>
+					<p>{{ post.content | strip_html | truncatewords: 60 }} <a href="{{ post.url }}">Baca selengkapnya</a></p>
 				</div>
 			{% endfor %}
 			<hr>
