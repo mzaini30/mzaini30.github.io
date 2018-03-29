@@ -2,6 +2,7 @@
 layout: post
 permalink: /blog/
 title: Blog
+category: pemrograman
 ---
 
 <p><strong>Tulisan Terbaru</strong></p>
@@ -10,10 +11,3 @@ title: Blog
 		<p>{{ post.content | strip_html | truncatewords: 60 }} <a href="{{ post.url }}">Baca selengkapnya</a></p>
 	</div>
 {% endfor %}
-
-<script type="text/javascript">
-	document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
-</script>
-<script type="text/javascript">
-	$('.kategori').show();
-</script>
