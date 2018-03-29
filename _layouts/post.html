@@ -150,9 +150,16 @@
 		$('.tampilkan-semua').click(function(){
 			$('.kategori').show();
 		});
+		$('.sembunyikan-semua').click(function(){
+			$('.kategori').hide();
+		});
 		$('.menuju-kategori').click(function(){
 			$('.kategori').hide();
 		});
+		$('.kategori').hide();
+		{% if page.category %}
+			$('.kategori-{{ page.category }}').show();
+		{% endif %}
 		{% for kategori in sort_kategori %}		
 			$('.menuju-kategori-{{ kategori | first }}').click(function(){
 				$('.kategori-{{ kategori | first }}').show();
