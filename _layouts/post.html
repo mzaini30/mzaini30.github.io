@@ -7,6 +7,7 @@
 	<title>{{ page.title }} - Zen - Developer Ninja</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name="telegram:channel" content="@zensharing">
 	<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/bin/github.css">
 	<style type="text/css">
@@ -78,11 +79,13 @@
 	<!-- isi -->
 
 	<div class="container">
-		<h1 class="text-center">{{ page.title }}</h1>
+		<h1 class="text-center telegram-title">{{ page.title }}</h1>
 		<hr>
 		<div class="row stick-parent">
 			<div class="col-sm-8 main">
-				{{ content }}
+				<div class="telegram-body">
+					{{ content }}
+				</div>
 				<p>
 					<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-danger" style="width: 100%;">Beri Komentar</a>
 				</p>
