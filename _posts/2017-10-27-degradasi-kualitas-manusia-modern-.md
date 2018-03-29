@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Degradasi Kualitas Manusia Modern (?)"
 date: 2017-10-27 16:11:26
 gambar: "http://lh3.googleusercontent.com/-8sI7Ee4YxuM/WfLqRni-9WI/AAAAAAAAClI/4m1PcANVXL86mw3udELB62Y4O19ecO_WQCLcBGAs/s900/philosophy.jpg"

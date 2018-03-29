@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Ketika Bingung Harus Menulis Apa"
 date: 2017-10-21 19:17:58
 gambar: "http://lh3.googleusercontent.com/-T1W705Pv7KI/WessdRMZtWI/AAAAAAAACho/XmUjoEGwULECc1j3NLG69B2LoaZ2qloWgCLcBGAs/s900/WritersBlockPic_opt_LargeWide.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 category: artikel
 title: "Apakah Kita Sebagai Manusia Selalu Bisa Mendapatkan Apa yang Kita Inginkan?"
 tags: [berusaha, manusia]

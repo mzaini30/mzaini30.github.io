@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Apapun yang Terjadi, Kamu Akan Selalu Bisa Membuka Kotak Pandora Itu"
 date: 2017-12-22 00:00:00
 category: artikel

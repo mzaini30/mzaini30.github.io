@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Menjadi Diri Sendiri?"
 date: 2017-12-16 00:00:00
 category: artikel

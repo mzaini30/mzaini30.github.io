@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 category: artikel
 title: "Segala Hal di Dunia Ini adalah Artifisial"
 tags: [renungan, kehidupan, artifisial, dunia]

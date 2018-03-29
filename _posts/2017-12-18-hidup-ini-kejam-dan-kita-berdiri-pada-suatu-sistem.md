@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Hidup Ini Kejam dan Kita Berdiri Pada Suatu Sistem"
 date: 2017-12-18 00:00:00
 category: artikel

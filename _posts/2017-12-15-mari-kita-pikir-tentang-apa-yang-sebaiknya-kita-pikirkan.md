@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Mari Kita Pikir tentang Apa yang Sebaiknya Kita Pikirkan"
 date: 2017-12-15 00:00:00
 category: artikel

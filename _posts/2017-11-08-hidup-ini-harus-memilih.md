@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Hidup Ini Harus Memilih"
 date: 2017-11-08 19:41:49
 gambar: "http://lh3.googleusercontent.com/-t5ZKzqM0XWM/WgLtAc5Q1ZI/AAAAAAAACqc/Wp6WUWS3vW8UIJuY9c3tgfnvgIU9RdMMwCLcBGAs/s900/choice_main.jpg"

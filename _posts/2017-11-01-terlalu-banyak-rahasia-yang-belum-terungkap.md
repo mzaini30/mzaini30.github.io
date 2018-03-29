@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Terlalu Banyak Rahasia yang Belum Terungkap"
 date: 2017-11-01 00:12:12
 gambar: "http://lh3.googleusercontent.com/-Drxpq8NF8Fk/Wfig21scTdI/AAAAAAAACm0/v7fb-3oT-hw2uGpmRkGGfw025MZfQx6cACLcBGAs/s900/dreams.metroeve_silent-dreams-meaning.jpg"

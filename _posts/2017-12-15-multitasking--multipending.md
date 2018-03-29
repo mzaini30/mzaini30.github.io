@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Multitasking = Multipending"
 date: 2017-12-15 00:00:00
 category: artikel

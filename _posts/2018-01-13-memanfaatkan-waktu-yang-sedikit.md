@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 category: artikel
 title: "Bisakah Kita Memanfaatkan Waktu yang 'Sedikit' Ini?"
 tags: [waktu, memanfaatkan waktu, efisien]

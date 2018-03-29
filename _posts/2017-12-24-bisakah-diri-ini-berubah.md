@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Bisakah Diri Ini Berubah?"
 date: 2017-12-24 00:00:00
 category: artikel

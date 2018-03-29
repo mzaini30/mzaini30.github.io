@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Entah Apa yang Mempengaruhi Mereka...."
 date: 2017-10-20 21:47:58
 gambar: "http://lh3.googleusercontent.com/-ewtoBeAlXP4/Wen9j7VStrI/AAAAAAAACg8/KJJ2tDaaYMgewQVa49rgMm6BaBX8GFBdQCLcBGAs/s900/tidak-memiliki-hobi-700x394.png"

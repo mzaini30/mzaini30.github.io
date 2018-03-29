@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Waktu, Aku Membencimu"
 date: 2017-11-11 09:15:03
 gambar: "http://lh3.googleusercontent.com/-fJxhMAUdge0/WgZPiWS7azI/AAAAAAAACrM/ZmymX_ondCkStJfMHVO5MTmTZNlJoRykQCLcBGAs/s900/shutterstock_271332740.jpg"

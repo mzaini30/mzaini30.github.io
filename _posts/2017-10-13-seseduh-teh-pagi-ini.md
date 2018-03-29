@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Seseduh Teh Pagi Ini..."
 date: 2017-10-13 22:28:40
 gambar: "http://lh3.googleusercontent.com/-bHzjZGeC6zs/WeDNgLhsAxI/AAAAAAAACdU/VuXVLq36OeMaVCBxKZlixFBa05-8KuDIgCLcBGAs/s900/British-police-drink-tea-with-lonely-elderly-couple.jpg"

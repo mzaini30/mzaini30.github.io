@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Membiasakan Pola Pikir Salah?"
 date: 2017-10-16 21:18:14
 gambar: "http://lh3.googleusercontent.com/-WNINJb-r0_o/WeSxpg7TqkI/AAAAAAAACes/grIwQmtY4Cg3OKSmjuF2kdSJe0ylL998gCLcBGAs/s900/logo.png"

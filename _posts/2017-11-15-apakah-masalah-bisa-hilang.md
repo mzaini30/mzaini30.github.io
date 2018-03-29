@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Apakah Masalah Bisa Hilang?"
 date: 2017-11-15 23:31:01
 gambar: "http://lh3.googleusercontent.com/-sInmjEk2X-I/Wgxd1sBLLMI/AAAAAAAACsw/2FAikx1_fOUZ60tfi3VmcfQq11PP2D1GACLcBGAs/s900/Low-self-esteem.jpg"

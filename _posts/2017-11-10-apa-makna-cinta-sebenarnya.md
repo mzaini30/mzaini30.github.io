@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Apa Makna Cinta Sebenarnya?"
 date: 2017-11-10 15:42:08
 gambar: "http://lh3.googleusercontent.com/-pCmXOOZ3LDs/WgVZR42j_ZI/AAAAAAAACq8/4rnpKuSDi_UI8ZXF7IZ5YKXs8oHhcmXTwCLcBGAs/s900/sunset-hands-love-woman.jpg"

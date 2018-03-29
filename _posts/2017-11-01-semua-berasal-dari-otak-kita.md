@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Semua Berasal dari Otak Kita"
 date: 2017-11-01 10:41:56
 gambar: "http://lh3.googleusercontent.com/-LfZwjp9lJEI/Wfk0V2aP7RI/AAAAAAAACnU/0W5FZxIHnDMTPzGcco6O-NsGvjM5nPzPgCLcBGAs/s900/imagination_attic_by_biancablaze.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Arthur: The Excalibur Noumena"
 date: 2017-10-15 19:45:23
 gambar: "http://lh3.googleusercontent.com/-SK8bIR3NAjg/WeNPNftCx5I/AAAAAAAACeA/N_7yWgpL870FSTL57mZATvVpXeewRNTAACLcBGAs/s900/saber___arturia_pendragon_by_dramakidd-d526ybs.png"

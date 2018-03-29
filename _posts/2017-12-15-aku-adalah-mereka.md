@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Aku adalah Mereka?
 date: 2017-12-15 00:00:00
 category: artikel

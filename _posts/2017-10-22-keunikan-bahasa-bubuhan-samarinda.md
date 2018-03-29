@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Keunikan Bahasa Bubuhan Samarinda"
 date: 2017-10-22 16:37:38
 gambar: "http://lh3.googleusercontent.com/-kbKDwcs99Bg/WexZNTZ1TRI/AAAAAAAACiI/FZX294b9EYQ5zEaEhBX7Vj-AGaXJ4ToVgCLcBGAs/s900/kalo.png"

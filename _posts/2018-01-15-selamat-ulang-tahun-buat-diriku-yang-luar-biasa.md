@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 category: artikel
 title: "Selamat Ulang Tahun Buat Diriku yang Luar Biasa"
 tags: [ulang tahun, hari spesial]

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Apakah Karakter dan Watak Seseorang Hanya Ada di Anime dan Novel?"
 date: 2017-10-28 20:41:38
 gambar: "http://lh3.googleusercontent.com/-NCs3t5UTIaQ/WfR7Aa97e8I/AAAAAAAACl4/x2_lzylPe9IR4ZXJcdbgc6IigrxF2UamACLcBGAs/s900/az-1.jpg"

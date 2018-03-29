@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 category: pemrograman
 title: "Skrip Download dan Upload Ketika Menggunakan Git"
 tags: [git, skrip, bash, batch]

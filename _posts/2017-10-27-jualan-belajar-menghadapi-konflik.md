@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Jualan: Belajar Menghadapi Konflik"
 date: 2017-10-27 11:09:35
 gambar: "http://lh3.googleusercontent.com/-WXn6mQPTofg/WfKjs3TlmWI/AAAAAAAACk4/EGgteDdJ9YsRzV9oM76pRplo1My3XPB7gCLcBGAs/s900/THE%252BBICYCLE%252BBUSINESS%252B%252811%252Bof%252B25%2529.JPG"
