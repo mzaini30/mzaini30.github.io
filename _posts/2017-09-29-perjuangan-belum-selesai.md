@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Perjuangan Belum Selesai"
 date: 2017-09-29 23:58:41
 gambar: "http://lh3.googleusercontent.com/-hf4Vqx4Eb3c/Wc5sxmdUD-I/AAAAAAAACWw/i6Cp9F0vyWMGwJ3bEdp3IcGdPk2TvGlOACLcBGAs/s900/Ilustrasi-perjuangan-duniasastra.net_.png"

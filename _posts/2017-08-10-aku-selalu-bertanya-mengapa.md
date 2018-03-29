@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Aku Selalu Bertanya \"Mengapa\""
 date: 2017-08-10 09:58:35
 gambar: "http://68.media.tumblr.com/tumblr_m9g4xiV6pj1qzz9rr.png"

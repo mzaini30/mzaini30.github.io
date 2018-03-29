@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Bisakah Seorang Introvert Mendapatkan Pengalaman Ekstraversi?"
 date: 2017-10-07 00:14:46
 gambar: "http://lh3.googleusercontent.com/-QlpYCcfMo00/WderptFJOfI/AAAAAAAACZk/T9YI9CNAeSMS7T-8tUz9_p-j71IE76fUgCLcBGAs/s900/wallpaper-includes-hatsune-images-wallpapers-sparkly.jpg"

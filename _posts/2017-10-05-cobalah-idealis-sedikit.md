@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Cobalah Idealis Sedikit..."
 date: 2017-10-05 19:54:06
 gambar: "http://lh3.googleusercontent.com/-FXpO9QGCi5k/WdYd33iz4RI/AAAAAAAACYk/8KuIZQnA2agGkQ2x8AOP80vSPMb8EKyWgCLcBGAs/s900/shigatsu-wa-kimi-no-uso.jpg"

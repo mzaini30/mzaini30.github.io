@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Amankan Semua Data...."
 date: 2017-10-11 23:42:32
 gambar: "http://lh3.googleusercontent.com/-qLriWZsRNdE/Wd46vd4D4OI/AAAAAAAACck/sF7VrPtQIkc75ERp5R4zRtETKiRK4FRrwCLcBGAs/s900/gitlab.png"

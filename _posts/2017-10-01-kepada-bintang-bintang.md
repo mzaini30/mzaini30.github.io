@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Kepada Bintang-Bintang...."
 date: 2017-10-01 02:27:13
 gambar: "http://lh3.googleusercontent.com/-v7jOxfSE_2g/Wc_jpzqzT_I/AAAAAAAACXA/DhARATDe-2krm5sSQUo9UXBDXw3_9UNMgCLcBGAs/s900/starsedit.jpg"

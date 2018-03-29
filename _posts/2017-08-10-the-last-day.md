@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "The Last Day"
 date: 2017-08-10 09:55:12
 gambar: "http://blog.logoscdn.com/wp-content/uploads/2016/03/my-last-day-movie-620x349.jpg"

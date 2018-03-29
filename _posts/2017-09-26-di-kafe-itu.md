@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Di Kafe Itu..."
 date: 2017-09-26 06:18:52
 gambar: "http://lh3.googleusercontent.com/-4pXX7_SDxso/WcmAj5AJy9I/AAAAAAAACSQ/NzIRWLBNxcMNRzuS1gd1lmZVJ1bgzeLewCLcBGAs/s900/170346-0_663_382.png"

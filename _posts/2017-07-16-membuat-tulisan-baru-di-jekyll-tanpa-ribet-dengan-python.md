@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Membuat Tulisan Baru di Jekyll Tanpa Ribet dengan Python"
 date: 2017-07-16 20:23:12
 gambar: "http://s-media-cache-ak0.pinimg.com/originals/da/ed/fb/daedfb39127c800eddecbe906b884d45.jpg"
@@ -15,6 +16,7 @@ Untuk membuat tulisan baru di Jekyll, ada aturan yang harus dipenuhi. Contohnya 
 
     ```yaml
     layout: post
+rss: ada
     title: "Membuat Tulisan Baru di Jekyll Tanpa Ribet dengan Python"
     date: 2017-07-16 20:23:12
     gambar: "http://img08.deviantart.net/1190/i/2012/030/e/4/if_you_feel_like_letting_go____by_nostalgicchills-d4o6rmv.jpg"
@@ -85,6 +87,7 @@ Nah, ribet kan? Kali ini aku akan memberikan sebuah skrip untuk membuat nama fil
     namafile = "{tahun}-{bulan}-{tanggal}-{judulstrip}.md"
     isifile = """---
     layout: post
+rss: ada
     title: "{judul}"
     date: {tahun}-{bulan}-{tanggal} {jam}:{menit}:{detik}
     gambar: "{gambar}"

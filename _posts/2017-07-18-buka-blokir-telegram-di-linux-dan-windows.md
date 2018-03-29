@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Buka Blokir Telegram di Linux dan Windows"
 date: 2017-07-18 10:38:22
 gambar: http://storeonanimeonline.com/wp-content/uploads/2014/10/Evernote-Camera-Roll-20140926-110123.png

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Semuanya Berasal dari Otak Kita"
 date: 2017-06-25 14:41:53
 gambar: "http://thegeekclinic.files.wordpress.com/2013/09/baka-to-test.png"

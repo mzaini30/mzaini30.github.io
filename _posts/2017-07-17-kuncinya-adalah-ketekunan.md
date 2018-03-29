@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Kuncinya adalah Ketekunan"
 date: 2017-07-17 19:28:06
 gambar: "http://canime.files.wordpress.com/2012/08/rei_book9.jpg"

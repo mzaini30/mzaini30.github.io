@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Satu Detik Itu Berharga Sekali"
 date: 2017-08-14 07:57:47
 gambar: "http://1.bp.blogspot.com/-eHEZTftRJto/VqFYdU1UO0I/AAAAAAAABoA/sdWOKGTFckc/s1600/hope.jpg"

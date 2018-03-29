@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Benarkah Kita Sudah Merdeka?"
 date: 2017-08-17 21:59:32
 gambar: "http://img15.deviantart.net/76e2/i/2017/076/5/1/hut_ri_72_logo__text_indonesia_pasti_bisa__by_imahkudesain-db2oh0g.jpg"

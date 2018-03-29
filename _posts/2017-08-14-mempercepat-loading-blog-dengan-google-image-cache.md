@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Mempercepat Loading Blog dengan Google Image Cache"
 date: 2017-08-14 19:09:53
 gambar: https://media.giphy.com/media/3o6ozshshCI3mGFkdO/giphy.gif

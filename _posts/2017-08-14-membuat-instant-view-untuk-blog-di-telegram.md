@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Membuat Instant View untuk Blog di Telegram"
 date: 2017-08-14 19:24:06
 gambar: "http://i.kinja-img.com/gawker-media/image/upload/s--QOzt6S3P--/c_scale,fl_progressive,q_80,w_800/1483549890244134466.jpg"

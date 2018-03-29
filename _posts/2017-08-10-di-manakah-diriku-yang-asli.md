@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Di Manakah Diriku yang Asli?"
 date: 2017-08-10 09:57:17
 gambar: "https://i.ytimg.com/vi/O7tolpsyIEA/maxresdefault.jpg"
