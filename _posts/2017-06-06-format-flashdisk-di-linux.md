@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Cara Format Flash Disk di Linux"
 date: 2017-06-06 08:59:54
 gambar: "http://4.bp.blogspot.com/-72kCa7NnyJc/TstZMMG5mPI/AAAAAAAAANE/9Xk4TRPfACE/s1200/wiqzr5.jpg"

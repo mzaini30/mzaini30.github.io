@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Senyap dan Cepat"
 date: 2017-04-30 11:03:59
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Think Like a Hacker"
 date: 2017-06-16 10:15:25
 gambar: "http://www.gwigwi.com/wp-content/uploads/2017/02/gwigwi_5-tokoh-hacker-wanita-anime-ini-pasti-bikin-kamu-penasaran.png"

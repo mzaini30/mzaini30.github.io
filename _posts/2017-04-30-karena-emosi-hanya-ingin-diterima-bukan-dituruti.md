@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Karena Emosi Hanya Ingin Diterima, Bukan Dituruti"
 date: 2017-04-30 17:43:16
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Apakah Kita Selama Ini Menjauhi Perkataan Tuhan Kita?"
 date: 2017-05-01 08:52:15
 category: artikel

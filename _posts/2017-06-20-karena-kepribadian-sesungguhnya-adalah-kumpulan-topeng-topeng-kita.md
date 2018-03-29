@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Karena Kepribadian Sesungguhnya adalah Kumpulan Topeng-Topeng Kita"
 date: 2017-06-20 14:16:50
 gambar: "http://myanimelist.cdn-dena.com/s/common/uploaded_files/1456968363-b162b20256121c4b099b741995b2ce4b.jpeg"

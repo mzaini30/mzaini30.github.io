@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Bukankah Kehidupan Kita (hanyalah) Estafet dari Kehidupan Sebelumnya?"
 date: 2017-05-01 19:37:54
 gambar: "http://img04.deviantart.net/d79d/i/2011/121/9/d/cats_life_by_apofiss-d3fb1qw.jpg"

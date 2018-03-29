@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Quote yang Menyadarkanmu dari Kemalasan"
 date: 2017-06-06 09:17:34
 gambar: "http://japanesestation.com/wp-content/uploads/2014/06/sword-art-online-Kirito.png"

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Target untuk Metpen. Yosh!"
 date: 2017-06-21 09:45:37
 gambar: "http://1.bp.blogspot.com/-otSP4NC13rA/UM24ft0HqLI/AAAAAAAAASM/CG4p0f9g1XA/s1600/11.jpg"

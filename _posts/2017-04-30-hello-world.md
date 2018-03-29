@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Hello World!"
 date: 2017-04-30 10:59:49
 category: artikel

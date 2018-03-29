@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Karena Kita Semua Membangun Suatu Sistem yang Kokoh"
 date: 2017-04-30 13:37:24
 category: artikel
