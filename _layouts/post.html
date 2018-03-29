@@ -107,7 +107,7 @@
 				<p><strong>Kategori</strong></p>
 				<ul>
 					<li>
-						<em><a href="#!" class="semua-kategori">Semua Kategori</a></em>
+						<em><a href="#!" class="tampilkan-semua">Tampilkan Semua</a></em>
 					</li>
 					{% assign sort_kategori = site.categories | sort %}
 					{% for kategori in sort_kategori %}
@@ -115,8 +115,11 @@
 							<a href="#!" class="menuju-kategori menuju-kategori-{{ kategori | first }}">{{ kategori | first | capitalize }}</a>
 						</li>
 					{% endfor %}
+					<li>
+						<em><a href="#!" class="sembunyikan-semua">Sembunyikan Semua</a></em>
+					</li>
 				</ul>
-				<p><strong>Semua Tulisan</strong></p>
+				<p><strong>Tulisan Lainnya</strong></p>
 				<ul>
 					{% for post in site.posts %}
 						<li{% if post.category %} class="kategori kategori-{{ post.category }}"{% endif %}>
@@ -144,7 +147,7 @@
 
 		// main kategori
 
-		$('.semua-kategori').click(function(){
+		$('.tampilkan-semua').click(function(){
 			$('.kategori').show();
 		});
 		$('.menuju-kategori').click(function(){
