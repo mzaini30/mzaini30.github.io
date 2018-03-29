@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Sebuah Kebiasaan
 date: 2018-02-02 08:53:49
 category: artikel

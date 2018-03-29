@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Jadi Guru Itu Ternyata Nggak Mudah
 date: 2018-02-12 20:04:49
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Sepanjang Untaian Sajakku Kepadamu
 date: 2018-02-19 18:28:49
 category: puisi

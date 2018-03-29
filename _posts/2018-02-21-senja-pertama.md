@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Senja Pertama
 date: 2018-02-21 21:14:49
 category: puisi

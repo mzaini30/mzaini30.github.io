@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Archer dan Archiever
 date: 2018-02-27 18:17:49
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Mencerca Pikiran!
 date: 2018-01-29 20:49:49
 category: puisi

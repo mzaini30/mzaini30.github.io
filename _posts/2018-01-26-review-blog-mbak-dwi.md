@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Review Blog: Seberkas Cahaya: Blognya Mbak Dwi. Sejuk..."
 date: 2018-01-26 18:24:49
 category: artikel

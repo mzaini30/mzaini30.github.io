@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Membuat Aplikasi Android untuk Blog
 date: 2018-01-27 13:11:49
 category: pemrograman

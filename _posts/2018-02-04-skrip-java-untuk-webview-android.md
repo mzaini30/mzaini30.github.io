@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Skrip Java untuk Webview Android
 date: 2018-02-04 17:54:49
 category: pemrograman

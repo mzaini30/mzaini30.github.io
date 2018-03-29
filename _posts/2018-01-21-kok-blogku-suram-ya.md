@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Cahaya Cinta yang Bersinar dari Blog Ini.... :D
 date: 2018-01-21 23:27:49
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Kamu, Bersama Kisah yang Tak Lepas Darimu
 date: 2018-02-27 11:31:49
 category: puisi

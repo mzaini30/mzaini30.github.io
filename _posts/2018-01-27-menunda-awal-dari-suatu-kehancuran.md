@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Menunda... Awal dari Suatu Kehancuran
 date: 2018-01-27 06:05:49
 category: artikel

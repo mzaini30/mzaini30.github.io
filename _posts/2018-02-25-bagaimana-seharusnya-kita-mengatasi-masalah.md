@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Bagaimana Seharusnya Kita Mengatasi Masalah?
 date: 2018-02-25 17:42:49
 category: artikel

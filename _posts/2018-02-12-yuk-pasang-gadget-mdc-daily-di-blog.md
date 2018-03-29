@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Yuk Pasang MDC Daily di Blog
 date: 2018-02-12 01:38:49
 category: pemrograman

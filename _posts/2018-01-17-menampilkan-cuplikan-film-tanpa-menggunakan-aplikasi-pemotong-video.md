@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Bisa Loh Ternyata, Menampilkan Cuplikan Video Tanpa Menggunakan Aplikasi Pemotong Video"
 date: 2018-01-17 16:58:00
 category: pemrograman

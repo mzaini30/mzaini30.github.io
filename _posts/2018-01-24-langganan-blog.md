@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Langganan Blog
 date: 2018-01-24 16:58:49
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Kebijakan Privasi Aplikasi Android yang Saya Buat
 date: 2018-02-04 08:05:49
 category: artikel

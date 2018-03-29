@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Jangan Kebanyakan Bengong, Bro! Act Now!
 date: 2018-02-16 19:30:49
 category: artikel

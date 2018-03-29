@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Membuat Related Posts dan Related Posts Berdasarkan Kategori di Jekyll
 date: 2018-02-21 21:36:49
 category: pemrograman

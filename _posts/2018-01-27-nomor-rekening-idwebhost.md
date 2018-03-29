@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Nomor Rekening IDWebhost
 date: 2018-01-27 16:40:49
 category: list

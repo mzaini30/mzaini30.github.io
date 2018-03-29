@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "Passion: Penggerak Manusia. Hmm... Aneh"
 date: 2018-02-11 23:54:49
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Pekerjaan Rumah Itu Sebenarnya adalah Sarana Kita untuk Meningkatkan Diri. Mengapa Dikeluhkan?
 date: 2018-01-25 17:37:49
 category: artikel

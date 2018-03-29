@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Satu Juz Saja. Bisa Kan? :D
 date: 2018-01-23 12:35:49
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Berhenti Mengeluh dan Bergerak Maju :)
 date: 2018-01-24 14:18:49
 category: artikel

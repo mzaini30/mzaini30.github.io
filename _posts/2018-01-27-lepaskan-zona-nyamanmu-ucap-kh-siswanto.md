@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: "'Lepaskan Zona Nyamanmu!' ucap KH Siswanto"
 date: 2018-01-27 14:12:49
 category: artikel

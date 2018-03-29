@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 category: artikel
 title: Karena Kita adalah Orang-orang Terbaik
 date: 2018-03-28 16:57:00

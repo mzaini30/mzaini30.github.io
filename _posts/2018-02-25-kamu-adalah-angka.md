@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Kamu adalah Angka
 date: 2018-02-25 18:09:49
 category: puisi

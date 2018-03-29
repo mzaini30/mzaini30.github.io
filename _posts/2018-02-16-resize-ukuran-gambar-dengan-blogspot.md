@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Trik Resize Ukuran Gambar dengan Blogspot
 date: 2018-02-16 16:40:49
 category: pemrograman

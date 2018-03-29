@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Ciri-ciri ESFP
 date: 2018-03-28 14:57:00
 category: artikel

@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Maaf Ya, Lama Nggak Aktif Blognya...
 date: 2018-02-09 18:00:49
 category: artikel

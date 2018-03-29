@@ -1,5 +1,6 @@
 ---
 layout: post
+rss: ada
 title: Terima Kasih kepada Tulisan-tulisanku :)
 date: 2018-01-21 13:36:49
 category: artikel
