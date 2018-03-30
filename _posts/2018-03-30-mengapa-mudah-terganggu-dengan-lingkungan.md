@@ -12,3 +12,4 @@ Kalau menurut teori tentang konformitas, manusia itu sering kali bertindak karen
 
 Mengapa kita senantiasa konformitas? Bukankah itu membuat kita menjadi tidak fokus? Bukankah itu buruk?
 
+Kalau menurut teori psikologi evolusi, konformitas itu ada supaya kita bisa melindungi diri kita dari ancaman-ancaman yang mudah menyerang kita. Nah, ketika ada orang lain yang memberikan upaya perlindungan diri, maka kita pun akan secara otomatis memberikan upaya perlindungan diri pula. 
