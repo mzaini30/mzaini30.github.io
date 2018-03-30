@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengapa Mudah Terganggu dengan Lingkungan?
-# rss: ada
+rss: ada
 date: 2018-03-30 16:18:00
 category: artikel
 ---
