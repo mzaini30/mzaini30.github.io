@@ -95,7 +95,7 @@
 				
 				var disqus_config = function () {
 				this.page.url = '{{ site.url }}/{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-				this.page.identifier = '{{ page.title.size }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				// this.page.identifier = '{{ page.title.size }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 				
 				(function() { // DON'T EDIT BELOW THIS LINE
@@ -110,6 +110,7 @@
 				<!-- <p>
 					<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-danger" style="width: 100%;">Beri Komentar</a>
 				</p> -->
+				
 				<hr>
 				<p><strong>Tulisan lainnya</strong></p>
 				{% assign random = site.time | date: "%s" %}
