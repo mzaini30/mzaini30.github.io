@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Standard Javascript Menurut Google
-# rss: ada
+rss: ada
 date: 2018-03-30 18:42:00
 category: pemrograman
 ---
@@ -18,7 +18,7 @@ Nah, berdasarkan artikel tersebut, saya sudah membuat contoh sederhana:
 </head>
 <body>
 	<script type="text/javascript">
-		let panggil_nama = 'Zen' // gunakan let atau const sebagai pengganti var
+		let panggil_nama = `Zen` // gunakan let atau const sebagai pengganti var, juga menggunakan ` bukan '
 		say_hello = (nama) => { // pakai => untuk fungsi
 			return `halo ${nama}`; // pakai ` dan ${} bukan '
 		}
@@ -30,4 +30,6 @@ Nah, berdasarkan artikel tersebut, saya sudah membuat contoh sederhana:
 
 Hasilnya:
 
+```
+ halo Zen 
 ```
