@@ -22,6 +22,6 @@ Apakah melelahkan? Kalau iya, berarti bagus. Kita bergerak di dunia ini berarti 
 
 Apakah pengetahuan-pengetahuan baru ini hanya pada masalah duniawi?
 
-Tentu tidak. Justru saya melihat, pengusaha-pengusaha zaman sekarang ini adalah penggerak masyarakat dalam aksi yang bernilai ibadah, seperti sedekah Jumat, coaching yang berlandaskan pada keimanan, dan berbagai macam kegiatan lainnya. Seseorang yang, dalam tanda kutip, bergerak dibidang duniawi bukan berarti dia lepas dari kehidupan ukhrawi. Tidak seperti itu. Karena kehidupan akhirat adalah tanggung jawab kita masing-masing, bukan ditanggung oleh ayah kita maupun malaikat.
+Tentu tidak. Justru saya melihat, pengusaha-pengusaha zaman sekarang ini adalah penggerak masyarakat dalam aksi yang bernilai ibadah, seperti sedekah Jumat, _coaching_ yang berlandaskan pada keimanan, dan berbagai macam kegiatan lainnya. Seseorang yang, dalam tanda kutip, bergerak dibidang duniawi bukan berarti dia lepas dari kehidupan ukhrawi. Tidak seperti itu. Karena kehidupan akhirat adalah tanggung jawab kita masing-masing, bukan ditanggung oleh ayah kita maupun malaikat.
 
 Jadi, buka mata, bergeraklah.
