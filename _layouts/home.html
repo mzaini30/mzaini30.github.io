@@ -7,7 +7,6 @@
 	<title>{{ page.title }} - Zen - Developer Ninja</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<meta name="telegram:channel" content="@zensharing">
 	<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/bin/github.css">
 	<style type="text/css">
@@ -18,40 +17,6 @@
 		aside.gitter-chat-embed {
 			z-index: 9999;
 		}
-		table {
-		  width: 100%;
-		  max-width: 100%;
-		  margin-bottom: 20px;
-		}
-		table > thead > tr > th,
-		table > tbody > tr > th,
-		table > tfoot > tr > th,
-		table > thead > tr > td,
-		table > tbody > tr > td,
-		table > tfoot > tr > td {
-		  padding: 8px;
-		  line-height: 1.42857143;
-		  vertical-align: top;
-		  border-top: 1px solid #ddd;
-		}
-		table > thead > tr > th {
-		  vertical-align: bottom;
-		  border-bottom: 2px solid #ddd;
-		}
-		table > caption + thead > tr:first-child > th,
-		table > colgroup + thead > tr:first-child > th,
-		table > thead:first-child > tr:first-child > th,
-		table > caption + thead > tr:first-child > td,
-		table > colgroup + thead > tr:first-child > td,
-		table > thead:first-child > tr:first-child > td {
-		  border-top: 0;
-		}
-		table > tbody + tbody {
-		  border-top: 2px solid #ddd;
-		}
-		table table {
-		  background-color: #fff;
-		}
 		p {
 			text-align: justify;
 		}
@@ -60,12 +25,29 @@
 			margin: auto;
 			display: block;
 		}
-		pre code.language-teks {
-			font-family: inherit;
+
+		/* menyesuaikan tinggi berdasarkan lebar */
+
+		.box {
+		    width: 100%;
+		    overflow: hidden;
+		    position: relative;
 		}
-		.sticky {
-			margin-top: 70px;
+
+		.box:before {
+		    content: "";
+		    display: block;
+		    padding-top: 80%; /* persenan tinggi berdasarkan lebar */
 		}
+
+		.content {
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		}
+
 	</style>
 </head>
 <body>
@@ -84,9 +66,7 @@
 	<div class="container">
 		<h1 class="text-center telegram-title">{{ page.title }}</h1>
 		<hr>
-		<div class="telegram-body">
-			{{ content }}
-		</div>
+		{{ content }}
 		<div class="well">
 			<p>Dapatkan <em>update</em> dari blog Zen dengan mengklik media sosial di bawah ini!</p>
 			<p>
