@@ -87,6 +87,9 @@
 		<div class="row stick-parent">
 			<div class="col-sm-8 main">
 				<div class="telegram-body">
+					<p>
+						<img src="{{ page.gambar }}">
+					</p>
 					{{ content }}
 				</div>
 				<div class="well">
@@ -132,12 +135,21 @@
 				{% assign random = site.time | date: "%s" %}
 				{% assign acak_judul = page.title.size %}
 				{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-				{% for i in (1..10) %}
-					{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
-					<div class="postingan-selanjutnya">
-						<p>{{ site.posts[postingan_selanjutnya].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya].url }}">Baca selengkapnya</a></p>
-					</div>
-				{% endfor %}
+				<div class="row">
+					{% for i in (1..12) %}
+						{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
+						<div class="col-sm-3 col-xs-6">
+							<a href="{{ site.posts[postingan_selanjutnya].url }}">
+								<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
+								<div class="cover-parent">
+									<div class="dummy"></div>
+									<div style="background-image: url('{{ site.posts[postingan_selanjutnya].gambar }}');" class="cover"></div>
+								</div>
+								<p class="judul">{{ site.posts[postingan_selanjutnya].title }}</p>
+							</a>
+						</div>
+					{% endfor %}
+				</div>
 			</div>
 			<div class="col-sm-4 sidebar">
 				<p><strong>Stay Connected</strong></p>
