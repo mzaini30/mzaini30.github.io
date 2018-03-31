@@ -5,7 +5,7 @@ title: Membuat Aplikasi Android untuk Blog
 date: 2018-01-27 13:11:49
 category: pemrograman
 tags: [blogging, android, aplikasi, app, apk]
-gambar: https://78.media.tumblr.com/tumblr_m50z22PoSc1rxq4udo1_500.gif
+gambar: http://4.bp.blogspot.com/-QHBKMd0Pdzc/UvNTVx_LhmI/AAAAAAAAAOY/FAlHmYjBy9U/s1600/google-smartwatch-concept-4-490x391.jpg
 ---
 
 Hello... kawan semua... Ketemu lagi dengan saya ya :D Nah, kali ini saya akan memberikan tips tentang bagaimana caranya membuat aplikasi android untuk blog yang kita miliki. Langsung aja lah :D
