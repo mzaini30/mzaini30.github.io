@@ -60,11 +60,45 @@
 			margin: auto;
 			display: block;
 		}
+		.cover {
+			background-position: center;
+			background-size: cover;
+		}
 		pre code.language-teks {
 			font-family: inherit;
 		}
-		.sticky {
-			margin-top: 70px;
+
+		/* crop square */
+
+		.cover-parent {
+		  display: inline-block;
+		  position: relative;
+		  width: 100%;
+		}
+
+		.dummy {
+		  margin-top: 100%;
+		  /* 4:3 aspect ratio */
+		}
+
+		.cover {
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  border-radius: 5px;
+		  -webkit-border-radius: 5px;
+		  -moz-border-radius: 5px;
+		  -ms-border-radius: 5px;
+		  -o-border-radius: 5px;
+		}
+
+		/* judul */
+
+		.judul {
+			height: 60px;
+			overflow: hidden;
 		}
 	</style>
 </head>
