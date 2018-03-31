@@ -3,7 +3,7 @@ layout: post
 rss: ada
 title: "Cheat Project Euler"
 date: 2017-07-19 11:34:46
-# gambar: 
+gambar: https://pre00.deviantart.net/100c/th/pre/f/2013/039/e/3/underground_by_yuumei-d5u8kk2.jpg
 category: pemrograman
 tags: [cheat, python]
 ---
