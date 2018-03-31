@@ -6,6 +6,10 @@ permalink: /:year/:month/:day/:title.html
 title: Zen
 description: Psikologi
 
+# gambar default
+
+# gambar: 
+
 # penghargaan
 
 penghargaan:
