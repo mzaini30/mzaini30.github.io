@@ -118,42 +118,5 @@
 		{% endfor %}
 	</div>
 	<div style="width: 100%; height: 42px;"></div>
-	<script type="text/javascript">
-		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
-	</script>
-	<script type="text/javascript">
-
-		// pre untuk puisi (language-teks)
-
-		$('pre:has(.language-teks)').css({
-			'word-break': 'normal',
-			'font-size': 'inherit',
-			'font-family': 'inherit',
-			'border': 'none',
-			'background': 'none'
-		});
-
-		// main kategori
-
-		$('.tampilkan-semua').click(function(){
-			$('.kategori').show();
-		});
-		$('.sembunyikan-semua').click(function(){
-			$('.kategori').hide();
-		});
-		$('.menuju-kategori').click(function(){
-			$('.kategori').hide();
-		});
-		$('.kategori').hide();
-		{% if page.category %}
-			$('.kategori-{{ page.category }}').show();
-		{% endif %}
-		{% for kategori in sort_kategori %}		
-			$('.menuju-kategori-{{ kategori | first }}').click(function(){
-				$('.kategori-{{ kategori | first }}').show();
-			});
-		{% endfor %}
-
-	</script>
 </body>
 </html>
