@@ -1,0 +1,179 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }} - Zen - Developer Ninja</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name="telegram:channel" content="@zensharing">
+	<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/bin/github.css">
+	<style type="text/css">
+		* {
+			word-wrap: break-word;
+			direction: all;
+		}
+		aside.gitter-chat-embed {
+			z-index: 9999;
+		}
+		table {
+		  width: 100%;
+		  max-width: 100%;
+		  margin-bottom: 20px;
+		}
+		table > thead > tr > th,
+		table > tbody > tr > th,
+		table > tfoot > tr > th,
+		table > thead > tr > td,
+		table > tbody > tr > td,
+		table > tfoot > tr > td {
+		  padding: 8px;
+		  line-height: 1.42857143;
+		  vertical-align: top;
+		  border-top: 1px solid #ddd;
+		}
+		table > thead > tr > th {
+		  vertical-align: bottom;
+		  border-bottom: 2px solid #ddd;
+		}
+		table > caption + thead > tr:first-child > th,
+		table > colgroup + thead > tr:first-child > th,
+		table > thead:first-child > tr:first-child > th,
+		table > caption + thead > tr:first-child > td,
+		table > colgroup + thead > tr:first-child > td,
+		table > thead:first-child > tr:first-child > td {
+		  border-top: 0;
+		}
+		table > tbody + tbody {
+		  border-top: 2px solid #ddd;
+		}
+		table table {
+		  background-color: #fff;
+		}
+		p {
+			text-align: justify;
+		}
+		img {
+			max-width: 100%;
+			margin: auto;
+			display: block;
+		}
+		pre code.language-teks {
+			font-family: inherit;
+		}
+		.sticky {
+			margin-top: 70px;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- logo situs -->
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<a class="navbar-brand" href="/">Zen - Developer Ninja</a>
+		<a class="btn btn-default navbar-btn" href="/blog">Blog</a>
+	</nav>
+
+	<div class="section" style="height: 70px; width: 100%;"></div>
+
+	<!-- isi -->
+
+	<div class="container">
+		<h1 class="text-center telegram-title">{{ page.title }}</h1>
+		<hr>
+		<div class="telegram-body">
+			{{ content }}
+		</div>
+		<div class="well">
+			<p>Dapatkan <em>update</em> dari blog Zen dengan mengklik media sosial di bawah ini!</p>
+			<p>
+				<a href="http://facebook.com/mzaini30" class="btn btn-primary" style="background: #4267b2; color: white;">Facebook</a>
+				<a href="http://t.me/zensharing" class="btn btn-primary" style="background: #0088cc; color: white;">Telegram</a>
+			</p>
+		</div>
+		<script>
+		    ((window.gitter = {}).chat = {}).options = {
+		        room: 'zen30/Lobby'
+		    };
+		</script>
+		<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+		<div id="disqus_thread"></div>
+		<script>
+
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		
+		var disqus_config = function () {
+		this.page.url = '{{ site.url }}/{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+		// this.page.identifier = '{{ page.title.size }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://zen-4.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		                            
+		<!-- <p>
+			<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-danger" style="width: 100%;">Beri Komentar</a>
+		</p> -->
+
+		<hr>
+		<p><strong>Tulisan lainnya</strong></p>
+		{% assign random = site.time | date: "%s" %}
+		{% assign acak_judul = page.title.size %}
+		{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+		{% for i in (1..10) %}
+			{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
+			<div class="postingan-selanjutnya">
+				<p>{{ site.posts[postingan_selanjutnya].content | strip_html | truncatewords: 60 }} <a href="{{ site.posts[postingan_selanjutnya].url }}">Baca selengkapnya</a></p>
+			</div>
+		{% endfor %}
+	</div>
+	<div style="width: 100%; height: 42px;"></div>
+	<script type="text/javascript">
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
+	</script>
+	<script type="text/javascript">
+
+		// pre untuk puisi (language-teks)
+
+		$('pre:has(.language-teks)').css({
+			'word-break': 'normal',
+			'font-size': 'inherit',
+			'font-family': 'inherit',
+			'border': 'none',
+			'background': 'none'
+		});
+
+		// main kategori
+
+		$('.tampilkan-semua').click(function(){
+			$('.kategori').show();
+		});
+		$('.sembunyikan-semua').click(function(){
+			$('.kategori').hide();
+		});
+		$('.menuju-kategori').click(function(){
+			$('.kategori').hide();
+		});
+		$('.kategori').hide();
+		{% if page.category %}
+			$('.kategori-{{ page.category }}').show();
+		{% endif %}
+		{% for kategori in sort_kategori %}		
+			$('.menuju-kategori-{{ kategori | first }}').click(function(){
+				$('.kategori-{{ kategori | first }}').show();
+			});
+		{% endfor %}
+
+	</script>
+</body>
+</html>
