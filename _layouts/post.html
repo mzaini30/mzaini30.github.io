@@ -141,114 +141,118 @@
 		<hr>
 		<div class="row">
 			<div class="col-sm-8 content">
-				<div class="telegram-body">
-					<p>
-						<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
-					</p>
-					<p class=""></p>
-					{{ content }}
-				</div>
-				<div class="well">
-					<p>Dapatkan <em>update</em> dari blog Zen dengan mengklik media sosial di bawah ini!</p>
-					<p>
-						<a href="http://facebook.com/mzaini30" class="btn btn-primary" style="background: #4267b2; color: white;">Facebook</a>
-						<a href="http://t.me/zensharing" class="btn btn-primary" style="background: #0088cc; color: white;">Telegram</a>
-					</p>
-				</div>
-				<script>
-				    ((window.gitter = {}).chat = {}).options = {
-				        room: 'zen30/Lobby'
-				    };
-				</script>
-				<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-				<div id="disqus_thread"></div>
-				<script>
+				<div class="theiaStickySidebar">
+					<div class="telegram-body">
+						<p>
+							<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
+						</p>
+						<p class=""></p>
+						{{ content }}
+					</div>
+					<div class="well">
+						<p>Dapatkan <em>update</em> dari blog Zen dengan mengklik media sosial di bawah ini!</p>
+						<p>
+							<a href="http://facebook.com/mzaini30" class="btn btn-primary" style="background: #4267b2; color: white;">Facebook</a>
+							<a href="http://t.me/zensharing" class="btn btn-primary" style="background: #0088cc; color: white;">Telegram</a>
+						</p>
+					</div>
+					<script>
+					    ((window.gitter = {}).chat = {}).options = {
+					        room: 'zen30/Lobby'
+					    };
+					</script>
+					<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+					<div id="disqus_thread"></div>
+					<script>
 
-				/**
-				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-				
-				var disqus_config = function () {
-				this.page.url = '{{ site.url }}/{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-				// this.page.identifier = '{{ page.title.size }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-				};
-				
-				(function() { // DON'T EDIT BELOW THIS LINE
-				var d = document, s = d.createElement('script');
-				s.src = 'https://zen-4.disqus.com/embed.js';
-				s.setAttribute('data-timestamp', +new Date());
-				(d.head || d.body).appendChild(s);
-				})();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				                            
-				<!-- <p>
-					<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-danger" style="width: 100%;">Beri Komentar</a>
-				</p> -->
+					/**
+					*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+					*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+					
+					var disqus_config = function () {
+					this.page.url = '{{ site.url }}/{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+					// this.page.identifier = '{{ page.title.size }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					};
+					
+					(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://zen-4.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+					})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					                            
+					<!-- <p>
+						<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-danger" style="width: 100%;">Beri Komentar</a>
+					</p> -->
 
-				<hr>
-				<p><strong>Tulisan lainnya</strong></p>
-				{% assign random = site.time | date: "%s" %}
-				{% assign acak_judul = page.title.size %}
-				{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-				<div class="row">
-					{% for i in (1..12) %}
-						{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
-						<div class="col-sm-4 col-xs-6">
-							<a href="{{ site.posts[postingan_selanjutnya].url }}">
-								<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
-								<div class="cover-parent">
-									<div class="dummy"></div>
-									<div style="background-image: url('{% if site.posts[postingan_selanjutnya].gambar %}{{ site.posts[postingan_selanjutnya].gambar }}{% else %}{{ site.gambar }}{% endif %}');" class="cover"></div>
-								</div>
-								<p class="judul">{{ site.posts[postingan_selanjutnya].title }}</p>
-							</a>
-						</div>
-					{% endfor %}
+					<hr>
+					<p><strong>Tulisan lainnya</strong></p>
+					{% assign random = site.time | date: "%s" %}
+					{% assign acak_judul = page.title.size %}
+					{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+					<div class="row">
+						{% for i in (1..12) %}
+							{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
+							<div class="col-sm-4 col-xs-6">
+								<a href="{{ site.posts[postingan_selanjutnya].url }}">
+									<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
+									<div class="cover-parent">
+										<div class="dummy"></div>
+										<div style="background-image: url('{% if site.posts[postingan_selanjutnya].gambar %}{{ site.posts[postingan_selanjutnya].gambar }}{% else %}{{ site.gambar }}{% endif %}');" class="cover"></div>
+									</div>
+									<p class="judul">{{ site.posts[postingan_selanjutnya].title }}</p>
+								</a>
+							</div>
+						{% endfor %}
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-4 sidebar">
-				<p><strong>Stay Connected</strong></p>
-				<ul>
-					<li>
-						<a href="http://facebook.com/mzaini30">Facebook</a>
-					</li>
-					<li>
-						<a href="http://t.me/zensharing">Telegram</a>
-					</li>
-				</ul>
-				<p><strong>Edit</strong></p>
-				<ul>
-					<li>
-						<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);">Linux</a>
-					</li>
-					<li>
-						<a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}">Github</a>
-					</li>
-				</ul>
-				<p><strong>Kategori</strong></p>
-				<ul>
-					<li>
-						<em><a href="#!" class="tampilkan-semua">Tampilkan Semua</a></em>
-					</li>
-					{% assign sort_kategori = site.categories | sort %}
-					{% for kategori in sort_kategori %}
+				<div class="theiaStickySidebar">
+					<p><strong>Stay Connected</strong></p>
+					<ul>
 						<li>
-							<a href="#!" class="menuju-kategori menuju-kategori-{{ kategori | first }}">{{ kategori | first | capitalize }}</a>
+							<a href="http://facebook.com/mzaini30">Facebook</a>
 						</li>
-					{% endfor %}
-					<li>
-						<em><a href="#!" class="sembunyikan-semua">Sembunyikan Semua</a></em>
-					</li>
-				</ul>
-				<p><strong>Tulisan Lainnya</strong></p>
-				<ul>
-					{% for post in site.posts %}
-						<li{% if post.category %} class="kategori kategori-{{ post.category }}"{% endif %}>
-							<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
+						<li>
+							<a href="http://t.me/zensharing">Telegram</a>
 						</li>
-					{% endfor %}
-				</ul>
+					</ul>
+					<p><strong>Edit</strong></p>
+					<ul>
+						<li>
+							<a href="javascript:prompt('Skrip untuk mengedit tulisan: ','subl \'{{ site.lokasi }}/{{ page.path }}\'');void(0);">Linux</a>
+						</li>
+						<li>
+							<a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}">Github</a>
+						</li>
+					</ul>
+					<p><strong>Kategori</strong></p>
+					<ul>
+						<li>
+							<em><a href="#!" class="tampilkan-semua">Tampilkan Semua</a></em>
+						</li>
+						{% assign sort_kategori = site.categories | sort %}
+						{% for kategori in sort_kategori %}
+							<li>
+								<a href="#!" class="menuju-kategori menuju-kategori-{{ kategori | first }}">{{ kategori | first | capitalize }}</a>
+							</li>
+						{% endfor %}
+						<li>
+							<em><a href="#!" class="sembunyikan-semua">Sembunyikan Semua</a></em>
+						</li>
+					</ul>
+					<p><strong>Tulisan Lainnya</strong></p>
+					<ul>
+						{% for post in site.posts %}
+							<li{% if post.category %} class="kategori kategori-{{ post.category }}"{% endif %}>
+								<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
