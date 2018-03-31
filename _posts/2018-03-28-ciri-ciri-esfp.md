@@ -4,6 +4,7 @@ rss: ada
 title: Ciri-ciri ESFP
 date: 2018-03-28 14:57:00
 category: artikel
+gambar: https://pre00.deviantart.net/7fff/th/pre/f/2014/002/3/1/310da70291a21226c3374d3a1bfc348f-d70izur.jpg
 ---
 
 _Dari situs: [Pribadinesia](http://www.pribadinesia.com/2016/07/tipe-kepribadian-esfp.html)_
