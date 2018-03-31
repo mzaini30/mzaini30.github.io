@@ -4,6 +4,7 @@ title: Manfaatkan Waktu yang Ada
 rss: ada
 category: artikel
 date: 2018-03-31 15:48:00
+gambar: 
 ---
 
 Seringkali kesempatan hadir di hadapan kita. Lalu, apa yang harus kita lakukan? Apakah kita hanya menonton saja atau meraihnya dan berusaha memanfaatkannya sebaik mungkin?
