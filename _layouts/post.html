@@ -143,7 +143,7 @@
 			<div class="col-sm-8 main">
 				<div class="telegram-body">
 					<p>
-						<img src="{{ page.gambar }}">
+						<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
 					</p>
 					{{ content }}
 				</div>

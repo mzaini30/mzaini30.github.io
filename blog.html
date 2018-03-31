@@ -12,7 +12,7 @@ category: pemrograman
 				<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
 				<div class="cover-parent">
 					<div class="dummy"></div>
-					<div style="background-image: url('{{ post.gambar }}');" class="cover"></div>
+					<div style="background-image: url('{% if post.gambar %}{{ post.gambar }}{% else %}{{ site.gambar }}{% endif %}');" class="cover"></div>
 				</div>
 				<p class="judul">{{ post.title }}</p>
 			</a>
