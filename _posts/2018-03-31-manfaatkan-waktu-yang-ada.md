@@ -4,7 +4,7 @@ title: Manfaatkan Waktu yang Ada
 rss: ada
 category: artikel
 date: 2018-03-31 15:48:00
-gambar: 
+gambar: https://orig00.deviantart.net/4c17/f/2016/154/2/6/timekeeper_mod_android_version_for_xwidget_by_jimking-da4ud85.jpg
 ---
 
 Seringkali kesempatan hadir di hadapan kita. Lalu, apa yang harus kita lakukan? Apakah kita hanya menonton saja atau meraihnya dan berusaha memanfaatkannya sebaik mungkin?
