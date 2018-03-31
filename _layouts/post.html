@@ -140,7 +140,7 @@
 		<h1 class="text-center telegram-title">{{ page.title }}</h1>
 		<hr>
 		<div class="row">
-			<div class="col-sm-8">
+			<div class="col-sm-8 content">
 				<div class="telegram-body">
 					<p>
 						<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
@@ -207,7 +207,7 @@
 					{% endfor %}
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 sidebar">
 				<p><strong>Stay Connected</strong></p>
 				<ul>
 					<li>
@@ -255,6 +255,16 @@
 	<div style="width: 100%; height: 42px;"></div>
 	<script type="text/javascript">
 		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/jquery.min.js?'+Math.random()+'\"></scr'+'ipt>');
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/ResizeSensor.min.js?'+Math.random()+'\"></scr'+'ipt>');
+		document.writeln('<scr'+'ipt type=\"text/javascript\" src=\"/bin/theia-sticky-sidebar.min.js?'+Math.random()+'\"></scr'+'ipt>');
+	</script>
+	<script type="text/javascript">
+	  jQuery(document).ready(function() {
+	    jQuery('.content, .sidebar').theiaStickySidebar({
+	      // Settings
+	      // additionalMarginTop: 30
+	    });
+	  });
 	</script>
 	<script type="text/javascript">
 
