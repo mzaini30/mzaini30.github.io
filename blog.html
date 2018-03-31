@@ -9,7 +9,10 @@ category: pemrograman
 	{% for post in site.posts | limit: 24 %}
 		<div class="col-sm-3 col-xs-6">
 			<a href="{{ post.url }}">
-				<div style="background-image: url('{{ post.gambar }}');" class="cover"></div>
+				<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
+				<div class="cover-parent">
+					<div style="background-image: url('{{ post.gambar }}');" class="cover"></div>
+				</div>
 				<div class="block-with-text">
 					<p>{{ post.title }}</p>
 				</div>
