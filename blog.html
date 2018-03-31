@@ -9,11 +9,7 @@ category: pemrograman
 	{% for post in site.posts | limit: 24 %}
 		<div class="col-sm-3 col-xs-6">
 			<a href="{{ post.url }}">
-				<div class="box">
-					<div class="content">
-						<img src="{{ post.gambar }}">
-					</div>
-				</div>
+				<img class="crop" src="{{ post.gambar }}">
 				<div class="block-with-text">
 					<p>{{ post.title }}</p>
 				</div>
