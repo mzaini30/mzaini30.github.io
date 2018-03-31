@@ -8,14 +8,15 @@ category: pemrograman
 <div class="row">
 	{% for post in site.posts | limit: 24 %}
 		<div class="col-sm-3 col-xs-6">
+			<a href="{{ post.url }}">
 			<div class="box">
 				<div class="content">
-					<a href="{{ post.url }}">
 						<img src="{{ post.gambar }}">
-						<p>{{ post.title }}</p>
-					</a>
+
 				</div>
 			</div>
+						<p>{{ post.title }}</p>
+					</a>
 		</div>
 	{% endfor %}
 </div>
