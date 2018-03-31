@@ -3,8 +3,8 @@ layout: post
 rss: ada
 title: "Aku Selalu Bertanya \"Mengapa\""
 date: 2017-08-10 09:58:35
-# gambar: 
-category: artikel
+gambar: https://img00.deviantart.net/c65a/i/2013/031/f/d/cry__tears_by_kiwa007-d5rtb2y.png
+category: cerpen
 tags: [cerita, cerpen, story]
 ---
 
