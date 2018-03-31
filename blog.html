@@ -7,11 +7,11 @@ category: pemrograman
 
 <div class="row">
 	{% for post in site.posts | limit: 24 %}
-	<div class="col-sm-3 col-xs-6">
-		<a href="{{ post.url }}">
-			<img src="{{ post.gambar }}">
-			<p>Hello</p>
-		</a>
-	</div>
+		<div class="col-sm-3 col-xs-6">
+			<a href="{{ post.url }}">
+				<img src="{{ post.gambar }}">
+				<p>{{ post.title }}</p>
+			</a>
+		</div>
 	{% endfor %}
 </div>
