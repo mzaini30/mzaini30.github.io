@@ -198,7 +198,7 @@
 								<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
 								<div class="cover-parent">
 									<div class="dummy"></div>
-									<div style="background-image: url('{{ site.posts[postingan_selanjutnya].gambar }}');" class="cover"></div>
+									<div style="background-image: url('{% if site.posts[postingan_selanjutnya].gambar %}{{ site.posts[postingan_selanjutnya].gambar }}{% else %}{{ site.gambar }}{% endif %}');" class="cover"></div>
 								</div>
 								<p class="judul">{{ site.posts[postingan_selanjutnya].title }}</p>
 							</a>
