@@ -126,7 +126,7 @@
 			{% for i in (1..12) %}
 				{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
 				<div class="col-sm-3 col-xs-6">
-					<a href="{{ post.url }}">
+					<a href="{{ site.posts[postingan_selanjutnya].url }}">
 						<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
 						<div class="cover-parent">
 							<div class="dummy"></div>
