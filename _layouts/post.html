@@ -1,4 +1,5 @@
 ---
+layout: compress
 ---
 
 <!DOCTYPE html>
@@ -327,10 +328,12 @@
 					</ul>
 					<p><strong>Blogwalking</strong></p>
 					<ul>
-						{% assign blogwalking = site.blogwalking | sort: ''}
-						<li>
-							<a href="#">judul</a>
-						</li>
+						{% assign blogwalking = site.blogwalking | sort: 'judul' %}
+						{% for bw in blogwalking %}
+							<li>
+								<a href="{{ bw.link }}">{{ bw.judul }}</a>
+							</li>
+						{% endfor %}
 					</ul>
 					<p><strong>Kategori</strong></p>
 					<ul>
