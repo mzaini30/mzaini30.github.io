@@ -3,7 +3,7 @@ layout: post
 rss: ada
 title: Umbul Manten Kolam Alami Jernih di Klaten, Harga Tiket Masuk + Peta Lokasi
 date: 2018-01-27 06:59:49
-category: artikel
+category: sponsored post
 tags: [sponsored post, wisata]
 gambar: https://iklantravel.com/wp-content/uploads/2017/07/umbul-manten.jpg
 ---

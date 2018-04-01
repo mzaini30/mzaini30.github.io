@@ -4,7 +4,7 @@ rss: ada
 title: "Ekspansi Jaringan 4G Operator Telekomunikasi Seluler di Indonesia"
 date: 2017-07-18 17:34:11
 gambar: "http://www.akibanation.com/wp-content/uploads/2016/06/Capt.Ilustrasi-Smartphone-Jepang-Dalam-Dunia-Anime.jpg"
-category: artikel
+category: sponsored post
 tags: [internet, sponsored post]
 ---
 
