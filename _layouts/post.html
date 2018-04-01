@@ -22,7 +22,7 @@
 	{% else %}
 	  <meta content="website" property="og:type">
 	{% endif %}
-	{% if page.description %}
+	{% if page.date %}
 	  <meta content="{{ page.content | strip_html | truncatewords: 60 | replace: '\'', '' | replace: '"', '' }}" property="og:description">
 	{% else %}
 	  <meta content="{{ site.description }}" property="og:description">
