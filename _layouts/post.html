@@ -359,10 +359,14 @@
 	</script>
 	<script type="text/javascript">
 	  jQuery(document).ready(function() {
-	    jQuery('.content, .sidebar').theiaStickySidebar({
+	    jQuery('.sidebar').theiaStickySidebar({
 	      // Settings
 	      additionalMarginTop: 70,
 	      additionalMarginBottom: 42
+	    });
+	    jQuery('.content').theiaStickySidebar({
+	      // Settings
+	      additionalMarginTop: 70
 	    });
 	  });
 	</script>
