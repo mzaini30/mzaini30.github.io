@@ -9,6 +9,23 @@ description: Psikologi
 # iklan
 
 harga_iklan: '1.000'
+slot_iklan:
+  -
+    berlaku_hingga: ''
+    link: ''
+    gambar: ''
+  -
+    berlaku_hingga: ''
+    link: ''
+    gambar: ''
+  -
+    berlaku_hingga: ''
+    link: ''
+    gambar: ''
+  -
+    berlaku_hingga: ''
+    link: ''
+    gambar: ''
 
 # gambar default
 
