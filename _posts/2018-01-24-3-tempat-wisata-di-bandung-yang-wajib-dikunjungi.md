@@ -3,9 +3,9 @@ layout: post
 rss: ada
 title: 3 Tempat Wisata di Bandung yang Wajib Dikunjungi
 date: 2018-01-25 00:05:49
-category: artikel
+category: sponsored post
 tags: [sponsored post, bandung, wisata]
-gambar: 
+# gambar: 
 ---
 
 Bandung adalah salah satu destinasi wisata yang menarik untuk dikunjungi, baik beramai-ramai maupun bersama pasangan. Bukan hanya kaya dengan objek wisata alam, Bandung juga memiliki banyak objek wisata sejarah, edukasi, maupun romantis. Oleh karena itu, tidak ada salahnya Anda menjadikan Bandung sebagai tujuan piknik pada saat akhir pekan maupun liburan panjang.
