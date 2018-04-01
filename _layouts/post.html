@@ -146,7 +146,9 @@
 						<p>
 							<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
 						</p>
-						<p class=""></p>
+						<p class="text-center">
+							<a href="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">Sumber gambar</a>
+						</p>
 						{{ content }}
 					</div>
 					<div class="well">
