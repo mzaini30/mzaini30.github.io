@@ -6,6 +6,10 @@ permalink: /:year/:month/:day/:title.html
 title: Zen
 description: Psikologi
 
+# iklan
+
+harga_iklan: '1.000'
+
 # gambar default
 
 gambar: https://img00.deviantart.net/e121/i/2017/198/c/2/fate_apocrypha_hd_wallpaper_by_tammypain-dbgp3hz.png
