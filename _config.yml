@@ -12,20 +12,20 @@ harga_iklan: '1.000'
 slot_iklan:
   -
     berlaku_hingga: ''
-    link: ''
-    gambar: ''
+    link: 'http://muhammadzaini.com/2018/01/23/kerja-sama.html'
+    gambar: 'https://s25.postimg.org/qxxoz423z/slot_iklan_2.png'
   -
     berlaku_hingga: ''
-    link: ''
-    gambar: ''
+    link: 'http://muhammadzaini.com/2018/01/23/kerja-sama.html'
+    gambar: 'https://s25.postimg.org/qxxoz423z/slot_iklan_2.png'
   -
     berlaku_hingga: ''
-    link: ''
-    gambar: ''
+    link: 'http://muhammadzaini.com/2018/01/23/kerja-sama.html'
+    gambar: 'https://s25.postimg.org/qxxoz423z/slot_iklan_2.png'
   -
-    berlaku_hingga: ''
-    link: ''
-    gambar: ''
+    berlaku_hingga: 'Sun Apr 08 2018 09:32:58 GMT+0000 (UTC)' # Minggu, 8 April 2018
+    link: 'http://muhammadzaini.com/2018/01/23/kerja-sama.html'
+    gambar: 'https://s25.postimg.org/qxxoz423z/slot_iklan_2.png'
 
 # gambar default
 
