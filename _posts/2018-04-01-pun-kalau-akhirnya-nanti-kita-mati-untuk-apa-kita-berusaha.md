@@ -3,8 +3,8 @@ layout: post
 title: Pun, Kalau Akhirnya Nanti Juga Kita Mati, Terus, Buat Apa Kita Berusaha?
 category: artikel
 date: 2018-04-01 20:52:00
-# gambar: 
-# rss: ada
+gambar: https://img00.deviantart.net/33d7/i/2016/319/8/f/come_to_life_by_kevron2001-daoj0ve.jpg
+rss: ada
 ---
 
 Persoalan antara kehidupan dan kematian ini adalah persoalan yang sangat menegangkan bagi pikiran kita. Mengapa? Tentu saja karena kita semua sadar bahwa nantinya kita akan berjumpa dengan yang namanya kematian. Nah, terus buat apa kita berusaha? Bukankah semua yang kita lakukan selama ini akan sia-sia? Toh, semuanya juga akan ditinggal. Usaha akan ditinggal, harta kekayaan akan ditinggal, keluarga akan ditinggal, rumah-rumah yang banyak akan ditinggal, kendaraan yang kita sayangi akan ditinggal, data _bitcoin_ yang sangat melimpah itu akan kita tinggal, segala buku yang kita sayangi akan ditinggal, pakaian-pakaian indah kita akan ditinggal, toko yang selalu menghasilkan uang buat kita akan ditinggal, sepeda berwarna-warni yang mengisi masa kecil kita akan ditinggal, kemampuan kita dalam _front end_ dan _back end_ akan ditinggal, jabatan kita yang selalu kita banggakan akan ditinggal, segala lelucon kita yang menyenangkan hati setiap orang akan ditinggal, masa lalu kita akan ditinggal, sekian banyak koleksi video kita di Youtube akan ditinggal, segala hal di dunia ini akan kita tinggal. Lalu, apa yang kita bawa?
