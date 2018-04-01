@@ -31,6 +31,28 @@ slot_iklan:
 
 gambar: https://img00.deviantart.net/e121/i/2017/198/c/2/fate_apocrypha_hd_wallpaper_by_tammypain-dbgp3hz.png
 
+# blogwalking
+
+blogwalking:
+  -
+    judul: Dewie Dean
+    link: http://dewieajaa.blogspot.co.id/
+  -
+    judul: Heni Puspita
+    link: http://www.henipuspita.net/
+  -
+    judul: Japanese Station
+    link: https://japanesestation.com/
+  -
+    judul: My Satnite
+    link: https://www.mysatnite.com/
+  -
+    judul: Syufia
+    link: http://syufiayaumma.blogspot.co.id/
+  -
+    judul: Kompi Teknologi Indonesia
+    link: http://www.kompitech.me/
+
 # penghargaan
 
 penghargaan:
