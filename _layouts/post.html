@@ -187,6 +187,11 @@ layout: compress
 	<!-- isi -->
 
 	<div class="container">
+
+		<!-- pengumuman -->
+
+		{% if site.pengumuman %}<div class="alert alert-{{ site.pengumuman.jenis }}" role='alert'>{{ site.pengumuman.isi }}</div>{% endif %}
+
 		<h1 class="text-center telegram-title">{{ page.title }}</h1>
 		<hr>
 		<div class="row">
