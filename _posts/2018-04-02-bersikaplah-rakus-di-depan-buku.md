@@ -8,3 +8,10 @@ gambar: https://orig00.deviantart.net/a23e/f/2011/108/e/0/grimoire_book_by_sally
 ---
 
 Apa benda yang paling luar biasa di dunia ini? Yap, itu adalah buku.
+
+Mengapa buku?
+
+Buku itu multifungsi ya. Berikut ini beberpa fungsi buku menurutku:
+
+- Sumber pengetahuan
+- 
