@@ -6,6 +6,10 @@ permalink: /:year/:month/:day/:title.html
 title: Zen
 description: Psikologi
 
+# pengumuman
+
+pengumuman: Tes
+
 # iklan
 
 harga_iklan: '1.257'
