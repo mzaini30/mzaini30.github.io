@@ -10,7 +10,7 @@ description: Psikologi
 
 pengumuman:
   isi: Tes
-  jenis: info # primary, info, success, warning, danger
+  jenis: danger # primary, info, success, warning, danger
 
 # iklan
 
