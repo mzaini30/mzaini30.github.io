@@ -77,7 +77,7 @@ layout: compress
 
 		<!-- pengumuman -->
 
-		<div class="alert alert-success" role='alert'></div>
+		{% if site.pengumuman %}<div class="alert alert-success" role='alert'>{{ site.pengumuman }}</div>{% endif %}
 
 		<!-- about me -->
 
