@@ -8,9 +8,9 @@ description: Psikologi
 
 # pengumuman
 
-pengumuman:
-  isi: Tes
-  jenis: danger # info, success, warning, danger
+# pengumuman:
+#   isi: Tes
+#   jenis: danger # info, success, warning, danger
 
 # iklan
 
