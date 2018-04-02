@@ -314,14 +314,14 @@ layout: compress
 					</script>
 					<script type="text/javascript">
 						sekarang = new Date();
+						let link_pasang_iklan = '';
+						if ($(window).width() > 768){
+							link_pasang_iklan = `Silahkan mengirim pesan (sms/wa) ke 0815 4514 3654 dengan format: `;
+						}
 						$('[data-habis]').each(function(){
 							if (new Date($(this).attr('data-habis')) < sekarang){
 								$(this).find('img').attr('src', 'https://s25.postimg.org/qxxoz423z/slot_iklan_2.png');
 								$(this).find('a').attr('href', 'https://api.whatsapp.com/send?phone=6281545143654&text=Assalamualaikum%20Kak%20Zen.%20Saya%20ingin%20memasang%20iklan%20di%20blog%20Kak%20Zen');
-								if ($(window).width() > 768){
-									teks = `Silahkan kirim pesan ke 0815 4514 3654 (sms/wa) dengan format: Assalamualaikum Kak Zen. Saya ingin memasang iklan di blog Kak Zen`;
-									$(this).find('a').attr('href', `javascript:alert('${teks}')`);
-								}
 							}
 						});
 					</script>
