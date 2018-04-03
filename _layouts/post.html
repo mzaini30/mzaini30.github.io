@@ -171,6 +171,12 @@ layout: compress
 			}
 		}
 
+		/*sembunyi*/
+
+		.sembunyi {
+			display: none;
+		}
+
 	</style>
 </head>
 <body>
@@ -355,6 +361,11 @@ layout: compress
 							{% endif %}
 						{% endfor %}
 					</ul>
+					<script type="text/javascript">
+						if ($('ul.belum-dishare').html() == ' '){
+							
+						}
+					</script>
 					<p><strong>Blogwalking</strong></p>
 					<ul>
 						{% assign blogwalking = site.blogwalking | sort: 'judul' %}
