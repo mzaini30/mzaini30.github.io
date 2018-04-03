@@ -14,3 +14,4 @@ Eits... sebelum kamu menanyakan itu, coba deh kita lihat kawan-kawan kita yang b
 Eh, saya menemukan beberapa artikel menarik nih dari Google tentang kehidupan tanpa media sosial:
 
 - [Mereka yang Hidup tanpa Media Sosial](https://www.kompasiana.com/isalmawardi/mereka-yang-hidup-tanpa-media-sosial_58e4b2f5c223bdae7327d8fb)
+- [Hidup Lebih Produktif Tanpa Sosial media.](https://medium.com/@srihelmawati/bagaimana-sosmed-bisa-mengacaukan-kehidupan-kita-7b79a9dbca25)
