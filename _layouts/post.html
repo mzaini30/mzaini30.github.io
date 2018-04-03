@@ -356,14 +356,14 @@ layout: compress
 								{% assign counter_belum_share = counter_belum_share | plus: 1 %}
 							{% endif %}
 						{% endfor %}
-						{% if counter_belum_share = 0 %}
-							<style type="text/css">
-								.belum-dishare {
-									display: none;
-								}
-							</style>
-						{% endif %}
 					</ul>
+					{% if counter_belum_share = 0 %}
+						<style type="text/css">
+							.belum-dishare {
+								display: none;
+							}
+						</style>
+					{% endif %}
 					<p><strong>Blogwalking</strong></p>
 					<ul>
 						{% assign blogwalking = site.blogwalking | sort: 'judul' %}
