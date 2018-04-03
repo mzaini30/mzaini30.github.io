@@ -353,7 +353,7 @@ layout: compress
 								<li>
 									<a href="{{ post.url }}">{{ post.title }}</a>
 								</li>
-								{ assign counter_belum_share = counter_belum_share | plus: 1 }
+								{% assign counter_belum_share = counter_belum_share | plus: 1 %}
 							{% endif %}
 						{% endfor %}
 					</ul>
