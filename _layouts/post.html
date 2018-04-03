@@ -350,7 +350,7 @@ layout: compress
 						{% assign counter_belum_share = 0 %}
 						{% for post in site.posts %}
 							{% if post.rss == null %}
-								{% assign counter_belum_share = counter_belum_share | plus: 1 %}
+								<!-- assign counter_belum_share = counter_belum_share | plus: 1 -->
 								<li>
 									<a href="{{ post.url }}">{{ post.title }}</a>
 								</li>
@@ -364,7 +364,6 @@ layout: compress
 							}
 						</style>
 					{% endif %}
-					</style>
 					<p><strong>Blogwalking</strong></p>
 					<ul>
 						{% assign blogwalking = site.blogwalking | sort: 'judul' %}
