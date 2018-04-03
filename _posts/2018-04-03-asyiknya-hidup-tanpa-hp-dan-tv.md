@@ -3,8 +3,8 @@ layout: post
 title: Asyiknya Hidup Tanpa HP dan TV
 category: artikel
 date: 2018-04-03 07:27:00
-# gambar: 
-# rss: ada
+gambar: https://img00.deviantart.net/bdcf/i/2013/201/e/b/internet__social_network_1_by_hakures-d6echwb.png
+rss: ada
 ---
 
 Adakah kehidupan tanpa HP dan TV?
