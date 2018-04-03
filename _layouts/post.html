@@ -350,9 +350,9 @@ layout: compress
 						{% assign counter_belum_share = 0 %}
 						{% for post in site.posts %}
 							{% if post.rss == null %}
+								{% capture counter_belum_share %}{{ counter_belum_share | plus: 1 }}{% endcapture %}
 								<li>
 									<a href="{{ post.url }}">{{ post.title }}</a>
-									{% capture counter_belum_share %}{{ counter_belum_share | plus: 1 }}{% endcapture %}
 								</li>
 							{% endif %}
 						{% endfor %}
