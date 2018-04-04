@@ -334,7 +334,7 @@ layout: compress
 			<p><strong>Aplikasi Android</strong></p>
 			<div class="row">
 				{% assign aplikasi_android_list_ringkas = site.aplikasi_android | sort: 'judul' | limit: 4 %}
-				{% for aplikasi_android in aplikasi_android_list %}
+				{% for aplikasi_android in aplikasi_android_list_ringkas %}
 					<div class="col-sm-3 col-xs-6">
 						<a href="{{ aplikasi_android.link }}">
 							<div class="thumbnail">
@@ -358,8 +358,8 @@ layout: compress
 		<div class="section">
 			<p><strong>Aplikasi Web</strong></p>
 			<div class="row">
-				{% assign aplikasi_web_list = site.aplikasi_web | sort: 'judul' | limit: 4 %}
-				{% for aplikasi_web in aplikasi_web_list %}
+				{% assign aplikasi_web_list_ringkas = site.aplikasi_web | sort: 'judul' | limit: 4 %}
+				{% for aplikasi_web in aplikasi_web_list_ringkas %}
 					<div class="col-sm-6 col-xs-12">
 						<a href="{{ aplikasi_web.link }}">
 							<div class="thumbnail">
