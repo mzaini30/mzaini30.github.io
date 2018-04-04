@@ -312,8 +312,8 @@ layout: compress
 					</tr>
 				</thead>
 				<tbody>
-					{% assign penghargaan_list = site.penghargaan | sort: 'tahun' | reverse | limit: 5 %}
-					{% for penghargaan in penghargaan_list %}
+					{% assign penghargaan_list_ringkas = site.penghargaan | sort: 'tahun' | reverse | limit: 5 %}
+					{% for penghargaan in penghargaan_list_ringkas %}
 						<tr>
 					      <td>{{ penghargaan.tahun }}</td>
 					      <td><a href="{{ penghargaan.link }}">{{ penghargaan.judul }}</a></td>
@@ -333,7 +333,7 @@ layout: compress
 		<div class="section">
 			<p><strong>Aplikasi Android</strong></p>
 			<div class="row">
-				{% assign aplikasi_android_list = site.aplikasi_android | sort: 'judul' | limit: 4 %}
+				{% assign aplikasi_android_list_ringkas = site.aplikasi_android | sort: 'judul' | limit: 4 %}
 				{% for aplikasi_android in aplikasi_android_list %}
 					<div class="col-sm-3 col-xs-6">
 						<a href="{{ aplikasi_android.link }}">
