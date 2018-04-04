@@ -312,7 +312,8 @@ layout: compress
 					</tr>
 				</thead>
 				<tbody>
-					{% for penghargaan in site.penghargaan | limit: 5 %}
+					{% assign penghargaan_list = site.penghargaan | sort: 'tahun' | reverse | limit: 5 %}
+					{% for penghargaan in penghargaan_list %}
 						<tr>
 					      <td>{{ penghargaan.tahun }}</td>
 					      <td><a href="{{ penghargaan.link }}">{{ penghargaan.judul }}</a></td>
