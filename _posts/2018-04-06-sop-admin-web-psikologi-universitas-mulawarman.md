@@ -17,7 +17,8 @@ gambar: https://img00.deviantart.net/0f0e/i/2015/131/f/e/game_over_by_panchusfen
 1. Ukuran gambar < 600 kb
 2. Lebar gambar <= 1000 px
 3. Kode untuk mengedit slideshow bisa ditemukan di <http://psikologi.fisip-unmul.ac.id/main/wp-admin/options-general.php?page=header-and-footer-scripts%2Fshfs.php>
-4. Berikut ini adalah skripnya:
+
+	Berikut ini adalah skripnya:
 
 	```html
 	<div class="gambar-sampul" style="display: none;">
@@ -101,3 +102,5 @@ gambar: https://img00.deviantart.net/0f0e/i/2015/131/f/e/game_over_by_panchusfen
 
 	</script>
 	```
+
+	Editlah hanya di bagian `ini adalah bagian untuk diedit`
