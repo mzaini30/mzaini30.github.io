@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SOP Admin Web Psikologi Universitas Mulawarman
-category: artikel
+category: pemrograman
 date: 2018-04-06 21:13:00
 gambar: https://img00.deviantart.net/0f0e/i/2015/131/f/e/game_over_by_panchusfenix-d8t17go.jpg
 # rss: ada
