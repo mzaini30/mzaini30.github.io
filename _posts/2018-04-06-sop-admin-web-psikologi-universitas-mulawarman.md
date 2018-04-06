@@ -14,4 +14,4 @@ gambar: https://img00.deviantart.net/0f0e/i/2015/131/f/e/game_over_by_panchusfen
 
 # Menambahkan atau Mengedit Gambar Pada Slideshow
 
-1. Ukuran gambar harus sekitaran 500 kb (gunakan aplikasi pengkompres gambar)
+1. Ukuran gambar paling maksimal sekitaran 500 kb (gunakan aplikasi pengkompres gambar)
