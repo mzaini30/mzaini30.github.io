@@ -3,8 +3,8 @@ layout: post
 title: Setiap Manusia Memiliki Perannya Masing-masing
 category: artikel
 date: 2018-04-07 15:30:00
-# gambar: 
-# rss: ada
+gambar: https://pre00.deviantart.net/c453/th/pre/f/2017/080/9/b/shadow_in_the_mirror_by_avodkabottle-db331c4.jpg
+rss: ada
 ---
 
 Setiap manusia memiliki perannya masing-masing. Ada yang berperan sebagai petinggi, ada yang berperan sebagai bawahan. Ada yang berperan sebagai orang kaya, ada yang berperan sebagai orang secukupnya. Ada yang berperan sebagai seorang pintar, ada yang berperan sebagai orang biasa aja. Ada yang ekstrovert, ada yang introvert. Ada yang berpikir terlalu jauh ke depan, ada yang nggak paham realitas di hadapannya.
