@@ -6,7 +6,7 @@ index: oke
 ---
 
 <div class="row">
-	{% for post in paginator.posts %}
+	{% for post in site.posts | limit: 12 %}
 		<div class="col-sm-4 col-xs-6">
 			<a href="{{ post.url }}">
 				<!-- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout -->
@@ -19,19 +19,3 @@ index: oke
 		</div>
 	{% endfor %}
 </div>
-{% if paginator.total_pages > 1 %}
-	<nav aria-label="Page navigation">
-  		<ul class="pager">
-			{% if paginator.previous_page %}
-				<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}">&laquo; Prev</a></li>
-			{% else %}
-				<!-- <li class="previous active"><a href="#!">&laquo; Prev</a></li> -->
-			{% endif %}
-			{% if paginator.next_page %}
-				<li class="next"><a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Next &raquo;</a></li>
-			{% else %}
-				<!-- <li class="next active"><a href='#!'>Next &raquo;</a></li> -->
-			{% endif %}
-		</ul>
-	</nav>
-{% endif %}
