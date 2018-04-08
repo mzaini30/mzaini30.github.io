@@ -185,8 +185,12 @@ layout: compress
 	<!-- logo situs -->
 
 	<nav class="navbar navbar-default navbar-fixed-top">
-		<a class="navbar-brand" href="/">Zen - Developer Ninja</a>
-		<a class="btn btn-default navbar-btn" href="/blog">Blog</a>
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Zen - Developer Ninja</a>
+			</div>
+		</div>
 	</nav>
 
 	<div class="section" style="height: 70px; width: 100%;"></div>
@@ -204,13 +208,15 @@ layout: compress
 		<div class="row">
 			<div class="col-sm-8 content">
 				<div class="theiaStickySidebar">
-					<div class="telegram-body medium">
-						<p style="margin-top: 0;">
-							<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
-						</p>
-						<p class="text-center">
-							<a href="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">Sumber gambar</a>
-						</p>
+					<div class="telegram-body{% if page.index == null %} medium{% endif %}">
+						{% if page.index == null %}
+							<p style="margin-top: 0;">
+								<img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">
+							</p>
+							<p class="text-center">
+								<a href="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}">Sumber gambar</a>
+							</p>
+						{% endif %}
 						{{ content }}
 					</div>
 					<br>
@@ -227,27 +233,28 @@ layout: compress
 					    };
 					</script>
 					<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-					<div id="disqus_thread"></div>
-					<script>
+					{% if page.index == null %}
+						<div id="disqus_thread"></div>
+						<script>
 
-					/**
-					*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-					*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-					
-					var disqus_config = function () {
-					this.page.url = '{{ site.url }}/{{ page.url }}';  /* Replace PAGE_URL with your page's canonical URL variable*/
-					/* this.page.identifier = '{{ page.title.size }}';  Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
-					};
-					
-					(function() { /* DON'T EDIT BELOW THIS LINE*/
-					var d = document, s = d.createElement('script');
-					s.src = 'https://zen-4.disqus.com/embed.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-					})();
-					</script>
-					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-					                            
+						/**
+						*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+						*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+						
+						var disqus_config = function () {
+						this.page.url = '{{ site.url }}/{{ page.url }}';  /* Replace PAGE_URL with your page's canonical URL variable*/
+						/* this.page.identifier = '{{ page.title.size }}';  Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+						};
+						
+						(function() { /* DON'T EDIT BELOW THIS LINE*/
+						var d = document, s = d.createElement('script');
+						s.src = 'https://zen-4.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					{% endif %}  
 					<!-- <p>
 						<a href="https://api.whatsapp.com/send?phone=6281545143654&text=Judul%3A%20{{ page.title }}%0ALink%3A%20{{ site.url }}{{ page.url }}%0AKomentar%3A%0A%0A" class="btn btn-danger" style="width: 100%;">Beri Komentar</a>
 					</p> -->
@@ -276,15 +283,17 @@ layout: compress
 			</div>
 			<div class="col-sm-4 sidebar">
 				<div class="theiaStickySidebar">
-					<p><strong>Download versi PDF</strong></p>
-					<div class="panel panel-primary">
-					  <div class="panel-heading">
-					    <p class="panel-title">Download versi PDF dari artikel ini</p>
-					  </div>
-					  <div class="panel-body">
-					    <a href="http://www.printfriendly.com/print/?url={{ site.url }}{{ page.url }}">{{ page.title }}</a> (PDF)
-					  </div>
-					</div>
+					{% if page.index == null %}
+						<p><strong>Download versi PDF</strong></p>
+						<div class="panel panel-primary">
+						  <div class="panel-heading">
+						    <p class="panel-title">Download versi PDF dari artikel ini</p>
+						  </div>
+						  <div class="panel-body">
+						    <a href="http://www.printfriendly.com/print/?url={{ site.url }}{{ page.url }}">{{ page.title }}</a> (PDF)
+						  </div>
+						</div>
+					{% endif %}
 					<p><strong>Poster Dakwah Harian</strong></p>
 					<p>Dari <a href='https://mobile.facebook.com/groups/335300383280293?refid=46&__xt__=12.%7B%22unit_id_click_type%22%3A%22graph_search_results_item_tapped%22%2C%22click_type%22%3A%22result%22%2C%22module_id%22%3A2%2C%22result_id%22%3A335300383280293%2C%22session_id%22%3A%227c4b6513e3e46805bff84db766f2310f%22%2C%22module_role%22%3A%22ENTITY_GROUPS%22%2C%22unit_id%22%3A%22browse_rl%3A6ae754ff-cebd-3d4c-a8a9-24c7d634132d%22%2C%22browse_result_type%22%3A%22browse_type_group%22%2C%22unit_id_result_id%22%3A335300383280293%2C%22module_result_position%22%3A0%7D'>Muslim Designer Community</a></p>
 					<p>
@@ -343,15 +352,6 @@ layout: compress
 							}
 						});
 					</script>
-					<p><strong>Stay Connected</strong></p>
-					<ul>
-						<li>
-							<a href="http://facebook.com/mzaini30">Facebook</a>
-						</li>
-						<li>
-							<a href="http://t.me/zensharing">Telegram</a>
-						</li>
-					</ul>
 					<p><strong>Edit</strong></p>
 					<ul>
 						<li>
@@ -360,6 +360,24 @@ layout: compress
 						<li>
 							<a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}">Github</a>
 						</li>
+					</ul>
+					<p><strong>Stay Connected</strong></p>
+					<ul>
+						{% assign kontak = site.stay_connected | sort: 'judul' %}
+						{% for contact in kontak %}
+							<li>
+								<a href="{{ contact.link }}">{{ contact.judul }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+					<p><strong>Blogwalking</strong></p>
+					<ul>
+						{% assign blogwalking = site.blogwalking | sort: 'judul' %}
+						{% for bw in blogwalking %}
+							<li>
+								<a href="{{ bw.link }}">{{ bw.judul }}</a>
+							</li>
+						{% endfor %}
 					</ul>
 					<p class="belum-dishare"><strong>Tulisan yang Belum Dishare</strong></p>
 					<ul class="belum-dishare">
@@ -376,15 +394,6 @@ layout: compress
 							$('.belum-dishare').addClass('sembunyi');
 						}
 					</script>
-					<p><strong>Blogwalking</strong></p>
-					<ul>
-						{% assign blogwalking = site.blogwalking | sort: 'judul' %}
-						{% for bw in blogwalking %}
-							<li>
-								<a href="{{ bw.link }}">{{ bw.judul }}</a>
-							</li>
-						{% endfor %}
-					</ul>
 					<p><strong>Kategori</strong></p>
 					<ul>
 						<li>
@@ -400,10 +409,10 @@ layout: compress
 							<em><a href="#!" class="sembunyikan-semua">Sembunyikan Semua</a></em>
 						</li>
 					</ul>
-					<p><strong>Tulisan Lainnya</strong></p>
+					<p class="kategori kategori-judul sembunyi"><strong>Tulisan Lainnya</strong></p>
 					<ul>
 						{% for post in site.posts %}
-							<li{% if post.category %} class="kategori kategori-{{ post.category | replace: ' ', '-' }}"{% endif %}>
+							<li{% if post.category %} class="sembunyi kategori kategori-{{ post.category | replace: ' ', '-' }}"{% endif %}>
 								<a href="{{ post.url }}">{{ post.title }}</a>{% if post.category %} <em>({{ post.category }}){% endif %}</em>
 							</li>
 						{% endfor %}
@@ -449,21 +458,21 @@ layout: compress
 		/*main kategori*/
 
 		$('.tampilkan-semua').click(function(){
-			$('.kategori').show();
+			$('.kategori').removeClass(`sembunyi`);
 		});
 		$('.sembunyikan-semua').click(function(){
-			$('.kategori').hide();
+			$('.kategori').addClass(`sembunyi`);
 		});
 		$('.menuju-kategori').click(function(){
-			$('.kategori').hide();
+			$('.kategori').addClass(`sembunyi`);
 		});
-		$('.kategori').hide();
 		{% if page.category %}
-			$('.kategori-{{ page.category | replace: ' ', '-' }}').show();
+			/*$('.kategori-{{ page.category | replace: ' ', '-' }}').show();*/
 		{% endif %}
 		{% for kategori in sort_kategori %}		
 			$('.menuju-kategori-{{ kategori | first | replace: ' ', '-' }}').click(function(){
-				$('.kategori-{{ kategori | first | replace: ' ', '-' }}').show();
+				$('.kategori-{{ kategori | first | replace: ' ', '-' }}').removeClass(`sembunyi`);
+				$(`.kategori-judul`).removeClass(`sembunyi`);
 			});
 		{% endfor %}
 
