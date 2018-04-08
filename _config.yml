@@ -16,6 +16,46 @@ paginate: 12
 #   isi: Tes
 #   jenis: danger # info, success, warning, danger
 
+# link
+
+link:
+  -
+    judul: Facebook
+    link: http://facebook.com/mzaini30
+    icon: facebook-square
+  -
+    judul: 10 Fast Fingers
+    link: https://10fastfingers.com/user/1452563/
+    icon: keyboard-o
+  -
+    judul: Github
+    link: http://github.com/mzaini30
+    icon: github
+  -
+    judul: Play Store
+    link: http://github.com/mzaini30
+    icon: android
+  -
+    judul: Telegram
+    link: http://t.me/mzaini30a
+    icon: paper-plane
+  -
+    judul: Whatsapp
+    link: https://api.whatsapp.com/send?phone=6281545143654
+    icon: whatsapp
+  -
+    judul: Aplikasi Web
+    link: https://github.com/mzaini30/web-apps
+    icon: globe
+  -
+    judul: Email
+    link: mailto:muhzaini30@gmail.com
+    icon: envelope-o
+  -
+    judul: LINE
+    link: http://line.me/ti/p/~mzaini30
+    icon: heart-o
+
 # iklan
 
 harga_iklan: '1.003'
