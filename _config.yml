@@ -20,6 +20,10 @@ paginate: 12
 
 link:
   -
+    judul: Blog
+    link: /blog.html
+    icon: rss
+  -
     judul: Facebook
     link: http://facebook.com/mzaini30
     icon: facebook-square
