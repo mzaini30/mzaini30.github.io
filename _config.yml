@@ -20,6 +20,10 @@ description: Psikologi
 
 link:
   -
+    judul: Project Euler
+    link: https://projecteuler.net/profile/mzaini30.png
+    icon: free-code-camp
+  -
     judul: Blog
     link: /blog.html
     icon: rss
