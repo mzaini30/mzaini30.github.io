@@ -76,7 +76,7 @@ layout: compress
 					<div class="list-group">
 						{% assign links = site.link | sort: 'judul' %}
 						{% for tautan in links %}
-							<a href="{{ tautan.link }}" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
+							<a href="{{ tautan.link }}" target="_blank" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
 						{% endfor %}
 					</div>
 				</div>
