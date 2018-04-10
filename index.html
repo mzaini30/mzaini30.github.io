@@ -54,6 +54,7 @@ layout: compress
 
 	<link rel="alternate" type="application/rss+xml" href="http://muhammadzaini.com/feed.xml" />
 	<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/bin/font-awesome/css/font-awesome.min.css">
 	<!-- <link rel="stylesheet" type="text/css" href="/bin/medium.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="/bin/github.css"> -->
 </head>
@@ -74,7 +75,7 @@ layout: compress
 				<div class="list-group">
 					{% assign links = site.link | sort: 'judul' %}
 					{% for tautan in links %}
-						<a href="{{ tautan.link }}" class="list-group-item">{{ tautan.judul }}</a>
+						<a href="{{ tautan.link }}" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
 					{% endfor %}
 				</div>
 			</div>
