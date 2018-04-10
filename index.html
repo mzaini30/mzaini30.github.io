@@ -1,4 +1,5 @@
 ---
+layout: compress
 ---
 
 <!DOCTYPE html>
@@ -72,8 +73,9 @@
 			<div class="col-sm-4">
 				<div class="list-group">
 					{% assign links = site.link | sort: 'judul' %}
-					<a href="#" class="list-group-item">Vestibulum at eros</a>
-					}
+					{% for tautan in links %}
+						<a href="{{ tautan.link }}" class="list-group-item">{{ tautan.judul }}</a>
+					{% endfor %}
 				</div>
 			</div>
 			<div class="col-sm-8">
