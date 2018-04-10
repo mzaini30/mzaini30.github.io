@@ -1,3 +1,71 @@
-<script type="text/javascript">
-	location.href = `home/pages/index.html`;
-</script>
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name="telegram:channel" content="@zensharing">
+
+
+	<!-- facebook Open Graph Metadatas -->
+	<!-- <meta content="your_facebook_app_id" property="fb:app_id"> -->
+	<meta content="{{ site.title }}" property="og:site_name">
+	{% if page.title %}
+	  <meta content="{{ page.title }}" property="og:title">
+	{% else %}
+	  <meta content="{{ site.title }}" property="og:title">
+	{% endif %}
+	{% if page.title %}
+	  <meta content="article" property="og:type">
+	{% else %}
+	  <meta content="website" property="og:type">
+	{% endif %}
+	{% if page.date %}
+	  <meta content="{{ page.content | strip_html | truncatewords: 60 | replace: '\'', '' | replace: '"', '' }}" property="og:description">
+	{% else %}
+	  <meta content="{{ site.description }}" property="og:description">
+	{% endif %}
+	{% if page.url %}
+	  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+	{% endif %}
+	{% if page.date %}
+	  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+	  <!-- <meta content="{{ site.url }}/about/" property="article:author"> -->
+	{% endif %}
+	{% if page.gambar %}
+	  <meta content="{{ page.gambar }}" property="og:image">
+	{% else %}
+	  <meta content="{{ site.gambar }}" property="og:image">
+	{% endif %}
+	{% if page.categories %}
+	  {% for category in page.categories limit:1 %}
+	  <meta content="{{ category }}" property="article:section">
+	  {% endfor %}
+	{% endif %}
+	{% if page.tags %}
+	  {% for tag in page.tags %}
+	  <meta content="{{ tag }}" property="article:tag">
+	  {% endfor %}
+	{% endif %}
+
+	<link rel="alternate" type="application/rss+xml" href="http://muhammadzaini.com/feed.xml" />
+	<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/bin/medium.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="/bin/github.css"> -->
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/blog.html">Zen</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="section" style="height: 70px; width: 100%;"></div>
+</body>
+</html>
