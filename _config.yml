@@ -20,6 +20,14 @@ description: Psikologi
 
 link:
   -
+    judul: Pinterest
+    link: https://id.pinterest.com/mzaini30/
+    icon: pinterest-p
+  -
+    judul: Twitter
+    link: https://twitter.com/mzaini30
+    icon: twitter
+  -
     judul: Project Euler
     link: https://projecteuler.net/profile/mzaini30.png
     icon: free-code-camp
