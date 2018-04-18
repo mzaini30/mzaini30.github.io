@@ -1,0 +1,89 @@
+skill:
+  -
+    judul: 10 Fast Fingers
+    link: https://10fastfingers.com/user/1452563/
+    icon: keyboard-o
+  -
+    judul: Project Euler
+    link: https://projecteuler.net/profile/mzaini30.png
+    icon: free-code-camp
+
+sharing:
+  -
+    judul: Google+
+    link: https://plus.google.com/+MuhammadZaini30
+    icon: google-plus
+  -
+    judul: Linked In
+    link: https://www.linkedin.com/in/mzaini30/
+    icon: linkedin-square
+  -
+    judul: Pinterest
+    link: https://id.pinterest.com/mzaini30/
+    icon: pinterest-p
+  -
+    judul: Twitter
+    link: https://twitter.com/mzaini30
+    icon: twitter
+  
+  -
+    judul: You Tube
+    link: https://www.youtube.com/channel/UCvJYEicYS2Yvcr3hhsFU5-g
+    icon: youtube-play
+  -
+    judul: Instagram
+    link: https://www.instagram.com/mzaini30/
+    icon: instagram
+  -
+    judul: Wattpad
+    link: https://www.wattpad.com/user/mzaini30
+    icon: pencil-square-o
+  -
+    judul: Medium
+    link: https://medium.com/@mzaini30
+    icon: medium
+  -
+    judul: Blog
+    link: /blog.html
+    icon: rss
+  -
+    judul: Facebook
+    link: http://facebook.com/mzaini30
+    icon: facebook-square
+  
+  -
+    judul: Github
+    link: http://github.com/mzaini30
+    icon: github
+  -
+    judul: Play Store
+    link: https://play.google.com/store/apps/dev?id=6751907367958089476
+    icon: android
+  -
+    judul: Cloud
+    link: http://gitlab.com/mzaini30/cloud
+    icon: cloud
+  -
+    judul: Telegram
+    link: http://t.me/mzaini30a
+    icon: paper-plane
+  
+  -
+    judul: Aplikasi Web
+    link: https://github.com/mzaini30/web-apps
+    icon: globe
+  
+  -
+    judul: LINE
+    link: http://line.me/ti/p/~mzaini30
+    icon: heart-o
+
+kontak:
+  -
+    judul: Whatsapp
+    link: https://api.whatsapp.com/send?phone=6281545143654
+    icon: whatsapp
+  -
+    judul: Email
+    link: mailto:muhzaini30@gmail.com
+    icon: envelope-o
