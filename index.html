@@ -12,14 +12,27 @@
 		<div class="row">
 			<div class="col-sm-4 col-xs-6">
 				<div class="list-group">
-					<a href="#!" target="_blank" class="list-group-item"><i class="fa fa-facebook"></i> Facebook</a>
+					{% assign links = site.skill | sort: 'judul' %}
+					{% for tautan in links %}
+						<a href="{{ tautan.link }}" target="_blank" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
+					{% endfor %}
 				</div>
 			</div>
 			<div class="col-sm-4 col-xs-6">
-				<p>tes</p>
+				<div class="list-group">
+					{% assign links = site.sharing | sort: 'judul' %}
+					{% for tautan in links %}
+						<a href="{{ tautan.link }}" target="_blank" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
+					{% endfor %}
+				</div>
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<p>tes</p>
+				<div class="list-group">
+					{% assign links = site.kontak | sort: 'judul' %}
+					{% for tautan in links %}
+						<a href="{{ tautan.link }}" target="_blank" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
