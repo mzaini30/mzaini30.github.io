@@ -9,7 +9,7 @@ skill:
     icon: free-code-camp
   -
     judul: Penghargaan
-    link: http://github.com/mzaini30/penghargaan
+    link: https://github.com/mzaini30/penghargaan/blob/master/README.md
     icon: trophy
 
 sharing:
@@ -35,7 +35,7 @@ sharing:
     icon: cloud
   -
     judul: Aplikasi Web
-    link: https://github.com/mzaini30/web-apps
+    link: https://github.com/mzaini30/web-apps/blob/master/README.md
     icon: globe
 
 kontak:
