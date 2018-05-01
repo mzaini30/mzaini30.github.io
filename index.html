@@ -6,7 +6,7 @@
 <head>
 	<title>Zen</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bin/font-awesome/css/font-awesome.min.css">
 	<style type="text/css">
@@ -39,26 +39,11 @@
   		</div>
   		<div class="text-center">
   			<h1>Zen</h1>
-  			<p>
-  				Penjaga Quran &bull;
-  				Mahasiswa Psikologi &bull;
-  				Pebisnis Sepeda &bull;
-  				Guru SMA &bull;
-  				Insinyur Perangkat Lunak
-  			</p>
+  			<p>Manusia itu unik</p>
   		</div>
       	<hr>
 		<div class="row">
-			<div class="col-sm-4 col-xs-6">
-				<div class="list-group">
-					<a href="#!" class="list-group-item active">Skill</a>
-					{% assign links = site.skill | sort: 'judul' %}
-					{% for tautan in links %}
-						<a href="{{ tautan.link }}" target="_blank" class="list-group-item"><i class="fa fa-{{ tautan.icon }}"></i> {{ tautan.judul }}</a>
-					{% endfor %}
-				</div>
-			</div>
-			<div class="col-sm-4 col-xs-6">
+			<div class="col-xs-6">
 				<div class="list-group">
 					<a href="#!" class="list-group-item active">Sharing</a>
 					{% assign links = site.sharing | sort: 'judul' %}
@@ -67,7 +52,7 @@
 					{% endfor %}
 				</div>
 			</div>
-			<div class="col-sm-4 col-xs-12">
+			<div class="col-xs-12">
 				<div class="list-group">
 					<a href="#!" class="list-group-item active">Kontak</a>
 					{% assign links = site.kontak | sort: 'judul' %}

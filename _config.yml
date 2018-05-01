@@ -1,17 +1,3 @@
-skill:
-  -
-    judul: 10 Fast Fingers
-    link: https://10fastfingers.com/user/1452563/
-    icon: keyboard-o
-  -
-    judul: Project Euler
-    link: https://projecteuler.net/profile/mzaini30.png
-    icon: free-code-camp
-  -
-    judul: Penghargaan
-    link: https://github.com/mzaini30/penghargaan/blob/master/README.md
-    icon: trophy
-
 sharing:
   -
     judul: Medium (daftar isi)
