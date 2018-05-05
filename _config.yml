@@ -9,7 +9,7 @@ sharing:
     icon: android
   -
     judul: Aplikasi Web
-    link: https://github.com/mzaini30/web-apps/blob/master/README.md
+    link: /web-apps
     icon: globe
 
 kontak:
