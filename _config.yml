@@ -11,6 +11,10 @@ sharing:
     judul: Aplikasi Web
     link: /web-apps
     icon: globe
+  -
+    judul: Wattpad
+    link: https://www.wattpad.com/user/mzaini30
+    icon: globe
 
 kontak:
   -
