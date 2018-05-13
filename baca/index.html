@@ -7,14 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
 	<style type="text/css">
 		body {
-			height: 100%;
-			background: url('media/wallpaper.jpg') bottom center no-repeat fixed;
-			background-size: cover;
-			-o-background-size: cover;
-			-ms-background-size: cover;
-			-moz-background-size: cover;
-			-webkit-background-size: cover;
 			padding-top: 30px;
+		}
+		.background {
+			margin: auto;
+		}
+		.background img {
+			z-index: -1;
+			position: fixed;
+			margin-top: -30px;
+			height: 100%;
 		}
 		.grid-item {
 			width: 50%;
@@ -31,6 +33,9 @@
 	</style>
 </head>
 <body>
+	<div class="background">
+		<img src="media/wallpaper.jpg">
+	</div>
 	<div class="container-fluid">
 		<div class="tampilan_1">
 			<div class="grid">
@@ -103,6 +108,25 @@
 		document.writeln('<scri'+'pt type="text/javascript" src="bin/masonry.min.js?'+Math.random()+'"></sc'+'ript>')
 	</script>
 	<script type="text/javascript">
+		background = function(){
+			lebar = $(window).width()
+			tinggi = $(window).height()
+			if (tinggi > lebar){
+				$('.background img').css({
+					height: '100%',
+					width: 'auto'
+				})
+			} else {
+				$('.background img').css({
+					height: 'auto',
+					width: '100%'
+				})
+			}
+		}
+		background()
+		$(window).resize(function(){
+			background()
+		})
 		$('.grid').masonry({
 			itemSelector: '.grid-item'
 		})
