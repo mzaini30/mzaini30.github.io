@@ -6,9 +6,6 @@ ambil_data = function(){
 tentukan_data = function(x){
    localStorage.setItem('petunjuk-ngaji', x)
 }
-data_baru = function(x){
-   tentukan_data(x)
-}
 
 // main data
 
@@ -22,7 +19,7 @@ $('input').attr({
 $('.data-baru').click(function(){
    input = $('input').val()
    if (input != ''){
-      data_baru(input)
+      tentukan_data(input)
    }
    location.href = 'index.html'
 })
