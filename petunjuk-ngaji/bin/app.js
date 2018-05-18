@@ -1,10 +1,13 @@
 // init
 
 ambil_data = function(){
-   return localStorage.getItem('petunjuk-ngaji')
+   localStorage.getItem('petunjuk-ngaji')
 }
 tentukan_data = function(x){
-   return localStorage.setItem('petunjuk-ngaji', x)
+   localStorage.setItem('petunjuk-ngaji', x)
+}
+data_baru = function(x){
+   tentukan_data(x)
 }
 
 // main data
@@ -16,6 +19,7 @@ $('input').attr({
    }
 })
 
-data_baru = function(x){
-   tentukan_data(x)
-}
+$('.data-baru').click(function(){
+   data_baru($('input').val())
+   location.href = 'index.html'
+})
