@@ -1,0 +1,16 @@
+.outer {
+   display: table;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+.inner {
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
+.isi {
+   display: inline-block;
+   width: 80%;
+   margin: auto;
+}
