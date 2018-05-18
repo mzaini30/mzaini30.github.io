@@ -1,3 +1,5 @@
+/*tengahkan elemen*/
+
 .outer {
    display: table;
    position: absolute;
@@ -12,5 +14,12 @@
 .isi {
    display: inline-block;
    width: 80%;
+   margin: auto;
+}
+
+/*lebar input*/
+
+input.form-control {
+   width: 200px;
    margin: auto;
 }
