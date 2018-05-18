@@ -20,6 +20,9 @@ $('input').attr({
 })
 
 $('.data-baru').click(function(){
-   data_baru($('input').val())
+   input = $('input').val()
+   if (input != ''){
+      data_baru(input)
+   }
    location.href = 'index.html'
 })
