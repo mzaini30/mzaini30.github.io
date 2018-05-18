@@ -1,7 +1,7 @@
 // init
 
 ambil_data = function(){
-   localStorage.getItem('petunjuk-ngaji')
+   return localStorage.getItem('petunjuk-ngaji')
 }
 tentukan_data = function(x){
    localStorage.setItem('petunjuk-ngaji', x)
@@ -15,7 +15,7 @@ data_baru = function(x){
 $('h1').html(ambil_data())
 $('input').attr({
    placeholder: function(){
-      ambil_data()
+      return ambil_data()
    }
 })
 
