@@ -21,5 +21,7 @@
 
 input.form-control {
    width: 200px;
+   max-width: 80%;
    margin: auto;
+   text-align: center;
 }
