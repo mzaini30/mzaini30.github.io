@@ -1,9 +1,5 @@
 sharing:
   -
-    judul: Medium
-    link: https://medium.com/@mzaini30
-    icon: medium
-  -
     judul: Play Store
     link: https://play.google.com/store/apps/dev?id=6751907367958089476
     icon: android
@@ -12,13 +8,13 @@ sharing:
     link: /web-apps
     icon: globe
   -
-    judul: Wattpad
-    link: https://www.wattpad.com/user/mzaini30
-    icon: wikipedia-w
-  -
     judul: Instagram
     link: https://www.instagram.com/mzaini30/
     icon: instagram
+  -
+    judul: Blog
+    link: http://blog.muhammadzaini.com
+    icon: rss
 
 kontak:
   -
@@ -35,7 +31,3 @@ lainnya:
     judul: Cloud (private)
     link: https://gitlab.com/mzaini30/cloud/blob/master/README.md
     icon: cloud
-  -
-    judul: Medium (daftar isi)
-    link: https://medium.com/@mzaini30/daftar-isi-2ce4e414ae69
-    icon: medium
