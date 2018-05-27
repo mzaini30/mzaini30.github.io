@@ -12,7 +12,7 @@ sharing:
     link: https://www.instagram.com/mzaini30/
     icon: instagram
   -
-    judul: Blog
+    judul: "Blog <span class=\"badge\" style=\"background: rgb(255, 87, 34);\">top</span>"
     link: http://blog.muhammadzaini.com
     icon: rss
 
