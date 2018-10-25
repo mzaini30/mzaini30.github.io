@@ -2,7 +2,7 @@
 layout: post
 title:  "Coba Deh Katakan Bahwa Kita Lah yang Salah"
 date:   2018-10-25 11:55:38 +0800
-categories: renungan
+category: renungan
 ---
 
 Sering kali kita mengatakan kalau orang lain lah yang salah. Misalnya aja ketika terjadi yang namanya kecelakaan (amit-amit), terus kita dengan orang lain tabrakan tuh. Pastinya kan kita akan mengatakan bahwa orang lain itulah yang salah. Atau, dia mengatakan bahwa kita lah yang salah. _So_, sebenarnya siapa yang salah?

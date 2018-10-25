@@ -44,3 +44,5 @@ plugins:
 
 disqus:
   shortname: zen-4
+
+show_excerpts: true
