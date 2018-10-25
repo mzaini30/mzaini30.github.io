@@ -25,7 +25,7 @@ layout: default
           {{ post.excerpt }}
         {%- endif -%}
         <a href="{{ post.url | relative_url }}">Lanjutkan membaca &rarr;</a>
-        {% unless forloop.last %}{% include iklan.html %}{% endunless %}
+        {% unless forloop.last %}{% include iklan-list.html %}{% endunless %}
       </li>
       {%- endfor -%}
     </ul>
