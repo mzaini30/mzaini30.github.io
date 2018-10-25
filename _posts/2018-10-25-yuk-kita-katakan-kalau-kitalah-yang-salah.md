@@ -17,9 +17,17 @@ Nah, gimana kalau kita langsung mengatakan bahwa kita lah yang salah? Berat ya?
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem id illo nemo illum architecto eveniet possimus odit et ex facilis consequatur accusamus, omnis temporibus necessitatibus asperiores assumenda iusto repellat modi.
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
+
 # Mengapa Tidak Dia Saja yang Mengaku Salah?
 
 {% include iklan.html %}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
 
@@ -28,3 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa
 {% include iklan.html %}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, sunt quas tempore doloribus unde vero, tempora commodi, blanditiis, nisi officiis porro itaque. Facilis dolore velit accusamus quas voluptatem, quo, explicabo.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ipsam ipsa ratione deleniti, eveniet odio nulla enim velit rem impedit. Architecto quibusdam maiores iure inventore quae unde sequi id facere.
