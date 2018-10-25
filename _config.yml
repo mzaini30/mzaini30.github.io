@@ -48,4 +48,4 @@ disqus:
 
 show_excerpts: true
 
-paginate: 1
+paginate: 10
