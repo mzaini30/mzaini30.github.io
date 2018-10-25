@@ -29,6 +29,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -46,3 +47,5 @@ disqus:
   shortname: zen-4
 
 show_excerpts: true
+
+paginate: 1
