@@ -11,6 +11,7 @@
 </h3>
 {%- if site.show_excerpts -%}
 {{ post.excerpt }}
+<a href="{{ post.url | relative_url }}">Lanjutkan membaca &rarr;</a>
 {%- endif -%}
 </li>
 {% endif %}

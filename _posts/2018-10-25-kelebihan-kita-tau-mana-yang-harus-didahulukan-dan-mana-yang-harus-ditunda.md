@@ -6,3 +6,5 @@ category: renungan
 ---
 
 Mendahulukan sesuatu pekerjaan tidak berarti bahwa pekerjaan itu lebih penting daripada yang lainnya. Begitu pula dengan mengakhirkan suatu pekerjaan, bukan berarti pekerjaan itu kurang penting dibandingkan dengan yang lainnya.
+
+_So_, teruslah bergerak mendahulukan yang seharusnya didahulukan atau dikerjakan saat ini.
