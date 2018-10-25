@@ -10,3 +10,5 @@ Sering kali kita mengatakan kalau orang lain lah yang salah. Misalnya aja ketika
 Entah. Susah memang mengatakan siapa yang salah dalam kejadian tersebut tapi kan memang nyatanya antara kita ataupun dia, sama-sama kecelakaan ya, sama-sama mengalami sesuatu yang tidak mengenakkan.
 
 Nah, gimana kalau kita langsung mengatakan bahwa kita lah yang salah? Berat ya? 
+
+# Mengapa Kita Sebaiknya Mengatakan Bahwa Kita Lah yang Salah?
