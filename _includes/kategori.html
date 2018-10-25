@@ -1,6 +1,7 @@
 {% for post in site.posts %}
 <ul class="post-list">
-{% if post.category == include.nama %}
+{% assign kategori = page.title | downcase %}
+{% if post.category == kategori %}
 <li>
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <span class="post-meta">{{ post.date | date: date_format }}</span>
