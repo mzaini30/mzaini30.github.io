@@ -43,4 +43,4 @@ plugins:
 #   - vendor/ruby/
 
 disqus:
-  shortname: zen4
+  shortname: zen-4
