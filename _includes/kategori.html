@@ -14,6 +14,7 @@
 {{ post.excerpt }}
 <a href="{{ post.url | relative_url }}">Lanjutkan membaca &rarr;</a>
 {%- endif -%}
+{% unless forloop.last %}{% include iklan.html %}{% endunless %}
 </li>
 {% endif %}
 </ul>
