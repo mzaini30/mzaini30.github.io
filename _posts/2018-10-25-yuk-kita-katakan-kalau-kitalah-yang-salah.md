@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coba Deh Katakan Bahwa Kita Lah yang Salah"
+title:  "Coba Deh Katakan Bahwa Kitalah yang Salah"
 date:   2018-10-25 11:55:38 +0800
 category: renungan
 ---

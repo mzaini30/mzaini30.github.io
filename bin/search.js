@@ -16,6 +16,7 @@
       searchResults.innerHTML = appendString;
     } else {
       searchResults.innerHTML = '<ul class="post-list"><li><p>Silahkan coba lagi</p></li></ul>';
+      $('#search-box').focus()
     }
   }
 
