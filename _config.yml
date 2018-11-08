@@ -59,6 +59,24 @@ pendidikan:
     link: /tutorialjade
     ikon: altyo
 
+penelitian:
+  -
+    nama: Kontest
+    link: /kontest
+    ikon: application-default-icon
+  -
+    nama: Kontur Reverse
+    link: /kontur-reverse
+    ikon: spacefm-find
+  -
+    link: /kontur
+    nama: Kontur
+    ikon: bittorent
+  -
+    link: /review-jurnal
+    nama: Review Jurnal
+    ikon: gnome-activity-journal
+
 works:
   -
     nama: Medium
