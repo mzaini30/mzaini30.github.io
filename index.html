@@ -25,7 +25,12 @@
 				<div class="theiaStickySidebar">
 					<div class="panel panel-default">
 						<div class="panel-heading">My Works</div>
-						<div class="panel-body"></div>
+						<div class="list-group">
+							{% assign works = site.works | sort: 'nama' %}
+							{% for x in works %}
+								<a href="{{ x.link }}" target="_blank" class="list-group-item">{{ x.nama }}</a>
+							{% endfor %}
+						</div>
 					</div>
 				</div>
 			</div>
