@@ -77,6 +77,78 @@ penelitian:
     nama: Review Jurnal
     ikon: gnome-activity-journal
 
+psikologi:
+  -
+    link: /enneagram
+    nama: Enneagram
+    ikon: eko
+  -
+    link: http://psikoweb.epizy.com/login/index.php
+    nama: Psikoweb
+    ikon: firefox
+
+produktivitas:
+  -
+    link: /aku-berkata
+    nama: Aku Berkata
+    ikon: birdie
+  -
+    link: http://antrianrutansamarinda.com
+    nama: Antrian Rumah Tahanan Samarinda
+    ikon: bovo
+  -
+    link: /download
+    nama: Download
+    ikon: browser-tor
+  -
+    link: /enter
+    nama: Enter
+    ikon: buzztrax
+  -
+    link: /jumlah-satuan
+    nama: Jumlah Satuan
+    ikon: calc
+  -
+    link: /keyboard-arabic
+    nama: Keyboard Arabic
+    ikon: calligraauthor
+  -
+    link: /konversi-nada
+    nama: Konversi Nada
+    ikon: gnome-music
+  -
+    link: /markdown
+    nama: Markdown
+    ikon: cutemarked
+  -
+    link: /color30
+    nama: Materialize Color
+    ikon: preferences-color
+  -
+    link: /regex-tab
+    nama: Regex Tab
+    ikon: djv_view
+  -
+    link: /tambah-hari
+    nama: Tambah Hari
+    ikon: ooo-calc
+  -
+    link: /tanggal
+    nama: Tanggal
+    ikon: elegance-colors
+  -
+    link: /translate
+    nama: Translate
+    ikon: google-translate
+  -
+    link: /undian
+    nama: Undian
+    ikon: electrum
+  -
+    link: /wa
+    nama: Whatsapp Link Generator
+    ikon: web-whatsapp
+
 works:
   -
     nama: Medium
