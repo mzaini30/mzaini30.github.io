@@ -54,8 +54,36 @@ pendidikan:
     nama: Sekolah Impian
     link: /sekolah-impian
     ikon: AdobeWidgetBrowser
+  -
+    nama: Tutorial Jade
+    link: /tutorialjade
+    ikon: altyo
 
 works:
   -
     nama: Medium
     link: http://medium.com/@mzaini30
+  -
+    nama: Google Maps
+    link: https://goo.gl/maps/pKsi6DWxrDz
+  -
+    nama: Ask FM
+    link: https://ask.fm/mzaini30
+  -
+    nama: Gitlab
+    link: https://gitlab.com/mzaini30
+  -
+    nama: Github
+    link: https://github.com/mzaini30
+  -
+    nama: Twitter
+    link: https://twitter.com/mzaini30
+  -
+    nama: Facebook
+    link: https://facebook.com/mzaini30
+  -
+    nama: Project Euler
+    link: https://projecteuler.net/profile/mzaini30.png
+  -
+    nama: Codepolitan
+    link: https://www.codepolitan.com/coder/mzaini30
