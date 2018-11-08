@@ -42,3 +42,15 @@ pendidikan:
     nama: Kaligrafi
     link: /kaligrafi
     ikon: calligrakrita
+  -
+    nama: Murajaah Simpel
+    link: /murajaah-simple
+    ikon: gnome-books
+  -
+    nama: Murajaah
+    link: /murajaah
+    ikon: google-play-books
+  -
+    nama: Sekolah Impian
+    link: /sekolah-impian
+    ikon: AdobeWidgetBrowser
