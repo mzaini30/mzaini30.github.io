@@ -21,11 +21,16 @@
 	</div>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-8 theia">
-				<div class="theiaStickySidebar isi">
+			<div class="col-sm-3 theia">
+				<div class="theiaStickySidebar">
 					<div class="panel panel-default">
-						<div class="panel-body">Di bawah ini adalah aplikasi-aplikasi yang kubuat. Monggo dicoba.</div>
+						<div class="panel-heading">My Works</div>
+						<div class="panel-body"></div>
 					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 theia">
+				<div class="theiaStickySidebar isi">
 					<div class="panel panel-default">
 						<div class="panel-heading">Hiburan</div>
 						<div class="panel-body">
@@ -147,12 +152,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 theia">
+			<div class="col-sm-3 theia">
 				<div class="theiaStickySidebar">
 					<div class="panel panel-default">
 						<div class="panel-heading">My Pokemon</div>
 						<div class="panel-body pokemon">
-							{% for pokemon in site.pokemon %}
+							{% assign pokemons = site.pokemon | sort %}
+							{% for pokemon in pokemons %}
 								<img src="/pokemon/{{ pokemon }}.png" alt="">
 							{% endfor %}
 						</div>
