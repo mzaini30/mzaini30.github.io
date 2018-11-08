@@ -35,10 +35,10 @@
 						<div class="panel-heading">Hiburan</div>
 						<div class="panel-body">
 							<div class="row">
-								{% assign hiburans = site.hiburan | sort: 'nama' %}
-								{% for hiburan in hiburans %}
+								{% assign hiburan = site.hiburan | sort: 'nama' %}
+								{% for x in hiburan %}
 									<div class="col-sm-4 col-xs-6">
-										<a target='_blank' href="{{ hiburan.link }}"><div class="panel panel-default"><div class="panel-heading">{{ hiburan.nama }}</div><div class="panel-body"><img src="/ikon/{{ hiburan.ikon }}.png" alt=""></div></div></a>
+										<a target='_blank' href="{{ x.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
 									</div>
 								{% endfor %}
 							</div>
@@ -48,24 +48,12 @@
 						<div class="panel-heading">Pendidikan</div>
 						<div class="panel-body">
 							<div class="row">
-								<div class="col-sm-3 col-xs-6">
-									<a target='_blank' href="//font"><div class="panel panel-default"><div class="panel-heading">Font</div><div class="panel-body"><img src="/ikon/fonts.png" alt=""></div></div></a>
-								</div>
-								<div class="col-sm-3 col-xs-6">
-									<a target='_blank' href="//kaligrafi"><div class="panel panel-default"><div class="panel-heading">Kaligrafi</div><div class="panel-body"><img src="/ikon/calligrakrita.png" alt=""></div></div></a>
-								</div>
-								<div class="col-sm-3 col-xs-6">
-									<a target='_blank' href="//murajaah-simple"><div class="panel panel-default"><div class="panel-heading">Murajaah Simpel</div><div class="panel-body"><img src="/ikon/gnome-books.png" alt=""></div></div></a>
-								</div>
-								<div class="col-sm-3 col-xs-6">
-									<a target='_blank' href="//murajaah"><div class="panel panel-default"><div class="panel-heading">Murajaah</div><div class="panel-body"><img src="/ikon/google-play-books.png" alt=""></div></div></a>
-								</div>
-								<div class="col-sm-3 col-xs-6">
-									<a target='_blank' href="//sekolah-impian"><div class="panel panel-default"><div class="panel-heading">Sekolah Impian</div><div class="panel-body"><img src="/ikon/AdobeWidgetBrowser.png" alt=""></div></div></a>
-								</div>
-								<div class="col-sm-3 col-xs-6">
-									<a target='_blank' href="//tutorialjade"><div class="panel panel-default"><div class="panel-heading">Tutorial Jade</div><div class="panel-body"><img src="/ikon/altyo.png" alt=""></div></div></a>
-								</div>
+								{% assign pendidikan = site.pendidikan | sort: 'nama' %}
+								{% for x in pendidikan %}
+									<div class="col-sm-4 col-xs-6">
+										<a target='_blank' href="{{ pendidian.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
+									</div>
+								{% endfor %}
 							</div>
 						</div>
 					</div>

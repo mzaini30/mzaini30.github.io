@@ -32,3 +32,13 @@ hiburan:
     nama: Blogwalking
     link: /blogwalking2
     ikon: blogger
+
+pendidikan:
+  -
+    nama: Font
+    link: /font
+    ikon: fonts
+  -
+    nama: Kaligrafi
+    link: /kaligrafi
+    ikon: calligrakrita
