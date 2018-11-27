@@ -1,142 +1,24 @@
 ---
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Zen | Blogspot Template Creator | Web Dev | Android Dev | 081545143654</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="/bin/bootstrap/css/bootstrap.min.css">
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="/bin/style.css">
-</head>
-<body>
-	<div class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<div class="navbar-brand">Zen</div>
-			</div>
+{% for post in paginator.posts %}
+	<div class="panel panel-default">
+		<div class="panel-heading list-group-item">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<a href="/kategori/{{ post.category }}" class="badge">{{ post.category }}</a>
+		</div>
+		<div class="panel-body">
+			{{ post.excerpt }}
+			<p><em>&mdash; {{ post.date | date_to_long_string }}</em></p>
 		</div>
 	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-3 theia">
-				<div class="theiaStickySidebar">
-					<div class="panel panel-default">
-						<div class="panel-heading">My Works</div>
-						<div class="list-group">
-							{% assign works = site.works | sort: 'nama' %}
-							{% for x in works %}
-								<a href="{{ x.link }}" target="_blank" class="list-group-item">{{ x.nama }}</a>
-							{% endfor %}
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 theia">
-				<div class="theiaStickySidebar isi">
-					<div class="jumbotron">
-					  <h1>Ada Tulisan Baru!</h1>
-					  <p>Yuk kunjungi blogku...</p>
-					  <p><a target="_blank" class="btn btn-primary btn-lg" href="http://blog2.muhammadzaini.com" role="button">Buka Blog</a></p>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">Hiburan</div>
-						<div class="panel-body">
-							<div class="row">
-								{% assign hiburan = site.hiburan | sort: 'nama' %}
-								{% for x in hiburan %}
-									<div class="col-sm-4 col-xs-6">
-										<a target='_blank' href="{{ x.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
-									</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">Pendidikan</div>
-						<div class="panel-body">
-							<div class="row">
-								{% assign pendidikan = site.pendidikan | sort: 'nama' %}
-								{% for x in pendidikan %}
-									<div class="col-sm-4 col-xs-6">
-										<a target='_blank' href="{{ x.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
-									</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">Penelitian</div>
-						<div class="panel-body">
-							<div class="row">
-								{% assign penelitian = site.penelitian | sort: 'nama' %}
-								{% for x in penelitian %}
-									<div class="col-sm-4 col-xs-6">
-										<a target='_blank' href="{{ x.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
-									</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">Produktivitas</div>
-						<div class="panel-body">
-							<div class="row">
-								{% assign produktivitas = site.produktivitas | sort: 'nama' %}
-								{% for x in produktivitas %}
-									<div class="col-sm-4 col-xs-6">
-										<a target='_blank' href="{{ x.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
-									</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">Psikologi</div>
-						<div class="panel-body">
-							<div class="row">
-								{% assign psikologi = site.psikologi | sort: 'nama' %}
-								{% for x in psikologi %}
-									<div class="col-sm-4 col-xs-6">
-										<a target='_blank' href="{{ x.link }}"><div class="panel panel-default"><div class="panel-heading">{{ x.nama }}</div><div class="panel-body"><img src="/ikon/{{ x.ikon }}.png" alt=""></div></div></a>
-									</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3 theia">
-				<div class="theiaStickySidebar">
-					<div class="panel panel-default">
-						<div class="panel-heading">My Pokemon</div>
-						<div class="panel-body pokemon">
-							{% assign pokemons = site.pokemon | sort %}
-							{% for pokemon in pokemons %}
-								<img src="/pokemon/{{ pokemon }}.png" alt="">
-							{% endfor %}
-						</div>
-					</div>
-					<div class="bawah"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+{% endfor %}
 
-	<!-- messenger chat -->
-
-	<div class="messenger"><a target='_blank' href="https://www.messenger.com/t/mzaini30"><img src="/messenger.png" alt=""></a></div>
-
-	<script type="text/javascript" src="/bin/jquery.min.js"></script>
-	<script type="text/javascript" src="/bin/ResizeSensor.min.js"></script>
-	<script type="text/javascript" src="/bin/theia-sticky-sidebar.min.js"></script>
-	<script type="text/javascript">
-		$('.theia').theiaStickySidebar({
-			additionalMarginTop: 20,
-			additionalMarginBottom: 0
-		})
-	</script>
-</body>
-</html>
+<center>
+	<ul class="pagination">
+		{% if paginator.previous_page %}<li><a href="{{ paginator.previous_page_path }}">Sebelumnya</a></li>{% endif %}
+		{% for page in (1..paginator.total_pages) %}<li><a href="{{ site.paginate_path | relative_url | replace: ':num', page | replace: 'page1', '' }}">{{ page }}</a></li>{% endfor %}
+		{% if paginator.next_page %}<li><a href="{{ paginator.next_page_path }}">Setelahnya</a></li>{% endif %}
+	</ul>
+</center>

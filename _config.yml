@@ -1,182 +1,26 @@
-pokemon:
-  - windows
-  - angular
-  - blogspot
-  - bootstrap
-  - codeigniter
-  - coffeescript
-  - css
-  - elementary
-  - git
-  - github
-  - gitlab
-  - html
-  - hugo
-  - javascript
-  - sublime
-  - android
-  - jekyll
-  - jquery
-  - kali
-  - laravel
-  - linux
-  - materialize
-  - php
-  - python
-  - spectre
-  - vue
-  - eclipse
+title: "Zen | Blogspot Template Creator | Web Dev | Android Dev | 081545143654"
 
-hiburan:
-  -
-    nama: Blogwalking
-    link: /blogwalking2
-    ikon: blogger
+permalink: /:year/:month/:day/:title/
 
-pendidikan:
-  -
-    nama: Font
-    link: /font
-    ikon: fonts
-  -
-    nama: Kaligrafi
-    link: /kaligrafi
-    ikon: calligrakrita
-  -
-    nama: Murajaah Simpel
-    link: /murajaah-simple
-    ikon: gnome-books
-  -
-    nama: Murajaah
-    link: /murajaah
-    ikon: google-play-books
-  -
-    nama: Sekolah Impian
-    link: /sekolah-impian
-    ikon: AdobeWidgetBrowser
-  -
-    nama: Tutorial Jade
-    link: /tutorialjade
-    ikon: altyo
+paginate: 10
 
-penelitian:
-  -
-    nama: Kontest
-    link: /kontest
-    ikon: application-default-icon
-  -
-    nama: Kontur Reverse
-    link: /kontur-reverse
-    ikon: spacefm-find
-  -
-    link: /kontur
-    nama: Kontur
-    ikon: bittorent
-  -
-    link: /review-jurnal
-    nama: Review Jurnal
-    ikon: gnome-activity-journal
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+name: Zen
+description: Developer
+url: http://muhammadzaini.com
 
-psikologi:
-  -
-    link: /enneagram
-    nama: Enneagram
-    ikon: eko
-  -
-    link: http://psikoweb.epizy.com/login/index.php
-    nama: Psikoweb
-    ikon: firefox
+timezone: Asia/Makassar
 
-produktivitas:
+komunitas:
   -
-    link: /aku-berkata
-    nama: Aku Berkata
-    ikon: birdie
+    gambar: /gambar/komunitas/blog.jpg
+    link: https://chat.whatsapp.com/KBzZzO25l1mLoEatsjHWAw
+    
+menu:
   -
-    link: http://antrianrutansamarinda.com
-    nama: Antrian Rumah Tahanan Samarinda
-    ikon: bovo
-  -
-    link: /download
-    nama: Download
-    ikon: browser-tor
-  -
-    link: /enter
-    nama: Enter
-    ikon: buzztrax
-  -
-    link: /jumlah-satuan
-    nama: Jumlah Satuan
-    ikon: calc
-  -
-    link: /keyboard-arabic
-    nama: Keyboard Arabic
-    ikon: calligraauthor
-  -
-    link: /konversi-nada
-    nama: Konversi Nada
-    ikon: gnome-music
-  -
-    link: /markdown
-    nama: Markdown
-    ikon: cutemarked
-  -
-    link: /color30
-    nama: Materialize Color
-    ikon: preferences-color
-  -
-    link: /regex-tab
-    nama: Regex Tab
-    ikon: djv_view
-  -
-    link: /tambah-hari
-    nama: Tambah Hari
-    ikon: ooo-calc
-  -
-    link: /tanggal
-    nama: Tanggal
-    ikon: elegance-colors
-  -
-    link: /translate
-    nama: Translate
-    ikon: google-translate
-  -
-    link: /undian
-    nama: Undian
-    ikon: electrum
-  -
-    link: /wa
-    nama: Whatsapp Link Generator
-    ikon: web-whatsapp
-
-works:
-  -
-    nama: Medium
-    link: http://medium.com/@mzaini30
-  -
-    nama: Play Store
-    link: https://play.google.com/store/apps/dev?id=6751907367958089476
-  -
-    nama: Google Maps
-    link: https://goo.gl/maps/pKsi6DWxrDz
-  -
-    nama: Ask FM
-    link: https://ask.fm/mzaini30
-  -
-    nama: Gitlab
-    link: https://gitlab.com/mzaini30
-  -
-    nama: Github
-    link: https://github.com/mzaini30
-  -
-    nama: Twitter
-    link: https://twitter.com/mzaini30
-  -
-    nama: Facebook
-    link: https://facebook.com/mzaini30
-  -
-    nama: Project Euler
-    link: https://projecteuler.net/profile/mzaini30.png
-  -
-    nama: Codepolitan
-    link: https://www.codepolitan.com/coder/mzaini30
+    nama: Portofolio
+    link: http://muhammadzaini.com

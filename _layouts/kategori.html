@@ -1,0 +1,29 @@
+---
+layout: kosongan
+---
+
+<div class="row">
+	<div class="col-sm-8 theia">
+		<div class="theiaStickySidebar">
+			{% for post in site.posts %}
+				{% if post.category == page.title %}
+					<div class="panel panel-default">
+						<div class="panel-heading list-group-item">
+							<a href="{{ post.url }}">{{ post.title }}</a>
+							<div class="badge">{{ post.category }}</div>
+						</div>
+						<div class="panel-body">
+							{{ post.excerpt }}
+							<p><em>&mdash; {{ post.date | date_to_long_string }}</em></p>
+						</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="col-sm-4 theia">
+		<div class="theiaStickySidebar">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>
