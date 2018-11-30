@@ -17,8 +17,8 @@ layout: default
 
 <center>
 	<ul class="pagination">
-		{% if paginator.previous_page %}<li><a href="{{ paginator.previous_page_path }}">Sebelumnya</a></li>{% endif %}
+		{% if paginator.previous_page %}<li><a href="{{ paginator.previous_page_path }}">&larr;</a></li>{% endif %}
 		{% for page in (1..paginator.total_pages) %}<li><a href="{{ site.paginate_path | relative_url | replace: ':num', page | replace: 'page1', '' }}">{{ page }}</a></li>{% endfor %}
-		{% if paginator.next_page %}<li><a href="{{ paginator.next_page_path }}">Setelahnya</a></li>{% endif %}
+		{% if paginator.next_page %}<li><a href="{{ paginator.next_page_path }}">&rarr;</a></li>{% endif %}
 	</ul>
 </center>
