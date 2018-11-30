@@ -12,6 +12,18 @@
 	<link rel="stylesheet" type="text/css" href="/bin/style.css">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<!-- <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5bec9c4c443c26001b064fee&product=inline-share-buttons' async='async'></script> -->
+
+	<script type="text/javascript" src="/bin/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('div, span').each(function(){
+				if ($(this).css('z-index') > 1){
+					$(this).hide()
+				}
+			})	
+		})
+	</script>
+
 	{% include iklan-otomatis.html %}
 </head>
 <body>
@@ -42,7 +54,6 @@
 	-->
 
 
-	<script type="text/javascript" src="/bin/jquery.min.js"></script>
 	<script>
 		$('.wa-kirim').click(function(){
 			nomor_whatsapp = '6281545143654'
