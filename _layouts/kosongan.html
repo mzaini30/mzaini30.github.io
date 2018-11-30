@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+	<!-- <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title> -->
 	<!-- == seo == -->
+	{% seo %}
 	<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed" />
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,8 @@
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<!-- <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5bec9c4c443c26001b064fee&product=inline-share-buttons' async='async'></script> -->
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript" src="/bin/jquery.min.js"></script>
+	<script type="text/javascript">
 		$(function(){
 			$('div, span').each(function(){
 				if ($(this).css('z-index') > 1030){
@@ -21,7 +23,7 @@
 				}
 			})	
 		})
-	</script> -->
+	</script>
 
 	{% include iklan-otomatis.html %}
 </head>
@@ -53,7 +55,6 @@
 	-->
 
 
-	<script type="text/javascript" src="/bin/jquery.min.js"></script>
 	<script>
 		$('.wa-kirim').click(function(){
 			nomor_whatsapp = '6281545143654'
