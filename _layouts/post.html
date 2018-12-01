@@ -13,8 +13,14 @@ layout: kosongan
 				<div class="panel-body">
 					{{ content }}
 					<p><em>&mdash; {{ page.date | date_to_long_string }}</em></p>
+					<!--
 					<div class="form-group"><label for="link">Link Artikel Ini:</label> <input id="link" class="form-control" type="text" value="{{ site.url }}{{ page.url }}"/></div>
-					
+				-->	
+				
+				<p>
+<a href='https://api.whatsapp.com/send?text={{ page.title }}%20{{ site.url }}{{ page.url }}' class='btn btn-success'>Bagikan ke Whatsapp</a>
+						</p>
+				
 					<div class='form-group'>
 						<label for='komentar-wa'>Komentar Whatsapp:</label>
 						<textarea id='komentar-wa' class='form-control wa-teks' rows='5' placeholder='Masukkan komentarmu di sini'></textarea>
