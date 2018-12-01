@@ -1,4 +1,4 @@
-title: "Zen | Blogspot Template Creator | Web Dev | Android Dev | 081545143654"
+title: "Zen | blog psikologi"
 
 permalink: /:year/:month/:day/:title/
 
@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
   
 name: Zen
-description: Developer
+description: Blogger Psikologi
 url: http://muhammadzaini.com
 
 timezone: Asia/Makassar
