@@ -1,5 +1,6 @@
 ---
 category: renungan
+image: /gambar/hampa.jpg
 ---
 
 Hampaaaa.... 😖
