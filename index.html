@@ -9,6 +9,7 @@ layout: default
 			<a href="/kategori/{{ post.category }}" class="badge">{{ post.category }}</a>
 		</div>
 		<div class="panel-body">
+			<img src='{{ post.image }}'>
 			{{ post.excerpt }}
 			<p><em>&mdash; {{ post.date | date_to_long_string }}</em></p>
 		</div>
