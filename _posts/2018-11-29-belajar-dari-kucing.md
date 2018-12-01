@@ -12,3 +12,4 @@ Tapi lah, manusia itu diciptakan sepaket dengan nafsu yang berada di dalamnya. D
 
 Buset dah. Aku ngomong apa. Hahahaha...
 
+Jadi kan maksudnya gini ya. Coba deh kita ingat lagi, apa sih tujuan manusia itu diciptakan? Tentu saja untuk beribadah kan? Untuk taat kepada-Nya? Nah, karena nafsu yang ada pada diri manusia lah akhirnya manusia itu membangkang dan melampaui batas.
