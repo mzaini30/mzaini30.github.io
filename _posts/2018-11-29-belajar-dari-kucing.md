@@ -8,4 +8,7 @@ Allah kan mengatakan bahwa manusia itu adalah makhluk yang sempurna:
 
 > Sesungguhnya Kami menciptakan manusia dalam bentuk yang sebaik-baiknya.
 
-Tapi lah, manusia itu diciptakan sepaket dengan nafsu yang berada di dalamnya. Dengan nafsu itulah manusia 
+Tapi lah, manusia itu diciptakan sepaket dengan nafsu yang berada di dalamnya. Dengan nafsu itulah manusia akhirnya melakukan segala sesuatu yang seharusnya nggak dia lakukan.
+
+Buset dah. Aku ngomong apa. Hahahaha...
+
