@@ -2,7 +2,7 @@ var CACHE_NAME = 'zen-cache';
 var urlsToCache = [
     '/bin/bootstrap/css/bootstrap.min.css',
     '/bin/bootstrap/js/bootstrap.min.js',
-    '/bin/pygment/default.css',
+    // '/bin/pygment/default.css',
     '/bin/jquery.min.js',
     '/bin/lunr.min.js',
     '/bin/ResizeSensor.min.js',
