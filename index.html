@@ -13,6 +13,9 @@ layout: default
 			{{ post.excerpt }}
 			<p><em>&mdash; {{ post.date | date_to_long_string }}</em></p>
 		</div>
+		<div class='panel-footer'>
+		  <a class='btn btn-default' href='{{ post.url }}'>Laanjutkan membaca &rarr;</a>
+		</div>
 	</div>
 {% endfor %}
 
