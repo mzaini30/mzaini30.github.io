@@ -5,7 +5,7 @@ layout: kosongan
 <div class="row">
 	<div class="col-sm-8 theia">
 		<div class="theiaStickySidebar">
-			{% for post in site.posts %}
+			{% for post in site.posts | limit: 10 %}
 				{% if post.category == page.title %}
 					<div class="panel panel-default">
 						<div class="panel-heading list-group-item">
@@ -13,7 +13,8 @@ layout: kosongan
 							<div class="badge">{{ post.category }}</div>
 						</div>
 						<div class="panel-body">
-							{{ post.excerpt }}
+  <img src='{{ post.image }}'>
+				{{ post.excerpt }}
 							<p><em>&mdash; {{ post.date | date_to_long_string }}</em></p>
 						</div>
 					</div>
