@@ -23,4 +23,4 @@ Sahabat, mari kita merenung sejenak.... 😊
 
 ...
 
-Memang terkadang kita memerlukan sunyi untuk memberi kita energi. Namun, jangan sampai kesunyian ini membuat kita merasa hampa
+Memang terkadang kita memerlukan sunyi untuk memberi kita energi. Namun, jangan sampai kesunyian ini membuat kita merasa hampa. Seharusnya, sunyi ini adalah wadah bagi kita untuk mengumpulkan energi ketika kita akan siap bersemangat ketika bertemu keramaian. Semangaaaaat 🐯🐯🐯

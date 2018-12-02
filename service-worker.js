@@ -10,8 +10,8 @@ var urlsToCache = [
     '/gambar/404.png',
     '/favicon.ico',
     '/messenger.png',
-    '//twemoji.maxcdn.com/2/twemoji.min.js?11.2',
-    '/gambar/play store.png'
+    '//twemoji.maxcdn.com/2/twemoji.min.js?11.2'
+    // '/gambar/play store.png'
 ];
 console.log('loading sw');
 
