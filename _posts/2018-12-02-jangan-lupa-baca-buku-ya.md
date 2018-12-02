@@ -1,5 +1,6 @@
 ---
 category: renungan
+image: /gambar2/20151006165136-introvert-reading-books-.jpeg
 ---
 
 Manusia adalah makhluk yang unik. Kita berbeda dengan makhluk lainnya. Kalau makhluk lainnya kan, kerjaannya cuma makan, minum, kawin, gituuuuu terus. Nah, masak sih kita sama? 😐
