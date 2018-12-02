@@ -1,5 +1,5 @@
 ---
-image: http://2.bp.blogspot.com/_-bWnbgwS7Ng/TS_z486JecI/AAAAAAAAAFY/J8J02-ZoWUU/s1600/DEKAT%2BDENGAN%2BALLH.jpg
+image: /gambar2/DEKAT DENGAN ALLH.jpg
 category: behavior
 ---
 
