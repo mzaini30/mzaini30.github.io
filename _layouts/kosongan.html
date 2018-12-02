@@ -4,6 +4,13 @@
 	<!-- <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title> -->
 	<!-- == seo == -->
 	{% seo %}
+	<script type="text/javascript">
+		if ("serviceWorker" in navigator) {
+		    window.addEventListener("load", function () {
+		        navigator.serviceWorker.register("/service-worker.js");
+		    });
+		}
+	</script>
 	<link rel="manifest" href="/manifest.json">
 	<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed" />
 	<meta charset="utf-8">
