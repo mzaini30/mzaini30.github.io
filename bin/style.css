@@ -34,5 +34,10 @@ img {
 }
 
 .emoji {
-	width: 14px;
+	width: 21px;
+}
+@media (max-width: 768px) {
+	.emoji {
+		width: 16px;
+	}
 }
