@@ -8,6 +8,8 @@ var urlsToCache = [
     '/bin/ResizeSensor.min.js',
     '/bin/theia-sticky-sidebar.min.js',
     '/gambar/404.png',
+    '/favicon.ico',
+    '/messenger.png',
     '/gambar/play store.png'
 ];
 console.log('loading sw');
