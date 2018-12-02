@@ -1,0 +1,1 @@
+Selama ini kan yang kita tau, ekstrovert itu orangnya terbuka sedangkan introvert tertutup. Orang ekstrovert itu pandai bergaul dengan orang lain sedangkan orang-orang introvert
