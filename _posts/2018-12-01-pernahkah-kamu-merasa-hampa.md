@@ -1,6 +1,6 @@
 ---
 category: renungan
-image: /gambar/hampa.jpg
+image: http://www.cahayaislam.id/wp-content/uploads/kenapa-hampa.jpg
 ---
 
 Hampaaaa.... 😖
