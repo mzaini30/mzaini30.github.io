@@ -22,3 +22,5 @@ Buku itu unik ya. Kita nggak perlu media elektronik untuk menyetelnya. Membacany
 Mmmm... kalau dibilang kapan waktu yang tepat, pastinya kan tiap orang beda-beda ya. Selain karena mood membacanya nggak dapet, kita juga punya banyak kesibukan yang harus kita jalani. So, kita pun jangan sampai melalaikan berbagai kewajiban yang harus kita lakukan yaaa...
 
 Bagusnya sih malam. Pas kita udah santai gitu.
+
+Nggak cuma baca buku aja sih kalau malam. Ya Facebookan juga, main blog juga, intinya yang santai-santai lah. Nah, begitu matahari muncul, kita harus semangat bekerja. Ganbatteeeee 😘
