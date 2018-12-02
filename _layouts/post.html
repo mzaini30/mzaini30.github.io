@@ -11,9 +11,11 @@ layout: kosongan
 					<a class="badge" href="/kategori/{{ page.category }}">{{ page.category }}</a>
 				</div>
 				<div class="panel-body">
-				<p><img class="sampul" src='{{ page.image }}'></p>
-					{{ content }}
-					<p><em>&mdash; {{ page.date | date_to_long_string }}</em></p>
+					<div class="medium">
+						<p><img class="sampul" src='{{ page.image }}'></p>
+						{{ content }}
+						<p><em>&mdash; {{ page.date | date_to_long_string }}</em></p>
+					</div>
 					<!--
 					<div class="form-group"><label for="link">Link Artikel Ini:</label> <input id="link" class="form-control" type="text" value="{{ site.url }}{{ page.url }}"/></div>
 				-->	

@@ -1,0 +1,130 @@
+.medium,
+pre code.language-teks {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    /*font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;*/
+}
+
+.medium h1,
+.medium h2,
+.medium h3,
+.medium h4,
+.medium h5,
+.medium h6,
+.medium p,
+.medium li,
+pre code.language-teks {
+    margin: 0;
+}
+
+.medium h1,
+.medium h2,
+.medium h3,
+.medium h4,
+.medium h5,
+.medium h6 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    /*font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;*/
+    font-weight: bold;
+}
+
+.medium h1 {
+    font-size: 40px;
+    letter-spacing: -1.12px;
+    line-height: 41.6px;
+    margin-top: 40px;
+}
+
+.medium h2 {
+    font-size: 32px;
+    letter-spacing: -0.64px;
+    line-height: 36.8px;
+    line-height: 36.8px;
+    /*margin-top: 56px;*/
+    margin-top: 40px;
+}
+
+.medium h3,
+.medium h4,
+.medium h5,
+.medium h6 {
+    font-size: 24px;
+    letter-spacing: -0.432px;
+    line-height: 29.28px;
+    margin-top: 40px;
+}
+
+.medium p,
+.medium li {
+    font-size: 21px;
+    letter-spacing: -0.063px;
+    line-height: 33.18px;
+    margin-top: 30px;
+}
+
+pre code.language-teks {
+    font-size: 21px;
+    letter-spacing: -0.063px;
+    line-height: 33.18px;
+}
+
+pre {
+    margin-top: 30px;
+}
+
+.medium h1.judul {
+    margin-top: 30px;
+}
+
+.medium blockquote {
+    margin-top: 30px;
+}
+
+.medium blockquote p {
+    margin-top: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.medium .related p {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .medium h1 {
+        font-size: 35px;
+        margin-top: 35px;
+    }
+    .medium h2 {
+        font-size: 27px;
+        /*margin-top: 51px;*/
+        margin-top: 35px;
+    }
+    .medium h3,
+    .medium h4,
+    .medium h5,
+    .medium h6 {
+        font-size: 19px;
+        margin-top: 35px;
+    }
+    .medium p,
+    .medium li {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    pre code.language-teks {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    pre {
+        margin-top: 25px;
+    }
+    .medium h1.judul {
+        margin-top: 25px;
+    }
+    .medium blockquote {
+        margin-top: 25px;
+    }
+    .medium blockquote p {
+        margin-top: 0;
+    }
+}
