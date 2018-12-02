@@ -10,6 +10,10 @@ body {
 img {
 	max-width: 100%;
 }
+.sampul {
+	display: block;
+	margin: auto;
+}
 .navbar-header,
 .navbar-brand {
 	text-align: center;
