@@ -1,0 +1,15 @@
+{
+  "short_name": "Zen",
+  "name": "Blog Psikologi",
+  "icons": [
+    {
+      "src": "https://www.muhammadzaini.com/favicon.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "theme_color": "#67BCFF",
+  "display": "standalone",
+  "start_url": "/?utm_source=homescreen"
+}
