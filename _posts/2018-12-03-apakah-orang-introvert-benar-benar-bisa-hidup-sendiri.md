@@ -7,3 +7,4 @@ Selama ini kan yang kita tau, ekstrovert itu orangnya terbuka sedangkan introver
 
 Bisa jadi 😂😂😂
 
+Tapi bukan berarti orang-orag ekstrovert lebih unggul daripada introvert begitu 
