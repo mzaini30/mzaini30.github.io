@@ -10,7 +10,8 @@ body {
 img {
 	max-width: 100%;
 }
-.sampul {
+.sampul,
+img:not(.emoji) {
 	display: block;
 	margin: auto;
 }
