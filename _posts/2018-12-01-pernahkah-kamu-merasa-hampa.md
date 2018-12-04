@@ -9,7 +9,7 @@ Pernahkah kamu merasakan sekaliiii aja rasa hampa itu? Seperti apa rasanya? Apak
 
 Sejauh mana rasa hampamu? Sejauh mana rasa kehilanganmuuu?
 
-Kamu merasa sendiri?
+Kamu merasa sendiri? 😥😨
 
 😖
 
@@ -24,3 +24,5 @@ Sahabat, mari kita merenung sejenak.... 😊
 ...
 
 Memang terkadang kita memerlukan sunyi untuk memberi kita energi. Namun, jangan sampai kesunyian ini membuat kita merasa hampa. Seharusnya, sunyi ini adalah wadah bagi kita untuk mengumpulkan energi ketika kita akan siap bersemangat ketika bertemu keramaian. Semangaaaaat 🐯🐯🐯
+
+> Akan selalu ada orang-orang yang membantumu bangkit dari keterpurukan 😊
