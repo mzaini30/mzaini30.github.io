@@ -10,6 +10,21 @@
 	margin-bottom: 0;
 }
 
+.ellipsis {
+    display: -webkit-flex;
+    display: flex;
+}
+.ellipsis .ellipsis-item {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ellipsis .badge {
+    margin: 1px 0 1px 4px;
+}
+
 .online {
 	position: fixed;
 	bottom: 52px;
