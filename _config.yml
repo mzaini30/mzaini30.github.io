@@ -18,12 +18,6 @@ author:
   
 timezone: Asia/Makassar
 
-komunitas:
-  -
-    gambar: /gambar/komunitas/blog.jpg
-    link: https://chat.whatsapp.com/KBzZzO25l1mLoEatsjHWAw
-    
-menu:
-  -
-    nama: Portofolio
-    link: http://muhammadzaini.com
+viral:
+  judul: Ada Apa dengan 212???
+  link: https://www.muhammadzaini.com/search/?query=212

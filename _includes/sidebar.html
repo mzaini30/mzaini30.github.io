@@ -2,34 +2,6 @@
 	<div class="form-group"><input name="query" type="text" placeholder="Apa yang mau kamu cari?" class="form-control"></div>
 </form>
 
-<!-- <div class="panel panel-default">
-	<div class="panel-heading">Download Aplikasi Blog Zen</div>
-	<div class="panel-body">
-		<a href="https://play.google.com/store/apps/details?id=com.mzaini30.zen" target="_blank"><img src="/gambar/play store.png"></a>
-	</div>
-</div> -->
-
-<!--
-<div class="panel panel-default">
-	<div class="panel-heading">Menu</div>
-	<div class="list-group">
-		<a href="http://muhammadzaini.com" class="list-group-item">Portofolio</a>
-	</div>
-</div>
--->
-
-<!--
-<div class="panel panel-default">
-	<div class="panel-heading">Menu</div>
-	<div class="list-group">
-		{% assign list_menu = site.menu | sort: "nama" %}
-		{% for x in list_menu %}
-			<a target='_blank' href="{{ x.link }}" style='text-transform: capitalize;' class="list-group-item">{{ x.nama }}</a>
-		{% endfor %}
-	</div>
-</div>
--->
-
 <div class="panel panel-default">
 	<div class="panel-heading">Kategori</div>
 	<div class="list-group">
@@ -39,17 +11,6 @@
 		{% endfor %}
 	</div>
 </div>
-
-<!--
-<div class="panel panel-default">
-	<div class="panel-heading">Komunitas</div>
-	<div class="list-group">
-		{% for x in site.komunitas %}
-			<a {% if x.link %}href="{{ x.link }}"{% endif %} class="list-group-item" target='_blank'><img src='{{ x.gambar }}'></a>
-		{% endfor %}
-	</div>
-</div>
--->
 
 <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
