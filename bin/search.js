@@ -3,19 +3,19 @@
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
-      var appendString = '';
+      var appendString = '<div class="panel panel-default">  <div class="panel-body">Kata kunci: ' + location.search.slice(7).replace(/\+/g, ' ') + '</div></div>';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
         appendString += '<div class="panel panel-default">';
         appendString += '<div class="panel-heading list-group-item"><a href="' + item.url + '">' + item.title + '</a> <a href="/kategori/' + item.category + '" class="badge">' + item.category + '</a></div>';
-        appendString += '<div class="panel-body"><p><img class="sampul" src="' + item.image + '"></p>' + item.content.substring(0, 150) + '...</div>';
+        appendString += '<div class="panel-body"><p><img class="sampul" src="' + item.image + '"></p>' + item.content.substring(0, 150) + '</div><div class="panel-footer"><a class="btn btn-default" href="' + item.url + '">Lanjutkan membaca &rarr;</a></div>';
         appendString += '</div>';
       }
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<div class="panel panel-warning">  <div class="panel-body">Nggak ketemu</div></div>';
+      searchResults.innerHTML = '<div class="panel panel-warning">  <div class="panel-body">Tulisan yang kamu cari nggak ketemu.</div></div>';
     }
   }
 
