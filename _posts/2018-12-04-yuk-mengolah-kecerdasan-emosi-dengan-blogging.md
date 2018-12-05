@@ -12,3 +12,6 @@ Oke, sebelumnya kita pahami dulu ya, apa sih emosi itu? Nah, kita nggak pakai te
 
 Udah ketemu jawabannya? 😐
 
+Jadi emosi itu lah segala hal.yang kita rasakan, seperti marah, sedih, bahagia, kesal, galau, dan lain sebagainya.
+
+Nah, emosi-emosi ini kalau nggak disalurkan dengan benar, jadinya merusak loh. Makanya, blogging dinilai bisa menetralisir emosi-emosi tersebut ☺😉
