@@ -9,7 +9,7 @@
         var item = store[results[i].ref];
         appendString += '<div class="panel panel-default">';
         appendString += '<div class="panel-heading list-group-item"><a href="' + item.url + '">' + item.title + '</a> <a href="/kategori/' + item.category + '" class="badge">' + item.category + '</a></div>';
-        appendString += '<div class="panel-body">' + item.content.substring(0, 150) + '...</div>';
+        appendString += '<div class="panel-body"><p><img class="sampul" src="' + item.image + '"></p>' + item.content.substring(0, 150) + '...</div>';
         appendString += '</div>';
       }
 
