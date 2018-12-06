@@ -42,3 +42,5 @@ self.addEventListener('fetch', function(event) {
             )
     );
 });
+
+importScripts('https://cdn.pushassist.com/account/assets/service-workers/mzaini30-service-worker.js');
