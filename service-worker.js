@@ -1,4 +1,4 @@
-var CACHE_NAME = 'zen-cache';
+var CACHE_NAME = 'zen2-cache';
 var urlsToCache = [
     '/bin/bootstrap/css/bootstrap.min.css',
     '/bin/bootstrap/js/bootstrap.min.js',
