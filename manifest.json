@@ -11,9 +11,5 @@
   "background_color": "#FFFFFF",
   "theme_color": "#67BCFF",
   "display": "standalone",
-  "start_url": "/?utm_source=homescreen",
-
-  "permissions": ["notifications","gcm"],
-  "gcm_sender_id": "703280822050",
-  "gcm_user_visible_only": true
+  "start_url": "/?utm_source=homescreen"
 }
