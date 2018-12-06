@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title> -->
-	<!-- == seo == -->
 	{% seo %}
 	<link rel="manifest" href="/manifest.json">
 	<script type="text/javascript">
-		// if ("serviceWorker" in navigator) {
-		//     window.addEventListener("load", function () {
-		//         navigator.serviceWorker.register("/service-worker.js");
-		//     });
-		// }
 		if ('serviceWorker' in navigator) {
 		    navigator.serviceWorker.register('/service-worker.js', {
 		        scope: '.' // <--- THIS BIT IS REQUIRED
@@ -24,18 +17,7 @@
 		}
 	</script>
 
-<!-- 	<script type="text/javascript">
-		(function(p,u,s,h){
-			p._pcq=p._pcq||[];
-			p._pcq.push(['_currentTime',Date.now()]);
-			s=u.createElement('script');
-			s.type='text/javascript';
-			s.async=true;
-			s.src='https://cdn.pushcrew.com/js/5e4b816a7ed6c76bd49bd0d3837bf9da.js';
-			h=u.getElementsByTagName('script')[0];
-			h.parentNode.insertBefore(s,h);
-		})(window,document);
-	</script> -->
+	<script src="https://cdn.pushassist.com/account/assets/psa-mzaini30.js" async="async"></script>
 
 	<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed" />
 	<meta charset="utf-8">
