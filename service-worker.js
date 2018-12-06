@@ -1,4 +1,4 @@
-var CACHE_NAME = 'zen2-cache';
+var CACHE_NAME = 'zen-cache';
 var urlsToCache = [
     '/bin/bootstrap/css/bootstrap.min.css',
     '/bin/bootstrap/js/bootstrap.min.js',
@@ -9,7 +9,7 @@ var urlsToCache = [
     '/bin/theia-sticky-sidebar.min.js',
     '/gambar/404.png',
     '/favicon.ico',
-    '/messenger.png',
+    // '/messenger.png',
     '//twemoji.maxcdn.com/2/twemoji.min.js?11.2'
     // '/gambar/play store.png'
 ];
