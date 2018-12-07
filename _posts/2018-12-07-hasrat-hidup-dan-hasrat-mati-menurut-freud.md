@@ -30,4 +30,10 @@ Apa yang menyebabkan masalah mereka menjadi lebih besar? Tentu saja karena nggak
 
 > Catatan: Sebagai orangtua, terimalah segala permasalahan anak, jangan dihakimi sehingga mereka sungkan untuk curhat lagi; karena kamulah orang yang paling dipercaya olehnya untuk menyimpan segala rahasianya rapat-rapat.
 
-Karena nggak ada yang mau 
+Karena nggak ada yang mau mendengarkan, nggak ada yang mau menjadi "tempat sampah" atas segala permasalahan yang dialaminya, maka permasalahan yang kelihatannya "sederhana", semakin lama semakin membesar sehingga tubuhnya yang renta dan jiwanya yang rapuh, tak sanggup lagi menampungnya...
+
+...hingga akhirnya **_meledak!!!_**
+
+So, jadi tau kan cara mencegah orang yang akan bunuh diri? Kamu pasti bisa sebagai "pertolongan pertama" ketika ada orang yang mau bunuh diri, berikutnya, serahkan ke profesional yang dapat membantunya, yaitu psikolog, psikiater, penggiat kesehatan mental, ulama, tokoh agama. So, jangan dibiarkan saja ketika hal itu akan terjadi. Ketika itu terjadi...
+
+...kitapun akan merasa _sangat_ bersalah!!!
