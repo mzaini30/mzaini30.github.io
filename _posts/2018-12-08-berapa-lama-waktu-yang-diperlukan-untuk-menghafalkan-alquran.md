@@ -11,3 +11,4 @@ Walaupun awal-awalnya susah, ketika pas awal-awal, seharian tuh ngapalinnya, cum
 
 Mantap.
 
+Jadi intinya lah, semakin lama kita belajar fokus, maka akan semakin meningkat kemampuan kita.
