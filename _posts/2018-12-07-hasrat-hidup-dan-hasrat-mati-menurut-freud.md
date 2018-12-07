@@ -1,6 +1,7 @@
 ---
 # eros dan tanatos, freud
 category: soul
+image: /gambar3/Soul-Retrieval.jpg
 ---
 
 Eros dan tanatos, hasrat hidup dan hasrat mati. Dua hasrat inilah yang saling bertolak belakang menguasai alam bawah sadar kita 😔 Kalau pas **eros** (hasrat hidup) yang menguasai, maka berkuranglah **tanatos** (hasrat mati), begitu pula sebaliknya. Kalau tanatos yang menguasai, maka berkuranglah erosnya 😲
