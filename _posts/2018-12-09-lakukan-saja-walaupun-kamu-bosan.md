@@ -1,5 +1,6 @@
 ---
 category: behavior
+image: /gambar3/aa082d0cf7c60a28026e9c8b15d20d2b.jpg
 ---
 
 Apa sih kenikmatan yang lebih nikmat dibandingkan melakukan kebaikan? 
