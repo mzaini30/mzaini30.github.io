@@ -4,11 +4,11 @@ category: mind
 image: /gambar3/file-20180509-34021-1t9q8r0.jpg
 ---
 
-Apa yang kamu lihat ketika menghadapi sebuah tugas? Apakah kamu akan mengerjakan tugas itu hanya sesuai dengan instruksi yang ada? Atau kamu akan mencoba untuk melakukan lebih baik?
+Apa yang kamu lihat ketika menghadapi sebuah tugas? 😐 Apakah kamu akan mengerjakan tugas itu hanya sesuai dengan instruksi yang ada? 😕 Atau kamu akan mencoba untuk melakukan lebih baik? 😊
 
-Terkadang, yang diharapkan oleh orang-orang adalah yang lebih baik dibandingkan instruksi yang diterima. Ibaratnya itu lah, instruksi yang diterima itu hanyalah standard minimal, bukan standard yang diterima oleh orang-orang. Nah, gimana caranya supaya kita paham apa yang diinginkan oleh orang-orang? Tentu saja dengan interaksi.
+Terkadang, yang diharapkan oleh orang-orang adalah yang **lebih baik** dibandingkan instruksi yang diterima. Ibaratnya itu lah, instruksi yang diterima itu hanyalah standard minimal, bukan standard yang diterima oleh orang-orang. Nah, gimana caranya supaya kita paham apa yang diinginkan oleh orang-orang? Tentu saja dengan interaksi 😉
 
-Jangan pelit-pelit deh meluangkan waktu dengan orang lain untuk mengobrol, bercanda, bercakap ria. Bukannya melakukan hal yang nggak guna ya. Justru hal-hal yang dianggap sia-sia itu berguna banget, tentu saja dalam memahami bahasa nonverbal yang orang-orang sampaikan.
+Jangan pelit-pelit deh meluangkan waktu dengan orang lain untuk mengobrol, bercanda, bercakap ria. Bukannya melakukan hal yang nggak guna ya. Justru hal-hal yang dianggap sia-sia itu berguna banget, tentu saja dalam memahami bahasa nonverbal yang orang-orang sampaikan 😎
 
 > Karena, dalam kehidupan kita ini, 80% adalah nonverbal, sedangkan verbal hanya 20%.
 
