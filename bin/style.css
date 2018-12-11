@@ -2,6 +2,14 @@
   word-wrap: break-word;
 }
 
+table.ranking tr:first-child td {
+	border-top: none;
+}
+
+.judul-ranking {
+	width: 52.8px;
+}
+
 #onesignal-bell-launcher {
 	bottom: 70px !important;
 }
