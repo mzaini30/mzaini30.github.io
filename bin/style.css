@@ -2,7 +2,7 @@
   word-wrap: break-word;
 }
 
-table.ranking tr:first-child td {
+table.ranking tr td {
 	border-top: none;
 }
 
