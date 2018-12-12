@@ -1,14 +1,14 @@
 ---
 # cebong vs kampret lucu
-category: heran
-image: /gambar3/Kaum Cebong.png
+
+image: https://www.muhammadzaini.com/gambar3/Kaum Cebong.png
 ---
 
-> Aku nggak suka dengan penggunaan istilah cebong dan kampret 😐
+> Aku nggak suka dengan penggunaan istilah cebong dan kampret 
 
-Walau bagaimanapun juga ya, cebong atau kampret, mereka adalah manusia,  bukan hewan. Mereka adalah saudara kita. Nggak beradab banget ya kalau kita menyebut saudara kita dengan sebutan yang buruk!!! 😥
+Walau bagaimanapun juga ya, cebong atau kampret, mereka adalah manusia,  bukan hewan. Mereka adalah saudara kita. Nggak beradab banget ya kalau kita menyebut saudara kita dengan sebutan yang buruk!!! 
 
-Sebelumnya maaf kepada para pengunjung setiaku karena hari ini aku bahas politik. Maaaaaf 😖 Tapi ini penting banget yaaaaa.
+Sebelumnya maaf kepada para pengunjung setiaku karena hari ini aku bahas politik. Maaaaaf Tapi ini penting banget yaaaaa.
 
 # Siapakah Mereka Cebong dan Siapakah Kampret?
 
@@ -36,4 +36,4 @@ Mengapa orang-orang alergi dengan jihad? Khususnya para elit politik yang alergi
 
 > Hukum mana lagi yang lebih sempurna daripada hukum yang diturunkan langsung oleh Tuhan kita?
 
-Sampai mana kita bahasnya tadi ya? 😐 Sorry ya, suka bahas ke mana-mana eh kalau bekisah. Ya, banyak banget kegelisahan soanya. Hahahaha 😂😂😂
+Sampai mana kita bahasnya tadi ya?  Sorry ya, suka bahas ke mana-mana eh kalau bekisah. Ya, banyak banget kegelisahan soanya. Hahahaha 
