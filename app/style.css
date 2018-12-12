@@ -13,6 +13,10 @@ img {
 	margin: auto;
 }
 
+.medium blockquote {
+	border-left-color: rgb(63, 81, 181);
+}
+
 main {
 	flex: 1 0 auto;	
 }
