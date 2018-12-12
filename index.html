@@ -4,7 +4,7 @@ layout: default
 
 <div class="jarak"></div>
 <div class="row">
-	{% for x in site.posts %}
+	{% for x in paginator.posts %}
 		<div class="col s12 m3">
 			<a href="{{ x.url }}">
 				<div class="card">
