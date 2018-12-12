@@ -6,12 +6,9 @@
 {% endif %}
 {% if page.title %}
   <meta content="article" property="og:type">
+  <meta content="{{ page.excerpt }}" property="og:description">
 {% else %}
   <meta content="website" property="og:type">
-{% endif %}
-{% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
-{% else %}
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
 {% if page.url %}
