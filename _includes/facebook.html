@@ -19,12 +19,12 @@
 {% endif %}
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
+  <meta content="{{ site.url }}/2018/12/12/about-me.html" property="article:author">
 {% endif %}
 {% if page.image %}
-  <meta content="/img/srcset/{{ page.image }}" property="og:image">
+  <meta content="{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="/img/logo-high-resolution.png" property="og:image">
+  <meta content="https://i.pinimg.com/736x/6e/a0/39/6ea039696ce09750c7387d4439fa5f5d--anime-style-anime-kawaii.jpg" property="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
