@@ -4,6 +4,15 @@ body {
 	flex-direction: column;
 }
 
+img {
+	max-width: 100%;
+}
+
+.medium img {
+	display: block;
+	margin: auto;
+}
+
 main {
 	flex: 1 0 auto;	
 }
