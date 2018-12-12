@@ -22,132 +22,158 @@ layout: default
 	</div>
 	<div class="desktop">
 		<div class="col s12 m3">
-			<a href="{{ paginator.posts[0].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[0].image }}">
+			{% if paginator.posts[0] %}
+				<a href="{{ paginator.posts[0].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[0].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[0].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[0].title }}</div>
+				</a>
+			{% endif %}
+			{% if paginator.posts[4] %}
+				<a href="{{ paginator.posts[4].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[4].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[4].title }}</div>
+						</div>
 					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[4].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[4].image }}">
+				</a>
+			{% endif %}
+			{% if paginator.posts[8] %}
+				<a href="{{ paginator.posts[8].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[8].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[8].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[4].title }}</div>
-					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[8].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[8].image }}">
-					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[8].title }}</div>
-					</div>
-				</div>
-			</a>
+				</a>
+			{% endif %}
 		</div>
 		<div class="col s12 m3">
-			<a href="{{ paginator.posts[1].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[1].image }}">
+			{% if paginator.posts[1] %}
+				<a href="{{ paginator.posts[1].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[1].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[1].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[1].title }}</div>
+				</a>
+			{% endif %}
+			{% if paginator.posts[5] %}
+				<a href="{{ paginator.posts[5].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[5].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[5].title }}</div>
+						</div>
 					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[5].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[5].image }}">
+				</a>
+			{% endif %}
+			{% if paginator.posts[9] %}
+				<a href="{{ paginator.posts[9].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[9].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[9].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[5].title }}</div>
-					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[9].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[9].image }}">
-					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[9].title }}</div>
-					</div>
-				</div>
-			</a>
+				</a>
+			{% endif %}
 		</div>
 		<div class="col s12 m3">
-			<a href="{{ paginator.posts[2].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[2].image }}">
+			{% if paginator.posts[2] %}
+				<a href="{{ paginator.posts[2].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[2].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[2].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[2].title }}</div>
+				</a>
+			{% endif %}
+			{% if paginator.posts[6] %}
+				<a href="{{ paginator.posts[6].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[6].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[6].title }}</div>
+						</div>
 					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[6].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[6].image }}">
+				</a>
+			{% endif %}
+			{% if paginator.posts[10] %}
+				<a href="{{ paginator.posts[10].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[10].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[10].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[6].title }}</div>
-					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[10].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[10].image }}">
-					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[10].title }}</div>
-					</div>
-				</div>
-			</a>
+				</a>
+			{% endif %}
 		</div>
 		<div class="col s12 m3">
-			<a href="{{ paginator.posts[3].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[3].image }}">
+			{% if paginator.posts[3] %}
+				<a href="{{ paginator.posts[3].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[3].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[3].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[3].title }}</div>
+				</a>
+			{% endif %}
+			{% if paginator.posts[7] %}
+				<a href="{{ paginator.posts[7].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[7].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[7].title }}</div>
+						</div>
 					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[7].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[7].image }}">
+				</a>
+			{% endif %}
+			{% if paginator.posts[11] %}
+				<a href="{{ paginator.posts[11].url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ paginator.posts[11].image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ paginator.posts[11].title }}</div>
+						</div>
 					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[7].title }}</div>
-					</div>
-				</div>
-			</a>
-			<a href="{{ paginator.posts[11].url }}">
-				<div class="card">
-					<div class="card-image">
-						<img src="{{ paginator.posts[11].image }}">
-					</div>
-					<div class="card-content black-text">
-						<div class="">{{ paginator.posts[11].title }}</div>
-					</div>
-				</div>
-			</a>
+				</a>
+			{% endif %}
 		</div>
 	</div>
 </div>
+{% if paginator.next_page %}<center><a href="{{ paginator.next_page_path }}" class="btn">Next &rarr;</a></center>{% endif %}
+<br>
