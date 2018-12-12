@@ -4,7 +4,7 @@
 image: https://www.muhammadzaini.com/gambar3/Soul-Retrieval.jpg
 ---
 
-Eros dan tanatos, hasrat hidup dan hasrat mati. Dua hasrat inilah yang saling bertolak belakang menguasai alam bawah sadar kita 😔 Kalau pas **eros** (hasrat hidup) yang menguasai, maka berkuranglah **tanatos** (hasrat mati), begitu pula sebaliknya. Kalau tanatos yang menguasai, maka berkuranglah erosnya 
+Eros dan tanatos, hasrat hidup dan hasrat mati. Dua hasrat inilah yang saling bertolak belakang menguasai alam bawah sadar kita. Kalau pas **eros** (hasrat hidup) yang menguasai, maka berkuranglah **tanatos** (hasrat mati), begitu pula sebaliknya. Kalau tanatos yang menguasai, maka berkuranglah erosnya 
 
 Seberapa pentingkah kita memahami ini? Tentu saja sangat penting  Bayangkan aja, orang-orang yang dikuasai oleh tanatos, maka kemungkinan besar, dia akan mengakhiri hidupnya dengan **bunuh diri**!!! 
 
