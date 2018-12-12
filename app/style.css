@@ -2,6 +2,11 @@ nav .brand-logo {
 	font-size: 14px;
 }
 
+.jarak {
+	width: 100%;
+	height: 10px;
+}
+
 .grid-item { 
 	width: 200px; 
 }
