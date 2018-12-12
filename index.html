@@ -4,18 +4,150 @@ layout: default
 
 <div class="jarak"></div>
 <div class="row">
-	{% for x in paginator.posts %}
+	<div class="mobile">
+		{% for x in paginator.posts %}
+			<div class="col s12 m3">
+				<a href="{{ x.url }}">
+					<div class="card">
+						<div class="card-image">
+							<img src="{{ x.image }}">
+						</div>
+						<div class="card-content black-text">
+							<div class="">{{ x.title }}</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+	<div class="desktop">
 		<div class="col s12 m3">
-			<a href="{{ x.url }}">
+			<a href="{{ paginator.posts[0].url }}">
 				<div class="card">
 					<div class="card-image">
-						<img src="{{ x.image }}">
+						<img src="{{ paginator.posts[0].image }}">
 					</div>
 					<div class="card-content black-text">
-						<div class="">{{ x.title }}</div>
+						<div class="">{{ paginator.posts[0].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[4].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[4].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[4].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[8].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[8].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[8].title }}</div>
 					</div>
 				</div>
 			</a>
 		</div>
-	{% endfor %}
+		<div class="col s12 m3">
+			<a href="{{ paginator.posts[1].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[1].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[1].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[5].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[5].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[5].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[9].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[9].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[9].title }}</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="col s12 m3">
+			<a href="{{ paginator.posts[2].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[2].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[2].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[6].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[6].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[6].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[10].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[10].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[10].title }}</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="col s12 m3">
+			<a href="{{ paginator.posts[3].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[3].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[3].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[7].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[7].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[7].title }}</div>
+					</div>
+				</div>
+			</a>
+			<a href="{{ paginator.posts[11].url }}">
+				<div class="card">
+					<div class="card-image">
+						<img src="{{ paginator.posts[11].image }}">
+					</div>
+					<div class="card-content black-text">
+						<div class="">{{ paginator.posts[11].title }}</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
 </div>

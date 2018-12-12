@@ -6,3 +6,19 @@ nav .brand-logo {
 	width: 100%;
 	height: 10px;
 }
+
+.mobile {
+	display: none;
+}
+.desktop {
+	display: block;
+}
+
+@media (max-width: 600px){
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+}
