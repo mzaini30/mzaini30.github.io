@@ -1,3 +1,7 @@
 nav .brand-logo {
 	font-size: 14px;
 }
+
+.grid-item { 
+	width: 200px; 
+}
