@@ -1,3 +1,13 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;	
+}
+
 nav .brand-logo {
 	font-size: 14px;
 }
@@ -12,6 +22,11 @@ nav .brand-logo {
 }
 .desktop {
 	display: block;
+}
+
+.page-footer a {
+	color: white;
+	font-style: italic;
 }
 
 @media (max-width: 600px){
