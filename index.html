@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="jarak"></div>
-<div class="row">
-	{% for x in site.posts %}
+{% for x in site.posts %}
+	<div class="row">
 		<div class="col s12 m3">
 			<a href="{{ x.url }}">
 				<div class="card">
@@ -17,5 +17,5 @@ layout: default
 				</div>
 			</a>
 		</div>
-	{% endfor %}
-</div>
+	</div>
+{% endfor %}
