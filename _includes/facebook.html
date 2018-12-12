@@ -1,10 +1,10 @@
 <meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
+{% if page.date %}
   <meta content="{{ page.title }}" property="og:title">
 {% else %}
   <meta content="{{ site.title }}" property="og:title">
 {% endif %}
-{% if page.title %}
+{% if page.date %}
   <meta content="article" property="og:type">
   <meta content="{{ page.content | truncatewords:50 | strip_html }}" property="og:description">
 {% else %}
