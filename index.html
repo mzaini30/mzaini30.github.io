@@ -5,11 +5,13 @@ layout: default
 <div class="jarak"></div>
 <div class="row">
 	<div class="mobile">
-		<div class="col s12 m3">
-			{% for x in paginator.posts %}
-				{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
+		{% for x in paginator.posts %}
+			{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
+				<div class="col">
 					{% include iklan-biasa.html %}
-				{% endif %}
+				</div>
+			{% endif %}
+			<div class="col s12 m3">
 				<a href="{{ x.url }}">
 					<div class="card">
 						<div class="card-image">
@@ -20,8 +22,8 @@ layout: default
 						</div>
 					</div>
 				</a>
-			{% endfor %}
-		</div>
+			</div>
+		{% endfor %}
 	</div>
 	<div class="desktop">
 		<div class="col s12 m3">
