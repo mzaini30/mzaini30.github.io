@@ -6,12 +6,10 @@ layout: default
 <div class="row">
 	<div class="mobile">
 		{% for x in paginator.posts %}
-			{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
-				<div class="col">
-					{% include iklan-biasa.html %}
-				</div>
-			{% endif %}
 			<div class="col s12 m3">
+				{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
+					{% include iklan-biasa.html %}
+				{% endif %}
 				<a href="{{ x.url }}">
 					<div class="card">
 						<div class="card-image">
