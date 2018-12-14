@@ -6,7 +6,7 @@ layout: default
 <div class="row">
 	<div class="mobile">
 		{% for x in paginator.posts %}
-			{% if paginator.posts[3] or paginator.posts[6] or paginator.posts[9] %}
+			{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
 				{% include iklan-mobile.html %}
 			{% endif %}
 			<div class="col s12 m3">
