@@ -10,7 +10,7 @@ Walau bagaimanapun juga ya, cebong atau kampret, mereka adalah manusia,  bukan h
 
 Sebelumnya maaf kepada para pengunjung setiaku karena hari ini aku bahas politik. Maaaaaf Tapi ini penting banget yaaaaa.
 
-{% iclude iklan.html %}
+{% include iklan.html %}
 
 # Siapakah Mereka Cebong dan Siapakah Kampret?
 
