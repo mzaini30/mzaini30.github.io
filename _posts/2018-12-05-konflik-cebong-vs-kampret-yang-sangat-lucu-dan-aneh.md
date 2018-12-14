@@ -10,6 +10,8 @@ Walau bagaimanapun juga ya, cebong atau kampret, mereka adalah manusia,  bukan h
 
 Sebelumnya maaf kepada para pengunjung setiaku karena hari ini aku bahas politik. Maaaaaf Tapi ini penting banget yaaaaa.
 
+{% iclude iklan.html %}
+
 # Siapakah Mereka Cebong dan Siapakah Kampret?
 
 > Mereka sama-sama saudara kita, mereka sama-sama Indonesia.
@@ -19,6 +21,8 @@ So, jangan mudah dipecah belah dan dipermusuhkan antara kita hanya karena pilpre
 Kita mau debat? Adu jotos kata? Adu opini? Yang ada malah permusuhan yaaaa. Coba lihat deh para elit politik kita kalau berdebat. Ya panas sih. Tapi habis itu kan mereka berangkulam, ketawa-ketawaan.
 
 Contohnya aja di ILC tadi malam. Yang bahas tentang korelasi antara reuni 212 dan elektabilitas (monggo dicari di Youtube kalau nggak sempat nonton tadi malam).
+
+{% include iklan.html %}
 
 # Mengapa Kita Ikutan Berkelahi?
 

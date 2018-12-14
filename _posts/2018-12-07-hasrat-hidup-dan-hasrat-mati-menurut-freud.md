@@ -18,6 +18,8 @@ Kuncinya satu: mendengarkan  So, jangan menghakimi orang yang sudah dikuasai ole
 
 Karena terkadang nasehat yang disampaikan bukan pada waktu yang tepat, bisa jadi lebih _menusuk_ daripada bunuh diri itu sendiri 
 
+{% include iklan.html %}
+
 # Apakah Masalah yang Dialaminya Itu Besar Banget?
 
 Coba deh kita dengarkan atau kita simak setiap berita yang disampaikan tentang insiden bunuh diri. Apakah masalah yang dialaminya itu besar banget? Nggak kan? Paling masalah cinta, masalah cewek, masalah dibully, masalah yaaaa masalah sehari-hari lah.

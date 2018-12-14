@@ -17,6 +17,8 @@ Kegiatan yang lain? Apa ya? Menonton video, TV, film? Mendengarkan podcast? Oke,
 
 Buku itu unik ya. Kita nggak perlu media elektronik untuk menyetelnya. Membacanya pun nggak pake suara, jadinya nggak berisik kayak nyetel mp3. Mmmm terus apa lagi ya? Menurutmu apa lagi kelebihannya? 
 
+{% include iklan.html %}
+
 # Terus, Kapan Waktu yang Tepat Buat Membaca Buku?
 
 Mmmm... kalau dibilang kapan waktu yang tepat, pastinya kan tiap orang beda-beda ya. Selain karena mood membacanya nggak dapet, kita juga punya banyak kesibukan yang harus kita jalani. So, kita pun jangan sampai melalaikan berbagai kewajiban yang harus kita lakukan yaaa...
