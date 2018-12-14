@@ -4,11 +4,13 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="/vendor/medium/medium.css">
 
-<div class="container medium">
-	<h1>{{ page.title }}</h1>
-	<br>
-	<img src="{{ page.image }}">
-	{{ content }}
+<div class="container">
+	<div class="medium">
+		<h1>{{ page.title }}</h1>
+		<br>
+		<img src="{{ page.image }}">
+		{{ content }}
+	</div>
 	<br>
 	<div class="row">
 		{% assign random = site.time | date: "%s" %}
