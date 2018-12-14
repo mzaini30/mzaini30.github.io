@@ -8,7 +8,7 @@ layout: default
 		{% for x in paginator.posts %}
 			<div class="col s12 m3">
 				{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
-					{% include iklan.html %}
+					{% include iklan-mobile.html %}
 				{% endif %}
 				<a href="{{ x.url }}">
 					<div class="card">
