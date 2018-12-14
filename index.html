@@ -6,6 +6,9 @@ layout: default
 <div class="row">
 	<div class="mobile">
 		{% for x in paginator.posts %}
+			{% if paginator.posts[3] %}
+				{% include iklan-mobile.html %}
+			{% endif %}
 			<div class="col s12 m3">
 				<a href="{{ x.url }}">
 					<div class="card">
