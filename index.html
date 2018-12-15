@@ -3,13 +3,16 @@ layout: default
 ---
 
 <div class="jarak"></div>
+{% include iklan-biasa.html %}
 <div class="row">
 	<div class="mobile">
 		{% for x in paginator.posts %}
 			<div class="col s12 m3">
 				{% if paginator.posts[3].url == x.url or paginator.posts[6].url == x.url or paginator.posts[9].url == x.url %}
 				</div></div></div>
+				<div class='mobile'>
 					{% include iklan-biasa.html %}
+				</div>
 				<div class='row'><div class="mobile"><div class="col s12 m3">
 				{% endif %}
 				<a href="{{ x.url }}">
