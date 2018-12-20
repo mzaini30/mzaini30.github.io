@@ -1,6 +1,7 @@
 ---
 # intinya creator, tentang apa yang harus dilakukan
 image: /gambar2/Creator-of-heaven-and-earth.jpg
+category: kreatif
 ---
 
 # Apa Sih Creator Itu?

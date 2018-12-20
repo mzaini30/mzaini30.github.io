@@ -1,5 +1,6 @@
 ---
 image: /gambar2/resolusi1.jpg
+category: soul
 ---
 
 2018 sebentar lagi mau selesai nih. Kira-kira, resolusi kalian di tahun 2018 ini sudah selesai semua kah? Atau belum dikerjakan sama sekali?

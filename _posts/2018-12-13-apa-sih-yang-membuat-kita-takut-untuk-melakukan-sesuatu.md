@@ -1,5 +1,6 @@
 ---
 image: /gambar2/keep-calm-and-easy-going.jpg
+category: soul
 ---
 
 Dunia ini penuh dengan segala sesuatu yang mudah. Mau shalat jamaah tinggal ke masjid. Mau makan tinggal masak. Mau nabung untuk akhirat tinggal sedekah. Dan masih banyak lagi hal-hal yang mudah untuk kita lakukan.

@@ -1,6 +1,6 @@
 ---
 # eros dan tanatos, freud
-
+category: psikologi
 image: https://www.muhammadzaini.com/gambar3/Soul-Retrieval.jpg
 ---
 

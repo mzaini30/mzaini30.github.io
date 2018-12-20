@@ -1,5 +1,6 @@
 ---
 image: /gambar2/p02vdpfn.jpg
+category: membaca
 ---
 
 Katanya sih orang Indonesia itu jarang banget membaca. Masak sih? Sebenarnya sih orang Indonesia itu rajin membaca. Eh, tapi membaca apa dulu ya? Heheheheh.

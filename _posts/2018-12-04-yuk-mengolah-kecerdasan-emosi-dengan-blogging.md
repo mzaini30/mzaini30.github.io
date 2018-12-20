@@ -1,5 +1,5 @@
 ---
-
+category: soul
 # kecerdasan emosi dengan blogging
 image: https://www.muhammadzaini.com/gambar3/female-865073_1280.jpg
 ---

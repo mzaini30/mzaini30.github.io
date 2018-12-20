@@ -2,6 +2,7 @@
 # kesadaran akan kualitas
 layout: post
 image: https://www.muhammadzaini.com/gambar3/file-20180509-34021-1t9q8r0.jpg
+category: soul
 ---
 
 Apa yang kamu lihat ketika menghadapi sebuah tugas?  Apakah kamu akan mengerjakan tugas itu hanya sesuai dengan instruksi yang ada?  Atau kamu akan mencoba untuk melakukan lebih baik? 

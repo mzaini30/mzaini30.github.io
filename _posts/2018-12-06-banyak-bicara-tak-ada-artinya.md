@@ -1,5 +1,5 @@
 ---
-
+category: soul
 image: https://www.muhammadzaini.com/gambar3/senyum.jpg
 ---
 

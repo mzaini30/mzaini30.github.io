@@ -1,5 +1,5 @@
 ---
-
+category: quran
 # waktu yang diperlukan untuk menghafalkan alquran
 image: https://www.muhammadzaini.com/gambar3/quran.jpg
 ---
