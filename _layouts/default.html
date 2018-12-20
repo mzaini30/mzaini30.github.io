@@ -36,6 +36,16 @@
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="/vendor/theia/theia-sticky-sidebar.min.js"></script>
 	<script type="text/javascript" src="/vendor/theia/ResizeSensor.min.js"></script>
+	<script type="text/javascript">
+		if (localStorage.getItem('kategori blog') === null){
+			localStorage.setItem('kategori blog', '[]')
+		}
+	</script>
+	{% if page.date %}
+		<script type="text/javascript">
+			
+		</script>
+	{% endif %}
 	<script type="text/javascript" src="/app/app.js"></script>
 </body>
 </html>

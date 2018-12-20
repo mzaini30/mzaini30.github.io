@@ -7,3 +7,18 @@ layout: default
 	<p><img src="{{ page.image }}"></p>
 	{{ content }}
 </div>
+<br>
+<table class="table table-bordered isi-postingan">
+	<tbody>
+		{% assign random = site.time | date: "%s" %}
+		{% assign acak_judul = page.title.size %}
+		{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+		{% for i in (1..3) %}
+			{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
+			<tr>
+				<td class="untuk-gambar"><a href="{{ site.posts[postingan_selanjutnya].url }}"><img src="{{ site.posts[postingan_selanjutnya].image }}" alt=""></a></td>
+				<td><a href="{{ site.posts[postingan_selanjutnya].url }}">{{ site.posts[postingan_selanjutnya].title }}</a></td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
