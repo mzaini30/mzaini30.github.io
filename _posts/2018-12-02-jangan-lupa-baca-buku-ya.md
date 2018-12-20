@@ -1,5 +1,5 @@
 ---
-
+category: soul
 image: https://www.muhammadzaini.com/gambar2/20151006165136-introvert-reading-books-.jpeg
 ---
 
