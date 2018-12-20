@@ -22,25 +22,26 @@ function mode(array)
 
 // kategori --> replace spasi jadi -
 
-kategori = mode(JSON.parse(localStorage.getItem('kategori blog')))
+kategori = mode(JSON.parse(localStorage.getItem('kategori blog'))).replace(/ /g, '-')
 
 if (kategori === null){
 	$('.bagian-minat').hide()
-} else {
-	$('.' + kategori).each(function(n){
-		if (n < 10){
-			$(this).css('display', 'block')
-			$(this).find('img').attr('src', $(this).find('img').data('src'))
-		}
-	})
-
-	$('.' + kategori + '-sidebar').each(function(n){
-		if (n < 10){
-			$(this).css('display', 'block')
-			$(this).find('img').attr('src', $(this).find('img').data('src'))
-		}
-	})
+	kategori = 'null'
 }
+
+$('.' + kategori).each(function(n){
+	if (n < 10){
+		$(this).css('display', 'block')
+		$(this).find('img').attr('src', $(this).find('img').data('src'))
+	}
+})
+
+$('.' + kategori + '-sidebar').each(function(n){
+	if (n < 10){
+		$(this).css('display', 'block')
+		$(this).find('img').attr('src', $(this).find('img').data('src'))
+	}
+})
 
 data_kunjungan = localStorage.getItem('kunjungan blog')
 localStorage.setItem('kunjungan blog', parseInt(data_kunjungan) + 1)
