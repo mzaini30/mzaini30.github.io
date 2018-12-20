@@ -8,7 +8,7 @@ category: soul
 
 Oh iya, sudah tau resolusi kan? Itu tuh semacam hal-hal yang ingin dilakukan dalam rentang waktu setahun. Jadi ya, setahun itu harus selesai sih apa yang ditargetkan itu. Biasanya membuat resolusi itu di awal tahun baru dengan harapan bahwa resolusi itu akan tuntas dalam rentang waktu setahun. Nah, sebentar lagi kita mau memasuki 2019 nih, masak sih resolusi kita yang 2018 belum selesai? Oh iya, aku ada beberapa _tools_ yang bisa kita gunakan untuk menyelesaikan resolusi tahun depan.
 
-{% include iklan.html %}
+
 
 # Simple To Do
 
@@ -18,7 +18,7 @@ Simple To Do ini semacam list yang bisa kamu isi dengan berbagai keinginan yang 
 
 Klik <https://play.google.com/store/apps/details?id=com.mzaini30.simpletodo> untuk mendownloadnya dari Play Store.
 
-{% include iklan.html %}
+
 
 # Book Progress
 

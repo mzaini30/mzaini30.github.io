@@ -19,7 +19,7 @@ Kuncinya satu: mendengarkan  So, jangan menghakimi orang yang sudah dikuasai ole
 
 Karena terkadang nasehat yang disampaikan bukan pada waktu yang tepat, bisa jadi lebih _menusuk_ daripada bunuh diri itu sendiri 
 
-{% include iklan.html %}
+
 
 # Apakah Masalah yang Dialaminya Itu Besar Banget?
 

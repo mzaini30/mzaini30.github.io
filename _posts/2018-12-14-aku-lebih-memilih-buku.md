@@ -21,7 +21,7 @@ Padahal, banyak banget loh manfaat yang bisa kita dapatkan dari membaca buku. Ya
 
 Oke, coba kita bahas lebih spesifik yaaa...
 
-{% include iklan.html %}
+
 
 # Membaca Buku Memperkaya Wawasan
 
