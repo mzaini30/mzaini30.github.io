@@ -12,6 +12,16 @@
 	{% endfor %}
 </div>
 
-{% for x in site.categories %}
-	<div class="badge">{{ x[0] }}</div>
-{% endfor %}
+<div class="list-group">
+	<div class="list-group-item active">Admin</div>
+	<a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" class="list-group-item" target="_blank">Tulisan Baru</a>
+	{% if page.date %}
+		<a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}" class="list-group-item" target="_blank">Edit Tulisan</a>
+	{% endif %}
+</div>
+
+<p>
+	{% for x in site.categories %}
+		<span class="badge">{{ x[0] }}</span>
+	{% endfor %}
+</p>
