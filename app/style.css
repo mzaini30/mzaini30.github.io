@@ -15,6 +15,10 @@ img {
 	width: 30%;
 }
 
+.medium * {
+  word-wrap: break-word;
+}
+
 .medium img {
 	display: block;
 	margin: auto;
