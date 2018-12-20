@@ -2,7 +2,7 @@ title: Zen
 name: Zen
 description: My life is blogging
 
-
+permalink: /:year/:month/:day/:title/
 
 paginate: 12
 
