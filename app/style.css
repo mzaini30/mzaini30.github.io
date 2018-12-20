@@ -2,6 +2,10 @@ body {
 	padding-top: 70px;
 }
 
+.rating {
+	width: 20%;
+}
+
 .minat {
 	display: none;
 }

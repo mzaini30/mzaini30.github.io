@@ -25,6 +25,22 @@
 	{% endfor %}
 </div>
 
+<table class="table table-bordered">
+	<tbody>
+		{% assign rating = site.rating_blog | sort: 'title' %}
+		{% for x in rating %}
+			<tr>
+				<td class="rating">{{ x.title }}</td>
+				<td>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="{{ x.persen }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ x.persen }}%;">{{ x.value }}</div>
+					</div>
+				</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
 <div class="list-group">
 	<div class="list-group-item active">Admin</div>
 	<a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" class="list-group-item" target="_blank">Tulisan Baru</a>
