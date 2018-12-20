@@ -22,10 +22,12 @@ function mode(array)
 
 // kategori --> replace spasi jadi -
 
-kategori = mode(JSON.parse(localStorage.getItem('kategori blog'))).replace(/ /g, '-')
+kategori = mode(JSON.parse(localStorage.getItem('kategori blog')))/*.replace(/ /g, '-')*/
 
 if (kategori === null){
 	$('.bagian-minat').hide()
+} else {
+	kategori = kategori.replace(/ /g, '-')
 }
 
 $('.' + kategori).each(function(n){
