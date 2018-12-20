@@ -32,7 +32,7 @@ if (kategori === null){
 
 $('.' + kategori).each(function(n){
 	if (n < 10){
-		$(this).css('display', 'block')
+		$(this).css('display', 'table-row')
 		$(this).find('img').attr('src', $(this).find('img').data('src'))
 	}
 })
