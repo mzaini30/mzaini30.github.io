@@ -74,7 +74,12 @@
 	{% if page.date %}
 		<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
 		<script type="text/javascript">
-			
+			if (localStorage.getItem('kategori blog') === null){
+				localStorage.setItem('kategori blog', '[""]')
+			}
+			data = JSON.parse(localStorage.getItem('kategori blog'))
+			data.push('{{ page.category }}')
+			localStorage.setItem('kategori blog', JSON.stringify(data))
 		</script>
 	{% endif %}
 </body>
