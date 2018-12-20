@@ -14,9 +14,10 @@ layout: default
 		{% endfor %}
 	</tbody>
 </table>
+
 {% if paginator.next_page %}
 	<center>
-		<a href="{{ paginator.next_page_path }}" class="btn btn-success">Tulisan Berikutnya &rarr;</a>
+		<p><a href="{{ paginator.next_page_path }}" class="btn btn-success">Tulisan Berikutnya &rarr;</a></p>
 	</center>
 {% endif %}
 

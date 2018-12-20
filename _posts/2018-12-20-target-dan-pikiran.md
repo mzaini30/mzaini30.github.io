@@ -1,6 +1,6 @@
 ---
 category: soul
-image: /gambar2/target.jpg
+image: https://www.muhammadzaini.com/gambar2/target.jpg
 ---
 
 Kalau aku baca di buku yang berjudul "Why Women Cry", di situ dijelaskan bahwa yang namanya wanita itu banyak sekali memikirkan tentang masa depan, sedangkan pria tidak.

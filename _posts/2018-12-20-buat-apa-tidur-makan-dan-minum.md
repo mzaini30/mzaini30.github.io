@@ -1,6 +1,6 @@
 ---
 category: soul
-image: /gambar2/depresi.jpg
+image: https://www.muhammadzaini.com/gambar2/depresi.jpg
 ---
 
 Buat Apa???
