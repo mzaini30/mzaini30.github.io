@@ -26,7 +26,6 @@ kategori = mode(JSON.parse(localStorage.getItem('kategori blog'))).replace(/ /g,
 
 if (kategori === null){
 	$('.bagian-minat').hide()
-	kategori = 'null'
 }
 
 $('.' + kategori).each(function(n){
