@@ -48,7 +48,12 @@ data_kunjungan = localStorage.getItem('kunjungan blog')
 localStorage.setItem('kunjungan blog', parseInt(data_kunjungan) + 1)
 
 total_kunjungan = 0
-if (parseInt(localStorage.getItem('kunjungan blog')) > 100){
+banyak_kunjungan = parseInt(localStorage.getItem('kunjungan blog'))
+if (banyak_kunjungan > 1000000){
+	total_kunjungan = '1jt+'
+} else if (banyak_kunjungan > 1000){
+	total_kunjungan = '1k+'
+} else if (banyak_kunjungan > 100){
 	total_kunjungan = '100+'
 } else {
 	total_kunjungan = localStorage.getItem('kunjungan blog')
