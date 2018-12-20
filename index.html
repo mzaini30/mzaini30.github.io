@@ -2,18 +2,20 @@
 layout: default
 ---
 
-<div class="alert alert-success" role="alert">Tulisan yang Sesuai Minatmu</div>
+<div class="bagian-minat">
+	<div class="alert alert-success" role="alert">Tulisan yang Sesuai Minatmu</div>
 
-<table class="table table-bordered isi-postingan table-minat">
-	<tbody>
-		{% for x in site.posts %}
-			<tr class="minat {{ x.category }}">
-				<td class="untuk-gambar"><a href="{{ x.url }}"><img data-src="{{ x.image }}" alt=""></a></td>
-				<td><a href="{{ x.url }}">{{ x.title }}</a></td>
-			</tr>
-		{% endfor %}
-	</tbody>
-</table>
+	<table class="table table-bordered isi-postingan table-minat">
+		<tbody>
+			{% for x in site.posts %}
+				<tr class="minat {{ x.category | replace: ' ', '-' }}">
+					<td class="untuk-gambar"><a href="{{ x.url }}"><img data-src="{{ x.image }}" alt=""></a></td>
+					<td><a href="{{ x.url }}">{{ x.title }}</a></td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
 
 <div class="alert alert-info" role="alert">Tulisan Terbaru</div>
 

@@ -40,10 +40,15 @@
 		if (localStorage.getItem('kategori blog') === null){
 			localStorage.setItem('kategori blog', '[]')
 		}
+		if (localStorage.getItem('kunjungan blog') === null){
+			localStorage.setItem('kunjungan blog', 0)
+		}
 	</script>
 	{% if page.date %}
 		<script type="text/javascript">
-			
+			data = JSON.parse(localStorage.getItem('kategori blog'))
+			data.push('{{ page.category }}')
+			localStorage.setItem('kategori blog', JSON.stringify(data))
 		</script>
 	{% endif %}
 	<script type="text/javascript" src="/app/app.js"></script>
