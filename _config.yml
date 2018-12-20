@@ -9,3 +9,33 @@ paginate: 10
 plugins:
   - jekyll-paginate
   - jekyll-feed
+
+rating_blog:
+  -
+    title: Domain Authority
+    value: 19
+    persen: 19
+  -
+    title: Page Authority
+    value: 27
+    persen: 27
+  -
+    title: Domain Rating
+    value: 25
+    persen: 25
+  -
+    title: Spam Score
+    value: 0
+    persen: 0
+  -
+    title: Moz Rank
+    value: 2,7
+    persen: 27
+  -
+    title: Page Speed Mobile
+    value: 92%
+    persen: 92
+  -
+    title: Page Speed Desktop
+    value: 100%
+    persen: 100

@@ -20,6 +20,10 @@ function mode(array)
     return maxEl;
 }
 
+function setFormatNumber (integerNumber) {
+	return parseInt(integerNumber).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
+
 // kategori --> replace spasi jadi -
 
 kategori = mode(JSON.parse(localStorage.getItem('kategori blog')))/*.replace(/ /g, '-')*/
@@ -52,7 +56,7 @@ banyak_kunjungan = parseInt(localStorage.getItem('kunjungan blog'))
 if (banyak_kunjungan > 1000000){
 	total_kunjungan = '1.000.000+'
 } else {
-	total_kunjungan = localStorage.getItem('kunjungan blog')
+	total_kunjungan = setFormatNumber(localStorage.getItem('kunjungan blog'))
 }
 
 $('.jumlah-kunjungan').html(total_kunjungan)
