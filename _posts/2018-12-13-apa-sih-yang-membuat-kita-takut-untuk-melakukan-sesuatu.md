@@ -1,5 +1,6 @@
 ---
 image: https://www.muhammadzaini.com/gambar2/keep-calm-and-easy-going.jpg
+layout: post
 category: soul
 ---
 

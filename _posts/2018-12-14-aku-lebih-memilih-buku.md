@@ -1,5 +1,6 @@
 ---
 image: https://www.muhammadzaini.com/gambar2/p02vdpfn.jpg
+layout: post
 category: membaca
 ---
 

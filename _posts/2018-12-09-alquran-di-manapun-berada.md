@@ -1,5 +1,6 @@
 ---
 # alquran di manapun
+layout: post
 category: quran
 image: https://www.muhammadzaini.com/gambar3/463e10c99a862853e48bdc76202f2593.jpg
 ---

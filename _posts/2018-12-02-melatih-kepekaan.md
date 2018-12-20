@@ -1,5 +1,6 @@
 ---
 image: https://www.muhammadzaini.com/gambar2/DEKAT DENGAN ALLH.jpg
+layout: post
 category: soul
 ---
 

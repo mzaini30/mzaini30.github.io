@@ -2,6 +2,7 @@
 # kesadaran akan kualitas
 layout: post
 image: https://www.muhammadzaini.com/gambar3/file-20180509-34021-1t9q8r0.jpg
+layout: post
 category: soul
 ---
 

@@ -2,45 +2,8 @@
 layout: default
 ---
 
-<link rel="stylesheet" type="text/css" href="/vendor/medium/medium.css">
-
-<div class="container">
-	<div class="medium">
-		<h1>{{ page.title }}</h1>
-		<br>
-	</div>
-</div>
 <div class="medium">
-	<img src="{{ page.image }}">
-</div>
-<div class="container">
-	<div class="medium">
-		{{ content }}
-	</div>
-	<br>
-	<div class="row">
-		{% assign random = site.time | date: "%s" %}
-		{% assign acak_judul = page.title.size %}
-		{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
-		{% for i in (1..3) %}
-			{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
-			<div class="col s12 m4">
-				<a href="{{ site.posts[postingan_selanjutnya].url }}">
-					<div class="card">
-						<div class="card-image">
-							<img src="{{ site.posts[postingan_selanjutnya].image }}">
-						</div>
-						<div class="card-content black-text">
-							<div class="">{{ site.posts[postingan_selanjutnya].title }}</div>
-						</div>
-					</div>
-				</a>
-			</div>
-		{% endfor %}
-	</div>
-	{% include iklan-biasa.html %}
-	<br>
-	{% include disqus.html %}
-	<br>
-	<br>
+	<h1>{{ page.title }}</h1>
+	<p><img src="{{ page.image }}"></p>
+	{{ content }}
 </div>

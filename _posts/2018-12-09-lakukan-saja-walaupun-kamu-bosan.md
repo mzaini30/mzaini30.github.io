@@ -1,4 +1,5 @@
 ---
+layout: post
 category: soul
 image: https://www.muhammadzaini.com/gambar3/aa082d0cf7c60a28026e9c8b15d20d2b.jpg
 ---

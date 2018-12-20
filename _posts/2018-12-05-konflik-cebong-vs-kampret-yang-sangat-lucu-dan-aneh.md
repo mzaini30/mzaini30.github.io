@@ -1,5 +1,6 @@
 ---
 # cebong vs kampret lucu
+layout: post
 category: konspirasi
 image: https://www.muhammadzaini.com/gambar3/Kaum Cebong.png
 ---

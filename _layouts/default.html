@@ -1,86 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	{% include facebook.html %}
-	{% include twitter.html %}
-	<title>{% if page.date %}{{ page.title }} | {% endif %}Zen</title>
+	<title>{% if page.date %}{{ page.title }} - {% endif %}Zen</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="/vendor/materialize/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/app/style.css">
 	{% if page.date %}
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<link rel="stylesheet" type="text/css" href="/vendor/medium/medium.css">
 	{% endif %}
 </head>
 <body>
-	<div class="navbar-fixed">
-		<nav>
-			<div class="nav-wrapper indigo">
-				<a href="/" class="brand-logo center">Zen</a>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Zen</a>
 			</div>
-		</nav>
-	</div>
-	{{ content }}
-	<div class="page-footer indigo">
+		</div>
+	</nav>
+	<div class="container">
 		<div class="row">
-			<div class="col s12 m3">
-				<p>Domain Authority &rarr; 19</p>
-				<div class="progress">
-					<div class="determinate" style="width: 19%"></div>
-				</div>
-				<p>Page Authority &rarr; 27</p>
-				<div class="progress">
-					<div class="determinate" style="width: 27%"></div>
-				</div>
-				<p>Domain Rating &rarr; 25</p>
-				<div class="progress">
-					<div class="determinate" style="width: 25%"></div>
-				</div>
-				<p>Spam Score &rarr; 0</p>
-				<div class="progress">
-					<div class="determinate" style="width: 0%"></div>
-				</div>
-				<p>Moz Rank &rarr; 2,7</p>
-				<div class="progress">
-					<div class="determinate" style="width: 27%"></div>
-				</div>
-				<p>Page Speed Mobile &rarr; 92%</p>
-				<div class="progress">
-					<div class="determinate" style="width: 92%"></div>
-				</div>
-				<p>Page Speed Desktop &rarr; 100%</p>
-				<div class="progress">
-					<div class="determinate" style="width: 100%"></div>
+			<div class="col-sm-8 theia">
+				<div class="theiaStickySidebar">
+					{{ content }}
 				</div>
 			</div>
-			<div class="col s12 m3">
-				<p>Untuk kerja sama blog, silahkan kirim email ke <a href="mailto:muhzaini30@gmail.com">muhzaini30@gmail.com</a> atau pesan Whatsapp ke <a href="https://wa.me/6281545143654">0815-4514-3654</a>.</p>
-			</div>
-			<div class="col s12 m3">
-				<h5>Admin</h5>
-				<ul>
-					<li><a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" target="_blank">New Post</a></li>
-					{% if page.date %}<li><a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}" target="_blank">Edit Post</a></li>{% endif %}
-					<li><a href="https://github.com/mzaini30/gambar2/upload/master" target="_blank">Upload Image</a></li>
-				</ul>
-			</div>
-			<div class="col s12 m3">
-				<h5>Stay Connected</h5>
-				<p><a href="https://play.google.com/store/apps/details?id=com.mzaini30.blogpsikologi" target="_blank"><img src="/gambar2/get-it-on-the-google-play-store-button.png" alt=""></a></p>
-				<!-- <p><a href="http://fb.com/mzaini30" target="_blank"><img src="/gambar2/follow_facebook1.jpg" alt=""></a></p> -->
+			<div class="col-sm-4 theia">
+				<div class="theiaStickySidebar">
+					{% include sidebar.html %}
+				</div>
 			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
-	{% if page.date %}
-		<script type="text/javascript">
-			if (localStorage.getItem('kategori blog') === null){
-				localStorage.setItem('kategori blog', '[""]')
-			}
-			data = JSON.parse(localStorage.getItem('kategori blog'))
-			data.push('{{ page.category }}')
-			localStorage.setItem('kategori blog', JSON.stringify(data))
-		</script>
-	{% endif %}
+	<script type="text/javascript" src="/vendor/theia/theia-sticky-sidebar.min.js"></script>
+	<script type="text/javascript" src="/vendor/theia/ResizeSensor.min.js"></script>
+	<script type="text/javascript" src="/app/app.js"></script>
 </body>
 </html>

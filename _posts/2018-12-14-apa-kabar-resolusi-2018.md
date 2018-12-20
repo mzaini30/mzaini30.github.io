@@ -1,5 +1,6 @@
 ---
 image: https://www.muhammadzaini.com/gambar2/resolusi1.jpg
+layout: post
 category: soul
 ---
 

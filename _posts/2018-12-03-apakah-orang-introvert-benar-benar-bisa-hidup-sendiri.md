@@ -1,4 +1,5 @@
 ---
+layout: post
 category: psikologi
 image: https://www.muhammadzaini.com/gambar2/22.png
 ---
