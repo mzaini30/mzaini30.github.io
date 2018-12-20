@@ -4,7 +4,7 @@ description: My life is blogging
 
 permalink: /:year/:month/:day/:title.html
 
-paginate: 5
+paginate: 10
 
 plugins:
   - jekyll-paginate
