@@ -1,6 +1,6 @@
 ---
 # intinya creator, tentang apa yang harus dilakukan
-image: /gambar2/Creator-of-heaven-and-earth.jpg
+image: https://www.muhammadzaini.com/gambar2/Creator-of-heaven-and-earth.jpg
 category: kreatif
 ---
 

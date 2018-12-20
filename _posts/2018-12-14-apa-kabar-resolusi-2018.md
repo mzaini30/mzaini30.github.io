@@ -1,5 +1,5 @@
 ---
-image: /gambar2/resolusi1.jpg
+image: https://www.muhammadzaini.com/gambar2/resolusi1.jpg
 category: soul
 ---
 
@@ -11,7 +11,7 @@ Oh iya, sudah tau resolusi kan? Itu tuh semacam hal-hal yang ingin dilakukan dal
 
 # Simple To Do
 
-![](/gambar2/WhatsApp Image 2018-12-14 at 06.37.28 (1).jpeg)
+![](https://www.muhammadzaini.com/gambar2/WhatsApp Image 2018-12-14 at 06.37.28 (1).jpeg)
 
 Simple To Do ini semacam list yang bisa kamu isi dengan berbagai keinginan yang akan kamu lakukan. Terus, ketika kamu sudah menyelesaikannya, kamu tinggal memberikannya _checklist_. Gampang kan ya?
 
@@ -21,7 +21,7 @@ Klik <https://play.google.com/store/apps/details?id=com.mzaini30.simpletodo> unt
 
 # Book Progress
 
-![](/gambar2/WhatsApp Image 2018-12-14 at 06.37.28.jpeg)
+![](https://www.muhammadzaini.com/gambar2/WhatsApp Image 2018-12-14 at 06.37.28.jpeg)
 
 Aplikasi ini cocok banget buat kamu yang bookaholic, bookworm, atau apalah istilahnya itu, untuk memenuhi target membacamu tiap tahunnya.
 
