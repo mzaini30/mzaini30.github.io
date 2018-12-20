@@ -4,3 +4,14 @@
 		<a href="{{ x.url }}" class="list-group-item minat {{ x.category }}-sidebar">{{ x.title }}</a>
 	{% endfor %}
 </div>
+
+<div class="list-group">
+	<div class="list-group-item active">Tulisan Terbaru</div>
+	{% for x in site.posts | limit: 5 %}
+		<a href="{{ x.url }}" class="list-group-item">{{ x.title }}</a>
+	{% endfor %}
+</div>
+
+{% for x in site.categories %}
+	<div class="badge">{{ x[0] }}</div>
+{% endfor %}

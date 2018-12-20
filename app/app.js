@@ -15,5 +15,5 @@ $('.' + kategori + '-sidebar').each(function(n){
 })
 
 $('.theia').theiaStickySidebar({
-	additionalMarginTop: 20
+	additionalMarginTop: 70
 })
