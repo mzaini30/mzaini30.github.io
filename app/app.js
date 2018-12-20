@@ -28,14 +28,16 @@ if (kategori === null){
 	$('.bagian-minat').hide()
 }
 
-$('.' + kategori).each(function(n){
+class_kategori = '.' + kategori
+$(class_kategori).each(function(n){
 	if (n < 10){
 		$(this).css('display', 'block')
 		$(this).find('img').attr('src', $(this).find('img').data('src'))
 	}
 })
 
-$('.' + kategori + '-sidebar').each(function(n){
+class_kategori_sidebar = '.' + kategori + '-sidebar'
+$(class_kategori_sidebar).each(function(n){
 	if (n < 10){
 		$(this).css('display', 'block')
 		$(this).find('img').attr('src', $(this).find('img').data('src'))
