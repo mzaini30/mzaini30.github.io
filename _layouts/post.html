@@ -24,7 +24,7 @@ layout: default
 		{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
 		{% for i in (1..3) %}
 			{% assign postingan_selanjutnya = angka_postingan | plus: forloop.index0 | modulo: site.posts.size %}
-			<!-- <div class="col s12 m4">
+			<div class="col s12 m4">
 				<a href="{{ site.posts[postingan_selanjutnya].url }}">
 					<div class="card">
 						<div class="card-image">
@@ -35,7 +35,7 @@ layout: default
 						</div>
 					</div>
 				</a>
-			</div> -->
+			</div>
 		{% endfor %}
 	</div>
 	{% include iklan-biasa.html %}
