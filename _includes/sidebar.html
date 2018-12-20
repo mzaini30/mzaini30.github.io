@@ -1,6 +1,6 @@
 <div class="list-group">
 	<div class="list-group-item active">Tulisan yang Sesuai Minatmu</div>
 	{% for x in site.posts %}
-		<a href="{{ x.url }}" class="list-group-item minat {{ x.category }}">{{ x.title }}</a>
+		<a href="{{ x.url }}" class="list-group-item minat {{ x.category }}-sidebar">{{ x.title }}</a>
 	{% endfor %}
 </div>
