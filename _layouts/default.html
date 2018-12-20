@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>{% if page.date %}{{ page.title }} - {% endif %}Zen</title>
+	{% include facebook.html %}
+	{% include twitter.html %}
+	{% include iklan-otomatis.html %}
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
