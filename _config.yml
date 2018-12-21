@@ -9,6 +9,7 @@ paginate: 10
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-seo-tag
 
 rating_blog:
   -
