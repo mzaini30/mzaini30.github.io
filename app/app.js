@@ -25,8 +25,9 @@ function setFormatNumber (integerNumber) {
 }
 
 // kategori --> replace spasi jadi -
-
-kategori = mode(JSON.parse(localStorage.getItem('kategori blog')))/*.replace(/ /g, '-')*/
+arr = JSON.parse(localStorage.getItem('kategori blog'))
+arr.slice(Math.max(arr.length - 10, 0))
+kategori = mode(arr)
 
 if (kategori === null){
 	$('.bagian-minat').hide()
