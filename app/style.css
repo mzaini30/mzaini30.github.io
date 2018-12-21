@@ -38,6 +38,10 @@ img {
     height: 20px;
 }
 
+.kategori-urut {
+	text-transform: capitalize;
+}
+
 @media (max-width: 991px){
     .hidden-small {
         display: none;
