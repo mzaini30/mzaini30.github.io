@@ -4,7 +4,7 @@
 	<title>{% if page.date %}{{ page.title }} - {% endif %}Zen</title>
 	{% include facebook.html %}
 	{% include twitter.html %}
-	{% include iklan-otomatis.html %}
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
@@ -37,13 +37,16 @@
 		<div class="row">
 			<div class="col-sm-8 theia">
 				<div class="theiaStickySidebar">
+				    {% include iklan.html %}
 					{{ content }}
+	                {% include iklan.html %}
 					<br>
 				</div>
 			</div>
 			<div class="col-sm-4 theia">
 				<div class="theiaStickySidebar">
 					{% include sidebar.html %}
+					{% include iklan.html %}
 				</div>
 			</div>
 		</div>

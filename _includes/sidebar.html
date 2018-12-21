@@ -16,6 +16,7 @@
 			<a href="{{ x.url }}" class="list-group-item minat {{ x.category | replace: ' ', '-' }}-sidebar">{{ x.title }}</a>
 		{% endfor %}
 	</div>
+	{% include iklan.html %}
 </div>
 
 <div class="list-group">
@@ -24,6 +25,8 @@
 		<a href="{{ x.url }}" class="list-group-item">{{ x.title }}</a>
 	{% endfor %}
 </div>
+
+{% include iklan.html %}
 
 <table class="table table-bordered">
 	<tbody>
