@@ -3,7 +3,7 @@ category: membaca
 image: /gambar2/reading--notetaking.jpg
 ---
 
-{% assign kategori_urut = site.category | sort %}
+{% assign kategori_urut = site.categories | sort %}
 {% for x in kategori_urut %}
   <p class='kategori-urut'><strong>{{ x[0] }}</strong></p>
   <ol>
