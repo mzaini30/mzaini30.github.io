@@ -26,7 +26,7 @@ function setFormatNumber (integerNumber) {
 
 // kategori --> replace spasi jadi -
 arr = JSON.parse(localStorage.getItem('kategori blog'))
-arr.slice(Math.max(arr.length - 10, 0))
+arr = arr.slice(Math.max(arr.length - 10, 0))
 kategori = mode(arr)
 
 if (kategori === null){
