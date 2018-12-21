@@ -9,7 +9,7 @@ image: /gambar2/reading--notetaking.jpg
   <ol>
     {% assign tulisan_urut = site.posts | sort %}
     {% for y in tulisan_urut %}
-      {% if y.category == x.category %}
+      {% if y.category == x[0] %}
         <li><a href='{{ y.url }}'>{{ y.title }}</a></li>
       {% endif %}
     {% endfor %}
