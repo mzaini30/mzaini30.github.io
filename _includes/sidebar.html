@@ -56,7 +56,8 @@
 </div>
 
 <p style="margin-bottom: 20px;">
-	{% for x in site.categories %}
+	{% assign kategori_semua = site.categories | sort %}
+	{% for x in kategori_semua %}
 		<span class="badge">{{ x[0] }}</span>
 	{% endfor %}
 </p>
