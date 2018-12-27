@@ -1,42 +1,14 @@
-title: Zen
-name: Zen
-description: My life is blogging
-
 permalink: /:year/:month/:day/:title.html
-
-paginate: 10
-
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-
-rating_blog:
+link:
   -
-    title: Domain Authority
-    value: 19
-    persen: 19
+    title: Play Store
+    link: https://play.google.com/store/apps/dev?id=6751907367958089476
   -
-    title: Page Authority
-    value: 27
-    persen: 27
+    title: Medium
+    link: https://medium.com/@mzaini30
   -
-    title: Domain Rating
-    value: 25
-    persen: 25
+    title: Email
+    link: mailto:muhzaini30@gmail.com
   -
-    title: Spam Score
-    value: 0
-    persen: 0
-  -
-    title: Moz Rank
-    value: 2,7
-    persen: 27
-  -
-    title: Page Speed Mobile
-    value: 92%
-    persen: 92
-  -
-    title: Page Speed Desktop
-    value: 100%
-    persen: 100
+    title: Whatsapp
+    link: https://wa.me/6281545143654
