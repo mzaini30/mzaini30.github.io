@@ -1,0 +1,9 @@
+<script type="text/javascript">
+	posisi_scroll = localStorage.getItem('posisi {{ page.url }}')
+	$('html, body').animate({
+		scrollTop: posisi_scroll
+	}, 700)
+	$(window).scroll(function(){
+		localStorage.setItem('posisi {{ page.url }}', $(window).scrollTop())
+	})
+</script>
