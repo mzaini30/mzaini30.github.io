@@ -1,3 +1,8 @@
 body {
 	padding-top: 70px;
 }
+
+.right-text {
+	float: right;
+	display: table;
+}
