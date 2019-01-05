@@ -2,7 +2,13 @@
 <html>
 <head>
 	{% include iklan-otomatis.html %}
-	<title>Zen</title>
+	<title>
+		{% if page.date %}
+			{{ page.title }}
+		{% else %}
+			Zen
+		{% endif %}
+	</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
