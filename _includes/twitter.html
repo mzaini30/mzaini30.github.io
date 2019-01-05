@@ -1,7 +1,11 @@
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@mzaini30">
 <meta name="twitter:creator" content="@mzaini30">
-<meta name="twitter:title"   content="{{ page.title }}">
+{% if page.date %}
+	<meta name="twitter:title"   content="{{ page.title }}">
+{% else %}
+	<meta name="twitter:title"   content="{{ site.title }}">
+{% endif %}
 
 {% if page.date %}
 	<meta name="twitter:description" content="{{ page.content | truncatewords:50 | strip_html }}">
