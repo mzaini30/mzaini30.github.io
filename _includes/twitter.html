@@ -1,0 +1,19 @@
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@mzaini30">
+<meta name="twitter:creator" content="@mzaini30">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.date %}
+	<meta name="twitter:description" content="{{ page.content | truncatewords:50 | strip_html }}">
+{% else %}
+	<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+	<meta name="twitter:card"  content="summary_large_image">
+	<meta name="twitter:image" content="{{ page.image }}">
+{% else %}
+	<meta name="twitter:card"  content="summary">
+	<meta name="twitter:image" content="{{ site.image }}">
+{% endif %}
+<!-- end of Twitter cards -->
