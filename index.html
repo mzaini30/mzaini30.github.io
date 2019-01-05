@@ -1,3 +1,17 @@
 ---
 layout: default
 ---
+
+<div class="list-group">
+	{% for x in paginator.posts %}
+		<a href="{{ x.url }}" class="list-group-item">
+			{{ x.title }}
+		</a>
+	{% endfor %}
+</div>
+
+{% if paginator.next_page %}
+	<div class="list-group">
+		<a href="{{ paginator.next_page_path }}" class="list-group-item right-text">Selanjutnya &rarr;</a>
+	</div>
+{% endif %}
