@@ -10,3 +10,7 @@ body {
 img {
 	max-width: 100%;
 }
+
+.banner {
+	margin-bottom: 20px;
+}
