@@ -3,6 +3,8 @@ layout: post
 image: https://cdn-images-1.medium.com/max/2000/0*ZHWZExSWGFDZyElN
 ---
 
+> Kalau bisa dengan browser, mengapa pakai Notepad?
+
 1. **Style Sederhana**
 
 	```html
