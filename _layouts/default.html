@@ -21,12 +21,17 @@
 	{% include navbar.html %}
 	<div class="container">
 		{{ content }}
+		<div class="row">
+			{% for x in site.banner %}
+				<div class="col-sm-2 col-xs-4">
+					<a href="{{ x.link }}" target="_blank"><img src="{{ x.image }}" style="width: 100%;" alt=""></a>
+				</div>
+			{% endfor %}
+		</div>
 	</div>
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 	{% include posisi.html %}
-	{% if page.date == null %}
-		<br>
-	{% endif %}
+	<br>
 </body>
 </html>

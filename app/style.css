@@ -6,3 +6,7 @@ body {
 	float: right;
 	display: table;
 }
+
+img {
+	max-width: 100%;
+}
