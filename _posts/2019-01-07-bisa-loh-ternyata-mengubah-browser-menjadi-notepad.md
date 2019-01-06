@@ -5,6 +5,12 @@ image: https://cdn-images-1.medium.com/max/2000/0*ZHWZExSWGFDZyElN
 
 > Kalau bisa dengan browser, mengapa pakai Notepad?
 
+Browser adalah aplikasi yang kita gunakan untuk menjelajah dunia internet, mengintip "apa sih yang lagi rame sekarang?", bahkan browser juga bisa digunakan untuk menjelajah situs-situs nggak jelas yang malah menambah dosa aja. _Astaghfirullah..._
+
+Ada yang tau nggak, kalau ternyata browser itu juga bisa loh digunakan untuk mengetik seperti di Notepad. Masak iya sih? Iya dong, makanya nih aku mau menjelaskan berbagai kode yang bisa digunakan untuk mengetik melalui browser.
+
+Cara menggunakan kode berikut ini adalah dengan mengetikkannya di _address bar_ browser lalu tekan Enter. Lalu, kita pun bisa mengetik pada jendela browser.
+
 1. **Style Sederhana**
 
 	```html
