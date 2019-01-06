@@ -16,7 +16,3 @@ Namun tak bisa lagi...
 Kita sadar bahwa kehidupan kita adalah untuk masa kini, kita pun sadar bahwa kita harus menyiapkan masa depan. Ada begitu banyak hal yang harus kita lakukan untuk dapat bertindak progressif; selangkah demi selangkah menuju kehidupan hari esok yang kita impikan.
 
 Namun, kenangan kini sedang cemburu, dia tak mau diduakan dengan impian hari esok.
-
-# Masa Lalu yang Terus Memanggil
-
-# Masa Depan Tempat Kita Menaruh Impian
