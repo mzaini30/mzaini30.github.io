@@ -30,6 +30,13 @@ link:
     title: Messenger
     link: https://www.messenger.com/t/100000415959373/
 
+banner:
+  -
+    image: https://2.bp.blogspot.com/-prm8pS9WO0s/WxrIbMShDOI/AAAAAAAARM4/B9ubjpiTSRcn04JwIRWVczrmf2N9mVrdwCK4BGAYYCw/s320/Logo-New-Concept-Blue.jpg
+    link: http://www.warungblogger.org/
+  -
+    image: 
+
 paginate: 10
 
 plugins:
