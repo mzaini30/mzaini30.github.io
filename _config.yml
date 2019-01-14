@@ -2,7 +2,7 @@ permalink: /:year/:month/:day/:title.html
 
 title: Zen
 description: Waiting me my love.
-image: https://vignette.wikia.nocookie.net/kyoukainokanata/images/7/7c/Kyoukai_no_Kanata_1.jpg/revision/latest/scale-to-width-down/670?cb=20180212024327
+image: /gambar/Kyoukai_no_Kanata_1.jpg
 
 link:
   -
@@ -44,7 +44,7 @@ banner:
     image: https://telegra.ph/file/4213cf4c0bbd55cf118c0.jpg
     link: http://lembagamitra.kemdikbud.go.id/jaring-penulis-kaltim/
 
-paginate: 10
+paginate: 12
 
 plugins:
   - jekyll-paginate
