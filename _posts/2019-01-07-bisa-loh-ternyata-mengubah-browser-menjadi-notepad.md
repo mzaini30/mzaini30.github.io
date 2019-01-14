@@ -1,6 +1,6 @@
 ---
 layout: post
-image: https://cdn-images-1.medium.com/max/2000/0*ZHWZExSWGFDZyElN
+image: /gambar/0_ZHWZExSWGFDZyElN.jpg
 ---
 
 > Kalau bisa dengan browser, mengapa pakai Notepad?

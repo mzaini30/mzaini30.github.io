@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://majalahouch.com/newversion/wp-content/uploads/2015/12/kenangan.jpg
+image: /gambar/kenangan.jpg
 ---
 
 > Kenangan bukan hanya sebuah nama...

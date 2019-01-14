@@ -1,19 +1,15 @@
 ---
 layout: default
-
-resolusi:
-  - Lancar 15 juz
-  - Penghasilan dari Aplikasi Android
-  - Penghasilan dari Blog
-  - Wisuda
-  - [Mengaktifkan muhammadzaini.com]
 ---
 
-<div class="list-group">
+<div class="row">
 	{% for x in paginator.posts %}
-		<a href="{{ x.url }}" class="list-group-item">
-			{{ x.title }}
-		</a>
+		<div class="col-sm-4">
+			<a href="{{ x.url }}">
+				<img src="{% if x.image %}{{ x.image }}{% else %}{{ site.image }}{% endif %}" alt="">
+				<h1>{{ x.title }}</h1>
+			</a>
+		</div>
 	{% endfor %}
 </div>
 

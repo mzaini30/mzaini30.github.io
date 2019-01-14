@@ -1,6 +1,6 @@
 ---
 layout: post
-image: https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2015/08/distractions-700x420.jpg
+image: /gambar/distractions-700x420.jpg
 ---
 
 Di saat semua orang banyak orang mengatakan bahwa kita harus fokus setiap kali mengerjakan sesuatu, maka aku berpikir, "Bagaimana jika kita menjadi pribadi yang lincah. Dalam artian, kita gampang beralih dari satu fokus menuju fokus lain."

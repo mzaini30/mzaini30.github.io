@@ -20,22 +20,6 @@
 <body>
 	{% include navbar.html %}
 	<div class="container">
-		{% if page.resolusi %}
-			<div class="panel panel-default">
-				<div class="panel-body">
-					<p><strong>Resolusi 2019:</strong></p>
-					<ul style="margin-bottom: 0;">
-						{% for x in page.resolusi %}
-							{% if x[0] == null %}
-								<li>{{ x }}</li>
-							{% else %}
-								<li><em><strike>{{ x[0] }}</strike></em></li>
-							{% endif %}
-						{% endfor %}
-					</ul>
-				</div>
-			</div>
-		{% endif %}
 		{{ content }}
 		<div class="row">
 			{% for x in site.banner %}
