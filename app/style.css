@@ -14,3 +14,11 @@ img {
 .banner {
 	margin-bottom: 20px;
 }
+
+.link-home {
+	text-decoration: none !important;
+}
+
+.title-home {
+	margin-bottom: 20px;
+}

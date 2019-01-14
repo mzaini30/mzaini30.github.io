@@ -5,9 +5,9 @@ layout: default
 <div class="row">
 	{% for x in paginator.posts %}
 		<div class="col-sm-4">
-			<a href="{{ x.url }}">
+			<a href="{{ x.url }}" class="link-home">
 				<img src="{% if x.image %}{{ x.image }}{% else %}{{ site.image }}{% endif %}" alt="">
-				<h1>{{ x.title }}</h1>
+				<h1 class="title-home">{{ x.title }}</h1>
 			</a>
 		</div>
 	{% endfor %}
