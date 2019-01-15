@@ -40,10 +40,10 @@ img {
 }
 
 @media (max-width: 768px){
-	.dekstop {
+	.desktop {
 		display: none;
 	}
 	.mobile {
-		display: none;
+		display: block;
 	}
 }

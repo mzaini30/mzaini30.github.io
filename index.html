@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="mobile">
-	<h1>mobile</h1>
 	{% for x in paginator.posts %}
 		<a href="{{ x.url }}" class="link-home">
 			<img src="{% if x.image %}{{ x.image }}{% else %}{{ site.image }}{% endif %}" alt="">
@@ -13,7 +12,6 @@ layout: default
 </div>
 
 <div class="desktop">
-	<h1>desktop</h1>
 	<div class="row">
 		
 		<div class="col-sm-4">
