@@ -19,6 +19,15 @@ img {
 	text-decoration: none !important;
 }
 
-.title-home {
+.link-home img {
+	width: 100%;
+}
+
+.link-home h1 {
 	margin-bottom: 20px;
+}
+
+.postingan img {
+	display: block;
+	margin: auto;
 }
