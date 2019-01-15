@@ -31,3 +31,19 @@ img {
 	display: block;
 	margin: auto;
 }
+
+.desktop {
+	display: block;
+}
+.mobile {
+	display: none;
+}
+
+@media (max-width: 768px){
+	.dekstop {
+		display: none;
+	}
+	.mobile {
+		display: none;
+	}
+}
