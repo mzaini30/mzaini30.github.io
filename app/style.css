@@ -2,6 +2,10 @@ body {
 	padding-top: 50px;
 }
 
+.full {
+	width: 100%;
+}
+
 .gambar-beranda {
 	width: 33.333%;
 }
