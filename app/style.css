@@ -11,5 +11,11 @@ img {
 }
 
 .gambar-beranda {
-	width: 33.333%;
+	margin: 0;
+}
+.gambar-beranda .col-xs-4 {
+	padding: 0;
+}
+.gambar-beranda img {
+	width: 100%;
 }
