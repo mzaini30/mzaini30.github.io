@@ -22,7 +22,7 @@ komunitas:
 <div class="row gambar-beranda">
 	{% for x in site.posts %}
 		<div class="col-xs-4">
-			<a href="{{ x.url }}">
+			<a href="{% if page.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}">
 				<img src="{{ x.image }}" alt="">
 			</a>
 		</div>
