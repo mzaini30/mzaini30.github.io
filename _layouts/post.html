@@ -7,3 +7,10 @@ layout: default
 	{{ content }}
 	{% include disqus.html %}
 </div>
+{% for x in site.iklan %}
+	<div class="col-xs-4">
+		<a href="{{ x.link }}">
+			<img src="{{ x.gambar }}" alt="">
+		</a>
+	</div>
+{% endfor %}
