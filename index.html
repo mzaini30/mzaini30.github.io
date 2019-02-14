@@ -28,11 +28,24 @@ komunitas:
 			</a>
 		</div>
 	{% endfor %}
-	{% for x in page.komunitas %}
+	<div class="col-xs-4">
+		<a href="{{ page.komunitas[0].link }}">
+			<img src="{{ page.komunitas[0].gambar }}" alt="">
+		</a>
+	</div>
+	{% assign mod_postingan = site.posts.size | modulo: 3 %}
+	{% if mod_postingan != 2 %}
 		<div class="col-xs-4">
-			<a href="{{ x.link }}">
-				<img src="{{ x.gambar }}" alt="">
+			<a href="{{ page.komunitas[1].link }}">
+				<img src="{{ page.komunitas[1].gambar }}" alt="">
 			</a>
 		</div>
-	{% endfor %}
+		{% if mod_postingan != 1 %}
+			<div class="col-xs-4">
+				<a href="{{ page.komunitas[2].link }}">
+					<img src="{{ page.komunitas[2].gambar }}" alt="">
+				</a>
+			</div>
+		{% endif %}
+	{% endif %}
 </div>
