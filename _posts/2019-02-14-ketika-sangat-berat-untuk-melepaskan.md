@@ -1,5 +1,5 @@
 ---
-image: https://instagram.fupg2-1.fna.fbcdn.net/vp/159457ad44089687bb9571f5f1f9b16d/5CE6E5DD/t51.2885-15/e35/51962020_238891410347524_8467481023399266704_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=104
+image: https://lh3.googleusercontent.com/-8ccITEP5lRw/XGURPgKg6XI/AAAAAAAADRQ/_UPzWSGxWXgRNX60qskab243LmpJFdDYwCLcBGAs/h1200/image3344.png
 ---
 
 Ada awal, ada akhir. Ada ikatan, ada melepaskan. Itulah kehidupan.
