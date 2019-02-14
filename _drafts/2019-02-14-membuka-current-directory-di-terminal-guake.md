@@ -3,5 +3,5 @@ image:
 ---
 
 ```bash
-guake --show --execute-command="cd %f"
+guake --show --new-tab="%f" --execute-command="cd %f"
 ```
