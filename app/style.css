@@ -1,7 +1,3 @@
-html {
-	width: 99%;
-}
-
 body {
 	padding-top: 50px;
 	max-width: 800px;
@@ -17,7 +13,7 @@ img {
 }
 
 .gambar-beranda {
-	margin: -1px;
+	margin: 0;
 }
 .gambar-beranda div {
 	padding: 1px;
