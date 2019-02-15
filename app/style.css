@@ -15,7 +15,8 @@ img {
 .gambar-beranda {
 	margin: 0;
 }
-.gambar-beranda .col-xs-4 {
+.gambar-beranda .col-xs-4,
+.gambar-beranda .col-xs-12 {
 	padding: 0;
 }
 .gambar-beranda img {
