@@ -12,15 +12,12 @@
    width="210mm"
    height="297mm"
    viewBox="0 0 744.09448819 1052.3622047"
-   id="svg2"
+   id="svg4152"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="next posts.svg"
-   inkscape:export-filename="/mnt/C48455A884559E2C/zen/desain/banner.svg.png"
-   inkscape:export-xdpi="5.4000001"
-   inkscape:export-ydpi="5.4000001">
+   sodipodi:docname="next posts.svg">
   <defs
-     id="defs4" />
+     id="defs4154" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -29,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.028033333"
-     inkscape:cx="14290.929"
-     inkscape:cy="-4103.3571"
+     inkscape:cx="-811.42871"
+     inkscape:cy="188.57119"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,14 +37,14 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata7">
+     id="metadata4157">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,11 +53,32 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ea80fc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.9999333px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#3f51b5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.9999333px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect3336"
        width="29999"
        height="9999"
-       x="-708.57141"
-       y="156.21928" />
+       x="-15810.929"
+       y="-4135.709"
+       inkscape:export-xdpi="9"
+       inkscape:export-ydpi="9" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:333.60412598px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-11973.815"
+       y="-183.39767"
+       id="text4134"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="9"
+       inkscape:export-ydpi="9"><tspan
+         sodipodi:role="line"
+         id="tspan4136"
+         x="-11973.815"
+         y="-183.39767"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3336.04125977px;font-family:K26ToyBlocks123;-inkscape-font-specification:K26ToyBlocks123">Tulisan →</tspan><tspan
+         sodipodi:role="line"
+         x="-11973.815"
+         y="4379.5879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3336.04125977px;font-family:K26ToyBlocks123;-inkscape-font-specification:K26ToyBlocks123"
+         id="tspan4138">Lainnya →</tspan></text>
   </g>
 </svg>
