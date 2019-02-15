@@ -1,6 +1,10 @@
 ---
 layout: default
 
+banner:
+  image: https://lh3.googleusercontent.com/-JJHhqND3TPA/XGa2SVtg7YI/AAAAAAAADRc/YKrgTIhDgAMkpiiAzuVsgaarhYyuPd0_gCLcBGAs/s1200/banner.svg.png
+  link: "#!"
+
 komunitas:
   -
     link: https://www.instagram.com/komunitas.odop/?hl=en # one day one post
@@ -14,6 +18,13 @@ komunitas:
 ---
 
 <div class="row gambar-beranda">
+	{% if page.banner %}
+		<div class="col-xs-12">
+			<a href="{{ page.banner.link }}">
+				<img src="{{ page.banner.image }}" alt="">
+			</a>
+		</div>
+	{% endif %}
 	{% for x in site.posts %}
 		<div class="col-xs-4">
 			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}">
