@@ -22,11 +22,13 @@ komunitas:
 
 <div class="row gambar-beranda">
 	{% if page.banner %}
-		<div class="col-xs-12">
-			<a href="{{ page.banner.link }}">
-				<img src="{{ page.banner.image }}" alt="">
-			</a>
-		</div>
+		{% for x in page.banner.image %}
+			<div class="col-xs-4">
+				<a href="{{ page.banner.link }}">
+					<img src="{{ x }}" alt="">
+				</a>
+			</div>
+		{% endfor %}
 	{% endif %}
 	{% for x in site.posts %}
 		<div class="col-xs-4">
