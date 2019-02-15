@@ -1,3 +1,7 @@
+html {
+	background: black;
+}
+
 body {
 	padding-top: 50px;
 	max-width: 800px;
@@ -17,6 +21,12 @@ img {
 }
 .gambar-beranda div {
 	padding: 1px;
+}
+.gambar-beranda div:nth-child(3n-2) {
+	padding-left: 0;
+}
+.gambar-beranda div:nth-child(3n-3) {
+	padding-right: 0;
 }
 .gambar-beranda img {
 	width: 100%;
