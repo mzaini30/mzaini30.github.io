@@ -9,7 +9,9 @@ banner:
     - https://lh3.googleusercontent.com/-IoJapT94g-s/XGbWARdMgtI/AAAAAAAADRw/y8arJwJSMsULV-7HiY2jxw5iNeDnKpOTQCLcBGAs/h1200/image4175.png
 
 next:
-  - 
+  - https://lh3.googleusercontent.com/-OnO4M_fyCIc/XGc4scKSmSI/AAAAAAAADR8/78b3Fxy8DiMZxexjzilzyUHEc7YlYCL-gCLcBGAs/h1200/row-1-col-1.jpg
+  - https://lh3.googleusercontent.com/-I1f9eNDM-2g/XGc4sXwJ51I/AAAAAAAADSE/i6SzBX6EpbY1bCysH5tvK5n28-mNok8XwCLcBGAs/h1200/row-1-col-2.jpg
+  - https://lh3.googleusercontent.com/-XlxYBYvqhS8/XGc4sRkdnmI/AAAAAAAADSA/RY2Y637JSWohmxx7cDH9dA1XFKWBSpKiwCLcBGAs/h1200/row-1-col-3.jpg
 
 komunitas:
   -
@@ -33,7 +35,7 @@ komunitas:
 			</div>
 		{% endfor %}
 	{% endif %}
-	{% for x in site.posts %}
+	{% for x in paginator.posts %}
 		<div class="col-xs-4">
 			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}">
 				<img src="{{ x.image }}" alt="">
@@ -52,7 +54,7 @@ komunitas:
 			<img src="{{ page.komunitas[0].gambar }}" alt="">
 		</a>
 	</div>
-	{% assign mod_postingan = site.posts.size | modulo: 3 %}
+	{% assign mod_postingan = paginator.posts.size | modulo: 3 %}
 	{% if mod_postingan != 2 %}
 		<div class="col-xs-4">
 			<a href="{{ page.komunitas[1].link }}">
@@ -66,5 +68,14 @@ komunitas:
 				</a>
 			</div>
 		{% endif %}
+	{% endif %}
+	{% if paginator.next_page %}
+		{% for x in page.next %}
+			<div class="col-xs-4">
+				<a href="{{ paginator.next_page_path }}">
+					<img src="{{ x }}" alt="">
+				</a>
+			</div>
+		{% endfor %}
 	{% endif %}
 </div>
