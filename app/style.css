@@ -22,12 +22,15 @@ img {
 .gambar-beranda div {
 	padding: 1px;
 }
-.gambar-beranda div:nth-child(3n-2) {
+/*.gambar-beranda div:nth-child(3n-2) {
 	padding-left: 0;
+}
+.gambar-beranda div:nth-child(3n-1) {
+	padding: 0;
 }
 .gambar-beranda div:nth-child(3n-3) {
 	padding-right: 0;
-}
+}*/
 .gambar-beranda img {
 	width: 100%;
 }
