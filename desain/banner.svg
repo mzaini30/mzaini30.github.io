@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.028365721"
-     inkscape:cx="14291.429"
+     inkscape:cx="14185.667"
      inkscape:cy="-4102.8571"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -53,11 +53,23 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#ea80fc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        id="rect3336"
        width="30000"
        height="10000"
        x="-708.57141"
        y="155.21935" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:197.50775146px;line-height:125%;font-family:'Bitstream Charter';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Bitstream Charter';font-stretch:normal;font-variant:normal;"
+       x="3387.4429"
+       y="5562.9111"
+       id="text4165"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4167"
+         x="3387.4429"
+         y="5562.9111"
+         style="font-size:1975.07751465px;-inkscape-font-specification:'Bitstream Charter';font-family:'Bitstream Charter';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Yuk Menghafal Alquran</tspan></text>
   </g>
 </svg>
