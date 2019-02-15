@@ -25,8 +25,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.028365721"
-     inkscape:cx="14185.667"
+     inkscape:zoom="0.028032399"
+     inkscape:cx="14291.429"
      inkscape:cy="-4102.8571"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,15 +61,20 @@
        y="155.21935" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:197.50775146px;line-height:125%;font-family:'Bitstream Charter';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Bitstream Charter';font-stretch:normal;font-variant:normal;"
-       x="3387.4429"
-       y="5562.9111"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:287.98999023px;line-height:125%;font-family:'Bitstream Charter';-inkscape-font-specification:'Bitstream Charter';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="27633.199"
+       y="4553.5859"
        id="text4165"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4167"
-         x="3387.4429"
-         y="5562.9111"
-         style="font-size:1975.07751465px;-inkscape-font-specification:'Bitstream Charter';font-family:'Bitstream Charter';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Yuk Menghafal Alquran</tspan></text>
+         x="27633.199"
+         y="4553.5859"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2879.89990234px;font-family:'orange juice';-inkscape-font-specification:'orange juice';text-align:end;text-anchor:end">Yuk Menghafal Alquran</tspan><tspan
+         sodipodi:role="line"
+         x="27633.199"
+         y="8153.4609"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2879.89990234px;font-family:'orange juice';-inkscape-font-specification:'orange juice';text-align:end;text-anchor:end"
+         id="tspan4136">30 Juz</tspan></text>
   </g>
 </svg>
