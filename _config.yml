@@ -12,3 +12,8 @@ iklan:
   -
     link: /2019/02/11/pasang-iklan.html
     gambar: https://instagram.fupg1-1.fna.fbcdn.net/vp/a9c1b8d10ed8b793245345052f6999a2/5CE74799/t51.2885-15/e35/50556886_2041312312573148_1464358966568718317_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=108
+
+paginate: 20
+
+plugins:
+  - jekyll-paginate
