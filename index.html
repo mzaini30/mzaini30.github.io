@@ -4,6 +4,7 @@ layout: default
 
 <div class="container">
 	{% include iklan.html %}
+	<br>
 	<div class="list-group">
 		{% for x in paginator.posts %}
 			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
