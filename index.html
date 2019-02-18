@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="row gambar-beranda">
+	{% include iklan.html %}
 	<div class="list-group">
 		{% for x in paginator.posts %}
 			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
@@ -13,4 +14,6 @@ layout: default
 			<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
 		</center>
 	{% endif %}
+	<br>
+	{% include iklan.html %}
 </div>
