@@ -1,81 +1,16 @@
 ---
 layout: default
-
-banner:
-  link: "#!"
-  image:
-    - https://lh3.googleusercontent.com/-BwJBogQ6ac0/XGbV_Cm3IoI/AAAAAAAADRo/Tp-egNJh_2IijxDIaE1v-qyq3N27BFRSgCLcBGAs/h1200/image4153.png
-    - https://lh3.googleusercontent.com/-QhDcsUWIiN4/XGbWAODBpBI/AAAAAAAADRs/jfMWPS3uWxo4PTw3n0hCfN6pKC9LWqqlgCLcBGAs/h1200/image4164.png
-    - https://lh3.googleusercontent.com/-IoJapT94g-s/XGbWARdMgtI/AAAAAAAADRw/y8arJwJSMsULV-7HiY2jxw5iNeDnKpOTQCLcBGAs/h1200/image4175.png
-
-next:
-  - https://lh3.googleusercontent.com/-OnO4M_fyCIc/XGc4scKSmSI/AAAAAAAADR8/78b3Fxy8DiMZxexjzilzyUHEc7YlYCL-gCLcBGAs/h1200/row-1-col-1.jpg
-  - https://lh3.googleusercontent.com/-I1f9eNDM-2g/XGc4sXwJ51I/AAAAAAAADSE/i6SzBX6EpbY1bCysH5tvK5n28-mNok8XwCLcBGAs/h1200/row-1-col-2.jpg
-  - https://lh3.googleusercontent.com/-XlxYBYvqhS8/XGc4sRkdnmI/AAAAAAAADSA/RY2Y637JSWohmxx7cDH9dA1XFKWBSpKiwCLcBGAs/h1200/row-1-col-3.jpg
-
-komunitas:
-  -
-    link: https://www.instagram.com/komunitas.odop/?hl=en # one day one post
-    gambar: https://scontent-sin6-2.cdninstagram.com/vp/388e056cb508eefbd5de8f4ad2845270/5CFD667B/t51.2885-15/e35/51342259_239369646966255_841929653889785634_n.jpg?_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=103
-  -
-    link: http://isykarima.com/ # isy karima
-    gambar: https://instagram.fupg2-1.fna.fbcdn.net/vp/46a33ba4a3859381a9809d16c9e4ed71/5CE5230E/t51.2885-15/e35/51459499_571208290046268_2453280138248668430_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=100
-  -
-    link: http://ilmpi.org/ # ilmpi
-    gambar: https://instagram.fupg1-1.fna.fbcdn.net/vp/286ab28d4c69528e5d2df2fb3ea90ee7/5CF3833C/t51.2885-15/e35/50292810_326098814690471_5117931775148626773_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=111
 ---
 
 <div class="row gambar-beranda">
-	{% if page.banner %}
-		{% for x in page.banner.image %}
-			<div class="col-xs-4">
-				<a href="{{ page.banner.link }}">
-					<img src="{{ x }}" alt="">
-				</a>
-			</div>
+	<div class="list-group">
+		{% for x in paginator.posts %}
+			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
 		{% endfor %}
-	{% endif %}
-	{% for x in paginator.posts %}
-		<div class="col-xs-4">
-			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}">
-				<img src="{{ x.image }}" alt="">
-			</a>
-		</div>
-	{% endfor %}
-	{% for x in site.iklan %}
-		<div class="col-xs-4">
-			<a href="{{ x.link }}">
-				<img src="{{ x.gambar }}" alt="">
-			</a>
-		</div>
-	{% endfor %}
-	<div class="col-xs-4">
-		<a href="{{ page.komunitas[0].link }}">
-			<img src="{{ page.komunitas[0].gambar }}" alt="">
-		</a>
 	</div>
-	{% assign mod_postingan = paginator.posts.size | modulo: 3 %}
-	{% if mod_postingan != 2 %}
-		<div class="col-xs-4">
-			<a href="{{ page.komunitas[1].link }}">
-				<img src="{{ page.komunitas[1].gambar }}" alt="">
-			</a>
-		</div>
-		{% if mod_postingan != 1 %}
-			<div class="col-xs-4">
-				<a href="{{ page.komunitas[2].link }}">
-					<img src="{{ page.komunitas[2].gambar }}" alt="">
-				</a>
-			</div>
-		{% endif %}
-	{% endif %}
 	{% if paginator.next_page %}
-		{% for x in page.next %}
-			<div class="col-xs-4">
-				<a href="{{ paginator.next_page_path }}">
-					<img src="{{ x }}" alt="">
-				</a>
-			</div>
-		{% endfor %}
+		<center>
+			<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
+		</center>
 	{% endif %}
 </div>

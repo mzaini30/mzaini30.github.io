@@ -1,34 +1,11 @@
 body {
-	padding-top: 50px;
+	padding-top: 70px;
 	max-width: 800px;
 	margin: auto;
 }
 
 img {
 	max-width: 100%;
-}
-
-.full {
-	width: 100%;
-}
-
-.gambar-beranda {
-	margin: 0;
-}
-.gambar-beranda div {
-	padding: 1px;
-}
-/*.gambar-beranda div:nth-child(3n-2) {
-	padding-left: 0;
-}
-.gambar-beranda div:nth-child(3n-1) {
-	padding: 0;
-}
-.gambar-beranda div:nth-child(3n-3) {
-	padding-right: 0;
-}*/
-.gambar-beranda img {
-	width: 100%;
 }
 
 @media (min-width: 800px){

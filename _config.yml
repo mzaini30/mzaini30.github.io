@@ -1,19 +1,7 @@
 title: Zen
 description: Android developer.
-image: https://instagram.fupg2-1.fna.fbcdn.net/vp/eb77c1483b5e33ff305de2d9e66ca40e/5CED3361/t51.2885-15/e35/51742136_2211068942543332_8759296165379487747_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=104
 
-iklan:
-  -
-    link: /2019/02/11/pasang-iklan.html
-    gambar: https://instagram.fupg2-1.fna.fbcdn.net/vp/14166fb800446a357f419cb4f6d6ac30/5CEAB6F7/t51.2885-15/e35/50802687_281239705905465_6371260509729188760_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=109
-  -
-    link: /2019/02/11/pasang-iklan.html
-    gambar: https://instagram.fupg1-1.fna.fbcdn.net/vp/5d839ec1f3b75a5de61f1f18ca720c36/5CDDF89E/t51.2885-15/e35/50566608_2337352532950273_2899844593363717360_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=101
-  -
-    link: /2019/02/11/pasang-iklan.html
-    gambar: https://instagram.fupg1-1.fna.fbcdn.net/vp/a9c1b8d10ed8b793245345052f6999a2/5CE74799/t51.2885-15/e35/50556886_2041312312573148_1464358966568718317_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=108
-
-paginate: 20
+paginate: 10
 
 plugins:
   - jekyll-paginate
