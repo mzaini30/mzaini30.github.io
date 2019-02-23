@@ -1,4 +1,5 @@
 ---
+layout: post
 ---
 
 Kita adalah makhluk yang irasional. Harusnya kita paham bahwa ada yang namanya kematian. Setiap kita pasti mati. Dan kita pun sadar bahwa setelah kematian itu ada kehidupan yang abadi.

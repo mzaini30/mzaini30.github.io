@@ -1,4 +1,5 @@
 ---
+layout: post
 image: https://instagram.fupg2-1.fna.fbcdn.net/vp/2240f877f781f3b6cd26517df19ec0d9/5CE6775A/t51.2885-15/e35/51573447_1866022750174380_5878546579872551077_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=100
 layout: post
 ---

@@ -1,4 +1,5 @@
 ---
+layout: post
 ---
 
 Siapakah Abu Bakar Ash-Shiddiq? Kalau misalnya ada orang yang bertanya seperti itu kepadamu? Apa yang kamu jawab? Ya gampangannya Khalifah yang pertama. Itu aja sih. Nah, di postingan ini, aku akan menjabarkan secara ringkas siapa itu Abu Bakar Ash-Shiddiq.

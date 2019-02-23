@@ -1,4 +1,5 @@
 ---
+layout: post
 ---
 
 Entah mengapa kita ini sifatnya suka membanding-bandingkan satu sama lain. Apakah salah?

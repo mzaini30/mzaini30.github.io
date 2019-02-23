@@ -1,4 +1,5 @@
 ---
+layout: post
 image: https://lh3.googleusercontent.com/-8ccITEP5lRw/XGURPgKg6XI/AAAAAAAADRQ/_UPzWSGxWXgRNX60qskab243LmpJFdDYwCLcBGAs/h1200/image3344.png
 ---
 
