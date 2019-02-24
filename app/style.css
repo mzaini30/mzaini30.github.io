@@ -1,5 +1,6 @@
 * {
 	direction: all;
+	word-wrap: break-word;
 }
 
 body {
