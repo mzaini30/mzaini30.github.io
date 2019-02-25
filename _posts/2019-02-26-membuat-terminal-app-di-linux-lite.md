@@ -14,3 +14,4 @@ layout: post
 5. Buka Terminal pada folder tersebut lalu ketikkan `chmod -R 777 .`
 6. Nah, coba sekarang ketik `tulis` di Terminal. Maka akan muncul `hello world`
 
+{% include more.html link='/2019/02/13/pengalaman-menggunakan-linux-lite.html' %}
