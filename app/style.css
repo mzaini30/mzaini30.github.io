@@ -13,6 +13,10 @@ body {
 	max-width: 800px;
 }
 
+.element {
+	margin-bottom: 20px;
+}
+
 img {
 	max-width: 100%;
 }

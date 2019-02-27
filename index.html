@@ -36,46 +36,61 @@ komunitas:
 <div class="container">
 	<div class="row">
 		<div class="col-sm-3">
-			<div class="thumbnail"><img class="tampil_foto_profil" src="https://avatars0.githubusercontent.com/u/7939342?s=460&v=4"></div>
-			<h3 class="tampil_nama">Zen</h3>
-			<p class="tampil_bio">developer Nulis Aja Community | layouter Sanggar Caraka | co-owner Toko Sepeda Sinar Jaya | mahasiswa Psikologi | mantan wakil ketua Himpunan Mahasiswa Psikologi | mantan Badan Informasi dan Komunikasi Ikatan Lembaga Mahasiswa Psikologi Indonesia</p>
-			<p><a href="#!" class="full modal_view btn btn-default" data-toggle="modal" data-target="#myModal">Edit</a></p>
-			<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> -->
-			<!-- <hr> -->
-			<p><strong>Komunitas</strong></p>
-			<div>
-				{% for x in page.komunitas %}
-					<img src="{{ x }}" class="komunitas">
-				{% endfor %}
+			<div class="element">
+				<div class="thumbnail"><img class="tampil_foto_profil" src="https://avatars0.githubusercontent.com/u/7939342?s=460&v=4"></div>
+				<h3 class="tampil_nama">Zen</h3>
+				<p class="tampil_bio">developer Nulis Aja Community | layouter Sanggar Caraka | co-owner Toko Sepeda Sinar Jaya | mahasiswa Psikologi | mantan wakil ketua Himpunan Mahasiswa Psikologi | mantan Badan Informasi dan Komunikasi Ikatan Lembaga Mahasiswa Psikologi Indonesia</p>
+				<p><a href="#!" class="full modal_view btn btn-default" data-toggle="modal" data-target="#myModal">Edit</a></p>
+				<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> -->
+				<!-- <hr> -->
+				<p><strong>Komunitas</strong></p>
+				<div>
+					{% for x in page.komunitas %}
+						<img src="{{ x }}" class="komunitas">
+					{% endfor %}
+				</div>
 			</div>
-			<br>
 		</div>
 		<div class="col-sm-9">
-			<div class="list-group">
-				{% for x in paginator.posts %}
-					<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-				{% endfor %}
+			<div class="element">
+				<div class="list-group">
+					{% for x in paginator.posts %}
+						<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+					{% endfor %}
+				</div>
+				{% if paginator.next_page %}
+					<center>
+						<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
+					</center>
+				{% endif %}
 			</div>
-			{% if paginator.next_page %}
-				<center>
-					<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
-				</center>
-			{% endif %}
-			<br>
 			<div class="row">
 				<div class="col-sm-4">
-					<p>Tags</p>
-					<div class="panel panel-default">
-						<div class="panel-body">
-							{% assign semua_tag = site.tags | sort %}
-							{% for x in semua_tag %}
-								<div class="badge">{{ x | first }}</div>
-							{% endfor %}
+					<div class="element">
+						<p>Tags</p>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								{% assign semua_tag = site.tags | sort %}
+								{% for x in semua_tag %}
+									<div class="badge">{{ x | first }}</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="element">
+						<p>10 tulisan telah dibaca</p>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="progress">
+									<div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<br>
 	</div>
 </div>
