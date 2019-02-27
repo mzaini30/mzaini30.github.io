@@ -1,20 +1,40 @@
 ---
 layout: default
+komunitas:
+  - https://instagram.fupg2-1.fna.fbcdn.net/vp/d82ccd87e5fcce4ffea86d13f734617f/5D0CB00E/t51.2885-15/e35/51459499_571208290046268_2453280138248668430_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=100
+  - https://instagram.fupg2-1.fna.fbcdn.net/vp/e8e43607a3aeda518e0caf6ab34d3f6a/5D2496BA/t51.2885-15/e35/51349645_2123581420995903_4182805338711215218_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=103
+  - https://instagram.fupg1-1.fna.fbcdn.net/vp/3980e6f9dd09ceebf399039cffaa4e5f/5D1B103C/t51.2885-15/e35/50292810_326098814690471_5117931775148626773_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=111
+  - https://instagram.fupg2-1.fna.fbcdn.net/vp/a376370c3c51fd632a5bf528a0ce6d78/5D1412B4/t51.2885-15/e35/51034564_309039999959577_2588812328930603888_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=109
 ---
 
 <div class="container">
-	{% include iklan.html %}
-	<br>
-	<div class="list-group">
-		{% for x in paginator.posts %}
-			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-		{% endfor %}
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="thumbnail"><img src="https://avatars0.githubusercontent.com/u/7939342?s=460&v=4"></div>
+			<h3>Zen &#128394;</h3>
+			<p>developer Nulis Aja Community | layouter Sanggar Caraka | co-owner Toko Sepeda Sinar Jaya | mahasiswa Psikologi | mantan wakil ketua Himpunan Mahasiswa Psikologi | mantan Badan Informasi dan Komunikasi Ikatan Lembaga Mahasiswa Psikologi Indonesia</p>
+			<!-- <p><a href="#!" class="full btn btn-default">Edit</a></p> -->
+			<hr>
+			<p><strong>Komunitas</strong></p>
+			<div>
+				{% for x in page.komunitas %}
+					<img src="{{ x }}" class="komunitas">
+				{% endfor %}
+			</div>
+			<br>
+		</div>
+		<div class="col-sm-9">
+			<div class="list-group">
+				{% for x in paginator.posts %}
+					<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+				{% endfor %}
+			</div>
+			{% if paginator.next_page %}
+				<center>
+					<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
+				</center>
+			{% endif %}
+		</div>
+		<br>
 	</div>
-	{% if paginator.next_page %}
-		<center>
-			<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
-		</center>
-	{% endif %}
-	<br>
-	{% include iklan.html %}
 </div>

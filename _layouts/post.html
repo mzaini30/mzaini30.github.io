@@ -8,11 +8,8 @@ layout: default
 		location.href = "{{ page.link }}"
 	</script>
 {% endif %}
-<div class="container">
+<div class="container postingan">
 	<h1>{{ page.title }}</h1>
-	{% include iklan.html %}
-	<br>
 	{{ content }}
-	{% include iklan.html %}
 	{% include disqus.html %}
 </div>
