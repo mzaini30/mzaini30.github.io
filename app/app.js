@@ -34,12 +34,11 @@ $('.simpan').click(function(){
 	$('.tutup_modal').click()
 })
 
+if (localStorage.getItem('judul') == null){
+	localStorage.setItem('judul', '[0]')
+	localStorage.setItem('tag', '[0]')
+}
 if (judul != 'beranda'){
-	if (localStorage.getItem('judul') == null){
-		localStorage.setItem('judul', '[0]')
-		localStorage.setItem('tag', '[0]')
-	}
-
 	ambil_judul = JSON.parse(localStorage.getItem('judul'))
 	ambil_tag = JSON.parse(localStorage.getItem('tag'))
 
