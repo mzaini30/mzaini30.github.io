@@ -71,3 +71,57 @@ if (telah_dibaca > 0){
 	persenan = telah_dibaca * 100 / jumlah_semua_postingan
 	$('.progress_dibaca').css('width', persenan + '%')
 }
+
+function ambil_frekuensi_array(arr) {
+    var a = [], b = [], prev;
+
+    arr.sort();
+    for ( var i = 0; i < arr.length; i++ ) {
+        if ( arr[i] !== prev ) {
+            a.push(arr[i]);
+            b.push(1);
+        } else {
+            b[b.length-1]++;
+        }
+        prev = arr[i];
+    }
+
+    return [a, b];
+}
+
+array_tag = JSON.parse(localStorage.getItem('tag'))
+frekuensi = ambil_frekuensi_array(array_tag)
+
+tag_descending = []
+frekuensi_tag_descending = []
+
+for (n2 = 1; n2 <= 4; n2++){
+	tertinggi = 0
+	urutan_tertinggi = 0
+	for (n in frekuensi[1]){
+		if (Number(frekuensi[1][n]) > tertinggi){
+			tertinggi = Number(frekuensi[1][n])
+			urutan_tertinggi = n
+		}
+	}
+	tag_descending.push(frekuensi[0][n])
+	delete frekuensi[0][n]
+	frekuensi_tag_descending.push(frekuensi[1][n])
+	delete frekuensi[1][n]
+}
+
+if (tag_descending.length == 4){
+	jumlah = 0
+	for (n2 in frekuensi_tag_descending){
+		jumlah += frekuensi_tag_descending[n2]
+	}
+	persen = []
+	for (n in tag_descending){
+		$('.tag' + (n + 1) + '_nama').html(tag_descending[n])	
+		persen.push(frekuensi_tag_descending[n] * 100 / jumlah)
+		// console.log(Math.floor(persen[n]))
+		// $('.tag' + (n + 1) + '_persen').html(Math.floor(persen[n]))
+		// console.log($('.tag' + (n + 1) + '_persen').html())
+		$('.tag' + (n + 1)).css('width', persen[n] + '%')
+	}
+}
