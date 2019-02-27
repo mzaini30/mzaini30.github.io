@@ -1,3 +1,6 @@
+---
+---
+
 // $('.modal_view').click()
 
 foto_profil = 'https://avatars0.githubusercontent.com/u/7939342?s=460&v=4'
@@ -30,3 +33,42 @@ $('.simpan').click(function(){
 	tampil_biodata()
 	$('.tutup_modal').click()
 })
+
+if (judul != 'beranda'){
+	if (localStorage.getItem('judul') == null){
+		localStorage.setItem('judul', '[0]')
+		localStorage.setItem('tag', '[0]')
+	}
+
+	ambil_judul = JSON.parse(localStorage.getItem('judul'))
+	ambil_tag = JSON.parse(localStorage.getItem('tag'))
+
+	ada = false
+	for (n in ambil_judul){
+		if (ambil_judul[n] == judul){
+			ada = true	
+		}
+		if (ambil_judul[n] == 0){
+			ambil_judul.shift()
+			ambil_tag.shift()
+		}
+	}
+	if (ada == false){
+		ambil_judul.push(judul)
+		ambil_tag.push(tag)
+	}
+
+	localStorage.setItem('judul', JSON.stringify(ambil_judul))
+	localStorage.setItem('tag', JSON.stringify(ambil_tag))
+}
+
+telah_dibaca = JSON.parse(localStorage.getItem('judul')).length
+jumlah_semua_postingan = '{{ site.posts | size }}'
+jumlah_semua_postingan = Number(jumlah_semua_postingan)
+
+if (telah_dibaca > 0){
+	$('.sudah_dibaca').html(telah_dibaca)
+
+	persenan = telah_dibaca * 100 / jumlah_semua_postingan
+	$('.progress_dibaca').css('width', persenan + '%')
+}

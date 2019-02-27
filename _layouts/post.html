@@ -13,3 +13,11 @@ layout: default
 	{{ content }}
 	{% include disqus.html %}
 </div>
+<script type="text/javascript">
+	judul = '{{ page.title }}'
+	{% if page.tag %}
+		tag = '{{ page.tag }}'
+	{% else %}
+		tag = 'blog'
+	{% endif %}
+</script>
