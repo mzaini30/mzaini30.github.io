@@ -118,10 +118,10 @@ if (tag_descending.length == 4){
 	persen = []
 	for (n in tag_descending){
 		$('.tag' + (n + 1) + '_nama').html(tag_descending[n])	
-		persen.push(frekuensi_tag_descending[n] * 100 / jumlah)
+		// persen.push(frekuensi_tag_descending[n] * 100 / jumlah)
 		// console.log(Math.floor(persen[n]))
-		// $('.tag' + (n + 1) + '_persen').html(Math.floor(persen[n]))
+		$('.tag' + (n + 1) + '_persen').html(Math.floor(frekuensi_tag_descending[n] * 100 / jumlah))
 		// console.log($('.tag' + (n + 1) + '_persen').html())
-		$('.tag' + (n + 1)).css('width', persen[n] + '%')
+		$('.tag' + (n + 1)).css('width', frekuensi_tag_descending[n] * 100 / jumlah + '%')
 	}
 }
