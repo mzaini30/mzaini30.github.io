@@ -21,11 +21,13 @@ komunitas:
         <h4 class="modal-title" id="myModalLabel">My Zen</h4>
       </div>
       <div class="modal-body">
-        ...
+        <div class="form-group"><label>Link Foto Profil</label><input type="text" class="foto_profil form-control"></div>
+        <div class="form-group"><label>Nama</label><input type="text" class="nama form-control"></div>
+        <div class="form-group"><label>Bio</label><textarea name="" id="" class="bio form-control" rows="5"></textarea></div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-        <button type="button" class="btn btn-primary">Simpan</button>
+        <button type="button" class="btn btn-default tutup_modal" data-dismiss="modal">Tutup</button>
+        <button type="button" class="btn btn-primary simpan">Simpan</button>
       </div>
     </div>
   </div>
@@ -34,10 +36,10 @@ komunitas:
 <div class="container">
 	<div class="row">
 		<div class="col-sm-3">
-			<div class="thumbnail"><img src="https://avatars0.githubusercontent.com/u/7939342?s=460&v=4"></div>
-			<h3>Zen</h3>
-			<p>developer Nulis Aja Community | layouter Sanggar Caraka | co-owner Toko Sepeda Sinar Jaya | mahasiswa Psikologi | mantan wakil ketua Himpunan Mahasiswa Psikologi | mantan Badan Informasi dan Komunikasi Ikatan Lembaga Mahasiswa Psikologi Indonesia</p>
-			<p><a href="#!" class="full btn btn-default" data-toggle="modal" data-target="#myModal">Edit</a></p>
+			<div class="thumbnail"><img class="tampil_foto_profil" src="https://avatars0.githubusercontent.com/u/7939342?s=460&v=4"></div>
+			<h3 class="tampil_nama">Zen</h3>
+			<p class="tampil_bio">developer Nulis Aja Community | layouter Sanggar Caraka | co-owner Toko Sepeda Sinar Jaya | mahasiswa Psikologi | mantan wakil ketua Himpunan Mahasiswa Psikologi | mantan Badan Informasi dan Komunikasi Ikatan Lembaga Mahasiswa Psikologi Indonesia</p>
+			<p><a href="#!" class="full modal_view btn btn-default" data-toggle="modal" data-target="#myModal">Edit</a></p>
 			<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> -->
 			<!-- <hr> -->
 			<p><strong>Komunitas</strong></p>
