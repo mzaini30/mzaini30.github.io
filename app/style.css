@@ -9,6 +9,10 @@ body {
 	margin: auto;
 }
 
+.more {
+	margin-bottom: 10px;
+}
+
 .postingan {
 	max-width: 800px;
 }
