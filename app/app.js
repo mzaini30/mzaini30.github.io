@@ -110,14 +110,14 @@ for (n2 = 1; n2 <= 4; n2++){
 	delete frekuensi[1][n]
 }
 
-if (tag_descending.length == 4){
+if (tag_descending[3] != null){
 	jumlah = 0
 	for (n in frekuensi_tag_descending){
 		jumlah += frekuensi_tag_descending[n]
 	}
 	persen = []
 	for (n in tag_descending){
-		if(tag_descending[0] != 0){
+		if(tag_descending[0] != '0'){
 			$('.tag' + (Number(n) + 1) + '_nama').html(tag_descending[n])	
 			$('.tag' + (Number(n) + 1) + '_persen').html(Math.floor(frekuensi_tag_descending[n] * 100 / jumlah))
 			$('.tag' + (Number(n) + 1)).css('width', frekuensi_tag_descending[n] * 100 / jumlah + '%')
