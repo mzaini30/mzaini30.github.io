@@ -43,11 +43,23 @@ img {
 }
 
 .komunitas {
-	width: 12.5%;
+	width: 20%;
+	float: left;
+	padding: 2px;
+}
+
+.komunitas img {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.clear {
+	clear: both;
 }
 
 .thumbnail img,
-.full {
+.full,
+.komunitas img {
 	width: 100%;
 }
 
