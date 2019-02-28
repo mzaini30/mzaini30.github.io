@@ -10,7 +10,13 @@ layout: default
 {% endif %}
 <div class="container postingan">
 	<h1>{{ page.title }}</h1>
+	<div class="element">
+		{% include iklan.html %}
+	</div>
 	{{ content }}
+	<div class="element">
+		{% include iklan.html %}
+	</div>
 	{% if page.disqus != false %}
 		{% include disqus.html %}
 	{% endif %}
