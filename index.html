@@ -100,6 +100,44 @@ komunitas:
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="element">
+						<p>Jelajahi dunia Linux</p>
+						<div class="list-group jelajah">
+							{% for x in site.posts %}
+								{% if x.tag == 'linux' %}
+									<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+								{% endif %}			
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="element">
+						<p>Apa itu jiwa?</p>
+						<div class="list-group jelajah">
+							{% for x in site.posts %}
+								{% if x.tag == 'psikologi' %}
+									<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+								{% endif %}			
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="element">
+						<p>Aku bisa menulis</p>
+						<div class="list-group jelajah">
+							{% for x in site.posts %}
+								{% if x.tag == 'menulis' %}
+									<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+								{% endif %}			
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
