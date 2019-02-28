@@ -1,6 +1,12 @@
 ---
 ---
 
+tes = 'oke'
+
+for (x = 1; x <= 5; x++){
+	$('.jelajah .list-group-item:nth-child('+ x +')').css('display', 'block')	
+}
+
 // $('.modal_view').click()
 
 foto_profil = 'https://avatars0.githubusercontent.com/u/7939342?s=460&v=4'

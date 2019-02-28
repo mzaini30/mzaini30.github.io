@@ -9,6 +9,10 @@ body {
 	margin: auto;
 }
 
+.jelajah .list-group-item {
+	display: none;
+}
+
 .more {
 	margin-bottom: 10px;
 }
