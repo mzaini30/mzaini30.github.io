@@ -9,7 +9,8 @@ body {
 	margin: auto;
 }
 
-.jelajah .list-group-item {
+.jelajah .list-group-item,
+.sembunyi {
 	display: none;
 }
 
