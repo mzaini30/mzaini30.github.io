@@ -5,3 +5,14 @@ paginate: 10
 
 plugins:
   - jekyll-paginate
+
+menu:
+  -
+    title: Cari
+    link: /2019/02/28/cari.html
+  -
+    title: Play Store
+    link: http://gg.gg/zenapk
+  -
+    title: Tentangku
+    link: /2019/02/10/aku.html
