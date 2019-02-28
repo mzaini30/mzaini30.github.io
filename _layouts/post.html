@@ -11,7 +11,9 @@ layout: default
 <div class="container postingan">
 	<h1>{{ page.title }}</h1>
 	{{ content }}
-	{% include disqus.html %}
+	{% if page.disqus != false %}
+		{% include disqus.html %}
+	{% endif %}
 </div>
 <script type="text/javascript">
 	judul = '{{ page.title }}'
