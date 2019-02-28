@@ -43,11 +43,24 @@ komunitas:
 				<p><a href="#!" class="full modal_view btn btn-default" data-toggle="modal" data-target="#myModal">Edit</a></p>
 				<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> -->
 				<!-- <hr> -->
-				<p><strong>Komunitas</strong></p>
+			</div>
+			<div class="element">
+				<p>Komunitas</p>
 				<div>
 					{% for x in page.komunitas %}
 						<img src="{{ x }}" class="komunitas">
 					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>Tags</p>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						{% assign semua_tag = site.tags | sort %}
+						{% for x in semua_tag %}
+							<div class="badge">{{ x | first }}</div>
+						{% endfor %}
+					</div>
 				</div>
 			</div>
 		</div>
@@ -64,43 +77,26 @@ komunitas:
 					</center>
 				{% endif %}
 			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="element">
-						<p>Tags</p>
-						<div class="panel panel-default">
-							<div class="panel-body">
-								{% assign semua_tag = site.tags | sort %}
-								{% for x in semua_tag %}
-									<div class="badge">{{ x | first }}</div>
-								{% endfor %}
-							</div>
+			<div class="element">
+				<p><span class='sudah_dibaca'>1</span> tulisan telah dibaca (dari {{ site.posts | size }} tulisan)</p>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="progress">
+							<div class="progress_dibaca progress-bar progress-bar-success progress-bar-striped active" style="width: 1%"></div>
 						</div>
-					</div>
-				</div>
-				<div class="col-sm-8">
-					<div class="element">
-						<p><span class='sudah_dibaca'>1</span> tulisan telah dibaca (dari {{ site.posts | size }} tulisan)</p>
-						<div class="panel panel-default">
-							<div class="panel-body">
-								<div class="progress">
-									<div class="progress_dibaca progress-bar progress-bar-success progress-bar-striped active" style="width: 1%"></div>
-								</div>
-								<div class="progress">
-									<div class="tag1 progress-bar progress-bar-success" style="width: 25%"></div>
-									<div class="tag2 progress-bar progress-bar-info" style="width: 25%"></div>
-									<div class="tag3 progress-bar progress-bar-warning" style="width: 25%"></div>
-									<div class="tag4 progress-bar progress-bar-danger" style="width: 25%"></div>
-								</div>
-								<p>Kategori yang sering dibuka:</p>
-								<ol>
-									<li><span class="success"><strong><span class='tag1_nama'>psikologi</span></strong></span> (<span class='tag1_persen'>25</span>%)</li>
-									<li><span class='info'><strong><span class='tag2_nama'>blog</span></strong></span> (<span class='tag2_persen'>25</span>%)</li>
-									<li><span class='warning'><strong><span class='tag3_nama'>sosial</span></strong></span> (<span class='tag3_persen'>25</span>%)</li>
-									<li><span class='danger'><strong><span class='tag4_nama'>linux</span></strong></span> (<span class='tag4_persen'>25</span>%)</li>
-								</ol>
-							</div>
+						<div class="progress">
+							<div class="tag1 progress-bar progress-bar-success" style="width: 25%"></div>
+							<div class="tag2 progress-bar progress-bar-info" style="width: 25%"></div>
+							<div class="tag3 progress-bar progress-bar-warning" style="width: 25%"></div>
+							<div class="tag4 progress-bar progress-bar-danger" style="width: 25%"></div>
 						</div>
+						<p>Kategori yang sering dibuka:</p>
+						<ol>
+							<li><span class="success"><strong><span class='tag1_nama'>psikologi</span></strong></span> (<span class='tag1_persen'>25</span>%)</li>
+							<li><span class='info'><strong><span class='tag2_nama'>blog</span></strong></span> (<span class='tag2_persen'>25</span>%)</li>
+							<li><span class='warning'><strong><span class='tag3_nama'>sosial</span></strong></span> (<span class='tag3_persen'>25</span>%)</li>
+							<li><span class='danger'><strong><span class='tag4_nama'>linux</span></strong></span> (<span class='tag4_persen'>25</span>%)</li>
+						</ol>
 					</div>
 				</div>
 			</div>
