@@ -12,9 +12,6 @@
 	<link rel="alternate" type="application/rss+xml" title="Zen" href="https://www.muhammadzaini.com/feed" />
 	<link rel="icon" href="https://www.muhammadzaini.com/favicon.ico">
 	{% include iklan-otomatis.html %}
-	{% if page.halaman == 'index' %}
-		<link rel="stylesheet" type="text/css" href="/vendor/flipclock/flipclock.css">
-	{% endif %}
 </head>
 <body>
 	<div class="navbar navbar-default navbar-fixed-top">
@@ -43,10 +40,6 @@
 
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-	{% if page.halaman == 'index' %}
-		<script type="text/javascript" src="/vendor/flipclock/flipclock.min.js"></script>
-		<script type="text/javascript" src="/app/flipclock.js"></script>
-	{% endif %}
 	<script type="text/javascript" src="/app/app.js"></script>
 	{% if page.cari == true %}
 		<script type="text/javascript" src="/app/cari.js"></script>
