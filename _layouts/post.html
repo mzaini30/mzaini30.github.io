@@ -17,6 +17,13 @@ layout: default
 		{% include iklan.html %}
 	</div>
 	{{ content }}
+	<div class="list-group jelajah">
+		{% for x in site.posts %}
+			{% if x.tag == page.tag %}
+				<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+			{% endif %}
+		{% endfor %}
+	</div>
 	<div class="element">
 		{% include iklan.html %}
 	</div>
