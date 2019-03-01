@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol,
+ul,
+li {
+	direction: rtl;
+}
+
+p,
+ol,
+ul,
+li {
+	font-size: 20px;
+}

@@ -3,6 +3,9 @@ layout: default
 ---
 
 <link rel="stylesheet" type="text/css" href="/vendor/pygments-css/autumn.css">
+{% if page.arab == true %}
+	<link rel="stylesheet" type="text/css" href="/app/arab.css">
+{% endif %}
 {% if page.link %}
 	<script type="text/javascript">
 		location.href = "{{ page.link }}"
