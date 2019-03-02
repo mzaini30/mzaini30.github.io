@@ -1,6 +1,36 @@
 ---
 layout: default
 halaman: index
+card:
+  -
+    caption: Dunia Alquran
+    kategori: alquran
+  -
+    caption: I am a bookaholiiiiic
+    kategori: buku
+  -
+    caption: Siapa dia?
+    kategori: profil
+card_2:
+  -
+    caption: Yuk membuat aplikasi
+    kategori: aplikasi
+  -
+    caption: Linux? Makanan apa itu?
+    kategori: linux
+  -
+    caption: About soul
+    kategori: psikologi
+card_3:
+  -
+    caption: Apa itu blog?
+    kategori: blog
+  -
+    caption: Selami dunia literasi
+    kategori: menulis
+  -
+    caption: Mariiii kita bersahabaaat
+    kategori: sosial
 ---
 
 <!-- Button trigger modal -->
@@ -70,101 +100,50 @@ halaman: index
 	</div>
 	<div class="row">
 		<div class="col-sm-4">
-			<div class="element">
-				<p>Dunia Alquran</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'alquran' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
+			{% for x2 in page.card %}
+				<div class="element">
+					<h1>{{ x2.caption }}</h1>
+					<div class="list-group jelajah">
+						{% for x in site.posts %}
+							{% if x.tag == x2.kategori %}
+								<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+							{% endif %}			
+						{% endfor %}
+					</div>
 				</div>
-			</div>
-			<div class="element">
-				<p>I am a bookaholiiiiic</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'buku' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
-				</div>
-			</div>
-			<div class="element">
-				<p>Siapa dia?</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'profil' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 		<div class="col-sm-4">
-			<div class="element">
-				<p>Yuk membuat aplikasi</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'aplikasi' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
+			{% for x2 in page.card_2 %}
+				<div class="element">
+					<h1>{{ x2.caption }}</h1>
+					<div class="list-group jelajah">
+						{% for x in site.posts %}
+							{% if x.tag == x2.kategori %}
+								<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+							{% endif %}			
+						{% endfor %}
+					</div>
 				</div>
-			</div>
-			<div class="element">
-				<p>Linux? Makanan apa itu?</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'linux' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
-				</div>
-			</div>
-			<div class="element">
-				<p>About soul</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'psikologi' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 		<div class="col-sm-4">
-			<div class="element">
-				<p>Apa itu blog?</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'blog' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
+			{% for x2 in page.card_3 %}
+				<div class="element">
+					<h1>{{ x2.caption }}</h1>
+					<div class="list-group jelajah">
+						{% for x in site.posts %}
+							{% if x.tag == x2.kategori %}
+								<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+							{% endif %}			
+						{% endfor %}
+					</div>
 				</div>
-			</div>
-			<div class="element">
-				<p>Selami dunia literasi</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'menulis' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
-				</div>
-			</div>
-			<div class="element">
-				<p>Mariiii kita bersahabaaat</p>
-				<div class="list-group jelajah">
-					{% for x in site.posts %}
-						{% if x.tag == 'sosial' %}
-							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-						{% endif %}			
-					{% endfor %}
-				</div>
-			</div>
+			{% endfor %}
 		</div>
+	</div>
+	<div class="element">
+		{% include iklan.html %}
 	</div>
 </div>
 
