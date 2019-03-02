@@ -61,7 +61,7 @@ card_3:
 
 <div class="container">
 	<div class="element">
-		<p>Ssss... Ini rahasia</p>
+		<h1>Sssst... Ini rahasia</h1>
 		<div class="panel panel-default">
 			<div class="panel-body">
 				{% assign semua_tag = site.tags | sort %}
@@ -79,7 +79,7 @@ card_3:
 		</div>
 		<div class="col-sm-6">
 			<div class="element">
-				<p>Ada gosip terbaru loh...</p>
+				<h1>Ada gosip terbaru loh...</h1>
 				<div class="list-group">
 					{% for x in paginator.posts %}
 						<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
