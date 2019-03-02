@@ -1,6 +1,7 @@
 ---
 layout: default
 halaman: index
+cari: true
 card:
   -
     caption: Dunia Alquran
@@ -60,6 +61,19 @@ card_3:
 </div>
 
 <div class="container">
+	<div class="element">
+		<div class="form-group"><input type="text" class="form-control input_cari" autofocus=""></div>
+
+		<div class="list-group output_cari">
+			{% assign tulisan = site.posts | sort: 'title' %}
+			{% for x in tulisan %}
+				<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">
+					{{ x.title }}
+					<span class="sembunyi">{{ x.content | strip_html }}</span>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
 	<div class="element">
 		<h1>Sssst... Ini rahasia</h1>
 		<div class="panel panel-default">
