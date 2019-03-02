@@ -1,15 +1,6 @@
 ---
 layout: default
 halaman: index
-komunitas:
-  - https://instagram.fupg2-1.fna.fbcdn.net/vp/d82ccd87e5fcce4ffea86d13f734617f/5D0CB00E/t51.2885-15/e35/51459499_571208290046268_2453280138248668430_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=100
-  - https://instagram.fupg2-1.fna.fbcdn.net/vp/e8e43607a3aeda518e0caf6ab34d3f6a/5D2496BA/t51.2885-15/e35/51349645_2123581420995903_4182805338711215218_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=103
-  - https://instagram.fupg1-1.fna.fbcdn.net/vp/3980e6f9dd09ceebf399039cffaa4e5f/5D1B103C/t51.2885-15/e35/50292810_326098814690471_5117931775148626773_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=111
-  - https://instagram.fupg2-1.fna.fbcdn.net/vp/a376370c3c51fd632a5bf528a0ce6d78/5D1412B4/t51.2885-15/e35/51034564_309039999959577_2588812328930603888_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=109
-  - https://instagram.fupg1-1.fna.fbcdn.net/vp/41be98547d249d2a1a3f8fb49cb9b4f5/5D0F0B81/t51.2885-15/e35/50755989_114820602964423_6313275207194744337_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=107
-  - https://instagram.fupg2-1.fna.fbcdn.net/vp/ba7bf7a1415009dae12d78c3ffb4aa63/5D285A26/t51.2885-15/e35/51052229_252392725683060_8837876143415321139_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=100
-  - https://instagram.fupg1-1.fna.fbcdn.net/vp/4672d838bc73d3574012245f4ac55e5e/5D1206DA/t51.2885-15/e35/51168469_608733782896669_1448411154081889268_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=101
-  - https://instagram.fupg2-1.fna.fbcdn.net/vp/54a5379b2f13eeb379eaadf5f572d01b/5D24F37B/t51.2885-15/e35/51342259_239369646966255_841929653889785634_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=103
 ---
 
 <!-- Button trigger modal -->
@@ -42,25 +33,6 @@ komunitas:
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="element">
-				<div class="thumbnail"><img class="tampil_foto_profil" src="https://avatars0.githubusercontent.com/u/7939342?s=460&v=4"></div>
-				<h3 class="tampil_nama">Zen</h3>
-				<p class="tampil_bio">developer Nulis Aja Community | layouter Sanggar Caraka | co-owner Toko Sepeda Sinar Jaya | mahasiswa Psikologi | mantan wakil ketua Himpunan Mahasiswa Psikologi | mantan Badan Informasi dan Komunikasi Ikatan Lembaga Mahasiswa Psikologi Indonesia</p>
-				<p><a href="#!" class="full modal_view btn btn-default" data-toggle="modal" data-target="#myModal">Edit</a></p>
-				<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> -->
-				<!-- <hr> -->
-			</div>
-			<div class="element">
-				<p>Komunitas</p>
-				<div>
-					{% for x in page.komunitas %}
-						<div class="komunitas">
-							<img src="{{ x }}">
-						</div>
-					{% endfor %}
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="element">
 				<p>Tags</p>
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -69,32 +41,6 @@ komunitas:
 							<div class="badge">{{ x | first }}</div>
 						{% endfor %}
 					</div>
-				</div>
-			</div>
-			<div class="element">
-				<p>Domain Authority</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 20%;">20%</div>
-				</div>
-				<p>Page Authority</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 21%;">21%</div>
-				</div>
-				<p>Moz Rank</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 21%;">2,1%</div>
-				</div>
-				<p>Percentage of Quality Backlinks</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 30%;">30%</div>
-				</div>
-				<p>Moz Trust</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 20%;">2</div>
-				</div>
-				<p>Spam Score</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 0%;">0</div>
 				</div>
 			</div>
 		</div>
@@ -113,37 +59,6 @@ komunitas:
 			</div>
 			<div class="element">
 				{% include iklan.html %}
-			</div>
-			<div class="element">
-				<p><span class='sudah_dibaca'>1</span> tulisan telah dibaca (dari {{ site.posts | size }} tulisan)</p>
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<div class="progress">
-							<div class="progress_dibaca progress-bar progress-bar-success progress-bar-striped active" style="width: 1%"></div>
-						</div>
-						<p>Topik yang sering dibaca:</p>
-						<div class="progress">
-							<div class="tag1 progress-bar progress-bar-success" style="width: 25%">
-								<span class='tag1_nama'>psikologi</span> (<span class='tag1_persen'>25</span>%)
-							</div>
-							<div class="tag2 progress-bar progress-bar-info" style="width: 25%">
-								<span class='tag2_nama'>blog</span> (<span class='tag2_persen'>25</span>%)
-							</div>
-							<div class="tag3 progress-bar progress-bar-warning" style="width: 25%">
-								<span class='tag3_nama'>sosial</span> (<span class='tag3_persen'>25</span>%)
-							</div>
-							<div class="tag4 progress-bar progress-bar-danger" style="width: 25%">
-								<span class='tag4_nama'>linux</span> (<span class='tag4_persen'>25</span>%)
-							</div>
-						</div>
-						<!-- <ol>
-							<li><span class="success"><strong><span class='tag1_nama'>psikologi</span></strong></span> (<span class='tag1_persen'>25</span>%)</li>
-							<li><span class='info'><strong><span class='tag2_nama'>blog</span></strong></span> (<span class='tag2_persen'>25</span>%)</li>
-							<li><span class='warning'><strong><span class='tag3_nama'>sosial</span></strong></span> (<span class='tag3_persen'>25</span>%)</li>
-							<li><span class='danger'><strong><span class='tag4_nama'>linux</span></strong></span> (<span class='tag4_persen'>25</span>%)</li>
-						</ol> -->
-					</div>
-				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-4">
