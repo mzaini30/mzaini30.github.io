@@ -17,7 +17,13 @@ layout: default
 		{% include iklan.html %}
 	</div>
 	{{ content }}
-	<h1>Baca jugaaa...</h1>
+	<h1>
+		{% if page.arab == true %}
+			اقرأ أيضا
+		{% else %}
+			Baca jugaaa...
+		{% endif %}
+	</h1>
 	<div class="list-group jelajah">
 		{% for x in site.posts %}
 			{% if x.tag == page.tag %}
