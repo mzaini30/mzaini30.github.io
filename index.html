@@ -71,10 +71,30 @@ halaman: index
 	<div class="row">
 		<div class="col-sm-4">
 			<div class="element">
-				<p>Jelajahi dunia Linux</p>
+				<p>Dunia Alquran</p>
 				<div class="list-group jelajah">
 					{% for x in site.posts %}
-						{% if x.tag == 'linux' %}
+						{% if x.tag == 'alquran' %}
+							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+						{% endif %}			
+					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>I am a bookaholiiiiic</p>
+				<div class="list-group jelajah">
+					{% for x in site.posts %}
+						{% if x.tag == 'buku' %}
+							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+						{% endif %}			
+					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>Siapa dia?</p>
+				<div class="list-group jelajah">
+					{% for x in site.posts %}
+						{% if x.tag == 'profil' %}
 							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
 						{% endif %}			
 					{% endfor %}
@@ -83,7 +103,27 @@ halaman: index
 		</div>
 		<div class="col-sm-4">
 			<div class="element">
-				<p>Apa itu jiwa?</p>
+				<p>Yuk membuat aplikasi</p>
+				<div class="list-group jelajah">
+					{% for x in site.posts %}
+						{% if x.tag == 'aplikasi' %}
+							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+						{% endif %}			
+					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>Linux? Makanan apa itu?</p>
+				<div class="list-group jelajah">
+					{% for x in site.posts %}
+						{% if x.tag == 'linux' %}
+							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+						{% endif %}			
+					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>About soul</p>
 				<div class="list-group jelajah">
 					{% for x in site.posts %}
 						{% if x.tag == 'psikologi' %}
@@ -95,10 +135,30 @@ halaman: index
 		</div>
 		<div class="col-sm-4">
 			<div class="element">
-				<p>Aku bisa menulis</p>
+				<p>Apa itu blog?</p>
+				<div class="list-group jelajah">
+					{% for x in site.posts %}
+						{% if x.tag == 'blog' %}
+							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+						{% endif %}			
+					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>Selami dunia literasi</p>
 				<div class="list-group jelajah">
 					{% for x in site.posts %}
 						{% if x.tag == 'menulis' %}
+							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+						{% endif %}			
+					{% endfor %}
+				</div>
+			</div>
+			<div class="element">
+				<p>Mariiii kita bersahabaaat</p>
+				<div class="list-group jelajah">
+					{% for x in site.posts %}
+						{% if x.tag == 'sosial' %}
 							<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
 						{% endif %}			
 					{% endfor %}
