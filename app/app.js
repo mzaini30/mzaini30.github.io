@@ -1,6 +1,11 @@
 ---
 ---
 
+$('.theia').theiaStickySidebar({
+	additionalMarginTop: 70,
+	additionalMarginBottom: 20
+})
+
 tes = 'oke'
 
 for (x = 1; x <= 5; x++){

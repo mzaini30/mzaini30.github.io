@@ -36,13 +36,36 @@
 		</div>
 	</div>
 
-	{{ content }}
+	<div class="container">
+		<div class="jumbotron">
+			<center>
+				<h1>Zen</h1>
+				<p>Vini. Vidi. Vici</p>
+			</center>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8 theia">
+				<div class="theiaStickySidebar">
+					{{ content }}
+				</div>
+			</div>
+			<div class="col-sm-4 theia">
+				<div class="theiaStickySidebar">
+					{% include sidebar.html %}
+				</div>
+			</div>
+		</div>
+		<div class="element">
+			{% include iklan.html %}
+		</div>
+	</div>
 
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/vendor/fixed/ResizeSensor.min.js"></script>
+	<script type="text/javascript" src="/vendor/fixed/theia-sticky-sidebar.min.js"></script>
 	<script type="text/javascript" src="/app/app.js"></script>
-	{% if page.cari == true %}
-		<script type="text/javascript" src="/app/cari.js"></script>
-	{% endif %}
+	<script type="text/javascript" src="/app/cari.js"></script>
 </body>
 </html>

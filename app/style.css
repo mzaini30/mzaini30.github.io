@@ -9,6 +9,10 @@ body {
 	margin: auto;
 }
 
+.jumbotron {
+	background-color: transparent;
+}
+
 .jelajah .list-group-item,
 .sembunyi {
 	display: none;
@@ -19,7 +23,7 @@ body {
 }
 
 .postingan {
-	max-width: 800px;
+	/*max-width: 800px;*/
 }
 
 .element {
@@ -64,7 +68,8 @@ img {
 	width: 100%;
 }
 
-.more {
+.more,
+.judul_kategori {
 	text-transform: capitalize;
 }
 

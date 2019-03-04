@@ -1,18 +1,18 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-ol,
-ul,
-li {
+.postingan h1,
+.postingan h2,
+.postingan h3,
+.postingan h4,
+.postingan h5,
+.postingan p,
+.postingan ol,
+.postingan ul,
+.postingan li {
 	direction: rtl;
 }
 
-p,
-ol,
-ul,
-li {
+.postingan p,
+.postingan ol,
+.postingan ul,
+.postingan li {
 	font-size: 20px;
 }

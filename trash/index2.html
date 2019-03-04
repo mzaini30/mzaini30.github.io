@@ -1,6 +1,7 @@
 ---
 layout: default
 halaman: index
+cari: true
 card:
   -
     caption: Dunia Alquran
@@ -42,7 +43,7 @@ card_3:
 </button> -->
 
 <!-- Modal -->
-<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -60,61 +61,46 @@ card_3:
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-<!-- <div class="element">
-	<div class="form-group"><input type="text" class="form-control input_cari" placeholder="Ingin mencari apaaa... Tak terbayangkaaan..."></div>
+<div class="container">
+	<div class="element">
+		<div class="form-group"><input type="text" class="form-control input_cari" placeholder="Ingin mencari apaaa... Tak terbayangkaaan..."></div>
 
-	<div class="list-group output_cari">
-		{% assign tulisan = site.posts | sort: 'title' %}
-		{% for x in tulisan %}
-			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">
-				{{ x.title }}
-				<span class="sembunyi">{{ x.content | strip_html }}</span>
-			</a>
-		{% endfor %}
-	</div>
-</div> -->
-<!-- <div class="element">
-	<h1>Sssst... Ini rahasia</h1>
-	<div class="panel panel-default">
-		<div class="panel-body">
-			{% assign semua_tag = site.tags | sort %}
-			{% for x in semua_tag %}
-				<div class="badge">{{ x | first }}</div>
+		<div class="list-group output_cari">
+			{% assign tulisan = site.posts | sort: 'title' %}
+			{% for x in tulisan %}
+				<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">
+					{{ x.title }}
+					<span class="sembunyi">{{ x.content | strip_html }}</span>
+				</a>
 			{% endfor %}
 		</div>
 	</div>
-</div> -->
-<div class="element">
-	<!-- <h1>Ada gosip terbaru loh...</h1> -->
-	<!-- <div class="list-group">
-		{% for x in paginator.posts %}
-			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-		{% endfor %}
-	</div> -->
 	<div class="element">
-		{% include iklan.html %}
-	</div>
-	{% for x in paginator.posts %}
-		<div class="element">
-			<h1>{{ x.title }}</h1>
-			<p>{{ x.excerpt | strip_html }}</p>
-			<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+		<h1>Sssst... Ini rahasia</h1>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				{% assign semua_tag = site.tags | sort %}
+				{% for x in semua_tag %}
+					<div class="badge">{{ x | first }}</div>
+				{% endfor %}
+			</div>
 		</div>
-	{% endfor %}
-	{% if paginator.next_page %}
-		<div class="element">
+	</div>
+	<div class="element">
+		<h1>Ada gosip terbaru loh...</h1>
+		<div class="list-group">
+			{% for x in paginator.posts %}
+				<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+			{% endfor %}
+		</div>
+		{% if paginator.next_page %}
 			<center>
 				<a href="{{ paginator.next_page_path }}" class="btn btn-default">Selanjutnya &rarr;</a>
 			</center>
-		</div>
-	{% endif %}
-	<div class="element">
-		{% include iklan.html %}
+		{% endif %}
 	</div>
-</div>
-<!--
 	<div class="row">
 		<div class="col-sm-4">
 			{% for x2 in page.card %}
@@ -159,7 +145,10 @@ card_3:
 			{% endfor %}
 		</div>
 	</div>
--->
+	<div class="element">
+		{% include iklan.html %}
+	</div>
+</div>
 
 <script type="text/javascript">
 	judul = 'beranda'
