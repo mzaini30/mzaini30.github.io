@@ -9,7 +9,7 @@ Jangan.
 
 Hidupmu terlalu indah dan terlalu berharga jika hanya dihabiskan untuk mengeluh. Kamu tentunya harus bisa lebih baik dari itu. Kamu bisa mencoba untuk melakukan sesuatu yang lebih baik.
 
-{% include more.html link='\2019\02\16\mau-dibawa-ke-mana-hidupmu.html' %}
+{% include more.html link='/2019/02/16/mau-dibawa-ke-mana-hidupmu.html' %}
 
 Maka, kita harus banyak bersyukur. 
 
