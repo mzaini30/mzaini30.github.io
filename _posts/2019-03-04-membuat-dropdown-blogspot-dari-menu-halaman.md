@@ -3,6 +3,21 @@ tag: pemrograman
 layout: post
 ---
 
+Bagaimana cara membuat menu dropdown di Blogspot?
+
+Kalau cara biasa kan yang sudah beredar di internet kan susah ya, harus pakai HTML untuk ngeditnya. Nah, kali ini kita cuma pakai gadget Halaman saja.
+
+Di gadget Halaman (list halaman), buat seperti di bawah ini:
+
+```markdown
+Menu 1
+Menu 2
+- Submenu 1
+- Submenu 2
+```
+
+Nah, di bawah ini adalah skrip untuk meng-compile yang berawalan `- ` menjadi submenu:
+
 ```javascript
 $("#PageList500 .widget-content").each(function(){
   var e="<ul id='nav' class='dropdown dropit'><li><ul id='sub-menu'>";
