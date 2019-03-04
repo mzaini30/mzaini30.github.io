@@ -8,6 +8,9 @@ plugins:
 
 menu:
   -
+    title: Github
+    link: http://github.com/mzaini30
+  -
     title: Email
     link: mailto:muhzaini30@gmail.com
   -
