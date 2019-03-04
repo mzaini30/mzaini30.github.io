@@ -12,10 +12,6 @@
 	</div>
 </div>
 <div class="element">
-	{% include iklan.html %}
-</div>
-
-<div class="element">
 	{% assign kategori = site.tags | sort %}
 	{% for x in kategori %}
 		{% assign judul_kategori = x | first %}
@@ -28,7 +24,4 @@
 			{% endfor %}
 		</div>
 	{% endfor %}
-</div>
-<div class="element">
-	{% include iklan.html %}
 </div>
