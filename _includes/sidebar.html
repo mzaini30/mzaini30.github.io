@@ -12,6 +12,17 @@
 	</div>
 </div>
 <div class="element">
+	<h1>Topik</h1>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			{% assign semua_kategori = site.tags | sort %}
+			{% for x in semua_kategori %}
+				<div class="badge">{{ x | first }}</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<div class="element">
 	{% assign kategori = site.tags | sort %}
 	{% for x in kategori %}
 		{% assign judul_kategori = x | first %}
