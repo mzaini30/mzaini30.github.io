@@ -9,7 +9,7 @@ halaman: index
 {% for x in paginator.posts %}
 	<div class="element">
 		<h1>{{ x.title }}</h1>
-		<p>{{ x.excerpt | strip_html }}</p>
+		<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
 		<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 	</div>
 {% endfor %}

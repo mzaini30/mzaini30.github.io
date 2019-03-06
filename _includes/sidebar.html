@@ -32,7 +32,7 @@
 				{% if x2.tag == judul_kategori %}
 					<div class="element">
 						<h1>{{ x2.title }}</h1>
-						<p><span class="judul_kategori"><strong>{{ judul_kategori }}</strong> - </span>{{ x2.excerpt | strip_html }}</p>
+						<p><span class="judul_kategori"><strong>{{ judul_kategori }}</strong> - </span>{{ x2.content | strip_html | truncatewords: 50 }}</p>
 						<p><a href="{% if x2.link %}{{ x2.link }}{% else %}{{ x2.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 					</div>
 				{% endif %}
