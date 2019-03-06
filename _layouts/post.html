@@ -11,38 +11,28 @@ layout: default
 		location.href = "{{ page.link }}"
 	</script>
 {% endif %}
-<div class="container postingan">
-	<h1>{{ page.title }}</h1>
-	<div class="element">
-		{% include iklan.html %}
-	</div>
-	{{ content }}
-	<h1>
-		{% if page.arab == true %}
-			اقرأ أيضا
-		{% else %}
-			Baca jugaaa...
-		{% endif %}
-	</h1>
-	<div class="list-group jelajah">
-		{% for x in site.posts %}
-			{% if x.tag == page.tag %}
-				<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-			{% endif %}
-		{% endfor %}
-	</div>
-	<div class="element">
-		{% include iklan.html %}
-	</div>
-	{% if page.disqus != false %}
-		{% include disqus.html %}
-	{% endif %}
+<h1>{{ page.title }}</h1>
+<div class="element">
+	{% include iklan.html %}
 </div>
-<script type="text/javascript">
-	judul = '{{ page.title }}'
-	{% if page.tag %}
-		tag = '{{ page.tag }}'
+{{ content }}
+<h1>
+	{% if page.arab == true %}
+		اقرأ أيضا
 	{% else %}
-		tag = 'blog'
+		Baca jugaaa...
 	{% endif %}
-</script>
+</h1>
+<div class="list-group jelajah">
+	{% for x in site.posts %}
+		{% if x.tag == page.tag %}
+			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
+		{% endif %}
+	{% endfor %}
+</div>
+<div class="element">
+	{% include iklan.html %}
+</div>
+{% if page.disqus != false %}
+	{% include disqus.html %}
+{% endif %}
