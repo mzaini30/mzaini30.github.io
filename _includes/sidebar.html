@@ -18,7 +18,7 @@
 		<div class="panel-body">
 			{% assign semua_kategori = site.tags | sort %}
 			{% for x in semua_kategori %}
-				<div class="badge">{{ x | first }}</div>
+				<div class="badge">{{ x[ | first] }}</div>
 			{% endfor %}
 		</div>
 	</div>
