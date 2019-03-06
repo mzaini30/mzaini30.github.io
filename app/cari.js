@@ -3,7 +3,6 @@ output_cari = ".output_cari .list-group-item"
 
 $(output_cari).hide()
 $(input_cari).on("keyup", function() {
-	// $('title').html($(this).val().length)
 	var value = $(this).val().toLowerCase();
 	$(output_cari).filter(function() {
 		$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)

@@ -23,59 +23,15 @@ body {
 	margin-bottom: 10px;
 }
 
-.postingan {
-	/*max-width: 800px;*/
-}
-
 .element {
 	margin-bottom: 20px;
-}
-
-.success {
-	color: #5cb85c;
-}
-.info {
-	color: #5bc0de;
-}
-.warning {
-	color: #f0ad4e;
-}
-.danger {
-	color: #d9534f;
 }
 
 img {
 	max-width: 100%;
 }
 
-.komunitas {
-	width: 20%;
-	float: left;
-	padding: 2px;
-}
-
-.komunitas img {
-	border-radius: 5px;
-	border: 1px solid #ccc;
-}
-
-.clear {
-	clear: both;
-}
-
-.thumbnail img,
-.full,
-.komunitas img {
-	width: 100%;
-}
-
 .more,
 .judul_kategori {
 	text-transform: capitalize;
-}
-
-@media (min-width: 800px){
-	.postingan {
-		width: 100%;
-	}
 }
