@@ -4,10 +4,6 @@
 	<div class="list-group output_cari"></div>
 </div>
 <div class="element">
-	<h1>Tentangku</h1>
-	<p>Developer <a href="https://www.sanggarcaraka.com/">Sanggar Caraka</a> dan <a href="https://www.nulisajacommunity.com/">Nulis Aja Community</a>.</p>
-</div>
-<div class="element">
 	<h1>Selesai Bab 123</h1>
 	<div data-type="countdown" data-id="1032772" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/1032772/" title=".">.</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
 </div>
@@ -19,6 +15,10 @@ upcoming event:
 
  -->
 <div class="element">
+	<h1>Tentangku</h1>
+	<p>Developer <a href="https://www.sanggarcaraka.com/">Sanggar Caraka</a> dan <a href="https://www.nulisajacommunity.com/">Nulis Aja Community</a>.</p>
+</div>
+<div class="element">
 	<h1>Topik</h1>
 	<div class="panel panel-default">
 		<div class="panel-body">
@@ -27,6 +27,14 @@ upcoming event:
 				<div class="badge">{{ x[ | first] }}</div>
 			{% endfor %}
 		</div>
+	</div>
+</div>
+<div class="element">
+	<h1>{{ site.spesial }}</h1>
+	<div class="list-group">
+		{% for x in site.spesial_list %}
+			<a href="{{ x }}" class="list-group-item more">{{ x | slice: 12, 1000 | replace: '-', ' ' | replace: '.html', '' }}</a>
+		{% endfor %}
 	</div>
 </div>
 <div class="element">
