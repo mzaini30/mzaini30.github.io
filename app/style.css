@@ -36,3 +36,9 @@ img {
 .judul_kategori {
 	text-transform: capitalize;
 }
+
+/* goodreads */
+
+#gr_challenge_8863 {
+	margin: auto;
+}
