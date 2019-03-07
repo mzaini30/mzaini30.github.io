@@ -3,7 +3,7 @@ tag: pemrograman
 layout: post
 ---
 
-Yang namanya SSG (site static generator) itu ya kita kudu harus sabar dalam proses compile-nya. Walaupun SSG yang diklaim sangat cepat seperti Hugo karena menggunakan bahasa Go yang dekat dengan bahasa C (bahasa asli laptop) tapi tetap saja ya yang namanya compile butuh waktu. Apalagi kalau postingan di blog berbasis Jekyll sudah sangat banyak. Ratusan misalnya. Kan, kita kalau mau compile jadi lebih dari 5 detik kan. Lamaaaa banget. Nah, ini adalah waktu compile blogku di netbook Dell, RAM 2 GB, OS Linux Lite:
+Yang namanya SSG (static site generator) itu ya kita kudu harus sabar dalam proses compile-nya. Walaupun SSG yang diklaim sangat cepat seperti Hugo karena menggunakan bahasa Go yang dekat dengan bahasa C (bahasa asli laptop) tapi tetap saja ya yang namanya compile butuh waktu. Apalagi kalau postingan di blog berbasis Jekyll sudah sangat banyak. Ratusan misalnya. Kan, kita kalau mau compile jadi lebih dari 5 detik kan. Lamaaaa banget. Nah, ini adalah waktu compile blogku di netbook Dell, RAM 2 GB, OS Linux Lite:
 
 ```plaintext
 Configuration file: /mnt/C48455A884559E2C/zen/_config.yml
