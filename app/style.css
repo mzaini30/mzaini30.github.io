@@ -8,6 +8,10 @@ body {
 	margin: auto;
 }
 
+.table.tanpa_header tr:nth-child(1) td {
+	border-top: none;
+}
+
 .jumbotron {
 	background-color: transparent;
 }
