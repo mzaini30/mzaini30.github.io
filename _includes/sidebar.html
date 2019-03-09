@@ -31,31 +31,6 @@ upcoming event:
 	</div>
 </div>
 <div class="element">
-	<h1>{{ site.spesial }}</h1>
-	<div class="list-group">
-		{% for x in site.spesial_list %}
-			<a href="{{ x }}" class="list-group-item more">{{ x | slice: 12, 1000 | replace: '-', ' ' | replace: '.html', '' }}</a>
-		{% endfor %}
-	</div>
-</div>
-<div class="element">
-	{% assign kategori = site.tags | sort %}
-	{% for x in kategori %}
-		{% assign judul_kategori = x | first %}
-		<div class="list-group jelajah2">
-			{% for x2 in site.posts %}
-				{% if x2.tag == judul_kategori %}
-					<div class="element">
-						<h1>{{ x2.title }}</h1>
-						<p><span class="judul_kategori"><strong>{{ judul_kategori }}</strong> - </span>{{ x2.content | strip_html | truncatewords: 50 }}</p>
-						<p><a href="{% if x2.link %}{{ x2.link }}{% else %}{{ x2.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
-					</div>
-				{% endif %}
-			{% endfor %}
-		</div>
-	{% endfor %}
-</div>
-<div class="element">
 	<h1>Akun Play Store</h1>
 	<a href='https://play.google.com/store/apps/dev?id=6751907367958089476&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Temukan di Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/id_badge_web_generic.png'/></a>
 </div>
