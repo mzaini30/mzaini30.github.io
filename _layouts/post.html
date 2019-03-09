@@ -18,20 +18,25 @@ layout: default
 {{ content }}
 <hr>
 <p>Blog ini menerima tulisan-tulisan terbaikmu. Kirim saja ke <a href="mailto:muhzaini30@gmail.com">muhzaini30@gmail.com</a>. Jangan lupa juga cantumkan namamu dan alamat blogmu (kalau nggak ada, link Facebook, Twitter, Instagram, atau link media sosial apa aja).</p>
-<h1>
-	{% if page.arab == true %}
-		اقرأ أيضا
-	{% else %}
-		Baca jugaaa...
-	{% endif %}
-</h1>
-<div class="list-group jelajah">
-	{% for x in site.posts %}
-		{% if x.tag == page.tag %}
-			<a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="list-group-item">{{ x.title }}</a>
-		{% endif %}
-	{% endfor %}
+
+{% assign random = site.time | date: "%s" %}
+{% assign acak_judul = page.title.size %}
+{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+{% assign angka = angka_postingan | modulo: site.posts.size %}
+{% assign angka_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
+{% assign angka_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
+{% assign angka_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
+{% assign angka_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
+
+<h1>Baca Juga...</h1>
+<div class="list-group">
+	<a href="{% if site.posts[angka].link %}{{ site.posts[angka].link }}{% else %}{{ site.posts[angka].url }}{% endif %}" class="list-group-item">{{ site.posts[angka].title }}</a>
+	<a href="{% if site.posts[angka_2].link %}{{ site.posts[angka_2].link }}{% else %}{{ site.posts[angka_2].url }}{% endif %}" class="list-group-item">{{ site.posts[angka_2].title }}</a>
+	<a href="{% if site.posts[angka_3].link %}{{ site.posts[angka_3].link }}{% else %}{{ site.posts[angka_3].url }}{% endif %}" class="list-group-item">{{ site.posts[angka_3].title }}</a>
+	<a href="{% if site.posts[angka_4].link %}{{ site.posts[angka_4].link }}{% else %}{{ site.posts[angka_4].url }}{% endif %}" class="list-group-item">{{ site.posts[angka_4].title }}</a>
+	<a href="{% if site.posts[angka_5].link %}{{ site.posts[angka_5].link }}{% else %}{{ site.posts[angka_5].url }}{% endif %}" class="list-group-item">{{ site.posts[angka_5].title }}</a>
 </div>
+
 <div class="element">
 	{% include iklan.html %}
 </div>
