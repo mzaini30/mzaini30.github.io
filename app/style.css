@@ -36,6 +36,10 @@ img {
 	margin: auto;
 }
 
+.full {
+	width: 100%;
+}
+
 .more,
 .judul_kategori {
 	text-transform: capitalize;
