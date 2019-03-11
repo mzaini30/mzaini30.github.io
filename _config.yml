@@ -8,14 +8,8 @@ plugins:
 
 menu:
   -
-    title: Github
-    link: http://github.com/mzaini30
-  -
     title: Email
     link: mailto:muhzaini30@gmail.com
-  -
-    title: Play Store
-    link: http://gg.gg/zenapk
 
 spesial: "Special for International Women's Day"
 spesial_list:
