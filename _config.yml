@@ -6,11 +6,6 @@ paginate: 10
 plugins:
   - jekyll-paginate
 
-menu:
-  -
-    title: Email
-    link: mailto:muhzaini30@gmail.com
-
 spesial: "Special for International Women's Day"
 spesial_list:
   - /2019/02/11/kekuatan-dalam-sunyi.html
