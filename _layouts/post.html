@@ -16,6 +16,9 @@ layout: default
 	{% include iklan.html %}
 </div>
 {{ content }}
+{% if page.tag %}
+	<p><a href="/kategori/{{ page.tag }}.html">#{{ page.tag }}</a></p>
+{% endif %}
 <div class="element">
 	{% include iklan.html %}
 </div>
