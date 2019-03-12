@@ -4,7 +4,7 @@ layout: post
 image: https://instagram.fupg2-1.fna.fbcdn.net/vp/8b6bc72b73d4d5c493b494f87f6d7756/5CFD09BA/t51.2885-15/e35/51349645_2123581420995903_4182805338711215218_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=103
 ---
 
-Apa itu Linux? Gampangannya sih temennya Windwos. Jadi kayak semacam Windows tapi bukan Windows. Heheheeh. Kalau Windows kan bisa terkena virus, kalau Linux nggak.
+Apa itu Linux? Gampangannya sih temennya Windows. Jadi kayak semacam Windows tapi bukan Windows. Heheheeh. Kalau Windows kan bisa terkena virus, kalau Linux nggak.
 
 Kalau secara resminya, Linux itu Kernel, OS-nya namanya GNU, terus distro yang lagi kupakai namanya Linux Lite. Distro itu bahasa Linuxnya untuk distribution. Ada banyak distro di jagat GNU/Linux (untuk seterusnya kusebut Linux aja). Beberapa yang sudah kupakai adalah Kali Linux yang biasa untuk hacking, Linux Mint yang tampilannya mirip-mirip Windows, dan Elementary OS yang tampilannya mirip Mac OS X.
 
