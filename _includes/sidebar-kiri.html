@@ -12,3 +12,80 @@
 		{% endfor %}
 	</div>
 </div>
+<div class="element">
+	{% include iklan.html %}
+</div>
+
+{% assign random = site.time | date: "%s" %}
+{% assign acak_judul = page.title.size %}
+{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+{% assign angka = angka_postingan | modulo: site.posts.size %}
+{% assign angka_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
+{% assign angka_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
+{% assign angka_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
+{% assign angka_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
+{% assign angka_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
+{% assign angka_7 = angka_postingan | modulo: site.posts.size | plus: 6 %}
+{% assign angka_8 = angka_postingan | modulo: site.posts.size | plus: 7 %}
+{% assign angka_9 = angka_postingan | modulo: site.posts.size | plus: 8 %}
+{% assign angka_10 = angka_postingan | modulo: site.posts.size | plus: 9 %}
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka].title }}</h1>
+	<p>{{ site.posts[angka].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka].link %}{{ site.posts[angka].link }}{% else %}{{ site.posts[angka].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_2].title }}</h1>
+	<p>{{ site.posts[angka_2].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_2].link %}{{ site.posts[angka_2].link }}{% else %}{{ site.posts[angka_2].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_3].title }}</h1>
+	<p>{{ site.posts[angka_3].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_3].link %}{{ site.posts[angka_3].link }}{% else %}{{ site.posts[angka_3].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_4].title }}</h1>
+	<p>{{ site.posts[angka_4].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_4].link %}{{ site.posts[angka_4].link }}{% else %}{{ site.posts[angka_4].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_5].title }}</h1>
+	<p>{{ site.posts[angka_5].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_5].link %}{{ site.posts[angka_5].link }}{% else %}{{ site.posts[angka_5].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_6].title }}</h1>
+	<p>{{ site.posts[angka_6].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_6].link %}{{ site.posts[angka_6].link }}{% else %}{{ site.posts[angka_6].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_7].title }}</h1>
+	<p>{{ site.posts[angka_7].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_7].link %}{{ site.posts[angka_7].link }}{% else %}{{ site.posts[angka_7].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_8].title }}</h1>
+	<p>{{ site.posts[angka_8].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_8].link %}{{ site.posts[angka_8].link }}{% else %}{{ site.posts[angka_8].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_9].title }}</h1>
+	<p>{{ site.posts[angka_9].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_9].link %}{{ site.posts[angka_9].link }}{% else %}{{ site.posts[angka_9].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element tulisan_lainnya">
+	<h1>{{ site.posts[angka_10].title }}</h1>
+	<p>{{ site.posts[angka_10].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_10].link %}{{ site.posts[angka_10].link }}{% else %}{{ site.posts[angka_10].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
