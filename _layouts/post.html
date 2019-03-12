@@ -11,7 +11,7 @@ layout: default
 		location.href = "{{ page.link }}"
 	</script>
 {% endif %}
-<h1>{{ page.title }}</h1>
+<h1 class="hilang_kategori">{{ page.title }}</h1>
 <div class="element">
 	{% include iklan.html %}
 </div>
@@ -20,5 +20,7 @@ layout: default
 	{% include iklan.html %}
 </div>
 {% if page.disqus != false %}
-	{% include disqus.html %}
+	<div class="hilang_kategori">
+		{% include disqus.html %}
+	</div>
 {% endif %}
