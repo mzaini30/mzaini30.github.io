@@ -1,5 +1,5 @@
 ---
-tag: psikologi
+tag: opini
 layout: post
 ---
 

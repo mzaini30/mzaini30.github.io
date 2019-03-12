@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: psikologi
+tag: opini
 ---
 
 Seberapa lama waktu yang diperlukan untuk menghabiskan satu buku?

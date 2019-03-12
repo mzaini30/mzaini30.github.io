@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: sosial
+tag: opini
 ---
 
 Apa yang terlintas di benakmu ketika mendengar nama Israel? Bengis? Kejam? Jahat? Ya, pasti itu yang terlintas di benak setiap orang, bahkan aku pun juga demikian. Kalau disebut nama Israel ya berarti penuh dengan kelicikan. Kalau kelicikan, berarti kalau nggak curang ya nggak bakalan pernah menang.

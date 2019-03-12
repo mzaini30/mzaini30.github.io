@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: psikologi
+tag: opini
 ---
 
 > Seberapa sering kita dibanjiri oleh keramaian sehingga kita dapat melihat ke dalam diri kita sendiri.

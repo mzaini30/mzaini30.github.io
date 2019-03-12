@@ -1,5 +1,5 @@
 ---
-tag: blog
+tag: menulis
 layout: post
 ---
 
