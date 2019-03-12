@@ -3,7 +3,8 @@ $('.theia').theiaStickySidebar({
 	additionalMarginBottom: 0
 })
 
-for (x = 1; x <= 5; x++){
-	$('.jelajah .list-group-item:nth-child('+ x +')').css('display', 'block')	
-}
-$('.jelajah2 .element:nth-child(1)').css('display', 'block')
+$('.tulisan_lainnya a').each(function(){
+	if ($(this).attr('href') == ''){
+		$(this).slideUp()
+	}
+})
