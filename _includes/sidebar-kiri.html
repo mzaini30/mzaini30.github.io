@@ -1,0 +1,17 @@
+<div class="element">
+	<h1>Cari</h1>
+	<div class="form-group"><input type="text" class="form-control input_cari" placeholder="Cari"></div>
+	<div class="list-group output_cari"></div>
+</div>
+<div class="element">
+	<h1>Kategori</h1>
+	<div class="list-group">
+		{% assign semua_tag = site.tags | sort %}
+		{% for x in semua_tag %}
+			<a href="/kategori/{{ x[0] }}.html" class="capitalize list-group-item">{{ x[0] }}</a>
+		{% endfor %}
+	</div>
+</div>
+<div class="element">
+	{% include iklan.html %}
+</div>

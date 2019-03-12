@@ -39,7 +39,8 @@ img {
 }
 
 .more,
-.judul_kategori {
+.judul_kategori,
+.capitalize {
 	text-transform: capitalize;
 }
 

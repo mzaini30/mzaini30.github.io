@@ -1,5 +1,5 @@
 ---
-tag: psikologi
+tag: opini
 layout: post
 image: https://instagram.fupg1-1.fna.fbcdn.net/vp/072ed57a170a5bd25722644cfc548930/5CF9A65C/t51.2885-15/e35/50659791_622100308239515_7125526215984996412_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=111
 ---

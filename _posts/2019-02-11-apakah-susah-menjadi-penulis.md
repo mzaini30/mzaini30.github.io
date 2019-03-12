@@ -1,5 +1,5 @@
 ---
-tag: menulis
+tag: opini
 layout: post
 image: https://instagram.fupg2-1.fna.fbcdn.net/vp/b05af7e0133652d95c8244c14f80979c/5CE59746/t51.2885-15/e35/51052233_2172822769407288_1136470000529019047_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=100
 ---
