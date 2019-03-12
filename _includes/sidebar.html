@@ -3,114 +3,77 @@
 	<div class="form-group"><input type="text" class="form-control input_cari" placeholder="Cari"></div>
 	<div class="list-group output_cari"></div>
 </div>
-<div class="element">
-	<h1>Puasa Ramadhan</h1>
-	<div data-type="countdown" data-id="1040389" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/1040389/" title=".">.</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
-</div>
-<div class="element">
-	<h1>Tentangku</h1>
-	<p>Developer <a href="https://www.sanggarcaraka.com/">Sanggar Caraka</a> dan <a href="https://www.nulisajacommunity.com/">Nulis Aja Community</a>. Pengusaha di <a href="https://www.google.com/maps/place/Sinar+Jaya/@-0.567894,117.0851703,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x75d97415dfc41179!8m2!3d-0.567894!4d117.087359?hl=in">Toko Sepeda Sinar Jaya</a>.</p>
-	<p><a href="/2019/03/08/siapa-itu-zen.html" class="btn btn-default">Lihat selengkapnya &rarr;</a></p>
-</div>
-<div class="element">
-	<h1>Event and Award</h1>
-	<p><img src="https://instagram.fupg1-1.fna.fbcdn.net/vp/d2383ae126ea24fef01d747fad5605cc/5D06335E/t51.2885-15/e35/52880828_439260040144273_8516303809660454672_n.jpg?_nc_ht=instagram.fupg1-1.fna.fbcdn.net&_nc_cat=101" alt=""></p>
-	<center>
-		<p><a href="/2019/03/11/event-and-award.html" class="btn btn-default">Lihat selengkapnya &rarr;</a></p>
-	</center>
-</div>
-<div class="element">
-	<h1>Topik</h1>
-	<div class="panel panel-default">
-		<div class="panel-body">
-			{% assign semua_kategori = site.tags | sort %}
-			{% for x in semua_kategori %}
-				<div class="badge">{{ x[0] }}</div>
-			{% endfor %}
-		</div>
-	</div>
-</div>
-<div class="element">
-	<h1>Akun Play Store</h1>
-	<a href='https://play.google.com/store/apps/dev?id=6751907367958089476&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Temukan di Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/id_badge_web_generic.png'/></a>
-</div>
-<div class="element">
-	<h1>Kontribusiku di Github</h1>
-	<!-- Include the library. -->
-	<script
-	  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-	></script>
 
-	<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-	<link
-	   rel="stylesheet"
-	   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-	/>
+{% assign random = site.time | date: "%s" %}
+{% assign acak_judul = page.title.size %}
+{% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
+{% assign angka = angka_postingan | modulo: site.posts.size %}
+{% assign angka_2 = angka_postingan | modulo: site.posts.size | plus: 1 %}
+{% assign angka_3 = angka_postingan | modulo: site.posts.size | plus: 2 %}
+{% assign angka_4 = angka_postingan | modulo: site.posts.size | plus: 3 %}
+{% assign angka_5 = angka_postingan | modulo: site.posts.size | plus: 4 %}
+{% assign angka_6 = angka_postingan | modulo: site.posts.size | plus: 5 %}
+{% assign angka_7 = angka_postingan | modulo: site.posts.size | plus: 6 %}
+{% assign angka_8 = angka_postingan | modulo: site.posts.size | plus: 7 %}
+{% assign angka_9 = angka_postingan | modulo: site.posts.size | plus: 8 %}
+{% assign angka_10 = angka_postingan | modulo: site.posts.size | plus: 9 %}
 
-	<!-- Prepare a container for your calendar. -->
-	<div class="calendar">
-	    <!-- Loading stuff -->
-	    Loading the data just for you.
-	</div>
+<div class="element">
+	<h1>{{ site.posts[angka].title }}</h1>
+	<p>{{ site.posts[angka].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka].link %}{{ site.posts[angka].link }}{% else %}{{ site.posts[angka].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
 
-	<script>
-	    // GitHubCalendar(".calendar", "your-username");
-	    // or enable responsive functionality
-	    GitHubCalendar(".calendar", "mzaini30", { responsive: true });
-	</script>
-</div>
 <div class="element">
-	<h1>Typeracer (Kecepatan Mengetik)</h1>
-	<p><img src="https://data.typeracer.com/misc/badge?user=mzaini30" alt=""></p>
-	<center>
-		<p><a href="https://data.typeracer.com/pit/profile?user=mzaini30&ref=badge" class="btn btn-default">Kunjungi profil &rarr;</a></p>
-	</center>
+	<h1>{{ site.posts[angka_2].title }}</h1>
+	<p>{{ site.posts[angka_2].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_2].link %}{{ site.posts[angka_2].link }}{% else %}{{ site.posts[angka_2].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 </div>
-<div class="element">
-	<h1>Project Euler (Teka-Teki Matematika)</h1>
-	<p><img src="https://projecteuler.net/profile/mzaini30.png" alt=""></p>
-	<center>
-		<p><a href="/2019/03/10/contoh-teka-teki-project-euler.html" class="btn btn-default">Contoh teka-teki &rarr;</a></p>
-	</center>
-</div>
-<div class="element">
-	<h1>Reading Challenge Goodreads</h1>
 
-	<div id="gr_challenge_8863" style="border: 2px solid #EBE8D5; border-radius:10px; padding: 0px 7px 0px 7px; max-width:230px; min-height: 100px">
-	  <div id="gr_challenge_progress_body_8863" style="font-size: 12px; font-family: georgia,serif;line-height: 18px">
-	    <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
-	      <a style="text-decoration: none; font-family:georgia,serif;font-style:italic; font-size: 1.1em" rel="nofollow" href="https://www.goodreads.com/challenges/8863-2019-reading-challenge">2019 Reading Challenge</a>
-	    </h3>
-	        <div class="challengePic">
-	          <a rel="nofollow" href="https://www.goodreads.com/challenges/8863-2019-reading-challenge"><img alt="2019 Reading Challenge" style="float:left; margin-right: 10px; border: 0 none" src="https://images.gr-assets.com/challenges/1542320733p2/8863.jpg" /></a>
-	        </div>
-	      <div>
-	        <a rel="nofollow" href="https://www.goodreads.com/user/show/12064084-zen">Zen</a> has
-	             read 2 books toward
-	             his goal of
-	             12 books.
-	      </div>
-	      <div style="width: 100px; margin: 4px 5px 5px 0; float: left; border: 1px solid #382110; height: 8px; overflow: hidden; background-color: #FFF">
-	        <div style="width: 16%; background-color: #D7D2C4; float: left"><span style="visibility:hidden">hide</span></div>
-	      </div>
-	      <div style="font-family: arial, verdana, helvetica, sans-serif;font-size:90%">
-	        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/16938576">2 of 12 (16%)</a>
-	      </div>
-	        <div style="text-align: right;">
-	          <a style="text-decoration: none; font-size: 10px;" rel="nofollow" href="https://www.goodreads.com/user_challenges/16938576">view books</a>
-	        </div>
-	  </div>
-		<script src="https://www.goodreads.com/user_challenges/widget/12064084-zen?challenge_id=8863&v=2"></script>
-	</div>
-</div>
 <div class="element">
-	<h1>Lencana Code Saya</h1>
-	<p><img src="https://codesaya.com/media/badge_pics/new-badge-03-sersan-mayor.png"></p>
-	<center>
-		<a href="https://codesaya.com/u/mzaini30/" class="btn btn-default">Kunjungi profil &rarr;</a>
-	</center>
+	<h1>{{ site.posts[angka_3].title }}</h1>
+	<p>{{ site.posts[angka_3].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_3].link %}{{ site.posts[angka_3].link }}{% else %}{{ site.posts[angka_3].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 </div>
+
 <div class="element">
-	<h1>Pengunjung Blog</h1>
-	<a href="https://info.flagcounter.com/cXQQ"><img src="https://s04.flagcounter.com/count2/cXQQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+	<h1>{{ site.posts[angka_4].title }}</h1>
+	<p>{{ site.posts[angka_4].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_4].link %}{{ site.posts[angka_4].link }}{% else %}{{ site.posts[angka_4].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element">
+	<h1>{{ site.posts[angka_5].title }}</h1>
+	<p>{{ site.posts[angka_5].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_5].link %}{{ site.posts[angka_5].link }}{% else %}{{ site.posts[angka_5].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element">
+	<h1>{{ site.posts[angka_6].title }}</h1>
+	<p>{{ site.posts[angka_6].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_6].link %}{{ site.posts[angka_6].link }}{% else %}{{ site.posts[angka_6].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element">
+	<h1>{{ site.posts[angka_7].title }}</h1>
+	<p>{{ site.posts[angka_7].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_7].link %}{{ site.posts[angka_7].link }}{% else %}{{ site.posts[angka_7].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element">
+	<h1>{{ site.posts[angka_8].title }}</h1>
+	<p>{{ site.posts[angka_8].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_8].link %}{{ site.posts[angka_8].link }}{% else %}{{ site.posts[angka_8].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element">
+	<h1>{{ site.posts[angka_9].title }}</h1>
+	<p>{{ site.posts[angka_9].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_9].link %}{{ site.posts[angka_9].link }}{% else %}{{ site.posts[angka_9].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+</div>
+
+<div class="element">
+	<h1>{{ site.posts[angka_10].title }}</h1>
+	<p>{{ site.posts[angka_10].content | strip_html | truncatewords: 50 }}</p>
+	<p><a href="{% if site.posts[angka_10].link %}{{ site.posts[angka_10].link }}{% else %}{{ site.posts[angka_10].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 </div>
