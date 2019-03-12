@@ -1,5 +1,5 @@
 ---
-tag: sosial
+tag: opini
 layout: post
 ---
 
