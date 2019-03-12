@@ -1,3 +1,12 @@
+<div class="element">
+	<h1>Cari</h1>
+	<div class="form-group"><input type="text" class="form-control input_cari" placeholder="Cari"></div>
+	<div class="list-group output_cari"></div>
+</div>
+<div class="element">
+	{% include iklan.html %}
+</div>
+
 {% assign random = site.time | date: "%s" %}
 {% assign acak_judul = page.title.size %}
 {% assign angka_postingan = page.date | date: "%s" | plus: random | plus: acak_judul %}
