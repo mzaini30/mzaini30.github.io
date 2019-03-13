@@ -1,6 +1,7 @@
 ---
 tag: pemrograman
 layout: post
+bahasa: python
 ---
 
 APK yang kugunakan di sini adalah QPython3. Bisa didownload dari Play Store.

@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: buku
+tag: opini
 ---
 
 Ilmu adalah cahaya kehidupan. Tanpa ilmu, kita jadi bingung mau ngapa-ngapain. Nah, salah satu mendapatkan ilmu adalah dengan membaca buku.

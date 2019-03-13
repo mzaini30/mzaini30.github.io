@@ -1,6 +1,7 @@
 ---
 tag: pemrograman
 layout: post
+bahasa: bash
 ---
 
 Apa itu Terminal? Nah, ibaratnya itu lah, Linux tanpa Terminal itu kayak bukan Linux.

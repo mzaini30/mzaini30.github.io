@@ -1,6 +1,7 @@
 ---
 tag: pemrograman
 layout: post
+bahasa: exe
 ---
 
 Kalau di blog kan ada tuh yang namanya fixed sidebar, alias dia tuh fixed, nggak ter-scroll gitu. Nah, kalau di aplikasi Windows ada yang serupa. Namanya DeskPin. Berikut ini adalah penampakannya:

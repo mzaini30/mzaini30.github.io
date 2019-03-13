@@ -1,6 +1,7 @@
 ---
 tag: pemrograman
 layout: post
+bahasa: java
 ---
 
 Berikut ini adalah cara yang biasa dan _selalu_ aku gunakan untuk membuat aplikasi Android. So, kalau ada yang kurang paham, langsung komentar aja di bawah ya. Siapa tau nanti bisa kuperbaiki lagi artikelnya.

@@ -1,6 +1,7 @@
 ---
 tag: pemrograman
 layout: post
+bahasa: bash
 ---
 
 Siapa juga yang mau datanya hilang? Pasti nggak mau kan? Apalagi bagi mahasiswa akhir yang lagi skripsian. Beh, amit-amit deh sama bencana data hilang itu.

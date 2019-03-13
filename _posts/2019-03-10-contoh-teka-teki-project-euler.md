@@ -1,6 +1,7 @@
 ---
 tag: pemrograman
 layout: post
+bahasa: python
 ---
 
 # Teka-Teki 1

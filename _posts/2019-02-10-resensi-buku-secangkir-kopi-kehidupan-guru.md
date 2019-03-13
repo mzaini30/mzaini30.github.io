@@ -4,13 +4,12 @@ layout: post
 image: https://instagram.fupg2-1.fna.fbcdn.net/vp/9f6eca64b05a0fea977fc851df8ffbb7/5CF5D256/t51.2885-15/e35/50770449_408375943064873_7246599513519481314_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=105
 ---
 
-Penulis: Meti Herawati
-
-Tahun Terbit: 2014
-
-Judul: Secangkir Kopi Kehidupan Guru
-
-Penerbit: PT Gramedia Pustaka Utama, Jakarta
+|---|---|
+| Penulis | Meti Herawati |
+| Tahun Terbit | 2014 |
+| Judul | Secangkir Kopi Kehidupan Guru |
+| Penerbit | PT Gramedia Pustaka Utama, Jakarta |
+{:.table .tanpa_header}
 
 
 Buku Secangkir Kopi Kehidupan Guru ini menceritakan kisah perjalanan penulisnya, Meti Herawati, ketika menjadi seorang guru. Herawati adalah seorang alumnus IKIP Bandung, Fakultas Ilmu Pengetahuan Sosial, jurusan Sejarah. Kehidupannya sebagai guru dimulai setelah lulus dari pendidikan keguruan tersebut.

@@ -5,7 +5,12 @@ layout: post
 {% for x in site.posts %}
 	{% if x.tag == page.title %}
 		<div class="element">
-			<h1>{{ x.title }}</h1>
+			<h1>
+				{{ x.title }}
+				{% if x.bahasa %}
+					<div class="badge">{{ x.bahasa }}</div>
+				{% endif %}
+			</h1>
 			<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
 			<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 		</div>
