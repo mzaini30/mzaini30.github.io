@@ -82,8 +82,20 @@ layout: post
 					<span class="fa fa-smile-o"></span>
 				{% endif %}
 			</h1>
-			<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
-			<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+			{% if x.rating %}
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="{{ x.image }}">
+					</div>
+					<div class="col-sm-8">
+						<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
+						<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+					</div>
+				</div>
+			{% else %}
+				<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
+				<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
+			{% endif %}
 		</div>
 	{% endif %}
 {% endfor %}

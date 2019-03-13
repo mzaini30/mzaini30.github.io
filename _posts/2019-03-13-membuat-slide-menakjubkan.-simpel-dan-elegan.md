@@ -1,4 +1,5 @@
 ---
+image: https://d.gr-assets.com/books/1444239328l/26882996.jpg
 tag: buku
 layout: post
 penulis: Dhonny Firmansyah
