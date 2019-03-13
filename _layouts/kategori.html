@@ -5,83 +5,6 @@ layout: post
 {% for x in site.posts %}
 	{% if x.tag == page.kategori %}
 		<div class="element">
-			<h1>
-				{{ x.title }}
-				{% if x.bahasa %}
-					<div class="badge">{{ x.bahasa }}</div>
-				{% endif %}
-				{% if x.rating == 5 %}
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-				{% endif %}
-				{% if x.rating == 4 %}
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-				{% endif %}
-				{% if x.rating == 3 %}
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-				{% endif %}
-				{% if x.rating == 2 %}
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-				{% endif %}
-				{% if x.rating == 1 %}
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-				{% endif %}
-				
-				{% if x.mood == 5 %}
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-				{% endif %}
-				{% if x.mood == 4 %}
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o"></span>
-				{% endif %}
-				{% if x.mood == 3 %}
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o"></span>
-					<span class="fa fa-smile-o"></span>
-				{% endif %}
-				{% if x.mood == 2 %}
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o"></span>
-					<span class="fa fa-smile-o"></span>
-					<span class="fa fa-smile-o"></span>
-				{% endif %}
-				{% if x.mood == 1 %}
-					<span class="fa fa-smile-o checked"></span>
-					<span class="fa fa-smile-o"></span>
-					<span class="fa fa-smile-o"></span>
-					<span class="fa fa-smile-o"></span>
-					<span class="fa fa-smile-o"></span>
-				{% endif %}
-			</h1>
 			{% if page.kategori == 'pemrograman' %}
 				<table class="table tanpa_garis">
 					<tbody class="pemrograman"></tbody>
@@ -161,6 +84,83 @@ layout: post
 					}
 				</script>
 			{% endif %}
+			<h1>
+				{{ x.title }}
+				{% if x.bahasa %}
+					<div class="badge">{{ x.bahasa }}</div>
+				{% endif %}
+				{% if x.rating == 5 %}
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				{% endif %}
+				{% if x.rating == 4 %}
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+				{% endif %}
+				{% if x.rating == 3 %}
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				{% endif %}
+				{% if x.rating == 2 %}
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				{% endif %}
+				{% if x.rating == 1 %}
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				{% endif %}
+				
+				{% if x.mood == 5 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+				{% endif %}
+				{% if x.mood == 4 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+				{% if x.mood == 3 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+				{% if x.mood == 2 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+				{% if x.mood == 1 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+			</h1>
 			{% if x.rating %}
 				<div class="row">
 					<div class="col-sm-4">
