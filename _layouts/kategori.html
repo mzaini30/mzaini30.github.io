@@ -75,9 +75,9 @@ layout: post
 			list_progress.push($(this).attr('data-progress'))
 		})
 
-		$('.induk_progress').slideUp()
+		// $('.induk_progress').slideUp()
 		for (n = 1; n <= 5; n++){
-			$('.induk_progress:nth-child('+ n +')').slideDown()
+			$('.induk_progress:nth-child('+ n +')').show()
 		}
 	</script>
 {% endif %}
