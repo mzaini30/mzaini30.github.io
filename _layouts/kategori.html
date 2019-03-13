@@ -85,7 +85,7 @@ layout: post
 			{% if x.rating %}
 				<div class="row">
 					<div class="col-sm-4">
-						<img src="{{ x.image }}">
+						<p><img src="{{ x.image }}"></p>
 					</div>
 					<div class="col-sm-8">
 						<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
