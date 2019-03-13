@@ -81,7 +81,7 @@ Syarif Hidayatullah, Jakarta.
 
 ## Jurnal Elektronik Tanpa DOI (Digital Object Identifier)
 
-Penulis. (tahun). Judul artikel. Judul Terbitan Berkala, nomor volume,
+Penulis. (tahun). Judul artikel. _Judul Terbitan Berkala_, nomor volume,
 (nomor), nomor halaman. Diakses dari URL.
 
 Bernstein, M. (2002). 10 tips on writing the living Web. A List Apart: For
@@ -90,7 +90,7 @@ http://www.alistapart.com/articles/writeliving
 
 ## Jurnal Elektronik dengan DOI (Digital Object Identifier)
 
-Penulis. (tahun). Judul artikel. Judul Terbitan Berkala, nomor volume,
+Penulis. (tahun). Judul artikel. _Judul Terbitan Berkala_, nomor volume,
 (nomor), nomor halaman. doi:xxxxxxxxxx atau diakses dari
 http://dx.doi.org/xxxxxx
 
@@ -104,7 +104,7 @@ Behavior. 26. 310‐322. Diakses dari http://www.sciencedirect.com
 
 ## Buku Elektronik
 
-Penulis. (Tahun). Judul buku (edisi). Diakses dari URL.
+Penulis. (Tahun). _Judul buku_ (edisi). Diakses dari URL.
 
 Kumat, S. R. (2012). Case studies in marketing management. Dehli:
 Pearson. Diakses dari http://books.google.com/books
@@ -114,11 +114,11 @@ Diakses dari http://www.bps.go.id/books/file/1 2345.pdf
 
 ## Skripsi/Tesis/Disertasi
 
-Pengarang. (Tahun). Judul skripsi/tesis/disertasi (Thesis or Master’s
+Pengarang. (Tahun). _Judul skripsi/tesis/disertasi_ (Thesis or Master’s
 thesis or Doctoral dissertation). Tersedia dari nama database. (no.
 urut)
 
-Pengarang. (Tahun). Judul skripsi/tesis/disertasi (Thesis or Master’s
+Pengarang. (Tahun). _Judul skripsi/tesis/disertasi_ (Thesis or Master’s
 thesis or Doctoral dissertation). Tersedia dari from http://xxxxx
 
 Young, R.F. (2007). Crossing boundaries in urban ecology (doctoral
@@ -131,13 +131,14 @@ http://ibrary.usd.ac.id
 
 ## Ensiklopedia/kamus Online
 
-Judul Kata. (Tahun). Dalam Nama Ensiklopedi. Diakses dari URL
+Judul Kata. (Tahun). _Dalam Nama Ensiklopedi._ Diakses dari URL
+
 Feminism. (2010). In Encyclopedia britannica online. Diakses dari
 http://www.britannica.com/EBchecked/topic/724633/feminism
 
 ## Majalah/Koran online
 
-Penulis. (Tahun, bulan‐tanggal). Judul Artikel. Nama Majalah. Diakses
+Penulis. (Tahun, bulan‐tanggal). Judul Artikel. _Nama Majalah._ Diakses
 dari URL.
 
 Barile, L. (2011, April). Mobile technologies for libraries. C&RL News.
@@ -149,7 +150,7 @@ PT-BUMA-Di-Tambang-Kamu-Juga-Akan-MendapatkanLifeExperience
 
 ## Publikasi Pemerintah Online
 
-Institusi. (Tahun). Judul Publikasi (nomor publikasi). Tempat:
+Institusi. (Tahun). _Judul Publikasi_ (nomor publikasi). Tempat:
 Penerbit. Diakses dari URL
 
 Kementrian Pendidikan dan Kebudayaan RI. (2011). Peraturan Mendiknas
@@ -159,6 +160,12 @@ uploads/...SPI.pdf
 
 ## Web professional
 
-Penulis. (Tahun). Judul dokumen online. Diakses tanggal ..., dari URL
+Penulis. (Tahun). _Judul dokumen online._ Diakses tanggal ..., dari URL
+
 Ikatan Akuntan Indonesia. (2008). Standar Akuntansi Indonesia. Diakses
 27 Mei 2013, dari http://www.iai.or.id/standar/sai.html 
+
+Rini, J. F. (2002). Memupuk rasa percaya diri. Diakses tanggal 22 Februari
+2017 dari http://www.e-psikologi.com/dewasa/161002.htm 
+
+Sumber: Panduan skripsi Psikologi Universitas Mulawarman.
