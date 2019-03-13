@@ -15,6 +15,9 @@ body {
 .table.tanpa_header tr:nth-child(1) td {
 	border-top: none;
 }
+.table.tanpa_garis tr td {
+	border-top: none;
+}
 
 .jumbotron {
 	background-color: transparent;

@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: html
+bahasa: HTML
 ---
 
 Apa aplikasi text editor yang biasa kamu gunakan? Word, Writer, Notepad, Notepad++, Sublime, Atom? Pernah nggak kamu terpikir untuk mengetik di browser? Eh, emang bisa? Ya bisa dong. Buktinya aja aku nulis ini. Hehehehehe.

@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: python
+bahasa: Python
 ---
 
 Siapa bilang pemrograman tidak memiliki nilai sastra?

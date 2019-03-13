@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: javascript
+bahasa: Javascript
 ---
 
 Bagaimana cara membuat menu dropdown di Blogspot?

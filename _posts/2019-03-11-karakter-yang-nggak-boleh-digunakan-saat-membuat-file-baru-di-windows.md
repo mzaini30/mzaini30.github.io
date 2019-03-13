@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: cmd
+bahasa: CMD
 ---
 
 ```plaintext

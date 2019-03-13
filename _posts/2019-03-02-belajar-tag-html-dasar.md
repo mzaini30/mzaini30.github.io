@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: html
+bahasa: HTML
 ---
 
 Yo ayo. Yo ayo yo. Yo ayo. Yo ayo yo yo ayo. Yo ayo yo yo yo yo yo yo.

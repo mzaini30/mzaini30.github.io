@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: apk
+bahasa: APK
 ---
 
 Apa itu Termux Alias?

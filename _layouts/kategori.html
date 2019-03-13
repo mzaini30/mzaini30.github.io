@@ -3,17 +3,16 @@ layout: post
 ---
 
 {% if page.kategori == 'pemrograman' %}
-	<script type="text/javascript">
-		total_postingan = 0
-		{% for x in site.posts %}
-			{% if x.tag == 'pemrograman' %}
-				total_postingan += 1
-			{% endif %}
-		{% endfor %}
+	<table class="table tanpa_garis">
+		<tbody class="pemrograman"></tbody>
+	</table>
 
+	<script type="text/javascript">
 		bahasa = []
 		{% for x in site.posts %}
-			bahasa.push('{{ x.bahasa }}')
+			{% if x.bahasa %}
+				bahasa.push('{{ x.bahasa }}')
+			{% endif %}
 		{% endfor %}
 
 		function grup_frekuensi(arr) {
@@ -34,6 +33,29 @@ layout: post
 		}
 
 		bahasa_grup = grup_frekuensi(bahasa)
+
+		frekuensi_tertinggi_pemrograman = 0
+		for (n in bahasa_grup[1]){
+			if (bahasa_grup[1][n] > frekuensi_tertinggi_pemrograman){
+				frekuensi_tertinggi_pemrograman = bahasa_grup[1][n]
+			}
+		}
+
+		for (n in bahasa_grup[0]){
+			progress = ''
+			persen = bahasa_grup[1][n] * 100 / frekuensi_tertinggi_pemrograman
+			progress += '<tr>'
+				progress += '<td style="width: 0;">'
+					progress += bahasa_grup[0][n]
+				progress += '</td>'
+				progress += '<td>'
+					progress += '<div class="progress">'
+						progress += '<div class="progress-bar" style="width: ' + persen + '%;">'
+					progress += '</div>'
+				progress += '</td>'
+			progress += '</tr>'
+			$('tbody.pemrograman').append(progress)
+		}
 	</script>
 {% endif %}
 

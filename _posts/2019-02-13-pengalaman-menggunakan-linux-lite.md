@@ -1,5 +1,5 @@
 ---
-bahasa: bash
+bahasa: Bash
 tag: pemrograman
 layout: post
 image: https://instagram.fupg2-1.fna.fbcdn.net/vp/8b6bc72b73d4d5c493b494f87f6d7756/5CFD09BA/t51.2885-15/e35/51349645_2123581420995903_4182805338711215218_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&_nc_cat=103

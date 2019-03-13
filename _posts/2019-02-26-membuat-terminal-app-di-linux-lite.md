@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: bash
+bahasa: Bash
 ---
 
 1. Misalnya nama akunmu adalah `zen`, maka bukalah `/home/zen/`
