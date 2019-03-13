@@ -21,15 +21,15 @@ layout: post
 		    arr.sort();
 		    for ( var i = 0; i < arr.length; i++ ) {
 		        if ( arr[i] !== prev ) {
-		            a.push(arr[i]);
-		            b.push(1);
+		            a[0].push(arr[i]);
+		            a[1].push(1);
 		        } else {
-		            b[b.length-1]++;
+		            a[1][a[1].length-1]++;
 		        }
 		        prev = arr[i];
 		    }
 
-		    return [a, b];
+		    return [a[0], a[1]];
 		}
 
 		bahasa_grup = grup_frekuensi(bahasa)
