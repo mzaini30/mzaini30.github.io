@@ -16,27 +16,36 @@ layout: post
 		{% endfor %}
 
 		function grup_frekuensi(arr) {
-		    // var a = [], b = [], prev;
+		    var a = [], b = [], prev;
 
-		    a = []
-		    a[0] = []
-		    a[1] = []
-		    
 		    arr.sort();
 		    for ( var i = 0; i < arr.length; i++ ) {
 		        if ( arr[i] !== prev ) {
-		            a[0].push(arr[i]);
-		            a[1].push(1);
+		            a.push(arr[i]);
+		            b.push(1);
 		        } else {
-		            a[1][a[1].length-1]++;
+		            b[b.length-1]++;
 		        }
 		        prev = arr[i];
 		    }
 
-		    return [a[0], a[1]];
+		    return [a, b];
 		}
 
 		bahasa_grup = grup_frekuensi(bahasa)
+
+		bahasa_grup_2 = []
+		for (n in bahasa_grup[0]){
+			bahasa_grup_2.push([0, 0])
+			bahasa_grup_2[n][0] = bahasa_grup[0][n]
+			bahasa_grup_2[n][1] = bahasa_grup[1][n]
+		}
+
+		function compareSecondColumn(a, b) {
+			return a[1] - b[1]
+		}
+
+		bahasa_grup_2.sort(compareSecondColumn).reverse()
 
 		frekuensi_tertinggi_pemrograman = 0
 		for (n in bahasa_grup[1]){
@@ -45,12 +54,12 @@ layout: post
 			}
 		}
 
-		for (n in bahasa_grup[0]){
+		for (n in bahasa_grup_2){
 			progress = ''
-			persen = bahasa_grup[1][n] * 100 / frekuensi_tertinggi_pemrograman
+			persen = bahasa_grup_2[n][1] * 100 / frekuensi_tertinggi_pemrograman
 			progress += '<tr data-progress="' + persen + '" class="induk_progress">'
 				progress += '<td style="width: 0;">'
-					progress += bahasa_grup[0][n]
+					progress += bahasa_grup_2[n][0]
 				progress += '</td>'
 				progress += '<td>'
 					progress += '<div class="progress">'
@@ -65,6 +74,11 @@ layout: post
 		$('.induk_progress').each(function(){
 			list_progress.push($(this).attr('data-progress'))
 		})
+
+		$('.induk_progress').slideUp()
+		for (n = 1; n <= 5; n++){
+			$('.induk_progress:nth-child('+ n +')').slideDown()
+		}
 	</script>
 {% endif %}
 
