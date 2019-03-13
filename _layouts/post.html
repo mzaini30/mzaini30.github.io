@@ -95,7 +95,8 @@ layout: default
 	{% include iklan.html %}
 </div>
 {% if page.disqus != false %}
-	<div class="hilang_kategori">
+	{% if page.kategori %}
+	{% else %}
 		{% include disqus.html %}
-	</div>
+	{% endif %}
 {% endif %}
