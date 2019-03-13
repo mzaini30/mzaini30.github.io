@@ -44,7 +44,7 @@ layout: post
 		for (n in bahasa_grup[0]){
 			progress = ''
 			persen = bahasa_grup[1][n] * 100 / frekuensi_tertinggi_pemrograman
-			progress += '<tr data-progress="' + persen + '">'
+			progress += '<tr data-progress="' + persen + '" class="induk_progress">'
 				progress += '<td style="width: 0;">'
 					progress += bahasa_grup[0][n]
 				progress += '</td>'
@@ -56,6 +56,11 @@ layout: post
 			progress += '</tr>'
 			$('tbody.pemrograman').append(progress)
 		}
+
+		list_progress = []
+		$('.induk_progress').each(function(){
+			list_progress.push($(this).attr('data-progress'))
+		})
 	</script>
 {% endif %}
 
