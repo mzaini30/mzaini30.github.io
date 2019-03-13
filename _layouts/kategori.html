@@ -99,3 +99,11 @@ layout: post
 		</div>
 	{% endif %}
 {% endfor %}
+<script type="text/javascript">
+	bahasa = []
+	{% for x in site.posts %}
+		{% if x.bahasa %}
+			bahasa.push('{{ x.bahasa }}')
+		{% endif %}
+	{% endfor %}
+</script>
