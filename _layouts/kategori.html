@@ -44,7 +44,7 @@ layout: post
 		for (n in bahasa_grup[0]){
 			progress = ''
 			persen = bahasa_grup[1][n] * 100 / frekuensi_tertinggi_pemrograman
-			progress += '<tr>'
+			progress += '<tr data-progress="' + persen + '">'
 				progress += '<td style="width: 0;">'
 					progress += bahasa_grup[0][n]
 				progress += '</td>'
