@@ -3,6 +3,7 @@ tag: buku
 layout: post
 penulis: Dhonny Firmansyah
 tahun: 2015
+title: 'Review Buku Amazing Slide MiniMAX. Optimasi Desain & Delivery Slide Presentasi dalam 2 Menit'
 judul: 'Amazing Slide MiniMAX: Optimasi Desain & Delivery Slide Presentasi dalam 2 Menit'
 penerbit: 'PT Gramedia Pustaka Utama, Jakarta'
 rating: 4

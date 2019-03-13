@@ -5,6 +5,7 @@ image: https://instagram.fupg2-1.fna.fbcdn.net/vp/9f6eca64b05a0fea977fc851df8ffb
 penulis: Meti Herawati
 tahun: 2014
 judul: Secangkir Kopi Kehidupan Guru
+title: Review Buku Secangkir Kopi Kehidupan Guru
 penerbit: 'PT Gramedia Pustaka Utama, Jakarta'
 rating: 3
 ---
