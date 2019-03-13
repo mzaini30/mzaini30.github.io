@@ -1,14 +1,12 @@
 ---
 tag: buku
 layout: post
+penulis: Dhonny Firmansyah
+tahun: 2015
+judul: 'Amazing Slide MiniMAX: Optimasi Desain & Delivery Slide Presentasi dalam 2 Menit'
+penerbit: 'PT Gramedia Pustaka Utama, Jakarta'
+rating: 3
 ---
-
-|---|---|
-| Penulis | Dhonny Firmansyah |
-| Tahun Terbit | 2015 |
-| Judul Buku | Amazing Slide MiniMAX: Optimasi Desain & Delivery Slide Presentasi dalam 2 Menit |
-| Penerbit | PT Gramedia Pustaka Utama, Jakarta |
-{:.table .tanpa_header}
 
 Masih ingatkah kamu dengan slide yang biasa kamu gunakan di kampus? Seperti apakah slidenya? Apakah simpel dan berisi ataukah penuh dengan tulisan sehingga susah dipahami oleh peserta presentasi?
 

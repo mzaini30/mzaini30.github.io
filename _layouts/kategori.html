@@ -10,6 +10,13 @@ layout: post
 				{% if x.bahasa %}
 					<div class="badge">{{ x.bahasa }}</div>
 				{% endif %}
+				{% if x.rating == 3 %}
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				{% endif %}
 			</h1>
 			<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
 			<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>

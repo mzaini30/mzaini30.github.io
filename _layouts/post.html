@@ -16,6 +16,40 @@ layout: default
 	<div class="element">
 		{% include iklan.html %}
 	</div>
+	{% if page.penulis %}
+		<table class="table tanpa_header">
+			<tbody>
+				<tr>
+					<td>Penulis</td>
+					<td>{{ page.penulis }}</td>
+				</tr>
+				<tr>
+					<td>Tahun</td>
+					<td>{{ page.tahun }}</td>
+				</tr>
+				<tr>
+					<td>Judul Buku</td>
+					<td>{{ page.judul }}</td>
+				</tr>
+				<tr>
+					<td>Penerbit</td>
+					<td>{{ page.penerbit }}</td>
+				</tr>
+				<tr>
+					<td>Rating</td>
+					<td>
+						{% if page.rating == 3 %}
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						{% endif %}
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	{% endif %}
 	{{ content }}
 </div>
 {% if page.tag %}

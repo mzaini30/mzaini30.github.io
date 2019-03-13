@@ -8,6 +8,10 @@ body {
 	margin: auto;
 }
 
+.fa-star.checked {
+	color: orange;
+}
+
 .table.tanpa_header tr:nth-child(1) td {
 	border-top: none;
 }
