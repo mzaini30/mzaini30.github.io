@@ -84,10 +84,10 @@ layout: post
 			</h1>
 			{% if x.rating %}
 				<div class="row">
-					<div class="col-xs-4">
+					<div class="col-sm-4">
 						<p><img src="{{ x.image }}"></p>
 					</div>
-					<div class="col-xs-8">
+					<div class="col-sm-8">
 						<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
 						<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 					</div>
