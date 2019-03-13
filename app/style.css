@@ -8,7 +8,7 @@ body {
 	margin: auto;
 }
 
-.fa-star.checked {
+.fa.checked {
 	color: orange;
 }
 

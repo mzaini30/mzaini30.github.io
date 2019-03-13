@@ -45,6 +45,42 @@ layout: post
 					<span class="fa fa-star"></span>
 					<span class="fa fa-star"></span>
 				{% endif %}
+				
+				{% if x.mood == 5 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+				{% endif %}
+				{% if x.mood == 4 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+				{% if x.mood == 3 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+				{% if x.mood == 2 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
+				{% if x.mood == 1 %}
+					<span class="fa fa-smile-o checked"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+					<span class="fa fa-smile-o"></span>
+				{% endif %}
 			</h1>
 			<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
 			<p><a href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
