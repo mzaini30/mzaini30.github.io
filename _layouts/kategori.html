@@ -3,7 +3,7 @@ layout: post
 ---
 
 {% for x in site.posts %}
-	{% if x.tag == page.title %}
+	{% if x.tag == page.kategori %}
 		<div class="element">
 			<h1>
 				{{ x.title }}
@@ -99,11 +99,3 @@ layout: post
 		</div>
 	{% endif %}
 {% endfor %}
-
-<style type="text/css">
-	.hilang_kategori {
-		display: none;
-		margin: 0;
-		padding: 0;
-	}
-</style>
