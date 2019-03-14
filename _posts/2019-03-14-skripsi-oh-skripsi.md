@@ -5,7 +5,7 @@ tag: sastra
 mood: 1
 ---
 
-{% capture puisi %}
+```
 : bingung
 Resah, gelisah, susah
 Lunglai, capai, gontai
@@ -25,6 +25,4 @@ Hanya ACC belum didapat.
 
 Skripsi susah
 atau kau tak ubah?
-{% endcapture %}
-
-{{ puisi | newline_to_br }}
+```
