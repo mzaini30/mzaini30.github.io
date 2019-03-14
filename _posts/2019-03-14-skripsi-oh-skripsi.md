@@ -5,12 +5,12 @@ tag: sastra
 mood: 1
 ---
 
-: bingung<br>
+; bingung<br>
 Resah, gelisah, susah<br>
 Lunglai, capai, gontai
 
 Oleh sebuah mantra bernama,<br>
-: skripsi
+; skripsi
 
 Mengapa?<br>
 Bagaimana?<br>
