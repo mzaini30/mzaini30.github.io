@@ -5,24 +5,22 @@ tag: sastra
 mood: 1
 ---
 
-```
-: bingung
-Resah, gelisah, susah
+: bingung<br>
+Resah, gelisah, susah<br>
 Lunglai, capai, gontai
 
-Oleh sebuah mantra bernama,
+Oleh sebuah mantra bernama,<br>
 : skripsi
 
-Mengapa?
-Bagaimana?
-Kenapa?
+Mengapa?<br>
+Bagaimana?<br>
+Kenapa?<br>
 Apa?
 
-Berjuta kata telah terucap
+Berjuta kata telah terucap<br>
 Namun...
 
-Hanya ACC belum didapat.
+Hanya ACC belum didapat.<br>
 
-Skripsi susah
+Skripsi susah<br>
 atau kau tak ubah?
-```
