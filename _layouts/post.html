@@ -83,14 +83,6 @@ layout: default
 	{% endif %}
 	{{ content }}
 </div>
-{% if page.tag %}
-	<p>
-		<a href="/kategori/{{ page.tag }}.html">#{{ page.tag }}</a>
-		{% if page.bahasa %}
-			#{{ page.bahasa }}
-		{% endif %}
-	</p>
-{% endif %}
 <div class="element">
 	{% include iklan.html %}
 </div>
