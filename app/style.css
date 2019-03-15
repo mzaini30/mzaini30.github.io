@@ -59,7 +59,7 @@ img {
 	margin-bottom: 0;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
 	.mobile_tanpa_margin_bottom {
 		margin-bottom: 0;
 	}
