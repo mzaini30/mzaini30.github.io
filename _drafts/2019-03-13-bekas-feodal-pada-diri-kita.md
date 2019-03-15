@@ -1,5 +1,0 @@
----
-tag: opini
-layout: post
----
-
