@@ -1,6 +1,7 @@
 ---
 title: "Apa yang Bisa Dilakukan Hacker Supaya Insiden New Zealand Tidak Terjadi Lagi???"
 layout: post
+bahasa: Python
 ---
 
 Pertama tentu saja aku akan menyampaikan duka yang sangat mendalam atas insiden **terorisme** yang menimpa saudara-saudara kita di New Zealand. Mari kita heningkan sejenak untuk mengenang kembali arwah saudara-saudara kita yang gugur.
