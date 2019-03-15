@@ -55,6 +55,10 @@ img {
 	text-transform: capitalize;
 }
 
+.tanpa_margin_bottom {
+	margin-bottom: 0;
+}
+
 /* goodreads */
 
 #gr_challenge_8863 {
