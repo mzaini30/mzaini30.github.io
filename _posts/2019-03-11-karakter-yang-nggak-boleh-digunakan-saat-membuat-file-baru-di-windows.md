@@ -1,7 +1,7 @@
 ---
 tag: pemrograman
 layout: post
-bahasa: CMD
+bahasa: Batch
 ---
 
 ```plaintext
