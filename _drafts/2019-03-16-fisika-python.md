@@ -16,6 +16,17 @@ while True:
 	print
 ```
 
+# Luas Segitiga
+
+```python
+while True:
+	alas = int(raw_input('Berapa panjang alas: '))
+	tinggi = int(raw_input('Berapa panjang tinggi: '))
+	hitung = alas * tinggi / 2
+	print 'Luas segitiga adalah '+ str(hitung) + ' cm^2'
+	print
+```
+
 # Keliling Lingkaran
 
 ```python
