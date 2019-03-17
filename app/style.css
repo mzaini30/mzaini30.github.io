@@ -59,6 +59,14 @@ img {
 	margin-bottom: 0;
 }
 
+.pokemon {
+	width: 200px;
+	height: auto;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
 @media (max-width: 768px){
 	.mobile_tanpa_margin_bottom {
 		margin-bottom: 0;
