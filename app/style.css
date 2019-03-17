@@ -60,11 +60,11 @@ img {
 }
 
 .pokemon {
-	width: 200px;
+	width: 60px;
 	height: auto;
 	position: fixed;
-	right: 20px;
-	bottom: 20px;
+	right: 15px;
+	bottom: 15px;
 }
 
 @media (max-width: 768px){
