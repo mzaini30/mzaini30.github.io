@@ -12,3 +12,7 @@ $('.tulisan_lainnya a').each(function(){
 		$(this).slideUp()
 	}
 })
+
+$('.buka_pokemon').click(function(){
+	$('.isi_pokemon').modal()
+})
