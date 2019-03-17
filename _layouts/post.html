@@ -2,6 +2,17 @@
 layout: default
 ---
 
+{% if page.bahasa %}
+	<script type="text/javascript">
+		skill = '{{ page.bahasa }}'
+
+		// tambahkan data baru
+
+		ambil_skill = JSON.parse(localStorage.getItem('skill'))
+		ambil_skill.push(skill)
+		localStorage.setItem('skill', JSON.stringify(ambil_skill))
+	</script>
+{% endif %}
 <link rel="stylesheet" type="text/css" href="/vendor/pygments-css/autumn.css">
 {% if page.arab == true %}
 	<link rel="stylesheet" type="text/css" href="/app/arab.css">
