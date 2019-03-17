@@ -44,7 +44,7 @@ for (n in skill_sekarang_grup[1]){
 for (n in skill_sekarang_grup_2){
 	progress = ''
 	persen = skill_sekarang_grup_2[n][1] * 100 / frekuensi_tertinggi_skill_sekarang
-	progress += '<div data-progress="' + persen + '" class="row induk_progress">'
+	progress += '<div data-progress="' + persen + '" class="row">'
 		progress += '<div class="col-xs-3">'
 			progress += skill_sekarang_grup_2[n][0]
 		progress += '</div>'
@@ -56,6 +56,7 @@ for (n in skill_sekarang_grup_2){
 	progress += '</div>'
 	// letakkan di mana?
 	// $('tbody.pemrograman').append(progress)
+	$('.my_skill').append(progress)
 }
 
 // list_progress = []

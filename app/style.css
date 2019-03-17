@@ -59,6 +59,11 @@ img {
 	margin-bottom: 0;
 }
 
+.modal-body {
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+
 .pokemon {
 	width: 60px;
 	height: auto;
