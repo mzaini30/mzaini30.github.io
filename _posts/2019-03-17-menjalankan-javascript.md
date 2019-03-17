@@ -24,3 +24,5 @@ Oke, langsung aja ya. Misalnya kita mau membuat aplikasi menghitung luas segitig
 	```
 
 	Lalu, apa yang terjadi? Nggak ada lok? Nah, itu kan baru deklarasi fungsi `luas_segitiga()`. Untuk menjalankannya, kita panggil dengan mengetikkan `luas_segitiga()`.
+
+Gampang aja kan ternyata? Jadi, kamu bisa membuat aplikasi di manapun. Soalnya kan sekarang ini semua laptop ada browsernya.
