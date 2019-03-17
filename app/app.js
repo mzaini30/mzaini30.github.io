@@ -1,3 +1,7 @@
+$('.navbar-nav a').click(function(){
+	$('.navbar-toggle').click()
+})
+
 $('.theia').theiaStickySidebar({
 	additionalMarginTop: 50,
 	additionalMarginBottom: 0
