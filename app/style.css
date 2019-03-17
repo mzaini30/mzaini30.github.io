@@ -70,6 +70,7 @@ img {
 	position: fixed;
 	right: 15px;
 	bottom: 15px;
+	z-index: 9999999999999999999999;
 }
 
 @media (max-width: 768px){
