@@ -127,7 +127,3 @@
 	<p>{{ site.posts[angka_10].content | strip_html | truncatewords: 50 }}</p>
 	<p><a href="{% if site.posts[angka_10].link %}{{ site.posts[angka_10].link }}{% else %}{{ site.posts[angka_10].url }}{% endif %}" class="btn btn-default">Lanjutkan membaca &rarr;</a></p>
 </div>
-
-<div class="element mobile_tanpa_margin_bottom">
-	{% include iklan.html %}
-</div>
