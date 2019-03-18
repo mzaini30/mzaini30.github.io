@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 			        <span class="sr-only">Toggle navigation</span>
@@ -38,7 +38,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="jumbotron">
 			<center>
 				<h1>Zen</h1>
@@ -52,26 +52,26 @@
 				}
 			</style>
 			<div class="row">
-				<div class="col-sm-2 col-sm-push-3 theia_2">
+				<!-- <div class="col-sm-2 col-sm-push-3 theia_2">
 					<div class="theiaStickySidebar">
 						<p><img src="{{ page.image }}"></p>
 					</div>
-				</div>
-				<div class="col-sm-4 col-sm-push-3 theia_2">
+				</div> -->
+				<div class="col-sm-4 theia_2">
 					<div class="theiaStickySidebar">
 						{{ content }}
 					</div>
 				</div>
-				<div class="col-sm-3 col-sm-pull-6 theia">
+				<div class="col-sm-3 theia">
 					<div class="theiaStickySidebar">
 						{% include sidebar-kiri.html %}
 					</div>
 				</div>
-				<div class="col-sm-3 theia">
+				<!-- <div class="col-sm-3 theia">
 					<div class="theiaStickySidebar">
 						{% include sidebar-kanan.html %}
 					</div>
-				</div>
+				</div> -->
 			</div>
 		{% else %}
 			<div class="row">
