@@ -4,6 +4,8 @@ layout: post
 bahasa: Bash
 ---
 
+> We are anonymous. We are legion. We do not forgive. We do not forget. Expect us.
+
 # Data Whois
 
 ```
