@@ -18,3 +18,38 @@ Intinya, jQuery itu memudahkan kamu dalam menulis pemrograman dengan Javascript.
 
 # Apa Itu Javascript?
 
+Menurut Wikipedia:
+
+> JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a programming language that is characterized as dynamic, weakly typed, prototype-based and multi-paradigm. 
+
+Intinya, Javascript itu pemrograman di browser. Dah, itu aja.
+
+# Contoh jQuery
+
+## Mengambil ID
+
+Kalau di Javascript:
+
+```javascript
+document.getElementById('kotak')
+```
+
+Di jQuery:
+
+```javascript
+$('#kotak')
+```
+
+## Mengubah Isi Elemen
+
+Kalau di Javascript:
+
+```javascript
+document.getElementById('isi').innerHTML = 'Hello World'
+```
+
+Di jQuery:
+
+```javascript
+$('#isi').html('Hello World')
+```
