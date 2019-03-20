@@ -31,9 +31,11 @@ layout: default
 				<div class="badge">{{ page.bahasa }}</div>
 			{% endif %}
 		</h1>
-		<div class="element">
-			{% include iklan.html %}
-		</div>
+		{% if page.iklan != false %}
+			<div class="element">
+				{% include iklan.html %}
+			</div>
+		{% endif %}
 	{% endif %}
 	{% if page.penulis %}
 		<table class="table tanpa_header">
@@ -99,9 +101,11 @@ layout: default
 	{% endif %}
 	{{ content }}
 </div>
-<div class="element">
-	{% include iklan.html %}
-</div>
+{% if page.iklan != false %}
+	<div class="element">
+		{% include iklan.html %}
+	</div>
+{% endif %}
 {% if page.disqus != false %}
 	{% if page.kategori %}
 	{% else %}
