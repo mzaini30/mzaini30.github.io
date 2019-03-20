@@ -31,8 +31,8 @@ Terkadang nama yang sama membuat kita pangling. Seperti kata jamal dan jamaal, i
 	Ya bisa juga sih di Javascript pakai titik koma:
 
 	```javascript
-	nama = prompt('Sebutkan namamu: ')
-	console.log('Halo, ' + nama + '!')
+	nama = prompt('Sebutkan namamu: ');
+	console.log('Halo, ' + nama + '!');
 	```
 
 2. Java itu untuk membuat berbagai bentuk aplikasi; seperti aplikasi bank (macam mesin ATM), desktop, Android, pertambangan, dan lain-lain. Sedangkan Javascript awalnya hanya untuk browser
