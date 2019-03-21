@@ -1,6 +1,8 @@
 title: Zen
 description: Android developer.
 
+timezone: Asia/Makassar
+
 paginate: 10
 
 plugins:

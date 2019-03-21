@@ -2,7 +2,7 @@
 title: "Emang Gimana Sih Rasanya Ngurus Blog Ber-Niche Pemrograman?"
 layout: post
 bahasa: Markdown
-date: 2019-03-21 16:46:00 +0000
+date: 2019-03-22 00:46:00 +0800
 ---
 
 Seru lah!
