@@ -1,7 +1,7 @@
 ---
 title: "Brainfuck Visualizer"
 layout: kosong
-bahasa: Javascript
+bahasa: Brainfuck
 date: 2019-03-22 01:48:00 +0800
 ---
 
