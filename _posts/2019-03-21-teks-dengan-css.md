@@ -2,7 +2,7 @@
 title: 'Bermain Teks dengan CSS'
 layout: post
 bahasa: CSS
-date: 2019-03-21 13:00:00 +0000
+date: 2019-03-21 13:34:00 +0000
 ---
 
 Dengan CSS, kamu bisa mendesain website sesuka kamu. Ya, nggak cuma website sih. Aplikasi juga bisa. Tapi ya aplikasi yang berbasis website. Hehehehe.
