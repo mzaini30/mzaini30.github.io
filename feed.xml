@@ -15,7 +15,7 @@
     {% for post in site.posts limit:10 %}
     	<item>
 	        <title>{{ post.title | xml_escape }}</title>
-	        <description>{{ post.content | xml_escape | truncatewords: 50 }}</description>
+	        <description>{{ post.content | strip_html | truncatewords: 10 | xml_escape }}</description>
 	        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 	        
 	        <link>{{ site.url }}{{ post.url }}</link>
