@@ -52,7 +52,9 @@ for (n in bahasa_grup_2){
 	persen = bahasa_grup_2[n][1] * 100 / frekuensi_tertinggi_pemrograman
 	progress += '<div data-progress="' + persen + '" class="row induk_progress">'
 		progress += '<div class="col-xs-3">'
-			progress += bahasa_grup_2[n][0]
+			progress += '<a href="#magic:' + bahasa_grup_2[n][0] + '" class="cari">'
+				progress += bahasa_grup_2[n][0]
+			progress += '</a>'
 		progress += '</div>'
 		progress += '<div class="col-xs-9">'
 			progress += '<div class="progress">'

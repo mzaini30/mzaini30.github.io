@@ -1,5 +1,5 @@
 <div class="element">
-	<h1>Cari</h1>
+	<h1 class="judul_cari">Cari</h1>
 	<div class="form-group"><input type="text" class="form-control input_cari" placeholder="Cari"></div>
 	<div class="list-group output_cari"></div>
 </div>
@@ -22,7 +22,7 @@
 	<h1>
 		{{ site.posts[angka].title }}
 		{% if site.posts[angka].bahasa %}
-			<div class="badge">{{ site.posts[angka].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka].bahasa }}">{{ site.posts[angka].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka].content | strip_html | truncatewords: 50 }}</p>
@@ -33,7 +33,7 @@
 	<h1>
 		{{ site.posts[angka_2].title }}
 		{% if site.posts[angka_2].bahasa %}
-			<div class="badge">{{ site.posts[angka_2].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_2].bahasa }}">{{ site.posts[angka_2].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_2].content | strip_html | truncatewords: 50 }}</p>
@@ -44,7 +44,7 @@
 	<h1>
 		{{ site.posts[angka_3].title }}
 		{% if site.posts[angka_3].bahasa %}
-			<div class="badge">{{ site.posts[angka_3].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_3].bahasa }}">{{ site.posts[angka_3].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_3].content | strip_html | truncatewords: 50 }}</p>
@@ -55,7 +55,7 @@
 	<h1>
 		{{ site.posts[angka_4].title }}
 		{% if site.posts[angka_4].bahasa %}
-			<div class="badge">{{ site.posts[angka_4].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_4].bahasa }}">{{ site.posts[angka_4].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_4].content | strip_html | truncatewords: 50 }}</p>
@@ -66,7 +66,7 @@
 	<h1>
 		{{ site.posts[angka_5].title }}
 		{% if site.posts[angka_5].bahasa %}
-			<div class="badge">{{ site.posts[angka_5].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_5].bahasa }}">{{ site.posts[angka_5].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_5].content | strip_html | truncatewords: 50 }}</p>
@@ -77,7 +77,7 @@
 	<h1>
 		{{ site.posts[angka_6].title }}
 		{% if site.posts[angka_6].bahasa %}
-			<div class="badge">{{ site.posts[angka_6].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_6].bahasa }}">{{ site.posts[angka_6].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_6].content | strip_html | truncatewords: 50 }}</p>
@@ -88,7 +88,7 @@
 	<h1>
 		{{ site.posts[angka_7].title }}
 		{% if site.posts[angka_7].bahasa %}
-			<div class="badge">{{ site.posts[angka_7].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_7].bahasa }}">{{ site.posts[angka_7].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_7].content | strip_html | truncatewords: 50 }}</p>
@@ -99,7 +99,7 @@
 	<h1>
 		{{ site.posts[angka_8].title }}
 		{% if site.posts[angka_8].bahasa %}
-			<div class="badge">{{ site.posts[angka_8].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_8].bahasa }}">{{ site.posts[angka_8].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_8].content | strip_html | truncatewords: 50 }}</p>
@@ -110,7 +110,7 @@
 	<h1>
 		{{ site.posts[angka_9].title }}
 		{% if site.posts[angka_9].bahasa %}
-			<div class="badge">{{ site.posts[angka_9].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_9].bahasa }}">{{ site.posts[angka_9].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_9].content | strip_html | truncatewords: 50 }}</p>
@@ -121,7 +121,7 @@
 	<h1>
 		{{ site.posts[angka_10].title }}
 		{% if site.posts[angka_10].bahasa %}
-			<div class="badge">{{ site.posts[angka_10].bahasa }}</div>
+			<a class="badge cari" href="#magic:{{ site.posts[angka_10].bahasa }}">{{ site.posts[angka_10].bahasa }}</a>
 		{% endif %}
 	</h1>
 	<p>{{ site.posts[angka_10].content | strip_html | truncatewords: 50 }}</p>
