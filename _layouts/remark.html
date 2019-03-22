@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="/app/init.js"></script>
+	<title>{% if page.title %}{{ page.title }} - {% endif %}Zen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="alternate" type="application/rss+xml" title="Zen" href="https://www.muhammadzaini.com/feed" />
+	<link rel="icon" href="/favicon.ico">
+	{% include iklan-otomatis.html %}
+	<script>
+		window._izq = window._izq || []; window._izq.push(["init"]); 
+	</script>
+	<script src="https://cdn.izooto.com/scripts/f2901ba1f81074ff88b7732382b96331690e31ae.js"></script>      
+</head>
+<body>
+	<textarea name="" id="source" cols="30" rows="10" style="display: none;">
+		{{ content }}
+	</textarea>
+	<script src="/vendor/remark/remark-latest.min.js"></script>
+	<script>
+		slideshow = remark.create()
+	</script>
+</body>
+</html>
