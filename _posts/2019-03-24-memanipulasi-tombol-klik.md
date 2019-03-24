@@ -2,6 +2,7 @@
 bahasa: Javascript
 title: "Memanipulasi Tombol Klik? Bisa Kah?"
 layout: post
+date: 2019-03-24 10:28:00 +0800
 ---
 
 Biasanya kan kalau misalnya ada tombol menuju Google, pas diklik ya yang kebuka Google. Contohnya aja tombol di bawah ini:
