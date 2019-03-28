@@ -8,6 +8,10 @@ body {
 	margin: auto;
 }
 
+.container {
+	max-width: 800px;
+}
+
 .fa.checked {
 	color: orange;
 }
