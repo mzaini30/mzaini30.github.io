@@ -25,9 +25,22 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a href="/" data-lagu='' class="navbar-brand top">Zen</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
 			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="/2019/03/29/cari.html">Cari</a></li>
+		      </ul>
+		    </div>
 		</div>
 	</div>
+	<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/app/menu.js"></script>
 
 	<div class="container">
 		{{ content }}
