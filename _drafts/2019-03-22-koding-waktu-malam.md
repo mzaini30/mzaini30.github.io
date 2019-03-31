@@ -1,6 +1,7 @@
 ---
 title: 'Koding Waktu Malam? Pikirkan Lagi Deh'
 layout: post
+date: 
 ---
 
 Banyak dari kita kalau sudah yang namanya mengerjakan suatu proyek, kita akan mengerjakannya dengan maksimal sehingga malah membahayakan diri kita sendiri. Salah satunya ya nggak memberikan waktu istirahat kepada diri kita.
