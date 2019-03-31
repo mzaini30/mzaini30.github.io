@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kumpulan Cheatsheet Jekyll"
+date: 2019-03-31 20:57:00 +0800
 ---
 
 1. Menjalankan Jekyll
