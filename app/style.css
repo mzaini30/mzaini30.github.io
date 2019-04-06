@@ -14,6 +14,7 @@ body {
 
 .icon img {
   width: 25%;
+  float: left;
 }
 
 .fa.checked {
