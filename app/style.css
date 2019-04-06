@@ -12,6 +12,10 @@ body {
 	max-width: 800px;
 }
 
+.icon img {
+  width: 25%;
+}
+
 .fa.checked {
 	color: orange;
 }

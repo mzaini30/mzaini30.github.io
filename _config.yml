@@ -8,6 +8,17 @@ paginate: 10
 plugins:
   - jekyll-paginate
 
+icon:
+  - a.jpg
+  - b.jpg
+  - c.jpg
+  - d.jpg
+  - e.jpg
+  - f.jpg
+  - g.jpg
+  - h.jpg
+  - i.jpg
+
 spesial: "Special for International Women's Day"
 spesial_list:
   - /2019/02/11/kekuatan-dalam-sunyi.html

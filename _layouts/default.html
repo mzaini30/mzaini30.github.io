@@ -47,5 +47,12 @@
 	<div class="container">
 		{{ content }}
 	</div>
+
+<div class='icon'>
+  {% for x in site.icon %}
+    <img src='/icon/{{ x }}'/>
+  {% endfor %}
+</div>
+
 </body>
 </html>
