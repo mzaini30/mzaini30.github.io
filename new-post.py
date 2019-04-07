@@ -6,7 +6,7 @@ judul = input('Masukkan judul postingan: ')
 sekarang = datetime.datetime.now()
 # print(sekarang.strftime('%Y-%m-%d %H:%M:%S'))
 
-karakter_terlarang = ['\\', '/', ':', '*', '?', '"', '\'', '<', '>', '|']
+karakter_terlarang = ['\\', '/', ':', '*', '?', '"', '\'', '<', '>', '|', '!']
 
 # INI BAGIAN JUDUL
 
