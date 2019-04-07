@@ -35,4 +35,6 @@ Jadi, Python ini memiliki keunggulan dibandingkan bahasa pemrograman lainnya:
 	  print("Angka antara 1 dan 5")
 	```
 
+	Dari situ sudah kelihatan kan ya, betapa sederhananya Python. Di saat Javascript memerlukan kurung kurawal, Python nggak perlu itu. Terus, penggunaan `&&` di bahasa pemrograman Javascript, di Python menggunakan `and`, maka kode yang dihasilkan dapat dengan mudah dibaca.
+
 - Prosesnya cepat
