@@ -14,18 +14,10 @@
 	<link rel="icon" href="/favicon.ico">
 
 	<script>
-		console.log('Selamat datang Zen!\n\nKetik menu() untuk menampilkan semua menu.')
-
-		menu = function(){
-			console.log('baru() : Membuat tulisan baru\n\nedit() : Edit tulisan saat ini')
-		}
-
-		baru = function(){
-			open('https://github.com/mzaini30/mzaini30.github.io/new/master/_drafts', '_blank')
-		}
-
-		edit = function(){
+		if (location.search = '?edit'){
 			open('https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}', '_blank')
+		} else if (location.search = '?baru'){
+			open('https://github.com/mzaini30/mzaini30.github.io/new/master/_drafts', '_blank')
 		}
 	</script>
 
