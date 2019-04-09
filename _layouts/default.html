@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript" src="/app/init.js"></script>
 	<title>{% if page.title %}{{ page.title }} - {% endif %}Zen</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +13,9 @@
 	<link rel="icon" href="/favicon.ico">
 
 	<script>
-		if (location.search = '?edit'){
+		if (location.search == '?edit'){
 			open('https://github.com/mzaini30/mzaini30.github.io/edit/master/{{ page.path }}', '_blank')
-		} else if (location.search = '?baru'){
+		} else if (location.search == '?baru'){
 			open('https://github.com/mzaini30/mzaini30.github.io/new/master/_drafts', '_blank')
 		}
 	</script>
