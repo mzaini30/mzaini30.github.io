@@ -13,13 +13,17 @@
 	<link rel="alternate" type="application/rss+xml" title="Zen" href="https://www.muhammadzaini.com/feed" />
 	<link rel="icon" href="/favicon.ico">
 
-<script>
-	console.log('Selamat datang Zen!\nKetik menu() untuk menampilkan semua menu.')
+	<script>
+		console.log('Selamat datang Zen!\nKetik menu() untuk menampilkan semua menu.')
 
-	menu = function(){
-		console.log('baru() : Membuat tulisan baru\nedit() : Edit tulisan saat ini')
-	}
-</script>
+		menu = function(){
+			console.log('baru() : Membuat tulisan baru\nedit() : Edit tulisan saat ini')
+		}
+
+		baru = function(){
+			open('https://github.com/mzaini30/mzaini30.github.io/new/master/_drafts', '_blank')
+		}
+	</script>
 
 	{% include iklan-otomatis.html %}
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
