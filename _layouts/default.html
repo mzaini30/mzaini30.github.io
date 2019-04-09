@@ -14,14 +14,18 @@
 	<link rel="icon" href="/favicon.ico">
 
 	<script>
-		console.log('Selamat datang Zen!\nKetik menu() untuk menampilkan semua menu.')
+		console.log('Selamat datang Zen!\n\nKetik menu() untuk menampilkan semua menu.')
 
 		menu = function(){
-			console.log('baru() : Membuat tulisan baru\nedit() : Edit tulisan saat ini')
+			console.log('baru() : Membuat tulisan baru\n\nedit() : Edit tulisan saat ini')
 		}
 
 		baru = function(){
 			open('https://github.com/mzaini30/mzaini30.github.io/new/master/_drafts', '_blank')
+		}
+
+		edit = function(){
+			open('https://github.com/mzaini30/mzaini30.github.io/edit/master{{ page.path }}', '_blank')
 		}
 	</script>
 
