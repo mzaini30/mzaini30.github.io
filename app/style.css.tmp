@@ -79,6 +79,12 @@ img {
 	}
 }
 
+@media (min-width: 768px){
+	.icon img {
+		width: 10%;
+	}
+}
+
 /* goodreads */
 
 #gr_challenge_8863 {
