@@ -4,7 +4,7 @@ title: Mana yang Kita Pilih? Kebahagiaan Sesaat atau Keabadian?
 date: 2019-04-11 13:16:00 +0800
 ---
 
-![](/gambar/masa/gambar2.jpg)
+![](/gambar/masa/gambar10.jpg)
 
 Ketika ada panggilan shalat, mana yang kita pilih? Bersegera ke masjid atau pergi ke warung buat makan? Coba kalau misalnya ke masjid, berapa lama sih kenikmatan dari setiap suap nasi yang kita telan? Setahun? Dua tahun? Atau cuma lima menit?
 
@@ -14,4 +14,4 @@ Ini bukan soal manfaat atau tidak; bukan tentang lama atau sebentar; melainkan i
 
 Sudahkah kita memahami dengan pasti apa yang akan Allah lakukan pada kita?
 
-![](/gambar/masa/gambar2.jpg)
+![](/gambar/masa/gambar10.jpg)
