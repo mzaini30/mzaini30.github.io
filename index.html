@@ -21,18 +21,20 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
-				<a href="#!">
-					<div class="panel panel-default portfolio">
-						<div class="panel-body">
-							<img src="/gambar/android.png" alt=""><br><br>
-							<center>
-								PLAYSTORE
-							</center>
+			{% for x in site.portfolio %}
+				<div class="col-xs-6">
+					<a href="{{ x.link }}">
+						<div class="panel panel-default portfolio">
+							<div class="panel-body">
+								<img src="/gambar/{{ x.gambar }}" alt=""><br><br>
+								<center>
+									PLAYSTORE
+								</center>
+							</div>
 						</div>
-					</div>
-				</a>
-			</div>
+					</a>
+				</div>
+			{% endfor %}
 		</div>
 	</div>
 	<br>
