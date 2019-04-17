@@ -16,3 +16,13 @@
 .isi img {
 	width: 100%;
 }
+
+.portfolio .panel-body {
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
