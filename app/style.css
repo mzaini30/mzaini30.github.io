@@ -1,0 +1,10 @@
+.jumbotron {
+	background: url('../gambar/sad-alone-boy-cute-lonely-black-and-white.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+}
