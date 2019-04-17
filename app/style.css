@@ -17,6 +17,10 @@
 	width: 100%;
 }
 
+.portfolio {
+	text-transform: uppercase;
+}
+
 .portfolio .panel-body {
 	padding-top: 0;
 	padding-right: 0;

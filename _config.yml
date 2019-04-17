@@ -2,3 +2,8 @@ portfolio:
   -
     gambar: android.png
     link: https://play.google.com/store/apps/dev?id=6751907367958089476
+    judul: playstore
+  -
+    gambar: 36686.png
+    link: https://github.com/mzaini30
+    judul: github

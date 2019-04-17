@@ -25,14 +25,14 @@
 		</div>
 		<div class="row">
 			{% for x in site.portfolio %}
-				<div class="col-xs-6">
+				<div class="col-xs-6 col-sm-4">
 					<a href="{{ x.link }}" target="_blank">
 						<div class="panel panel-default portfolio">
 							<div class="panel-body">
 								<img src="/gambar/{{ x.gambar }}" alt="">
 								<div class="enter"></div>
 								<center>
-									PLAYSTORE
+									{{ x.judul }}
 								</center>
 							</div>
 						</div>
