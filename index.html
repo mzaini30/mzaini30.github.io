@@ -24,7 +24,8 @@
 			</div>
 		</div>
 		<div class="row">
-			{% for x in site.portfolio %}
+			{% assign portfolio = site.portfolio | sort: 'judul' %}
+			{% for x in portfolio %}
 				<div class="col-xs-6 col-sm-4">
 					<a href="{{ x.link }}" target="_blank">
 						<div class="panel panel-default portfolio">
