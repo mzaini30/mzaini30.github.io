@@ -13,3 +13,10 @@ body {
 	color: inherit;
 	text-decoration: inherit;
 }
+
+.isi {
+	line-height: 1.5;
+}
+.isi p {
+	font-size: 12pt;
+}
