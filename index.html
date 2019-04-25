@@ -2,4 +2,9 @@
 layout: default
 ---
 
-Hello
+{% for x in paginator.posts %}
+	<a href="{{ x.url }}" class="link_menyamar">
+		<h1>{{ x.title }}</h1>
+		<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
+	</a>
+{% endfor %}

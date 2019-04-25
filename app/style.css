@@ -5,3 +5,11 @@ body {
 .container {
 	max-width: 800px;
 }
+
+.link_menyamar,
+.link_menyamar:active,
+.link_menyamar:hover,
+.link_menyamar:focus {
+	color: inherit;
+	text-decoration: inherit;
+}
