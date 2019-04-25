@@ -17,6 +17,15 @@ body {
 .isi {
 	line-height: 1.5;
 }
+
 .isi p {
 	font-size: 12pt;
+}
+
+.isi a,
+.isi a:active,
+.isi a:hover,
+.isi a:focus {
+	color: inherit;
+	text-decoration: underline;
 }
