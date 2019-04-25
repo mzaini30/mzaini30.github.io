@@ -1,13 +1,4 @@
-portfolio:
-  -
-    gambar: android.png
-    link: https://play.google.com/store/apps/dev?id=6751907367958089476
-    judul: playstore
-  -
-    gambar: 36686.png
-    link: https://github.com/mzaini30
-    judul: github
-  -
-    gambar: instagram-new-logo-2018-800x800.jpg
-    link: https://www.instagram.com/mzaini30/
-    judul: instagram
+paginate: 10
+
+plugins:
+  - jekyll-paginate
