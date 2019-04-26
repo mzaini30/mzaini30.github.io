@@ -6,14 +6,6 @@ body {
 	max-width: 800px;
 }
 
-.link_menyamar,
-.link_menyamar:active,
-.link_menyamar:hover,
-.link_menyamar:focus {
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .isi {
 	line-height: 1.5;
 }
@@ -28,4 +20,12 @@ body {
 .isi a:focus {
 	color: inherit;
 	text-decoration: underline;
+}
+
+a.link_menyamar,
+a.link_menyamar:active,
+a.link_menyamar:hover,
+a.link_menyamar:focus {
+	color: inherit;
+	text-decoration: inherit;
 }
