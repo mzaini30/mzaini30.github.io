@@ -18,7 +18,7 @@ Nah, sekarang begini, ketika kita berbuat maksiat, ingatlah bahwa selain kehidup
 
 # Lantas, Ketika Godaan Bermaksiat Kepada-Nya Itu Datang, Apa yang Harus Kita Lakukan?
 
-Berikut ini adalah beberapa hal yang semoga dapat membuat kita kembali taat kepada-Nya tatkala godaan bermaksiat itu datang:
+Memang sih yang namanya godaat bermaksiat kepada-Nya itu tiba-tiba aja datang sehingga kita terdorong untuk melakukannya. Namun, apakah kita dengan begitu pasrahnya akan menuruti dorongan tersebut? Tentu nggak kan? Nah, berikut ini adalah beberapa cara yang insya Allah bisa menjauhkan kita dan menghindarkan kita dari berbuat maksiat:
 
 1. Berdzikir
 
