@@ -43,3 +43,5 @@ Memang sih yang namanya godaat bermaksiat kepada-Nya itu tiba-tiba aja datang se
 - Membaca buku
 
 	Salah satu penyebab datangnya keinginan untuk bermaksiat kepada-Nya adalah karena kedangkalan ilmu kita. Maka, membaca buku adalah salah satu cara untuk dapat kembali kepada-Nya. Kok bisa? Tentu karena dari setiap bacaan yang kita cerna dari buku, akan memberikan ilmu kepada kita. Dan dari ilmu itulah kita memahami eksistensi dan hakekat dari segala sesuatu. Dan dari pemahaman itulah timbul yang namanya ketaatan kepada Sang Ilahi.
+
+Jadi kesimpulannya adalah manfaatkan atau habiskan waktu yang kamu miliki ini dengan semaksimal mungkin memperbanyak ketaatan kepada-Nya; soalnya kita nggak tau kan seberapa banyak dosa yang ada pada diri kita ini sehingga menggerogoti pahala yang kita miliki. Dan, nggak usah hitung-hitung pahala deh. Capek. Udah gitu juga kalau kita terlalu fokus menghitung-hitung pahala, kita malah akan terus berkutat di situ dan nggak memaksimalkan amalan-amalan kita seperti sedekah yang seharusnya adalah kita keluarkan sebanyak-banyaknya malah kita hitung-hitung. Padahal, kalau kita berbuat dosa aja nggak hitung-hitung.

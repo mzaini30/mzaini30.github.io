@@ -16,7 +16,8 @@ body {
 	line-height: 1.5;
 }
 
-.isi p {
+.isi p,
+.isi li {
 	font-size: 12pt;
 }
 
