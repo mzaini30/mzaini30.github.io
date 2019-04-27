@@ -2,6 +2,12 @@ body {
 	padding-top: 70px;
 }
 
+.arab,
+.arab * {
+	direction: rtl;
+	font-size: 20pt !important;
+}
+
 .container {
 	max-width: 800px;
 }
