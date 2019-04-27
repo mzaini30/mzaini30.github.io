@@ -33,7 +33,7 @@ Memang sih yang namanya godaat bermaksiat kepada-Nya itu tiba-tiba aja datang se
 
 - Cobalah membaca Alquran
 
-	> إنا نحن نزلنا الذكر وإنا له لحافظون
+	> إنا نحن نزلنا الذكرى وإنا له لحافظون
 	{:.arab}
 
 	> Sesungguhnya telah Kami turunkan Adz-Dzikr (Alquran) dan sesungguhnya Kami-lah yang menjaganya.
