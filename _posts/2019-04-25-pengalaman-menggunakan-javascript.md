@@ -11,4 +11,69 @@ Walaupun memang aku mempelajarinya secara ilegal. Kok bisa? Tentu saja. Karena a
 
 Nah, kalau dulu ketika SMP, aku menggunakan Javascript hanya untuk bermain-main dengan gadget blog, sekarang aku sudah merasakan berbagai manfaat dari Javascript; seperti membuat aplikasi Android, membuat aplikasi website, mengerjakan tugas dengan lebih cepat (salah satunya adalah tugas dari dosen), mempelajari teknik-teknik pemrograman baru, mempelajari berbagai library atau pustaka Javascript baru, mencoba menggunakan server dengan Javascript, dan berbagai manfaat lainnya yang belum aku tuliskan.
 
-Manfaat yang pertama adalah membuat aplikasi Android. Nah, kalau biasanya programmer lain menggunakan native Java untuk membuat aplikasi, atau terkadang menggunakan Native Script, Flutter, maupun Kotlin untuk membuatnya, aku membuat aplikasi Android dengan teknik yang lebih simpel yaitu teknik Hybrid, atau aku membuat aplikasi website lalu dijalankan di Android menggunakan berbagai skrip Java sehingga seolah-olah aplikasi website yang terdapat di aplikasi Android tersebut adalah aplikasi Android itu sendiri. Jadi, istilahnya itu seperti ada browser di dalam aplikasi Android yang aku buat. Kalau istilahnya di arsitektur aplikasi Android adalah webview. Beberapa aplikasi Android yang sudah aku buat menggunakan Javascript adalah Kaligrafi, 10 Juta dari Dropship, Absen Guru, Aku Berkata, Antrian Rutan Samarinda, Blog Psikologi, Book Progress, Cerpen Pohon Impian, Coffeescript, Desain Dakwah, Desain Dakwah 2, Dzikir Pagi dan Petang, Ecmascript, Font, Huruf Jepang, Icons for Website, Ide Blogging, Japan Story, Jumlah Satuan, Kamus Psikologi, Kode Bank, Kode Telepon Negara Internasional, Liberalisasi Islam di Indonesia, Link Generator, Lirik Anime Song Indonesia, Materialize Color, Murajaah, Nulis Aja Community, One Day One Post, Petunjuk Ngaji, Psikologi Universitas Mulawarman, Puasa 2018, Puasa 2019, Puisi Chairil Anwar, Quran Pengajian, Reading Challenge, Sabyan Songs, Seindah Sunnah, Sekolah Impian, Simple To Do, Situs Islam, Termux Alias, Tutorial Jade, Undian, Wonotirto Samboja, YUI Songs, Yasin Al Kahfi dan Al Mulk. Sedangkan aplikasi Android yang ditolak oleh Play Store adalah Mahad Isy Karima, Whatsapp Link Generator, dan Zen. Aplikasi Android yang rencananya akan kubuat dalam waktu dekat adalah Kalkulator Dagang, Tasbih, Kastanyet Perencana Doraemon, Korean Calligraphy, Letter Art, Japanese Calligraphy, Kuis, Tes Hafalan Quran.
+Manfaat yang pertama adalah membuat aplikasi Android. Nah, kalau biasanya programmer lain menggunakan native Java untuk membuat aplikasi, atau terkadang menggunakan Native Script, Flutter, maupun Kotlin untuk membuatnya, aku membuat aplikasi Android dengan teknik yang lebih simpel yaitu teknik Hybrid, atau aku membuat aplikasi website lalu dijalankan di Android menggunakan berbagai skrip Java sehingga seolah-olah aplikasi website yang terdapat di aplikasi Android tersebut adalah aplikasi Android itu sendiri. Jadi, istilahnya itu seperti ada browser di dalam aplikasi Android yang aku buat. Kalau istilahnya di arsitektur aplikasi Android adalah webview. Beberapa aplikasi Android yang sudah aku buat menggunakan Javascript adalah:
+
+- 10 Juta dari Dropship
+- Absen Guru
+- Aku Berkata
+- Antrian Rutan Samarinda
+- Blog Psikologi
+- Book Progress
+- Cerpen Pohon Impian
+- Coffeescript
+- Desain Dakwah
+- Desain Dakwah 2
+- Dzikir Pagi dan Petang
+- Ecmascript
+- Font
+- Huruf Jepang
+- Icons for Website
+- Ide Blogging
+- Japan Story
+- Jumlah Satuan
+- Kaligrafi
+- Kamus Psikologi
+- Kode Bank
+- Kode Telepon Negara Internasional
+- Liberalisasi Islam di Indonesia
+- Link Generator
+- Lirik Anime Song Indonesia
+- Materialize Color
+- Murajaah
+- Nulis Aja Community
+- One Day One Post
+- Petunjuk Ngaji
+- Psikologi Universitas Mulawarman
+- Puasa 2018
+- Puasa 2019
+- Puisi Chairil Anwar
+- Quran Pengajian
+- Reading Challenge
+- Sabyan Songs
+- Seindah Sunnah
+- Sekolah Impian
+- Simple To Do
+- Situs Islam
+- Termux Alias
+- Tutorial Jade
+- Undian
+- Wonotirto Samboja
+- Yasin Al Kahfi dan Al Mulk
+- YUI Songs
+
+Sedangkan aplikasi Android yang ditolak oleh Play Store adalah: 
+
+- Mahad Isy Karima
+- Whatsapp Link Generator
+- Zen
+
+Aplikasi Android yang rencananya akan kubuat dalam waktu dekat adalah:
+
+- Japanese Calligraphy
+- Kalkulator Dagang
+- Kastanyet Perencana Doraemon
+- Korean Calligraphy
+- Kuis
+- Letter Art
+- Tasbih
+- Tes Hafalan Quran

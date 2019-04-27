@@ -20,7 +20,7 @@ Nah, sekarang begini, ketika kita berbuat maksiat, ingatlah bahwa selain kehidup
 
 Memang sih yang namanya godaat bermaksiat kepada-Nya itu tiba-tiba aja datang sehingga kita terdorong untuk melakukannya. Namun, apakah kita dengan begitu pasrahnya akan menuruti dorongan tersebut? Tentu nggak kan? Nah, berikut ini adalah beberapa cara yang insya Allah bisa menjauhkan kita dan menghindarkan kita dari berbuat maksiat:
 
-1. Berdzikir
+- Berdzikir
 
 	> ألا بذكر الله تطمئن القلوب
 	{:.arab}
@@ -31,7 +31,7 @@ Memang sih yang namanya godaat bermaksiat kepada-Nya itu tiba-tiba aja datang se
 
 	Berdzikir itu tidaklah susah. Cukup dengan menyebut "Allah, Allah, Allah" itu sudah bisa dikatakan sebagai berdzikir. Namun, ketika kita bisa mencoba yang lebih panjang, tentu lebih baik; seperti subhanallah 33 kali, alhamdulillah 33 kali, Allahu akbar 33 kali. Yang terpenting dari berdzikir ini adalah kita mengingat kembali akan keberadaan Allah subhanahu wa taala.
 
-2. Cobalah membaca Alquran
+- Cobalah membaca Alquran
 
 	> إنا نحن نزلنا الذكر وإنا له لحافظون
 	{:.arab}
@@ -40,6 +40,6 @@ Memang sih yang namanya godaat bermaksiat kepada-Nya itu tiba-tiba aja datang se
 
 	Nama lain dari Alquran adalah Adz-Dzikr. Mengapa disebut dengan Adz-Dzikr? Tentu saja ketika kita membaca Alquran, kita akan teringat pada Allah subhanahu wa taala. Bagaimana mungkin kita tidak mengingatnya sedangkan Alquran ini adalah kalam-Nya? Bagaimana mungkin pula kita tak ingat kepada-Nya padahal dari setiap ayat yang kita baca maupun yang kita lafalkan dari hafalan Alquran kita, kita akan selalu teringat akan kalam-kalam Ilahi yang Allah ajarkan kepada makhluk-Nya di dunia ini yang haus akan hikmah dan kebenaran.
 
-3. Membaca buku
+- Membaca buku
 
 	Salah satu penyebab datangnya keinginan untuk bermaksiat kepada-Nya adalah karena kedangkalan ilmu kita. Maka, membaca buku adalah salah satu cara untuk dapat kembali kepada-Nya. Kok bisa? Tentu karena dari setiap bacaan yang kita cerna dari buku, akan memberikan ilmu kepada kita. Dan dari ilmu itulah kita memahami eksistensi dan hakekat dari segala sesuatu. Dan dari pemahaman itulah timbul yang namanya ketaatan kepada Sang Ilahi.
