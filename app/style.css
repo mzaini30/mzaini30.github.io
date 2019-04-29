@@ -1,0 +1,38 @@
+body {
+	padding-top: 70px;
+}
+
+.arab,
+.arab * {
+	direction: rtl;
+	font-size: 20pt !important;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.isi {
+	line-height: 2;
+}
+
+.isi p,
+.isi li {
+	font-size: 12pt;
+}
+
+.isi a,
+.isi a:active,
+.isi a:hover,
+.isi a:focus {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a.link_menyamar,
+a.link_menyamar:active,
+a.link_menyamar:hover,
+a.link_menyamar:focus {
+	color: inherit;
+	text-decoration: inherit;
+}

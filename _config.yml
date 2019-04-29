@@ -1,0 +1,8 @@
+paginate: 10
+
+plugins:
+  - jekyll-paginate
+
+title: Zen
+
+description: Mahasiswa Psikologi
