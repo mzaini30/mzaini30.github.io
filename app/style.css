@@ -17,7 +17,8 @@ body {
 }
 
 .isi p,
-.isi li {
+.isi li,
+.isi pre {
 	font-size: 12pt;
 }
 
