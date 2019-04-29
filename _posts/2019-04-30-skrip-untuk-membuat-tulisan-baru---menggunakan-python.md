@@ -3,6 +3,10 @@ layout: post
 title: Skrip untuk Membuat Tulisan Baru (Menggunakan Python)
 ---
 
+# Skrip
+
+Simpan skrip di bawah ini dengan nama file `postingan_baru.py` dan letaknya itu di `root` Jekyll
+
 ```python
 import datetime, os
 
@@ -48,4 +52,10 @@ perintah_string = ''
 for x in perintah:
   perintah_string += x + ';'
 os.system(perintah_string)
+```
+
+# Cara Menjalankan 
+
+```bash
+python3 postingan_baru.py
 ```
