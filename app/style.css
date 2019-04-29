@@ -22,6 +22,10 @@ body {
 	font-size: 12pt;
 }
 
+.isi pre code {
+	white-space: inherit;
+}
+
 .isi a,
 .isi a:active,
 .isi a:hover,
