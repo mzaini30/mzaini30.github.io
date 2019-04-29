@@ -22,7 +22,7 @@ karakter_terlarang = ['\\', '/', ':', '*', '?', '"', '\'', '<', '>', '|', '!']
 
 judul_kecil = judul.lower().replace(' ', '-')
 for x in karakter_terlarang:
-  judul_kecil = judul_kecil.replace(x, '')
+	judul_kecil = judul_kecil.replace(x, '')
 # print(judul_kecil)
 tanggal_untuk_judul = sekarang.strftime('%Y-%m-%d-')
 # print(tanggal_untuk_judul)
@@ -40,17 +40,17 @@ judul_baru = str(judul)
 # print(judul_baru)
 
 perintah = [
-  'cd _drafts',
-  'touch ' + judul_sekarang,
-  'echo --- > ' + judul_sekarang,
-  'echo layout: post >> ' + judul_sekarang,
-  'echo "title: ' + judul_baru + '" >> ' + judul_sekarang,
-  'echo --- >> ' + judul_sekarang
+	'cd _drafts',
+	'touch ' + judul_sekarang,
+	'echo --- > ' + judul_sekarang,
+	'echo layout: post >> ' + judul_sekarang,
+	'echo "title: ' + judul_baru + '" >> ' + judul_sekarang,
+	'echo --- >> ' + judul_sekarang
 ]
 
 perintah_string = ''
 for x in perintah:
-  perintah_string += x + ';'
+	perintah_string += x + ';'
 os.system(perintah_string)
 ```
 
