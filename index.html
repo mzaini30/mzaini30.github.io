@@ -8,4 +8,9 @@ layout: default
 		<p>{{ x.content | strip_html | truncatewords: 50 }}</p>
 	</a>
 {% endfor %}
+{% if paginator.next_page %}
+	<center>
+		<p><a href="{{ paginator.next_page_path }}">Selanjutnya &rarr;</a></p>
+	</center>
+{% endif %}
 <br>
