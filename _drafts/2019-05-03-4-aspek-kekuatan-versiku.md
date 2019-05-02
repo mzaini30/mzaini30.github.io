@@ -16,4 +16,6 @@ Sekarang, coba kita ulas satu per satu.
 
 - Privasi
 
-	Zaman sekarang ini privasi merupakan sesuatu yang langka. 
+	Zaman sekarang ini privasi merupakan sesuatu yang langka. Orang-orang dengan mudahnya menyebarkan kehidupan pribadinya kepada universe dengan berbagai media sosial kesayangan mereka; blog, instagram, facebook, twitter, youtube, dan lain sebagainya. Apakah salah? Tentu kita lihat dari berbagai macam perspektif. Dalam hal ini, aku melihatnya dalam perspektif privasi.
+
+	Ketika kita dengan mudahnya menyebarkan kehidupan kita kepada orang lain tanpa kita saring terlebih dahulu "apakah ini konsumsi publik atau bukan", maka kita lemah. Kita menjadi mudah diserang oleh kekejaman bangsa netizen yang suka menghujat. 
