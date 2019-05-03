@@ -4,6 +4,7 @@ title: Bekal Akhirat
 ---
 
 > وتزودوا فإن خير الزاد التقوى
+{:.arab}
 
 > Bawalah bekal, karena sesungguhnya sebaik-baik bekal adalah takwa (2:197)
 
