@@ -13,3 +13,12 @@ Mengapa?
 
 Apakah kita akan abadi di dunia ini sehingga kita tidak memerlukan akhirat? Apakah tiada batas dari usia kita sehingga kita mengabaikannya? Bukankah kita nanti akan menjumpai yang namanya kematian, lalu mengapa kita tidak menyiapkan bekal untuk kehidupan setelah menjumpai kematian?
 
+- Salat suka menunda
+- Ngaji nggak mau
+- Puasa cuma karena wajib aja
+- Menghafal Alquran nggak mau
+- Membaca buku agama nggak mau, katanya sih ketebelan
+
+Lalu, apa yang kita persiapkan nanti, di mana tiada waktu bagi kita untuk beramal?
+
+Karena waktu itu, waktu adalah miliknya, dan kita tak memiliki waktu.
