@@ -12,7 +12,7 @@ Aku membuat empat aspek kekuatan yaitu:
 - Ilmu
 - Alat
 
-Sekarang, coba kita ulas satu per satu.
+<!-- Sekarang, coba kita ulas satu per satu.
 
 - Privasi
 
@@ -26,4 +26,4 @@ Sekarang, coba kita ulas satu per satu.
 
 	> Uang memang tidak bisa membeli kebahagiaan. Namun, uang bisa membeli perabotan-perabotan yang membuat kita bahagia.
 
-	
+	 -->
