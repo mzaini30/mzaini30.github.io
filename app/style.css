@@ -22,6 +22,12 @@ body {
 	font-size: 12pt;
 }
 
+.isi img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
 /*.isi pre code {
 	white-space: inherit;
 }*/
