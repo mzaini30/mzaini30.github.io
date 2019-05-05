@@ -23,7 +23,20 @@ angka = [1, 2, 3, 4, 5]
 
 ### For
 
+```python
+angka = [1, 2, 3, 4, 5]
 
+for x in angka:
+	print(x)
+```
+
+### Input
+
+```python
+nama = input('Siapa namamu?')
+
+print(nama)
+```
 
 ### Angka
 
