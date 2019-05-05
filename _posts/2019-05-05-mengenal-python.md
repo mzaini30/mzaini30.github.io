@@ -15,6 +15,16 @@ Yang kugunakan di sini untuk Python versi 3 ya. Ada sedikit perbedaan dengan Pyt
 nama = 'Zen'
 ```
 
+### List
+
+```python
+angka = [1, 2, 3, 4, 5]
+```
+
+### For
+
+
+
 ### Angka
 
 ```python
@@ -27,7 +37,7 @@ umur = 24
 menikah = False
 ```
 
-## If
+### If
 
 ```python
 if usia >= 40:
@@ -38,11 +48,28 @@ else:
 	print('Cepat besar ya...')
 ```
 
-## While
+### While
 
 ```python
 while True:
 	print('Cetak terus tanpa ada akhirnya')
+```
+
+### Fungsi
+
+```python
+def cetak(x):
+	print(x)
+```
+
+### Import
+
+```python
+import requests
+```
+
+```python
+from bs4 import BeautifulSoup as bs
 ```
 
 # Contoh Aplikasi Menggunakan Python
