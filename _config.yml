@@ -3,3 +3,7 @@ klien:
     nama: Antrian Rumah Tahanan Samarinda
     situs: http://antrianrutansamarinda.com/index.php/login
     gambar: rutan.png
+  -
+    nama: Pemesanan Roti Panglima
+    situs: /panglima
+    gambar: panglima.png
