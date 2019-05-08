@@ -3,6 +3,10 @@ klien:
     nama: Antrian Rumah Tahanan Samarinda
     situs: http://antrianrutansamarinda.com/index.php/login
     gambar: rutan.png
+  -
+    nama: Sanggar Caraka
+    situs: https://www.sanggarcaraka.com/
+    gambar: sanggar.png
 
 aplikasi:
   -
