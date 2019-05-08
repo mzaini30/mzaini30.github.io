@@ -45,7 +45,18 @@
 		</div>
 		<div class="panel panel-default">
 			<div class="panel-heading">Klien</div>
-			<div class="panel-body"></div>
+			<div class="panel-body">
+				{% assign klien = site.klien | sort: "nama" %}
+				{% for x in klien %}
+					<div class="panel panel-default">
+						<a href="{{ x.situs }}">
+							<div class="panel-body">
+								<img src="/gambar/klien/{{ x.gambar }}" alt="">
+							</div>
+						</a>
+					</div>
+				{% endfor %}
+			</div>
 		</div>
 		<center>
 			<p><a href="https://wa.me/6281545143654" class="btn btn-success btn-lg">Chat Me</a></p>
