@@ -48,7 +48,23 @@
 			<div class="col-sm-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">Blog</div>
-					<div class="panel-body"></div>
+					<div class="panel-body">
+						<div class="row">
+							{% assign blog = site.blog | sort: "nama" %}
+							{% for x in blog %}
+								<div class="col-xs-6 col-sm-4 item">
+									<div class="panel panel-default">
+										<a href="{{ x.situs }}">
+											<div class="panel-body">
+												<img src="/gambar/blog/{{ x.gambar }}" alt="">
+												<p>{{ x.nama }}</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-6">
