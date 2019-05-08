@@ -2,9 +2,11 @@ body {
 	padding-top: 70px;
 }
 
+.item a,
 .item a:focus,
 .item a:hover,
-.item a:visited {
+.item a:visited,
+.item a:active {
 	color: inherit;
 	text-decoration: none;
 }
