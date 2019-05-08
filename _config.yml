@@ -7,3 +7,9 @@ klien:
     nama: Pemesanan Roti Panglima
     situs: https://www.muhammadzaini.com/panglima/
     gambar: panglima.png
+
+aplikasi:
+  -
+    nama: Materialize Color
+    situs: https://www.muhammadzaini.com/color30/
+    gambar: materialize.png

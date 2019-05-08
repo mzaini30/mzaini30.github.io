@@ -54,7 +54,23 @@
 			<div class="col-sm-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">Aplikasi</div>
-					<div class="panel-body"></div>
+					<div class="panel-body">
+						<div class="row">
+							{% assign aplikasi = site.aplikasi | sort: "nama" %}
+							{% for x in aplikasi %}
+								<div class="col-xs-6 col-sm-4 col-md-2 item">
+									<div class="panel panel-default">
+										<a href="{{ x.situs }}">
+											<div class="panel-body">
+												<img src="/gambar/aplikasi/{{ x.gambar }}" alt="">
+												<p>{{ x.nama }}</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
