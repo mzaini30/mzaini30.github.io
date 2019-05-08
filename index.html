@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,22 +49,28 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">Klien</div>
 			<div class="panel-body">
-				{% assign klien = site.klien | sort: "nama" %}
-				{% for x in klien %}
-					<div class="panel panel-default">
-						<a href="{{ x.situs }}">
-							<div class="panel-body">
-								<img src="/gambar/klien/{{ x.gambar }}" alt="">
+				<div class="row">
+					{% assign klien = site.klien | sort: "nama" %}
+					{% for x in klien %}
+						<div class="col-sm-4 col-md-2 item">
+							<div class="panel panel-default">
+								<a href="{{ x.situs }}">
+									<div class="panel-body">
+										<img src="/gambar/klien/{{ x.gambar }}" alt="">
+										<p>{{ x.nama }}</p>
+									</div>
+								</a>
 							</div>
-						</a>
-					</div>
-				{% endfor %}
+						</div>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 		<center>
 			<p><a href="https://wa.me/6281545143654" class="btn btn-success btn-lg">Chat Me</a></p>
 		</center>
 	</div>
+	<br>
 	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="/app/app.js"></script>
 </body>

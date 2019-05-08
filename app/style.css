@@ -1,3 +1,27 @@
 body {
 	padding-top: 70px;
 }
+
+.item a:focus,
+.item a:hover,
+.item a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+.item .panel {
+	margin-bottom: 0;
+}
+
+.item .panel-body {
+	padding: 0;
+}
+
+.item img {
+	width: 100%;
+}
+
+.item p {
+	padding: 10px;
+	padding-bottom: 0;
+}
