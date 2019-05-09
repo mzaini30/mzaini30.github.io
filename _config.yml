@@ -3,6 +3,10 @@ blog:
     nama: Riviu Buku
     situs: https://www.muhammadzaini.com/riviu-buku/
     gambar: buku.png
+  -
+    nama: Pemrograman
+    situs: https://www.muhammadzaini.com/pemrograman/
+    gambar: octocat.png
 
 klien:
   -
