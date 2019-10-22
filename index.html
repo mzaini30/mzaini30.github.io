@@ -1,3 +1,23 @@
-<script>
-location.href = 'https://mzaini30.com'
-</script>
+---
+layout: default
+beranda: true
+---
+
+<div class="jarak">
+	<div class="tabs">
+	  <ul>
+	  	{% assign kategori = site.categories | sort %}
+	  	{% for x in kategori %}
+	  		<li class="kapital kategori" data-kategori-menu='{{ x[0] }}'><a>{{ x[0] }}</a></li>
+	  	{% endfor %}
+	  </ul>
+	</div>
+	<div class="panel">
+		{% for x in site.posts %}
+			<a class="panel-block isi-kategori sembunyi" data-kategori='{{ x.category }}' href="{% if x.link %}{{ x.link }}{% else %}{{ x.url }}{% endif %}">
+				<span class="panel-icon"><i class="fas fa-book" aria-hidden="true"></i></span>
+				{{ x.title }}
+			</a>
+		{% endfor %}
+	</div>	
+</div>

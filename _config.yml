@@ -1,25 +1,5 @@
-blog:
-  -
-    nama: Riviu Buku
-    situs: https://www.muhammadzaini.com/riviu-buku/
-    gambar: buku.png
-  -
-    nama: Pemrograman
-    situs: https://www.muhammadzaini.com/pemrograman/
-    gambar: octocat.png
+permalink: /:slug-:month:day
 
-klien:
-  -
-    nama: Antrian Rumah Tahanan Samarinda
-    situs: http://antrianrutansamarinda.com/index.php/login
-    gambar: rutan.png
-
-aplikasi:
-  -
-    nama: Materialize Color
-    situs: https://www.muhammadzaini.com/color30/
-    gambar: materialize.png
-  -
-    nama: Undian
-    situs: https://www.muhammadzaini.com/undian/
-    gambar: undian.png
+plugins: 
+  - jekyll-feed
+  - jekyll-seo-tag

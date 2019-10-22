@@ -1,0 +1,130 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+	<title>
+		{% if page.title %}
+			{{ page.title }} -
+		{% endif %}
+		MZAINI30
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="alternate" type="application/rss+xml" href="https://mzaini30.com/feed" />
+	<link rel="stylesheet" type="text/css" href="/vendor/bulma/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="/vendor/code/github.css">
+	<style type="text/css">
+		* {
+			word-wrap: break-word;
+		}
+
+		.infinity-isi,
+		.jarak {
+		    padding-top: 1px;
+		    padding-bottom: 25px;
+		}
+
+		.container-meta {
+		    width: 600px;
+		    max-width: 90%;
+		    margin: auto;
+		}
+
+		.content img {
+			display: block;
+			margin: auto;
+		}
+
+		.sembunyi {
+			display: none;
+		}
+
+		.kapital {
+			text-transform: capitalize;
+		}
+
+		.isi-kategori {
+			border-top: 1px solid #dbdbdb;
+			margin-bottom: 5px;
+		}
+	</style>
+
+	{% seo title=false %}
+
+	<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/vendor/mousetrap/mousetrap.min.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		Mousetrap.bind('z e n', function(){
+			menu = prompt('1. Tulisan baru\n2. Edit\n3. Hapus\n ');
+			if (menu == '1') {
+				open('https://github.com/rumahzen/rumahzen.github.io/new/master/_posts', '_blank');
+			} else if (menu == '2'){
+				open('https://github.com/rumahzen/rumahzen.github.io/edit/master/{{ page.path }}', '_blank');
+			} else if (menu == '3'){
+				open('https://github.com/rumahzen/rumahzen.github.io/delete/master/{{ page.path }}', '_blank');
+			}
+		});
+		
+	     (adsbygoogle = window.adsbygoogle || []).push({
+	          google_ad_client: "ca-pub-2408628281705149",
+	          enable_page_level_ads: true
+	     });
+	</script>
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+</head>
+<body>
+	<div class="isi">
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+		    <div class="navbar-brand">
+		        <a class="navbar-item judul-blog" href="/">
+		            MZAINI30
+		        </a>
+		        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+		            <span aria-hidden="true"></span>
+		            <span aria-hidden="true"></span>
+		            <span aria-hidden="true"></span>
+		        </a>
+		    </div>
+		    <div id="navbarBasicExample" class="navbar-menu">
+		        <div class="navbar-start">
+	                <a class="navbar-item" href='/cari-0825'>Cari</a>
+	                <a class="navbar-item" href='mailto:muhzaini30@gmail.com'>Email</a>
+		        </div>
+		    </div>
+		</nav>
+
+		<div class="container-meta">
+			{{ content }}
+		</div>
+	</div>
+	<script type="text/javascript" src="/vendor/bulma/bulma.js"></script>
+	<script type="text/javascript">
+		$('table').wrap('<div class="table-container"></div>');
+	</script>
+	{% if page.beranda %}
+		<script type="text/javascript">
+			$('.kategori').click(function(){
+				$('.kategori').removeClass('is-active');
+				$('.isi-kategori').addClass('sembunyi');
+				$(this).addClass('is-active');
+				$('[data-kategori="' + $(this).attr('data-kategori-menu') + '"]').removeClass('sembunyi');
+			});
+			$('.kategori:first').click();
+
+			if (location.pathname == '/') {
+				$('.judul-blog').click(function(x){
+					x.preventDefault();
+					$('html, body').animate({
+						scrollTop: 0
+					}, 600);
+				});
+			}
+		</script>
+	{% endif %}
+</body>
+</html>
