@@ -25,6 +25,10 @@ link:
 		img {
 			max-width: 100%;
 		}
+
+		.full {
+			padding: 0 !important;
+		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
 </head>
@@ -57,10 +61,10 @@ link:
 		{% assign postingan = site.posts | sort: 'title' %}
 		<div class="row">
 			{% for x in postingan %}
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<a href="{{ x.link }}">
 						<div class="panel panel-default">
-							<div class="panel-body">
+							<div class="panel-body full">
 								<img src="{{ x.gambar }}" alt="">
 							</div>
 						</div>
