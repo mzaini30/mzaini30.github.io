@@ -29,6 +29,13 @@ link:
 		.full {
 			padding: 0 !important;
 		}
+
+		a,
+		a:hover,
+		a:visited,
+		a:focus {
+			text-decoration: none !important;
+		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
 </head>
@@ -64,6 +71,7 @@ link:
 				<div class="col-sm-2">
 					<a href="{{ x.link }}">
 						<div class="panel panel-default">
+							<div class="panel-heading">{{ x.title }}</div>
 							<div class="panel-body full">
 								<img src="{{ x.gambar }}" alt="">
 							</div>
