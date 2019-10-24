@@ -65,10 +65,11 @@ link:
 	  </div><!-- /.container-fluid -->
 	</nav>
 	<div class="container">
+		<h1>All Apps</h1>
 		{% assign postingan = site.posts | sort: 'title' %}
 		<div class="row">
 			{% for x in postingan %}
-				<div class="col-sm-2">
+				<div class="col-sm-2 col-xs-6">
 					<a href="/{{ x.link }}">
 						<div class="panel panel-default">
 							<div class="panel-heading">{{ x.title }}</div>
