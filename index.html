@@ -79,7 +79,7 @@ link:
 		<div class="row">
 			{% for x in postingan %}
 				<div class="col-sm-2 col-xs-6">
-					<a href="/{{ x.link }}">
+					<a href="/{{ x.link }}" data-link='/{{ x.link }}' data-gambar='{{ x.gambar }}' data-judul='{{ x.title }}'>
 						<div class="panel panel-default">
 							<div class="panel-heading judul-aplikasi">{{ x.title }}</div>
 							<div class="panel-body full">
@@ -93,6 +93,28 @@ link:
 	</div>
 	<script type="text/javascript" src="/vendor/jquery/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/vendor/dexie/dexie.js"></script>
 	<script type="text/javascript" src="/vendor/zen/zen.js"></script>
+	<script type="text/javascript">
+		kunjungan = new Dexie('database kunjungan')
+		kunjungan.version(1).stores({
+			isi: '++id, link, gambar, judul'
+		})
+
+		$('[data-link]').each(function(){
+			$(this).click(function(x){
+				x.preventDefault()
+				data_link = $(this).attr('data-link')
+				data_gambar = $(this).attr('data-gambar')
+				data_judul = $(this).attr('data-judul')
+				kunjungan.isi.add({
+					link: data_link,
+					gambar: data_gambar,
+					judul: data_judul
+				})
+				location.href = $(this).attr('data-link')
+			})
+		})
+	</script>
 </body>
 </html>
