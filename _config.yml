@@ -1,5 +1,0 @@
-permalink: /:slug-:month:day
-
-plugins: 
-  - jekyll-feed
-  - jekyll-seo-tag
