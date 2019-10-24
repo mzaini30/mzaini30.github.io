@@ -22,6 +22,12 @@ link:
 			padding-top: 70px; 
 		}
 
+		.judul-aplikasi {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
 		img {
 			max-width: 100%;
 		}
@@ -72,7 +78,7 @@ link:
 				<div class="col-sm-2 col-xs-6">
 					<a href="/{{ x.link }}">
 						<div class="panel panel-default">
-							<div class="panel-heading">{{ x.title }}</div>
+							<div class="panel-heading judul-aplikasi">{{ x.title }}</div>
 							<div class="panel-body full">
 								<img src="{{ x.gambar }}" alt="">
 							</div>
