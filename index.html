@@ -24,16 +24,8 @@ Quora login pakai Facebook
 	<title>Zen</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<script type="text/javascript">
-		(adsbygoogle = window.adsbygoogle || []).push({
-	          google_ad_client: "ca-pub-2408628281705149",
-	          enable_page_level_ads: true
-	     });
-	</script>
 	<style type="text/css">
-		body { 
-			padding-top: 70px; 
-		}
+	
 
 		.judul-aplikasi {
 			white-space: nowrap;
@@ -59,30 +51,6 @@ Quora login pakai Facebook
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand judul-aplikasi" href="#!">Zen</a>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	      	{% assign link = page.link | sort: 'judul' %}
-	      	{% for x in link %}
-	        	<li><a href="{{ x.link }}">{{ x.judul }}</a></li>
-	      	{% endfor %}
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
 	<div class="container">
 		<h1>All Apps</h1>
 		{% assign postingan = site.posts | sort: 'title' %}
@@ -101,8 +69,5 @@ Quora login pakai Facebook
 			{% endfor %}
 		</div>
 	</div>
-	<script type="text/javascript" src="/vendor/jquery/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/vendor/zen/zen.js"></script>
 </body>
 </html>
