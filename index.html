@@ -1,22 +1,33 @@
 ---
-link:
+isi:
   -
-    link: https://github.com/mzaini30
-    judul: Github
+    nama: Download Aplikasi
+    konten:
+      -
+        nama: Android
+        link: https://github.com/mzaini30/apk
+      -
+        nama: Windows
+        link: https://github.com/mzaini30/windows
   -
-    link: https://www.sololearn.com/Profile/1005922#_=_
-    judul: Sololearn
+    nama: Klien
+    konten:
+      -
+        nama: Kuesioner Disiplin Lalu Lintas
+        link: http://gg.gg/disiplinlalulintas
+      -
+        nama: Panglima Delivery
+        link: https://panglimadelivery.com
   -
-    judul: Quora
-    link: https://qr.ae/TWF0Uh
-  -
-    judul: Play Store
-    link: https://play.google.com/store/apps/dev?id=5401138465689796048
+    nama: Kontak
+    konten:
+      -
+        nama: Email
+        link: mailto:muhzaini30@gmail.com
+      -
+        nama: Whatsapp
+        link: https://wa.me/6281545143654
 ---
-
-<!--
-Quora login pakai Facebook
--->
 
 <!DOCTYPE html>
 <html>
@@ -30,50 +41,32 @@ Quora login pakai Facebook
 	          enable_page_level_ads: true
 	     });
 	</script>
-	<style type="text/css">
-	
-
-		.judul-aplikasi {
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-		}
-
-		img {
-			max-width: 100%;
-		}
-
-		.full {
-			padding: 0 !important;
-		}
-
-		a,
-		a:hover,
-		a:visited,
-		a:focus {
-			text-decoration: none !important;
-		}
-	</style>
 	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
+	<br>
 	<div class="container">
-		<h1>All Apps</h1>
-		{% assign postingan = site.posts | sort: 'title' %}
+		<center>
+			<h1>Zen</h1>
+			<hr>
+		</center>
 		<div class="row">
-			{% for x in postingan %}
-				<div class="col-sm-2 col-xs-6">
-					<a href="/{{ x.link }}">
-						<div class="panel panel-default">
-							<div class="panel-heading judul-aplikasi">{{ x.title }}</div>
-							<div class="panel-body full">
-								<img src="{{ x.gambar }}" alt="">
-							</div>
+			{% assign isi = page.isi | sort: 'nama' %}
+			{% for x in isi %}
+				<div class="col-sm-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">{{ x.nama }}</div>
+						<div class="list-group">
+							{% assign konten = x.konten | sort: 'nama' %}
+							{% for y in konten %}
+								<a href="{{ y.link }}" class="list-group-item">{{ y.nama }}</a>
+							{% endfor %}
 						</div>
-					</a>
+					</div>
 				</div>
 			{% endfor %}
-		</div>
+		</div>		
 	</div>
+	<br>
 </body>
 </html>
