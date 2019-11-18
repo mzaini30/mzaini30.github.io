@@ -27,6 +27,12 @@ isi:
       -
         nama: Whatsapp
         link: https://wa.me/6281545143654
+  -
+    nama: Blog
+    konten:
+      -
+        nama: Peralatan Hacking
+        link: https://peralatanhacking.blogspot.com
 ---
 
 <!DOCTYPE html>
@@ -53,7 +59,7 @@ isi:
 		<div class="row">
 			{% assign isi = page.isi | sort: 'nama' %}
 			{% for x in isi %}
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="panel panel-default">
 						<div class="panel-heading">{{ x.nama }}</div>
 						<div class="list-group">
