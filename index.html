@@ -1,15 +1,6 @@
 ---
 isi:
   -
-    nama: Download Aplikasi
-    konten:
-      -
-        nama: Android
-        link: https://github.com/mzaini30/apk
-      -
-        nama: Windows
-        link: https://github.com/mzaini30/windows
-  -
     nama: Klien
     konten:
       -
@@ -59,7 +50,7 @@ isi:
 		<div class="row">
 			{% assign isi = page.isi | sort: 'nama' %}
 			{% for x in isi %}
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="panel panel-default">
 						<div class="panel-heading">{{ x.nama }}</div>
 						<div class="list-group">
