@@ -1,6 +1,12 @@
 ---
 isi:
   -
+    nama: Blog
+    konten:
+      -
+        nama: Psikologi Zen
+        link: https://psikologi.mzaini30.com
+  -
     nama: Klien
     konten:
       -
@@ -81,7 +87,7 @@ isi:
 		<div class="row">
 			{% assign isi = page.isi | sort: 'nama' %}
 			{% for x in isi %}
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="panel panel-default">
 						<div class="panel-heading">{{ x.nama }}</div>
 						<div class="list-group">
