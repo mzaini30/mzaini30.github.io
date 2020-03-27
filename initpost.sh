@@ -122,6 +122,7 @@ echo "tags:"
 echo "categories:"
 echo "twitter_text:"
 echo "introduction:"
+echo "link:"
 echo "---"
 
 }
