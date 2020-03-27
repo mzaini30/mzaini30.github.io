@@ -1,112 +1,32 @@
 ---
-isi:
-  -
-    nama: Blog
-    konten:
-      -
-        nama: Quora
-        link: https://qr.ae/TWF0Uh
-  -
-    nama: Klien
-    konten:
-      -
-        nama: Kuesioner Disiplin Lalu Lintas
-        link: http://gg.gg/disiplinlalulintas
-      -
-        nama: Panglima Delivery
-        link: https://panglimadelivery.com
-  -
-    nama: Aplikasi Web
-    konten:
-      -
-        nama: Kontur
-        link: /kontur
-      -
-        nama: Materialize Color
-        link: /color30
-      -
-        nama: Kontest
-        link: /kontest
-      -
-        nama: Kontur Reverse
-        link: /kontur-reverse
-      -
-        nama: Undian
-        link: /undian
-      -
-        nama: Enter
-        link: /enter
-  -
-    nama: Link Lainnya
-    konten:
-      -
-        nama: Github
-        link: https://github.com/mzaini30
-      -
-        nama: Aplikasi Android
-        link: http://gg.gg/apkzen
-      -
-        nama: Facebook
-        link: https://facebook.com/mzaini30
-      -
-        nama: Instagram
-        link: https://instagram.com/mzaini30
-      -
-        nama: Pastebin
-        link: https://pastebin.com/u/mzaini30
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Zen</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script type="text/javascript">
-		(adsbygoogle = window.adsbygoogle || []).push({
-	          google_ad_client: "ca-pub-2408628281705149",
-	          enable_page_level_ads: true
-	     });
-	</script>
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-</head>
-<body>
-	<br>
-	<div class="container">
-		<center>
-			<h1>Zen</h1>
-			<p><em>Pantang pulang sebelum api padam.</em></p>
-			<hr>
-		</center>
-    <!-- horizontal -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2408628281705149"
-         data-ad-slot="2721118604"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-<br>
-		<div class="row">
-			{% assign isi = page.isi | sort: 'nama' %}
-			{% for x in isi %}
-				<div class="col-sm-3">
-					<div class="panel panel-default">
-						<div class="panel-heading">{{ x.nama }}</div>
-						<div class="list-group">
-							{% assign konten = x.konten | sort: 'nama' %}
-							{% for y in konten %}
-								<a href="{{ y.link }}" class="list-group-item">{{ y.nama }}</a>
-							{% endfor %}
-						</div>
-					</div>
-				</div>
-			{% endfor %}
-		</div>		
-	</div>
-	<br>
-</body>
-</html>
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <div id="grid" class="row flex-grid">
+    {% for post in site.posts %}
+        <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <span class="ribbon">
+                <a href="{{site.url}}{{site.baseurl}}/category/{{post.main-class}}"><span>{{post.main-class}}</span></a>
+            </span>
+            <div class="box-body">
+                <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
+                <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="post-title" itemprop="name">
+                        {{ post.title }}
+                    </h2>
+                </a>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <p class="description">{{ post.introduction }}</p>
+                </a>
+                <div class="tags">
+                    {% for tag in post.tags %}
+                        <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+    </div>
+</main>
