@@ -16,7 +16,7 @@ disqus_username: laptopzen
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /postingan-:title/
 
 
 # html minify
