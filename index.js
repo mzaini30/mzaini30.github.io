@@ -5,6 +5,10 @@ new Vue({
 			{
 				path: '/',
 				component: beranda
+			},
+			{
+				path: '/todo',
+				component: todo_beranda
 			}
 		]
 	})
