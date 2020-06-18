@@ -7,10 +7,9 @@ new Vue({
 				component: beranda
 			},
 			{
-				path: '/todo-2',
+				path: '/todo',
 				component: todo_beranda
 			}
-		],
-		mode: 'history'
+		]
 	})
 })
