@@ -3,7 +3,7 @@
 		<div class="jarak-atas">&nbsp;</div>
 		<div class="container">
 			<div class="form-group">
-				<router-link to='/' class='btn btn-primary'>&larr; Beranda</router-link>
+				<router-link to='/' class='btn btn-primary'>Beranda</router-link>
 			</div>
 			<div class="list-group">
 				<router-link v-for='x in data' :to='"/todo/" + x.id' class="list-group-item">{% raw %}{{ x.todo }}{% endraw %}</router-link>
