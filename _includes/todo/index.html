@@ -1,4 +1,4 @@
-<template id="todo_beranda">
+<template id="todo_index">
 	<div>
 		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
@@ -23,8 +23,8 @@
 	</div>
 </template>
 <script type="text/javascript">
-	todo_beranda = {
-		template: '#todo_beranda',
+	todo_index = {
+		template: '#todo_index',
 		mounted(){
 			db = new Dexie('todo')
 			db.version(1).stores({

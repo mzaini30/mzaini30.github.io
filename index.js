@@ -8,7 +8,7 @@ new Vue({
 			},
 			{
 				path: '/todo',
-				component: todo_beranda
+				component: todo_index
 			}
 		]
 	})
