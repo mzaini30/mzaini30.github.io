@@ -1,0 +1,32 @@
+<template id="todo_all">
+	<div>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<table class="table table-bordered">
+					<tbody>
+						<tr>
+							<td>
+								<form action=""><input type="text" class="form-control" placeholder="Apa rencanamu?"></form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</template>
+<style type="text/css">
+	.navbar-fixed-bottom .table {
+		margin-bottom: 0;
+	}
+	.navbar-fixed-bottom .table,
+	.navbar-fixed-bottom tr,
+	.navbar-fixed-bottom td {
+		border: none !important;
+	}
+</style>
+<script type="text/javascript">
+	todo_all = {
+		template: '#todo_all'
+	}
+</script>

@@ -8,7 +8,13 @@ new Vue({
 			},
 			{
 				path: '/todo',
-				component: todo_index
+				component: todo_index,
+				children: [
+					{
+						path: '',
+						component: todo_all
+					}
+				]
 			}
 		]
 	})
