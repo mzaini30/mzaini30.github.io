@@ -32,6 +32,11 @@
 			},
 			hapus(){
 				tanya = confirm('Hapus kah?')
+				if (tanya){
+					db_todo.data.where({
+						id: Number(this.$route.params.id)		
+					}).delete().then(() => this.$router.push('/todo'))
+				}
 			}
 		},
 		mounted(){
