@@ -7,10 +7,29 @@
 				</div>
 			</div>
 		</div>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<table class="table table-bordered">
+					<tbody>
+						<tr>
+							<td>
+								<form action=""><input type="text" class="form-control" placeholder="Apa rencanamu?"></form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 </template>
 <script type="text/javascript">
 	todo_beranda = {
-		template: '#todo_beranda'
+		template: '#todo_beranda',
+		mounted(){
+			db = new Dexie('todo')
+			db.version(1).stores({
+				data: '++id, todo'
+			})
+		}
 	}
 </script>
