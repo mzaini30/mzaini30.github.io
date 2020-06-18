@@ -13,6 +13,10 @@ new Vue({
 					{
 						path: '',
 						component: todo_all
+					},
+					{
+						path: ':id',
+						component: todo_baca
 					}
 				]
 			}

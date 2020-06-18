@@ -11,13 +11,11 @@
 	</div>
 </template>
 <script type="text/javascript">
+	db_todo = new Dexie('todo')
+	db_todo.version(1).stores({
+		data: '++id, todo'
+	})
 	todo_index = {
-		template: '#todo_index',
-		mounted(){
-			db = new Dexie('todo')
-			db.version(1).stores({
-				data: '++id, todo'
-			})
-		}
+		template: '#todo_index'
 	}
 </script>

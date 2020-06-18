@@ -2,18 +2,20 @@
 	<div>
 		<div class="jarak-atas">&nbsp;</div>
 		<div class="container">
-			<p>{% raw %}{{ data }}{% endraw %}</p>
 			<div class="list-group">
-				<a href="#!" class="list-group-item">Halo</a>
+				<router-link v-for='x in data' :to='"/todo/" + x.id' class="list-group-item">{% raw %}{{ x.todo }}{% endraw %}</router-link>
 			</div>
 		</div>
+		<div class="jarak-bawah">&nbsp;</div>
 		<div class="navbar navbar-default navbar-fixed-bottom">
 			<div class="container">
 				<table class="table table-bordered">
 					<tbody>
 						<tr>
 							<td>
-								<form action=""><input type="text" class="form-control" placeholder="Apa rencanamu?"></form>
+								<form action="" @submit.prevent='tambah()'>
+									<input type="text" class="form-control" placeholder="Apa rencanamu?" required="" v-model='isian'>
+								</form>
 							</td>
 						</tr>
 					</tbody>
@@ -35,17 +37,35 @@
 		width: 100%;
 		height: 70px;
 	}
+	.jarak-bawah {
+		width: 100%;
+		height: 50px;
+	}
 </style>
 <script type="text/javascript">
 	todo_all = {
 		template: '#todo_all',
 		data(){
 			return {
-				data: []
+				data: [],
+				isian: ''
+			}
+		},
+		methods: {
+			tambah(){
+				db_todo.data.add({
+					todo: this.isian
+				}).then(() => {
+					this.tampil()
+					this.isian = ''
+				})
+			},
+			tampil(){
+				db_todo.data.reverse().toArray(data => this.data = data)	
 			}
 		},
 		mounted(){
-			// db.data.orderBy('id', 'DESC')
+			this.tampil()
 		}
 	}
 </script>
