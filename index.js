@@ -7,7 +7,7 @@ new Vue({
 				component: beranda
 			},
 			{
-				path: '/todo',
+				path: '/todo-2',
 				component: todo_beranda
 			}
 		],
