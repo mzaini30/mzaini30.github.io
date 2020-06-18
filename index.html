@@ -1,18 +1,20 @@
 ---
-layout: default
 ---
-
-
-{% include career-profile.html %}
-
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap.min.css">
+</head>
+<body>
+	<div class="vue">
+		<router-view></router-view>
+	</div>
+	{% include beranda.html %}
+	<script type="text/javascript" src="vendor/vue.min.js"></script>
+	<script type="text/javascript" src="vendor/vue-router.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
