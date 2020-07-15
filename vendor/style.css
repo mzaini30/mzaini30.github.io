@@ -10,8 +10,22 @@
 .beranda_judul {
 	font-family: Cambria, serif;
 }
-.beranda_menu {
+ul.beranda_menu {
 	list-style-type: none;
 	margin-top: 20px;
 	font-family: Verdana, serif;
+	overflow: auto;
+	white-space: nowrap;
+}
+.beranda_menu li {
+	display: inline-block;
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+.beranda_menu a {
+	text-decoration: none;
+	color: #7f7f7f;
+}
+.beranda_menu a.active {
+	color: #000;
 }
