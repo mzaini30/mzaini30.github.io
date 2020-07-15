@@ -26,6 +26,9 @@ ul.beranda_menu {
 	text-decoration: none;
 	color: #7f7f7f;
 }
-.beranda_menu a.active {
+.beranda_menu a:focus {
 	color: #000;
+}
+.beranda_isi {
+	margin-top: 20px;
 }

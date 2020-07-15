@@ -14,6 +14,7 @@ layout: compress
 		<router-view></router-view>
 	</div>
 	{% include beranda.html %}
+	{% include beranda/terbaru.html %}
 	<script type="text/javascript" src="vendor/vue.min.js"></script>
 	<script type="text/javascript" src="vendor/vue-router.min.js"></script>
 	<script type="text/javascript">
@@ -23,15 +24,13 @@ layout: compress
 				routes: [
 					{
 						path: '/',
-						component: beranda
-					},
-					{
-						path: '/:slug',
-						component: beranda
-					},
-					{
-						path: '/:slug/:slug',
-						component: beranda
+						component: beranda,
+						children: [
+							{
+								path: '',
+								component: beranda_terbaru
+							}
+						]
 					}
 				]
 			})
