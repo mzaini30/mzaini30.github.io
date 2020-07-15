@@ -47,10 +47,47 @@ ul.beranda-menu {
 .beranda_terbaru-index a {
 	text-decoration: none;
 }
-.beranda_terbaru-index h1 {
-	padding: 20px;
-	padding-top: 15px;
-	color: #303030;
-	font-size: 21px;
-	font-family: 'URW Gothic L', sans-serif;
+.beranda_terbaru-index p {
+	padding: 15px;
+	padding-top: 10px;
+	font-size: 16px;
+	color: #000;
+	font-family: Verdana, sans-serif;
+}
+.beranda_semua-item {
+	list-style-type: none;
+	font-family: Verdana, sans-serif;
+}
+.beranda_semua-item li {
+	border: 0.5px solid #d3d3d3;
+	border-top: none;
+	padding: 10px;
+}
+.beranda_semua-item li:first-child {
+	border: 0.5px solid #d3d3d3;
+	border-radius: 5px 5px 0 0;
+}
+.beranda_semua-item li:last-child {
+	border-radius: 0 0 5px 5px;
+}
+.beranda_semua-item a {
+	display: block;
+	text-decoration: none;
+	color: #7f7f7f;
+}
+.ke-atas {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+.beranda_cari-cari {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	border: none;
+}
+.beranda_cari-cari:focus {
+	border-bottom: 1px solid #88bde8;
 }

@@ -1,5 +1,8 @@
-<template id="beranda_terbaru">
+<template id="beranda_cari">
 	<div>
+		<form>
+			<input type="text" placeholder="Cari apa?" class="beranda_cari-cari" name="">
+		</form>
 		<ul class="beranda_terbaru-index">
 			<li v-for='x in 10'>
 				<router-link to='/hello-world'>
@@ -11,7 +14,7 @@
 	</div>
 </template>
 <script type="text/javascript">
-	beranda_terbaru = {
-		template: '#beranda_terbaru'
+	beranda_cari = {
+		template: '#beranda_cari'
 	}
 </script>

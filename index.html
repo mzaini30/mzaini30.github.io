@@ -2,24 +2,37 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
 	<title>Zen</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sebuah blog yang tujuannya untuk berbagi pengetahuan">
 	<link rel="stylesheet" type="text/css" href="vendor/style.css">
 </head>
 <body>
 	<div class="vue">
 		<router-view></router-view>
+		<img src="aset/upload.png" class="ke-atas" @click='ke_atas()'>
 	</div>
 	{% include beranda.html %}
 	{% include beranda/terbaru.html %}
+	{% include beranda/semua.html %}
+	{% include beranda/cari.html %}
 	<script type="text/javascript" src="vendor/vue.min.js"></script>
 	<script type="text/javascript" src="vendor/vue-router.min.js"></script>
 	<script type="text/javascript">
 		new Vue({
 			el: '.vue',
+			methods: {
+				ke_atas(){
+					window.scrollTo({
+						left: 0,
+						top: 0,
+						behavior: 'smooth'
+					});
+				}
+			},
 			router: new VueRouter({
 				routes: [
 					{
@@ -29,6 +42,14 @@ layout: compress
 							{
 								path: '',
 								component: beranda_terbaru
+							},
+							{
+								path: 'semua',
+								component: beranda_semua
+							},
+							{
+								path: 'cari',
+								component: beranda_cari
 							}
 						]
 					}
