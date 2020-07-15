@@ -1,4 +1,5 @@
 ---
+layout: compress
 ---
 <!DOCTYPE html>
 <html>
@@ -9,7 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="vendor/style.css">
 </head>
 <body>
-	<div class="vue"></div>
+	<div class="vue">
+		<router-view></router-view>
+	</div>
 	{% include beranda.html %}
 	<script type="text/javascript" src="vendor/vue.min.js"></script>
 	<script type="text/javascript" src="vendor/vue-router.min.js"></script>
@@ -24,7 +27,7 @@
 					}
 				]
 			})
-		})
+		});
 	</script>
 </body>
 </html>

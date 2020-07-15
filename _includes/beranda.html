@@ -1,4 +1,15 @@
-<template id="beranda"></template>
+<template id="beranda">
+	<div>
+		<div class="beranda_container">
+			<h1 class="beranda_judul">Zen</h1>
+			<ul class="beranda_menu">
+				<li><router-link to='/'>Terbaru</router-link></li>
+				<li><router-link to='/semua'>Semua</router-link></li>
+				<li v-for='x in 10'><router-link to='/label/teknologi'>Teknologi</router-link></li>
+			</ul>
+		</div>
+	</div>
+</template>
 <script type="text/javascript">
 	beranda = {
 		template: '#beranda'
