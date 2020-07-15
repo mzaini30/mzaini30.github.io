@@ -2,9 +2,10 @@
 	<div>
 		<img :src="gambar" class="baca-gambar">
 		<div class="baca-konten">
-			<h1 class="baca-konten-judul" v-text='judul'></h1>
+			<h1 class="baca-konten-judul"><span v-text='judul'></span> <a :href='edit(path)'><img src="aset/pencil-edit-button.png"></a></h1>
 			<div v-html='isi'></div>
 		</div>
+		<router-link to='/' class='baca-kembali'><img src="aset/back-button.png"></router-link>
 	</div>
 </template>
 <link rel="stylesheet" type="text/css" href="vendor/monokai.css">
@@ -15,7 +16,13 @@
 			return {
 				gambar: '',
 				judul: '',
-				isi: ''
+				isi: '',
+				path: ''
+			}
+		},
+		methods: {
+			edit(x){
+				return `https://github.com/mzaini30/mzaini30.github.io/edit/master/${x}`;
 			}
 		},
 		mounted(){
@@ -23,6 +30,7 @@
 				this.gambar = data.gambar;
 				this.judul = data.judul;
 				this.isi = data.isi;
+				this.path = data.path;
 			})
 		}
 	}

@@ -115,6 +115,10 @@ ul.beranda-menu {
 	display: block;
 	margin: auto;
 }
+.baca-konten-judul img {
+	display: inline;
+	border-radius: 0;
+}
 .baca-konten p,
 .baca-konten h1,
 .baca-konten h2,
@@ -142,6 +146,11 @@ ul.beranda-menu {
 }
 .beranda_cari-nggak-ada li {
 	width: 100% !important;;
+}
+.baca-kembali {
+	position: absolute;
+	top: 20px;
+	left: 20px;
 }
 @media (min-width: 768px){
 	.beranda_terbaru-index li {
