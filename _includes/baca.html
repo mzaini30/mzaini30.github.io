@@ -1,6 +1,28 @@
-<template id="baca"></template>
+<template id="baca">
+	<div>
+		<img :src="gambar" class="baca-gambar">
+		<div class="baca-konten">
+			<h1 v-text='judul'></h1>
+			<div v-html='isi'></div>
+		</div>
+	</div>
+</template>
 <script type="text/javascript">
 	baca = {
-		template: '#baca'
+		template: '#baca',
+		data(){
+			return {
+				gambar: '',
+				judul: '',
+				isi: ''
+			}
+		},
+		mounted(){
+			fetch(`konten/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
+				this.gambar = data.gambar;
+				this.judul = data.judul;
+				this.isi = data.isi;
+			})
+		}
 	}
 </script>

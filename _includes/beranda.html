@@ -1,7 +1,7 @@
 <template id="beranda">
 	<div>
 		<div class="beranda-container">
-			<h1 class="beranda-judul">Zen</h1>
+			<h1 class="beranda-judul" @click='ke_beranda()'>Zen</h1>
 			<ul class="beranda-menu">
 				<li><router-link to='/'>Terbaru</router-link></li>
 				<li><router-link to='/semua'>Semua</router-link></li>
@@ -15,6 +15,11 @@
 </template>
 <script type="text/javascript">
 	beranda = {
-		template: '#beranda'
+		template: '#beranda',
+		methods: {
+			ke_beranda(){
+				this.$router.push('/');
+			}
+		}
 	}
 </script>

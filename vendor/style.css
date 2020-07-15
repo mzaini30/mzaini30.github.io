@@ -12,6 +12,7 @@ img {
 }
 .beranda-judul {
 	font-family: Cambria, serif;
+	cursor: pointer;
 }
 ul.beranda-menu {
 	list-style-type: none;

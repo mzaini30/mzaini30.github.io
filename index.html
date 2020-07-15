@@ -19,6 +19,7 @@ layout: compress
 	{% include beranda/terbaru.html %}
 	{% include beranda/semua.html %}
 	{% include beranda/cari.html %}
+	{% include baca.html %}
 	<script type="text/javascript" src="vendor/vue.min.js"></script>
 	<script type="text/javascript" src="vendor/vue-router.min.js"></script>
 	<script type="text/javascript">
@@ -56,6 +57,10 @@ layout: compress
 								component: beranda_cari
 							}
 						]
+					},
+					{
+						path: '/:slug',
+						component: baca
 					}
 				]
 			})
