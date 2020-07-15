@@ -59,12 +59,12 @@ ul.beranda-menu {
 	font-family: Verdana, sans-serif;
 }
 .beranda_semua-item li {
-	border: 0.5px solid #d3d3d3;
+	border: 1px solid #d3d3d3;
 	border-top: none;
 	padding: 10px;
 }
 .beranda_semua-item li:first-child {
-	border: 0.5px solid #d3d3d3;
+	border: 1px solid #d3d3d3;
 	border-radius: 5px 5px 0 0;
 }
 .beranda_semua-item li:last-child {
@@ -87,7 +87,11 @@ ul.beranda-menu {
 	padding: 10px;
 	font-size: 14px;
 	border: none;
+	border-bottom: 1px solid #7f7f7f;
 }
 .beranda_cari-cari:focus {
 	border-bottom: 1px solid #88bde8;
+}
+.beranda_cari-nggak-ada li {
+	border-radius: 5px;
 }

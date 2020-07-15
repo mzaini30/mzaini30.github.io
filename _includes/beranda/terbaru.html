@@ -1,10 +1,10 @@
 <template id="beranda_terbaru">
 	<div>
 		<ul class="beranda_terbaru-index">
-			<li v-for='x in 10'>
-				<router-link to='/hello-world'>
-					<img src="aset/woman.jpg">
-					<p>Ini adalah judulnya wow keren nggak sih? Mantap jiwa...</p>
+			<li v-for='x in data'>
+				<router-link :to='x.slug'>
+					<img :src="x.gambar">
+					<p v-text='x.judul'></p>
 				</router-link>
 			</li>
 		</ul>
@@ -12,6 +12,14 @@
 </template>
 <script type="text/javascript">
 	beranda_terbaru = {
-		template: '#beranda_terbaru'
+		template: '#beranda_terbaru',
+		data(){
+			return {
+				data: []
+			}
+		},
+		mounted(){
+			fetch('api/terbaru.json').then(x => x.json()).then(data => this.data = data);
+		}
 	}
 </script>

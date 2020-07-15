@@ -1,0 +1,12 @@
+---
+layout: compress
+---
+[
+	{% for x in site.posts | limit: 10 %}
+		{
+			"gambar": {{ x.gambar | jsonify }},
+			"slug": {{ x.url | replace: '/konten', '' | jsonify }},
+			"judul": {{ x.title | jsonify }}
+		}{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+]

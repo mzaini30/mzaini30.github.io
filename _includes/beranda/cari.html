@@ -1,20 +1,68 @@
 <template id="beranda_cari">
 	<div>
-		<form>
-			<input type="text" placeholder="Cari apa?" class="beranda_cari-cari" name="">
+		<form @submit.prevent='pindah()'>
+			<input type="text" placeholder="Cari apa?" class="beranda_cari-cari" name="" v-model='input_cari'>
 		</form>
 		<ul class="beranda_terbaru-index">
-			<li v-for='x in 10'>
-				<router-link to='/hello-world'>
-					<img src="aset/woman.jpg">
-					<p>Ini adalah judulnya wow keren nggak sih? Mantap jiwa...</p>
+			<li v-for='x in data'>
+				<router-link :to='x.slug'>
+					<img :src="x.gambar">
+					<p v-text='x.judul'></p>
 				</router-link>
+			</li>
+		</ul>
+		<ul v-if='$route.params.cari && data.length == 0' class="beranda_terbaru-index beranda_cari-nggak-ada">
+			<li>
+				<p><span v-text='apa_tadi_yang_dicari()'></span> tidak ditemukan</p>
 			</li>
 		</ul>
 	</div>
 </template>
 <script type="text/javascript">
 	beranda_cari = {
-		template: '#beranda_cari'
+		template: '#beranda_cari',
+		data(){
+			return {
+				data: [],
+				input_cari: ''
+			}
+		},
+		methods: {
+			pindah(){
+				this.$router.push(`/cari/${encodeURIComponent(this.input_cari)}`);
+			},
+			apa_tadi_yang_dicari(){
+				return decodeURIComponent(this.$route.params.cari);
+			},
+			kecil(x){
+				return x.toLowerCase()
+			},
+			cari(){
+				if (this.$route.params.cari){
+					this.input_cari = decodeURIComponent(this.$route.params.cari);
+					this.data = [];
+					fetch('api/cari.json').then(x => x.json()).then(data => {
+						ketemu = [];
+						for (x of data){
+							if (x.judul.toLowerCase().includes(this.kecil(this.input_cari)) || x.isi.toLowerCase().includes(this.kecil(this.input_cari))){
+								ketemu.push(x);
+							}
+						}
+						this.data = ketemu;
+					})
+				} else {
+					this.data = [];
+					this.input_cari = '';
+				}
+			}
+		},
+		mounted(){
+			this.cari();
+		},
+		watch: {
+			$route(){
+				this.cari();
+			}
+		}
 	}
 </script>
