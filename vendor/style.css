@@ -97,10 +97,14 @@ ul.beranda-menu {
 	border-radius: 5px;
 }
 .baca-konten {
+	display: inline-block;
 	font-family: Verdana, sans-serif;
 	padding: 20px;
 	line-height: 1.5;
 	color: #000;
+	border-radius: 0 60px 0 0;
+	margin-top: -60px;
+	background: #fff;
 }
 .baca-konten a {
 	color: inherit;
@@ -127,4 +131,8 @@ ul.beranda-menu {
 }
 .baca-konten-judul {
 	font-family: Cambria, serif;
+}
+.baca-konten pre {
+	border-radius: 10px;
+	padding: 5px;
 }
