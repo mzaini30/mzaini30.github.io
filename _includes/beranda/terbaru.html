@@ -1,6 +1,13 @@
 <template id="beranda_terbaru">
 	<div>
-		<p>Terbaru</p>
+		<ul class="beranda_terbaru-index">
+			<li v-for='x in 10'>
+				<router-link to='/hello-world'>
+					<img src="aset/woman.jpg">
+					<h1>Ini adalah judulnya wow keren nggak sih? Mantap jiwa...</h1>
+				</router-link>
+			</li>
+		</ul>
 	</div>
 </template>
 <script type="text/javascript">

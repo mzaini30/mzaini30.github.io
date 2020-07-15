@@ -1,13 +1,13 @@
 <template id="beranda">
 	<div>
-		<div class="beranda_container">
-			<h1 class="beranda_judul">Zen</h1>
-			<ul class="beranda_menu">
+		<div class="beranda-container">
+			<h1 class="beranda-judul">Zen</h1>
+			<ul class="beranda-menu">
 				<li><router-link to='/'>Terbaru</router-link></li>
 				<li><router-link to='/semua'>Semua</router-link></li>
 				<li v-for='x in 10'><router-link to='/label/teknologi'>Teknologi</router-link></li>
 			</ul>
-			<div class="beranda_isi">
+			<div class="beranda-isi">
 				<router-view></router-view>
 			</div>
 		</div>
