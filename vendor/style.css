@@ -157,6 +157,7 @@ ul.beranda-menu {
 }
 pre {
 	color: #fff;
+	overflow: auto;
 }
 @media (min-width: 768px){
 	.beranda_terbaru-index li {
