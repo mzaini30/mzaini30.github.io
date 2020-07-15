@@ -96,3 +96,35 @@ ul.beranda-menu {
 .beranda_cari-nggak-ada li {
 	border-radius: 5px;
 }
+.baca-konten {
+	font-family: Verdana, sans-serif;
+	padding: 20px;
+	line-height: 1.5;
+	color: #000;
+}
+.baca-konten a {
+	color: inherit;
+}
+.baca-konten img {
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+}
+.baca-konten p,
+.baca-konten h1,
+.baca-konten h2,
+.baca-konten h3,
+.baca-konten h4,
+.baca-konten h5,
+.baca-konten h6,
+.baca-konten ol,
+.baca-konten ul {
+	margin-bottom: 15px;
+}
+.baca-konten ol,
+.baca-konten ul {
+	margin-left: 20px;
+}
+.baca-konten-judul {
+	font-family: Cambria, serif;
+}
