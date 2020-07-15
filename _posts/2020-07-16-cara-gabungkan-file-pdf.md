@@ -7,7 +7,7 @@ gambar: https://image.freepik.com/free-photo/yellow-blue-compositions-stationery
 **Cara pertama**
 
 ```bash
-pdftk file-petama.pdf file-kedua.pdf cat output file-hasil-gabungan.pdf
+pdftk file-pertama.pdf file-kedua.pdf cat output file-hasil-gabungan.pdf
 ```
 
 Tapi kadang akhir-akhir ini, aku nggak bisa pakai cara pertama. Jadi, aku pakai cara kedua aja:
