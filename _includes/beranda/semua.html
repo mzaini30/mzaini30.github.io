@@ -14,7 +14,7 @@
 			}
 		},
 		mounted(){
-			fetch('api/semua.json').then(x => x.json()).then(data => this.data = data);
+			fetch(`api/semua.json?${acak()}`).then(x => x.json()).then(data => this.data = data);
 		}
 	}
 </script>
