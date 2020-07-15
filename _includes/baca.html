@@ -2,7 +2,11 @@
 	<div>
 		<img :src="gambar" class="baca-gambar">
 		<div class="baca-konten">
-			<h1 class="baca-konten-judul"><span v-text='judul'></span> <a :href='edit(path)'><img src="aset/pencil-edit-button.png"></a></h1>
+			<h1 class="baca-konten-judul">
+				<span v-text='judul'></span> 
+				<a :href='edit(path)'><img src="aset/pencil-edit-button.png"></a>
+				<a :href='hapus(path)'><img src="aset/trash.png"></a>
+			</h1>
 			<div v-html='isi'></div>
 		</div>
 		<router-link to='/' class='baca-kembali'><img src="aset/back-button.png"></router-link>
@@ -23,6 +27,9 @@
 		methods: {
 			edit(x){
 				return `https://github.com/mzaini30/mzaini30.github.io/edit/master/${x}`;
+			},
+			hapus(x){
+				return `https://github.com/mzaini30/mzaini30.github.io/delete/master/${x}`;
 			}
 		},
 		mounted(){
