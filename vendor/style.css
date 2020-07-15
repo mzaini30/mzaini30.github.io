@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 * {
 	margin: 0;
 	padding: 0;
@@ -151,6 +154,9 @@ ul.beranda-menu {
 	position: absolute;
 	top: 20px;
 	left: 20px;
+}
+pre {
+	color: #fff;
 }
 @media (min-width: 768px){
 	.beranda_terbaru-index li {
