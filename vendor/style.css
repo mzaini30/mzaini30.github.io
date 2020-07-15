@@ -39,13 +39,13 @@ ul.beranda-menu {
 .beranda_terbaru-index {
 	list-style-type: none;
 }
-.beranda_terbaru-index li {
+.beranda_terbaru-index a,
+.beranda_terbaru-index .beranda_cari-nggak-ada-container {
 	margin-bottom: 20px;
 	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: 0 1px 1px 0 #7f7f7f;
-}
-.beranda_terbaru-index a {
+	display: block;
 	text-decoration: none;
 }
 .beranda_terbaru-index p {
@@ -105,6 +105,7 @@ ul.beranda-menu {
 	border-radius: 0 60px 0 0;
 	margin-top: -60px;
 	background: #fff;
+	width: 100%;
 }
 .baca-konten a {
 	color: inherit;
@@ -135,4 +136,17 @@ ul.beranda-menu {
 .baca-konten pre {
 	border-radius: 10px;
 	padding: 5px;
+}
+.baca-gambar {
+	width: 100%;
+}
+.beranda_cari-nggak-ada li {
+	width: 100% !important;;
+}
+@media (min-width: 768px){
+	.beranda_terbaru-index li {
+		width: 25%;
+		float: left;
+		padding: 10px;
+	}
 }

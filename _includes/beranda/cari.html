@@ -13,7 +13,9 @@
 		</ul>
 		<ul v-if='$route.params.cari && data.length == 0' class="beranda_terbaru-index beranda_cari-nggak-ada">
 			<li>
-				<p><span v-text='apa_tadi_yang_dicari()'></span> tidak ditemukan</p>
+				<div class="beranda_cari-nggak-ada-container">
+					<p><span v-text='apa_tadi_yang_dicari()'></span> tidak ditemukan</p>
+				</div>
 			</li>
 		</ul>
 	</div>
