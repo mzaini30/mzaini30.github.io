@@ -43,7 +43,7 @@
 				if (this.$route.params.cari){
 					this.input_cari = decodeURIComponent(this.$route.params.cari);
 					this.data = [];
-					fetch(`api/cari.json?${acak()}`).then(x => x.json()).then(data => {
+					fetch(`api/cari.json`).then(x => x.json()).then(data => {
 						ketemu = [];
 						for (x of data){
 							if (x.judul.toLowerCase().includes(this.kecil(this.input_cari)) || x.isi.toLowerCase().includes(this.kecil(this.input_cari))){

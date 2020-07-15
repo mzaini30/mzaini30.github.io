@@ -33,7 +33,7 @@
 			}
 		},
 		mounted(){
-			fetch(`konten/${this.$route.params.slug}.html?${acak()}`).then(x => x.json()).then(data => {
+			fetch(`konten/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
 				this.gambar = data.gambar;
 				this.judul = data.judul;
 				this.isi = data.isi;
