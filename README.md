@@ -1,3 +1,0 @@
-# My website
-
-Ini adalah websiteku yang dibuat menggunakan Vue...

@@ -1,36 +1,6 @@
-<template id="beranda">
-	<div>
-		<div class="container">
-			<br>
-			<div class="panel panel-default">
-				<div class="panel-body">
-					<h1>Hai...</h1>
-					<p>Namaku Zen. Dan aku adalah developer website...</p>
-				</div>
-			</div>
-			<div class="alert alert-success">Ini adalah aplikasi yang telah kubuat:</div>
-			<div class="row">
-				<div class="col-xs-6 col-sm-3" v-for='x in logo'>
-					<router-link :to='x'>
-						<img :src="'logo/' + x + '.jpg'">
-					</router-link>
-				</div>
-			</div>
-		</div>
-	</div>
-</template>
-<style type="text/css">
-	img {
-		max-width: 100%;
-	}
-</style>
+<template id="beranda"></template>
 <script type="text/javascript">
 	beranda = {
-		template: '#beranda',
-		data(){
-			return {
-				logo: ['todo']
-			}
-		}
+		template: '#beranda'
 	}
 </script>
