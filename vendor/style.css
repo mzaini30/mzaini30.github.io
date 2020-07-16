@@ -185,4 +185,7 @@ blockquote {
 		float: left;
 		padding: 10px;
 	}
+	.beranda_terbaru-index li:nth-child(4n+1){
+		clear: both;
+	}
 }
