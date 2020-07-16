@@ -4,12 +4,12 @@
 		<div class="baca-konten">
 			<h1 class="baca-konten-judul">
 				<span v-text='judul'></span> 
-				<a :href='edit(path)'><img src="aset/pencil-edit-button.png"></a>
-				<a :href='hapus(path)'><img src="aset/trash.png"></a>
+				<a :href='edit(path)'><img src="aset/pencil-edit-button.png" class="ukuran-16"></a>
+				<a :href='hapus(path)'><img src="aset/trash.png" class="ukuran-16"></a>
 			</h1>
 			<div v-html='isi'></div>
 		</div>
-		<router-link to='/' class='baca-kembali'><img src="aset/back-button.png"></router-link>
+		<router-link to='/' class='baca-kembali'><img src="aset/back-button.png" class="ukuran-32"></router-link>
 	</div>
 </template>
 <link rel="stylesheet" type="text/css" href="vendor/monokai.css">

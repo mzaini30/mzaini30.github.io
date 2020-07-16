@@ -179,6 +179,12 @@ pre {
 blockquote {
  font-style: italic;
 }
+.ukuran-32 {
+	width: 32px;
+}
+.ukuran-16 {
+	width: 16px;
+}
 @media (min-width: 768px){
 	.beranda_terbaru-index li {
 		width: 25%;

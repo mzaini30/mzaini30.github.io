@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Mengatasi layout yang berantakan saat menggunakan grid
 tag: script
 gambar: https://image.freepik.com/free-photo/top-view-graphic-designer-working-with-graphic-tablet-laptop_23-2147652935.jpg
