@@ -1,4 +1,0 @@
-I"â<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pkg <span class="nb">install </span>ruby clang make libffi 
-gem <span class="nb">install </span>jekyll
-</code></pre></div></div>
-:ET
