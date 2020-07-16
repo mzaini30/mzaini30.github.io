@@ -14,7 +14,35 @@ Sederhana memang. Tapi, kalau zaman sekarang itu kayaknya penting banget sih yan
 
 **Gratis**
 
+Nah, kuncinya ya sebenarnya ini. Kalau nggak gratis, kurang semangatnya ya. Hehehehe...
+
+Jadi kan kisahnya tu, aku sewa domain yang murah (.my.id) cuma 10 ribu per tahun, juga hosting yang murah (15 ribu per bulan), yang aku dapatkan dari IDCloudhost. Tapi ya, lagi males bayar sih. Makanya, cari yang gratisan aja. Aku pun kepikiran dengan Github Pages yang menggunakan Jekyll. Maka, aku pun mencoba menggunakannya _kembali_.
+
 **Fleksibel dalam membuat template**
+
+Membuat template di Jekyll ini bisa dikatakan, siapapun bisa membuatnya. Cara membuatnya tu simpel aja gitu, kayak kita buat file HTML biasanya aja. Jadi, file-file HTMLnya nggak cuma satu kayak di Blogspot (sampai sekarang masih mager aku membuat templatenya). Bisa kita buat satu file khusus buat layout beranda, lalu file satunya untuk layout postingan, ada juga untuk file JSONnya.
+
+Contoh dari penggunaan template Jekyll ini (Liquid) adalah sebagai berikut:
+
+_Mendapatkan judul dan isi postingan_
+
+```html
+<h1>{% raw %}{{ page.title }}{% endraw %}</h1>
+<div>{% raw %}{{ content }}{% endraw %}</div>
+```
+
+_Mendapatkan judul dan link semua postingan_
+
+```js
+[
+  {% raw %}{% for x in site.posts %}{% endraw %}
+    {
+      "judul": {% raw %}{{ x.title | jsonify }}{% endraw %},
+      "link": {% raw %}{{ x.url | jsonify }}{% endraw %}
+    }{% raw %}{% unless forloop.last %},{% endunless %}{% endraw %}
+  {% raw %}{% endfor %}{% endraw %}
+]
+```
 
 **Kapasitas hosting yang besar**
 
