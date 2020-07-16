@@ -8,6 +8,7 @@
 				<li><router-link to='/cari'>Cari</router-link></li>
 				<li><a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts">Tulis baru</a></li>
 				<li v-for='x in tag'><router-link :to='"/cari/%23" + x'>#<span v-text='x'></span></router-link></li>
+				<li><a href='#!' @click.prevent='attribute()'>Attribute</a></li>
 			</ul>
 			<div class="beranda-isi">
 				<router-view></router-view>
@@ -29,6 +30,12 @@
 		methods: {
 			ke_beranda(){
 				this.$router.push('/');
+			},
+			attribute(){
+				Toastify({
+				  text: "All icons created by freepik.com",
+				  backgroundColor: '#9CD1EC'
+				}).showToast();
 			}
 		}
 	}

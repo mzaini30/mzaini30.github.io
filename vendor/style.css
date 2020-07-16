@@ -185,6 +185,9 @@ blockquote {
 .ukuran-16 {
 	width: 16px;
 }
+.toastify {
+	font-family: Verdana, sans-serif;
+}
 @media (min-width: 768px){
 	.beranda_terbaru-index li {
 		width: 25%;
