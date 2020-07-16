@@ -7,6 +7,8 @@ Seperti apa jadinya kita jika hidup pada zaman dahulu? Zaman di mana gadget itu 
 
 Postingan ini sebenarnya terinspirasi dari Violet Evergarden sih. Kan dia itu hidupnya pas di zaman pertengahan. Pas awal-awal ada listrik. Jadi ya, baru dipakai untuk pasang lampu aja sih listriknya. Bukan buat nyalakan TV atau radio. Jadinya ya, pengantar tidur itu bukan TV, radio, atau gadget. Melainkan membaca buku.
 
+Eh. Sebenarnya sih nggak usah jauh-jauh ngelihat di zaman dulu. Zaman sekarang aja kalau misalnya di pondok pesantren kan nggak boleh bawa HP. Jadi ya hiburannya tu buku.
+
 **Seberapa sih butuhnya kita dengan buku?**
 
 Seberapa ya? Sekarang tu kita lebih prefer dengan smartphone dan internet. Segalanya ada di internet. Mau resep cara buat donat, sayur lodeh, sayur kol, hingga cara masak air, ada di Google.
