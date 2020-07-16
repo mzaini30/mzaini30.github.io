@@ -166,6 +166,12 @@ ul.beranda-menu {
 	top: 20px;
 	left: 20px;
 }
+code {
+  background-color: #272822;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
 pre {
 	color: #fff;
 	overflow: auto;
