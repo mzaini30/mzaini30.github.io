@@ -11,4 +11,7 @@ Berawal dari postingan ini di Dev: <https://dev.to/nickytonline/are-you-in-the-g
 
 Eh. Beneran kah ini?
 
-Aku pun langsung cari beritanya di Google: <https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/>.
+Aku pun langsung cari beritanya di Google: 
+
+- <https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/>.
+- <https://github.blog/2019-11-13-universe-day-one/#archive>.
