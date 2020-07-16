@@ -1,3 +1,7 @@
 permalink: 'konten/:title'
-plugins:
-  - jekyll-feed
+name: Zen
+description: Kumpulan berbagai artikel bermanfaat yang ditulis oleh Zen.
+url: https://mzaini30.js.org
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1

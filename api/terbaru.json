@@ -2,7 +2,7 @@
 layout: compress
 ---
 [
-	{% for x in site.posts | limit: 10 %}
+	{% for x in site.posts | limit: 12 %}
 		{
 			"gambar": {{ x.gambar | jsonify }},
 			"slug": {{ x.url | replace: '/konten', '' | jsonify }},
