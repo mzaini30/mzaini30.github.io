@@ -29,6 +29,9 @@ ul.beranda-menu {
 	margin-right: 10px;
 	padding-bottom: 10px;
 }
+.beranda-menu li:last-child {
+	margin-right: 0;
+}
 .beranda-menu a {
 	text-decoration: none;
 	color: #7f7f7f;

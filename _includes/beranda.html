@@ -7,6 +7,7 @@
 				<li><router-link to='/semua'>Semua</router-link></li>
 				<li><router-link to='/cari'>Cari</router-link></li>
 				<li><a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts">Tulis baru</a></li>
+				<li v-for='x in tag'><router-link :to='"/cari/%23" + x'>#<span v-text='x'></span></router-link></li>
 			</ul>
 			<div class="beranda-isi">
 				<router-view></router-view>
@@ -17,6 +18,14 @@
 <script type="text/javascript">
 	beranda = {
 		template: '#beranda',
+		data(){
+			return {
+				tag: []
+			}
+		},
+		mounted(){
+			fetch('api/tag.json').then(x => x.json()).then(data => this.tag = data.sort());
+		},
 		methods: {
 			ke_beranda(){
 				this.$router.push('/');

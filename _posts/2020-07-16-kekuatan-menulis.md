@@ -1,4 +1,6 @@
 --- 
+layout: post
+tag: literasi
 title: Kekuatan Menulis
 gambar: https://image.freepik.com/free-photo/portrait-pensive-young-girl-making-notes_171337-1646.jpg
 --- 

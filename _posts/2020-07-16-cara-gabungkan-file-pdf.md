@@ -1,5 +1,6 @@
 ---
 layout: post
+tag: script
 title: Berbagai cara untuk menggabungkan file PDF
 gambar: https://image.freepik.com/free-photo/yellow-blue-compositions-stationery_23-2147864609.jpg
 ---

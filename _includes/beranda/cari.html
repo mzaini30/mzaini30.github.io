@@ -46,7 +46,7 @@
 					fetch(`api/cari.json`).then(x => x.json()).then(data => {
 						ketemu = [];
 						for (x of data){
-							if (x.judul.toLowerCase().includes(this.kecil(this.input_cari)) || x.isi.toLowerCase().includes(this.kecil(this.input_cari))){
+							if (x.judul.toLowerCase().includes(this.kecil(this.input_cari)) || x.isi.toLowerCase().includes(this.kecil(this.input_cari)) || x.tag.toLowerCase().includes(this.kecil(this.input_cari))){
 								ketemu.push(x);
 							}
 						}

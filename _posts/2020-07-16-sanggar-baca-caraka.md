@@ -1,4 +1,6 @@
 --- 
+layout: post
+tag: literasi
 title: Sanggar Baca Caraka
 gambar: https://image.freepik.com/free-photo/lovely-asian-young-lady-portriat-happy-woman-lifestyle-concept_1150-9025.jpg
 --- 
