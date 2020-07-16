@@ -136,6 +136,10 @@ ul.beranda-menu {
 .baca-konten ul {
 	margin-bottom: 15px;
 }
+.baca-konten iframe {
+ width: 100%;
+ height: 400px;
+}
 .baca-konten ol,
 .baca-konten ul {
 	margin-left: 20px;
