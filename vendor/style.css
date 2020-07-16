@@ -176,6 +176,9 @@ pre {
 	color: #fff;
 	overflow: auto;
 }
+blockquote {
+ font-style: italic;
+}
 @media (min-width: 768px){
 	.beranda_terbaru-index li {
 		width: 25%;
