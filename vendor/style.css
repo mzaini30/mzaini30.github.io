@@ -175,7 +175,6 @@ code {
 pre {
 	color: #fff;
 	overflow: auto;
-	white-space: pre-wrap;
 }
 pre code {
  display: block;
