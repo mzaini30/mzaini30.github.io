@@ -1,3 +1,9 @@
+**Screenshot**
+
+![Tampilan beranda](ss/1.jpg)
+
+![Tampilan isi](ss/2.jpg)
+
 **Getting started**
 
 - Fork this repo
