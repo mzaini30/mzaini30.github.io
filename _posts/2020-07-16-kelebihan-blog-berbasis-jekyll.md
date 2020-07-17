@@ -48,3 +48,5 @@ _Mendapatkan judul dan link semua postingan_
 **Kapasitas hosting yang besar**
 
 **Bahasa markup yang mudah dipahami**
+
+**Sudah ada Highlight kode otomatis**
