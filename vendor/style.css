@@ -176,6 +176,9 @@ pre {
 	color: #fff;
 	overflow: auto;
 }
+pre code {
+ padding: 0;
+}
 blockquote {
  font-style: italic;
 }
