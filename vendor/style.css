@@ -177,7 +177,7 @@ pre {
 	overflow: auto;
 }
 pre code {
- padding: 0;
+ display: block;
 }
 blockquote {
  font-style: italic;
