@@ -15,3 +15,7 @@ Lalu, tambahkan ini di akhir baris:
 ```bash 
 PS1="\w: "
 ```
+
+Maka, hasilnya seperti ini:
+
+![Tampilan terminal Termux](https://i.ibb.co/RbVsJqL/IMG-20200717-154624.jpg)
