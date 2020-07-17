@@ -1,11 +1,11 @@
 <template id="beranda">
 	<div>
 		<div class="beranda-container">
-			<h1 class="beranda-judul" @click='ke_beranda()'>Zen</h1>
+			<h1 class="beranda-judul" @click='ke_beranda()'>{{ site.name }}</h1>
 			<ul class="beranda-menu">
 				<li><router-link to='/'>Terbaru</router-link></li>
 				<li><router-link to='/cari'>Cari</router-link></li>
-				<li><a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts">Tulis baru</a></li>
+				<li><a href="https://github.com/{{ site.repository }}/new/master/_posts">Tulis baru</a></li>
 				<li v-for='x in tag'><router-link :to='"/cari/%23" + x'>#<span v-text='x'></span></router-link></li>
 				<li><a href='#!' @click.prevent='attribute()'>Attribute</a></li>
 			</ul>

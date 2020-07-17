@@ -26,10 +26,10 @@
 		},
 		methods: {
 			edit(x){
-				return `https://github.com/mzaini30/mzaini30.github.io/edit/master/${x}`;
+				return `https://github.com/{{ site.repository }}/edit/master/${x}`;
 			},
 			hapus(x){
-				return `https://github.com/mzaini30/mzaini30.github.io/delete/master/${x}`;
+				return `https://github.com/{{ site.repository }}/delete/master/${x}`;
 			},
 			tampil(){
 			 fetch(`konten/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
