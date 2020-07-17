@@ -51,4 +51,4 @@ Per repositori (project) kalau nggak salah 1 giga.
 
 **Bahasa markup yang mudah dipahami**
 
-Dia pakai Liquid yang sintaksnya pakai bracket (`{{}}`). Terus, sintaks-sintaksnya itu sederhana.
+Dia pakai Liquid yang sintaksnya pakai bracket (`{% raw %}{{}}{% endraw %}`). Terus, sintaks-sintaksnya itu sederhana.
