@@ -1,24 +1,50 @@
 --- 
-title: "Apa sih tujuan belajar itu?"
-tag: life
-gambar: https://image.freepik.com/free-photo/medium-shot-smiley-student-studying-with-laptop_23-2148389041.jpg
+title: Ini loh kelebihan blog berbasis Jekyll (Github Pages)
+tag: script
 layout: post
+gambar: https://image.freepik.com/free-photo/freelance-work-home-laptop-beautiful-woman-casual-sit-floor-work-with-portable-computer-with-crossed-legs_231208-2746.jpg
 --- 
 
-Belajar adalah suatu kegiatan yang khas milik manusia. Hewan tu nggak belajar. Kalaupun kelihatannya belajar, itu insting aja sih. Kalau manusia kan _menyengajakan diri_ buat belajar. Itu artinya, kalau mau belajar ya harus niat dulu. Nggak serta-merta ngikutin insting aja gitu.
+Setiap programmer pasti sudah nggak asing lagi sama yang namanya Github! Yaitu sebuah penyimpanan online yang **gratis!** Udah gitu, Github juga menyediakan hosting gratis bernama Github Pages yang menggunakan Jekyll sebagai servernya.
 
-Lalu, muncul pertanyaan _apa sih tujuan belajar?_ Buat apa kita belajar? Mengapa kita menghabiskan sebagian besar waktu kita buat belajar? Secara garis besar, ada tiga poin yang menjadi tujuan belajar. Bisa salah satunya, bisa pula ketiganya:
+_Apa sih Jekyll itu_?
 
-**Buat kerja**
+Jadi, Jekyll itu adalah sebuah static site generator (SSG) yang artinya adalah mengolah konten-konten berbentuk file sehingga dapat ditampilkan dalam bentuk blog!
 
-Inilah sebabnya kenapa kok jurusan teknik itu banyak banget mahasiswanya. Praktis sih. Langsung bisa kerja dengan keterampilan yang dimiliki.
+Sederhana memang. Tapi, kalau zaman sekarang itu kayaknya penting banget sih yang namanya media online.
 
-**Buat membantu orang lain**
+**Gratis**
 
-Seperti jurusan kedokteran dan keperawatan.
+Nah, kuncinya ya sebenarnya ini. Kalau nggak gratis, kurang semangatnya ya. Hehehehe...
 
-**Buat bekal untuk memahami kehidupan**
+Jadi kan kisahnya tu, aku sewa domain yang murah (.my.id) cuma 10 ribu per tahun, juga hosting yang murah (15 ribu per bulan), yang aku dapatkan dari IDCloudhost. Tapi ya, lagi males bayar sih. Makanya, cari yang gratisan aja. Aku pun kepikiran dengan Github Pages yang menggunakan Jekyll. Maka, aku pun mencoba menggunakannya _kembali_.
 
-Ini seperti jurusan psikologi dan filsafat.
+**Fleksibel dalam membuat template**
 
-Oh iya, yang namanya belajar tentu nggak lepas dari yang namanya membaca buku. Aku telah menulis [postingan tentang pandanganku terhadap buku.](#/tentang-membaca)
+Membuat template di Jekyll ini bisa dikatakan, siapapun bisa membuatnya. Cara membuatnya tu simpel aja gitu, kayak kita buat file HTML biasanya aja. Jadi, file-file HTMLnya nggak cuma satu kayak di Blogspot (sampai sekarang masih mager aku membuat templatenya). Bisa kita buat satu file khusus buat layout beranda, lalu file satunya untuk layout postingan, ada juga untuk file JSONnya.
+
+Contoh dari penggunaan template Jekyll ini (Liquid) adalah sebagai berikut:
+
+_Mendapatkan judul dan isi postingan_
+
+```html
+<h1>{% raw %}{{ page.title }}{% endraw %}</h1>
+<div>{% raw %}{{ content }}{% endraw %}</div>
+```
+
+_Mendapatkan judul dan link semua postingan_
+
+```js
+[
+  {% raw %}{% for x in site.posts %}{% endraw %}
+    {
+      "judul": {% raw %}{{ x.title | jsonify }}{% endraw %},
+      "link": {% raw %}{{ x.url | jsonify }}{% endraw %}
+    }{% raw %}{% unless forloop.last %},{% endunless %}{% endraw %}
+  {% raw %}{% endfor %}{% endraw %}
+]
+```
+
+**Kapasitas hosting yang besar**
+
+**Bahasa markup yang mudah dipahami**
