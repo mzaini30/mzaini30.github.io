@@ -19,7 +19,6 @@ layout: compress
 	</div>
 	{% include beranda.html %}
 	{% include beranda/terbaru.html %}
-	{% include beranda/semua.html %}
 	{% include beranda/cari.html %}
 	{% include baca.html %}
 	<script type="text/javascript" src="vendor/vue.min.js"></script>
@@ -46,10 +45,6 @@ layout: compress
 							{
 								path: '',
 								component: beranda_terbaru
-							},
-							{
-								path: 'semua',
-								component: beranda_semua
 							},
 							{
 								path: 'cari',

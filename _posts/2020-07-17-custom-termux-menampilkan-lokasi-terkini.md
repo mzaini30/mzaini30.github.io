@@ -2,6 +2,7 @@
 title: "Custom Termux (menampilkan lokasi terkini)"
 tag: script
 gambar: https://image.freepik.com/free-photo/close-up-male-traveler-holding-map-hand-standing-city-street_23-2148148630.jpg
+layout: post
 --- 
 
 ```bash

@@ -2,6 +2,7 @@
 title: "Apa sih tujuan belajar itu?"
 tag: life
 gambar: https://image.freepik.com/free-photo/medium-shot-smiley-student-studying-with-laptop_23-2148389041.jpg
+layout: post
 --- 
 
 Belajar adalah suatu kegiatan yang khas milik manusia. Hewan tu nggak belajar. Kalaupun kelihatannya belajar, itu insting aja sih. Kalau manusia kan _menyengajakan diri_ buat belajar. Itu artinya, kalau mau belajar ya harus niat dulu. Nggak serta-merta ngikutin insting aja gitu.

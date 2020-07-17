@@ -2,6 +2,7 @@
 title: "Apa pendapatmu tentang orang yang suka mengeluh?"
 tag: life
 gambar: https://image.freepik.com/free-photo/female-tourists-spread-their-arms-held-their-wings_1150-7462.jpg
+layout: post
 --- 
 
 Kalau menurutku sih aneh aja ya. Kita tu kan sudah memiliki _segala hal_. Mulai dari kebutuhan pokok, sekunder, hingga tambahan (seperti internet). Lalu, sebenarnya **apa lagi sih yang kita keluhkan**?
