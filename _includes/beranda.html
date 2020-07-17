@@ -4,7 +4,7 @@
 			<h1 class="beranda-judul" @click='ke_beranda()'>Zen</h1>
 			<ul class="beranda-menu">
 				<li><router-link to='/'>Terbaru</router-link></li>
-				<li><router-link to='/semua'>Semua</router-link></li>
+				<li><router-link to='/cari/%23'>Semua</router-link></li>
 				<li><router-link to='/cari'>Cari</router-link></li>
 				<li><a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts">Tulis baru</a></li>
 				<li v-for='x in tag'><router-link :to='"/cari/%23" + x'>#<span v-text='x'></span></router-link></li>
