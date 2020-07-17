@@ -32,6 +32,11 @@
 				return `https://github.com/mzaini30/mzaini30.github.io/delete/master/${x}`;
 			},
 			tampil(){
+		  window.scrollTo({
+		   left: 0,
+		   top: 0,
+		   behavior: "smooth"
+		  });
 			 fetch(`konten/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
  				this.gambar = data.gambar;
  				this.judul = data.judul;
@@ -45,11 +50,6 @@
 		},
 		watch: {
 		 $route(){
-		  window.scrollTo({
-		   left: 0,
-		   top: 0,
-		   behavior: "smooth"
-		  });
 		  this.tampil();
 		 }
 		}
