@@ -47,4 +47,8 @@ _Mendapatkan judul dan link semua postingan_
 
 **Kapasitas hosting yang besar**
 
+Per repositori (project) kalau nggak salah 1 giga.
+
 **Bahasa markup yang mudah dipahami**
+
+Dia pakai Liquid yang sintaksnya pakai bracket (`{{}}`). Terus, sintaks-sintaksnya itu sederhana.
