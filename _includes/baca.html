@@ -52,25 +52,21 @@
 	 				this.isi = data.isi;
 	 				this.path = data.path;
 	 				this.tag = data.tag;
- 				});
-			},
-			acak(){
-				fetch('api/semua.json').then(x => x.json()).then(data => {
-					data_baru = [];
-					console.log(this.tag);
-					for (x of data){
-						if (x.tag == this.tag && x.slug != `/${this.$route.params.slug}`){
-							data_baru.push(x);
+					fetch('api/semua.json').then(x => x.json()).then(data => {
+						data_baru = [];
+						for (x of data){
+							if (x.tag == this.tag && x.slug != `/${this.$route.params.slug}`){
+								data_baru.push(x);
+							}
 						}
-					}
-					shuffle(data_baru);
-					this.data_acak = data_baru.slice(0, 3);
-				});
+						shuffle(data_baru);
+						this.data_acak = data_baru.slice(0, 3);
+					});
+ 				});
 			}
 		},
 		mounted(){
 			this.tampil();
-			this.acak();
 		},
 		watch: {
 		 $route(){
@@ -80,7 +76,6 @@
 		   behavior: "smooth"
 		  });
 		  this.tampil();
-		  this.acak();
 		 }
 		}
 	}
