@@ -57,6 +57,7 @@
 			acak(){
 				fetch('api/semua.json').then(x => x.json()).then(data => {
 					data_baru = [];
+					console.log(this.tag);
 					for (x of data){
 						if (x.tag == this.tag && x.slug != `/${this.$route.params.slug}`){
 							data_baru.push(x);
