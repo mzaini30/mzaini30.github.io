@@ -198,7 +198,17 @@ blockquote {
 		float: left;
 		padding: 10px;
 	}
+	.beranda_terbaru-index.baca-lainnya li {
+		width: 33.3%;
+	}
+	.baca-container-lainnya {
+		padding: 0;
+	}
 	.beranda_terbaru-index li:nth-child(4n+1){
 		clear: both;
+	}
+	.baca-container-desktop {
+		width: 700px;
+		margin: auto;
 	}
 }
