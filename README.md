@@ -1,5 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/mzaini30/mzaini30.github.io)
 ![Pengunjung](https://visitor-badge.laobi.icu/badge?page_id=mzaini30.mzaini30.github.io)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fmzaini30.js.org)
 
 **Screenshot**
 
