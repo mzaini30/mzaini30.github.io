@@ -11,6 +11,6 @@ gambar: https://image.freepik.com/free-photo/diversity-casual-teenager-team-succ
 
 ![Sertifikat SQL](https://i.ibb.co/sC4BJcX/SQL-certificate.jpg)
 
-![Sertifikat Hacktoberfest](https://dev.to/badge/hacktoberfest-2019)
+![Sertifikat Hacktoberfest](https://res.cloudinary.com/practicaldev/image/fetch/s--b93wDv_8--/c_limit,f_auto,fl_progressive,q_80,w_375/https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/31/hacktoberfeststicker-01_copy.png)
 
-![Sertifikat setahun di Dev](https://dev.to/badge/one-year-club)
+![Sertifikat setahun di Dev](https://res.cloudinary.com/practicaldev/image/fetch/s--4f5VWKQw--/c_limit,f_auto,fl_progressive,q_80,w_375/https://dev-to-uploads.s3.amazonaws.com/uploads/badge/badge_image/2/1-year-badge.png)
