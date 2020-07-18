@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/mzaini30/mzaini30.github.io)
+
 **Screenshot**
 
 ![Tampilan beranda](ss/1.jpg)
