@@ -1,5 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/mzaini30/mzaini30.github.io)
 ![Pengunjung](https://visitor-badge.laobi.icu/badge?page_id=mzaini30.mzaini30.github.io)
+![GitHub top language](https://img.shields.io/github/languages/top/mzaini30/mzaini30.github.io)
 
 **Screenshot**
 
