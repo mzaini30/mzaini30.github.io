@@ -19,7 +19,6 @@ img {
 }
 ul.beranda-menu {
  list-style-type: none;
- margin-top: 20px;
  font-family: Verdana, sans-serif;
  overflow: auto;
  white-space: nowrap;
@@ -27,7 +26,8 @@ ul.beranda-menu {
 .beranda-menu li {
  display: inline-block;
  margin-right: 10px;
- padding-bottom: 10px;
+ padding-bottom: 20px;
+ padding-top: 20px;
 }
 .beranda-menu li:last-child {
  margin-right: 0;
