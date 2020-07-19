@@ -6,7 +6,7 @@
 		<ul class="beranda_terbaru-index">
 			<li v-for='x in data'>
 				<router-link :to='x.slug'>
-					<img :src="x.gambar">
+					<img :alt="x.judul" :src="x.gambar">
 					<p v-text='x.judul'></p>
 				</router-link>
 			</li>
