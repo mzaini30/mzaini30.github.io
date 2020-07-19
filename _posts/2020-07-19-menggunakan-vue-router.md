@@ -189,7 +189,7 @@ Lalu, ini component `hello`:
 ```html 
 <template id="hello">
  <div>
-  <p>Hello {{ $route.params.nama }}</p>
+  <p>Hello {% raw %}{{ $route.params.nama }}{% endraw %}</p>
  </div>
 </template>
 <script>
@@ -225,7 +225,7 @@ Maka, hasilnya menjadi seperti ini:
   </script>
   <template id="hello">
    <div>
-    <p>Hello {{ $route.params.nama }}</p>
+    <p>Hello {% raw %}{{ $route.params.nama }}{% endraw %}</p>
    </div>
   </template>
   <script>
