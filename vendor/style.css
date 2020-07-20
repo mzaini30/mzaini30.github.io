@@ -181,8 +181,9 @@ blockquote {
 .baca-container-lainnya {
   padding-top: 0;
 }
-.clear {
+.baca-komentar {
   clear: both;
+  display: block;
 }
 @media (min-width: 768px) {
  .beranda_terbaru-index li {
