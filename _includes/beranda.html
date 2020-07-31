@@ -3,7 +3,7 @@
   <p><strong>Proyek pribadi</strong></p>
   <div class="ke-samping">
    <div>
-    {% assign proyek_pribadi = site.proyek_pribadi | sort | reverse | limit: 4 %}
+    {% assign proyek_pribadi = site.proyek_pribadi | reverse | limit: 4 %}
     {% for x in proyek_pribadi %}
      <div class="card card-scroll">
       <img class="card-img-top" src="{{ x.gambar }}">
