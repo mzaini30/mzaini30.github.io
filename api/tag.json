@@ -1,8 +1,0 @@
----
-layout: compress
----
-[
-	{% for x in site.tags %}
-	{{ x[0] | jsonify }}{% unless forloop.last %},{% endunless %}
-	{% endfor %}
-]

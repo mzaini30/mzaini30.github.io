@@ -1,42 +1,60 @@
 <template id="beranda">
-	<div>
-		<div class="beranda-container">
-			<h1 class="beranda-judul" @click='ke_beranda()'>{{ site.name }}</h1>
-			<ul class="beranda-menu">
-				<li><router-link to='/'>Terbaru</router-link></li>
-				<li><router-link to='/cari'>Cari</router-link></li>
-				<li><a href="https://github.com/{{ site.repository }}/new/master/_posts">Tulis baru</a></li>
-				<li v-for='x in tag'><router-link :to='"/cari/%23" + x'>#<span v-text='x'></span></router-link></li>
-				<li><a href='#!' @click.prevent='attribute()'>Attribute</a></li>
-			</ul>
-			<div class="beranda-isi">
-				<router-view></router-view>
-			</div>
-		</div>
-	</div>
+ <div>
+  <p><strong>Proyek pribadi</strong></p>
+  <div class="ke-samping">
+   <div>
+    <span v-for="x in 4">
+     <div class="card card-scroll">
+      <img class="card-img-top" src="aset/thumbnail.png">
+     </div>&nbsp;
+    </span>
+    <img src="aset/kanan.png" class="card-scroll kanan">
+   </div>
+   <br>
+  </div>
+  <p><strong>Proyek komersial</strong></p>
+  <div class="ke-samping">
+   <div>
+    <span v-for="x in 4">
+     <div class="card card-scroll">
+      <img class="card-img-top" src="aset/thumbnail.png">
+     </div>&nbsp;
+    </span>
+    <img src="aset/kanan.png" class="card-scroll kanan">
+   </div>
+   <br>
+  </div>
+  <strong>Teknologi yang aku gunakan</strong>
+  <div class="ke-samping">
+   <p class="jarak-atas">
+    {% assign skill = site.skill | sort %}
+    {% for x in skill %}
+     <span class="badge badge-success">{{ x }}</span>&nbsp;
+    {% endfor %}
+   </p>
+  </div>
+ </div>
 </template>
-<script type="text/javascript">
-	beranda = {
-		template: '#beranda',
-		data(){
-			return {
-				tag: []
-			}
-		},
-		mounted(){
-			fetch('api/tag.json').then(x => x.json()).then(data => this.tag = data.sort());
-		},
-		methods: {
-			ke_beranda(){
-				this.$router.push('/');
-			},
-			attribute(){
-				Toastify({
-				  text: "All icons and covers by freepik.com",
-				  close: true,
-				  backgroundColor: '#9CD1EC'
-				}).showToast();
-			}
-		}
-	}
+<script>
+ beranda = {
+  template: "#beranda"
+ }
 </script>
+<style>
+ .ke-samping {
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+ }
+ .card-scroll {
+  display: inline-block;
+  width: 100px;
+ }
+ .kanan {
+  width: 50px;
+  margin: 20px;
+ }
+ .jarak-atas {
+  padding-top: 15px;
+ }
+</style>

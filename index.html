@@ -1,86 +1,51 @@
 ---
-layout: compress
 ---
-<!DOCTYPE html>
-<html lang="id">
-<head>
-	<title>{{ site.name }}</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="{{ site.description }}">
-	<link rel="stylesheet" type="text/css" href="vendor/style.css">
-	<link rel="stylesheet" type="text/css" href="vendor/toastify.min.css">
-	<link href="feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
-</head>
-<body>
-	<div class="vue">
-		<router-view></router-view>
-		<img src="aset/upload.png" alt="ke atas" class="ke-atas ukuran-32" @click='ke_atas()'>
-	</div>
-	{% include beranda.html %}
-	{% include beranda/terbaru.html %}
-	{% include beranda/cari.html %}
-	{% include baca.html %}
-	<script type="text/javascript" src="vendor/vue.min.js"></script>
-	<script type="text/javascript" src="vendor/vue-router.min.js"></script>
-	<script type="text/javascript" src="vendor/toastify.min.js"></script>
-	<script type="text/javascript">
-		function shuffle(array) {
-		  var currentIndex = array.length, temporaryValue, randomIndex;
-
-		  /*While there remain elements to shuffle...*/
-		  while (0 !== currentIndex) {
-
-		    /*Pick a remaining element...*/
-		    randomIndex = Math.floor(Math.random() * currentIndex);
-		    currentIndex -= 1;
-
-		    /*And swap it with the current element.*/
-		    temporaryValue = array[currentIndex];
-		    array[currentIndex] = array[randomIndex];
-		    array[randomIndex] = temporaryValue;
-		  }
-
-		  return array;
-		}
-		new Vue({
-			el: '.vue',
-			methods: {
-				ke_atas(){
-					window.scrollTo({
-						left: 0,
-						top: 0,
-						behavior: 'smooth'
-					});
-				}
-			},
-			router: new VueRouter({
-				routes: [
-					{
-						path: '/',
-						component: beranda,
-						children: [
-							{
-								path: '',
-								component: beranda_terbaru
-							},
-							{
-								path: 'cari',
-								component: beranda_cari
-							},
-							{
-								path: 'cari/:cari',
-								component: beranda_cari
-							}
-						]
-					},
-					{
-						path: '/:slug',
-						component: baca
-					}
-				]
-			})
-		});
-	</script>
-</body>
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Situs Muhammad Zaini</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+ </head>
+ <body>
+  <div class="vue">
+   <br>
+   <div class="container">
+    <div class="text-center">
+     <h1>Muhammad Zaini</h1>
+     <p>Developer website</p>
+     <hr>
+    </div>
+    <router-view></router-view>
+    <hr>
+    <p class="text-center">Membutuhkan tenaga ahli untuk pengerjaan proyek website? Silahkan kirim email ke <a href="mailto: muhzaini30@gmail.com">muhzaini30@gmail.com</a></p>
+   </div>
+  </div>
+  {% include beranda.html %}
+  <script src="vendor/vue.min.js"></script>
+  <script src="vendor/vue-router.min.js"></script>
+  <script>
+   new Vue({
+    el: ".vue",
+    router: new VueRouter({
+     routes: [
+      {
+       path: "/",
+       component: beranda
+      }
+     ]
+    }),
+    watch: {
+     $route(){
+      window.scrollTo({
+       top: 0,
+       left: 0,
+       behavior: "smooth"
+      })
+     }
+    }
+   })
+  </script>
+ </body>
 </html>

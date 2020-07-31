@@ -1,13 +1,10 @@
-# Don't change it
-
-permalink: 'konten/:title'
-
-# You can change from here
-
-name: Zen
-description: Kumpulan berbagai artikel bermanfaat yang ditulis oleh Zen.
-url: https://mzaini30.js.org
-feed_items: 10
-feed_update_period: daily
-feed_update_frequency: 1
-repository: mzaini30/mzaini30.github.io
+skill:
+- Vue
+- Bootstrap
+- PHP
+- Javascript
+- Jekyll
+- MySQL
+- YAML
+- HTML
+- CSS
