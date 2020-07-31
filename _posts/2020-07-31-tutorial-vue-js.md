@@ -13,4 +13,54 @@ Untuk yang versi CLI, tentu saja kamu harus menginstall Node JS terlebih dahulu.
 
 ## Apa aja plugin yang sering dipakai di Vue?
 
-Plugin yang biasa dipakai di Vue itu adalah Vue Router dan Vuex.
+Plugin yang biasa dipakai di Vue itu adalah Vue Router dan Vuex. Vue Router digunakan untuk mengatur router semua halaman website. Sedangkan Vuex digunakan untuk manajemen state (memori sementara).
+
+## Menggunakan Vue Router 
+
+Berikut ini adalah contoh implementasi Vue Router:
+
+```html
+<div class="vue">
+ <router-view></router-view>
+</div>
+
+<template id="beranda">
+ <div>
+  <p>Ini adalah halaman beranda.</p>
+ </div>
+</template>
+<script>
+ beranda = {
+  template: "#beranda"
+ }
+</script>
+
+<template id="halo">
+ <div>
+  <p>Halo {% raw %}{{ $route.params.nama }}{% endraw %}</p>
+ </div>
+</template>
+<script>
+ halo = {
+  template: "#halo"
+ }
+</script>
+
+<script>
+ new Vue({
+  el: ".vue",
+  router: new VueRouter({
+   routes: [
+    {
+     path: "/",
+     component: beranda
+    },
+    {
+     path: "/halo/:nama",
+     component: halo
+    }
+   ]
+  })
+ })
+</script>
+```
