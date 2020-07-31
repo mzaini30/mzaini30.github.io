@@ -13,7 +13,7 @@
   template: "#postingan",
   mounted(){
    loading()
-   fetch(`/postingan/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
+   fetch(`/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
     this.title = data.title
     this.content = data.content
     this.path = data.path
