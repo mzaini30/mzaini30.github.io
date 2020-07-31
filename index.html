@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/progress.css">
   <style>
    .footer {
     margin-bottom: 20px;
@@ -29,12 +30,18 @@
     <hr>
     <p class="text-center footer">Membutuhkan tenaga ahli untuk pengerjaan proyek website? Silahkan kirim email ke <a href="mailto: muhzaini30@gmail.com">muhzaini30@gmail.com</a></p>
    </div>
+   <div class="progress-loading sembunyi">
+      <div class="indeterminate"></div>
+    </div>
   </div>
   {% include beranda.html %}
   {% include proyek_pribadi.html %}
+  {% include postingan.html %}
   <script src="vendor/vue.min.js"></script>
   <script src="vendor/vue-router.min.js"></script>
   <script>
+  loading = () => document.querySelector('.progress-loading').classList.remove('sembunyi')
+   loading_selesai = () => document.querySelector('.progress-loading').classList.add('sembunyi')
    new Vue({
     el: ".vue",
     methods: {
@@ -51,6 +58,10 @@
       {
        path: "/proyek-pribadi",
        component: proyek_pribadi
+      },
+      {
+       path: "/postingan/:slug",
+       component: postingan
       }
      ]
     }),

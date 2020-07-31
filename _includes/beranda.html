@@ -1,5 +1,13 @@
 <template id="beranda">
  <div>
+  <p><strong>Blog</strong></p>
+  <div class="list-group">
+   {% assign postingan = site.posts | limit: 4 %}
+   {% for x in postingan %}
+    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
+   {% endfor %}
+  </div>
+  <br>
   <p><strong>Proyek pribadi <a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/_config.yml" class="badge badge-secondary">edit</a></strong></p>
   <div class="ke-samping">
    <div>

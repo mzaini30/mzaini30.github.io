@@ -1,0 +1,25 @@
+<template id="postingan">
+ <div>
+  <h1>{% raw %}{{ title }}{% endraw %}</h1>
+  <div v-html="content"></div>
+ </div>
+</template>
+<script>
+ postingan = {
+  template: "#postingan",
+  mounted(){
+   loading()
+   fetch(`/postingan/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
+    this.title = data.title
+    this.content = data.content
+    loading_selesai()
+   })
+  },
+  data(){
+   return {
+    title: "",
+    content: ""
+   }
+  }
+ }
+</script>
