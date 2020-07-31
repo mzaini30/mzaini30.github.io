@@ -2,8 +2,8 @@
  <div>
   <p><strong>Blog <a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" class="badge badge-secondary">tambah</a></strong></p>
   <div class="list-group">
-   {% assign postingan = site.posts | limit: 4 %}
-   {% for x in postingan %}
+   {% assign postingan = site.posts %}
+   {% for x in postingan | limit: 4 %}
     <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
    {% endfor %}
   </div>
@@ -11,8 +11,8 @@
   <p><strong>Proyek pribadi <a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/_config.yml" class="badge badge-secondary">edit</a></strong></p>
   <div class="ke-samping">
    <div>
-    {% assign proyek_pribadi = site.proyek_pribadi | reverse | limit: 4 %}
-    {% for x in proyek_pribadi %}
+    {% assign proyek_pribadi = site.proyek_pribadi | reverse %}
+    {% for x in proyek_pribadi | limit: 4 %}
      <div class="card card-scroll klik" @click="buka('{{ x.link }}')">
       <img class="card-img-top" src="{{ x.gambar }}">
      </div>&nbsp;

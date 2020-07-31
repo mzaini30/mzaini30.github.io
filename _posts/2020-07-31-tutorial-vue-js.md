@@ -15,6 +15,21 @@ Untuk yang versi CLI, tentu saja kamu harus menginstall Node JS terlebih dahulu.
 
 Plugin yang biasa dipakai di Vue itu adalah Vue Router dan Vuex. Vue Router digunakan untuk mengatur router semua halaman website. Sedangkan Vuex digunakan untuk manajemen state (memori sementara).
 
+## Instalasi Vue JS 
+
+Untuk instalasi Vue JS, sesederhana ini:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+```
+
+Lalu, kalau ingin menggunakan Vue Router dan Vuex:
+
+```html
+<script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+<script src="https://unpkg.com/vuex@2.0.0"></script>
+```
+
 ## Menggunakan Vue Router 
 
 Berikut ini adalah contoh implementasi Vue Router:
