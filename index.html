@@ -11,6 +11,9 @@
    .footer {
     margin-bottom: 20px;
    }
+   .klik {
+    cursor: pointer;
+   }
   </style>
  </head>
  <body>
@@ -18,7 +21,7 @@
    <br>
    <div class="container">
     <div class="text-center">
-     <h1>Muhammad Zaini</h1>
+     <h1 class="klik" @click="beranda()">Muhammad Zaini</h1>
      <p>Developer website</p>
      <hr>
     </div>
@@ -33,6 +36,11 @@
   <script>
    new Vue({
     el: ".vue",
+    methods: {
+     beranda(){
+      this.$router.push("/")
+     }
+    },
     router: new VueRouter({
      routes: [
       {
