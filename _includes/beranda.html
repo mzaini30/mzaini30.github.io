@@ -3,23 +3,12 @@
   <p><strong>Proyek pribadi</strong></p>
   <div class="ke-samping">
    <div>
-    <span v-for="x in 4">
+    {% assign proyek_pribadi = site.proyek_pribadi | sort | reverse | limit: 4 %}
+    {% for x in proyek_pribadi %}
      <div class="card card-scroll">
-      <img class="card-img-top" src="aset/thumbnail.png">
+      <img class="card-img-top" src="{{ x.gambar }}">
      </div>&nbsp;
-    </span>
-    <img src="aset/kanan.png" class="card-scroll kanan">
-   </div>
-   <br>
-  </div>
-  <p><strong>Proyek komersial</strong></p>
-  <div class="ke-samping">
-   <div>
-    <span v-for="x in 4">
-     <div class="card card-scroll">
-      <img class="card-img-top" src="aset/thumbnail.png">
-     </div>&nbsp;
-    </span>
+    {% endfor %}
     <img src="aset/kanan.png" class="card-scroll kanan">
    </div>
    <br>
