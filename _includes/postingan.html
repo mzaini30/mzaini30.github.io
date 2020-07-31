@@ -1,6 +1,10 @@
 <template id="postingan">
  <div>
   <h1>{% raw %}{{ title }}{% endraw %}</h1>
+  <p>
+   <a :href="'https://github.com/mzaini30/mzaini30.github.io/edit/master/' + path" class="badge badge-secondary">edit</a>
+   <a :href="'https://github.com/mzaini30/mzaini30.github.io/delete/master/' + path" class="badge badge-secondary">hapus</a>
+  </p>
   <div v-html="content"></div>
  </div>
 </template>
@@ -12,13 +16,15 @@
    fetch(`/postingan/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
     this.title = data.title
     this.content = data.content
+    this.path = data.path
     loading_selesai()
    })
   },
   data(){
    return {
     title: "",
-    content: ""
+    content: "",
+    path: ""
    }
   }
  }
