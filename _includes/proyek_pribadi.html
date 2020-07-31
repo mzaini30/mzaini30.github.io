@@ -1,0 +1,28 @@
+<template id="proyek_pribadi">
+ <div>
+  <div class="row">
+   {% assign proyek_pribadi = site.proyek_pribadi | reverse %}
+   {% for x in proyek_pribadi %}
+    <div class="col-4">
+     <a href="{{ x.link }}">
+      <img class="gambar-proyek-pribadi" src="{{ x.gambar }}">
+     </a>
+    </div>
+   {% endfor %}
+  </div>
+ </div>
+</template>
+<script>
+ proyek_pribadi = {
+  template: "#proyek_pribadi"
+ }
+</script>
+<style>
+ img {
+  max-width: 100%;
+ }
+ .gambar-proyek-pribadi {
+  display: block;
+  margin-bottom: 20px;
+ }
+</style>
