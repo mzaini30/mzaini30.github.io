@@ -5,7 +5,7 @@
    <div>
     {% assign proyek_pribadi = site.proyek_pribadi | reverse | limit: 4 %}
     {% for x in proyek_pribadi %}
-     <div class="card card-scroll">
+     <div class="card card-scroll klik" @click="buka('{{ x.link }}')">
       <img class="card-img-top" src="{{ x.gambar }}">
      </div>&nbsp;
     {% endfor %}
@@ -26,7 +26,12 @@
 </template>
 <script>
  beranda = {
-  template: "#beranda"
+  template: "#beranda",
+  methods: {
+   buka(x){
+    location.href = x
+   }
+  }
  }
 </script>
 <style>
