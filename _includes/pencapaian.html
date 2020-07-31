@@ -1,0 +1,27 @@
+<template id="pencapaian">
+ <div>
+  <p><strong>Pencapaian <a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/_config.yml" class="badge badge-secondary">edit</a></strong></p>
+  <div class="row">
+   {% assign pencapaian = site.pencapaian | reverse %}
+   {% for x in pencapaian %}
+    <div class="col-4">
+     <img class="gambar-proyek-pribadi" src="{{ x }}">
+    </div>
+   {% endfor %}
+  </div>
+ </div>
+</template>
+<script>
+ pencapaian = {
+  template: "#pencapaian"
+ }
+</script>
+<style>
+ img {
+  max-width: 100%;
+ }
+ .gambar-proyek-pribadi {
+  display: block;
+  margin-bottom: 20px;
+ }
+</style>

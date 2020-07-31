@@ -41,6 +41,7 @@
   {% include beranda.html %}
   {% include proyek_pribadi.html %}
   {% include postingan.html %}
+  {% include pencapaian.html %}
   <script src="vendor/vue.min.js"></script>
   <script src="vendor/vue-router.min.js"></script>
   <script>
@@ -66,6 +67,10 @@
       {
        path: "/postingan/:slug",
        component: postingan
+      },
+      {
+       path: "/pencapaian",
+       component: pencapaian
       }
      ]
     }),
