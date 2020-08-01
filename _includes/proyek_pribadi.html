@@ -5,8 +5,8 @@
    {% assign proyek_pribadi = site.proyek_pribadi | reverse %}
    {% for x in proyek_pribadi %}
     <div class="col-4">
-     <a href="{{ x.link }}">
-      <img class="gambar-proyek-pribadi" src="{{ x.gambar }}">
+     <a class="card gambar-proyek-pribadi" href="{{ x.link }}">
+      <img class="card-img-top" src="{{ x.gambar }}">
      </a>
     </div>
    {% endfor %}

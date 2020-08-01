@@ -37,7 +37,7 @@
    <div>
     {% assign pencapaian = site.pencapaian | reverse %}
     {% for x in pencapaian | limit: 4 %}
-     <div class="card card-scroll">
+     <div class="card card-scroll no-border">
       <img class="card-img-top" src="{{ x }}">
      </div>&nbsp;
     {% endfor %}
@@ -71,5 +71,8 @@
  }
  .jarak-atas {
   padding-top: 15px;
+ }
+ .no-border {
+  border: none;
  }
 </style>
