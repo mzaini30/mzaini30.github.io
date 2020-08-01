@@ -5,7 +5,7 @@ title: Tentang Menghafal Alquran
 
 ## Manfaat menghafal Alquran
 
-Secara garis besar , ada dua manfaat menghafal Alquran. Yaitu manfaat di dunia dan di akhirat.
+Secara garis besar, ada dua manfaat menghafal Alquran. Yaitu manfaat di dunia dan di akhirat.
 
 ### Manfaat menghafal Alquran di dunia
 
