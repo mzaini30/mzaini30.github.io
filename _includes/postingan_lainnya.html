@@ -1,0 +1,16 @@
+<template id="postingan_lainnya">
+ <div>
+  <p><strong>Blog <a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" class="badge badge-secondary">tambah</a></strong></p>
+  <div class="list-group">
+   {% assign postingan = site.posts %}
+   {% for x in postingan %}
+    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
+   {% endfor %}
+  </div>
+ </div>
+</template>
+<script>
+ postingan_lainnya = {
+  template: "#postingan_lainnya"
+ }
+</script>
