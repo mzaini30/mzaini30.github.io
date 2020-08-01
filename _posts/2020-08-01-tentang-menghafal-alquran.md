@@ -22,3 +22,25 @@ Cara paling mudah untuk mendapatkan wawasan tentang apa yang Allah ridhoi adalah
 ### Manfaat menghafal Alquran di akhirat
 
 Sudah banyak dalil yang menerangkan tentang keutamaan orang-orang yang menghafal Alquran.
+
+Sebagaimana hadits riwayat Abdullah Ibnu Mas‘ud:
+
+عن عَبْدَ اللَّهِ بْنَ مَسْعُودٍ، يَقُولُ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: مَنْ قَرَأَ حَرْفًا مِنْ كِتَابِ اللَّهِ فَلَهُ بِهِ حَسَنَةٌ، وَالحَسَنَةُ بِعَشْرِ أَمْثَالِهَا، لَا أَقُولُ الم حَرْفٌ، وَلَكِنْ أَلِفٌ حَرْفٌ وَلَامٌ حَرْفٌ وَمِيمٌ حَرْفٌ
+{:.text-right}
+
+Artinya:
+
+> "Kata ‘Abdullah ibn Mas‘ud, Rasulullah shallallahu ‘alaihi wasallam bersabda, “Siapa saja membaca satu huruf dari Kitabullah (Al-Qur’an), maka dia akan mendapat satu kebaikan. Sedangkan satu kebaikan dilipatkan kepada sepuluh semisalnya. Aku tidak mengatakan alif lâm mîm satu huruf. Akan tetapi, alif satu huruf, lâm satu huruf, dan mîm satu huruf,” (HR. At-Tirmidzi).
+
+Sebagaimana yang tertulis pada hadist dari Abu Umamah al-Bahili:
+
+نْ أَبِي أُمَامَةَ الْبَاهِلِيِّ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: اقْرَءُوا الْقُرْآنَ؛ فَإِنَّهُ يَأْتِي شَفِيعًا يَوْمَ الْقِيَامَةِ لِصَاحِبِهِ
+{:.text-right}
+
+Artinya:
+
+> “Rasulullah shallallahu ‘alaihi wasallam bersabda, ‘Bacalah Al-Qur’an. Sebab, ia akan datang memberikan syafaat pada hari Kiamat kepada pemilik (pembaca, pengamal)-nya,” (HR. Ahmad).
+
+## Daftar pustaka
+
+<https://m.merdeka.com/trending/inilah-keutamaan-membaca-al-quran-dalam-hadits-rasulullah-jangan-terlewatkan-kln.html>
