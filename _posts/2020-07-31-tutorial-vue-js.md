@@ -30,6 +30,35 @@ Lalu, kalau ingin menggunakan Vue Router dan Vuex:
 <script src="https://unpkg.com/vuex@2.0.0"></script>
 ```
 
+## Menggunakan Vue 
+
+### Membuat rumah Vue 
+
+```html
+<div class="vue"></div>
+<script>
+ new Vue({
+  el: ".vue"
+ })
+</script>
+```
+
+### Menggunakan data
+
+```html 
+<div class="vue">
+ <p>Namaku {% raw %}{{ nama }}{% endraw %}</p>
+</div>
+<script>
+ new Vue({
+  el: ".vue",
+  data: {
+   nama: "Zen"
+  }
+ })
+</script>
+```
+
 ## Menggunakan Vue Router 
 
 Berikut ini adalah contoh implementasi Vue Router:
