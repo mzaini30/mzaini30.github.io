@@ -23,6 +23,19 @@
    </div>
    <br>
   </div>
+  <p><strong>Proyek komersial <a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/_config.yml" class="badge badge-secondary">edit</a></strong></p>
+  <div class="ke-samping">
+   <div>
+    {% assign proyek_komersial = site.proyek_komersial | reverse %}
+    {% for x in proyek_komersial | limit: 4 %}
+     <div class="card card-scroll klik" @click="buka('{{ x.link }}')">
+      <img class="card-img-top" src="{{ x.gambar }}">
+     </div>&nbsp;
+    {% endfor %}
+    <!--img src="aset/kanan.png" class="card-scroll kanan" @click="$router.push('/proyek-pribadi')"-->
+   </div>
+   <br>
+  </div>
   <strong>Teknologi yang aku gunakan <a href="https://github.com/mzaini30/mzaini30.github.io/edit/master/_config.yml" class="badge badge-secondary">edit</a></strong>
   <div class="ke-samping">
    <p class="jarak-atas">
