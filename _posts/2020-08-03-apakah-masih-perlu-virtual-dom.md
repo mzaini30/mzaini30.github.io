@@ -17,4 +17,4 @@ Aku mencoba script di bawah ini:
 
 Bisa juga tuh mirip-mirip sama Virtual DOM.
 
-Hasilnya bisa dilihat di <https://fancyimaginativecalculator--five-nine.repl.co/>.
+Hasilnya bisa dilihat di <https://NegativeGleefulObservation--five-nine.repl.co>.
