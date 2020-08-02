@@ -1,5 +1,5 @@
 <template id="postingan">
- <div>
+ <div class="postingan">
   <h1>{% raw %}{{ title }}{% endraw %}</h1>
   <p>
    <a :href="'https://github.com/mzaini30/mzaini30.github.io/edit/master/' + path" class="badge badge-secondary">edit</a>
@@ -29,3 +29,9 @@
   }
  }
 </script>
+<style>
+ .postingan img {
+  display: block;
+  margin: auto;
+ }
+</style>
