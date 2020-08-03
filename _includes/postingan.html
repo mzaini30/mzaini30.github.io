@@ -6,17 +6,31 @@
    <a :href="'https://github.com/mzaini30/mzaini30.github.io/delete/master/' + postingan.path" class="badge badge-secondary">hapus</a>
   </p>
   <div v-html="postingan.content"></div>
+  <p><strong>Postingan lainnya</strong></p>
+  <div class="list-group">
+   <router-link v-for="x in postingan.lainnya" class="list-group-item list-group-item-action" :to="x.url">{% raw %}{{ x.title }}{% endraw %}</router-link>
+  </div>
  </div>
 </template>
 <script>
  postingan = {
   template: "#postingan",
+  methods: {
+   tampilkan(){
+    loading()
+    fetch(`/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
+     this.postingan = data
+     loading_selesai()
+    })
+   }
+  },
   mounted(){
-   loading()
-   fetch(`/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
-    this.postingan = data
-    loading_selesai()
-   })
+   this.tampilkan()
+  },
+  watch: {
+   $route(){
+    this.tampilkan()
+   }
   },
   data(){
    return {
