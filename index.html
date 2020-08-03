@@ -46,6 +46,7 @@
   {% include proyek_pribadi.html %}
   {% include postingan.html %}
   {% include postingan_lainnya.html %}
+  {% include cari.html %}
   {% include pencapaian.html %}
   <script src="vendor/vue.min.js"></script>
   <script src="vendor/vue-router.min.js"></script>
@@ -76,6 +77,14 @@
       {
        path: "/postingan",
        component: postingan_lainnya
+      },
+      {
+       path: "/cari",
+       component: cari
+      },
+      {
+       path: "/cari/:cari",
+       component: cari
       },
       {
        path: "/:slug",

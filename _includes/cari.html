@@ -1,0 +1,65 @@
+<template id="cari">
+ <div>
+  <form @submit.prevent="mulai_cari()">
+   <div class="form-group">
+    <input type="search" class="form-control" v-model="cari" placeholder="Cari apa?" required="" ref="cari">
+   </div>
+  </form>
+  <div class="list-group">
+   <router-link v-for="x in data" :to="x.url" class="list-group-item list-group-item-action">{% raw %}{{ x.title }}{% endraw %}</router-link>
+  </div>
+ </div>
+</template>
+<script>
+ cari = {
+  template: "#cari",
+  data(){
+   return {
+    cari: "",
+    data: []
+   }
+  },
+  mounted(){
+   this.tampil_hasil()
+  },
+  watch: {
+   $route(){
+    this.tampil_hasil()
+   }
+  },
+  methods: {
+   mulai_cari(){
+    this.$router.push(`/cari/${encodeURIComponent(this.cari)}`)
+   },
+   tampil_hasil(){
+    this.data = []
+    if (this.$route.params.cari){
+     yang_dicari = decodeURIComponent(this.$route.params.cari).toLowerCase()
+     this.cari = decodeURIComponent(this.$route.params.cari)
+     loading()
+     fetch("semua.json").then(x => x.json()).then(data => {
+      for (x of data){
+       if (x.title.toLowerCase().includes(yang_dicari) || x.content.toLowerCase().includes(yang_dicari)){
+        this.data.push(x)
+       }
+      }
+      if (this.data.length == 0){
+       this.data = [
+        {
+         "title": "Data yang kamu cari nggak ketemu.",
+         "url": "/cari"
+        }
+       ]
+      }
+      this.data = new Set(this.data)
+      loading_selesai()
+     })
+    } else {
+     this.cari = ""
+     this.data = []
+     this.$refs.cari.focus()
+    }
+   }
+  }
+ }
+</script>

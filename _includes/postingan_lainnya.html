@@ -1,6 +1,9 @@
 <template id="postingan_lainnya">
  <div>
-  <p><strong>Blog <a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" class="badge badge-secondary">tambah</a></strong></p>
+  <p><strong>Blog 
+   <a href="https://github.com/mzaini30/mzaini30.github.io/new/master/_posts" class="badge badge-secondary">tambah</a>
+   <router-link to="/cari" class="badge badge-secondary">cari</router-link>
+   </strong></p>
   <div class="list-group">
    {% assign postingan = site.posts %}
    {% for x in postingan %}
