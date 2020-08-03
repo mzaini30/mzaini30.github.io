@@ -1,0 +1,13 @@
+---
+---
+
+{% assign semua = site.posts | sort: "title" %}
+[
+ {% for x in semua %}
+  {
+   "title": {{ x.title | jsonify }},
+   "content": {{ x.content | jsonify }},
+   "url": {{ x.url | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+ {% endfor %}
+]
