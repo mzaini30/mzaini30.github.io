@@ -1,11 +1,11 @@
 <template id="postingan">
  <div class="postingan">
-  <h1>{% raw %}{{ title }}{% endraw %}</h1>
+  <h1>{% raw %}{{ postingan.title }}{% endraw %}</h1>
   <p>
-   <a :href="'https://github.com/mzaini30/mzaini30.github.io/edit/master/' + path" class="badge badge-secondary">edit</a>
-   <a :href="'https://github.com/mzaini30/mzaini30.github.io/delete/master/' + path" class="badge badge-secondary">hapus</a>
+   <a :href="'https://github.com/mzaini30/mzaini30.github.io/edit/master/' + postingan.path" class="badge badge-secondary">edit</a>
+   <a :href="'https://github.com/mzaini30/mzaini30.github.io/delete/master/' + postingan.path" class="badge badge-secondary">hapus</a>
   </p>
-  <div v-html="content"></div>
+  <div v-html="postingan.content"></div>
  </div>
 </template>
 <script>
@@ -14,17 +14,13 @@
   mounted(){
    loading()
    fetch(`/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
-    this.title = data.title
-    this.content = data.content
-    this.path = data.path
+    this.postingan = data
     loading_selesai()
    })
   },
   data(){
    return {
-    title: "",
-    content: "",
-    path: ""
+    postingan: {}
    }
   }
  }
