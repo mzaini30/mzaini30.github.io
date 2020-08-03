@@ -51,7 +51,7 @@
         }
        ]
       }
-      this.data = new Set(this.data)
+      this.data = [...new Set(this.data)]
       loading_selesai()
      })
     } else {
