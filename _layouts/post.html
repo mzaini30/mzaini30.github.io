@@ -1,10 +1,12 @@
 ---
 ---
+
 {% assign acak1 = site.time | date: "%s%N" | plus: page.content.size | plus: 1 | modulo: site.posts.size %}
 {% assign acak2 = site.time | date: "%s%N" | plus: page.content.size | plus: 2 | modulo: site.posts.size %}
 {% assign acak3 = site.time | date: "%s%N" | plus: page.content.size | plus: 3 | modulo: site.posts.size %}
 {
  "title": {{ page.title | jsonify }},
+ "tanggal": {{ page.date | date_to_long_string | jsonify }},
  "content": {{ page.content | jsonify }},
  "path": {{ page.path | jsonify }},
  "lainnya": [

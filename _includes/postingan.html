@@ -1,6 +1,7 @@
 <template id="postingan">
  <div class="postingan">
   <h1>{% raw %}{{ postingan.title }}{% endraw %}</h1>
+  <p><em>{% raw %}{{ postingan.tanggal }}{% endraw %}</em></p>
   <p>
    <a :href="'https://github.com/mzaini30/mzaini30.github.io/edit/master/' + postingan.path" class="badge badge-secondary">edit</a>
    <a :href="'https://github.com/mzaini30/mzaini30.github.io/delete/master/' + postingan.path" class="badge badge-secondary">hapus</a>
