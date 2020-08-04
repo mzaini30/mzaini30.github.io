@@ -7,8 +7,6 @@
    <router-link to="/cari" class="badge badge-secondary">cari</router-link>
   </p>
   <div v-html="postingan.content"></div>
-  <div id="SC_TBlock_785328" class="SC_TBlock"></div> 
-  <div id="SC_TBlock_785332" class="SC_TBlock"></div> 
   <p><strong>Postingan lainnya</strong></p>
   <div class="list-group">
    <router-link v-for="x in postingan.lainnya" class="list-group-item list-group-item-action" :to="x.url">{% raw %}{{ x.title }}{% endraw %}</router-link>
