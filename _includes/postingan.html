@@ -7,6 +7,7 @@
    <router-link to="/cari" class="badge badge-secondary">cari</router-link>
   </p>
   <div v-html="postingan.content"></div>
+  <div id="disqus_thread"></div>
   <p><strong>Postingan lainnya</strong></p>
   <div class="list-group">
    <router-link v-for="x in postingan.lainnya" class="list-group-item list-group-item-action" :to="x.url">{% raw %}{{ x.title }}{% endraw %}</router-link>
@@ -23,14 +24,30 @@
      this.postingan = data
      loading_selesai()
     })
+   },
+   disqus(){
+    slugnya = this.$route.params.slug
+    var disqus_config = function () {
+     this.page.url = `https://mzaini30.js.org/#/${slugnya}`;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = slugnya; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     
+     (function() { // DON'T EDIT BELOW THIS LINE
+     var d = document, s = d.createElement('script');
+     s.src = 'https://mzaini30.disqus.com/embed.js';
+     s.setAttribute('data-timestamp', +new Date());
+     (d.head || d.body).appendChild(s);
+     })();
    }
   },
   mounted(){
    this.tampilkan()
+   this.disqus()
   },
   watch: {
    $route(){
     this.tampilkan()
+    this.disqus()
    }
   },
   data(){
