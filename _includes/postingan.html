@@ -19,10 +19,6 @@
   template: "#postingan",
   methods: {
    tampilkan(){
-    (sc_adv_out = window.sc_adv_out || []).push({
-      id : "785328",
-      domain : "n.ads1-adnow.com"
-    });
     loading()
     fetch(`${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
      this.postingan = data
