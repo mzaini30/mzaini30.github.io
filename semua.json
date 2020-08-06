@@ -7,7 +7,7 @@
   {
    "title": {{ x.title | jsonify }},
    "content": {{ x.content | jsonify }},
-   "url": {{ x.url | jsonify }}
+   "url": {{ x.url | replace: "postingan/", "" | jsonify }}
   }{% unless forloop.last %},{% endunless %}
  {% endfor %}
 ]
