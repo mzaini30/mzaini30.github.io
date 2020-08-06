@@ -12,15 +12,15 @@
  "lainnya": [
   {
    "title": {{ site.posts[acak1].title | jsonify }},
-   "url": {{ site.posts[acak1].url | jsonify }}
+   "url": {{ site.posts[acak1].url | replace: "postingan/", "" | jsonify }}
   },
   {
    "title": {{ site.posts[acak2].title | jsonify }},
-   "url": {{ site.posts[acak2].url | jsonify }}
+   "url": {{ site.posts[acak2].url | replace: "postingan/", "" | jsonify }}
   },
   {
    "title": {{ site.posts[acak3].title | jsonify }},
-   "url": {{ site.posts[acak3].url | jsonify }}
+   "url": {{ site.posts[acak3].url | replace: "postingan/", "" | jsonify }}
   }
  ]
 }

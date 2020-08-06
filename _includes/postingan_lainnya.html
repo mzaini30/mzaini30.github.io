@@ -7,7 +7,7 @@
   <div class="list-group">
    {% assign postingan = site.posts %}
    {% for x in postingan %}
-    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
+    <router-link to="{{ x.url | replace: 'postingan/', '' }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
    {% endfor %}
   </div>
  </div>

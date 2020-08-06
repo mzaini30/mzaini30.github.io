@@ -1,4 +1,4 @@
-permalink: /:title
+permalink: /postingan/:title
 skill:
 - Vue
 - Bootstrap

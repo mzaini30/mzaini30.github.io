@@ -20,7 +20,7 @@
   methods: {
    tampilkan(){
     loading()
-    fetch(`${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
+    fetch(`/postingan/${this.$route.params.slug}.html`).then(x => x.json()).then(data => {
      this.postingan = data
      loading_selesai()
     })
