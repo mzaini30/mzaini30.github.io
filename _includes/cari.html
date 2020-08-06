@@ -37,7 +37,7 @@
      yang_dicari = decodeURIComponent(this.$route.params.cari).toLowerCase()
      this.cari = decodeURIComponent(this.$route.params.cari)
      loading()
-     fetch("semua.json").then(x => x.json()).then(data => {
+     fetch("/semua.json").then(x => x.json()).then(data => {
       for (x of data){
        if (x.title.toLowerCase().includes(yang_dicari) || x.content.toLowerCase().includes(yang_dicari)){
         this.data.push(x)
