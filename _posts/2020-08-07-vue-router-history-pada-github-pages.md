@@ -35,3 +35,20 @@ new Vue({
  router
 })
 ```
+
+## Cara lainnya
+
+Salah satu caranya adalah tetap menggunakan mode `history` lalu isi dari `index.html` dan `404.html` disamakan. Misalnya:
+
+`_includes/index.html`
+
+Berisi halaman front end yang akan kita tampilkan.
+
+`index.html` dan `404.html`
+
+```liquid
+--- 
+--- 
+
+{% raw %}{% include index.html %}{% endraw %}
+```
