@@ -27,8 +27,8 @@
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}/#{{ post.url | replace: "postingan/", "" }}</link>
-				<guid isPermaLink="true">{{ site.url }}/#{{ post.url | replace: "postingan/", "" }}</guid>
+				<link>{{ site.url }}{{ post.url | replace: "postingan/", "" }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url | replace: "postingan/", "" }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
