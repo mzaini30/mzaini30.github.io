@@ -1,5 +1,7 @@
 - **Javascript**
   - [Fetch API](/baca/fetch)
+- **Memahami diri**
+  - [Menunda adalah sikap yang sangat buruk](/baca/menunda-adalah-sikap-yang-sangat-buruk)
 - **Penerbitan**
   - [SOP revisi layout](/baca/sop-revisi-layout)
 - **PHP**
