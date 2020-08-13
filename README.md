@@ -1,3 +1,3 @@
-# Situs Muhammad Zaini
+# Tentang website ini
 
-Situs ini berisi dengan berbagai proyek yang telah aku kerjakan.
+Website ini akan berisi dengan berbagai pengetahuan.

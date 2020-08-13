@@ -1,125 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
- <head>
-  <title>Situs Muhammad Zaini</title> 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
-  <link rel="stylesheet" href="/vendor/bootstrap.min.css">
-  <link rel="stylesheet" href="/vendor/progress.css">
-  <link rel="stylesheet" href="/vendor/monokai.css">
-  <style>
-  * {
-   word-wrap: break-word;
-  }
-  blockquote{margin-bottom:1rem;font-size:1.25rem}
-   .footer {
-    margin-bottom: 20px;
-   }
-   .klik {
-    cursor: pointer;
-   }
-   pre {
-    padding: 10px;
-   }
-  </style>
- </head>
- <body>
-  <div class="vue">
-   <br>
-   <div class="container">
-    <div class="text-center">
-     <h1 class="klik" @click="beranda()">Muhammad Zaini</h1>
-     <p>Developer website</p>
-     <hr>
-    </div>
-    <router-view></router-view>
-    <div id="SC_TBlock_785328" class="SC_TBlock"></div> 
-    <div id="SC_TBlock_785332" class="SC_TBlock"></div> 
-    <hr>
-    <p class="text-center footer">Membutuhkan tenaga ahli untuk pengerjaan proyek website? Silahkan kirim email ke <a href="mailto: muhzaini30@gmail.com">muhzaini30@gmail.com</a></p>
-   </div>
-   <div class="progress-loading sembunyi">
-      <div class="indeterminate"></div>
-    </div>
-  </div>
-  {% include beranda.html %}
-  {% include proyek_pribadi.html %}
-  {% include postingan.html %}
-  {% include postingan_lainnya.html %}
-  {% include cari.html %}
-  {% include pencapaian.html %}
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/vendor/vue.css" />
+</head>
+<body>
+  <div id="app"></div>
   <script>
-   (sc_adv_out = window.sc_adv_out || []).push({
-     id : "785328",
-     domain : "n.ads1-adnow.com"
-   });
-  </script>
-  <script type="text/javascript" src="//st-n.ads1-adnow.com/js/a.js" async></script>
-  <script type="text/javascript">
-    (sc_adv_out = window.sc_adv_out || []).push({
-      id : "785332",
-      domain : "n.ads5-adnow.com"
-    });
-  </script>
-  <script type="text/javascript" src="//st-n.ads5-adnow.com/js/a.js" async></script>
-  <script type="text/javascript"> var infolinks_pid = 3278353; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-  <script src="/vendor/vue.min.js"></script>
-  <script src="/vendor/vue-router.min.js"></script>
-  <script>
-   loading = () => document.querySelector('.progress-loading').classList.remove('sembunyi')
-   loading_selesai = () => document.querySelector('.progress-loading').classList.add('sembunyi')
-   router = new VueRouter({
-    mode: "history",
-    routes: [
-     {
-      path: "/",
-      component: beranda
-     },
-     {
-      path: "/proyek-pribadi",
-      component: proyek_pribadi
-     },
-     {
-      path: "/pencapaian",
-      component: pencapaian
-     },
-     {
-      path: "/postingan",
-      component: postingan_lainnya
-     },
-     {
-      path: "/cari",
-      component: cari
-     },
-     {
-      path: "/cari/:cari",
-      component: cari
-     },
-     {
-      path: "/:slug",
-      component: postingan
-     }
-    ]
-   })
-   new Vue({
-    el: ".vue",
-    methods: {
-     beranda(){
-      this.$router.push("/")
-     }
-    },
-    router,
-    watch: {
-     $route(){
-      window.scrollTo({
-       top: 0,
-       left: 0,
-       behavior: "smooth"
-      })
-     }
+    window.$docsify = {
+      loadSidebar: true,
+      routerMode: "history"
     }
-   })
   </script>
- </body>
+  <script src="/vendor/docsify.min.js"></script>
+  <script src="/vendor/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
+  <script src="/vendor/vconsole.min.js"></script>
+  <script>
+   new VConsole
+  </script>
+</body>
 </html>
