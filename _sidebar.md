@@ -25,3 +25,5 @@
   - <meter value="1"></meter> Sleep
   - <meter value="0.7"></meter> Vue
   - <meter value="0.3"></meter> Writing
+- **Vue**
+  - [Menggunakan Vue Router](/baca/menggunakan-vue-router)
