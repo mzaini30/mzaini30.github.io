@@ -21,7 +21,9 @@
   </script>
   <script src="/vendor/docsify.min.js"></script>
   <script src="/vendor/search.min.js"></script>
-  <script src="/vendor/disqus.min.js"></script>
+  {% if jekyll.environment == "production" %}
+   <script src="/vendor/disqus.min.js"></script>
+  {% endif %}
   <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
   <script src="/vendor/vconsole.min.js"></script>
   <script>
