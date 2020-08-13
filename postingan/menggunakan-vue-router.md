@@ -360,3 +360,45 @@ Kalau untuk mode history ini, harus disetting dulu supaya kalau pas direfresh, d
 
 ## Apache
 
+```html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+```
+
+## Nginx
+
+```javascript
+location / {
+  try_files $uri $uri/ /index.html;
+}
+```
+
+## Node JS
+
+```javascript
+const http = require('http')
+const fs = require('fs')
+const httpPort = 80
+
+http.createServer((req, res) => {
+  fs.readFile('index.html', 'utf-8', (err, content) => {
+    if (err) {
+      console.log('We cannot open "index.html" file.')
+    }
+
+    res.writeHead(200, {
+      'Content-Type': 'text/html; charset=utf-8'
+    })
+
+    res.end(content)
+  })
+}).listen(httpPort, () => {
+  console.log('Server listening on: http://localhost:%s', httpPort)
+})
+```
