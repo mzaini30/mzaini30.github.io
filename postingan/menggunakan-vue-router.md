@@ -402,3 +402,16 @@ http.createServer((req, res) => {
   console.log('Server listening on: http://localhost:%s', httpPort)
 })
 ```
+
+## Jekyll
+
+`_includes/index.html` isinya adalah file index frontendmu.
+
+`index.html` dan `404.html`:
+
+```html
+---
+---
+
+{% include index.html %}
+```
