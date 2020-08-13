@@ -5,3 +5,5 @@ Jadi orang itu harus cekatan. Setelah mengerjakan A, lanjut mengerjakan B, begit
 > Jantung senantiasa berkegiatan bahkan ketika kita istirahat.
 
 Jadi, daripada kita berpikiran tentang betapa sumpeknya kegiatan kali ini, alangkah lebih baik jika kita fokus saja kepada _bagaimana cara menyelesaikan pekerjaan yang ada di hadapanku ini?_ Tentu saja dengan prinsip cepat, tepat, tuntas.
+
+Kalau kita sudah selesai dengan pekerjaan di hadapan, maka akan lebih mudah untuk lanjut ke pekerjaan berikutnya sesegera mungkin.
