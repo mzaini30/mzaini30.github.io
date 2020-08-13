@@ -1,3 +1,3 @@
 - [**Beranda**](/)
 - **PHP**
-  - [PDO dengan MySQL](/php/pdo-dengan-mysql)
+  - [PDO dengan MySQL](/baca/pdo-dengan-mysql)
