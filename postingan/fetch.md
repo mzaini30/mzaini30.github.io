@@ -1,0 +1,19 @@
+# Fetch API
+
+## GET
+
+```javascript
+fetch("situs.com").then(x => x.json()).then(data => console.log(data))
+```
+
+## POST
+
+```javascript
+body = new FormData
+body.append("username", this.username)
+body.append("password", this.password)
+fetch("situs.com", {
+ method: "post",
+ body
+})
+```

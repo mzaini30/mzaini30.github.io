@@ -1,6 +1,9 @@
+- **Javascript**
+  - [Fetch API](/baca/fetch)
 - **Penerbitan**
   - [SOP revisi layout](/baca/sop-revisi-layout)
 - **PHP**
+  - [CORS](/baca/cors)
   - [PDO dengan MySQL](/baca/pdo-dengan-mysql)
 - **Proyek**
   - [Sertifikat ODOP](https://sertifikat.ngodop.com/)
