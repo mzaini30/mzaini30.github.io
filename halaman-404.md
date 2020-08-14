@@ -1,1 +1,0 @@
-![404](https://http.cat/404.jpg)

@@ -1,7 +1,2 @@
-# Tentang website ini
-
-Website ini akan berisi dengan berbagai pengetahuan.
-
-## Daftar isi
-
-[filename](postingan/_sidebar.md ':include')
+# blog-jekyll-vue
+Blog yang memadukan Jekyll (for generated files) dan Vue (Vue Router)

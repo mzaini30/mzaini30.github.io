@@ -1,4 +1,7 @@
-# CRUD dengan PDO MySQL
+--- 
+layout: post
+title: CRUD dengan PDO MySQL
+--- 
 
 Buat dulu koneksinya:
 

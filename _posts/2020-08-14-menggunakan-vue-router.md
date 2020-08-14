@@ -1,4 +1,7 @@
-# Menggunakan Vue Router
+--- 
+layout: post
+title: Menggunakan Vue Router
+--- 
 
 Vue Router adalah plugin Vue yang memungkinkan kita untuk mengatur router dari frontend yang kita buat. Misalnya aja link seperti di bawah ini:
 
@@ -145,7 +148,7 @@ Lalu, kita buat juga nih `situs.com/#/halo/nama` yang akan menampilkan pesan `Ha
 ```html
 <template id="halo">
  <div>
-  <p>Halo {{ $route.params.nama }}</p>
+  <p>Halo {% raw %}{{ $route.params.nama }}{% endraw %}</p>
  </div>
 </template>
 <script type="text/javascript">
@@ -190,7 +193,7 @@ Hasilnya:
  </script>
  <template id="halo">
   <div>
-   <p>Halo {{ $route.params.nama }}</p>
+   <p>Halo {% raw %}{{ $route.params.nama }}{% endraw %}</p>
   </div>
  </template>
  <script type="text/javascript">
@@ -221,7 +224,7 @@ Hasilnya:
 </html>
 ```
 
-Oh iya, di situ kan kita pakai mustache `{{ }}` untuk bind data di Vue. Tapi kan, kadang bentrok sama tools frontend lainnya. Misalnya aja dengan Jekyll. Maka, kita akan ubah menjadi `<< >>`:
+Oh iya, di situ kan kita pakai mustache `{% raw %}{{ }}{% endraw %}` untuk bind data di Vue. Tapi kan, kadang bentrok sama tools frontend lainnya. Misalnya aja dengan Jekyll. Maka, kita akan ubah menjadi `<< >>`:
 
 ```javascript
 delimiters: ['<<', '>>']
@@ -413,5 +416,5 @@ http.createServer((req, res) => {
 ---
 ---
 
-{% include index.html %}
+{% raw %}{% include index.html %}{% endraw %}
 ```

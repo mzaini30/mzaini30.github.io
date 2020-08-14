@@ -1,0 +1,70 @@
+<template id="baca">
+ <div>
+  <div v-if="data.length != 0">
+   <h1><< data.title >></h1>
+   <div v-html="data.content"></div>
+   <div id="disqus_thread"></div>
+  </div>
+  <div v-if="data.length == 0">
+   <p>Konten yang kamu cari, nggak ditemukan.</p>
+  </div>
+ </div>
+</template>
+<script>
+ baca = {
+  template: "#baca",
+  delimiters: ["<<", ">>"],
+  methods: {
+   ambil_data(){
+    loading()
+    fetch("/semua.json").then(x => x.json()).then(data => {
+     this.data = data.filter(x => x.slug == `/${this.$route.params.slug}`)[0]
+     document.title = this.data.title
+     loading_selesai()
+    })
+   },
+   disqus(){
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    slugnya = this.$route.params.slug
+    var disqus_config = function () {
+    this.page.url = `https://mzaini30.js.org/${slugnya}`;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = slugnya; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://mzaini30.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();            
+   }
+  },
+  mounted(){
+   this.ambil_data()
+   this.disqus()
+  },
+  watch: {
+   $route(){
+    this.ambil_data()
+    this.disqus()
+   }
+  },
+  data(){
+   return {
+    data: []
+   }
+  }
+ }
+</script>
+<style>
+ * {
+  word-wrap: break-word;
+ }
+ img {
+  max-width: 100%;
+ }
+ pre {
+  padding: 10px;
+ }
+</style>

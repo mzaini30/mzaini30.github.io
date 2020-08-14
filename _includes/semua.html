@@ -1,0 +1,19 @@
+<template id="semua">
+ <div>
+  <div class="list-group">
+   {% for x in site.posts %}
+    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
+   {% endfor %}
+  </div>
+  <br>
+ </div>
+</template>
+<script>
+ semua = {
+  template: "#semua",
+  mounted(){
+   document.title = "Zen"
+   loading_selesai()
+  }
+ }
+</script>

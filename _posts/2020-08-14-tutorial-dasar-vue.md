@@ -1,4 +1,7 @@
-# Tutorial dasar Vue
+--- 
+layout: post
+title: Tutorial dasar Vue
+--- 
 
 Kita mulai dari template dasar Vue:
 
@@ -27,7 +30,7 @@ Di situ, kita menggunakan `.vue` sebagai rumah bagi Vue. Jadi, ketika kita ingin
 Sekarang, kita akan bermain data:
 
 ```html 
-<p>{{ angka }}</p>
+<p>{% raw %}{{ angka }}{% endraw %}</p>
 ```
 
 Lalu, di bagian Javascriptnya:
@@ -50,7 +53,7 @@ Maka, di tag `<p>` tersebut, isinya adalah angka nol. Berikut ini adalah script 
 </head>
 <body>
  <div class="vue">
-  <p>{{ angka }}</p>
+  <p>{% raw %}{{ angka }}{% endraw %}</p>
  </div>
  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
  <script type="text/javascript">
@@ -71,7 +74,7 @@ Nah, kalau kita ingin mengubah angka 0 menjadi angka 2 misalnya, tinggal ubah aj
 angka: 2 
 ```
 
-Oh iya, supaya nggak bentrok sama Jekyll, kita ubah `{{ angka }}` menjadi `<< angka >>`. Caranya adalah dengan menambahkan kode `delimiters`:
+Oh iya, supaya nggak bentrok sama Jekyll, kita ubah `{% raw %}{{ angka }}{% endraw %}` menjadi `<< angka >>`. Caranya adalah dengan menambahkan kode `delimiters`:
 
 ```html
 <!DOCTYPE html>

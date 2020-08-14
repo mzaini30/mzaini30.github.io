@@ -1,0 +1,13 @@
+--- 
+--- 
+
+[
+ {% assign postingan = site.posts | sort: "title" %}
+ {% for x in postingan %}
+  {
+   "slug": {{ x.url | jsonify }},
+   "title": {{ x.title | jsonify }},
+   "content": {{ x.content | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+ {% endfor %}
+]

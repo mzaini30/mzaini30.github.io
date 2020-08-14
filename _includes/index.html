@@ -1,40 +1,58 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="/vendor/vue.css" />
+ <head>
+  {% seo %}
   <title>Zen</title>
-</head>
-<body>
-  <div id="app"></div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="/vendor/progress.css">
+  <link rel="stylesheet" href="/vendor/monokai.css">
+ </head>
+ <body>
+  <div class="vue">
+   <div class="progress-loading sembunyi">
+    <div class="indeterminate"></div>
+   </div>
+   <div class="container">
+    <br>
+    <h1 class="text-center" @click="$router.push('/')">Zen</h1>
+    <hr>
+    <router-view></router-view>
+   </div>
+  </div>
+  {% include semua.html %}
+  {% include baca.html %}
+  {% include nggak_ada.html %}
+  <script src="/vendor/vue.min.js"></script>
+  <script src="/vendor/vue-router.min.js"></script>
+  <script src="/vendor/progress.js"></script>
   <script>
-    window.$docsify = {
-      name: "Zen",
-      repo: "mzaini30/mzaini30.github.io",
-      nameLink: "/",
-      loadSidebar: true,
-      disqus: "mzaini30",
-      auto2top: true,
-      routerMode: "history",
-      notFoundPage: "halaman-404.md",
-      alias: {
-       "/([^\/]+)": "/postingan/$1"
+   new Vue({
+    el: ".vue",
+    watch: {
+     $route(){
+      window.scrollTo(0, 0)
+     }
+    },
+    router: new VueRouter({
+     mode: "history",
+     routes: [
+      {
+       path: "/",
+       component: semua
+      },
+      {
+       path: "/:slug",
+       component: baca
+      },
+      {
+       path: "*",
+       component: nggak_ada
       }
-    }
+     ]
+    })
+   })
   </script>
-  <!--
-  <script src="/vendor/vconsole.min.js"></script>
-  <script>
-   new VConsole
-  </script>
-  -->
-  <script src="/vendor/docsify.min.js"></script>
-  <script src="/vendor/search.min.js"></script>
-  {% if jekyll.environment == "production" %}
-   <script src="/vendor/disqus.min.js"></script>
-  {% endif %}
-  <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
-</body>
+ </body>
 </html>

@@ -1,4 +1,7 @@
-# SOP revisi layout
+--- 
+layout: post
+title: SOP revisi layout
+--- 
 
 1. Penulis memberikan naskahnya kepada layouter
 2. Layouter memberikan naskah yang sudah dilayout kepada penulis dengan format DOC 

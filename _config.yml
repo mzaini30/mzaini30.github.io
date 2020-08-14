@@ -1,2 +1,9 @@
-include:
-- _sidebar.md
+permalink: /:title
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+defaults:
+- scope:
+    path: ""
+  values:
+    image: /aset/oreki.jpg
