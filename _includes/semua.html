@@ -1,5 +1,10 @@
 <template id="semua">
  <div>
+  <form @submit.prevent="$router.push('/cari/' + encodeURIComponent(cari))">
+   <div class="form-group">
+    <input type="search" class="form-control" placeholder="Cari apa?" v-model="cari" required="">
+   </div>
+  </form>
   <div class="list-group">
    {% for x in site.posts %}
     <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
@@ -11,6 +16,11 @@
 <script>
  semua = {
   template: "#semua",
+  data(){
+   return {
+    cari: ""
+   }
+  },
   mounted(){
    document.title = "Zen"
    loading_selesai()

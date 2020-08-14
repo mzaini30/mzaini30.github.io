@@ -1,0 +1,44 @@
+<template id="cari">
+ <div>
+  <form @submit.prevent="$router.push('/cari/' + encodeURIComponent(cari))">
+   <div class="form-group">
+    <input type="search" class="form-control" placeholder="Cari apa?" v-model="cari" ref="cari" required="">
+   </div>
+  </form>
+  <div class="list-group">
+   <router-link v-for="x in data" :to="x.slug" class="list-group-item list-group-item-action"><< x.title >></router-link>
+  </div>
+  <br>
+ </div>
+</template>
+<script>
+ cari = {
+  template: "#cari",
+  delimiters: ["<<", ">>"],
+  methods: {
+   tampil(){
+    if (this.$route.params.cari){
+     this.cari = decodeURIComponent(this.$route.params.cari)
+    } else {
+     this.cari = ""
+     this.data = []
+     this.$refs.cari.focus()
+    }
+   }
+  },
+  mounted(){
+   this.tampil()
+  },
+  watch: {
+   $route(){
+    this.tampil()
+   }
+  },
+  data(){
+   return {
+    cari: "",
+    data: []
+   }
+  }
+ }
+</script>
