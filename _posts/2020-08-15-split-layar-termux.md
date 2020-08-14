@@ -24,3 +24,9 @@ Jalankan `tmux`
 ### Split kanan kiri
 
 `Ctrl` `b` `%`
+
+## Menutup screen yang terbuka
+
+```bash
+exit
+```
