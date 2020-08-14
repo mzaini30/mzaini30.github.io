@@ -7,7 +7,24 @@
   {
    "slug": {{ x.url | jsonify }},
    "title": {{ x.title | jsonify }},
-   "content": {{ x.content | jsonify }}
+   "content": {{ x.content | jsonify }},
+   "lainnya": [
+    {% assign acak1 = site.time | date: "%s%N" | plus: x.content.size | plus: 1 | modulo: site.posts.size %}
+    {% assign acak2 = site.time | date: "%s%N" | plus: x.content.size | plus: 2 | modulo: site.posts.size %}
+    {% assign acak3 = site.time | date: "%s%N" | plus: x.content.size | plus: 3 | modulo: site.posts.size %}
+    {
+     "slug": {{ site.posts[acak1].url | jsonify }},
+     "title": {{ site.posts[acak1].title | jsonify }}
+    },
+    {
+     "slug": {{ site.posts[acak2].url | jsonify }},
+     "title": {{ site.posts[acak2].title | jsonify }}
+    },
+    {
+     "slug": {{ site.posts[acak3].url | jsonify }},
+     "title": {{ site.posts[acak3].title | jsonify }}
+    }
+   ]
   }{% unless forloop.last %},{% endunless %}
  {% endfor %}
 ]
