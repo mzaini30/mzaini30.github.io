@@ -22,18 +22,18 @@ Pertama, kita buat dulu dasar dari Vue:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Vue</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Hello Vue</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="vue"></div>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script type="text/javascript">
-		new Vue({
-			el: '.vue'
-		})
-	</script>
+ <div class="vue"></div>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script type="text/javascript">
+  new Vue({
+   el: '.vue'
+  })
+ </script>
 </body>
 </html>
 ```
@@ -52,21 +52,21 @@ Maka, script HTMLnya menjadi:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Vue</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Hello Vue</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="vue">
-		<router-view></router-view>
-	</div>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
-	<script type="text/javascript">
-		new Vue({
-			el: '.vue'
-		})
-	</script>
+ <div class="vue">
+  <router-view></router-view>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
+ <script type="text/javascript">
+  new Vue({
+   el: '.vue'
+  })
+ </script>
 </body>
 </html>
 ```
@@ -75,14 +75,14 @@ Nah, sekarang kita buat router untuk beranda. Yaitu yang letaknya di `/`:
 
 ```html
 <template id="beranda">
-	<div>
-		<p>Ini beranda</p>
-	</div>
+ <div>
+  <p>Ini beranda</p>
+ </div>
 </template>
 <script type="text/javascript">
-	beranda = {
-		template: '#beranda'
-	}
+ beranda = {
+  template: '#beranda'
+ }
 </script>
 ```
 
@@ -90,8 +90,8 @@ Lalu, kita register `/` untuk memanggil `beranda`:
 
 ```javascript
 {
-	path: '/',
-	component: beranda
+ path: '/',
+ component: beranda
 }
 ```
 
@@ -101,39 +101,39 @@ Maka, script HTMLnya menjadi seperti ini:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Vue</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Hello Vue</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="vue">
-		<router-view></router-view>
-	</div>
-	<template id="beranda">
-		<div>
-			<p>Ini beranda</p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		beranda = {
-			template: '#beranda'
-		}
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
-	<script type="text/javascript">
-		new Vue({
-			el: '.vue',
-			router: new VueRouter({
-				routes: [
-					{
-						path: '/',
-						component: beranda
-					}
-				]
-			})
-		})
-	</script>
+ <div class="vue">
+  <router-view></router-view>
+ </div>
+ <template id="beranda">
+  <div>
+   <p>Ini beranda</p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  beranda = {
+   template: '#beranda'
+  }
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
+ <script type="text/javascript">
+  new Vue({
+   el: '.vue',
+   router: new VueRouter({
+    routes: [
+     {
+      path: '/',
+      component: beranda
+     }
+    ]
+   })
+  })
+ </script>
 </body>
 </html>
 ```
@@ -144,14 +144,14 @@ Lalu, kita buat juga nih `situs.com/#/halo/nama` yang akan menampilkan pesan `Ha
 
 ```html
 <template id="halo">
-	<div>
-		<p>Halo {{ $route.params.nama }}</p>
-	</div>
+ <div>
+  <p>Halo {{ $route.params.nama }}</p>
+ </div>
 </template>
 <script type="text/javascript">
-	halo = {
-		template: '#halo'
-	}
+ halo = {
+  template: '#halo'
+ }
 </script>
 ```
 
@@ -159,8 +159,8 @@ Lalu, kita atur routernya:
 
 ```javascript
 {
-	path: '/halo/:nama',
-	component: halo
+ path: '/halo/:nama',
+ component: halo
 }
 ```
 
@@ -170,53 +170,53 @@ Hasilnya:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Vue</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Hello Vue</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="vue">
-		<router-view></router-view>
-	</div>
-	<template id="beranda">
-		<div>
-			<p>Ini beranda</p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		beranda = {
-			template: '#beranda'
-		}
-	</script>
-	<template id="halo">
-		<div>
-			<p>Halo {{ $route.params.nama }}</p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		halo = {
-			template: '#halo'
-		}
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
-	<script type="text/javascript">
-		new Vue({
-			el: '.vue',
-			router: new VueRouter({
-				routes: [
-					{
-						path: '/',
-						component: beranda
-					},
-					{
-						path: '/halo/:nama',
-						component: halo
-					}
-				]
-			})
-		})
-	</script>
+ <div class="vue">
+  <router-view></router-view>
+ </div>
+ <template id="beranda">
+  <div>
+   <p>Ini beranda</p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  beranda = {
+   template: '#beranda'
+  }
+ </script>
+ <template id="halo">
+  <div>
+   <p>Halo {{ $route.params.nama }}</p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  halo = {
+   template: '#halo'
+  }
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
+ <script type="text/javascript">
+  new Vue({
+   el: '.vue',
+   router: new VueRouter({
+    routes: [
+     {
+      path: '/',
+      component: beranda
+     },
+     {
+      path: '/halo/:nama',
+      component: halo
+     }
+    ]
+   })
+  })
+ </script>
 </body>
 </html>
 ```
@@ -233,54 +233,54 @@ Hasilnya:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Vue</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Hello Vue</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="vue">
-		<router-view></router-view>
-	</div>
-	<template id="beranda">
-		<div>
-			<p>Ini beranda</p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		beranda = {
-			template: '#beranda'
-		}
-	</script>
-	<template id="halo">
-		<div>
-			<p>Halo << $route.params.nama >></p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		halo = {
-			template: '#halo'
-		}
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
-	<script type="text/javascript">
-		new Vue({
-			el: '.vue',
-			delimiters: ['<<', '>>'],
-			router: new VueRouter({
-				routes: [
-					{
-						path: '/',
-						component: beranda
-					},
-					{
-						path: '/halo/:nama',
-						component: halo
-					}
-				]
-			})
-		})
-	</script>
+ <div class="vue">
+  <router-view></router-view>
+ </div>
+ <template id="beranda">
+  <div>
+   <p>Ini beranda</p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  beranda = {
+   template: '#beranda'
+  }
+ </script>
+ <template id="halo">
+  <div>
+   <p>Halo << $route.params.nama >></p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  halo = {
+   template: '#halo'
+  }
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
+ <script type="text/javascript">
+  new Vue({
+   el: '.vue',
+   delimiters: ['<<', '>>'],
+   router: new VueRouter({
+    routes: [
+     {
+      path: '/',
+      component: beranda
+     },
+     {
+      path: '/halo/:nama',
+      component: halo
+     }
+    ]
+   })
+  })
+ </script>
 </body>
 </html>
 ```
@@ -298,55 +298,55 @@ Sekarang, kita coba menghilangkan hashnya. Maka, kita buat mode history. Jadinya
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Vue</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Hello Vue</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="vue">
-		<router-view></router-view>
-	</div>
-	<template id="beranda">
-		<div>
-			<p>Ini beranda</p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		beranda = {
-			template: '#beranda'
-		}
-	</script>
-	<template id="halo">
-		<div>
-			<p>Halo << $route.params.nama >></p>
-		</div>
-	</template>
-	<script type="text/javascript">
-		halo = {
-			template: '#halo'
-		}
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
-	<script type="text/javascript">
-		new Vue({
-			el: '.vue',
-			delimiters: ['<<', '>>'],
-			router: new VueRouter({
-				mode: 'history',
-				routes: [
-					{
-						path: '/',
-						component: beranda
-					},
-					{
-						path: '/halo/:nama',
-						component: halo
-					}
-				]
-			})
-		})
-	</script>
+ <div class="vue">
+  <router-view></router-view>
+ </div>
+ <template id="beranda">
+  <div>
+   <p>Ini beranda</p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  beranda = {
+   template: '#beranda'
+  }
+ </script>
+ <template id="halo">
+  <div>
+   <p>Halo << $route.params.nama >></p>
+  </div>
+ </template>
+ <script type="text/javascript">
+  halo = {
+   template: '#halo'
+  }
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
+ <script type="text/javascript">
+  new Vue({
+   el: '.vue',
+   delimiters: ['<<', '>>'],
+   router: new VueRouter({
+    mode: 'history',
+    routes: [
+     {
+      path: '/',
+      component: beranda
+     },
+     {
+      path: '/halo/:nama',
+      component: halo
+     }
+    ]
+   })
+  })
+ </script>
 </body>
 </html>
 ```

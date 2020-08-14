@@ -1,14 +1,15 @@
 - **Dunia Quran**
-  - [Kapan terakhir kali baca Quran?](/baca/kapan-terakhir-kali-baca-quran)
+  - [Kapan terakhir kali baca Quran?](/kapan-terakhir-kali-baca-quran)
 - **Javascript**
-  - [Fetch API](/baca/fetch)
+  - [Fetch API](/fetch)
 - **Memahami diri**
-  - [Menunda adalah sikap yang sangat buruk](/baca/menunda-adalah-sikap-yang-sangat-buruk)
+  - [Di saat bingung mau ngapain](/di-saat-bingung-mau-ngapain)
+  - [Menunda adalah sikap yang sangat buruk](/menunda-adalah-sikap-yang-sangat-buruk)
 - **Penerbitan**
-  - [SOP revisi layout](/baca/sop-revisi-layout)
+  - [SOP revisi layout](/sop-revisi-layout)
 - **PHP**
-  - [CORS](/baca/cors)
-  - [PDO dengan MySQL](/baca/pdo-dengan-mysql)
+  - [CORS](/cors)
+  - [PDO dengan MySQL](/pdo-dengan-mysql)
 - **Proyek**
   - [Sertifikat ODOP](https://sertifikat.ngodop.com/)
 - **Skill**
@@ -26,4 +27,5 @@
   - <meter value="0.7"></meter> Vue
   - <meter value="0.3"></meter> Writing
 - **Vue**
-  - [Menggunakan Vue Router](/baca/menggunakan-vue-router)
+  - [Menggunakan Vue Router](/menggunakan-vue-router)
+  - [Tutorial dasar Vue](/tutorial-dasar-vue)

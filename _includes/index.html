@@ -20,10 +20,16 @@
       routerMode: "history",
       notFoundPage: "halaman-404.md",
       alias: {
-       "/baca/(.+)": "/postingan/$1"
+       "/([^\/]+)": "/postingan/$1"
       }
     }
   </script>
+  <!--
+  <script src="/vendor/vconsole.min.js"></script>
+  <script>
+   new VConsole
+  </script>
+  -->
   <script src="/vendor/docsify.min.js"></script>
   <script src="/vendor/search.min.js"></script>
   {% if jekyll.environment == "production" %}
