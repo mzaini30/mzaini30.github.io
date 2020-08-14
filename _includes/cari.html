@@ -19,6 +19,25 @@
    tampil(){
     if (this.$route.params.cari){
      this.cari = decodeURIComponent(this.$route.params.cari)
+     loading()
+     fetch("/semua.json").then(x => x.json()).then(data => {
+      ada = []
+      for (x of data){
+       if (x.title.toLowerCase().includes(this.cari.toLowerCase()) || x.content.toLowerCase().includes(this.cari.toLowerCase())){
+        ada.push(x)
+       }
+       this.data = [...new Set(ada)]
+       if (this.data.length == 0){
+        this.data = [
+         {
+          "title": `${this.cari} tidak ditemukan`,
+          "slug": "/cari"
+         }
+        ]
+       }
+      }
+      loading_selesai()
+     })
     } else {
      this.cari = ""
      this.data = []
