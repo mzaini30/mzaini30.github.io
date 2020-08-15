@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="/vendor/bootstrap.min.css">
   <link rel="stylesheet" href="/vendor/progress.css">
   <link rel="stylesheet" href="/vendor/monokai.css">
+  <style>
+   .klik {
+    cursor: pointer;
+   }
+   .container {
+    max-width: 600px;
+   }
+  </style>
  </head>
  <body>
   <div class="vue">
@@ -16,7 +24,7 @@
    </div>
    <div class="container">
     <br>
-    <h1 class="text-center" @click="$router.push('/')">Zen</h1>
+    <h1 class="text-center klik" @click="$router.push('/')">Zen</h1>
     <hr>
     <router-view></router-view>
    </div>
