@@ -25,5 +25,7 @@ Kecemasan berlebih terhadap sesuatu juga dipengaruhi oleh pandangan kita tentang
 
 Berikut ini ada beberapa solusi untuk menjaga kesehatan mental kita menghadapi kecemasan:
 
-1. [Dekatkan diri pada-Nya](https://www.maritaningtyas.com). Dengan kehadiran-Nya, kita menyadari bahwa diri kita ini _memiliki keterbatasan_. Terkadang, kita merasa bisa melakukan segalanya dan nggak terpikir untuk _tawakkal_. Sehingga, ketika ujian itu datang, iman kita belum siap.
+1. Dekatkan diri pada-Nya. Dengan kehadiran-Nya, kita menyadari bahwa diri kita ini _memiliki keterbatasan_. Terkadang, kita merasa bisa melakukan segalanya dan nggak terpikir untuk _tawakkal_. Sehingga, ketika ujian itu datang, iman kita belum siap.
 2. Tetaplah _sadar_, jangan dikuasai ketidaksadaran. Walaupun memang, ketidaksadaran itu mempengaruhi sebagian besar kehidupan kita (teori psikoanalisa). Dengan tetap berada pada kesadaran, kita tetap fokus untuk senantiasa melakukan _apa yang kita bisa_ dan nggak terdistraksi pada pemikiran lain yang malah memperburuk kesehatan mental.
+
+Jadi, dengan treatment pribadi ini ([self healing](https://www.maritaningtyas.com)), bisa menjadi _pertolongan pertama_ bagi kita untuk tetap logis menghadapi kecemasan global ini.
