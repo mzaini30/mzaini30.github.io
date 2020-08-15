@@ -11,3 +11,14 @@ Di Vue, kita biasanya menggunakan mustache untuk binding data. Misalnya seperti 
 
 Tapi, yang jadi masalah adalah, mustache tersebut juga digunakan oleh Jekyll untuk binding data. Lalu, gimana solusinya?
 
+Pakai `delimiters`. Contoh:
+
+```
+<< data >>
+```
+
+Terus di Javascript:
+
+```javascript 
+delimiters: ["<<", ">>"]
+```
