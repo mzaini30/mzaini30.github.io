@@ -2,11 +2,11 @@
  <div>
   <div v-if="data.length != 0">
    <h1><< data.title >></h1>
-   <p v-if="data.lengkap"><span class="badge badge-success">Lengkap</span></p>
+   <p v-if="data.lengkap"><span class="badge badge-success">lengkap</span></p>
    <div v-html="data.content"></div>
    <h2>Tulisan lainnya</h2>
    <div class="list-group">
-    <router-link class="list-group-item list-group-item-action" v-for="x in data.lainnya" :to="x.slug"><< x.title >> <span class="badge badge-dark" v-if="x.diisi == false">Belum diisi</span></router-link>
+    <router-link class="list-group-item list-group-item-action" v-for="x in data.lainnya" :to="x.slug"><< x.title >> <span class="badge badge-dark" v-if="x.diisi == false">belum diisi</span></router-link>
    </div>
    <br>
   </div>

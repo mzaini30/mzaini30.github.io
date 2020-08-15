@@ -8,7 +8,7 @@
   <div class="list-group">
    {% for x in site.posts %}
     {% assign jumlah_kata = x.content | number_of_words %}
-    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }} {% if x.content.size < 2 %}<span class="badge badge-dark">Belum diisi</span>{% endif %} {% if jumlah_kata >= 400 %}<span class="badge badge-success">Lengkap</span>{% endif %}</router-link>
+    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }} {% if x.content.size < 2 %}<span class="badge badge-dark">belum diisi</span>{% endif %} {% if jumlah_kata >= 400 %}<span class="badge badge-success">lengkap</span>{% endif %}</router-link>
    {% endfor %}
   </div>
   <br>
