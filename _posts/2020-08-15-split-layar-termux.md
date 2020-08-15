@@ -19,15 +19,15 @@ Jalankan `tmux`
 
 ### Split atas bawah
 
-`Ctrl` `b` `"`
+`^b` `"`
 
 ### Split kanan kiri
 
-`Ctrl` `b` `%`
+`^b` `%`
 
 ### Berpindah screen aktif
 
-Kalau di Android, tinggal klik aja screen yang mau diaktifkan. Tapi, kalau di desktop, tekan `Ctrl` `b` lalu arah panahnya.
+Kalau di Android, tinggal klik aja screen yang mau diaktifkan. Tapi, kalau di desktop, tekan `^b` lalu arah panahnya.
 
 ## Menutup screen yang terbuka
 
