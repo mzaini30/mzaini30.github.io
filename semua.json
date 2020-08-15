@@ -10,6 +10,8 @@ layout: compress
    "title": {{ x.title | jsonify }},
    "content": {{ x.content | jsonify }},
    "diisi": {% if x.content.size < 2 %}false{% else %}true{% endif %},
+   {% assign jumlah_kata = x.content | number_of_words %}
+   "lengkap": {% if jumlah_kata >= 400 %}true{% else %}false{% endif %},
    "lainnya": [
     {% assign acak1 = site.time | date: "%s%N" | plus: x.content.size | plus: 1 | modulo: site.posts.size %}
     {% assign acak2 = site.time | date: "%s%N" | plus: x.content.size | plus: 2 | modulo: site.posts.size %}

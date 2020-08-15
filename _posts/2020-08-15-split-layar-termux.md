@@ -25,6 +25,10 @@ Jalankan `tmux`
 
 `Ctrl` `b` `%`
 
+### Berpindah screen aktif
+
+Kalau di Android, tinggal klik aja screen yang mau diaktifkan. Tapi, kalau di desktop, tekan `Ctrl` `b` lalu arah panahnya.
+
 ## Menutup screen yang terbuka
 
 ```bash

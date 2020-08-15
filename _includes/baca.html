@@ -2,6 +2,7 @@
  <div>
   <div v-if="data.length != 0">
    <h1><< data.title >></h1>
+   <p v-if="data.lengkap"><span class="badge badge-success">Lengkap</span></p>
    <div v-html="data.content"></div>
    <h2>Tulisan lainnya</h2>
    <div class="list-group">
