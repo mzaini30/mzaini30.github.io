@@ -9,21 +9,25 @@ layout: compress
    "slug": {{ x.url | jsonify }},
    "title": {{ x.title | jsonify }},
    "content": {{ x.content | jsonify }},
+   "diisi": {% if x.content.size < 2 %}false{% else %}true{% endif %},
    "lainnya": [
     {% assign acak1 = site.time | date: "%s%N" | plus: x.content.size | plus: 1 | modulo: site.posts.size %}
     {% assign acak2 = site.time | date: "%s%N" | plus: x.content.size | plus: 2 | modulo: site.posts.size %}
     {% assign acak3 = site.time | date: "%s%N" | plus: x.content.size | plus: 3 | modulo: site.posts.size %}
     {
      "slug": {{ site.posts[acak1].url | jsonify }},
-     "title": {{ site.posts[acak1].title | jsonify }}
+     "title": {{ site.posts[acak1].title | jsonify }},
+     "diisi": {% if site.posts[acak1].content.size < 2 %}false{% else %}true{% endif %}
     },
     {
      "slug": {{ site.posts[acak2].url | jsonify }},
-     "title": {{ site.posts[acak2].title | jsonify }}
+     "title": {{ site.posts[acak2].title | jsonify }},
+     "diisi": {% if site.posts[acak2].content.size < 2 %}false{% else %}true{% endif %}
     },
     {
      "slug": {{ site.posts[acak3].url | jsonify }},
-     "title": {{ site.posts[acak3].title | jsonify }}
+     "title": {{ site.posts[acak3].title | jsonify }},
+     "diisi": {% if site.posts[acak3].content.size < 2 %}false{% else %}true{% endif %}
     }
    ]
   }{% unless forloop.last %},{% endunless %}

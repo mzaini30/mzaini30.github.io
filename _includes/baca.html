@@ -5,7 +5,7 @@
    <div v-html="data.content"></div>
    <h2>Tulisan lainnya</h2>
    <div class="list-group">
-    <router-link class="list-group-item list-group-item-action" v-for="x in data.lainnya" :to="x.slug"><< x.title >></router-link>
+    <router-link class="list-group-item list-group-item-action" v-for="x in data.lainnya" :to="x.slug"><< x.title >> <span class="badge badge-dark" v-if="x.diisi == false">Belum diisi</span></router-link>
    </div>
    <br>
   </div>
@@ -73,5 +73,9 @@
  }
  pre {
   padding: 10px;
+ }
+ blockquote {
+  border-left: 5px solid var(--indigo);
+  padding-left: 10px;
  }
 </style>

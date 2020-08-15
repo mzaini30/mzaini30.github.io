@@ -7,7 +7,7 @@
   </form>
   <div class="list-group">
    {% for x in site.posts %}
-    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }}</router-link>
+    <router-link to="{{ x.url }}" class="list-group-item list-group-item-action">{{ x.title }} {% if x.content.size < 2 %}<span class="badge badge-dark">Belum diisi</span>{% endif %}</router-link>
    {% endfor %}
   </div>
   <br>
