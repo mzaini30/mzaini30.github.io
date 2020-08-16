@@ -14,6 +14,8 @@ nama = "Zen"
 console.log("Halo " + nama)
 ```
 
+Kalau untuk string biasa, dia bisa menggunakan `"` maupun `'`. Lalu, untuk menggabungkan
+
 ## String literal 
 
 ```javascript 
