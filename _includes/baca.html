@@ -25,7 +25,12 @@
     loading()
     fetch("/semua.json").then(x => x.json()).then(data => {
      this.data = data.filter(x => x.slug == `/${this.$route.params.slug}`)[0]
-     document.title = this.data.title
+     if (this.data == undefined) {
+      this.data = []
+      document.title = 'Halaman tidak ditemukan'
+     } else {
+      document.title = this.data.title
+     }
      loading_selesai()
     })
    },
