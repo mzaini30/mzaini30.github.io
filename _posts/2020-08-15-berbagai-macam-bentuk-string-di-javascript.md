@@ -14,7 +14,7 @@ nama = "Zen"
 console.log("Halo " + nama)
 ```
 
-Kalau untuk string biasa, dia bisa menggunakan `"` maupun `'`. Lalu, untuk menggabungkan
+Kalau untuk string biasa, dia bisa menggunakan `"` maupun `'`. Lalu, untuk menggabungkan string, menggunakan tanda `+`.
 
 ## String literal 
 
@@ -22,5 +22,5 @@ Kalau untuk string biasa, dia bisa menggunakan `"` maupun `'`. Lalu, untuk mengg
 nama = "Zen"
 
 // menggabungkan
-console.log(`Halo ${ nama }`)
+console.log(`Halo ${nama}`)
 ```
