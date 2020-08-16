@@ -412,7 +412,7 @@ http.createServer((req, res) => {
 
 `index.html` dan `404.html`:
 
-```html
+```liquid
 ---
 ---
 
