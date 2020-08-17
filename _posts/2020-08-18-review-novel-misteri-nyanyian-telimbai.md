@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Misteri Nyanyian Telimbai: Sisi yang tak pernah terungkap dari upacara adat yang sakral"
+image: https://i.ibb.co/LkdxC8Z/Mock-up-book-Cover-MS-WIjaya-Design-PNG-telimbsi.png
 ---
+
+![Cover novel Misteri Nyanyian Telimbai](https://i.ibb.co/LkdxC8Z/Mock-up-book-Cover-MS-WIjaya-Design-PNG-telimbsi.png)
 
 Membaca novel "anak" karya Mbak Nina Saingo ini mengingatkanku pada tugas metodologi penelitian kualitatif beberapa tahun yang lalu. Saat itu, aku mengunjungi tetua adat Kutai Kartanegara dan meneliti tentang para leluhur Bumi Etam Kutai Kartanegara yang bermuara pada Sunghiyang atau Sanghiyang sebagai leluhur tertinggi. Cerita di buku ini pun juga mengangkat tema leluhur dan kelalaian para manusia yang masih hidup akan ikatan mereka dengan para leluhur yang sudah mendahului mereka. Nah, ketidakseimbangan inilah yang membuat Rudolf mendapatkan penerawangan pertama yaitu arak-arak awan yang membentuk susunan kereta api.
 
