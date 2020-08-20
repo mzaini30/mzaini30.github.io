@@ -26,10 +26,7 @@
       "slug": {{ page.url | jsonify }},
       "title": {{ page.title | jsonify }},
       "content": {{ page.content | jsonify }},
-      "diisi": {% if page.content.size < 2 %}false{% else %}true{% endif %},
-      {% assign jumlah_kata = page.content | number_of_words %}
       "jumlah_kata": {{ page.content | number_of_words | jsonify }},
-      "lengkap": {% if jumlah_kata >= 400 %}true{% else %}false{% endif %},
       "lainnya": [
        {% assign acak1 = site.time | date: "%s%N" | plus: x.content.size | plus: 1 | modulo: site.posts.size %}
        {% assign acak2 = site.time | date: "%s%N" | plus: x.content.size | plus: 2 | modulo: site.posts.size %}
@@ -38,19 +35,16 @@
         "slug": {{ site.posts[acak1].url | jsonify }},
         "title": {{ site.posts[acak1].title | jsonify }},
         "jumlah_kata": {{ site.posts[acak1].content | number_of_words | jsonify }},
-        "diisi": {% if site.posts[acak1].content.size < 2 %}false{% else %}true{% endif %}
        },
        {
         "slug": {{ site.posts[acak2].url | jsonify }},
         "title": {{ site.posts[acak2].title | jsonify }},
         "jumlah_kata": {{ site.posts[acak2].content | number_of_words | jsonify }},
-        "diisi": {% if site.posts[acak2].content.size < 2 %}false{% else %}true{% endif %}
        },
        {
         "slug": {{ site.posts[acak3].url | jsonify }},
         "title": {{ site.posts[acak3].title | jsonify }},
         "jumlah_kata": {{ site.posts[acak3].content | number_of_words | jsonify }},
-        "diisi": {% if site.posts[acak3].content.size < 2 %}false{% else %}true{% endif %}
        }
       ]
      }
