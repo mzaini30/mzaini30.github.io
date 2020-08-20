@@ -19,13 +19,11 @@
 		methods: {
 			ambil_data(){
 				loading()
-				kategorinya = this.$route.params.kategori
 				fetch('/list.json').then(x => x.json()).then(data => {
 					this.data = []
 					for (x in data){
-						if (x.category == kategorinya) {
+						if (x.category == this.$route.params.kategori) {
 							this.data.push(x)
-							console.log(`${x.category} == ${this.$route.params.kategori}`)
 						}
 					}
 					loading_selesai()
