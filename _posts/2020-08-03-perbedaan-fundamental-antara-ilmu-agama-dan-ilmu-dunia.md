@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Perbedaan fundamental antara ilmu agama dan ilmu dunia
+category: diskusi
 --- 
 
 Bukan bermaksud untuk melakukan sekularisasi ilmu dengan memisahkan antara ilmu dunia dan ilmu agama karena memang sejatinya berbeda 180 derajat. Nah, dari segi manakah perbedaan fundamental itu?

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Review buku Mengapa Negara Gagal
+category: review-buku
 --- 
 
 ![Sampul buku Mengapa Negara Gagal](http://4.bp.blogspot.com/-hTjqBUkT_Qk/U3Amm32dzaI/AAAAAAAAAlU/Tg8wHGiAtYc/s1600/gagal.jpg)

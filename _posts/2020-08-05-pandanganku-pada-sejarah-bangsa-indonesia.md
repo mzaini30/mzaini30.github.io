@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pandanganku pada sejarah bangsa Indonesia
+category: sejarah
 ---
 
 Manusia takkan pernah lepas dari sejarah. Jadi, manusia akan senantiasa teringat dan terngiang-ngiang akan begitu banyaknya sejarah yang telah terjadi. Mulai dari sejarah masa lalu kesehariannya, keluarganya, klannya, hingga bangsanya. Mulai dari [kisah epik](https://www.memomuslimah.com/), haru, bahkan kisah-kisah konyol pun terkadang sarat akan hikmah yang tak terhingga. Soekarno pernah berkata: [JAS MERAH](https://www.idutinov.com/) (Jangan pernah sekali-kali melupakan sejarah). Karena, sejarah adalah masa lalu kita, dialah yang membentuk jadi apa kita hari ini dan bagaimana kita memandang masa depan kita. Tentu berbeda pandangan antara seseorang yang memahami masa lalu kakek moyangnya yang penuh dengan kisah epik dengan seseorang yang nggak mengenal peristiwa yang menimpa bangsanya pada masa lalunya.

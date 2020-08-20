@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Tentang terbang tinggi dan nggak tanggung-tanggung 
+category: psikologi
 --- 
 
 Aku teringat dengan quote dari Mbak Kirana Kejora:

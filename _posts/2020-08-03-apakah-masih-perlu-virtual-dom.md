@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apakah masih perlu Virtual DOM?
+category: vue
 ---
 
 Aku mencoba script di bawah ini:

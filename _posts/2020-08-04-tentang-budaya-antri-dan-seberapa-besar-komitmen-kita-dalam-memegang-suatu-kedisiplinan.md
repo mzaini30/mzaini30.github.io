@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Tentang budaya antri dan seberapa besar komitmen kita dalam memegang suatu kedisiplinan
+category: psikologi
 --- 
 
 Pernah ketika kamu mencoba untuk disiplin tapi ada aja orang yang merusak moodmu? Misalnya aja ketika kamu sudah mencoba dan berusaha untuk patuh pada aturan mengantri dan ada orang lain yang menyerobotnya.

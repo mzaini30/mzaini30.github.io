@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bagaimana caranya berdakwah jika kita nggak bisa berdakwah?
+category: dakwah
 ---
 
 Berdakwah adalah sesuatu yang sangat agung, sangat baik. Sebagaimana firman Allah taala:

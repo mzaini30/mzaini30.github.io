@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Tentang Menghafal Alquran
+category: quran
 --- 
 
 ## Manfaat menghafal Alquran

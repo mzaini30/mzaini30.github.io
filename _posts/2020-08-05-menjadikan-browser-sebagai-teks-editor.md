@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Menjadikan browser sebagai teks editor
+category: browser
 ---
 
 Ketik kode berikut di address bar:

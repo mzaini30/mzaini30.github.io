@@ -26,7 +26,8 @@
     <br>
     <h1 class="text-center klik" @click="$router.push('/')">Zen</h1>
     <p class="text-center">WA: <a href="https://wa.me/6281545143654">081545143654</a></p>
-    {% for x in site.categories %}
+    {% assign kategori = site.categories | sort %}
+    {% for x in kategori %}
       <p>{{ x[0] }}</p>
     {% endfor %}
     <hr>

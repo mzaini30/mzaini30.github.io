@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Meneladani dalamnya kasih sayang keluarga Nabi Ibrahim
+category: kisah
 --- 
 
 Kisah para Nabi selalu memberikan insight yang amat dalam bagi kita sebagai orang yang beriman kepada para Nabi. Nggak terkecuali dengan Nabi Ibrahim sebagai bapak para Nabi yang terkenal akan kasih sayangnya dan cintanya yang sedemikian besar kepada Sang Pencipta.
