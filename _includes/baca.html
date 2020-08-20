@@ -22,9 +22,34 @@
   data(){
    return {
     {% if page.date %}
-    data: [
-     
-    ]
+     data: {
+      "slug": {{ page.url | jsonify }},
+      "title": {{ page.title | jsonify }},
+      "content": {{ page.content | jsonify }},
+      "diisi": {% if page.content.size < 2 %}false{% else %}true{% endif %},
+      {% assign jumlah_kata = page.content | number_of_words %}
+      "lengkap": {% if jumlah_kata >= 400 %}true{% else %}false{% endif %},
+      "lainnya": [
+       {% assign acak1 = site.time | date: "%s%N" | plus: x.content.size | plus: 1 | modulo: site.posts.size %}
+       {% assign acak2 = site.time | date: "%s%N" | plus: x.content.size | plus: 2 | modulo: site.posts.size %}
+       {% assign acak3 = site.time | date: "%s%N" | plus: x.content.size | plus: 3 | modulo: site.posts.size %}
+       {
+        "slug": {{ site.posts[acak1].url | jsonify }},
+        "title": {{ site.posts[acak1].title | jsonify }},
+        "diisi": {% if site.posts[acak1].content.size < 2 %}false{% else %}true{% endif %}
+       },
+       {
+        "slug": {{ site.posts[acak2].url | jsonify }},
+        "title": {{ site.posts[acak2].title | jsonify }},
+        "diisi": {% if site.posts[acak2].content.size < 2 %}false{% else %}true{% endif %}
+       },
+       {
+        "slug": {{ site.posts[acak3].url | jsonify }},
+        "title": {{ site.posts[acak3].title | jsonify }},
+        "diisi": {% if site.posts[acak3].content.size < 2 %}false{% else %}true{% endif %}
+       }
+      ]
+     }
     {% else %}
      data: []
     {% endif %}
@@ -63,7 +88,9 @@
    }
   },
   mounted(){
-   this.ambil_data()
+   if (this.data.slug != `/${this.$route.params.slug}`){
+    this.ambil_data()
+   }
    this.disqus()
   },
   watch: {
