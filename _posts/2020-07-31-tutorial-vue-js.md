@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Tutorial Vue JS
+category: vue
 --- 
 
 ## Apa sih Vue JS itu?

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Berbagai Trik Termux
+category: termux
 --- 
 
 ## Custom Termux
