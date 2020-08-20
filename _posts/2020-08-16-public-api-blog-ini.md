@@ -4,7 +4,7 @@ title: Public API blog ini
 category: vue
 --- 
 
-> APInya ada perubahan. Nanti lag aku update postingan ini.
+> APInya ada perubahan. Nanti lah aku update postingan ini.
 
 Aku menggunakan teknik JAMStack dalam mengembangkan blog ini. JAMStack adalah kepanjangan dari Javascript + API + Markup Stack. Itu artinya, aku memerlukan sebuah API untuk mengolah (CRUD) blog ini. Nah, karena aku menggunakan Jekyll, maka API ini hanya berfungsi untuk menampilkan data. Kamu bisa mendapatkannya di `https://mzaini30.js.org/semua.json` yang struktur datanya seperti ini:
 
