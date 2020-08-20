@@ -19,14 +19,15 @@
 		methods: {
 			ambil_data(){
 				loading()
+				kategorinya = this.$route.params.kategori
 				fetch('/list.json').then(x => x.json()).then(data => {
-					sesuai = []
+					this.data = []
 					for (x in data){
-						if (x.category == this.$route.params.kategori) {
-							sesuai.push(x)
+						if (x.category == kategorinya) {
+							this.data.push(x)
+							console.log(`${x.category} == ${this.$route.params.kategori}`)
 						}
 					}
-					this.data = sesuai
 					loading_selesai()
 				})
 			}
