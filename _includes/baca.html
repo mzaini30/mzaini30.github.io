@@ -19,6 +19,17 @@
 <script>
  baca = {
   template: "#baca",
+  data(){
+   return {
+    {% if page.date %}
+    data: [
+     
+    ]
+    {% else %}
+     data: []
+    {% endif %}
+   }
+  },
   delimiters: ["<<", ">>"],
   methods: {
    ambil_data(){
@@ -59,11 +70,6 @@
    $route(){
     this.ambil_data()
     this.disqus()
-   }
-  },
-  data(){
-   return {
-    data: []
    }
   }
  }
