@@ -15,6 +15,11 @@
    .container {
     max-width: 600px;
    }
+   .menu {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+   }
   </style>
  </head>
  <body>
@@ -27,9 +32,11 @@
     <h1 class="text-center klik" @click="$router.push('/')">Zen</h1>
     <p class="text-center">WA: <a href="https://wa.me/6281545143654">081545143654</a></p>
     {% assign kategori = site.categories | sort %}
-    {% for x in kategori %}
-      <p>{{ x[0] }}</p>
-    {% endfor %}
+    <div class="menu">
+      {% for x in kategori %}
+        <router-link class="badge badge-dark" to='/kategori/{{ x[0] }}'>{{ x[0] }}</router-link>
+      {% endfor %}
+    </div>
     <hr>
     <router-view></router-view>
    </div>
