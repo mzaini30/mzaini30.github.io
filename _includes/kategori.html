@@ -1,10 +1,10 @@
 <template id="kategori">
 	<div>
-		<< data >>
-		<< $route.params.kategori >>
+		<h2>Kategori <span class="nama-kategori"><< hapus_strip($route.params.kategori) >></span></h2>
 		<div class="list-group">
 			<router-link :to='x.slug' v-for='x in data' class='list-group-item list-group-item-action'><< x.title >> <span v-if='x.jumlah_kata == 0' class="badge badge-dark">belum diisi</span> <span class="badge badge-success" v-if='x.jumlah_kata >= 400'>lengkap</span></router-link>
 		</div>
+		<br>
 	</div>
 </template>
 <script type="text/javascript">
@@ -21,13 +21,16 @@
 				loading()
 				fetch('/list.json').then(x => x.json()).then(data => {
 					this.data = []
-					for (x in data){
+					for (x of data){
 						if (x.category == this.$route.params.kategori) {
 							this.data.push(x)
 						}
 					}
 					loading_selesai()
 				})
+			},
+			hapus_strip(x){
+				return x.replace(/\-/g, ' ')
 			}
 		},
 		mounted(){
