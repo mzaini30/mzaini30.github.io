@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Mengatasi bentrok mustache pada Vue
+category: vue
 --- 
 
 Di Vue, kita biasanya menggunakan mustache untuk binding data. Misalnya seperti ini:

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: "Mulai aja dulu: Sejarah unofficial dari Squad Blogger ODOP"
+category: writing
 --- 
 
 Berbeda dari periode-periode sebelumnya, periode saat ini buketum, Mbak Sakifah, membuat program diskusi blog. Akhirnya, mulailah aku, Mas Ibrahim, dan Mbak Ciani memulai debut grup Squad Blogger ODOP. Walaupun kami yang ditunjuk oleh Mbak Sakifah sebagai PJ untuk menjalankan program ini, bukan berarti kami yang terbaik. Yang di pikiran kami adalah "Yang penting mulai aja dulu". Soalnya, kalau nunggu yang mastah dulu buat menjalankan program ya pastinya lama karena susah nyarinya kalau belum dimulai interaksinya.

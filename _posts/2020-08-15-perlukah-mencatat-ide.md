@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Perlukah mencatat ide?
+category: psikologi
 --- 
 
 Pernah nggak kamu mendengar kata-kata seperti ini:

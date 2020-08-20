@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Menunda adalah sikap yang sangat buruk
+category: psikologi
 --- 
 
 Jadi orang itu harus cekatan. Setelah mengerjakan A, lanjut mengerjakan B, begitu seterusnya tanpa berpikir "kapan selesainya". Kalau kita terus saja berpikir "kapan selesainya", ya kita lelah sendiri karena yang namanya pekerjaan itu ya nggak ada selesainya. Kalau suatu kegiatan itu selesai, ya selesai juga kehidupan kita.

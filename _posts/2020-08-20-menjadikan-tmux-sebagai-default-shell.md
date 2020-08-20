@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Menjadikan tmux sebagai default shell
+category: termux
 ---
 
 Edit file `bashrc` lalu di baris paling pertama, tambahkan script ini **di atasnya**:

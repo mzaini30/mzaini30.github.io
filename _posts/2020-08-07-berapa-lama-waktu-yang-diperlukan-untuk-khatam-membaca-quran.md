@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Berapa lama waktu yang diperlukan untuk khatam membaca Quran?
+category: quran
 --- 
 
 Satu hari.

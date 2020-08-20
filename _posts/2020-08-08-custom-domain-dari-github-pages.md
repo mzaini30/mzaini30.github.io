@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Custom domain dari Github Pages
+category: github
 ---
 
 Di repositori Githubnya, buat file bernama `CNAME` yang berisikan:

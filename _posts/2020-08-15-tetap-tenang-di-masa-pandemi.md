@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Tetap bersikap tenang semasa pandemi yang mencemaskan
+category: psikologi
 --- 
 
 Bencana Covid 19 sekarang ini membuat panik. Walaupun memang ada yang santai-santai aja sih. "Ah, paling bohongan". "Ah, konspirasi aja". Tapi, ada juga memang orang-orang yang cemas berlebih. Bahkan, bukan hanya tetap di rumah aja, melainkan juga nggak berani keluar _dari kamarnya_. Hingga nggak berani bergeser dari kasurnya.

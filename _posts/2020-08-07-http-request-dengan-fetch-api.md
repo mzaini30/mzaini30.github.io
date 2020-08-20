@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: HTTP Request dengan Fetch API
+category: javascript
 --- 
 
 ## GET

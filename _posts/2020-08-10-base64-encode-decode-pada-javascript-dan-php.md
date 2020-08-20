@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Base64 Encode Decode pada Javascript dan PHP
+category: javascript
 ---
 
 ## Javascript

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Tutorial dasar Vue
+category: vue
 --- 
 
 Kita mulai dari template dasar Vue:

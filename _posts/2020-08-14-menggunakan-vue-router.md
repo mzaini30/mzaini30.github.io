@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Menggunakan Vue Router
+category: vue
 --- 
 
 Vue Router adalah plugin Vue yang memungkinkan kita untuk mengatur router dari frontend yang kita buat. Misalnya aja link seperti di bawah ini:

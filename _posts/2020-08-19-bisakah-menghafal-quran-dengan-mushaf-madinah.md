@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Bisakah menghafal Quran dengan mushaf Madinah?
+category: quran
 --- 
 
 Di pondok pesantren yang diamanahkan kepada kami, yaitu Madrasah Baitul Izzah yang tempatnya di Loa Bakung, kami menggunakan mushaf Madinah, bukan mushaf Utsmani yang biasa digunakan oleh pondok pesantren lainnya.

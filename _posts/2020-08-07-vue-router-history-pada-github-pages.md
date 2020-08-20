@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Vue Router history pada Github Pages
+category: vue
 --- 
 
 Github pages berbeda dengan halaman website yang berbasis pada server seperti Apache dan Nginx. Kalau di server kan ada yang namanya URL rewriting. Jadinya, `situs.com/postingan` sama artinya dengan `situs.com/index.php/postingan`. Lalu, bagaimana dengan yang nggak memiliki fitur URL rewriting yaitu pada Github Pages yang menggunakan Jekyll?

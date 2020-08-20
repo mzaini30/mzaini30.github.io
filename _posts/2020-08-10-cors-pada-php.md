@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CORS pada PHP
+category: php
 ---
 
 ```php

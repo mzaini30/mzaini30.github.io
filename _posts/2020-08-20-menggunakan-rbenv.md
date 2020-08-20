@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Menggunakan rbenv
+category: ruby
 ---
 
 ## Persiapan

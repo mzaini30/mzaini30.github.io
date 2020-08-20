@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Misteri Nyanyian Telimbai: Sisi yang tak pernah terungkap dari upacara adat yang sakral (review buku)"
+category: review-buku
 image: https://i.ibb.co/LkdxC8Z/Mock-up-book-Cover-MS-WIjaya-Design-PNG-telimbsi.png
 ---
 

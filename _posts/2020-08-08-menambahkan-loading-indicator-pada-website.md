@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Menambahkan loading indicator pada website
+category: javascript
 ---
 
 `progress.css`

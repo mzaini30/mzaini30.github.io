@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Mengapa fitur Pencarian di blog itu begitu penting?
+category: blogging
 --- 
 
 Fitur pencarian adalah salah satu komponen yang membedakan blog dengan media tulis lainnya. Iya sih di Facebook, Instagram, dan Twitter ada fitur pencariannya. Namun, fitur pencarian yang fokus pada konten yang kita miliki adalah media blog.

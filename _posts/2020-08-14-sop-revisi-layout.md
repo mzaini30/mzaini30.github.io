@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: SOP revisi layout
+category: writing
 --- 
 
 1. Penulis memberikan naskahnya kepada layouter

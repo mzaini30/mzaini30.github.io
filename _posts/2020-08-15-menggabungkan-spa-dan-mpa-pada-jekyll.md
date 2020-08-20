@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Menggabungkan SPA dan MPA pada Jekyll
+category: vue
 --- 
 
 SPA (single page application) akhir-akhir ini menjadi hype di kalangan front end developer. Mengapa bisa hype? Karena dengan SPA, membuat web kita menjadi kencang, perpindahan halamannya tanpa loading. Ya seperti blogku ini. Aku membuatnya dengan teknik SPA menggunakan Vue. Kerasa kan cepatnya?

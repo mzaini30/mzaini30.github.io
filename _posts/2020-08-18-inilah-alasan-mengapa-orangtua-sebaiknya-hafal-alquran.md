@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Inilah alasan mengapa orangtua sebaiknya hafal Alquran
+category: quran
 ---
 
 Malam ini, aku mencoba melafalkan bacaan Quranku di hadapan Maryam, anak kita yang baru berumur 2 bulan. Yang kubaca adalah surat Al-Baqarah juz 1 akhir. Ketika aku membacanya, Maryam menanggapinya dengan kata-kata yang tak mampu kami pahami. Tentu saja kami bahagia dengan hal ini. Semoga interaksi Maryam dengan Alquran bisa senantiasa terjalin.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Menelisik syahdunya surat Ad-Dhuha
+category: quran
 --- 
 
 Berbagai surat di Alquran, selain berisi dengan hukum, aturan, akhlak, tauhid, dan berbagai macam perintah Allah kepada hambanya, dia juga berisi dengan hal-hal yang indah. Atau, semua aturan itu dikemas dengan indah oleh Allah. Misalnya saja dengan surat Ad-Dhuha, yang mana Allah mengkorelasikan waktu fajar yang syahdu dengan berbagai aturan yang Dia ungkap setelahnya.

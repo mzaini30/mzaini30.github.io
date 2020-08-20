@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: CRUD dengan PDO MySQL
+category: php
 --- 
 
 Buat dulu koneksinya:

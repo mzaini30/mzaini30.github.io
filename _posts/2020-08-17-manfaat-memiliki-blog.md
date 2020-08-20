@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Manfaat memiliki blog
+category: writing
 ---
 
 Blog adalah suatu penyimpanan tulisan secara online. Biasanya sih blog itu isinya curhat, catatan online, sampai yang serius seperti konten-konten yang SEO. Kalau aku sih memakai blog ini untuk nulis santai aja. Ya habisin waktu gitu aja. Kali aja yang aku sharing ini bisa bermanfaat bagi orang banyak.

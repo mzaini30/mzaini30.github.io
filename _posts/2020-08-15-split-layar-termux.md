@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Split layar Termux
+category: termux
 --- 
 
 Jadinya seperti ini:
