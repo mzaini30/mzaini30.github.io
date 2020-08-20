@@ -45,6 +45,7 @@
   {% include semua.html %}
   {% include nggak_ada.html %}
   {% include cari.html %}
+  {% include kategori.html %}
   <!--
   <script src="/vendor/vconsole.min.js"></script>
   <script>
@@ -71,6 +72,10 @@
       {
        path: "/",
        component: semua
+      },
+      {
+        path: '/kategori/:kategori',
+        component: kategori
       },
       {
        path: "/cari/:cari?",

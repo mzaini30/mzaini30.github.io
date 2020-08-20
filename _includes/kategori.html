@@ -1,0 +1,43 @@
+<template id="kategori">
+	<div>
+		<div class="list-group" v-for='x in data'>
+			<router-link :to='x.slug' class='list-group-item list-group-item-action'><< x.title >> <span v-if='x.jumlah_kata == 0' class="badge badge-dark">belum diisi</span> <span class="badge badge-success" v-if='x.jumlah_kata >= 400'>lengkap</span></router-link>
+		</div>
+	</div>
+</template>
+<script type="text/javascript">
+	kategori = {
+		template: '#kategori',
+		delimiters: ['<<', '>>'],
+		data(){
+			return {
+				data: []
+			}
+		},
+		methods: {
+			ambil_data(){
+				loading()
+				fetch('/list.json').then(x => x.json()).then(data => {
+					sesuai = []
+					for (x in data){
+						console.log(x)
+						if (x.category == this.$route.params.kategori) {
+							sesuai.push(x)
+						}
+					}
+					this.data = sesuai
+					loading_selesai()
+				})
+				console.log(this.data)
+			}
+		},
+		mounted(){
+			this.ambil_data()
+		},
+		watch: {
+			$route(){
+				this.ambil_data()
+			}
+		}
+	}
+</script>
