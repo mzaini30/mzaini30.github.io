@@ -88,12 +88,16 @@
    if (this.data.slug != `/${this.$route.params.slug}`){
     this.ambil_data()
    }
-   this.disqus()
+   {% if jekyll.environment == 'production' %}
+    this.disqus()
+    {% endif %}
   },
   watch: {
    $route(){
     this.ambil_data()
-    this.disqus()
+    {% if jekyll.environment == 'production' %}
+      this.disqus()
+    {% endif %}
    }
   }
  }
