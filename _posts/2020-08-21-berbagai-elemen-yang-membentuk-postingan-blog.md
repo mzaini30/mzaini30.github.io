@@ -77,3 +77,6 @@ Kode Markdownnya:
 - Tidur
 - Bermain
 ```
+
+## Diagram
+
