@@ -15,3 +15,6 @@ Ini adalah contoh paragraf. Bisa juga dikasih **tebal** maupun _miring_.
 ## Tabel
 
 | Nama | Alamat |
+|---|---|
+| Zen | Samarinda |
+{:.table.table-bordered}
