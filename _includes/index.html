@@ -29,10 +29,26 @@
     overflow: auto;
     white-space: nowrap;
    }
+   .hiasan {
+    position: fixed;
+    width: 200px;
+   }
+   .kanan-bawah {
+    right: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+   }
+   @media (max-width: 1100px){
+    .hiasan {
+      display: none;
+    }
+   }
   </style>
  </head>
  <body>
   <div class="vue">
+   <img class="hiasan" src="/aset/dayak.png">
+   <img class="hiasan kanan-bawah" src="/aset/naga.png">
    <div class="progress-loading sembunyi">
     <div class="indeterminate"></div>
    </div>
