@@ -12,8 +12,16 @@ Itu kayak yang di atas contohnya.
 
 Ini adalah contoh paragraf. Bisa juga dikasih **tebal** maupun _miring_.
 
+Kode Markdownnya:
+
+```markdown
+Ini adalah contoh paragraf. Bisa juga dikasih **tebal** maupun _miring_.
+```
+
 ## Tabel
 
 | Nama | Alamat |
 |---|---|
 | Zen | Samarinda |
+| Yani | Samarinda |
+| Maryam | Samarinda |
