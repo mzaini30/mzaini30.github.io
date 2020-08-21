@@ -17,8 +17,13 @@
    }
    .menu {
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     white-space: nowrap;
+   }
+   @media (min-width: 768px){
+    .menu {
+      overflow: hidden;
+    }
    }
   </style>
  </head>
