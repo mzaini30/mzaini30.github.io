@@ -34,7 +34,7 @@
     {% assign kategori = site.categories | sort %}
     <div class="menu">
       {% for x in kategori %}
-        <router-link :class="{
+        <router-link class="badge" :class="{
          'badge-dark': $route.params.kategori != '{{ x[0] }}' || !$route.params.kategori,
          'badge-success': $route.params.kategori == '{{ x[0] }}'
         }" to='/kategori/{{ x[0] }}'>{{ x[0] }}</router-link>
