@@ -10,4 +10,14 @@ Kali ini kita akan mencoba merancang MOS untuk pondok pesantren tahfidz Quran. M
 
 ## Membaca Alquran
 
-Sebelum menghafalkan Alquran, santri baru 
+Sebelum menghafalkan Alquran, santri baru dibiasakan dulu membaca Alquran sehingga nantinya nggak kaget ketika mulai menghafalkan Alquran. Nah, untuk membaca Alquran selama MOS itu, sebaiknya adalah satu juz setiap habis shalat. Sehingga, dalam sehari bisa lima juz dibaca. Mengapa mesti satu juz? Supaya santri terbiasa untuk duduk lama dan ngaji lama yang keduanya itu merupakan kunci dari menghafal Alquran.
+
+Maka, kita buat di jadwal kegiatan MOSnya menjadi seperti ini:
+
+| Waktu | Kegiatan |
+|---|---|
+| Habis Subuh | Ngaji satu juz |
+| Habis Dzuhur | Ngaji satu juz |
+| Habis Ashar | Ngaji satu juz |
+| Habis Maghrib | Ngaji satu juz |
+| Habis Isya | Ngaji satu juz |
