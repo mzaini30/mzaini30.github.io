@@ -21,3 +21,18 @@ Maka, kita buat di jadwal kegiatan MOSnya menjadi seperti ini:
 | Habis Ashar | Ngaji satu juz |
 | Habis Maghrib | Ngaji satu juz |
 | Habis Isya | Ngaji satu juz |
+
+## Tahajud
+
+Waktu sahur adalah waktu-waktu terbaik untuk menghafalkan Alquran. Nah, santri-santri baru yang belum pernah menghafalkan Alquran lebih baik dikenalkan dengan waktu terbaik ini sehingga nantinya dia terbiasa untuk bangun malam, shalat Tahajud, kemudian menghafalkan Alquran.
+
+Sehingga, jadwalnya menjadi: 
+
+| Waktu | Kegiatan |
+|---|---|
+| Jam 3 | Shalat Tahajud |
+| Habis Subuh | Ngaji satu juz |
+| Habis Dzuhur | Ngaji satu juz |
+| Habis Ashar | Ngaji satu juz |
+| Habis Maghrib | Ngaji satu juz |
+| Habis Isya | Ngaji satu juz |
