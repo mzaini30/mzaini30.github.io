@@ -22,6 +22,28 @@
 </div>
 <script>
  let menu = false
+ import {isLogin} from "@/store"
+ import {sql, admin} from "@/api"
+ import {clean} from "@/tools"
+ const cekLogin = async () => {
+ 	if (localStorage.password){
+ 		let body = new FormData
+ 		body.append("sql", btoa(btoa(`
+			select count(*) as banyak
+			from database_${admin}
+			where password = "${clean(localStorage.password)}"
+ 		`)))
+ 		let loginKah = await fetch(sql, {
+ 			method: "post",
+ 			body
+ 		}).then(x => x.json())
+ 		loginKah = await loginKah
+ 		if (loginKah[0].banyak > 0){
+ 			$isLogin = true
+ 		}
+ 	}
+ }
+ cekLogin()
 </script>
 <style>
  .isi {

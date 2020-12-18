@@ -1,6 +1,6 @@
 <form on:submit|preventDefault={cekLogin}>
  <div class="form-group">
-  <input type="password" class="form-control" placeholder="Masukkan password" bind:value={password} required>
+  <input type="password" class="form-control" placeholder="Masukkan password" bind:this={elPassword} bind:value={password} required>
  </div>
 </form>
 <svelte:head>
@@ -11,7 +11,10 @@ import {clean} from "@/tools"
 import {sql, admin} from "@/api"
 import {isLogin} from "@/store"
 import {goto} from "@roxi/routify"
+import {onMount} from "svelte"
 let password = ""
+let elPassword
+onMount(() => elPassword.focus())
 const cekLogin = async () => {
 	let body = new FormData
 	body.append("sql", btoa(btoa(`
