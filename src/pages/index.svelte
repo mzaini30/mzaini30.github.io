@@ -11,3 +11,6 @@
 <svelte:head>
  <title>Zen</title>
 </svelte:head>
+<script>
+ import {isLogin} from "@/store"
+</script>
