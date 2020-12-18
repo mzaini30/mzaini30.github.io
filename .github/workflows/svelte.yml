@@ -31,6 +31,9 @@ jobs:
       - name: Build Svelte
         run: npm run build
 
+      - name: Salin Index ke 404
+        run: cp public/index.html public/404.html
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
