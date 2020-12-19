@@ -10,7 +10,7 @@
    {#if labelnya}
     {#each labelnya as x}
     <li class="nav-item">
-     <a class="nav-link" aria-current="page" href="/" on:click={() => menu = !menu}>{x.label}</a>
+     <a class="nav-link" aria-current="page" href="/cari/{x.label}" on:click={ubahUkuran}>{x.label}</a>
     </li>
     {/each}
    {/if}
@@ -23,11 +23,25 @@
  <slot/>
 </div>
 <script>
- let menu = false
- let labelnya = []
  import {isLogin} from "@/store"
  import {sql, admin, blog} from "@/api"
  import {clean} from "@/tools"
+ let menu = false
+ const cekUkuran = () => {
+  if (window.innerWidth >= 992) {
+    menu = true
+  } else {
+    menu = false
+  }
+ }
+ const ubahUkuran = () => {
+  if (window.innerWidth < 992) {
+    menu = !menu
+  }
+ }
+ cekUkuran()
+ window.addEventListener('resize', cekUkuran)
+ let labelnya = []
  const cariLabel = async () => {
  	const body = new FormData
  	body.append("sql", btoa(btoa(`

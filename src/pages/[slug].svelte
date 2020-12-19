@@ -27,7 +27,14 @@
 			body
 		}).then(x => x.json())
 		isinya = await isinya
-		data = isinya[0]
+		if (isinya) {
+			data = isinya[0]
+		} else {
+			data = {
+				'judul': 'Nggak Ketemu',
+				'tanggal': ''
+			}
+		}
 	}
 	$: if (slug){
 		init()

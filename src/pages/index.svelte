@@ -1,6 +1,6 @@
-<form>
+<form on:submit|preventDefault={mulaiCari}>
  <div class="form-group">
-  <input class="form-control" placeholder="Cari apa?" type="search" required>
+  <input class="form-control" placeholder="Cari apa?" type="search" bind:value={yangDicari} required>
  </div>
 </form>
 {#if $isLogin}
@@ -22,7 +22,8 @@
 <script>
  import {isLogin} from "@/store"
  import {sql, blog} from "@/api"
- let data = []
+ import {goto} from '@roxi/routify'
+ let [data, yangDicari] = [[], '']
  const keluar = () => {
  	const tanya = confirm("Keluar kah?")
  	if (tanya){
@@ -30,6 +31,7 @@
  		$isLogin = false
  	}
  }
+ const mulaiCari = () => $goto(`/cari/${encodeURIComponent(yangDicari)}`)
  const init = async () => {
  	const body = new FormData
  	body.append("sql", btoa(btoa(`
