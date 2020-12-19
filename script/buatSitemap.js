@@ -15,7 +15,7 @@ const listPostingan = async () => {
 	}).then(x => x.json())
 	ambilList = await ambilList
 	let xml = `<?xml version="1.0" encoding="utf-8" standalone="yes"?>`
-	xml += '<urlset>'
+	xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'
 	for (x of ambilList){
 		xml += `
 			<url>
