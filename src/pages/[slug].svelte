@@ -11,15 +11,17 @@
 		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
 	</div>
 {/if}
+{#if !location.href.includes("localhost:")}
 <div class="mb-3">
 	<script src="https://utteranc.es/client.js"
-        repo="mzaini30/kolom-komentar"
+        repo="mzaini30/hello-world"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
 	</script>
 </div>
+{/if}
 <svelte:head>
 	<title>{data.judul}</title>
 </svelte:head>
