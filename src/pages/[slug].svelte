@@ -1,3 +1,28 @@
+{#if data}
+	<h1>{data.judul}</h1>
+	<p><em>{data.tanggal}</em></p>
+	{#if data.isi}
+		{@html marked(data.isi)}
+	{/if}
+{/if}
+{#if $isLogin}
+	<div class="d-flex mb-3 justify-content-between">
+		<a href="/admin/edit/{slug}" class="btn btn-info">Edit</a>
+		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
+	</div>
+{/if}
+<div class="mb-3">
+	<script src="https://utteranc.es/client.js"
+        repo="mzaini30/kolom-komentar"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+	</script>
+</div>
+<svelte:head>
+	<title>{data.judul}</title>
+</svelte:head>
 <script>
 	export let slug
 	import marked from "marked"
@@ -58,28 +83,3 @@
 		}
 	}
 </script>
-{#if data}
-	<h1>{data.judul}</h1>
-	<p><em>{data.tanggal}</em></p>
-	{#if data.isi}
-		{@html marked(data.isi)}
-	{/if}
-{/if}
-{#if $isLogin}
-	<div class="d-flex mb-3 justify-content-between">
-		<a href="/admin/edit/{slug}" class="btn btn-info">Edit</a>
-		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
-	</div>
-{/if}
-<div class="mb-3">
-	<script src="https://utteranc.es/client.js"
-        repo="mzaini30/kolom-komentar"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-	</script>
-</div>
-<svelte:head>
-	<title>{data.judul}</title>
-</svelte:head>
