@@ -32,7 +32,7 @@
 {#if data.isi}
 	<h1>{data.judul}</h1>
 	<p><em>{data.tanggal}</em></p>
-	<div class="isi">{@html marked(data.isi)}</div>
+	{@html marked(data.isi)}
 {/if}
 <svelte:head>
 	<title>{data.judul}</title>
