@@ -10,15 +10,19 @@
 	</div>
 {/if}
 <div class="list-group mt-3 mb-3">
- {#each Array(50) as _}
- <a href="/tes" class="list-group-item list-group-item-action">Tes</a>
- {/each}
+	{#if data}
+		{#each data as x}
+			<a href="/{x.slug}" class="list-group-item list-group-item-action">{x.judul}</a>
+		{/each}
+	{/if}
 </div>
 <svelte:head>
  <title>Zen</title>
 </svelte:head>
 <script>
  import {isLogin} from "@/store"
+ import {sql, blog} from "@/api"
+ let data = []
  const keluar = () => {
  	const tanya = confirm("Keluar kah?")
  	if (tanya){
@@ -26,4 +30,19 @@
  		$isLogin = false
  	}
  }
+ const init = async () => {
+ 	const body = new FormData
+ 	body.append("sql", btoa(btoa(`
+		select slug, judul
+		from database_${blog}
+		order by id desc
+ 	`)))
+ 	let datanya = await fetch(sql, {
+ 		method: "post",
+ 		body
+ 	}).then(x => x.json())
+ 	datanya = await datanya
+ 	data = datanya
+ }
+ init()
 </script>
