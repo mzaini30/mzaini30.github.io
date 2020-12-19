@@ -6,8 +6,23 @@
 	<link rel='stylesheet' href='/dist/bootstrap.min.css'>
 	<link rel='stylesheet' href='/dist/global.css'>
 
-	<title>Zen</title>
-	<meta name="description" content="Official Website of Zen">
+	<title>Deploy Svelte dengan Github Action</title>
+	<meta name="description" content="Buat file `.github/workflows/deploy.yml` yang isinya:
+
+```yaml
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: 0 */8 * * *
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+ ">
 	<meta property="og:image" content="/dist/cover.jpg">
 	<link rel='icon' type='image/png' href='/dist/icon.jpg'>
 
