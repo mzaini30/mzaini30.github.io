@@ -39,6 +39,9 @@ jobs:
       - name: Salin Index
         run: node script/salinIndex.js
 
+      - name: Buat Sitemap
+        run: node script/buatSitemap.js
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

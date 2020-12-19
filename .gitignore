@@ -6,5 +6,6 @@
 /public/*.css.map
 /public/*.html
 !/public/index.html
+/public/sitemap.xml
 
 .vercel
