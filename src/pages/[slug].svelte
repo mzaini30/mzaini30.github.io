@@ -64,6 +64,11 @@
 		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
 	</div>
 {/if}
+<div class="mb-3">
+	<div class="card">
+		<div class="card-body">Punya pertanyaan? WA aja: <a href="https://wa.me/6281545143654">0815-4514-3654</a></div>
+	</div>
+</div>
 <svelte:head>
 	<title>{data.judul}</title>
 </svelte:head>
