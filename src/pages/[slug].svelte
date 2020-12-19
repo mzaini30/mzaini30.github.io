@@ -4,6 +4,7 @@
 	import {highlight} from "highlight.js"
 	import {sql, blog} from "@/api"
 	import {isLogin} from "@/store"
+	import {goto} from '@roxi/routify'
 	marked.setOptions({
 		breaks: true,
 		highlight: function(code, lang){
@@ -29,15 +30,36 @@
 		data = isinya[0]
 	}
 	init()
+	const hapus = async () => {
+		const tanya = confirm('Hapus kah?')
+		if (tanya) {
+			const body = new FormData
+			body.append('sql', btoa(btoa(`
+				delete from database_${blog}
+				where slug = '${slug}'
+			`)))
+			let mulaiHapus = await fetch(sql, {
+				method: 'post',
+				body
+			})
+			mulaiHapus = await mulaiHapus
+			if (mulaiHapus) {
+				$goto('/')
+			}
+		}
+	}
 </script>
-{#if data.isi}
+{#if data}
 	<h1>{data.judul}</h1>
 	<p><em>{data.tanggal}</em></p>
-	{@html marked(data.isi)}
+	{#if data.isi}
+		{@html marked(data.isi)}
+	{/if}
 {/if}
 {#if $isLogin}
 	<div class="d-flex justify-content-between">
-
+		<a href="/admin/edit/{slug}" class="btn btn-info">Edit</a>
+		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
 	</div>
 {/if}
 <svelte:head>
