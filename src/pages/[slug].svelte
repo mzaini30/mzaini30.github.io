@@ -3,6 +3,7 @@
 	import marked from "marked"
 	import {highlight} from "highlight.js"
 	import {sql, blog} from "@/api"
+	import {isLogin} from "@/store"
 	marked.setOptions({
 		breaks: true,
 		highlight: function(code, lang){
@@ -33,6 +34,11 @@
 	<h1>{data.judul}</h1>
 	<p><em>{data.tanggal}</em></p>
 	{@html marked(data.isi)}
+{/if}
+{#if $isLogin}
+	<div class="d-flex justify-content-between">
+
+	</div>
 {/if}
 <svelte:head>
 	<title>{data.judul}</title>
