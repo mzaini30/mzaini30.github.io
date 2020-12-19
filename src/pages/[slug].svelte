@@ -11,17 +11,11 @@
 		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
 	</div>
 {/if}
-{#if !location.href.includes("localhost:")}
 <div class="mb-3">
-	<script src="https://utteranc.es/client.js"
-        repo="mzaini30/hello-world"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-	</script>
+ <div class="card">
+  <div class="card-body">Punya pertanyaan? WA aja ke <a href="https://wa.me/6281545143654">0815-4514-3654</a></div>
+ </div>
 </div>
-{/if}
 <svelte:head>
 	<title>{data.judul}</title>
 </svelte:head>
