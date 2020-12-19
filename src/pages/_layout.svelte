@@ -7,11 +7,13 @@
   {#if menu}
   <div class="collapsettt navbar-collapse" id="navbarSupportedContent">
    <ul class="navbar-nav me-auto mb-2ttt mb-lg-0">
-    {#each Array(20) as _}
+   {#if labelnya}
+    {#each labelnya as x}
     <li class="nav-item">
-     <a class="nav-link" aria-current="page" href="/" on:click={() => menu = !menu}>Tes</a>
+     <a class="nav-link" aria-current="page" href="/" on:click={() => menu = !menu}>{x.label}</a>
     </li>
     {/each}
+   {/if}
    </ul>
   </div>
   {/if}
@@ -22,9 +24,25 @@
 </div>
 <script>
  let menu = false
+ let labelnya = []
  import {isLogin} from "@/store"
- import {sql, admin} from "@/api"
+ import {sql, admin, blog} from "@/api"
  import {clean} from "@/tools"
+ const cariLabel = async () => {
+ 	const body = new FormData
+ 	body.append("sql", btoa(btoa(`
+		select distinct label
+		from database_${blog}
+		order by label
+ 	`)))
+ 	let kumpulLabel = await fetch(sql, {
+ 		method: "post",
+ 		body
+ 	}).then(x => x.json())
+ 	kumpulLabel = await kumpulLabel
+ 	labelnya = kumpulLabel
+ }
+ cariLabel()
  const cekLogin = async () => {
  	if (localStorage.password){
  		let body = new FormData
