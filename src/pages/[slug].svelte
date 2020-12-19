@@ -29,7 +29,9 @@
 		isinya = await isinya
 		data = isinya[0]
 	}
-	init()
+	$: if (slug){
+		init()
+	}
 	const hapus = async () => {
 		const tanya = confirm('Hapus kah?')
 		if (tanya) {
