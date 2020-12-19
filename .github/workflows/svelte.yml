@@ -36,6 +36,9 @@ jobs:
       - name: Salin Index ke 404
         run: cp public/index.html public/404.html
 
+      - name: Salin Index
+        run: node script/salinIndex.js
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
