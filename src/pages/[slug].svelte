@@ -57,7 +57,7 @@
 	{/if}
 {/if}
 {#if $isLogin}
-	<div class="d-flex justify-content-between">
+	<div class="d-flex mb-3 justify-content-between">
 		<a href="/admin/edit/{slug}" class="btn btn-info">Edit</a>
 		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
 	</div>
