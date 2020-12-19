@@ -3,6 +3,9 @@
 		<input class="form-control" required placeholder="Judul">
 	</div>
 	<div class="mb-3">
+
+	</div>
+	<div class="mb-3">
 		<textarea class="form-control" placeholder="Isi"></textarea>
 	</div>
 	<div class="mb-3">
