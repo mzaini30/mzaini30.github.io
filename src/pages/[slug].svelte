@@ -4,12 +4,22 @@
 	{#if data.isi}
 		{@html marked(data.isi)}
 	{/if}
+	<hr>
+	<p>Kamu bisa memasukkan iklan di blog ini dengan cara kirim pesan di <a href="https://saweria.co/mzaini30">saweria.co/mzaini30</a></p>
 {/if}
 {#if $isLogin}
 	<div class="d-flex mb-3 justify-content-between">
 		<a href="/admin/edit/{slug}" class="btn btn-info">Edit</a>
 		<a href="/" class="btn btn-danger" on:click|preventDefault={hapus}>Hapus</a>
 	</div>
+{/if}
+{#if lainnya}
+	<h2>Tulisan Lainnya</h2>
+	<ul>
+		{#each lainnya as x}
+			<li><a href="/{x.slug}">{x.judul}</a></li>
+		{/each}
+	</ul>
 {/if}
 <div class="mb-3">
  <div class="card">
@@ -21,11 +31,44 @@
 </svelte:head>
 <script>
 	export let slug
+	let lainnya = []
 	import marked from "marked"
 	import {highlight} from "highlight.js"
-	import {sql, blog} from "@/api"
+	import {sql, blog, label} from "@/api"
 	import {isLogin} from "@/store"
 	import {goto} from '@roxi/routify'
+	const dapatkanLainnya = async () => {
+		const body = new FormData
+		body.append('sql', btoa(btoa(`
+			select label
+			from database_${blog}
+			where slug = '${slug}'
+		`)))
+		let labelnya = await fetch(sql, {
+			method: 'post',
+			body
+		}).then(x => x.json())
+		labelnya = await labelnya[0].label
+		const body2 = new FormData
+		body2.append('sql', btoa(btoa(`
+			select slug, judul
+			from database_${blog}
+			where 
+				label = '${labelnya}' and
+				slug <> '${slug}'
+			order by rand()
+			limit 5
+		`)))
+		let olahLainnya = await fetch(sql, {
+			method: 'post',
+			body: body2
+		}).then(x => x.json())
+		olahLainnya = await olahLainnya
+		lainnya = olahLainnya
+	}
+	$: if (slug) {
+		dapatkanLainnya()
+	}
 	marked.setOptions({
 		breaks: true,
 		highlight: function(code, lang){
