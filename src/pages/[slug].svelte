@@ -2,7 +2,9 @@
 	<h1>{data.judul}</h1>
 	<p><em>{data.tanggal}</em></p>
 	{#if data.isi}
-		{@html marked(data.isi)}
+		<div class="isiBlog">
+			{@html marked(data.isi)}
+		</div>
 	{/if}
 	<hr>
 	<p>Kamu bisa memasukkan iklan di blog ini dengan cara kirim pesan di <a href="https://saweria.co/mzaini30">saweria.co/mzaini30</a></p>
