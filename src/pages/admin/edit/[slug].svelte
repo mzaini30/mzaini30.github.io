@@ -3,8 +3,14 @@
 		<input class="form-control" required placeholder="Judul" bind:value={judul}>
 	</div>
 	<div class="mb-3">
-		<input class="form-control" required placeholder="Label" bind:value={label}>
+		<input class="form-control" required placeholder="Label" list="label" bind:value={label}>
 	</div>
+	<datalist id="label">
+		{#each listLabel as x}
+			<option value={x.label}>
+		{/each}
+	</datalist>
+	<!--
 	<div class="mb-1">
 		{#if listLabel}
 			{#each listLabel as x}
@@ -12,6 +18,7 @@
 			{/each}
 		{/if}
 	</div>
+	-->
 	<div class="mb-3">
 		<textarea bind:this={elIsi} class="form-control" placeholder="Isi" bind:value={isi}></textarea>
 	</div>
@@ -31,7 +38,7 @@
 	import {clean} from "@/tools"
 	import {goto} from "@roxi/routify"
 	const aturTinggi = () => {
-		const tingginya = () => elIsi.style.height = `${window.innerHeight - 140}px`
+		const tingginya = () => elIsi.style.height = `${window.innerHeight - 250}px`
 		tingginya()
 		window.addEventListener("resize", tingginya)
 	}
