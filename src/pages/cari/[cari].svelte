@@ -29,6 +29,7 @@
 		if (prosesCari) {
 			data = prosesCari
 		} else {
+			data = []
 			data[0] = {
 				'slug': '',
 				'judul': `${teksCari} nggak ada`
