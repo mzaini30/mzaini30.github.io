@@ -37,7 +37,7 @@
 			<li>
 				<p><strong>
 					{#if x.blog != ""}
-						<a href={x.blog}>{x.nama}</a>
+						<a rel="nofollow" href={x.blog}>{x.nama}</a>
 					{:else}
 						{x.nama}
 					{/if}
