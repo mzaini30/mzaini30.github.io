@@ -26,6 +26,8 @@
  import {isLogin} from "@/store"
  import {sql, admin, blog} from "@/api"
  import {clean} from "@/tools"
+ // import VConsole from "vconsole"
+ // new VConsole
  let menu = false
  const cekUkuran = () => {
   if (window.innerWidth >= 992) {
