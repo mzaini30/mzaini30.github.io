@@ -3,7 +3,7 @@
 	<p><em>{data.tanggal}</em></p>
 	{#if data.isi}
 		<div class="isiBlog">
-			{@html marked(data.isi)}
+			{@html yt(marked(data.isi))}
 		</div>
 	{/if}
 	<hr>
@@ -76,6 +76,7 @@
 	let komentarnya = []
 	let [nama, urlBlog, isiKomentar] = ["", "", ""]
 	import marked from "marked"
+	import yt from "embed-youtube"
 	// import VConsole from "vconsole"
 	import {highlight} from "highlight.js"
 	import {sql, blog, label, komentar} from "@/api"
