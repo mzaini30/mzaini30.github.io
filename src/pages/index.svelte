@@ -17,7 +17,7 @@
 	{/if}
 </div>
 <svelte:head>
- <title>Muhammad Zaini, S.Psi</title>
+ <title>Zen</title>
 </svelte:head>
 <script>
  import {isLogin} from "@/store"
