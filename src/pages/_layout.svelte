@@ -96,4 +96,7 @@
  .container-navbar {
   overflow-x: hidden;
  }
+ .navbar-toggler:focus {
+  box-shadow: none;
+ }
 </style>
