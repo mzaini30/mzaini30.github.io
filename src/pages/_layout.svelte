@@ -1,5 +1,5 @@
 <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
- <div class="container">
+ <div class="container container-navbar">
   <a class="navbar-brand" href="/">Muhammad Zaini, S.Psi</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" on:click={() => menu = !menu}>
    <span class="navbar-toggler-icon"></span>
@@ -22,6 +22,7 @@
 <div class="container isi">
  <slot/>
 </div>
+
 <script>
  import {isLogin} from "@/store"
  import {sql, admin, blog} from "@/api"
@@ -79,6 +80,7 @@
  }
  cekLogin()
 </script>
+
 <style>
  .isi {
  	padding-top: 70px;
@@ -86,5 +88,12 @@
  .navbar-nav {
  	max-height: 200px;
  	overflow: auto;
+  overflow-x: hidden;
+ }
+ .nav-link {
+  white-space: nowrap;
+ }
+ .container-navbar {
+  overflow-x: hidden;
  }
 </style>
