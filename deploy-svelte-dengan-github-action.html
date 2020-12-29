@@ -30,8 +30,23 @@ jobs:
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@blogodop">
 	<meta name="twitter:creator" content="@blogodop">
-	<meta name="twitter:title" content="Zen">
-	<meta name="twitter:description" content="Official Website of Zen">
+	<meta name="twitter:title" content="Deploy Svelte dengan Github Action">
+	<meta name="twitter:description" content="Buat file `.github/workflows/deploy.yml` yang isinya:
+
+```yaml
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: 0 */8 * * *
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+ ">
 	<meta name="twitter:image" content="/dist/cover.jpg">
 
 	<link rel='stylesheet' href='/bundle.css'>
