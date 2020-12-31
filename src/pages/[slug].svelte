@@ -75,6 +75,8 @@
 	let lainnya = []
 	let komentarnya = []
 	let [nama, urlBlog, isiKomentar] = ["", "", ""]
+	nama = localStorage.komentarNama ? localStorage.komentarNama : ''
+	urlBlog = localStorage.komentarUrlBlog ? localStorage.komentarUrlBlog : ''
 	import marked from "marked"
 	import yt from "embed-youtube"
 	// import VConsole from "vconsole"
@@ -117,8 +119,10 @@
 			ambilKomentar()
 			alert("Komentar sudah terkirim")
 			// [nama, urlBlog, isiKomentar] = ["", "", ""]
-			nama = ""
-			urlBlog = ""
+			// nama = ""
+			// urlBlog = ""
+			localStorage.setItem('komentarNama', nama)
+			localStorage.setItem('komentarUrlBlog', urlBlog)
 			isiKomentar = ""
 		}
 	}
