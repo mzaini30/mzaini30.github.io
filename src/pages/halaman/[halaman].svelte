@@ -16,9 +16,11 @@
 		{/each}
 	{/if}
 </div>
-<div class="mb-3">
-	<a href="/halaman/2" class="btn btn-primary">Halaman Berikutnya</a>
-</div>
+{#if +dataSaatIni + 1 <= semuaData}
+	<div class="mb-3">
+		<a href="/halaman/{+halaman + 1}" class="btn btn-primary">Halaman Berikutnya</a>
+	</div>
+{/if}
 
 <svelte:head>
  <title>Zen</title>
@@ -28,6 +30,8 @@
  import {isLogin, perHalaman} from "@/store"
  import {sql, blog} from "@/api"
  import {goto} from '@roxi/routify'
+ let [semuaData, dataSaatIni] = ['', '']
+ export let halaman
  let [data, yangDicari] = [[], '']
  const keluar = () => {
  	const tanya = confirm("Keluar kah?")
@@ -38,12 +42,14 @@
  }
  const mulaiCari = () => $goto(`/cari/${encodeURIComponent(yangDicari)}`)
  const init = async () => {
+ 	dataSaatIni = halaman * $perHalaman
+
  	const body = new FormData
  	body.append("sql", btoa(btoa(`
 		select slug, judul
 		from database_${blog}
 		order by id desc
-		limit ${$perHalaman}
+		limit ${(halaman - 1) * $perHalaman}, ${$perHalaman}
  	`)))
  	let datanya = await fetch(sql, {
  		method: "post",
@@ -51,6 +57,21 @@
  	}).then(x => x.json())
  	datanya = await datanya
  	data = datanya
+
+ 	const body2 = new FormData
+ 	body2.append('sql', btoa(btoa(`
+ 		select count(*) as banyak
+ 		from database_${blog}
+ 	`)))
+ 	let banyak = await fetch(sql, {
+ 		method: 'post',
+ 		body: body2
+ 	}).then(x => x.json())
+ 	banyak = await banyak[0].banyak
+ 	semuaData = banyak
  }
- init()
+ // init()
+ $: if (halaman) {
+ 	init()
+ }
 </script>
