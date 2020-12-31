@@ -92,7 +92,6 @@
 			select nama, blog, tanggal, komentar
 			from database_${komentar}
 			where slug = "${slug}"
-			order by id desc
 		`)))
 		let semuaKomentar = await fetch(sql, {
 			method: "post",
