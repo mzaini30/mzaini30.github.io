@@ -166,7 +166,11 @@
 			return highlight(lang, code).value
 		}
 	})
-	let data = {}
+	let data = {
+		judul: '',
+		tanggal: '',
+		isi: ''
+	}
 	const init = async () => {
 		const body = new FormData
 		body.append("sql", btoa(btoa(`
