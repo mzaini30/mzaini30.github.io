@@ -7,6 +7,7 @@
 		</div>
 	{/if}
 	<hr>
+	<p><em>Stay Connected: <a href="https://facebook.com/mzaini30">Facebook</a> ~ <a href="https://instagram.com/mzaini30">Instagram</a> ~ <a href="https://twitter.com/blogodop">Twitter</a></em></p>
 	<p>Kamu bisa memasukkan iklan di blog ini dengan cara kirim pesan di <a href="https://saweria.co/mzaini30">saweria.co/mzaini30</a></p>
 {/if}
 {#if $isLogin}
