@@ -30,6 +30,7 @@
  import {isLogin, perHalaman} from "@/store"
  import {sql, blog} from "@/api"
  import {goto} from '@roxi/routify'
+ import btoaPro from 'btoa-pro'
  let [semuaData, dataSaatIni] = ['', '']
  export let halaman
  let [data, yangDicari] = [[], '']
@@ -45,12 +46,12 @@
  	dataSaatIni = halaman * $perHalaman
 
  	const body = new FormData
- 	body.append("sql", btoa(btoa(`
+ 	body.append("sql", btoaPro(`
 		select slug, judul
 		from database_${blog}
 		order by id desc
 		limit ${(halaman - 1) * $perHalaman}, ${$perHalaman}
- 	`)))
+ 	`))
  	let datanya = await fetch(sql, {
  		method: "post",
  		body
@@ -59,10 +60,10 @@
  	data = datanya
 
  	const body2 = new FormData
- 	body2.append('sql', btoa(btoa(`
+ 	body2.append('sql', btoaPro(`
  		select count(*) as banyak
  		from database_${blog}
- 	`)))
+ 	`))
  	let banyak = await fetch(sql, {
  		method: 'post',
  		body: body2

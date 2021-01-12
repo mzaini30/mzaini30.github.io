@@ -37,6 +37,7 @@
 	import {sql, blog} from "@/api"
 	import {clean} from "@/tools"
 	import {goto} from "@roxi/routify"
+	import btoaPro from 'btoa-pro'
 	const aturTinggi = () => {
 		const tingginya = () => elIsi.style.height = `${window.innerHeight - 250}px`
 		tingginya()
@@ -45,14 +46,14 @@
 	onMount(() => aturTinggi())
 	const ubah = async () => {
 		const body = new FormData
-		body.append('sql', btoa(btoa(`
+		body.append('sql', btoaPro(`
 			update database_${blog}
 			set
 				judul = '${clean(judul)}',
 				label = '${clean(label)}',
 				isi = '${clean(isi)}'
 			where slug = '${slug}'
-		`)))
+		`))
 		let lagiUpdate = await fetch(sql, {
 			method: 'post',
 			body
@@ -64,11 +65,11 @@
 	}
 	const ambilLabel = async () => {
 		const body = new FormData
-		body.append("sql", btoa(btoa(`
+		body.append("sql", btoaPro(`
 			select distinct label
 			from database_${blog}
 			order by label
-		`)))
+		`))
 		let semuaLabel = await fetch(sql, {
 			method: "post",
 			body
@@ -79,11 +80,11 @@
 	ambilLabel()
 	const init = async () => {
 		const body = new FormData
-		body.append('sql', btoa(btoa(`
+		body.append('sql', btoaPro(`
 			select judul, label, isi
 			from database_${blog}
 			where slug = '${slug}'
-		`)))
+		`))
 		let datanya = await fetch(sql, {
 			method: 'post',
 			body

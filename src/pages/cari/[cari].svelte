@@ -7,12 +7,13 @@
 	import {sql, blog} from "@/api"
 	import {goto} from '@roxi/routify'
 	import {clean} from '@/tools'
+	import btoaPro from 'btoa-pro'
 	const mulaiCari = () => $goto(`/cari/${encodeURIComponent(yangDicari)}`)
 	const hasilCari = async () => {
 		let teksCari = clean(decodeURIComponent(cari))
 		yangDicari = teksCari
 		const body = new FormData
-		body.append('sql', btoa(btoa(`
+		body.append('sql', btoaPro(`
 			select slug, judul
 			from database_${blog}
 			where
@@ -20,7 +21,7 @@
 				label like '%${teksCari}%' or
 				isi like '%${teksCari}%'
 			order by judul
-		`)))
+		`))
 		let prosesCari = await fetch(sql, {
 			method: 'post', 
 			body

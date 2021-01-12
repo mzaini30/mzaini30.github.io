@@ -36,6 +36,7 @@
 	import {sql, blog} from "@/api"
 	import {tanggal, slug, clean} from "@/tools"
 	import {goto} from "@roxi/routify"
+	import btoaPro from 'btoa-pro'
 	const aturTinggi = () => {
 		const tingginya = () => elIsi.style.height = `${window.innerHeight - 250}px`
 		tingginya()
@@ -59,10 +60,10 @@
 	ambilLabel()
 	const tambahkan = async () => {
 		const body = new FormData
-		body.append("sql", btoa(btoa(`
+		body.append("sql", btoaPro(`
 			insert into database_${blog} (slug, judul, tanggal, isi, label)
 			values ("${slug(judul)}", "${clean(judul)}", "${tanggal()}", "${clean(isi)}", "${clean(label).toLowerCase().replace(/ /g, '-')}")
-		`)))
+		`))
 		let kirim = await fetch(sql, {
 			method: "post",
 			body

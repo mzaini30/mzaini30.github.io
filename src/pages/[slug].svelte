@@ -85,14 +85,15 @@
 	import {isLogin} from "@/store"
 	import {goto} from '@roxi/routify'
 	import {clean, tanggal} from "@/tools"
+	import btoaPro from 'btoa-pro'
 	// new VConsole
 	const ambilKomentar = async () => {
 		const body = new FormData
-		body.append("sql", btoa(btoa(`
+		body.append("sql", btoaPro(`
 			select nama, blog, tanggal, komentar
 			from database_${komentar}
 			where slug = "${slug}"
-		`)))
+		`))
 		let semuaKomentar = await fetch(sql, {
 			method: "post",
 			body
@@ -105,10 +106,10 @@
 	}
 	const kirimKomentar = async () => {
 		const body = new FormData
-		body.append("sql", btoa(btoa(`
+		body.append("sql", btoaPro(`
 			insert into database_${komentar} (nama, blog, komentar, tanggal, slug)
 			values ("${clean(nama)}", "${clean(urlBlog)}", "${clean(isiKomentar)}", "${tanggal()}", "${slug}")
-		`)))
+		`))
 		let kirim = await fetch(sql, {
 			method: "post",
 			body
@@ -127,18 +128,18 @@
 	}
 	const dapatkanLainnya = async () => {
 		const body = new FormData
-		body.append('sql', btoa(btoa(`
+		body.append('sql', btoaPro(`
 			select label
 			from database_${blog}
 			where slug = '${slug}'
-		`)))
+		`))
 		let labelnya = await fetch(sql, {
 			method: 'post',
 			body
 		}).then(x => x.json())
 		labelnya = await labelnya[0].label
 		const body2 = new FormData
-		body2.append('sql', btoa(btoa(`
+		body2.append('sql', btoaPro(`
 			select slug, judul
 			from database_${blog}
 			where 
@@ -146,7 +147,7 @@
 				slug <> '${slug}'
 			order by rand()
 			limit 5
-		`)))
+		`))
 		let olahLainnya = await fetch(sql, {
 			method: 'post',
 			body: body2
@@ -173,11 +174,11 @@
 	}
 	const init = async () => {
 		const body = new FormData
-		body.append("sql", btoa(btoa(`
+		body.append("sql", btoaPro(`
 			select judul, tanggal, isi
 			from database_${blog}
 			where slug = "${slug}"
-		`)))
+		`))
 		let isinya = await fetch(sql, {
 			method: "post",
 			body
@@ -199,10 +200,10 @@
 		const tanya = confirm('Hapus kah?')
 		if (tanya) {
 			const body = new FormData
-			body.append('sql', btoa(btoa(`
+			body.append('sql', btoaPro(`
 				delete from database_${blog}
 				where slug = '${slug}'
-			`)))
+			`))
 			let mulaiHapus = await fetch(sql, {
 				method: 'post',
 				body

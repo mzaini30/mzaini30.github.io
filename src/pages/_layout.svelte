@@ -27,6 +27,7 @@
  import {isLogin} from "@/store"
  import {sql, admin, blog} from "@/api"
  import {clean} from "@/tools"
+ import btoaPro from 'btoa-pro'
  // import VConsole from "vconsole"
  // new VConsole
  let menu = false
@@ -47,11 +48,11 @@
  let labelnya = []
  const cariLabel = async () => {
  	const body = new FormData
- 	body.append("sql", btoa(btoa(`
+ 	body.append("sql", btoaPro(`
 		select distinct label
 		from database_${blog}
 		order by label
- 	`)))
+ 	`))
  	let kumpulLabel = await fetch(sql, {
  		method: "post",
  		body
@@ -63,11 +64,11 @@
  const cekLogin = async () => {
  	if (localStorage.password){
  		let body = new FormData
- 		body.append("sql", btoa(btoa(`
+ 		body.append("sql", btoaPro(`
 			select count(*) as banyak
 			from database_${admin}
 			where password = "${clean(localStorage.password)}"
- 		`)))
+ 		`))
  		let loginKah = await fetch(sql, {
  			method: "post",
  			body

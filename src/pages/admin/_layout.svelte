@@ -3,14 +3,15 @@
 	import {goto} from "@roxi/routify"
 	import {sql, admin} from "@/api"
 	import {clean} from "@/tools"
+	import btoaPro from 'btoa-pro'
 	const cekLogin = async () => {
 		if (localStorage.password){
 			let body = new FormData
-			body.append("sql", btoa(btoa(`
+			body.append("sql", btoaPro(`
 				select count(*) as banyak
 				from database_${admin}
 				where password = "${clean(localStorage.password)}"
-			`)))
+			`))
 			let loginKah = await fetch(sql, {
 				method: "post",
 				body

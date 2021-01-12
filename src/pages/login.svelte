@@ -12,16 +12,17 @@ import {sql, admin} from "@/api"
 import {isLogin} from "@/store"
 import {goto} from "@roxi/routify"
 import {onMount} from "svelte"
+import btoaPro from 'btoa-pro'
 let password = ""
 let elPassword
 onMount(() => elPassword.focus())
 const cekLogin = async () => {
 	let body = new FormData
-	body.append("sql", btoa(btoa(`
+	body.append("sql", btoaPro(`
 	 select count(*) as banyak
 	 from database_${admin}
 	 where password = "${clean(password)}"
-	`)))
+	`))
 	let adaPassword = await fetch(sql, {
 		method: "post",
 		body

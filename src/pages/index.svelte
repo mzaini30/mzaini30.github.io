@@ -28,6 +28,7 @@
  import {isLogin, perHalaman} from "@/store"
  import {sql, blog} from "@/api"
  import {goto} from '@roxi/routify'
+ import btoaPro from 'btoa-pro'
  let [data, yangDicari] = [[], '']
  const keluar = () => {
  	const tanya = confirm("Keluar kah?")
@@ -39,12 +40,12 @@
  const mulaiCari = () => $goto(`/cari/${encodeURIComponent(yangDicari)}`)
  const init = async () => {
  	const body = new FormData
- 	body.append("sql", btoa(btoa(`
+ 	body.append("sql", btoaPro(`
 		select slug, judul
 		from database_${blog}
 		order by id desc
 		limit ${$perHalaman}
- 	`)))
+ 	`))
  	let datanya = await fetch(sql, {
  		method: "post",
  		body
