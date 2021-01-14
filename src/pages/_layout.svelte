@@ -101,7 +101,3 @@
   box-shadow: none;
  }
 </style>
-
-<svelte:head>
-	<script data-ad-client="ca-pub-2408628281705149" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</svelte:head>
