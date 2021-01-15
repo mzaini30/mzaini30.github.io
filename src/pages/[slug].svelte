@@ -7,6 +7,11 @@
 		</div>
 	{/if}
 {/if}
+<div class="mb-3">
+	<center>
+		{@html elIklan}
+	</center>
+</div>
 {#if $isLogin}
 	<div class="d-flex mb-3 justify-content-between">
 		<a href="/admin/edit/{slug}" class="btn btn-info">Edit</a>
@@ -72,6 +77,7 @@
 	export let slug
 	let lainnya = []
 	let komentarnya = []
+	let elIklan = ''
 	let [nama, urlBlog, isiKomentar] = ["", "", ""]
 	nama = localStorage.komentarNama ? localStorage.komentarNama : ''
 	urlBlog = localStorage.komentarUrlBlog ? localStorage.komentarUrlBlog : ''
@@ -82,8 +88,9 @@
 	import {sql, blog, label, komentar} from "@/api"
 	import {isLogin} from "@/store"
 	import {goto} from '@roxi/routify'
-	import {clean, tanggal} from "@/tools"
+	import {clean, tanggal, acak} from "@/tools"
 	import btoaPro from 'btoa-pro'
+	import {iklan} from '@/iklan'
 	// new VConsole
 	const ambilKomentar = async () => {
 		const body = new FormData
@@ -101,6 +108,12 @@
 	}
 	$: if (slug){
 		ambilKomentar()
+	}
+	$: if (slug) {
+		tampilIklan()
+	}
+	const tampilIklan = () => {
+		elIklan = acak(iklan)[0]
 	}
 	const kirimKomentar = async () => {
 		const body = new FormData

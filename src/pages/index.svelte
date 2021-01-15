@@ -1,20 +1,30 @@
 <form on:submit|preventDefault={mulaiCari}>
- <div class="form-group">
+ <div class="mb-3">
   <input class="form-control" placeholder="Cari apa?" type="search" bind:value={yangDicari} required>
  </div>
 </form>
 {#if $isLogin}
-	<div class="mt-3 d-flex justify-content-between">
+	<div class="mb-3 d-flex justify-content-between">
 		<a href="/admin/tulis" class="btn btn-info">Tulis</a>
 		<a href="/" on:click|preventDefault={keluar} class="btn btn-warning">Keluar</a>
 	</div>
 {/if}
-<div class="list-group mt-3 mb-3">
+<div class="mb-3">
+	<center>
+		{@html elIklan[0]}
+	</center>
+</div>
+<div class="list-group mb-3">
 	{#if data}
 		{#each data as x}
 			<a href="/{x.slug}" class="list-group-item list-group-item-action">{x.judul}</a>
 		{/each}
 	{/if}
+</div>
+<div class="mb-3">
+	<center>
+		{@html elIklan[1]}
+	</center>
 </div>
 <div class="mb-3">
 	<a href="/halaman/2" class="btn btn-primary">Halaman Berikutnya</a>
@@ -29,7 +39,10 @@
  import {sql, blog} from "@/api"
  import {goto} from '@roxi/routify'
  import btoaPro from 'btoa-pro'
+ import {iklan} from '@/iklan'
+ import {acak} from '@/tools'
  let [data, yangDicari] = [[], '']
+ let elIklan = ['', '']
  const keluar = () => {
  	const tanya = confirm("Keluar kah?")
  	if (tanya){
@@ -54,4 +67,8 @@
  	data = datanya
  }
  init()
+ const tampilIklan = () => {
+ 	elIklan = acak(iklan)
+ }
+ tampilIklan()
 </script>
