@@ -2,8 +2,15 @@
 	<h1>{data.judul}</h1>
 	<p><em>{data.tanggal} ~ <a href="mailto:muhzaini30@gmail.com">muhzaini30@gmail.com</a></em></p>
 	{#if data.isi}
-		<div class="isiBlog">
-			{@html yt(marked(data.isi))}
+		<div class="isi-blog">
+			{@html yt(marked(data.isi)).split('<h2').map(bagian => bagian = `
+				${bagian}
+				<div class='mb-3 ini-iklannya'>
+					<center>
+						${acak(iklan)[0]}
+					</center>
+				</div>
+			`).join('<h2')}
 		</div>
 	{/if}
 {/if}
@@ -78,6 +85,7 @@
 	let lainnya = []
 	let komentarnya = []
 	let elIklan = ''
+	// let artikel = 'hello world'
 	let [nama, urlBlog, isiKomentar] = ["", "", ""]
 	nama = localStorage.komentarNama ? localStorage.komentarNama : ''
 	urlBlog = localStorage.komentarUrlBlog ? localStorage.komentarUrlBlog : ''
@@ -197,6 +205,8 @@
 		isinya = await isinya
 		if (isinya) {
 			data = isinya[0]
+			// let olahArtikel = yt(marked(data.isi)).split('<h2').forEach(bagian => )
+			// artikel = olahArtikel
 		} else {
 			data = {
 				'judul': 'Nggak Ketemu',
@@ -231,8 +241,11 @@
 	.isiKomentar {
 		white-space: pre-wrap;
 	}
-	:global(.isiBlog pre code){
+	:global(.isi-blog pre code){
 		width: 1px;
 		display: block;
+	}
+	:global(.isi-blog .ini-iklannya:last-child){
+		display: none;
 	}
 </style>
