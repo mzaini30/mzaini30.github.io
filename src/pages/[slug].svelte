@@ -1,6 +1,6 @@
 {#if data}
 	<h1>{data.judul}</h1>
-	<p><em>{data.tanggal}</em></p>
+	<p><em>{data.tanggal} ~ <a href="mailto:muhzaini30@gmail.com">muhzaini30@gmail.com</a></em></p>
 	{#if data.isi}
 		<div class="isiBlog">
 			{@html yt(marked(data.isi))}
