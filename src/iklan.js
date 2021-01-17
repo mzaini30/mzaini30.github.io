@@ -14,3 +14,4 @@ export const iklan = [
 niagahoster
 	*/
 ]
+export const iklanPanjang = []
