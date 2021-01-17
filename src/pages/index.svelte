@@ -9,11 +9,13 @@
 		<a href="/" on:click|preventDefault={keluar} class="btn btn-warning">Keluar</a>
 	</div>
 {/if}
+<!--
 <div class="mb-3">
 	<center>
 		{@html elIklan[0]}
 	</center>
 </div>
+-->
 <div class="list-group mb-3">
 	{#if data}
 		{#each data as x}
