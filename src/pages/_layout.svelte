@@ -20,17 +20,33 @@
  </div>
 </div>
 <div class="container isi">
- <slot/>
+  <div class="row">
+    <div class="col-sm-2 d-none d-sm-block">
+      <div class="melayang iklannya">
+        {@html iklan[0]}
+      </div>
+    </div>
+    <div class="col-sm">
+      <slot/>
+    </div>
+    <div class="col-sm-2 d-none d-sm-block">
+      <div class="melayang iklannya">
+        {@html iklan[1]}
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
  import {isLogin} from "@/store"
  import {sql, admin, blog} from "@/api"
- import {clean} from "@/tools"
+ import {clean, acak} from "@/tools"
  import btoaPro from 'btoa-pro'
+ import {iklanPanjang} from '@/iklan'
  // import VConsole from "vconsole"
  // new VConsole
  let menu = false
+ let iklan = ['', '']
  const cekUkuran = () => {
   if (window.innerWidth >= 992) {
     menu = true
@@ -80,6 +96,10 @@
  	}
  }
  cekLogin()
+ const ambilIklan = () => {
+  iklan = acak(iklanPanjang)
+ }
+ ambilIklan()
 </script>
 
 <style>
@@ -99,5 +119,13 @@
  }
  .navbar-toggler:focus {
   box-shadow: none;
+ }
+ .melayang {
+  position: sticky;
+  top: 70px;
+ }
+ :global(.iklannya img){
+  width: 100%;
+  margin-bottom: 20px;
  }
 </style>

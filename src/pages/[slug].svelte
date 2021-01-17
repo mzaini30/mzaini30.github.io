@@ -231,4 +231,8 @@
 	.isiKomentar {
 		white-space: pre-wrap;
 	}
+	:global(.isiBlog pre code){
+		width: 1px;
+		display: block;
+	}
 </style>
