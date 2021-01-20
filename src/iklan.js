@@ -13,7 +13,9 @@ export const iklan = [
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/d3982" alt="DomaiNesia"></a>`,
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/f75bf" alt="www.domainesia.com"></a>`,
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/3194b" alt="DomaiNesia"></a>`,
-	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/17e58" alt="DomaiNesia"></a>`
+	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/17e58" alt="DomaiNesia"></a>`,
+
+	`<a href="https://nasihosting.com/"><img src="https://nasihosting.com/nasihosting.jpg"></a>`
 ]
 export const iklanPanjang = [
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/9cfe1" alt="DomaiNesia"></a>`,
