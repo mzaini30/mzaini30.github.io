@@ -136,7 +136,7 @@
 		kirim = await kirim
 		if (kirim){
 			ambilKomentar()
-			alert("Komentar sudah terkirim")
+			// alert("Komentar sudah terkirim")
 			// [nama, urlBlog, isiKomentar] = ["", "", ""]
 			// nama = ""
 			// urlBlog = ""
