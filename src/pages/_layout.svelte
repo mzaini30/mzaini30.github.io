@@ -22,7 +22,7 @@
 <div class="container isi">
   <div class="row">
     <div class="col-sm-2 d-none d-sm-block">
-      <div class="melayang iklannya">
+      <div class="melayang iklannya iklannya-kiri">
         {@html iklan[0]}
       </div>
     </div>
@@ -30,7 +30,7 @@
       <slot/>
     </div>
     <div class="col-sm-2 d-none d-sm-block">
-      <div class="melayang iklannya">
+      <div class="melayang iklannya iklannya-kanan">
         {@html iklan[1]}
       </div>
     </div>
@@ -125,7 +125,11 @@
   top: 70px;
  }
  :global(.iklannya img){
-  width: 100%;
+  /*width: 100%;*/
   margin-bottom: 20px;
+ }
+ :global(.iklannya-kiri img){
+  right: 0;
+  position: absolute;
  }
 </style>
