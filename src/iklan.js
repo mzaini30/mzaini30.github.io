@@ -111,6 +111,6 @@ export const iklanPanjang = [
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/120x600/ssd-vps-hosting.jpg"></a>`,
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/120x600/email-hosting.jpg"></a>`,
 
-	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-long-120x-600x.png" style="height:90px;width:728px;" border="0" alt="Jetorbit Web Hosting" /> </a> `,
-	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-long-160x-600x.png" style="height:90px;width:728px;" border="0" alt="Jetorbit Web Hosting" /> </a> `
+	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-long-120x-600x.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
+	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-long-160x-600x.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `
 ]
