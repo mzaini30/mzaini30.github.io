@@ -62,10 +62,10 @@ export const iklan = [
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/200x200/ssd-vps-hosting.jpg"></a>`,
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/200x200/email-hosting.jpg"></a>`,
 
-	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-wide-728-v2.png" style="height:90px;width:728px;" border="0" alt="Jetorbit Web Hosting" /> </a> `,
-	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-wide-728.png" style="height:90px;width:728px;" border="0" alt="Jetorbit Web Hosting" /> </a> `,
-	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-square-300x-250x-v2.png" style="height:90px;width:728px;" border="0" alt="Jetorbit Web Hosting" /> </a> `,
-	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-square-300x-250x.png" style="height:90px;width:728px;" border="0" alt="Jetorbit Web Hosting" /> </a> `,
+	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-wide-728-v2.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
+	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-wide-728.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
+	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-square-300x-250x-v2.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
+	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-square-300x-250x.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
 
 	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/336x280.png" height="280" width="336" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
 	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/250x250.png" height="250" width="250" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
