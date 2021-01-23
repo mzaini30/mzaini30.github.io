@@ -17,9 +17,9 @@ export const iklan = [
 
 	`<a href="https://nasihosting.com/"><img src="https://nasihosting.com/nasihosting.jpg"></a>`,
 
-	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/1.png" width="728" height="90" border="0"></a>`,
-	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/2.png" width="468" height="60" border="0"></a>`,
-	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/3.png" width="300" height="250" border="0"></a>`,
+	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/1.png"   border="0"></a>`,
+	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/2.png"   border="0"></a>`,
+	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/3.png"   border="0"></a>`,
 
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/980x120/ssd-dedicated-server.jpg"></a>`,
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/980x120/ssd-unlimited-hosting.jpg"></a>`,
@@ -67,18 +67,18 @@ export const iklan = [
 	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-square-300x-250x-v2.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
 	` <a href="https://client.jetorbit.com/aff.php?aff=492" > <img src="https://www.jetorbit.com/images/banner/banner-square-300x-250x.png" style="" border="0" alt="Jetorbit Web Hosting" /> </a> `,
 
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/336x280.png" height="280" width="336" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/250x250.png" height="250" width="250" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/300x250.png" height="200" width="300" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/468x60.png" height="60" width="468" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/970x250.png" height="250" width="970" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/250x250.png" height="200" width="200" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-200x200.jpg" height="200" width="200" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-250x250.jpg" height="250" width="250" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-300x250.jpg" height="200" width="300" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-468x60.jpg" height="60" width="468" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-970x250.jpg" height="250" width="970" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
-	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-728x90.jpg" height="90" width="728" border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/336x280.png"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/250x250.png"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/300x250.png"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/468x60.png"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/970x250.png"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/250x250.png"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-200x200.jpg"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-250x250.jpg"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-300x250.jpg"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-468x60.jpg"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-970x250.jpg"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`,
+	`<a href="https://my.idcloudhost.com/aff.php?aff=6895"><img src="https://idcloudhost.com/wp-content/uploads/2017/01/IDCloudHost-SSD-Cloud-Hosting-Indonesia-728x90.jpg"   border="0" alt="IDCloudHost | SSD Cloud Hosting Indonesia" /></a>`
 ]
 export const iklanPanjang = [
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/9cfe1" alt="DomaiNesia"></a>`,
@@ -88,7 +88,7 @@ export const iklanPanjang = [
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/1608d" alt="DomaiNesia"></a>`,
 	`<a href="https://www.domainesia.com/?aff=8297" target="_blank"><img src="https://dnva.me/4b07e" alt="www.domainesia.com"></a>`,
 
-	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/4.png" width="160" height="600" border="0"></a>`,
+	` <a href="https://member.kedaihosting.com/aff.php?aff=106"><img src="https://cdn.kedaihosting.com/b/4.png"   border="0"></a>`,
 
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/300x600/ssd-dedicated-server.jpg"></a>`,
 	`<a href="https://acc.jogjahost.co.id/aff.php?aff=1144"><img src="https://www.jogjahost.co.id/assets/images/affiliate/banner/300x600/ssd-unlimited-hosting.jpg"></a>`,
