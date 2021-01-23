@@ -19,7 +19,7 @@
 <div class="list-group mb-3">
 	{#if data}
 		{#each data as x}
-			<a href="/{x.slug}" class="list-group-item list-group-item-action">{x.judul}</a>
+			<a href="/{x.slug}" class="list-group-item list-group-item-dark list-group-item-action">{x.judul}</a>
 		{/each}
 	{/if}
 </div>

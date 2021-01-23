@@ -1,4 +1,4 @@
-<div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
  <div class="container container-navbar">
   <a class="navbar-brand" href="/">Zen</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" on:click={() => menu = !menu}>
@@ -132,4 +132,7 @@
   right: 0;
   position: absolute;
  }
+  :global(.form-control){
+    background: #d3d3d4 !important;
+  }
 </style>
