@@ -135,4 +135,7 @@
   :global(.form-control){
     background: #d3d3d4 !important;
   }
+	:global(table){
+		color: #f8f9fa !important;
+	}
 </style>
