@@ -1,12 +1,15 @@
 <svelte:head>
 	<title>Cari {decodeURIComponent(cari)}</title>
 </svelte:head>
+
 <script type="text/javascript">
 	export let cari
 	let [data, yangDicari] = [[], '']
+	let iklannya = ""
 	import {sql, blog} from "@/api"
 	import {goto} from '@roxi/routify'
-	import {clean} from '@/tools'
+	import {clean, acak} from '@/tools'
+	import {iklan} from "@/iklan"
 	import btoaPro from 'btoa-pro'
 	const mulaiCari = () => $goto(`/cari/${encodeURIComponent(yangDicari)}`)
 	const hasilCari = async () => {
@@ -37,10 +40,15 @@
 			}
 		}
 	}
+	const tampilIklan = () => iklannya = acak(iklan)[0]
 	$: if (cari) {
 		hasilCari()
 	}
+	$: if (cari){
+		tampilIklan()
+	}
 </script>
+
 <form on:submit|preventDefault={mulaiCari}>
  <div class="form-group">
   <input class="form-control" placeholder="Cari apa?" type="search" bind:value={yangDicari} required>
@@ -52,4 +60,9 @@
 			<a href="/{x.slug}" class="list-group-item list-group-item-dark list-group-item-action">{x.judul}</a>
 		{/each}
 	{/if}
+</div>
+<div class="mb-3">
+	<center>
+		{@html iklannya}
+	</center>
 </div>
