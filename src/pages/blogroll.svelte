@@ -1,3 +1,4 @@
+<p>Ingin masuk list blogroll ini juga? Caranya adalah dengan memberikan komentar di salah satu postingan blog ini.</p>
 <div class="list-group mb-3">
 	{#if data}
 		{#each data as x}
