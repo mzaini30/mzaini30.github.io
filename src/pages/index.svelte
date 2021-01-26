@@ -3,12 +3,13 @@
   <input class="form-control" placeholder="Cari apa?" type="search" bind:value={yangDicari} required>
  </div>
 </form>
-{#if $isLogin}
-	<div class="mb-3 d-flex justify-content-between">
+<div class="mb-3 d-flex justify-content-between">
+	<a href="/blogroll" class="btn btn-success">Blogroll</a>
+	{#if $isLogin}
 		<a href="/admin/tulis" class="btn btn-info">Tulis</a>
 		<a href="/" on:click|preventDefault={keluar} class="btn btn-warning">Keluar</a>
-	</div>
-{/if}
+	{/if}
+</div>
 <!--
 <div class="mb-3">
 	<center>
