@@ -15,9 +15,14 @@
 	{/if}
 {/if}
 <div class="mb-3">
+	<blockquote>
+		<p>Kalau kamu merasa konten blog ini bermanfaat, jangan lupa bantu aku dengan berdonasi di <a href="https://saweria.co/mzaini30">saweria.co/mzaini30</a> ya~</p>
+	</blockquote>
+	<!--
 	<center>
 		{@html elIklan}
 	</center>
+	-->
 </div>
 {#if $isLogin}
 	<div class="d-flex mb-3 justify-content-between">
