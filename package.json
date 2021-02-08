@@ -11,7 +11,7 @@
     "embed-youtube": "github:mzaini30/embed-youtube",
     "form-data": "^3.0.0",
     "highlight.js": "^10.4.1",
-    "marked": "^1.2.6",
+    "marked": "^2.0.0",
     "node-fetch": "^2.6.1",
     "nollup": "^0.13.13",
     "rollup": "^2.3.4",
