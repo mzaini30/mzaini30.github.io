@@ -1,5 +1,19 @@
 <script setup>
 	import aplikasiAndroid from "/src/data/aplikasiAndroid.yml"
+	import website from "/src/data/website.yml"
+
+	import IconWa from '/src/icon/wa.vue'
+
+	const list = [
+		{
+			judul: 'Aplikasi Android',
+			data: aplikasiAndroid
+		},
+		{
+			judul: 'Website',
+			data: website
+		},
+	]
 </script>
 
 <template>
@@ -7,19 +21,23 @@
 		<h1 class="text-xl mb-3">Hai, Aku <strong class="font-bold">Zen</strong></h1>
 		<p class="italic text-sm mb-7">Aku suka membuat Aplikasi Android, Chrome Extension, dan Website</p>
 
-		<h2 class="judul-item">Aplikasi Android</h2>
-		<div class="isi-item">
-			<a v-for="x in aplikasiAndroid.sort((a, b) => a.judul > b.judul ? 1 : -1)" :href="x.link">{{ x.judul }}</a>
+		<div class="mb-7 last:mb-0" v-for='z in list'>
+			<h2 class="judul-item">{{ z.judul }}</h2>
+			<div class="isi-item">
+				<a v-for="x in z.data.sort((a, b) => a.judul > b.judul ? 1 : -1)" :href="x.link">{{ x.judul }}</a>
+			</div>
 		</div>
+
 	</div>
+
+	<a class="fixed bottom-3 right-3" href="https://wa.me/6281545143654">
+		<IconWa></IconWa>
+	</a>
 </template>
 
 <style scoped>
 	.judul-item {
 		@apply mb-3
-	}
-	.isi-item {
-		@apply mb-7 last:mb-0
 	}
 	.judul-item {
 		@apply text-sm uppercase font-bold
