@@ -1,5 +1,6 @@
 <script setup>
 	import aplikasiAndroid from "/src/data/aplikasiAndroid.yml"
+	import IconWa from '/src/icon/wa.vue'
 </script>
 
 <template>
@@ -12,6 +13,10 @@
 			<a v-for="x in aplikasiAndroid.sort((a, b) => a.judul > b.judul ? 1 : -1)" :href="x.link">{{ x.judul }}</a>
 		</div>
 	</div>
+
+	<a class="fixed bottom-3 right-3" href="https://wa.me/6281545143654">
+		<IconWa></IconWa>
+	</a>
 </template>
 
 <style scoped>
