@@ -1,1 +1,0 @@
-.konten pre{--un-bg-opacity:1 !important;background-color:rgba(30,41,59,var(--un-bg-opacity))!important;--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity))}.konten.prose :where(:not(pre) > code):not(.not-prose):before,.konten.prose :where(:not(pre) > code):not(.not-prose):after{content:""}
