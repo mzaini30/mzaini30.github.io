@@ -12,6 +12,7 @@
     "@unocss/transformer-directives": "^0.35.4",
     "@vitejs/plugin-legacy": "^1.8.2",
     "@vueuse/head": "^0.7.6",
+    "kumpulan-tools": "^1.0.0",
     "markdown-it-prism": "^2.2.4",
     "prism-theme-vars": "^0.2.2",
     "unocss": "^0.35.4",

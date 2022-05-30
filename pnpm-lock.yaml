@@ -6,6 +6,7 @@ specifiers:
   '@vitejs/plugin-legacy': ^1.8.2
   '@vitejs/plugin-vue': ^2.3.1
   '@vueuse/head': ^0.7.6
+  kumpulan-tools: ^1.0.0
   markdown-it-prism: ^2.2.4
   prism-theme-vars: ^0.2.2
   unocss: ^0.35.4
@@ -25,6 +26,7 @@ dependencies:
   '@unocss/transformer-directives': 0.35.4
   '@vitejs/plugin-legacy': 1.8.2_vite@2.9.8
   '@vueuse/head': 0.7.6_vue@3.2.33
+  kumpulan-tools: 1.0.0
   markdown-it-prism: 2.2.4
   prism-theme-vars: 0.2.2
   unocss: 0.35.4_vite@2.9.8
@@ -1646,6 +1648,10 @@ packages:
 
   /kolorist/1.5.1:
     resolution: {integrity: sha512-lxpCM3HTvquGxKGzHeknB/sUjuVoUElLlfYnXZT73K8geR9jQbroGlSCFBax9/0mpGoD3kzcMLnOlGQPJJNyqQ==}
+    dev: false
+
+  /kumpulan-tools/1.0.0:
+    resolution: {integrity: sha512-8RzuLboxhTjMBjp7TbnqOnDYmV4ZATGZof37ccgREsEcg0O6ywc+nC9yyKhRKpx8jyo3+gVWusfAdN287IxoaA==}
     dev: false
 
   /linkify-it/4.0.1:

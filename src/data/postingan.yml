@@ -2,3 +2,7 @@
   link: /post/privacy
 - judul: Cara Menggunakan Uno CSS
   link: /post/uno
+- judul: Menjaga Dependencies Repositori Tetap Update
+  link: /post/dependabot
+- judul: Auto Deploy Node JS
+  link: /post/auto-deploy-node-js
