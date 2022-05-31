@@ -4,11 +4,20 @@
 	import {Head} from '@vueuse/head'
 	import {acak} from 'kumpulan-tools'
 	import postingan from '/src/data/postingan.yml'
-	import {useRoute} from 'vue-router'
+	import {useRoute, useRouter} from 'vue-router'
 
-	onMounted(() => {
+	const {push} = useRouter()
+
+	function dapatkanJudul(){
 		document.title = document.querySelector('h1').innerText
-	})
+	}
+
+	function menuju(x){
+		push(x)
+		setTimeout(dapatkanJudul, 500)
+	}
+
+	onMounted(() => dapatkanJudul())
 </script>
 
 <template>
@@ -21,7 +30,7 @@
 		<h2>Tulisan Lainnya</h2>
 		<ol>
 			<li v-for='x in acak(postingan).filter(x => x.link != useRoute().path).filter((x, n) => n < 5)'>
-				<router-link :to='x.link'>{{ x.judul }}</router-link>
+				<a href='/' @click.prevent='menuju(x.link)'>{{ x.judul }}</a>
 			</li>
 		</ol>
 	</div>
