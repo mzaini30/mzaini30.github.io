@@ -8,3 +8,7 @@
   link: /post/auto-deploy-node-js
 - judul: Cara Ringkas Commit Git
   link: /post/commit-ringkas
+- judul: Contoh Link Funding di Github
+  link: /post/funding
+- judul: Menampakkan Git Branch di Terminal
+  link: /post/bashrc-git-branch  
