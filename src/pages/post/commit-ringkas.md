@@ -31,3 +31,5 @@ sudo chmod +x g
 ```
 
 Nah sekarang kalau mau commit, tinggal ketik `g`.
+
+Oh ya tambahan, aku juga menyingkat `git status` menjadi `s` dengan cara yang sama.
