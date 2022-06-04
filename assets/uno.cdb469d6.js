@@ -1,4 +1,4 @@
-import{k as s,o as e,c as t,l as p}from"./index.3debeabe.js";import{b as a}from"./route-block.b5bad31b.js";const o={class:"markdown-body"},c=p(`<h1>Cara Menggunakan Uno CSS</h1><p>Kenapa Uno CSS? Karena dia cepat. Bisa dilihat dari hasil benchmark berikut:</p><pre><code>3/26/2022, 11:41:26 PM
+import{k as s,o as e,c as t,l as p}from"./index.7087c718.js";import{b as a}from"./route-block.b5bad31b.js";const o={class:"markdown-body"},c=p(`<h1>Cara Menggunakan Uno CSS</h1><p>Kenapa Uno CSS? Karena dia cepat. Bisa dilihat dari hasil benchmark berikut:</p><pre><code>3/26/2022, 11:41:26 PM
 1656 utilities | x50 runs (min build time)
 
 none                             12.42 ms / delta.      0.00 ms
