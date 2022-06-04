@@ -12,3 +12,5 @@
   link: /post/funding
 - judul: Menampakkan Git Branch di Terminal
   link: /post/bashrc-git-branch  
+- judul: Menjadikan Vercel sebagai Backend JavaScript
+  link: /post/vercel-backend
