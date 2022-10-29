@@ -1,0 +1,10 @@
+{% capture isi %}
+<div class="isi flex flex-col gap-10">
+  {% for item in site.data.blog limit:5 %}
+  <a href="{{item.link}}" target="_blank">
+    <p class="judul text-3xl <md:text-xl font-bold">{{item.judul}}</p>
+    <p class="deskripsi text-gray-600 mt-2">{{item.deskripsi}}</p>
+  </a>
+  {% endfor %}
+</div>
+{% endcapture %} {% include wadah-item.html isi=isi judul="Blog" %}
