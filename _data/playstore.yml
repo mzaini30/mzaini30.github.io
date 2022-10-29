@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - judul: Gambar ikon Effect Tool ML - Skin Injector
   gambar: https://play-lh.googleusercontent.com/Ch1wbHbId1Mx6jbdMu5w2jcjVO19HuoVl__dZbkDO76xds9ufn12Wmwqx8uPd1gS9zI=s256-rw
   link: https://play.google.com/store/apps/details?id=com.bangbang.injector.mlbb
@@ -30,3 +31,46 @@
   gambar: https://play-lh.googleusercontent.com/Ch1wbHbId1Mx6jbdMu5w2jcjVO19HuoVl__dZbkDO76xds9ufn12Wmwqx8uPd1gS9zI=s256-rw
   link: https://play.google.com/store/apps/details?id=com.bangbang.injector.mlbb
   rating: "3,4"
+=======
+
+  - judul: "Effect Tool ML - Skin Injector"
+    link: "https://play.google.com/store/apps/details?id=com.bangbang.injector.mlbb"
+    gambar: "https://play-lh.googleusercontent.com/Ch1wbHbId1Mx6jbdMu5w2jcjVO19HuoVl__dZbkDO76xds9ufn12Wmwqx8uPd1gS9zI=s256-rw"
+    rating: "3,4"
+  - judul: "KALIGRAFI"
+    link: "https://play.google.com/store/apps/details?id=com.trihandayani.kaligrafi"
+    gambar: "https://play-lh.googleusercontent.com/lru5Kb9RgebAK9y0eDKVUB6pLkE51PA2viiqMC3kLfK4QeCxYoOx7c-0__xjSJzK8Rs=s256-rw"
+    rating: "4,0"
+  - judul: "TES PSIKOPAT"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.tespsikopat"
+    gambar: "https://play-lh.googleusercontent.com/IdcJAvnjFXSQ44mfaV7cY7lEpmxOg7nJRG8UVxKibL-o0OTteAnxjCTS3pT8MzRc2w=s256-rw"
+    rating: "4,5"
+  - judul: "JODOH"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.jodoh"
+    gambar: "https://play-lh.googleusercontent.com/4DdeCrgxwl2R3tq3o-13GkpGyPURnB6IK4L-VDQTtzuFC1wRdX6Y8VVm13l6zsKKPtOc=s256-rw"
+    rating: "3,7"
+  - judul: "TIMBANGAN PASAR"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.timbanganpasar"
+    gambar: "https://play-lh.googleusercontent.com/XEX8878gZVRVUbRuyKASdbqGUj6m1ao_jx6470e4Q-1z0YuoYzYgLAp_9Aj6TYEYcQ=s256-rw"
+    rating: "4,9"
+  - judul: "DIAGNOSA PSIKOLOGIS"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.diagnosapsikologis"
+    gambar: "https://play-lh.googleusercontent.com/jPn7m8xV_I8uuJDApVgqES8mb4mP0e3zlz5ZBJYbGd7Z3cBTDtf8RG4qCqA-1H0Korw=s256-rw"
+    rating: "4,8"
+  - judul: "UNDANGAN ONLINE"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.undanganonline"
+    gambar: "https://play-lh.googleusercontent.com/s6yN3WGt9SwmsBxT1Se6x_Uh_je8A4G0axLIl7BDPwHH2t8zkCSenCgEp1Q6k2sl9A=s256-rw"
+    rating: "0"
+  - judul: "KALKULATOR TOKO"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.kalkulatortoko"
+    gambar: "https://play-lh.googleusercontent.com/0nBQ3OYgpeXKQHqmBPxf1QmhO2bJU3TbKAQgfJ-Q9F5fCRJ2vitfRUrR1hQzuzpMHz8=s256-rw"
+    rating: "4,2"
+  - judul: "BELAJAR PEMROGRAMAN OFFLINE"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.belajarpemrogramanoffline"
+    gambar: "https://play-lh.googleusercontent.com/hmaslOCNFXTrhv9pqHlBNOIleFEVs31Uq2n6iGDbFcXg57DE-qaPC--gJuSgR-Q9wg8=s256-rw"
+    rating: "0"
+  - judul: "SKORING PANAHAN"
+    link: "https://play.google.com/store/apps/details?id=com.mzaini30.skoringpanahan"
+    gambar: "https://play-lh.googleusercontent.com/8GOpaF_H3yoxvBqGDF5AaFwmFOR02u-8oCN6Rd37yDLNPIjHbaF9c6ghfXrVSYImGw=s256-rw"
+    rating: "4,7"
+>>>>>>> 9f95f6ffd53209e49ac427348e0f53ea7dccb1a2
