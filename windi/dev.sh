@@ -1,0 +1,1 @@
+windicss "*.html" "./!(_site)/**/*.html" -to "static/windi.css" --dev

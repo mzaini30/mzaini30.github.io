@@ -1,0 +1,1 @@
+windicss "*.html" "./!(_site)/**/*.html" -mto "static/windi.css"
