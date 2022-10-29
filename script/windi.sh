@@ -1,0 +1,1 @@
+windicss "./**/*.html" -mto "static/windi.css" --dev
