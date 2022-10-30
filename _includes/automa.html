@@ -1,0 +1,15 @@
+{% capture isi %}
+<div class="isi grid grid-cols-4 <md:grid-cols-3 <sm:grid-cols-2 gap-7">
+  {% for item in site.data.automa limit:8 %}
+  <a href="{{item.link}}" target="_blank">
+    <img
+      src="{{item.gambar}}"
+      class="rounded-3xl overflow-hidden"
+      alt="{{item.judul}}"
+    />
+    <p class="pt-3 text-sm font-bold">{{item.judul}}</p>
+  </a>
+  {% endfor %}
+</div>
+{% endcapture %} {% include wadah-item.html isi=isi judul="Automa" %}
+<!-- https://www.automa.site/marketplace?author=zenia -->
