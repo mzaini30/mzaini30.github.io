@@ -1,0 +1,14 @@
+{% capture isi %}
+<div class="isi grid grid-cols-2 gap-7 <md:gap-3">
+  {% for item in site.data.anime limit:4 %}
+  <a href="{{item.link}}" target="_blank">
+    <img
+      src="{{item.gambar}}"
+      class="rounded-xl <md:rounded-lg overflow-hidden"
+      referrerpolicy="no-referrer"
+      alt=""
+    />
+  </a>
+  {% endfor %}
+</div>
+{% endcapture %} {% include wadah-item.html isi=isi judul="Anime Favorit" %}
