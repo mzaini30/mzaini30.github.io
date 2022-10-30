@@ -1,1 +1,10 @@
-2022-10-30 12:00:21
+
+  - judul: "Mengenal Komponen di Jekyll"
+    link: "https://kotakode.com/blogs/21132"
+    deskripsi: "Jekyll component based. Bismillah... hijrah 100% ke HTML only."
+  - judul: "Cara Antar Komponen HTML Saling Berinteraksi Tanpa Menggunakan Framework JavaScript"
+    link: "https://kotakode.com/blogs/21131"
+    deskripsi: "Komunikasi antar elemen HTML, nggak perlu pakai framework JavaScript."
+  - judul: "Menggunakan LPM (Lua Package Manager)"
+    link: "https://kotakode.com/blogs/21130"
+    deskripsi: "Kadang suka bingung cara pakai Lua karena berbeda dengan Node JS. Inilah alasanku membuat lpm."
