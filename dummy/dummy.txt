@@ -1,2 +1,0 @@
-{% include aplikasi-android.html %} {% include automa.html %} {% include
-    blog.html %}
