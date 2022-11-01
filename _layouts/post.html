@@ -8,7 +8,11 @@ layout: base
     <hr class="my-3" />
     <div class="content">{{content}}</div>
   </div>
-  <div class="col-span-2 <sm:col-span-1 bg-white p-5"></div>
+  <div class="col-span-2 <sm:col-span-1 bg-white p-5">
+    <div class="grid grid-cols-1 gap-10">
+      {% include tools/path.html %} {% include tools/terbaru.html %}
+    </div>
+  </div>
 </div>
 
 <style>
