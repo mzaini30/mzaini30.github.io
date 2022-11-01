@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include adsense.html %}
+    {% include adsense.html %} {% seo %}
+    <link rel="icon" href="/static/icon.png" />
+    <link rel="stylesheet" href="/static/autumn.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="/static/windi.css" />
   </head>
   <body>
-    {{content}}
+    <div class="min-h-screen bg-slate-100">
+      <a class="w-full bg-blue-500 text-white p-3 block text-center" href="/"
+        >Zen</a
+      >
+      {{content}}
+    </div>
   </body>
 </html>

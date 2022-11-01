@@ -2,16 +2,18 @@
 layout: base
 ---
 
-<div class="min-h-screen bg-slate-100">
-  <a class="w-full bg-blue-500 text-white p-3 block text-center" href="/"
-    >Zen</a
+<div
+  class="p-5 grid grid-cols-5 <sm:grid-cols-2 <md:grid-cols-3 <lg:grid-cols-4 gap-3"
+>
+  {% for x in site.posts %}
+  <a
+    href="{{x.url}}"
+    class="bg-white hover:border-black border rounded-lg overflow-hidden"
   >
-  <div class="p-5 grid grid-cols-5 gap-3">
-    {% for x in site.posts %}
-    <a href="{{x.url}}" class="bg-white rounded overflow-hidden">
-      <img src="{{x.image}}" alt="" class="w-full" />
-      <p class="p-3 text-sm">{{x.title}}</p>
-    </a>
-    {% endfor %}
-  </div>
+    {% capture gambar %} {% if x.image %} {{x.image}} {% else %}
+    {{site.image}}{% endif %} {% endcapture %}
+    <img src="{{gambar}}" alt="" class="w-full" />
+    <p class="p-3 text-sm">{{x.title}}</p>
+  </a>
+  {% endfor %}
 </div>
