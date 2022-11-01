@@ -1,6 +1,5 @@
 ---
 title: Hello World
-draft: false
 description: "This is a sample post"
 image: "https://i.ytimg.com/vi/7NCLGnv_oZI/hqdefault.jpg"
 layout: post
