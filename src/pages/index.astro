@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/base.astro";
+import { default_image } from "../data";
+
+let posts = await Astro.glob("./post/*.mdx");
+posts = posts.sort((a, b) => {
+  return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+});
+---
+
+<Base>
+  <div class="bg-blue-100 min-h-screen">
+    <div class="p-3 grid grid-cols-5 <md:grid-cols-4 <sm:grid-cols-2 gap-3">
+      {
+        posts.map((x) => (
+          <a
+            href={x.url}
+            class=" bg-white rounded-lg overflow-hidden shadow border"
+          >
+            <img
+              src={x.frontmatter.image || default_image}
+              alt=""
+              class="w-full h-auto"
+            />
+            <div class="p-3 <sm:text-sm <sm:p-2">{x.frontmatter.title}</div>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,48 @@
+---
+import "virtual:windi.css";
+import Seo from "simple-astro-seo";
+import { default_image } from "../data";
+
+const props = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-93TYPKBZRB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-93TYPKBZRB");
+    </script>
+
+    <script
+      async="async"
+      crossorigin="anonymous"
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2408628281705149"
+    ></script>
+    <title>{props.title || "Zen"}</title>
+    <Seo
+      image={props.image || default_image}
+      title={props.title || "Zen"}
+      siteName="Zen"
+      pageType="article"
+      twitterHandle="zenia2020"
+      description="Collection of tech articles"
+      url={Astro.url.href}
+    />
+    <link rel="shortcut icon" href="/icon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

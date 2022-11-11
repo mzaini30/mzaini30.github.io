@@ -1,0 +1,111 @@
+---
+layout: ../../layouts/post.astro
+title: How to download/fetch from git using git protocol v2
+image: https://hcti.io/v1/image/89f20fc5-9a1f-4565-b02d-3ff01f7288ca
+date: 2022-11-11 12:31:51
+---
+
+So to download file from git using git http protocol v2 is very simple but a little bit tricky, lets go into it.
+
+First, request to `<GIT_URL>/refs/info?service=git-upload-pack` with header `Git-Protocol: version=2` example:
+
+```bash
+curl -H "Git-Protocol: version=2" https://github.com/Hiyurigi/zenia-blog.git/info/refs?service=git-upload-pack
+```
+
+The server will give you response:
+
+```
+001e# service=git-upload-pack
+0000000eversion 2
+0023agent=git/github-gf57b30a1e6ef
+0013ls-refs=unborn
+0027fetch=shallow wait-for-done filter
+0012server-option
+0017object-format=sha1
+0000
+```
+
+Let me explain what the response means...
+Every request/response line to the git protocol is called PKT-LINE you can see the documentation [Git Protocol Common](https://git-scm.com/docs/protocol-common).
+The first 4-byte PKT-LINE is hex encoded string length example: `0012command=fetch` thats mean this line have 18 character...
+"Wait? that's 17 character long" the 18th character is `\n` the newline character is optional.
+The response above is called [Capability Advertisement](https://git-scm.com/docs/protocol-v2#_capability_advertisement).
+Simply, the server give you their capability.
+
+You can type request like this:
+
+```bash
+curl -X POST -H "Git-Protocol: version=2" --data-raw $'0014command=ls-refs\n0000' https://github.com/Hiyurigi/zenia-blog.git/git-upload-pack
+```
+
+Or without newline like this:
+
+```bash
+curl -X POST -H "Git-Protocol: version=2" --data-raw $'0013command=ls-refs0000' https://github.com/Hiyurigi/zenia-blog.git/git-upload-pack
+```
+
+Okay, lets go deeper...
+After you get the server capability you can request using `POST` method to the `<GIT_URL>/git-upload-pack` to get the refs.
+The command-request scheme is:
+
+```
+command-request = command
+    capability-list
+    delim-pkt
+    command-args
+    flush-pkt
+command = PKT-LINE("command=" key LF)
+command-args = *command-specific-arg
+delim-pkt = 0001
+flush-pkt = 0000
+```
+
+example:
+
+```bash
+curl -X POST -H "Git-Protocol: version=2" --data-raw "0014command=ls-refs
+0015agent=git/2.38.1
+0017object-format=sha1
+00010009peel
+000csymrefs
+000bunborn
+0014ref-prefix HEAD
+001bref-prefix refs/heads/
+001aref-prefix refs/tags/
+0000" https://github.com/Hiyurigi/zenia-blog.git/git-upload-pack
+```
+
+`Note: delim-pkt SHOULD NOT followed by a newline otherwise the request will failed`
+
+The server will give you back the hex-encoded hash of the refs in your repository
+Example:
+
+```
+005238ec7c18271bd84bca6c0f55410d4da3a088877a HEAD symref-target:refs/heads/master
+003f38ec7c18271bd84bca6c0f55410d4da3a088877a refs/heads/master
+0000
+```
+
+The next step is requestting the packfile, You can do that by send request to the same url with fetch command, like this
+
+```bash
+curl -X POST -H "Git-Protocol: version=2" --data-raw "0012command=ls-refs
+0015agent=git/2.38.1
+0017object-format=sha1
+0001000ethin-pack
+0010no-progress
+000eofs-delta
+0032want 38ec7c18271bd84bca6c0f55410d4da3a088877a
+0009done
+0000" https://github.com/Hiyurigi/zenia-blog.git/git-upload-pack
+```
+
+For more information about fetch command you can read the documentation [Git Protocol V2 Fetch](https://git-scm.com/docs/protocol-v2#_fetch)
+The server will response you with [packfile](https://git-scm.com/docs/pack-format) binary data, the next step is unpacking the packfile, i will do that in the next part...
+
+Thanks for reading
+
+_Author: [Hiyurigi](https://dev.to/hiyurigi)_
+
+[Dev.to version](https://dev.to/hiyurigi/how-to-download-file-using-git-http-protocol-v2-5dao)

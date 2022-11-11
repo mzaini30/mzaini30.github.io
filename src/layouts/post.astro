@@ -1,0 +1,35 @@
+---
+import Base from "./base.astro";
+import { default_image } from "../data";
+import { acak } from "kumpulan-tools";
+import Disqus from "../komponen/disqus.astro";
+
+const { frontmatter: f } = Astro.props;
+let posts = await Astro.glob("../pages/post/*.mdx");
+posts = acak(posts);
+posts = posts.slice(0, 4);
+---
+
+<Base title={f.title} image={f.image || default_image}>
+  <div class="p-2">
+    <div class="prose mx-auto my-5">
+      <h1>{f.title}</h1>
+      <slot />
+    </div>
+    <div class="grid grid-cols-4 mx-auto max-w-[65ch] <md:grid-cols-2 gap-2">
+      {
+        posts.map((x) => (
+          <a href={x.url} class="rounded-lg shadow border overflow-none">
+            <img
+              src={x.frontmatter.image || default_image}
+              alt=""
+              class="w-full"
+            />
+            <div class="p-2 text-sm">{x.frontmatter.title}</div>
+          </a>
+        ))
+      }
+    </div>
+    <Disqus url={f.url} identifier={f.url.split("/").reverse()[0]} />
+  </div>
+</Base>
