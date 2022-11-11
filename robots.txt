@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://mzaini30.js.org/sitemap.xml
+Sitemap: https://mzaini30.js.org/sitemap-index.xml
