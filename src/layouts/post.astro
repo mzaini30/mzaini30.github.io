@@ -12,7 +12,7 @@ posts = posts.slice(0, 4);
 
 <Base title={f.title} image={f.image || default_image}>
   <div class="p-2">
-    <div class="prose mx-auto my-5">
+    <div class="prose mx-auto my-5 tulisan">
       <h1>{f.title}</h1>
       <slot />
     </div>
@@ -33,3 +33,9 @@ posts = posts.slice(0, 4);
     <Disqus url={f.url} identifier={f.url.split("/").reverse()[0]} />
   </div>
 </Base>
+
+<style>
+  .tulisan :global(img) {
+    @apply max-w-full block mx-auto shadow border rounded overflow-none;
+  }
+</style>
