@@ -3,9 +3,10 @@ import "virtual:windi.css";
 import Seo from "simple-astro-seo";
 import { default_image } from "../data";
 
-function gambarnya(judul) {
-  return `https://cdn.statically.io/og/${encodeURIComponent(judul)}.jpg`;
-}
+import gambarnya from "../komponen/generator-gambar";
+// function gambarnya(judul) {
+//   return `https://cdn.statically.io/og/${encodeURIComponent(judul)}.jpg`;
+// }
 
 const props = Astro.props;
 ---

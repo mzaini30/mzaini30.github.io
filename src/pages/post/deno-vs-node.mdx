@@ -1,0 +1,27 @@
+---
+layout: ../../layouts/post.astro
+title: "Deno vs Node: Manakah yang Lebih Unggul?"
+date: 2022-11-18 23:40:46
+---
+
+Hari-hari terakhir ini, dunia JavaScript sedang digemparkan dengan fitur baru Deno yaitu import dari NPM. Seolah-olah, fitur ini akan merebut pasar Node JS, walaupun memang founder-nya sama yaitu Ryan Dahl. Apa sih fitur import dari NPM? Nah, seperti ini:
+
+```js
+import axios from "npm:axios";
+```
+
+Jadi, udah mirip seperti ketika kita menuliskan kode di Node JS. Kalau sebelumnya kan seperti ini:
+
+```js
+import axios from "https://esm.sh/axios";
+```
+
+Beda banget kan?
+
+Nah, pertanyaannya sekarang, apakah Deno merupakan masa depan dari Node? Apakah Deno bisa menggantikan Node? Jawabannya sih wallahu alam. Tapi, kita bisa menganalisa beberapa hal.
+
+Kalau untuk backend, kurasa Deno sudah bisa menggantikan Node. Tapi, kalau untuk frontend, kurasa belum. Apalagi kalau menggunakan Vite. Soalnya, Vite itu membaca isi dari folder `node_modules`. Okelah, bisa kita buat folder `node_modules` dari flag `--node-modules-dir`, dan memang works, terutama untuk package utama seperti Vue dan Svelte. Tapi, ada beberapa package yang akan memunculkan error. Salah satunya adalah Terser yang merupakan dependency dari Vite Plugin Legacy. Ya jadinya sih mau nggak mau ya pakai Node lagi kalau untuk frontend.
+
+Bentar, tadi kenapa bisa menggantikan backend?
+
+Jawabannya simpel: Karena Deno lebih simpel. Kan, kalau di Deno, dia nggak akan mengeluarkan `package.json` dan `node_modules`. Jadi, kita bisa fokus pada kode yang kita tuliskan. Membantu banget kan?

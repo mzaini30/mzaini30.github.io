@@ -2,6 +2,11 @@
 import Base from "../layouts/base.astro";
 import { default_image } from "../data";
 
+import gambarnya from "../komponen/generator-gambar";
+// function gambarnya(judul) {
+//   return `https://cdn.statically.io/og/${encodeURIComponent(judul)}.jpg`;
+// }
+
 let posts = await Astro.glob("./post/*.mdx");
 posts = posts.sort((a, b) => {
   return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
@@ -18,7 +23,7 @@ posts = posts.sort((a, b) => {
             class=" bg-white rounded-lg overflow-hidden shadow border"
           >
             <img
-              src={x.frontmatter.image || default_image}
+              src={x.frontmatter.image || gambarnya(x.frontmatter.title)}
               alt=""
               class="w-full h-auto"
             />
