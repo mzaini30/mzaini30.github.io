@@ -29,7 +29,7 @@
           alt="Foto profil {x.nama}"
         />
       </div>
-      <p class="grow mt-0 pt-0 shrink">{x.komentar}</p>
+      <p class="grow mt-0 pt-0 shrink">{x.nama}: {x.komentar}</p>
     </div>
   {/each}
 {/if}
