@@ -1,0 +1,68 @@
+---
+import semuaPostingan from "../../data/semua-postingan";
+import Base from "../../layout/base.astro";
+import Header from "../../komponen/header.astro";
+import { acak } from "kumpulan-tools";
+
+export function getStaticPaths() {
+  const data = semuaPostingan();
+
+  const result = data.reduce((acc, item) => {
+    if (item.kategori) {
+      const existingCategory = acc.find(
+        (category) => category.kategori === item.kategori
+      );
+      if (existingCategory) {
+        existingCategory.artikel.push(item);
+      } else {
+        acc.push({ kategori: item.kategori, artikel: [item] });
+      }
+    }
+    return acc;
+  }, []);
+
+  return result.map((x) => ({
+    params: {
+      kategori: x.kategori.replaceAll(" ", "--"),
+    },
+    props: {
+      artikel: x.artikel,
+      kategori: x.kategori,
+    },
+  }));
+}
+
+const { artikel, kategori } = Astro.props;
+
+const artikelnya = artikel.sort((a, b) =>
+  b.published_date > a.published_date ? 1 : -1
+);
+
+const title = `Kategori ${kategori}`;
+const ringkasan = `Menampilkan artikel-artikel pada kategori ${kategori}`;
+const gambar = artikelnya[0].gambar;
+---
+
+<Base judul={title} gambar={gambar} deskripsi={ringkasan}>
+  <Header link_aktif="beranda" />
+  <div class="border-b-2"></div>
+  <div class="mx-auto py-10 w-350 max-w-[80%]">
+    <h1 class="text-2xl pb-10">Kategori {kategori}</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      {
+        artikelnya.map((x) => (
+          <a href={`/${x.slug}`}>
+            <img
+              class="rounded-xl aspect-[304/171] object-cover"
+              src={x.gambar}
+              loading="lazy"
+              alt={`Gambar ${x.title}`}
+            />
+            <p class="pt-3 pb-5">{x.title}</p>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</Base>

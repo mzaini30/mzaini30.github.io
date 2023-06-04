@@ -1,36 +1,26 @@
 ---
-import Base from "../layouts/base.astro";
-import { default_image } from "../data";
-
-import gambarnya from "../komponen/generator-gambar";
-// function gambarnya(judul) {
-//   return `https://cdn.statically.io/og/${encodeURIComponent(judul)}.jpg`;
-// }
-
-let posts = await Astro.glob("./post/*.mdx");
-posts = posts.sort((a, b) => {
-  return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
-});
+import HalamanAwal from "../layout/halaman-awal.astro";
+import semuaPostingan from "../data/semua-postingan";
+import konfigurasi from "../konfigurasi.yml";
+import Iklan from "../komponen/iklan.svelte";
 ---
 
-<Base>
-  <div class="bg-blue-100 min-h-screen">
-    <div class="p-3 grid grid-cols-5 <md:grid-cols-4 <sm:grid-cols-2 gap-3">
-      {
-        posts.map((x) => (
-          <a
-            href={x.url}
-            class=" bg-white rounded-lg overflow-hidden shadow border"
-          >
-            <img
-              src={x.frontmatter.image || gambarnya(x.frontmatter.title)}
-              alt=""
-              class="w-full h-auto"
-            />
-            <div class="p-3 <sm:text-sm <sm:p-2">{x.frontmatter.title}</div>
-          </a>
-        ))
-      }
+<HalamanAwal link_aktif="beranda" judul={konfigurasi.judul}>
+    <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        {
+            semuaPostingan()
+                .sort((a, b) => (a.published_date < b.published_date ? 1 : -1))
+                .map((x) => (
+                    <a href={`/${x.slug}`}>
+                        <img
+                            class="rounded-xl aspect-[304/171] object-cover"
+                            src={x.gambar}
+                            loading="lazy"
+                            alt={`Gambar ${x.title}`}
+                        />
+                        <p class="pt-3 pb-5">{x.title}</p>
+                    </a>
+                ))
+        }
     </div>
-  </div>
-</Base>
+</HalamanAwal>

@@ -1,0 +1,53 @@
+---
+import HalamanAwal from "../layout/halaman-awal.astro";
+import semuaPostingan from "../data/semua-postingan";
+import konfigurasi from "../konfigurasi.yml";
+
+let kategori = [];
+
+for (let x of semuaPostingan()) {
+  if (x.kategori != konfigurasi.default.kategori && x.kategori != "pinned") {
+    kategori.push({
+      gambar: x.gambar,
+      kategori: x.kategori,
+    });
+  }
+}
+
+const data = [...kategori];
+
+const counts = {};
+const filteredData = data
+  .filter((item) => {
+    counts[item.kategori] = counts[item.kategori] || 0;
+    counts[item.kategori]++;
+    return counts[item.kategori] === 1;
+  })
+  .map((item) => ({ ...item, banyak: counts[item.kategori] }))
+  .sort((a, b) =>
+    a.kategori.toLowerCase() > b.kategori.toLowerCase() ? 1 : -1
+  );
+---
+
+<HalamanAwal link_aktif="kategori" judul="Kategori">
+  <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+    {
+      filteredData.map((x) => (
+        <a href={`/kategori/${x.kategori.replaceAll(" ", "--")}`}>
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              class="aspect-[304/171] object-cover"
+              src={x.gambar}
+              loading="lazy"
+              alt={`Gambar ${x.kategori}`}
+            />
+            <div class="absolute bottom-0 w-full bg-black/50 text-(sm white) p-2 text-right">
+              {x.banyak} artikel
+            </div>
+          </div>
+          <p class="pt-3 pb-5">{x.kategori}</p>
+        </a>
+      ))
+    }
+  </div>
+</HalamanAwal>

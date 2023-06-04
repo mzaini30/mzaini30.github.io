@@ -1,0 +1,26 @@
+created: 20220831100910956
+description: Next JSON Exporter
+extension: .json
+modified: 20220909190129999
+tags: 
+title: $:/plugins/dd/nextjs-with-tiddlywiki/publish-exporter
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+`[
+		`<$list filter={{$:/config/nextjs-with-tiddlywiki/export-filter}} counter="counter">
+			`{
+				"title" : "`<$text text={{{[title<currentTiddler>]}}}/>`",
+				"published_date" : "`<$text text={{{ [{!!published_date}] }}}/>`",
+				"slug" : "`<$text text={{{[<currentTiddler>slugify[]]}}}/>`",
+				"text" : "`
+					<$wikify name="description" text={{{ [<currentTiddler>get[text]] }}} output="html">
+					<$text text={{{ [<description>jsonstringify[]] }}}/>
+					</$wikify>
+				`",
+				"ringkasan" : "`<$text text={{{[<currentTiddler>get[ringkasan]]}}}/>`",
+				"kategori" : "`<$text text={{{[<currentTiddler>get[kategori]]}}}/>`",
+				"gambar" : "`<$text text={{{[<currentTiddler>get[gambar]]}}}/>`"
+			}`<$list filter="[<counter-last>!match[yes]]">,</$list>
+		</$list>`
+]`

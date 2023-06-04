@@ -1,0 +1,59 @@
+created: 20200806142756352
+creator: Adithya_
+modified: 20221216115149806
+modifier: Adithya_
+tags: $:/plugins/adithyab/tiddlyjam/internals
+title: $:/plugins/adithyab/tiddlyjam/renderer/blog/body
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/adithyab/tiddlyjam/renderer/base/header}}
+<section class="section">
+        <div class="container">
+            <div class="column is-6-desktop is-offset-3-desktop is-8 is-offset-2">
+                <div>
+<!--
+                    <div class="block">
+                        <a class="button is-link is-inverted" href={{$:/plugins/adithyab/tiddlyjam/renderer/baseurl}}>
+                            <span>&lt- Home </span>
+                        </a>
+                    </div>
+-->
+                    <div class="block content">
+                     <h2 class="title is-3"><$view field="title" /></h2>
+                        <div class="subtitle is-6"><<get_published_date>></div>
+                <$list filter="[all[current]]">
+
+                    <$transclude />
+
+                </$list>
+
+                <p><strong>KODE REFERRAL</strong></p>
+
+                <p>Kode referral Pluang: MUHA604823 (peluang mendapatkan sejuta)</p>
+                <p>Kode referral Pintu: @mzaini30 (dapatkan komisi 0.004%)</p>
+                <p>Kode referral Ajaib: muhzkpyy (dapatkan hadiah saham hingga 50.000.000)</p>
+                <p>Kode referral Bibit: mzaini30 (dapatkan cashback 25.000)</p>
+                <p>Kode referral Ajaib Kripto: muhzkpyy (dapatkan hadiah crypto)</p>
+                <p>Link referral GoTrade: <a href='https://heygotrade.com/id/referral?code=731015'>https://heygotrade.com/id/referral?code=731015</a> (dapatkan $2 saham)</p>
+
+<p><strong>DONASI</strong></p>
+
+<p>GoPay: 0815-4514-3654</p>
+<p>Crypto (Fantom): 0x61E0Bd4509B027501e92774d2aDDFc4478E06b58 (jaringan Fantom)</p>
+
+<p><strong>BACKLINK</strong></p>
+<ol>
+<$list filter="[all[current]backlinks[]sort[title]]" emptyMessage=<<lingo
+TiddlerInfo/References/Empty>>>
+ <$link to={{!!title}}>
+  <li><$view field="title"/></li>
+ </$link>
+</$list>
+</ol>
+
+</div>
+                </div>
+                <hr />
+            </div>
+        </div>
+    </section>

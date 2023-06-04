@@ -1,0 +1,14 @@
+created: 20200806180100109
+modified: 20221204054201866
+tags: $:/plugins/adithyab/tiddlyjam/internals
+title: $:/plugins/adithyab/tiddlyjam/renderer/templates/blog_compact
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<div>
+  <div class="block">
+    <h2 class="title is-4"><$link>{{!!title}}</$link></h2>
+    <div class="subtitle is-6"><<get_published_date>></div>
+  </div>
+</div>
+<hr/>

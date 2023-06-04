@@ -1,0 +1,34 @@
+created: 20200728102956586
+creator: Adithya_
+description: A static generator for TiddlyWiki. Inspired by JamStack.
+modified: 20221204054649700
+modifier: Adithya_
+name: Blog Zen
+published: 20210314001527357
+tags: $:/plugins/adithyab/tiddlyjam/page $:/plugins/adithyab/tiddlyjam/internals $:/plugins/adithyab/tiddlyjam/live
+title: index
+type: text/vnd.tiddlywiki
+
+<section class="section mt-6">
+    <div class="container">
+        <div class="column is-6-desktop is-offset-3-desktop is-8 is-offset-2">
+            <h1 class="title" style="font-size: 400%;">{{$:/SiteTitle}}</h1>
+            <div class="subtitle">
+                {{$:/SiteSubtitle}}
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container mt-6">
+            <div class="column is-6-desktop is-offset-3-desktop is-8 is-offset-2">
+                <$list filter="[tag[$:/plugins/adithyab/tiddlyjam/live]tag[blog]!sort[published]limit[10]]">
+                    {{||$:/plugins/adithyab/tiddlyjam/renderer/templates/blog_verbose}}
+                </$list>
+<center><a href="/blog.html" class="button is-link is-outlined">baca lainnya</a></center>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>

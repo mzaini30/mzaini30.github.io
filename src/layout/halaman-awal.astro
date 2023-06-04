@@ -1,0 +1,22 @@
+---
+import Base from "../layout/base.astro";
+import konfigurasi from "../konfigurasi.yml";
+import semua_postingan from "../data/semua-postingan";
+import Header from "../komponen/header.astro";
+
+const { link_aktif, judul } = Astro.props;
+
+let semuanya = JSON.stringify(semua_postingan(), null, 2);
+---
+
+<Base
+  judul={judul || "Tentang"}
+  deskripsi={konfigurasi.deskripsi}
+  gambar={konfigurasi.cover}
+>
+  <Header link_aktif={link_aktif} />
+
+  <div class="mx-auto py-10 w-350 max-w-[80%]">
+    <slot />
+  </div>
+</Base>

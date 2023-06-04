@@ -1,0 +1,9 @@
+created: 20200805054051611
+modified: 20221204041552667
+tags: $:/plugins/adithyab/tiddlyjam/internals
+title: $:/plugins/adithyab/tiddlyjam/renderer/base/imports
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[tiddler+shadows]tag[$:/plugins/adithyab/tiddlyjam/css]]">
+`<link rel="stylesheet" href="/css/`{{!!title}}`"/>`
+</$list>
