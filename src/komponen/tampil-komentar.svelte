@@ -5,7 +5,7 @@
 
   export let slug;
 
-  let data = [];
+  let data;
 
   async function ambil_data() {
     let datanya = await excalibur(api, {
