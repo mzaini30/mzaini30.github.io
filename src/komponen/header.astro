@@ -24,9 +24,9 @@ const { link_aktif } = Astro.props;
     <p class="text-center sm:text-left">{konfigurasi.deskripsi}</p>
   </div>
 </div>
-<div class="border-b-2 uppercase text-lg sticky top-0 bg-white">
+<div class="border-b-2 uppercase sm:text-lg sticky top-0 bg-white">
   <div
-    class="mx-auto [&_a]:(px-5 py-3 inline-block text-gray-500 -mb-[2px]) hover:[&_a]:text-gray-800 [&_.aktif]:(text-black border-b-4 border-b-gray-500) w-350 max-w-[80%]"
+    class="mx-auto sm:[&_a]:(px-5 py-3) [&_a]:(px-2 py-1 inline-block text-gray-500 -mb-[2px]) hover:[&_a]:text-gray-800 [&_.aktif]:(text-black border-b-4 border-b-gray-500) w-350 max-w-[80%]"
   >
     <a href="/" class={link_aktif == "beranda" ? "aktif" : null}>Beranda</a>
     <a href="/kategori" class={link_aktif == "kategori" ? "aktif" : null}
